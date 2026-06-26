@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#0a0a0a">
+<title>CVE//PULSE</title>
+<link rel="manifest" href="manifest.json">
+<style>
+  :root{
+    --bg:#0a0a0a; --surface:#0f0f0f; --line:#1a1a1a; --line2:#262626;
+    --txt:#ffffff; --dim:#999999; --faint:#555555; --ghost:#333333;
+    --accent:#e8482c;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{background:var(--bg);color:var(--txt);
+    font-family:"SF Mono",ui-monospace,"Cascadia Mono","Roboto Mono",Menlo,Consolas,monospace;
+    -webkit-font-smoothing:antialiased;overflow-x:hidden}
+  body{padding-bottom:env(safe-area-inset-bottom)}
+  ::-webkit-scrollbar{width:0}
+
+  /* ---------- header ---------- */
+  header{position:sticky;top:0;z-index:20;background:var(--bg);
+    border-bottom:1px solid var(--line);
+    padding:calc(16px + env(safe-area-inset-top)) 16px 13px}
+  .hrow{display:flex;align-items:center;justify-content:space-between}
+  .brand{display:flex;align-items:center;gap:11px}
+  .dots{display:grid;grid-template-columns:repeat(3,3px);gap:2px}
+  .dots i{width:3px;height:3px;border-radius:50%;background:var(--ghost)}
+  .dots i.on{background:var(--accent)}
+  .logo{font-size:15px;letter-spacing:3px;font-weight:500}
+  .stamp{font-size:11px;color:var(--faint);letter-spacing:1px;text-align:right;line-height:1.4}
+  .stamp .live{color:var(--accent)}
+
+  /* ---------- tabs ---------- */
+  .tabs{display:flex;border-bottom:1px solid var(--line)}
+  .tab{flex:1;padding:11px 0;text-align:center;font-size:10px;letter-spacing:1.5px;
+    color:var(--faint);background:none;border:none;font-family:inherit;cursor:pointer;
+    border-bottom:1px solid transparent;transition:color .15s}
+  .tab.sel{color:var(--txt);border-bottom-color:var(--accent)}
+
+  /* ---------- list ---------- */
+  main{min-height:60vh}
+  .card{padding:15px 16px;border-bottom:1px solid var(--line);
+    display:block;text-decoration:none;color:inherit;cursor:pointer;
+    transition:background .12s}
+  .card:active{background:var(--surface)}
+  .ctop{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:9px;gap:10px}
+  .sev{display:flex;align-items:center;gap:8px;flex-shrink:0}
+  .bars{display:flex;gap:2px}
+  .bars b{width:6px;height:14px;background:var(--ghost);display:block}
+  .bars b.f{background:var(--accent)}
+  .dpts{display:flex;gap:3px;align-items:center}
+  .dpts b{width:3px;height:3px;border-radius:50%;background:var(--ghost);display:block}
+  .dpts b.f{background:#666}
+  .slabel{font-size:10px;letter-spacing:1px}
+  .slabel.crit{color:var(--accent)}
+  .slabel.res{color:#666}
+  .badge{font-size:8px;letter-spacing:1px;padding:2px 5px;font-weight:600;flex-shrink:0}
+  .badge.kev{background:var(--accent);color:#000}
+  .badge.ransom{background:#000;color:var(--accent);border:1px solid var(--accent)}
+  .cid{font-size:13px;letter-spacing:1px;margin-bottom:5px;color:var(--txt);word-break:break-word}
+  .cdesc{font-size:11px;line-height:1.55;color:var(--dim);margin-bottom:9px}
+  .cmeta{display:flex;justify-content:space-between;color:var(--faint);font-size:9px;letter-spacing:1px}
+  .cmeta .src{color:#777}
+
+  /* ---------- empty / loading ---------- */
+  .state{padding:60px 24px;text-align:center;color:var(--faint);font-size:11px;letter-spacing:1px;line-height:1.8}
+  .spinner{display:inline-block;width:8px;height:8px;background:var(--accent);
+    animation:blink 1s steps(2) infinite;margin-bottom:16px}
+  @keyframes blink{50%{opacity:0}}
+
+  /* ---------- bottom nav ---------- */
+  nav{position:sticky;bottom:0;z-index:20;background:var(--bg);
+    border-top:1px solid var(--line);display:flex;
+    padding-bottom:env(safe-area-inset-bottom)}
+  .nb{flex:1;padding:13px 0;text-align:center;font-size:9px;letter-spacing:1.5px;
+    color:#444;background:none;border:none;font-family:inherit;cursor:pointer}
+  .nb.sel{color:var(--txt)}
+
+  /* ---------- sources screen ---------- */
+  .srcwrap{padding:8px 0}
+  .srow{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;
+    justify-content:space-between;align-items:center}
+  .sname{font-size:12px;letter-spacing:1px}
+  .stype{font-size:9px;color:var(--faint);letter-spacing:1px;margin-top:3px}
+  .stag{font-size:8px;letter-spacing:1px;color:#666;border:1px solid var(--line2);padding:3px 7px}
+  .note{padding:18px 16px;color:var(--faint);font-size:10px;line-height:1.7;letter-spacing:.5px}
+  .note code{color:#888}
+
+  /* ---------- saved ---------- */
+  .x{color:var(--faint)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hrow">
+    <div class="brand">
+      <div class="dots" id="dots"></div>
+      <span class="logo">CVE//PULSE</span>
+    </div>
+    <div class="stamp" id="stamp">—</div>
+  </div>
+</header>
+
+<div class="tabs" id="tabs"></div>
+
+<main id="main">
+  <div class="state"><span class="spinner"></span><br>LOADING FEED</div>
+</main>
+
+<nav id="nav">
+  <button class="nb sel" data-view="feed">▦ FEED</button>
+  <button class="nb" data-view="saved">◇ SAVED</button>
+  <button class="nb" data-view="sources">≡ SOURCES</button>
+</nav>
+
+<script>
+// ============================================================
+// CONFIG — поменяй на свой GitHub Pages URL после деплоя
+// ============================================================
+const FEED_URL = "feed.json";   // лежит рядом на тех же Pages
+const SAVED_KEY = "cvepulse_saved";
+
+const TABS = [
+  {id:"all",   label:"ALL"},
+  {id:"kev",   label:"KEV"},
+  {id:"crit",  label:"CRIT"},
+  {id:"rsrch", label:"RSRCH"},
+];
+
+let DATA = {items:[], generated:null};
+let curTab = "all";
+let curView = "feed";
+let saved = loadSaved();
+
+// ---- dot logo pattern (fixed asymmetric) ----
+const DOT_ON = [1,1,0, 1,0,1, 0,1,0];
+document.getElementById("dots").innerHTML =
+  DOT_ON.map(d=>`<i class="${d?'on':''}"></i>`).join("");
+
+// ---- tabs render ----
+document.getElementById("tabs").innerHTML =
+  TABS.map(t=>`<button class="tab ${t.id===curTab?'sel':''}" data-tab="${t.id}">${t.label}</button>`).join("");
+
+// ============================================================
+// data load
+// ============================================================
+async function load(){
+  try{
+    const r = await fetch(FEED_URL, {cache:"no-cache"});
+    if(!r.ok) throw new Error(r.status);
+    DATA = await r.json();
+    localStorage.setItem("cvepulse_cache", JSON.stringify(DATA));
+  }catch(e){
+    const c = localStorage.getItem("cvepulse_cache");
+    if(c) DATA = JSON.parse(c);
+  }
+  stampUpdate();
+  render();
+}
+
+function stampUpdate(){
+  const el = document.getElementById("stamp");
+  if(!DATA.generated){ el.textContent="—"; return; }
+  const d = new Date(DATA.generated);
+  const ago = sinceMin(d);
+  el.innerHTML = `<span class="live">● LIVE</span><br>${ago}`;
+}
+
+// ============================================================
+// filtering
+// ============================================================
+function filtered(){
+  let items = DATA.items || [];
+  if(curTab==="kev")   items = items.filter(i=>i.tags?.includes("KEV"));
+  if(curTab==="crit")  items = items.filter(i=>i.severity==="CRITICAL"||i.severity==="HIGH");
+  if(curTab==="rsrch") items = items.filter(i=>i.kind==="research");
+  return items;
+}
+
+// ============================================================
+// render
+// ============================================================
+function render(){
+  const main = document.getElementById("main");
+
+  if(curView==="sources"){ renderSources(main); return; }
+
+  let items = curView==="saved"
+    ? (DATA.items||[]).filter(i=>saved.includes(i.id))
+    : filtered();
+
+  if(!items.length){
+    main.innerHTML = `<div class="state">${
+      curView==="saved" ? "NO SAVED ITEMS<br><br>TAP ◇ ON ANY CARD TO SAVE"
+                        : "NOTHING HERE YET"
+    }</div>`;
+    return;
+  }
+  main.innerHTML = items.map(card).join("");
+}
+
+function card(it){
+  const isCve = it.kind==="cve";
+  const sev = severityBlock(it);
+  const kevBadge   = it.tags?.includes("KEV") ? `<span class="badge kev">KEV</span>` : "";
+  const ransBadge  = it.tags?.includes("RANSOMWARE") ? `<span class="badge ransom">RANSOM</span>` : "";
+  const cveTitle = it.cve ? it.cve : "";
+  const titleLine = isCve
+      ? `<div class="cid">${esc(cveTitle)}</div>`
+      : `<div class="cid" style="font-size:12px;line-height:1.4;letter-spacing:.5px">${esc(it.title)}</div>`;
+  const desc = isCve && it.summary
+      ? `<div class="cdesc">${esc(vendorPrefix(it))}${esc(it.summary)}</div>` : "";
+
+  return `<a class="card" href="${esc(it.url)}" target="_blank" rel="noopener" data-id="${esc(it.id)}">
+    <div class="ctop">
+      ${sev}
+      <span style="display:flex;gap:5px">${ransBadge}${kevBadge}</span>
+    </div>
+    ${titleLine}
+    ${desc}
+    <div class="cmeta">
+      <span class="src">${esc(it.source)}</span>
+      <span>${sinceMin(new Date(it.published))}</span>
+    </div>
+  </a>`;
+}
+
+function severityBlock(it){
+  if(it.kind==="cve"){
+    const map={CRITICAL:4,HIGH:3,MEDIUM:2,LOW:1};
+    const n = map[it.severity]||1;
+    const bars = [0,1,2,3].map(i=>`<b class="${i<n?'f':''}"></b>`).join("");
+    const score = it.score!=null ? it.score.toFixed(1)+" " : "";
+    return `<div class="sev"><div class="bars">${bars}</div>
+      <span class="slabel crit">${score}${it.severity}</span></div>`;
+  }
+  // research
+  const dots=[0,1,2,3].map(i=>`<b class="${i<2?'f':''}"></b>`).join("");
+  const tag = it.tags?.[0]||"RESEARCH";
+  return `<div class="sev"><div class="dpts">${dots}</div>
+    <span class="slabel res">${tag}</span></div>`;
+}
+
+function vendorPrefix(it){
+  if(it.vendor && it.product) return `${it.vendor} ${it.product} — `;
+  if(it.vendor) return `${it.vendor} — `;
+  return "";
+}
+
+// ============================================================
+// sources screen (reads same tags from feed)
+// ============================================================
+function renderSources(main){
+  // собрать список источников из реальных данных
+  const counts={};
+  (DATA.items||[]).forEach(i=>{ counts[i.source]=(counts[i.source]||0)+1; });
+  const list = Object.entries(counts).sort((a,b)=>b[1]-a[1]);
+
+  main.innerHTML = `
+  <div class="srcwrap">
+    ${list.map(([name,n])=>`
+      <div class="srow">
+        <div>
+          <div class="sname">${esc(name)}</div>
+          <div class="stype">${n} ITEMS IN FEED</div>
+        </div>
+        <span class="stag">ACTIVE</span>
+      </div>`).join("")}
+  </div>
+  <div class="note">
+    Источники задаются в <code>sources.yml</code> в репозитории.<br><br>
+    Обычный сайт с RSS → <code>type: rss</code> + url.<br>
+    Сайт блокирует фид (Cloudflare) → <code>type: gnews</code> + domain.<br><br>
+    Агрегатор запускается в GitHub Actions каждый час и обновляет
+    <code>feed.json</code>. Приложение только читает.
+  </div>`;
+}
+
+// ============================================================
+// saved
+// ============================================================
+function loadSaved(){
+  try{ return JSON.parse(localStorage.getItem(SAVED_KEY))||[]; }
+  catch{ return []; }
+}
+function toggleSave(id){
+  const i = saved.indexOf(id);
+  if(i>=0) saved.splice(i,1); else saved.push(id);
+  localStorage.setItem(SAVED_KEY, JSON.stringify(saved));
+}
+
+// ============================================================
+// events
+// ============================================================
+document.getElementById("tabs").addEventListener("click",e=>{
+  const t = e.target.closest("[data-tab]"); if(!t) return;
+  curTab = t.dataset.tab;
+  document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("sel",x.dataset.tab===curTab));
+  render();
+});
+
+document.getElementById("nav").addEventListener("click",e=>{
+  const b = e.target.closest("[data-view]"); if(!b) return;
+  curView = b.dataset.view;
+  document.querySelectorAll(".nb").forEach(x=>x.classList.toggle("sel",x.dataset.view===curView));
+  // прячем табы вне ленты
+  document.getElementById("tabs").style.display = curView==="feed" ? "flex" : "none";
+  render();
+});
+
+// long-press на карточке = сохранить (вместо открытия)
+let pressTimer=null;
+document.getElementById("main").addEventListener("touchstart",e=>{
+  const c=e.target.closest(".card"); if(!c) return;
+  pressTimer=setTimeout(()=>{
+    e.preventDefault();
+    toggleSave(c.dataset.id);
+    c.style.borderLeft = saved.includes(c.dataset.id)?"3px solid var(--accent)":"none";
+    if(navigator.vibrate) navigator.vibrate(15);
+    pressTimer=null;
+  },450);
+},{passive:false});
+document.getElementById("main").addEventListener("touchend",e=>{
+  if(pressTimer){clearTimeout(pressTimer);pressTimer=null;}
+  else if(e.cancelable) e.preventDefault(); // была long-press, не открываем
+},{passive:false});
+
+// ============================================================
+// helpers
+// ============================================================
+function sinceMin(d){
+  const s=(Date.now()-d.getTime())/1000;
+  if(s<60) return "NOW";
+  if(s<3600) return Math.floor(s/60)+"M AGO";
+  if(s<86400) return Math.floor(s/3600)+"H AGO";
+  return Math.floor(s/86400)+"D AGO";
+}
+function esc(s){return (s||"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+
+// ============================================================
+// boot + service worker + pull-to-refresh
+// ============================================================
+load();
+setInterval(load, 5*60*1000);   // тихий рефреш раз в 5 мин
+
+// pull to refresh
+let startY=0;
+document.addEventListener("touchstart",e=>{ if(window.scrollY===0) startY=e.touches[0].clientY; },{passive:true});
+document.addEventListener("touchend",e=>{
+  const dy=e.changedTouches[0].clientY-startY;
+  if(window.scrollY===0 && dy>90){ load(); if(navigator.vibrate)navigator.vibrate(10); }
+},{passive:true});
+
+if("serviceWorker" in navigator){
+  navigator.serviceWorker.register("sw.js").catch(()=>{});
+}
+</script>
+</body>
+</html>

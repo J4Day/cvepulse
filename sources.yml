@@ -1,0 +1,78 @@
+# ============================================================
+#  CVE//PULSE — источники
+#  Добавляешь источник = добавляешь блок сюда. Пересборка APK не нужна.
+#
+#  type: rss        — обычный RSS/Atom фид (большинство блогов)
+#  type: gnews      — сайт блокирует прямой фид (Cloudflare 403) или
+#                     не отдаёт его вовсе → тянем через Google News RSS.
+#                     указывай domain, а не url.
+#  type: cisa_kev   — официальный CISA KEV JSON (эксплуатируемые CVE)
+#  type: nvd        — NVD API 2.0 (фильтр по severity)
+# ============================================================
+
+structured:
+  - name: "CISA KEV"
+    type: cisa_kev
+    tag: KEV
+    url: "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+
+  - name: "NVD"
+    type: nvd
+    tag: NVD
+    lookback_days: 3
+    min_severity: HIGH          # LOW | MEDIUM | HIGH | CRITICAL
+
+research:
+  # --- проверенные ресёрч-команды ---
+  - name: "Synacktiv"
+    type: gnews                  # их сайт блокирует прямой RSS
+    tag: RESEARCH
+    domain: "synacktiv.com"
+
+  - name: "Krebs on Security"
+    type: rss
+    tag: NEWS
+    url: "https://krebsonsecurity.com/feed/"
+
+  - name: "Project Zero"
+    type: rss
+    tag: RESEARCH
+    url: "https://googleprojectzero.blogspot.com/feeds/posts/default"
+
+  - name: "PortSwigger Research"
+    type: rss
+    tag: RESEARCH
+    url: "https://portswigger.net/research/rss"
+
+  - name: "watchTowr Labs"
+    type: rss
+    tag: RESEARCH
+    url: "https://labs.watchtowr.com/rss/"
+
+  - name: "Rapid7"
+    type: rss
+    tag: RESEARCH
+    url: "https://www.rapid7.com/rss.xml"
+
+  - name: "ProjectDiscovery"
+    type: rss
+    tag: RESEARCH
+    url: "https://projectdiscovery.io/rss.xml"
+
+  - name: "SANS ISC"
+    type: rss
+    tag: NEWS
+    url: "https://isc.sans.edu/rssfeed_full.xml"
+
+  - name: "The Hacker News"
+    type: rss
+    tag: NEWS
+    url: "https://feeds.feedburner.com/TheHackersNews"
+
+  # Добавляй свои источники ниже. Если сайт даёт нормальный RSS — type: rss + url.
+  # Если блокирует или фида нет — type: gnews + domain.
+  # Примеры проверенных:
+  # - name: "Assetnote"
+  #   type: rss
+  #   tag: RESEARCH
+  #   url: "https://blog.assetnote.io/feed.xml"

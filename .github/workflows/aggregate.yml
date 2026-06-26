@@ -1,0 +1,46 @@
+name: aggregate-feed
+
+on:
+  schedule:
+    - cron: "0 * * * *"      # каждый час, в начале часа (UTC)
+  workflow_dispatch:           # + кнопка ручного запуска во вкладке Actions
+
+permissions:
+  contents: write              # чтобы экшен мог коммитить feed.json
+
+concurrency:                   # не запускать два прогона параллельно
+  group: aggregate
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run aggregator
+        env:
+          # необязательно: ключ NVD ускоряет лимиты. Положи в Settings → Secrets.
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+        run: python aggregator.py
+
+      - name: Commit feed if changed
+        run: |
+          git config user.name  "cvepulse-bot"
+          git config user.email "actions@github.com"
+          git add docs/feed.json
+          if git diff --staged --quiet; then
+            echo "No changes in feed."
+          else
+            git commit -m "feed: update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
