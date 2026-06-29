@@ -1,13 +1,13 @@
 {
-  "generated": "2026-06-29T10:24:43.509845+00:00",
+  "generated": "2026-06-29T14:42:52.271236+00:00",
   "count": 250,
   "items": [
     {
-      "id": "fee823ab7da5179f",
+      "id": "d760c6e38138fa56",
       "kind": "cve",
-      "cve": "CVE-2026-13601",
-      "title": "CVE-2026-13601",
-      "summary": "A flaw was found in Yelp due to an overly permissive Content Security Policy (CSP) implementation provided by yelp-xsl. A malicious Flatpak application can open crafted help content through the OpenURI portal. By embedding an untrusted CSS…",
+      "cve": "CVE-2026-54371",
+      "title": "CVE-2026-54371",
+      "summary": "attr before version 2.6.0 contains a symlink traversal vulnerability in the getfattr and setfattr utilities that allows local attackers to escalate privileges by replacing a pathname component with a symbolic link during directory hierarchy…",
       "severity": "HIGH",
       "score": 7.1,
       "source": "NVD",
@@ -16,15 +16,100 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13601",
-      "published": "2026-06-29T10:16:30.180000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54371",
+      "published": "2026-06-29T14:16:57.823000+00:00"
     },
     {
-      "id": "fe700a4cb9a17038",
+      "id": "c97424f87dac18e0",
       "kind": "cve",
-      "cve": "CVE-2026-13555",
-      "title": "CVE-2026-13555",
-      "summary": "A vulnerability was found in itsourcecode Online Hotel Management System 1.0. Affected by this issue is some unknown functionality of the file /admin/mod_users/controller.php?action=add. The manipulation of the argument Name results in sql…",
+      "cve": "CVE-2026-54369",
+      "title": "CVE-2026-54369",
+      "summary": "acl before version 2.4.0 contains a symlink traversal vulnerability in the libacl pathname-based functions acl_get_file(), acl_set_file(), acl_extended_file(), and acl_delete_def_file() that allows local attackers to escalate privileges by…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54369",
+      "published": "2026-06-29T14:16:57.487000+00:00"
+    },
+    {
+      "id": "4d488d9d41b04159",
+      "kind": "cve",
+      "cve": "CVE-2026-40524",
+      "title": "CVE-2026-40524",
+      "summary": "FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the get_gl_transactions() function where the filter_type parameter is concatenated directly into a SQL IN() clause without parameterization. Attackers with SA_GLANALYTI…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40524",
+      "published": "2026-06-29T14:16:51.207000+00:00"
+    },
+    {
+      "id": "d25a66b12f985bc6",
+      "kind": "cve",
+      "cve": "CVE-2026-40523",
+      "title": "CVE-2026-40523",
+      "summary": "FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the Audit Trail report handler that allows authenticated attackers with SA_GLANALYTIC permission to execute arbitrary SQL queries by injecting malicious code into the P…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40523",
+      "published": "2026-06-29T14:16:51.067000+00:00"
+    },
+    {
+      "id": "353bbd49c12ed392",
+      "kind": "cve",
+      "cve": "CVE-2026-40522",
+      "title": "CVE-2026-40522",
+      "summary": "FrontAccounting before 2.4.20 contains a SQL injection vulnerability in the Bank Statement report handler that allows authenticated attackers to extract arbitrary database data by injecting UNION SELECT payloads into the PARAM_0 POST parame…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40522",
+      "published": "2026-06-29T14:16:50.920000+00:00"
+    },
+    {
+      "id": "b5b47e638571cd9e",
+      "kind": "cve",
+      "cve": "CVE-2026-40521",
+      "title": "CVE-2026-40521",
+      "summary": "FrontAccounting before 2.4.20 contains a path traversal vulnerability in the attachment upload handler that allows authenticated attackers to execute arbitrary code by uploading files with traversal sequences in the unique_name parameter. A…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40521",
+      "published": "2026-06-29T14:16:50.763000+00:00"
+    },
+    {
+      "id": "2a11657c633f7dae",
+      "kind": "cve",
+      "cve": "CVE-2026-13568",
+      "title": "CVE-2026-13568",
+      "summary": "A weakness has been identified in SourceCodester Inventory Management System 1.0. This vulnerability affects unknown code of the file /api/users_handler.php of the component User Registration Endpoint. This manipulation of the argument role…",
       "severity": "HIGH",
       "score": 7.3,
       "source": "NVD",
@@ -33,15 +118,15 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13555",
-      "published": "2026-06-29T10:16:29.740000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13568",
+      "published": "2026-06-29T14:16:47.313000+00:00"
     },
     {
-      "id": "8150aa03ef860cf1",
+      "id": "e73b41e1937ead9c",
       "kind": "cve",
-      "cve": "CVE-2026-13553",
-      "title": "CVE-2026-13553",
-      "summary": "A flaw has been found in itsourcecode Online Hotel Management System 1.0. Affected is an unknown function of the file /admin/mod_amenities/controller.php?action=add. Executing a manipulation of the argument image can lead to unrestricted up…",
+      "cve": "CVE-2026-13566",
+      "title": "CVE-2026-13566",
+      "summary": "A vulnerability was identified in SourceCodester Class and Exam Timetabling System 1.0. Affected by this issue is some unknown functionality of the file /preview3.php. The manipulation of the argument course_year_section leads to sql inject…",
       "severity": "HIGH",
       "score": 7.3,
       "source": "NVD",
@@ -50,8 +135,161 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13553",
-      "published": "2026-06-29T10:16:29.420000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13566",
+      "published": "2026-06-29T14:16:46.983000+00:00"
+    },
+    {
+      "id": "259636571a9149a6",
+      "kind": "cve",
+      "cve": "CVE-2026-13565",
+      "title": "CVE-2026-13565",
+      "summary": "A vulnerability was determined in SourceCodester Class and Exam Timetabling System 1.0/1.php. Affected by this vulnerability is an unknown functionality of the file /edit_class1.php. Executing a manipulation of the argument ID can lead to s…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13565",
+      "published": "2026-06-29T14:16:46.813000+00:00"
+    },
+    {
+      "id": "abfafecdacb429ec",
+      "kind": "cve",
+      "cve": "CVE-2026-12856",
+      "title": "CVE-2026-12856",
+      "summary": "A flaw was found in the vscode-java extension, which provides Java language support for Visual Studio Code. The extension incorrectly trusts all Markdown content in JavaDoc hovers, allowing a malicious Java file to include hidden commands.…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12856",
+      "published": "2026-06-29T14:16:41.473000+00:00"
+    },
+    {
+      "id": "01eefb3fe1276de0",
+      "kind": "research",
+      "cve": null,
+      "title": "Modernizing Global Vulnerability Standards For The Age Of AI",
+      "summary": "As AI-driven vulnerability discovery accelerates, the cybersecurity ecosystem is being forced to examine whether the standards, disclosure processes, and prioritization frameworks defenders rely on can still keep pace. Many of those systems…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/ai-modernizing-global-vulnerability-standards",
+      "published": "2026-06-29T12:37:04+00:00"
+    },
+    {
+      "id": "22ace38a9936d39b",
+      "kind": "cve",
+      "cve": "CVE-2026-13563",
+      "title": "CVE-2026-13563",
+      "summary": "A vulnerability has been found in Edimax EW-7478APC 1.04. This impacts the function formL2TPSetup of the file /goform/formL2TPSetup of the component POST Request Handler. Such manipulation of the argument L2TPUserName leads to stack-based b…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13563",
+      "published": "2026-06-29T12:16:28.390000+00:00"
+    },
+    {
+      "id": "33ea1832224fa6c0",
+      "kind": "cve",
+      "cve": "CVE-2026-13562",
+      "title": "CVE-2026-13562",
+      "summary": "A flaw has been found in Edimax EW-7478APC 1.04. This affects the function formiNICSiteSurvey of the file /goform/formiNICSiteSurvey of the component POST Request Handler. This manipulation of the argument selSSID causes buffer overflow. It…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13562",
+      "published": "2026-06-29T12:16:28.233000+00:00"
+    },
+    {
+      "id": "36cac332eac2f329",
+      "kind": "research",
+      "cve": null,
+      "title": "Adding some Automation to the favicon.ico method of Host Recon, (Mon, Jun 29th)",
+      "summary": "I&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;m in the throes of target host recon for another pentest, and thought I&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;d share some workflow / automation stuff. &#xd; In the past, I&&#x23&#x3b;x26&#x3b;&#x23…",
+      "severity": "",
+      "score": null,
+      "source": "SANS ISC",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://isc.sans.edu/diary/rss/33110",
+      "published": "2026-06-29T12:00:54+00:00"
+    },
+    {
+      "id": "ea7823a1b357f334",
+      "kind": "research",
+      "cve": null,
+      "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
+      "summary": "New findings unearthed by Infoblox show that more than 236,000 websites are using investment scam templates built using a legitimate Chinese open-source, cross-platform application development framework called DCloud Uni-App. The templates…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+      "published": "2026-06-29T11:57:40+00:00"
+    },
+    {
+      "id": "7cab628ad4c5a79e",
+      "kind": "research",
+      "cve": null,
+      "title": "Why Post-Quantum Cryptography Starts With Credentials",
+      "summary": "Today’s encrypted data, such as credentials, may no longer remain confidential in the future because the public-key cryptography protecting it will soon be broken by quantum computers. Although no machine today can break elliptic curve cryp…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
+      "published": "2026-06-29T11:42:16+00:00"
+    },
+    {
+      "id": "3113f471cf7142de",
+      "kind": "research",
+      "cve": null,
+      "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
+      "summary": "A Russian advanced persistent threat (APT) group has continued to evolve and expand its malware arsenal as part of its ongoing cyber onslaught against Ukraine throughout 2025. Slovakian cybersecurity company ESET said it observed 35 distinc…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
+      "published": "2026-06-29T11:40:24+00:00"
     },
     {
       "id": "d93322e033fb030b",
@@ -103,23 +341,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13550",
       "published": "2026-06-29T09:16:28.017000+00:00"
-    },
-    {
-      "id": "582dd1dd52df6c84",
-      "kind": "cve",
-      "cve": "CVE-2026-13547",
-      "title": "CVE-2026-13547",
-      "summary": "A vulnerability was determined in Hanwang e-Face General Management Platform 6.3.5.4. This issue affects some unknown processing of the file /manage/resourceUpload/upload.do. Executing a manipulation of the argument File can lead to unrestr…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13547",
-      "published": "2026-06-29T09:16:27.540000+00:00"
     },
     {
       "id": "7b810f8b61a075b8",
@@ -292,23 +513,6 @@
       "published": "2026-06-29T02:16:25.390000+00:00"
     },
     {
-      "id": "7025159937c3930c",
-      "kind": "cve",
-      "cve": "CVE-2026-13519",
-      "title": "CVE-2026-13519",
-      "summary": "A vulnerability was found in Tenda JD12L 16.03.53.23. This impacts the function fromNatStaticSetting of the file /goform/NatStaticSetting. The manipulation of the argument page results in stack-based buffer overflow. The attack can be execu…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13519",
-      "published": "2026-06-29T02:16:25.063000+00:00"
-    },
-    {
       "id": "6628171024e3a72d",
       "kind": "research",
       "cve": null,
@@ -343,23 +547,6 @@
       "published": "2026-06-29T01:16:30.683000+00:00"
     },
     {
-      "id": "c3a2447d9aa21ab6",
-      "kind": "cve",
-      "cve": "CVE-2026-13517",
-      "title": "CVE-2026-13517",
-      "summary": "A flaw has been found in Tenda JD12L 16.03.53.23. The impacted element is the function formWifiBasicSet of the file /goform/WifiBasicSet. Executing a manipulation of the argument security_5g can lead to stack-based buffer overflow. The atta…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13517",
-      "published": "2026-06-29T01:16:30.517000+00:00"
-    },
-    {
       "id": "e28a54e374e59028",
       "kind": "cve",
       "cve": "CVE-2026-13516",
@@ -392,23 +579,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13515",
       "published": "2026-06-29T00:16:47.463000+00:00"
-    },
-    {
-      "id": "2b7620c85feffe49",
-      "kind": "cve",
-      "cve": "CVE-2026-13500",
-      "title": "CVE-2026-13500",
-      "summary": "A weakness has been identified in antlr ANTLR4 up to 4.13.2. Affected is an unknown function of the file tool/src/org/antlr/v4/codegen/model/OutputFile.java of the component Grammar Action Block Handler. Executing a manipulation can lead to…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13500",
-      "published": "2026-06-28T15:16:51.973000+00:00"
     },
     {
       "id": "b59e0c701f6667d3",
@@ -462,40 +632,6 @@
       "published": "2026-06-28T11:16:26.660000+00:00"
     },
     {
-      "id": "4411f8462cc73a12",
-      "kind": "cve",
-      "cve": "CVE-2026-13486",
-      "title": "CVE-2026-13486",
-      "summary": "A vulnerability was determined in SourceCodester Class and Exam Timetabling System 1.0/6.php. This impacts an unknown function of the file /preview6.php. Executing a manipulation of the argument course_year_section can lead to sql injection…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13486",
-      "published": "2026-06-28T10:16:27.150000+00:00"
-    },
-    {
-      "id": "40bc6833cd3f9d80",
-      "kind": "cve",
-      "cve": "CVE-2026-13485",
-      "title": "CVE-2026-13485",
-      "summary": "A vulnerability was found in SourceCodester Class and Exam Timetabling System 1.0. This affects an unknown function of the file /preview.php. Performing a manipulation of the argument course_year_section results in sql injection. The attack…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13485",
-      "published": "2026-06-28T10:16:26.133000+00:00"
-    },
-    {
       "id": "e28db37e6a5275b9",
       "kind": "research",
       "cve": null,
@@ -513,40 +649,6 @@
       "published": "2026-06-28T07:56:44+00:00"
     },
     {
-      "id": "fc84228439b246e6",
-      "kind": "cve",
-      "cve": "CVE-2026-58056",
-      "title": "CVE-2026-58056",
-      "summary": "RustDesk gates incoming control messages on per-capability flags rather than on the session's authorized connection type, and a file-transfer session does not clear those flags. A peer holding only a valid FileTransfer authorization can inj…",
-      "severity": "HIGH",
-      "score": 7.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58056",
-      "published": "2026-06-28T02:16:32.860000+00:00"
-    },
-    {
-      "id": "ad885302619820f1",
-      "kind": "cve",
-      "cve": "CVE-2026-58054",
-      "title": "CVE-2026-58054",
-      "summary": "MyBB 1.8.40 does not restrict which usergroup a limited Admin Control Panel user may assign when creating or editing users; the user module offers the Administrators group (gid 4) and its datahandler's verify_usergroup() unconditionally ret…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58054",
-      "published": "2026-06-28T02:16:32.550000+00:00"
-    },
-    {
       "id": "bef8dca5a4f519ea",
       "kind": "cve",
       "cve": "CVE-2026-58053",
@@ -562,23 +664,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58053",
       "published": "2026-06-28T02:16:32.420000+00:00"
-    },
-    {
-      "id": "e9e08cffd7583381",
-      "kind": "cve",
-      "cve": "CVE-2026-58050",
-      "title": "CVE-2026-58050",
-      "summary": "libssh2 through 1.11.1 reads an attacker-controlled 32-bit attribute count from a publickey-subsystem response and uses it in the allocation num_attrs * sizeof(libssh2_publickey_attribute) without bounds checking, so on 32-bit platforms the…",
-      "severity": "HIGH",
-      "score": 7.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58050",
-      "published": "2026-06-28T02:16:32.017000+00:00"
     },
     {
       "id": "9346e314633f98d4",
@@ -647,40 +732,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
       "published": "2026-06-27T12:19:37+00:00"
-    },
-    {
-      "id": "5d4999525bd4149c",
-      "kind": "cve",
-      "cve": "CVE-2026-12415",
-      "title": "CVE-2026-12415",
-      "summary": "The Invoice Generator plugin for WordPress is vulnerable to privilege escalation due to a missing capability check on the pravel_invoice_edit_account() AJAX action in versions up to, and including, 1.0.0. The handler is exposed via wp_ajax_…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12415",
-      "published": "2026-06-27T05:16:41.620000+00:00"
-    },
-    {
-      "id": "614068d71f95c929",
-      "kind": "cve",
-      "cve": "CVE-2026-32833",
-      "title": "CVE-2026-32833",
-      "summary": "Cudy LT300 3.0 running firmware prior to version 2.5.12 contains an OS command injection vulnerability that allows authenticated attackers to execute arbitrary commands by injecting shell metacharacters into the cbid.system.ntp.current POST…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32833",
-      "published": "2026-06-26T20:16:54.583000+00:00"
     },
     {
       "id": "20c00d895ed3a911",
@@ -1720,57 +1771,6 @@
       "published": "2026-06-23T00:00:00+00:00"
     },
     {
-      "id": "68d2130f31731c5f",
-      "kind": "research",
-      "cve": null,
-      "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
-      "summary": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. \"Attackers compromised the vendor's build and di…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
-      "published": "2026-06-22T18:00:48+00:00"
-    },
-    {
-      "id": "726cc507af6d690a",
-      "kind": "research",
-      "cve": null,
-      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-      "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-p…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-      "published": "2026-06-22T16:29:00+00:00"
-    },
-    {
-      "id": "c63ab8f2419e5c1c",
-      "kind": "research",
-      "cve": null,
-      "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
-      "summary": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealthily read artificial intelligence (AI) conve…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
-      "published": "2026-06-22T16:13:28+00:00"
-    },
-    {
       "id": "ebe2fc7bed8d604d",
       "kind": "research",
       "cve": null,
@@ -1820,23 +1820,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026",
       "published": "2026-06-19T17:08:23+00:00"
-    },
-    {
-      "id": "6864c9b0e75d6b59",
-      "kind": "research",
-      "cve": null,
-      "title": "eBanking Phishing Delivered Through IPv4-Mapped IPv6 Address, (Fri, Jun 19th)",
-      "summary": "I detected an interesting phishing email this morning. It targets a major Belgian bank: &#xd;",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33090",
-      "published": "2026-06-19T08:37:34+00:00"
     },
     {
       "id": "10d87533a665bcff",
@@ -2436,23 +2419,6 @@
       "published": "2026-06-04T13:53:41+00:00"
     },
     {
-      "id": "c2e5c78542ff45fd",
-      "kind": "research",
-      "cve": null,
-      "title": "A Day in the Life of an MDR Analyst: Inside the Modern SOC",
-      "summary": "What actually happens inside a SOC when an incident unfolds? Most teams see the alerts and the outcomes, but the decision-making in between is often less visible. At the Rapid7 2026 Global Cybersecurity Summit, the signature session Inside…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/it-day-in-the-life-mdr-analyst-inside-the-modern-soc",
-      "published": "2026-06-03T16:27:08+00:00"
-    },
-    {
       "id": "42750f3a5b6a646f",
       "kind": "cve",
       "cve": "CVE-2026-45247",
@@ -3048,6 +3014,23 @@
       "product": "Kernel",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
       "published": "2026-05-01T00:00:00+00:00"
+    },
+    {
+      "id": "9840ed02b97562d3",
+      "kind": "research",
+      "cve": null,
+      "title": "Bypassing Windows authentication reflection mitigations for SYSTEM shells - Part ②",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSGIxN2xTSFdqNmo0WnFJNXgyODZ4RE5VNk9nakloYVRaN0Z6dEVNeDJsbDNfcE9vUmNzUzRfTnFrTW5vU2FSM2tENHFzTzdNVGR3OHJJN0lKNUdRdVIwYW1BcEtxTzJtekFzeENJTm9QM3hQUFpHcTlpWF9NbEozYTdUYktWN3B3ZkhJMFhONkUzX19fd1pqY251OHY4MGNuYjl2eWxlM2hsMnF5a3VaTGtBS2lYWG8?oc=5",
+      "published": "2026-04-30T07:00:00+00:00"
     },
     {
       "id": "41a796cb51f0fc3a",
@@ -4262,6 +4245,23 @@
       "vendor": "Broadcom",
       "product": "VMware Aria Operations",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22719",
+      "published": "2026-03-03T00:00:00+00:00"
+    },
+    {
+      "id": "6c00c5f6f65f4aac",
+      "kind": "cve",
+      "cve": "CVE-2026-21385",
+      "title": "Qualcomm Multiple Chipsets Memory Corruption Vulnerability",
+      "summary": "Multiple Qualcomm chipsets contain a memory corruption vulnerability while using alignments for memory allocation.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Qualcomm",
+      "product": "Multiple Chipsets",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21385",
       "published": "2026-03-03T00:00:00+00:00"
     }
   ]
