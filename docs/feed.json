@@ -1,40 +1,57 @@
 {
-  "generated": "2026-06-30T16:20:56.358203+00:00",
+  "generated": "2026-06-30T18:29:55.907174+00:00",
   "count": 250,
   "items": [
     {
-      "id": "aa7ae8309958ebe0",
+      "id": "4abf4ff6c069e3dd",
       "kind": "cve",
-      "cve": "CVE-2026-48315",
-      "title": "CVE-2026-48315",
-      "summary": "ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to inj…",
-      "severity": "CRITICAL",
-      "score": 9.3,
+      "cve": "CVE-2026-58375",
+      "title": "CVE-2026-58375",
+      "summary": "JimuReport through 2.5.0 exposes the POST /jmreport/auto/export endpoint without authentication: the handler is annotated @JimuNoLoginRequired, so JimuReportTokenInterceptor skips all authentication and authorization, and the export service…",
+      "severity": "HIGH",
+      "score": 7.5,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48315",
-      "published": "2026-06-30T16:16:55.310000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58375",
+      "published": "2026-06-30T17:16:25.743000+00:00"
     },
     {
-      "id": "29473da40d6e3cb7",
+      "id": "f1d8a2c85649117b",
       "kind": "cve",
-      "cve": "CVE-2026-48313",
-      "title": "CVE-2026-48313",
-      "summary": "ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could lead to arbitrary file system read and limited write access. An attac…",
+      "cve": "CVE-2026-58172",
+      "title": "CVE-2026-58172",
+      "summary": "Ocelot through 24.1.0, fixed in commit f156fd4, contains a security control bypass vulnerability that allows denied clients to circumvent IP-based access restrictions by sending WebSocket upgrade requests. The WebSocket upgrade pipeline bra…",
       "severity": "CRITICAL",
-      "score": 9.3,
+      "score": 9.1,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48313",
-      "published": "2026-06-30T16:16:55.093000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58172",
+      "published": "2026-06-30T17:16:24.313000+00:00"
+    },
+    {
+      "id": "d2f33aaa52d64984",
+      "kind": "cve",
+      "cve": "CVE-2026-58166",
+      "title": "CVE-2026-58166",
+      "summary": "OpenBMB ChatDev through 2.2.0, fixed in commit 4fd4da6, contains a path traversal vulnerability that allows unauthenticated remote attackers to write or delete arbitrary files by supplying a malicious multipart filename in the file upload e…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58166",
+      "published": "2026-06-30T17:16:23.487000+00:00"
     },
     {
       "id": "506619a9929878be",
@@ -71,74 +88,6 @@
       "published": "2026-06-30T16:16:54.870000+00:00"
     },
     {
-      "id": "ebae86f57cd01a35",
-      "kind": "cve",
-      "cve": "CVE-2026-48285",
-      "title": "CVE-2026-48285",
-      "summary": "ColdFusion versions 2025.9, 2023.20 and earlier are affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to bypass security measures and…",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48285",
-      "published": "2026-06-30T16:16:54.753000+00:00"
-    },
-    {
-      "id": "5141c60dcc6ba9d1",
-      "kind": "cve",
-      "cve": "CVE-2026-48283",
-      "title": "CVE-2026-48283",
-      "summary": "ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Unrestricted Upload of File with Dangerous Type vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue do…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48283",
-      "published": "2026-06-30T16:16:54.643000+00:00"
-    },
-    {
-      "id": "b012b10650ff4b4f",
-      "kind": "cve",
-      "cve": "CVE-2026-48282",
-      "title": "CVE-2026-48282",
-      "summary": "ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could lead to arbitrary code execution in the context of the current user.…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282",
-      "published": "2026-06-30T16:16:54.533000+00:00"
-    },
-    {
-      "id": "fb074fb77477893e",
-      "kind": "cve",
-      "cve": "CVE-2026-48281",
-      "title": "CVE-2026-48281",
-      "summary": "ColdFusion versions 2025.9, 2023.20 and earlier are affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue does not require user in…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48281",
-      "published": "2026-06-30T16:16:54.427000+00:00"
-    },
-    {
       "id": "f760054f9b7e16de",
       "kind": "cve",
       "cve": "CVE-2026-48277",
@@ -171,6 +120,23 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48276",
       "published": "2026-06-30T16:16:54.193000+00:00"
+    },
+    {
+      "id": "87f96e566a2d0f54",
+      "kind": "research",
+      "cve": "CVE-2026-33017",
+      "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
+      "summary": "Threat actors are continuing to exploit a critical Langflow vulnerability as part of fresh attacks designed to deliver a Monero cryptocurrency miner. The activity has been found to weaponize CVE-2026-33017 (CVSS score: 9.3), an unauthentica…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
+      "published": "2026-06-30T15:47:20+00:00"
     },
     {
       "id": "3888bdd1a4af6713",
@@ -324,23 +290,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
       "published": "2026-06-30T07:38:07+00:00"
-    },
-    {
-      "id": "8527c3c75d949b1c",
-      "kind": "cve",
-      "cve": "CVE-2026-12240",
-      "title": "CVE-2026-12240",
-      "summary": "The Export User Data plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the unserialize function in all versions up to, and including, 2.2.6. This makes it possible for authenticated at…",
-      "severity": "HIGH",
-      "score": 8.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12240",
-      "published": "2026-06-30T07:16:31.810000+00:00"
     },
     {
       "id": "d4abba0bdfbefb56",
@@ -836,23 +785,6 @@
       "published": "2026-06-29T02:00:02+00:00"
     },
     {
-      "id": "4d63f652441f4ae0",
-      "kind": "cve",
-      "cve": "CVE-2026-13518",
-      "title": "CVE-2026-13518",
-      "summary": "A vulnerability has been found in Tenda JD12L 16.03.53.23. This affects the function fromAddressNat of the file /goform/addressNat. The manipulation of the argument page leads to stack-based buffer overflow. Remote exploitation of the attac…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13518",
-      "published": "2026-06-29T01:16:30.683000+00:00"
-    },
-    {
       "id": "6025526b87d6e5ed",
       "kind": "cve",
       "cve": "CVE-2026-48558",
@@ -1180,7 +1112,7 @@
       "kind": "research",
       "cve": null,
       "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
-      "summary": "An analysis of a popular Google Chrome ad block extension for YouTube has uncovered the ability to execute arbitrary JavaScript code. According to Island, the extension, named Adblock for YouTube (ID: cmedhionkhpnakcndndgjdbohmhepckk), has…",
+      "summary": "An analysis of a popular Google Chrome ad block extension for YouTube has uncovered the ability to execute arbitrary JavaScript code. According to Island, the extension, named Adblock for YouTube, has more than 10 million installs and carri…",
       "severity": "",
       "score": null,
       "source": "The Hacker News",
@@ -1293,23 +1225,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
       "published": "2026-06-25T08:54:37+00:00"
-    },
-    {
-      "id": "aeaed08f2b0a40c0",
-      "kind": "research",
-      "cve": "CVE-2026-20245",
-      "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
-      "summary": "An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclosed, according to new findings from Google-owned Mandiant. The…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-      "published": "2026-06-25T05:46:54+00:00"
     },
     {
       "id": "7202501c151746ab",
@@ -2725,23 +2640,6 @@
       "product": "Kernel",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
       "published": "2026-05-01T00:00:00+00:00"
-    },
-    {
-      "id": "9840ed02b97562d3",
-      "kind": "research",
-      "cve": null,
-      "title": "Bypassing Windows authentication reflection mitigations for SYSTEM shells - Part ②",
-      "summary": "",
-      "severity": "",
-      "score": null,
-      "source": "Synacktiv",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSGIxN2xTSFdqNmo0WnFJNXgyODZ4RE5VNk9nakloYVRaN0Z6dEVNeDJsbDNfcE9vUmNzUzRfTnFrTW5vU2FSM2tENHFzTzdNVGR3OHJJN0lKNUdRdVIwYW1BcEtxTzJtekFzeENJTm9QM3hQUFpHcTlpWF9NbEozYTdUYktWN3B3ZkhJMFhONkUzX19fd1pqY251OHY4MGNuYjl2eWxlM2hsMnF5a3VaTGtBS2lYWG8?oc=5",
-      "published": "2026-04-30T07:00:00+00:00"
     },
     {
       "id": "41a796cb51f0fc3a",
@@ -4265,6 +4163,108 @@
       "product": "Configuration Manager",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43468",
       "published": "2026-02-12T00:00:00+00:00"
+    },
+    {
+      "id": "6349ff0b54d5a4b3",
+      "kind": "cve",
+      "cve": "CVE-2025-15556",
+      "title": "Notepad++ Download of Code Without Integrity Check Vulnerability",
+      "summary": "Notepad++ when using the WinGUp updater, contains a download of code without integrity check vulnerability that could allow an attacker to intercept or redirect update traffic to download and execute an attacker-controlled installer. This c…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Notepad++",
+      "product": "Notepad++",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15556",
+      "published": "2026-02-12T00:00:00+00:00"
+    },
+    {
+      "id": "f2182d45ab4d3505",
+      "kind": "cve",
+      "cve": "CVE-2025-40536",
+      "title": "SolarWinds Web Help Desk Security Control Bypass Vulnerability",
+      "summary": "SolarWinds Web Help Desk contains a security control bypass vulnerability that could allow an unauthenticated attacker to gain access to certain restricted functionality.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "SolarWinds",
+      "product": "Web Help Desk",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40536",
+      "published": "2026-02-12T00:00:00+00:00"
+    },
+    {
+      "id": "4773f8ec219a6eda",
+      "kind": "research",
+      "cve": null,
+      "title": "Bypassing Administrator Protection by Abusing UI Access",
+      "summary": "In my last blog post I introduced the new Windows feature, Administrator Protection and how it aimed to create a secure boundary for UAC where one didn’t exist. I described one of the ways I was able to bypass the feature before it was rele…",
+      "severity": "",
+      "score": null,
+      "source": "Project Zero",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectzero.google/2026/02/windows-administrator-protection.html",
+      "published": "2026-02-11T23:00:00+00:00"
+    },
+    {
+      "id": "adf495da3c35bdd9",
+      "kind": "cve",
+      "cve": "CVE-2026-21513",
+      "title": "Microsoft MSHTML Framework Protection Mechanism Failure Vulnerability",
+      "summary": "Microsoft MSHTML Framework contains a protection mechanism failure vulnerability that could allow an unauthorized attacker to bypass a security feature over a network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21513",
+      "published": "2026-02-10T00:00:00+00:00"
+    },
+    {
+      "id": "4829dfeaca2b5390",
+      "kind": "cve",
+      "cve": "CVE-2026-21525",
+      "title": "Microsoft Windows NULL Pointer Dereference Vulnerability",
+      "summary": "Microsoft Windows Remote Access Connection Manager contains a NULL pointer dereference that could allow an unauthorized attacker to deny service locally.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21525",
+      "published": "2026-02-10T00:00:00+00:00"
+    },
+    {
+      "id": "4034878e13a1571d",
+      "kind": "cve",
+      "cve": "CVE-2026-21510",
+      "title": "Microsoft Windows Shell Protection Mechanism Failure Vulnerability",
+      "summary": "Microsoft Windows Shell contains a protection mechanism failure vulnerability that could allow an unauthorized attacker to bypass a security feature over a network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21510",
+      "published": "2026-02-10T00:00:00+00:00"
     }
   ]
 }
