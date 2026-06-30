@@ -1,7 +1,41 @@
 {
-  "generated": "2026-06-30T02:32:53.205513+00:00",
+  "generated": "2026-06-30T06:49:06.535261+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "b6d64c5b39ce0748",
+      "kind": "cve",
+      "cve": "CVE-2026-12073",
+      "title": "CVE-2026-12073",
+      "summary": "The ProfileGrid – User Profiles, Groups and Communities plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 5.9.9.5. This is due to the plugin not validating a `user_login` o…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12073",
+      "published": "2026-06-30T06:16:26.560000+00:00"
+    },
+    {
+      "id": "d4abba0bdfbefb56",
+      "kind": "research",
+      "cve": "CVE-2026-46817",
+      "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
+      "summary": "A critical security flaw impacting Oracle E-Business Suite has come under active exploitation in the wild, according to Defused Cyber. The vulnerability, tracked as CVE-2026-46817 (CVSS score: 9.8), refers to an improper privilege managemen…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+      "published": "2026-06-30T05:04:06+00:00"
+    },
     {
       "id": "d27608e54b93956c",
       "kind": "research",
@@ -171,23 +205,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
       "published": "2026-06-29T14:41:07+00:00"
-    },
-    {
-      "id": "d760c6e38138fa56",
-      "kind": "cve",
-      "cve": "CVE-2026-54371",
-      "title": "CVE-2026-54371",
-      "summary": "attr before version 2.6.0 contains a symlink traversal vulnerability in the getfattr and setfattr utilities that allows local attackers to escalate privileges by replacing a pathname component with a symbolic link during directory hierarchy…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54371",
-      "published": "2026-06-29T14:16:57.823000+00:00"
     },
     {
       "id": "4d488d9d41b04159",
@@ -528,6 +545,23 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58053",
       "published": "2026-06-28T02:16:32.420000+00:00"
+    },
+    {
+      "id": "9346e314633f98d4",
+      "kind": "cve",
+      "cve": "CVE-2026-58049",
+      "title": "CVE-2026-58049",
+      "summary": "FFmpeg's RASC video decoder (decode_dlta in libavcodec/rasc.c) performs 32-bit reads and writes at the row cursor before the NEXT_LINE row-boundary check and validates the DLTA region in pixel rather than byte units, so a DLTA run on a PAL8…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58049",
+      "published": "2026-06-28T02:16:30.477000+00:00"
     },
     {
       "id": "c3511abdf2626fc5",
@@ -1174,23 +1208,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
       "published": "2026-06-23T15:16:40+00:00"
-    },
-    {
-      "id": "6c7b9a4e863e3d58",
-      "kind": "research",
-      "cve": null,
-      "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
-      "summary": "GitHub is moving to strengthen software supply chain security by updating \"actions/checkout\" to block pwn request attacks that exploit the risky use of the \"pull_request_target workflow\" trigger to run malicious code with the workflow's ful…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
-      "published": "2026-06-23T14:22:03+00:00"
     },
     {
       "id": "1bc37cb8a023d718",
@@ -4249,23 +4266,6 @@
       "product": "SmarterMail",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24423",
       "published": "2026-02-05T00:00:00+00:00"
-    },
-    {
-      "id": "5c456b96c0a6439e",
-      "kind": "cve",
-      "cve": "CVE-2021-39935",
-      "title": "GitLab Community and Enterprise Editions Server-Side Request Forgery (SSRF) Vulnerability",
-      "summary": "GitLab Community and Enterprise Editions contain a server-side request forgery vulnerability which could allow unauthorized external users to perform Server Side Requests via the CI Lint API.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "GitLab",
-      "product": "Community and Enterprise Editions",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-39935",
-      "published": "2026-02-03T00:00:00+00:00"
     }
   ]
 }
