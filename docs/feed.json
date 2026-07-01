@@ -1,47 +1,64 @@
 {
-  "generated": "2026-07-01T17:07:49.906264+00:00",
+  "generated": "2026-07-01T19:40:52.566268+00:00",
   "count": 250,
   "items": [
     {
-      "id": "e214d129fe293d5e",
+      "id": "a9886da492a3e011",
       "kind": "cve",
-      "cve": "CVE-2026-58127",
-      "title": "CVE-2026-58127",
-      "summary": "PACSgear MediaWriter 5.2.1 exposes a .NET Remoting TCP service on port 9000 via PacsgearMediaServerEngine.dll, registered with ObjectURIs RemoteObj and UIRemoteObj, without any authentication requirement. By exploiting the MarshalByRefObjec…",
-      "severity": "CRITICAL",
-      "score": 9.8,
+      "cve": "CVE-2026-49119",
+      "title": "CVE-2026-49119",
+      "summary": "Gradio before 6.16.0 contain a path traversal vulnerability in the FileExplorer component's preprocess() method that allows unauthenticated attackers to escape the configured root directory by supplying path segments containing directory tr…",
+      "severity": "HIGH",
+      "score": 7.5,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58127",
-      "published": "2026-07-01T16:16:51.417000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49119",
+      "published": "2026-07-01T19:16:52.463000+00:00"
     },
     {
-      "id": "7be001a169266d67",
-      "kind": "cve",
-      "cve": "CVE-2026-58126",
-      "title": "CVE-2026-58126",
-      "summary": "PACSgear PACS Scan 5.2.1 contains an unauthenticated remote code execution vulnerability that allows remote attackers to read and write arbitrary files by exploiting an exposed .NET Remoting TCP service on port 22222 via PGImageExchQueue.ex…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
+      "id": "cc5643d6fd20eea7",
+      "kind": "research",
+      "cve": null,
+      "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+      "summary": "Unknown threat actors are leveraging the ScreenConnect remote access tool as a way to deploy and execute AsyncRAT. Kaspersky said the activity is part of a \"massive, multi-domain, multi-language\" campaign that distributes malicious installe…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
       "tags": [
-        "NVD"
+        "NEWS"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58126",
-      "published": "2026-07-01T16:16:51.283000+00:00"
+      "url": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+      "published": "2026-07-01T17:53:06+00:00"
     },
     {
-      "id": "51aaf5f8b93f65f7",
+      "id": "798e82c5c8410826",
+      "kind": "research",
+      "cve": null,
+      "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
+      "summary": "Cybersecurity researchers have flagged a new multi-stage malware delivery attack chain that uses social engineering and Blogger pages to deliver an information stealer called PureLogs. The activity has been codenamed VEIL#DROP by Securonix.…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
+      "published": "2026-07-01T17:18:50+00:00"
+    },
+    {
+      "id": "afd736a36322cd7f",
       "kind": "cve",
-      "cve": "CVE-2026-57517",
-      "title": "CVE-2026-57517",
-      "summary": "Control Web Panel before 0.9.8.1225 contains a blind SQL injection vulnerability that allows unauthenticated remote attackers to execute arbitrary SQL queries by submitting unsanitized input through the userRes POST parameter at the user en…",
+      "cve": "CVE-2026-58453",
+      "title": "CVE-2026-58453",
+      "summary": "JAIOTlink C492A-W6 Wi-Fi IP cameras running firmware 4.8.30.57701411 contain a hard-coded credentials vulnerability that allows network-adjacent attackers to gain unauthorized access by using the default admin username with an empty passwor…",
       "severity": "CRITICAL",
       "score": 9.8,
       "source": "NVD",
@@ -50,8 +67,110 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57517",
-      "published": "2026-07-01T16:16:49.070000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58453",
+      "published": "2026-07-01T17:16:40.517000+00:00"
+    },
+    {
+      "id": "5413795adc834b9a",
+      "kind": "cve",
+      "cve": "CVE-2026-34114",
+      "title": "CVE-2026-34114",
+      "summary": "Guardian language-system passes the id GET parameter directly into a PHP exec() call in translate_text.php (line 18) without sanitization: exec(\\\"php jobs/translate_text.php \\\".$login_session.\\\" \\\".$_GET['id'].\\\" ...\\\"). No authentication i…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34114",
+      "published": "2026-07-01T17:16:34.780000+00:00"
+    },
+    {
+      "id": "d43a09deafe58c40",
+      "kind": "cve",
+      "cve": "CVE-2026-34108",
+      "title": "CVE-2026-34108",
+      "summary": "Guardian language-system passes the id GET parameter directly into a PHP exec() call in text.php (line 15) without sanitization: exec(\\\"php jobs/text.php \\\".$login_session.\\\" \\\".$_GET['id'].\\\" ...\\\"). No authentication is required. An unaut…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34108",
+      "published": "2026-07-01T17:16:33.970000+00:00"
+    },
+    {
+      "id": "e329f637bc2582ae",
+      "kind": "cve",
+      "cve": "CVE-2026-34106",
+      "title": "CVE-2026-34106",
+      "summary": "Guardian language-system passes the id GET parameter directly into a PHP exec() call in subtitles.php (line 19) without sanitization: exec(\\\"php jobs/subtitle_rendering.php \\\".$login_session.\\\" \\\".$_GET['id'].\\\" ...\\\"). No authentication is…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34106",
+      "published": "2026-07-01T17:16:33.657000+00:00"
+    },
+    {
+      "id": "ad602e3043f47100",
+      "kind": "cve",
+      "cve": "CVE-2026-34105",
+      "title": "CVE-2026-34105",
+      "summary": "Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in translate_text.php (line 15): SELECT id, filename, extension, type FROM files where id = '\\\".$_GET['id'].\\\"'. An authenticated attacker can perfo…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34105",
+      "published": "2026-07-01T17:16:33.537000+00:00"
+    },
+    {
+      "id": "7c71708b8a24fb5d",
+      "kind": "cve",
+      "cve": "CVE-2026-34100",
+      "title": "CVE-2026-34100",
+      "summary": "Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in media.php (line 17): SELECT id, filename, extension, type, duration, owner, private FROM files where id = '\\\".$_GET['id'].\\\"'. An authenticated a…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34100",
+      "published": "2026-07-01T17:16:32.940000+00:00"
+    },
+    {
+      "id": "410221a794c18dec",
+      "kind": "cve",
+      "cve": "CVE-2026-34099",
+      "title": "CVE-2026-34099",
+      "summary": "Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in job_info.php (line 16): SELECT * FROM jobs where id = '\\\".$_GET['id'].\\\"'. No authentication is required. An unauthenticated attacker can perform…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34099",
+      "published": "2026-07-01T17:16:32.820000+00:00"
     },
     {
       "id": "bd3327f476c4c725",
@@ -103,23 +222,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
       "published": "2026-07-01T15:25:46+00:00"
-    },
-    {
-      "id": "135d09aa9f656051",
-      "kind": "cve",
-      "cve": "CVE-2026-23537",
-      "title": "CVE-2026-23537",
-      "summary": "A vulnerability has been identified in the Feast Feature Server’s `/save-document` endpoint that allows an unauthenticated remote attacker to write arbitrary JSON files to the server's filesystem. Although the system attempts to restrict fi…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-23537",
-      "published": "2026-07-01T15:17:06.790000+00:00"
     },
     {
       "id": "b8258ddcc29d35fa",
@@ -188,23 +290,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
       "published": "2026-07-01T11:30:00+00:00"
-    },
-    {
-      "id": "8e347516c36eeb87",
-      "kind": "cve",
-      "cve": "CVE-2026-13228",
-      "title": "CVE-2026-13228",
-      "summary": "The LatePoint – Calendar Booking Plugin for Appointments and Events plugin for WordPress is vulnerable to Privilege Escalation to Administrator in versions up to, and including, 5.6.3 This is due to an Insecure Direct Object Reference (IDOR…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13228",
-      "published": "2026-07-01T11:16:25.377000+00:00"
     },
     {
       "id": "62fcb0eaf9bb85e2",
@@ -343,13 +428,64 @@
       "published": "2026-07-01T02:00:03+00:00"
     },
     {
+      "id": "093432cd2e7000cd",
+      "kind": "cve",
+      "cve": "CVE-2026-45659",
+      "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+      "summary": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "SharePoint Server",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45659",
+      "published": "2026-07-01T00:00:00+00:00"
+    },
+    {
+      "id": "9d88bc9d691ed2e1",
+      "kind": "cve",
+      "cve": "CVE-2026-13785",
+      "title": "CVE-2026-13785",
+      "summary": "Use after free in Bluetooth in Google Chrome on Mac prior to 150.0.7871.47 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially perform a sandbox escape via a crafted HTML page. (Chromium security…",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13785",
+      "published": "2026-06-30T23:16:53.347000+00:00"
+    },
+    {
+      "id": "dc1355dabc1e8681",
+      "kind": "cve",
+      "cve": "CVE-2026-13784",
+      "title": "CVE-2026-13784",
+      "summary": "Use after free in Views in Google Chrome prior to 150.0.7871.47 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Cr…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13784",
+      "published": "2026-06-30T23:16:53.253000+00:00"
+    },
+    {
       "id": "165391c22eed1688",
       "kind": "cve",
       "cve": "CVE-2026-13783",
       "title": "CVE-2026-13783",
       "summary": "Use after free in Views in Google Chrome prior to 150.0.7871.47 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Cr…",
-      "severity": "CRITICAL",
-      "score": 9.8,
+      "severity": "HIGH",
+      "score": 8.8,
       "source": "NVD",
       "tags": [
         "NVD"
@@ -409,6 +545,23 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13780",
       "published": "2026-06-30T23:16:52.873000+00:00"
+    },
+    {
+      "id": "aade6885f2c55c57",
+      "kind": "cve",
+      "cve": "CVE-2026-13777",
+      "title": "CVE-2026-13777",
+      "summary": "Insufficient validation of untrusted input in iOSWeb in Google Chrome on iOS prior to 150.0.7871.47 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13777",
+      "published": "2026-06-30T23:16:52.583000+00:00"
     },
     {
       "id": "2675f9a54098f387",
@@ -479,57 +632,6 @@
       "published": "2026-06-30T20:17:31.900000+00:00"
     },
     {
-      "id": "b6b218ccd0f1bd21",
-      "kind": "cve",
-      "cve": "CVE-2026-13772",
-      "title": "CVE-2026-13772",
-      "summary": "IBM WebSphere Extreme Scale 8.6.1.0 through 8.6.1.6 's Object Query Language engine resolves attacker-supplied class names via Class.forName() and invokes their constructors with no allow-list at three distinct sinks (SELECT NEW, enum liter…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13772",
-      "published": "2026-06-30T20:17:29.080000+00:00"
-    },
-    {
-      "id": "784a616f4cd8c668",
-      "kind": "cve",
-      "cve": "CVE-2026-11546",
-      "title": "CVE-2026-11546",
-      "summary": "IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 is affected by a server-side request forgery vulnerability with the adminCenter-1.0 feature enabled.",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11546",
-      "published": "2026-06-30T20:17:27.507000+00:00"
-    },
-    {
-      "id": "4e04495b31c95ba3",
-      "kind": "cve",
-      "cve": "CVE-2026-10129",
-      "title": "CVE-2026-10129",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.9.3 contains a Server-Side Request Forgery (SSRF) protection bypass vulnerability in the API Request component. An authenticated attacker with low-level privileges (flow author role) can bypass SSRF protecti…",
-      "severity": "HIGH",
-      "score": 8.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10129",
-      "published": "2026-06-30T20:17:26.747000+00:00"
-    },
-    {
       "id": "b577802c68fd64b5",
       "kind": "research",
       "cve": "CVE-2026-8451",
@@ -596,23 +698,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html",
       "published": "2026-06-30T17:45:25+00:00"
-    },
-    {
-      "id": "3697e0ba137c5922",
-      "kind": "cve",
-      "cve": "CVE-2026-48286",
-      "title": "CVE-2026-48286",
-      "summary": "Adobe Campaign Classic (ACC) versions 7.4.3 build 9396 and earlier are affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue does no…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48286",
-      "published": "2026-06-30T16:16:54.870000+00:00"
     },
     {
       "id": "87f96e566a2d0f54",
@@ -766,6 +851,57 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58116",
       "published": "2026-06-30T13:19:18.490000+00:00"
+    },
+    {
+      "id": "e961383d572aa02e",
+      "kind": "cve",
+      "cve": "CVE-2026-58016",
+      "title": "CVE-2026-58016",
+      "summary": "A flaw was found in GLib. A state confusion issue exists in g_dbus_node_info_new_for_xml() in the gio/gdbusintrospection.c file when processing malformed D-Bus introspection XML, specifically with a element nested within other elements like…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58016",
+      "published": "2026-06-30T13:19:17.840000+00:00"
+    },
+    {
+      "id": "668b5dccafca3c59",
+      "kind": "cve",
+      "cve": "CVE-2026-58015",
+      "title": "CVE-2026-58015",
+      "summary": "A flaw was found in GLib. The D-Bus client-side implementation of the DBUS_COOKIE_SHA1 SASL authentication mechanism does not validate the cookie_context parameter received from the server. A malicious D-Bus server can supply a cookie_conte…",
+      "severity": "MEDIUM",
+      "score": 5.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58015",
+      "published": "2026-06-30T13:19:17.707000+00:00"
+    },
+    {
+      "id": "293cfacdca18edff",
+      "kind": "cve",
+      "cve": "CVE-2026-58014",
+      "title": "CVE-2026-58014",
+      "summary": "A flaw was found in GLib. An off-by-one error can occur in the g_key_file_get_locale_string_list function in the gkeyfile.c file when loading a key file with an empty value. This flaw can cause an out-of-bounds access of 1 byte or a denial…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58014",
+      "published": "2026-06-30T13:19:17.580000+00:00"
     },
     {
       "id": "e7c70ed477c6e67f",
@@ -1429,40 +1565,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-modules-for-audiobookshelf-litellm-next-js-dalfox-and-more",
       "published": "2026-06-26T19:32:52+00:00"
-    },
-    {
-      "id": "263fc68bba2f9633",
-      "kind": "research",
-      "cve": null,
-      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
-      "summary": "A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on compromised hosts. Kaspersky, which is tracking th…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-      "published": "2026-06-26T18:17:46+00:00"
-    },
-    {
-      "id": "216b1b46491c69d2",
-      "kind": "research",
-      "cve": null,
-      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
-      "summary": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in Southeast Asia. The activity, particularl…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
-      "published": "2026-06-26T16:21:25+00:00"
     },
     {
       "id": "191a361067ed2878",
@@ -4162,108 +4264,6 @@
       "product": "",
       "url": "https://labs.watchtowr.com/buy-a-help-desk-bundle-a-remote-access-solution-solarwinds-web-help-desk-pre-auth-rce-chain-s/",
       "published": "2026-02-25T20:06:32+00:00"
-    },
-    {
-      "id": "bba422c63efcc64e",
-      "kind": "cve",
-      "cve": "CVE-2022-20775",
-      "title": "Cisco SD-WAN Path Traversal Vulnerability",
-      "summary": "Cisco SD-WAN CLI contains a path traversal vulnerability that could allow an authenticated local attacker to gain elevated privileges via improper access controls on commands within the application CLI. A successful exploit could allow the…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "SD-WAN",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-20775",
-      "published": "2026-02-25T00:00:00+00:00"
-    },
-    {
-      "id": "45ae526d49d93b05",
-      "kind": "cve",
-      "cve": "CVE-2026-20127",
-      "title": "Cisco Catalyst SD-WAN Controller and Manager Authentication Bypass Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, contain an authentication bypass vulnerability could allow an unauthenticated, remote attacker to bypass authentication an…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Controller and Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20127",
-      "published": "2026-02-25T00:00:00+00:00"
-    },
-    {
-      "id": "f14f6139db8be1f1",
-      "kind": "cve",
-      "cve": "CVE-2026-25108",
-      "title": "Soliton Systems K.K FileZen OS Command Injection Vulnerability",
-      "summary": "Soliton Systems K.K FileZen contains an OS command injection vulnerability when an user logs-in to the affected product and sends a specially crafted HTTP request.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Soliton Systems K.K",
-      "product": "FileZen",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25108",
-      "published": "2026-02-24T00:00:00+00:00"
-    },
-    {
-      "id": "87ac8a47973b4d39",
-      "kind": "cve",
-      "cve": "CVE-2025-49113",
-      "title": "RoundCube Webmail Deserialization of Untrusted Data Vulnerability",
-      "summary": "RoundCube Webmail contains a deserialization of untrusted data vulnerability that allows remote code execution by authenticated users because the _from parameter in a URL is not validated in program/actions/settings/upload.php.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Roundcube",
-      "product": "Webmail",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49113",
-      "published": "2026-02-20T00:00:00+00:00"
-    },
-    {
-      "id": "101e91e3c3b03000",
-      "kind": "cve",
-      "cve": "CVE-2025-68461",
-      "title": "RoundCube Webmail Cross-site Scripting Vulnerability",
-      "summary": "RoundCube Webmail contains a cross-site scripting vulnerability via the animate tag in an SVG document.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Roundcube",
-      "product": "Webmail",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68461",
-      "published": "2026-02-20T00:00:00+00:00"
-    },
-    {
-      "id": "30e2ef360c11e2ea",
-      "kind": "cve",
-      "cve": "CVE-2021-22175",
-      "title": "GitLab Server-Side Request Forgery (SSRF) Vulnerability",
-      "summary": "GitLab contains a server-side request forgery (SSRF) vulnerability when requests to the internal network for webhooks are enabled.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "GitLab",
-      "product": "GitLab",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22175",
-      "published": "2026-02-18T00:00:00+00:00"
     }
   ]
 }
