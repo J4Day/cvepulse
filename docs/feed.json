@@ -1,7 +1,109 @@
 {
-  "generated": "2026-07-01T19:40:52.566268+00:00",
+  "generated": "2026-07-01T21:19:36.603469+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "b6c8e77bf5ea3ec2",
+      "kind": "cve",
+      "cve": "CVE-2026-50521",
+      "title": "CVE-2026-50521",
+      "summary": "Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to execute code over a network.",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50521",
+      "published": "2026-07-01T21:17:03.037000+00:00"
+    },
+    {
+      "id": "fb96359a38fa554b",
+      "kind": "cve",
+      "cve": "CVE-2026-58593",
+      "title": "CVE-2026-58593",
+      "summary": "NodeBB does not bind the claimed author of an inbound ActivityPub object to the authenticated remote actor. The inbound middleware verifies the HTTP-signature actor and checks the origin of object.id, but never validates that attributedTo c…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58593",
+      "published": "2026-07-01T20:17:11.750000+00:00"
+    },
+    {
+      "id": "62bf0bd529db0b0d",
+      "kind": "cve",
+      "cve": "CVE-2026-58592",
+      "title": "CVE-2026-58592",
+      "summary": "Ladybird contains a dangling-reference memory-safety flaw in its WebAssembly ESM-integration module loader. When a JavaScript function is imported into a WebAssembly module via the ESM path, WebAssemblyModule.cpp passes a stack-local Wasm::…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58592",
+      "published": "2026-07-01T20:17:11.600000+00:00"
+    },
+    {
+      "id": "b2603a0e6324106d",
+      "kind": "cve",
+      "cve": "CVE-2026-58457",
+      "title": "CVE-2026-58457",
+      "summary": "Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02) contains an unauthenticated OS command injection vulnerability that allows network-adjacent attackers to execute arbitrary shell commands by injecting unsanitized input through the s…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58457",
+      "published": "2026-07-01T20:17:11.427000+00:00"
+    },
+    {
+      "id": "dd486a8c4b5d91d8",
+      "kind": "research",
+      "cve": null,
+      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
+      "summary": "Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv, w…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+      "published": "2026-07-01T19:40:06+00:00"
+    },
+    {
+      "id": "f32bd1d676096d46",
+      "kind": "research",
+      "cve": null,
+      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
+      "summary": "A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice&nbsp;announced&nbsp;on July 1. Peter St…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+      "published": "2026-07-01T19:28:07+00:00"
+    },
     {
       "id": "a9886da492a3e011",
       "kind": "cve",
@@ -1057,6 +1159,23 @@
       "published": "2026-06-29T19:24:54+00:00"
     },
     {
+      "id": "67f5af63f5c0f087",
+      "kind": "cve",
+      "cve": "CVE-2026-11720",
+      "title": "CVE-2026-11720",
+      "summary": "A path traversal vulnerability exists in the HTTP tool URL builder of googleapis/mcp-toolbox. When constructing downstream API requests, the URL builder substitutes user-controlled pathParams into the configured tool path and parses the res…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11720",
+      "published": "2026-06-29T18:16:36.173000+00:00"
+    },
+    {
       "id": "e8b5dacf82288dac",
       "kind": "cve",
       "cve": "CVE-2026-13752",
@@ -1514,40 +1633,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
       "published": "2026-06-27T17:27:11+00:00"
-    },
-    {
-      "id": "8fca0b79ae2b035d",
-      "kind": "research",
-      "cve": null,
-      "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
-      "summary": "OpenAI on Friday released three versions of GPT-5.6, called Sol, Terra, and Luna, as a limited preview to a small number of companies as part of an ongoing engagement with the U.S. government. While Sol is the latest flagship model and the…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
-      "published": "2026-06-27T12:19:37+00:00"
-    },
-    {
-      "id": "20c00d895ed3a911",
-      "kind": "research",
-      "cve": null,
-      "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
-      "summary": "The FBI and CISA have updated&nbsp;their March warning&nbsp;about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into handing over their Signal Backup Recovery Key. Hand it over onc…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-      "published": "2026-06-26T19:38:29+00:00"
     },
     {
       "id": "b99f1b731b1ae597",
@@ -4179,91 +4264,6 @@
       "product": "",
       "url": "https://labs.watchtowr.com/sometimes-you-can-just-feel-the-security-in-the-design-junos-os-evolved-cve-2026-21902-rce/",
       "published": "2026-03-03T14:15:18+00:00"
-    },
-    {
-      "id": "d17511983597eef0",
-      "kind": "cve",
-      "cve": "CVE-2026-22719",
-      "title": "Broadcom VMware Aria Operations Command Injection Vulnerability",
-      "summary": "Broadcom VMware Aria Operations formerly known as vRealize Operations (vROps) contains a command injection vulnerability that allows an unauthenticated attacker to execute arbitrary commands, potentially leading to remote code execution dur…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Broadcom",
-      "product": "VMware Aria Operations",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22719",
-      "published": "2026-03-03T00:00:00+00:00"
-    },
-    {
-      "id": "6c00c5f6f65f4aac",
-      "kind": "cve",
-      "cve": "CVE-2026-21385",
-      "title": "Qualcomm Multiple Chipsets Memory Corruption Vulnerability",
-      "summary": "Multiple Qualcomm chipsets contain a memory corruption vulnerability while using alignments for memory allocation.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Qualcomm",
-      "product": "Multiple Chipsets",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21385",
-      "published": "2026-03-03T00:00:00+00:00"
-    },
-    {
-      "id": "debc8ec6ce8d0a38",
-      "kind": "research",
-      "cve": null,
-      "title": "AI code review has come a long way, but it can’t catch everything",
-      "summary": "AI code review can reason about intent, but real incidents often stem from business logic flaws that only show up in runtime. Our benchmark reveals where code-only review falls short.",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/ai-code-review-vs-neo",
-      "published": "2026-02-26T22:23:42+00:00"
-    },
-    {
-      "id": "fff7a6b46d2a2f6d",
-      "kind": "research",
-      "cve": null,
-      "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
-      "summary": "In my previous blog post I mentioned the GetProcessHandleFromHwnd API. This was an API I didn’t know existed until I found a publicly disclosed UAC bypass using the Quick Assist UI Access application. This API looked interesting so I though…",
-      "severity": "",
-      "score": null,
-      "source": "Project Zero",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectzero.google/2026/02/gphfh-deep-dive.html",
-      "published": "2026-02-25T23:00:00+00:00"
-    },
-    {
-      "id": "e27911d64587eace",
-      "kind": "research",
-      "cve": null,
-      "title": "Buy A Help Desk, Bundle A Remote Access Solution? (SolarWinds Web Help Desk Pre-Auth RCE Chain(s))",
-      "summary": "It&#x2019;s been a while, but we&#x2019;re back - in time for story time. Gather round, strap in, and prepare for another depressing journey of &#x201c;all we wanted to do was reproduce an N-day, and here we are with 0-days&#x201d;. Today,…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/buy-a-help-desk-bundle-a-remote-access-solution-solarwinds-web-help-desk-pre-auth-rce-chain-s/",
-      "published": "2026-02-25T20:06:32+00:00"
     }
   ]
 }
