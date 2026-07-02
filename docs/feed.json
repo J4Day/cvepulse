@@ -1,24 +1,7 @@
 {
-  "generated": "2026-07-02T17:28:20.746603+00:00",
+  "generated": "2026-07-02T19:11:00.662446+00:00",
   "count": 250,
   "items": [
-    {
-      "id": "f823c9b362804e05",
-      "kind": "cve",
-      "cve": "CVE-2024-58352",
-      "title": "CVE-2024-58352",
-      "summary": "Landray OA contains an unauthenticated HQL injection vulnerability that allows unauthenticated attackers to query arbitrary Hibernate entity classes by injecting malicious HQL syntax into the uid POST parameter of the wechatLoginHelper.do e…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58352",
-      "published": "2026-07-02T17:16:57.557000+00:00"
-    },
     {
       "id": "ee38e08fd427c2b8",
       "kind": "cve",
@@ -649,6 +632,23 @@
       "published": "2026-07-01T00:00:00+00:00"
     },
     {
+      "id": "07b0a222cff22d09",
+      "kind": "cve",
+      "cve": "CVE-2026-56361",
+      "title": "CVE-2026-56361",
+      "summary": "ImageMagick before 7.1.2-19 contains an off-by-one error in morphology validation allowing out-of-bounds heap buffer reads. Attackers can trigger heap buffer overflow by providing incorrect morphology parameters causing single pixel memory…",
+      "severity": "LOW",
+      "score": 3.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56361",
+      "published": "2026-06-30T23:17:31.140000+00:00"
+    },
+    {
       "id": "4c1b7dee7e34326d",
       "kind": "cve",
       "cve": "CVE-2026-14120",
@@ -936,6 +936,193 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13774",
       "published": "2026-06-30T23:16:52.280000+00:00"
+    },
+    {
+      "id": "259ce350d3831782",
+      "kind": "cve",
+      "cve": "CVE-2026-11541",
+      "title": "CVE-2026-11541",
+      "summary": "IBM WebSphere Application Server 9.0, and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 are affected by an HTTP request smuggling vulnerability.",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11541",
+      "published": "2026-06-30T22:16:46.317000+00:00"
+    },
+    {
+      "id": "be68363faa041552",
+      "kind": "cve",
+      "cve": "CVE-2026-7663",
+      "title": "CVE-2026-7663",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.9.6 could allow unauthenticated attackers to access protected MCP project resources and execute MCP operations due to improper authorization enforcement in the Streamable MCP transport endpoint.",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7663",
+      "published": "2026-06-30T20:17:31.280000+00:00"
+    },
+    {
+      "id": "aad6b3e1ec469787",
+      "kind": "cve",
+      "cve": "CVE-2026-13773",
+      "title": "CVE-2026-13773",
+      "summary": "IBM WebSphere Extreme Scale 8.6.1.0 through 8.6.1.6 Approximately 50 generated CORBA stub classes in WebSphere eXtreme Scale's ogclient.jar call ORB.string_to_object() on an attacker-controlled IOR string during Java deserialization, turnin…",
+      "severity": "MEDIUM",
+      "score": 6.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13773",
+      "published": "2026-06-30T20:17:29.227000+00:00"
+    },
+    {
+      "id": "b6b218ccd0f1bd21",
+      "kind": "cve",
+      "cve": "CVE-2026-13772",
+      "title": "CVE-2026-13772",
+      "summary": "IBM WebSphere Extreme Scale 8.6.1.0 through 8.6.1.6 's Object Query Language engine resolves attacker-supplied class names via Class.forName() and invokes their constructors with no allow-list at three distinct sinks (SELECT NEW, enum liter…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13772",
+      "published": "2026-06-30T20:17:29.080000+00:00"
+    },
+    {
+      "id": "2bdc2aef9817263b",
+      "kind": "cve",
+      "cve": "CVE-2026-13759",
+      "title": "CVE-2026-13759",
+      "summary": "IBM WebSphere Extreme Scale 8.6.1.0 through 8.6.1.6 ships three ObjectInputStream subclasses (WsObjectInputStream, ObjectStreamPool$ReusableInputStream, ObjectInputStreamResolver) that install no JEP-290 class filter; when Coherence is on t…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13759",
+      "published": "2026-06-30T20:17:28.953000+00:00"
+    },
+    {
+      "id": "47e8438de134f12d",
+      "kind": "cve",
+      "cve": "CVE-2026-13449",
+      "title": "CVE-2026-13449",
+      "summary": "IBM Business Automation Manager Open Editions 9.0.0 through 9.4.2 is vulnerable to an XML external entity injection (XXE) attack when processing XML data. A remote attacker could exploit this vulnerability to expose sensitive information or…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13449",
+      "published": "2026-06-30T20:17:28.820000+00:00"
+    },
+    {
+      "id": "ef7bd8a5843b4917",
+      "kind": "cve",
+      "cve": "CVE-2026-12084",
+      "title": "CVE-2026-12084",
+      "summary": "IBM UCD - IBM DevOps Deploy 8.1 through 8.1.2.6, and 8.2 through 8.2.1.0 uses Cross-Origin Resource Sharing (CORS) which could allow an attacker to carry out privileged actions and retrieve sensitive information as the domain name is not be…",
+      "severity": "MEDIUM",
+      "score": 5.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12084",
+      "published": "2026-06-30T20:17:28.420000+00:00"
+    },
+    {
+      "id": "2a9d3cdb6d8a4285",
+      "kind": "cve",
+      "cve": "CVE-2026-11806",
+      "title": "CVE-2026-11806",
+      "summary": "IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.6 is affected by an arbitrary file read vulnerability with the restConnector-2.0 feature enabled.",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11806",
+      "published": "2026-06-30T20:17:28.157000+00:00"
+    },
+    {
+      "id": "0941cd77deff8acb",
+      "kind": "cve",
+      "cve": "CVE-2026-11714",
+      "title": "CVE-2026-11714",
+      "summary": "IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 is affected by a server-side request forgery vulnerability with the apiDiscovery-1.0 feature enabled.",
+      "severity": "HIGH",
+      "score": 8.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11714",
+      "published": "2026-06-30T20:17:28.033000+00:00"
+    },
+    {
+      "id": "471134b2f5ffb462",
+      "kind": "cve",
+      "cve": "CVE-2026-11595",
+      "title": "CVE-2026-11595",
+      "summary": "IBM WebSphere Application Server 9.0, and 8.5 could allow a remote attacker to obtain sensitive information from the administrative console's integrated help system.",
+      "severity": "MEDIUM",
+      "score": 4.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11595",
+      "published": "2026-06-30T20:17:27.630000+00:00"
+    },
+    {
+      "id": "784a616f4cd8c668",
+      "kind": "cve",
+      "cve": "CVE-2026-11546",
+      "title": "CVE-2026-11546",
+      "summary": "IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 is affected by a server-side request forgery vulnerability with the adminCenter-1.0 feature enabled.",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11546",
+      "published": "2026-06-30T20:17:27.507000+00:00"
     },
     {
       "id": "8a3ecfe3ac19c677",
@@ -1242,6 +1429,57 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58014",
       "published": "2026-06-30T13:19:17.580000+00:00"
+    },
+    {
+      "id": "d3ca0cbb72707c82",
+      "kind": "cve",
+      "cve": "CVE-2026-58010",
+      "title": "CVE-2026-58010",
+      "summary": "A flaw was found in GLib. An off-by-one error can occur in the gvs_tuple_is_normal function in the glib/gvariant-serialiser.c file when doing an alignment padding check because the bounds check uses > instead of >=, causing an out-of-bounds…",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58010",
+      "published": "2026-06-30T13:19:17.067000+00:00"
+    },
+    {
+      "id": "4b1f90aa1b6b7a2f",
+      "kind": "cve",
+      "cve": "CVE-2026-53433",
+      "title": "CVE-2026-53433",
+      "summary": "fzf is vulnerable to a Denial of Service (DoS) due to inefficient HTTP body processing in the --listen mode due to inefficient HTTP body processing using repeated string concatenation, resulting in quadratic time complexity (O(n²)). A craft…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53433",
+      "published": "2026-06-30T13:19:13.407000+00:00"
+    },
+    {
+      "id": "1b6577befdf3ccba",
+      "kind": "cve",
+      "cve": "CVE-2026-53432",
+      "title": "CVE-2026-53432",
+      "summary": "fzf is vulnerable to Integer Overflow leading to crash in FuzzyMatchV2 function. When input line length is approximately 2,200,000 bytes and pattern length is 999 bytes, the product overflows. The Go runtime detects the invalid slice bounds…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53432",
+      "published": "2026-06-30T13:19:13.290000+00:00"
     },
     {
       "id": "a71c8fbfad2dd23a",
@@ -1565,6 +1803,23 @@
       "product": "",
       "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
       "published": "2026-06-29T15:30:00+00:00"
+    },
+    {
+      "id": "1cc4d9c1d6d3a6d2",
+      "kind": "cve",
+      "cve": "CVE-2026-56290",
+      "title": "CVE-2026-56290",
+      "summary": "The Joomla extension Page Builder CK is vulnerable to an unauthenticated arbitrary file upload that allows uploading executable files and leads to full RCE.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56290",
+      "published": "2026-06-29T15:16:42.360000+00:00"
     },
     {
       "id": "82bb09c5f1913c35",
@@ -4008,262 +4263,6 @@
       "product": "",
       "url": "https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746/",
       "published": "2026-03-19T20:21:07+00:00"
-    },
-    {
-      "id": "7f0968150566566b",
-      "kind": "cve",
-      "cve": "CVE-2026-20131",
-      "title": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management Deserialization of Untrusted Data Vulnerability",
-      "summary": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain a deserialization of untrusted data vulnerability in the web-based management interface that could allow an unauthenti…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Cisco",
-      "product": "Secure Firewall Management Center (FMC)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20131",
-      "published": "2026-03-19T00:00:00+00:00"
-    },
-    {
-      "id": "75d02899387c1a5f",
-      "kind": "research",
-      "cve": null,
-      "title": "The Most Organized Threat Actors Use Your ITSM (BMC FootPrints Pre-Auth Remote Code Execution Chains)",
-      "summary": "SolarWinds. Ivanti. SysAid. ManageEngine. Giants of the KEV world, all of whom have ITSM side-projects. ITSMs, as a group of solutions, have played pivotal roles in numerous ransomware gang campaigns - not only do they represent code runnin…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/thanks-itsms-threat-actors-have-never-been-so-organized-bmc-footprints-pre-auth-remote-code-execution-chains/",
-      "published": "2026-03-18T10:02:49+00:00"
-    },
-    {
-      "id": "d0f06e02cae26e15",
-      "kind": "cve",
-      "cve": "CVE-2025-66376",
-      "title": "Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting Vulnerability",
-      "summary": "Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability in the Classic UI where attackers could abuse Cascading Style Sheets (CSS) @import directives in email HTML.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Synacor",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66376",
-      "published": "2026-03-18T00:00:00+00:00"
-    },
-    {
-      "id": "365a22db3792b208",
-      "kind": "cve",
-      "cve": "CVE-2026-20963",
-      "title": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20963",
-      "published": "2026-03-18T00:00:00+00:00"
-    },
-    {
-      "id": "5390e1856c97d0f5",
-      "kind": "cve",
-      "cve": "CVE-2025-47813",
-      "title": "Wing FTP Server Information Disclosure Vulnerability",
-      "summary": "Wing FTP Server contains a generation of error message containing sensitive information vulnerability when using a long value in the UID cookie.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Wing FTP Server",
-      "product": "Wing FTP Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47813",
-      "published": "2026-03-16T00:00:00+00:00"
-    },
-    {
-      "id": "20ccd0762d40ed83",
-      "kind": "cve",
-      "cve": "CVE-2026-3910",
-      "title": "Google Chromium V8 Improper Restriction of Operations Within the Bounds of a Memory Buffer Vulnerability",
-      "summary": "Google Chromium V8 contains an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability c…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Chromium V8",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3910",
-      "published": "2026-03-13T00:00:00+00:00"
-    },
-    {
-      "id": "39d93a6907c9dfa3",
-      "kind": "cve",
-      "cve": "CVE-2026-3909",
-      "title": "Google Skia Out-of-Bounds Write Vulnerability",
-      "summary": "Google Skia contains an out-of-bounds write vulnerability that could allow a remote attacker to perform out of bounds memory access via a crafted HTML page. This vulnerability affects Google Chrome and ChromeOS, Android, Flutter, and possib…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Skia",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3909",
-      "published": "2026-03-13T00:00:00+00:00"
-    },
-    {
-      "id": "390105cc44573965",
-      "kind": "research",
-      "cve": null,
-      "title": "Inside the benchmark: app architectures, walkthroughs of findings, and what each scanner actually caught",
-      "summary": "This is Part 2 of our vibe coding security benchmark study. In Part 1, we compared how LLM-based security tools like ProjectDiscovery's Neo and Claude Code performed against traditional SAST and DAST scanners on AI-generated code. We found…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/inside-the-benchmark-pp-architectures-finding-walkthroughs-and-what-each-scanner-actually-caught",
-      "published": "2026-03-11T16:59:28+00:00"
-    },
-    {
-      "id": "a7006a63fb1d042e",
-      "kind": "cve",
-      "cve": "CVE-2025-68613",
-      "title": "n8n Improper Control of Dynamically-Managed Code Resources Vulnerability",
-      "summary": "n8n contains an improper control of dynamically managed code resources vulnerability in its workflow expression evaluation system that allows for remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "n8n",
-      "product": "n8n",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68613",
-      "published": "2026-03-11T00:00:00+00:00"
-    },
-    {
-      "id": "5689299d5624fb5e",
-      "kind": "cve",
-      "cve": "CVE-2021-22054",
-      "title": "Omnissa Workspace ONE Server-Side Request Forgery",
-      "summary": "Omnissa Workspace One UEM formerly known as VMware Workspace One UEM contains a server-side request forgery (SSRF) vulnerability that could allow a malicious actor with network access to UEM to send their requests without authentication and…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Omnissa",
-      "product": "Workspace One UEM",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22054",
-      "published": "2026-03-09T00:00:00+00:00"
-    },
-    {
-      "id": "caf7a2fa9adaec5c",
-      "kind": "cve",
-      "cve": "CVE-2025-26399",
-      "title": "SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability",
-      "summary": "SolarWinds Web Help Desk contain a deserialization of untrusted data vulnerability in AjaxProxy that could allow an attacker to run commands on the host machine.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "SolarWinds",
-      "product": "Web Help Desk",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26399",
-      "published": "2026-03-09T00:00:00+00:00"
-    },
-    {
-      "id": "7171d40991ff67ac",
-      "kind": "cve",
-      "cve": "CVE-2026-1603",
-      "title": "Ivanti Endpoint Manager (EPM) Authentication Bypass Vulnerability",
-      "summary": "Ivanti Endpoint Manager (EPM) contains an authentication bypass using an alternate path or channel vulnerability that could allow a remote unauthenticated attacker to leak specific stored credential data.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": " Endpoint Manager (EPM)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1603",
-      "published": "2026-03-09T00:00:00+00:00"
-    },
-    {
-      "id": "d43d9d46882028a6",
-      "kind": "cve",
-      "cve": "CVE-2017-7921",
-      "title": "Hikvision Multiple Products Improper Authentication Vulnerability",
-      "summary": "Multiple Hikvision products contain an improper authentication vulnerability that could allow a malicious user to escalate privileges on the system and gain access to sensitive information.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Hikvision",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7921",
-      "published": "2026-03-05T00:00:00+00:00"
-    },
-    {
-      "id": "b6fa53adcbe09ee5",
-      "kind": "cve",
-      "cve": "CVE-2021-22681",
-      "title": "Rockwell Multiple Products Insufficient Protected Credentials Vulnerability",
-      "summary": "Multiple Rockwell products contain an insufficient protected credentials vulnerability. Studio 5000 Logix Designer software may allow a key to be discovered. This key is used to verify Logix controllers are communicating with Rockwell Autom…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Rockwell",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22681",
-      "published": "2026-03-05T00:00:00+00:00"
-    },
-    {
-      "id": "81261aaa06e04390",
-      "kind": "cve",
-      "cve": "CVE-2023-43000",
-      "title": "Apple Multiple products Use-After-Free Vulnerability",
-      "summary": "Apple macOS, iOS, iPadOS, and Safari 16.6 contain a use-after-free vulnerability due to the processing of maliciously crafted web content that may lead to memory corruption.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-43000",
-      "published": "2026-03-05T00:00:00+00:00"
     }
   ]
 }
