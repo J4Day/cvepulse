@@ -1,7 +1,296 @@
 {
-  "generated": "2026-07-04T02:01:47.567377+00:00",
+  "generated": "2026-07-04T06:11:28.903069+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "7eff3f7d906f7d01",
+      "kind": "cve",
+      "cve": "CVE-2025-71380",
+      "title": "CVE-2025-71380",
+      "summary": "The Execute Command node in n8n allows authenticated users to execute arbitrary commands on the host system where n8n runs. Attackers with user access or compromised credentials can exploit this node to run malicious commands, potentially l…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71380",
+      "published": "2026-07-04T02:16:23.477000+00:00"
+    },
+    {
+      "id": "3fb45b3782220dad",
+      "kind": "cve",
+      "cve": "CVE-2025-71375",
+      "title": "CVE-2025-71375",
+      "summary": "picklescan before 0.0.34 fails to detect the _operator.methodcaller built-in function when scanning pickle files for malicious code. Attackers can craft malicious pickle payloads using _operator.methodcaller that evade detection and execute…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71375",
+      "published": "2026-07-04T02:16:23.347000+00:00"
+    },
+    {
+      "id": "00ccb1af31e285f9",
+      "kind": "cve",
+      "cve": "CVE-2025-71373",
+      "title": "CVE-2025-71373",
+      "summary": "picklescan before 0.0.33 fails to detect operator.methodcaller function calls in pickle files, allowing attackers to bypass security checks. Remote attackers can craft malicious pickle payloads using operator.methodcaller that execute arbit…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71373",
+      "published": "2026-07-04T02:16:23.220000+00:00"
+    },
+    {
+      "id": "d13fb2f98bdf3c6d",
+      "kind": "cve",
+      "cve": "CVE-2025-71372",
+      "title": "CVE-2025-71372",
+      "summary": "Picklescan before 0.0.33 fails to detect the numpy.f2py.crackfortran.getlincoef gadget in pickle __reduce__ methods, allowing arbitrary code execution. Attackers can craft malicious pickle files that execute arbitrary Python code when loade…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71372",
+      "published": "2026-07-04T02:16:23.097000+00:00"
+    },
+    {
+      "id": "4ce522cd98e014a0",
+      "kind": "cve",
+      "cve": "CVE-2025-71369",
+      "title": "CVE-2025-71369",
+      "summary": "picklescan before 0.0.28 fails to detect malicious pickle files that use torch.utils.data.datapipes.utils.decoder.basichandlers in reduce methods, allowing attackers to bypass safety checks. Remote attackers can embed undetected malicious c…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71369",
+      "published": "2026-07-04T02:16:22.963000+00:00"
+    },
+    {
+      "id": "c52c1fe3fe3593fd",
+      "kind": "cve",
+      "cve": "CVE-2025-71367",
+      "title": "CVE-2025-71367",
+      "summary": "picklescan before 0.0.34 fails to detect _operator.attrgetter function calls in pickle payloads, allowing attackers to bypass security checks. Remote attackers can craft malicious pickle files using _operator.attrgetter in reduce methods to…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71367",
+      "published": "2026-07-04T02:16:22.833000+00:00"
+    },
+    {
+      "id": "170a68353249f4a7",
+      "kind": "cve",
+      "cve": "CVE-2025-71366",
+      "title": "CVE-2025-71366",
+      "summary": "picklescan before 0.0.28 fails to detect malicious torch.utils.bottleneck.__main__.run_cprofile function calls in pickle files, allowing attackers to bypass safety checks. Remote attackers can embed undetected code in pickle files to achiev…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71366",
+      "published": "2026-07-04T02:16:22.707000+00:00"
+    },
+    {
+      "id": "c78e1e46c01087db",
+      "kind": "cve",
+      "cve": "CVE-2025-71364",
+      "title": "CVE-2025-71364",
+      "summary": "picklescan before 0.0.30 fails to detect the asyncio.unix_events._UnixSubprocessTransport._start function in pickle reduce methods, allowing remote code execution. Attackers can craft malicious pickle files embedding this built-in function…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71364",
+      "published": "2026-07-04T02:16:22.583000+00:00"
+    },
+    {
+      "id": "11c67e21d7a710a4",
+      "kind": "cve",
+      "cve": "CVE-2025-71362",
+      "title": "CVE-2025-71362",
+      "summary": "picklescan before 0.0.33 fails to detect unsafe deserialization when numpy.f2py.crackfortran functions call eval on arbitrary strings. Attackers can embed malicious code in pickle files that executes when loaded from untrusted sources.",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71362",
+      "published": "2026-07-04T02:16:22.457000+00:00"
+    },
+    {
+      "id": "ae92b1d0bbbe3202",
+      "kind": "cve",
+      "cve": "CVE-2025-71360",
+      "title": "CVE-2025-71360",
+      "summary": "picklescan before 0.0.29 fails to detect malicious pickle files using idlelib.calltip.get_entity function in reduce methods. Attackers can embed undetected code in pickle files that executes remote commands when loaded by victims.",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71360",
+      "published": "2026-07-04T02:16:22.327000+00:00"
+    },
+    {
+      "id": "d3ec951b569de8bd",
+      "kind": "cve",
+      "cve": "CVE-2025-71359",
+      "title": "CVE-2025-71359",
+      "summary": "picklescan before 0.0.29 fails to detect malicious pickle payloads that utilize lib2to3.pgen2.grammar.Grammar.loads in the reduce method, allowing remote code execution. Attackers can craft pickle files embedding dangerous code that evades…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71359",
+      "published": "2026-07-04T02:16:22.197000+00:00"
+    },
+    {
+      "id": "1b6d1a1f2dfd862d",
+      "kind": "cve",
+      "cve": "CVE-2025-71356",
+      "title": "CVE-2025-71356",
+      "summary": "picklescan before 0.0.28 fails to detect malicious torch.fx.experimental.symbolic_shapes.ShapeEnv.evaluate_guards_expression function calls in pickle files. Attackers can embed undetected code in pickle files that executes remote code when…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71356",
+      "published": "2026-07-04T02:16:22.063000+00:00"
+    },
+    {
+      "id": "ef3cc5638ddf0947",
+      "kind": "cve",
+      "cve": "CVE-2025-71353",
+      "title": "CVE-2025-71353",
+      "summary": "picklescan before 0.0.28 fails to detect malicious pickle files that exploit torch._dynamo.guards.GuardBuilder.get function in reduce methods. Attackers can craft pickle files with embedded code that evades picklescan detection and executes…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71353",
+      "published": "2026-07-04T02:16:21.933000+00:00"
+    },
+    {
+      "id": "68d7c8e51421ccb7",
+      "kind": "cve",
+      "cve": "CVE-2025-71347",
+      "title": "CVE-2025-71347",
+      "summary": "picklescan before 0.0.33 fails to detect malicious pickle files using numpy.f2py.crackfortran.param_eval function in reduce methods, allowing attackers to bypass security checks. Remote attackers can embed undetected code in pickle files th…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71347",
+      "published": "2026-07-04T02:16:21.803000+00:00"
+    },
+    {
+      "id": "5d2fcb44935109e8",
+      "kind": "cve",
+      "cve": "CVE-2025-71345",
+      "title": "CVE-2025-71345",
+      "summary": "picklescan before 0.0.30 fails to detect malicious pickle files that invoke torch.utils.bottleneck.__main__.run_autograd_prof function. Attackers can embed undetected code in pickle files that executes during deserialization, enabling remot…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71345",
+      "published": "2026-07-04T02:16:21.670000+00:00"
+    },
+    {
+      "id": "1de1b73f3b95d273",
+      "kind": "cve",
+      "cve": "CVE-2025-71343",
+      "title": "CVE-2025-71343",
+      "summary": "picklescan before 0.0.30 fails to detect malicious pickle files that exploit lib2to3.pgen2.pgen.ParserGenerator.make_label function in the reduce method. Attackers can craft malicious pickle files with embedded code that evades detection bu…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71343",
+      "published": "2026-07-04T02:16:21.527000+00:00"
+    },
+    {
+      "id": "60968cc2a2920821",
+      "kind": "cve",
+      "cve": "CVE-2025-71342",
+      "title": "CVE-2025-71342",
+      "summary": "picklescan before 0.0.30 fails to detect malicious pickle files using idlelib.run.Executive.runcode in reduce methods. Attackers can embed undetected code in pickle files that executes during pickle.load, enabling remote code execution in P…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71342",
+      "published": "2026-07-04T02:16:21.387000+00:00"
+    },
     {
       "id": "521c1ca1f392dd77",
       "kind": "research",
@@ -3974,295 +4263,6 @@
       "product": "Exchange Server",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-21529",
       "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "21401c204ece54d3",
-      "kind": "cve",
-      "cve": "CVE-2023-36424",
-      "title": "Microsoft Windows Out-of-Bounds Read Vulnerability",
-      "summary": "Microsoft Windows Common Log File System Driver contains an out-of-bounds read vulnerability that could allow a threat actor for privileges escalation",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36424",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "78f8c3aacb7e266f",
-      "kind": "cve",
-      "cve": "CVE-2020-9715",
-      "title": "Adobe Acrobat Use-After-Free Vulnerability",
-      "summary": "Adobe Acrobat contains a use-after-free vulnerability that allows for code execution",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "Acrobat",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9715",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "13aa74940323fbad",
-      "kind": "cve",
-      "cve": "CVE-2026-21643",
-      "title": "Fortinet FortiClient EMS SQL Injection Vulnerability",
-      "summary": "Fortinet FortiClient EMS contains a SQL injection vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Fortinet",
-      "product": "FortiClient EMS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21643",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "73ed99865ae84a24",
-      "kind": "cve",
-      "cve": "CVE-2026-34621",
-      "title": "Adobe Acrobat and Reader Prototype Pollution Vulnerability",
-      "summary": "Adobe Acrobat and Reader contain a prototype pollution vulnerability that allows for arbitrary code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "Acrobat and Reader",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34621",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "2e66d67660ffd4c5",
-      "kind": "research",
-      "cve": null,
-      "title": "How We Cut LLM Costs by 59% With Prompt Caching",
-      "summary": "At ProjectDiscovery, we've been building Neo, an autonomous security testing platform that runs multi-agent, multi-step workflows, routinely executing 20-40+ LLM steps per task. Vulnerability assessments, code reviews, and security audits a…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/how-we-cut-llm-cost-with-prompt-caching",
-      "published": "2026-04-10T02:42:06+00:00"
-    },
-    {
-      "id": "17679c484b80ed01",
-      "kind": "cve",
-      "cve": "CVE-2026-1340",
-      "title": "Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
-      "summary": "Ivanti Endpoint Manager Mobile (EPMM) contains a code injection vulnerability that could allow attackers to achieve unauthenticated remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": "Endpoint Manager Mobile (EPMM)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1340",
-      "published": "2026-04-08T00:00:00+00:00"
-    },
-    {
-      "id": "1417f73c0b73b926",
-      "kind": "cve",
-      "cve": "CVE-2026-35616",
-      "title": "Fortinet FortiClient EMS Improper Access Control Vulnerability",
-      "summary": "Fortinet FortiClient EMS contains an improper access control vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Fortinet",
-      "product": "FortiClient EMS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35616",
-      "published": "2026-04-06T00:00:00+00:00"
-    },
-    {
-      "id": "0f635b841fd7ca28",
-      "kind": "research",
-      "cve": "CVE-2026-2699",
-      "title": "You’re Not Supposed To ShareFile With Everyone (Progress ShareFile Pre-Auth RCE Chain CVE-2026-2699 & CVE-2026-2701)",
-      "summary": "If you squint and look at the CISA KEV list, you might think it&apos;s made up exclusively of vulnerabilities in file transfer solutions. While this would be wrong (and you shouldn&#x2019;t squint, it&#x2019;s bad for your eyes), file trans…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701/",
-      "published": "2026-04-02T10:00:42+00:00"
-    },
-    {
-      "id": "f17a42e52a515e6d",
-      "kind": "cve",
-      "cve": "CVE-2026-3502",
-      "title": "TrueConf Client Download of Code Without Integrity Check Vulnerability",
-      "summary": "TrueConf Client contains a download of code without integrity check vulnerability. An attacker who is able to influence the update delivery path can substitute a tampered update payload. If the payload is executed or installed by the update…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "TrueConf",
-      "product": "Client",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3502",
-      "published": "2026-04-02T00:00:00+00:00"
-    },
-    {
-      "id": "1f9385bb0c9a3f02",
-      "kind": "cve",
-      "cve": "CVE-2026-5281",
-      "title": "Google Dawn Use-After-Free Vulnerability",
-      "summary": "Google Dawn contains an use-after-free vulnerability that could allow a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. This vulnerability could affect multiple Chromium-based prod…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Dawn",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5281",
-      "published": "2026-04-01T00:00:00+00:00"
-    },
-    {
-      "id": "42ff17315a3bcdc5",
-      "kind": "cve",
-      "cve": "CVE-2026-3055",
-      "title": "Citrix NetScaler Out-of-Bounds Read Vulnerability",
-      "summary": "Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3055",
-      "published": "2026-03-30T00:00:00+00:00"
-    },
-    {
-      "id": "892cc8ea298160be",
-      "kind": "research",
-      "cve": "CVE-2026-3055",
-      "title": "Please, We Beg, Just One Weekend Free Of Appliances (Citrix NetScaler CVE-2026-3055 Memory Overread Part 2)",
-      "summary": "Today, we woke up with a nagging feeling: what if Citrix had, in fact, patched multiple Memory Overread vulnerabilities as part of CVE-2026-3055? While we&apos;ve been using our analysis from Part 1 (please read it first, as this post will…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/please-we-beg-just-one-weekend-free-of-appliances-citrix-netscaler-cve-2026-3055-memory-overread-part-2/",
-      "published": "2026-03-29T20:07:28+00:00"
-    },
-    {
-      "id": "b782f35797f57674",
-      "kind": "research",
-      "cve": "CVE-2026-3055",
-      "title": "The Sequels Are Never As Good, But We're Still In Pain (Citrix NetScaler CVE-2026-3055 Memory Overread)",
-      "summary": "Sequels? Pain? We&apos;re obviously talking about Citrix NetScalers, yet again. Welcome back to another watchTowr Labs blog post - pull up a chair, we always welcome new members to our group therapy sessions. If you asked a C programmer wha…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/the-sequels-are-never-as-good-but-were-still-in-pain-citrix-netscaler-cve-2026-3055-memory-overread/",
-      "published": "2026-03-28T20:39:56+00:00"
-    },
-    {
-      "id": "a3914a98347b1572",
-      "kind": "cve",
-      "cve": "CVE-2025-53521",
-      "title": "F5 BIG-IP Stack-Based Buffer Overflow Vulnerability",
-      "summary": "F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "F5",
-      "product": "BIG-IP",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53521",
-      "published": "2026-03-27T00:00:00+00:00"
-    },
-    {
-      "id": "cccb856c0b77013c",
-      "kind": "cve",
-      "cve": "CVE-2026-33634",
-      "title": "Aquasecurity Trivy Embedded Malicious Code Vulnerability",
-      "summary": "Aquasecurity Trivy contains an embedded malicious code vulnerability that could allow an attacker to gain access to everything in the CI/CD environment, including all tokens, SSH keys, cloud credentials, database passwords, and any sensitiv…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Aquasecurity",
-      "product": "Trivy",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33634",
-      "published": "2026-03-26T00:00:00+00:00"
-    },
-    {
-      "id": "0d4cc919ccbfb875",
-      "kind": "cve",
-      "cve": "CVE-2026-33017",
-      "title": "Langflow Code Injection Vulnerability",
-      "summary": "Langflow contains a code injection vulnerability that could allow building public flows without requiring authentication.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33017",
-      "published": "2026-03-25T00:00:00+00:00"
-    },
-    {
-      "id": "b41432a76fcfde16",
-      "kind": "research",
-      "cve": null,
-      "title": "Beyond the Model: Neo Hunts, Exploits, and Proves 22 Zero-Days.",
-      "summary": "LLMs are a genuine leap forward for vulnerability discovery. Anthropic reported 500+ zero-days from Opus 4.6 and OpenAI's Codex Security discovered 14 CVEs across projects like OpenSSH and GnuTLS. If you've experimented with LLMs for securi…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/everyone-is-finding-vulns-the-hard-part-is-proving-them",
-      "published": "2026-03-20T16:14:10+00:00"
     }
   ]
 }
