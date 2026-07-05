@@ -1,7 +1,24 @@
 {
-  "generated": "2026-07-04T23:54:22.843438+00:00",
+  "generated": "2026-07-05T02:09:54.641609+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "d963961e47a4919a",
+      "kind": "cve",
+      "cve": "CVE-2026-14688",
+      "title": "CVE-2026-14688",
+      "summary": "A vulnerability was identified in itsourcecode Online Hotel Management System 1.0. The affected element is an unknown function of the file /admin/login.php. The manipulation of the argument email leads to sql injection. The attack may be in…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14688",
+      "published": "2026-07-05T01:21:57.917000+00:00"
+    },
     {
       "id": "d44bdfc932bf313f",
       "kind": "cve",
@@ -1856,23 +1873,6 @@
       "published": "2026-07-02T02:00:02+00:00"
     },
     {
-      "id": "b2603a0e6324106d",
-      "kind": "cve",
-      "cve": "CVE-2026-58457",
-      "title": "CVE-2026-58457",
-      "summary": "Shenzhen Aitemi M300 Wi-Fi Repeater (hardware model MT02) contains an unauthenticated OS command injection vulnerability that allows network-adjacent attackers to execute arbitrary shell commands by injecting unsanitized input through the s…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58457",
-      "published": "2026-07-01T20:17:11.427000+00:00"
-    },
-    {
       "id": "dd486a8c4b5d91d8",
       "kind": "research",
       "cve": null,
@@ -1907,57 +1907,6 @@
       "published": "2026-07-01T19:28:07+00:00"
     },
     {
-      "id": "1b6f60a6c74fc41c",
-      "kind": "cve",
-      "cve": "CVE-2026-53492",
-      "title": "CVE-2026-53492",
-      "summary": "containerd is an open-source container runtime. In Versions prior to 2.3.2, 2.2.5 and 2.1.9, the CRI implementation improperly trusts Container Device Interface (CDI) annotations found within untrusted checkpoint image metadata during conta…",
-      "severity": "CRITICAL",
-      "score": 9.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53492",
-      "published": "2026-07-01T19:16:54.510000+00:00"
-    },
-    {
-      "id": "8604c0056afb6da5",
-      "kind": "cve",
-      "cve": "CVE-2026-50195",
-      "title": "CVE-2026-50195",
-      "summary": "containerd is an open-source container runtime. Versions prior to 2.3.2, 2.2.5 and 2.1.9 contain a vulnerability in the CRI checkpoint import process where it fails to validate the image references specified within a checkpoint image's conf…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50195",
-      "published": "2026-07-01T19:16:53.333000+00:00"
-    },
-    {
-      "id": "b6f647a6929f7fe4",
-      "kind": "cve",
-      "cve": "CVE-2026-46680",
-      "title": "CVE-2026-46680",
-      "summary": "containerd is an open-source container runtime. In versions prior to 1.7.32, 2.0.9, 2.2.4 and 2.3.1, containers launched with a numeric User directive that cannot be parsed as a 32-bit integer are incorrectly treated as a username, leading…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46680",
-      "published": "2026-07-01T18:16:32.853000+00:00"
-    },
-    {
       "id": "cc5643d6fd20eea7",
       "kind": "research",
       "cve": null,
@@ -1990,57 +1939,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
       "published": "2026-07-01T17:18:50+00:00"
-    },
-    {
-      "id": "afd736a36322cd7f",
-      "kind": "cve",
-      "cve": "CVE-2026-58453",
-      "title": "CVE-2026-58453",
-      "summary": "JAIOTlink C492A-W6 Wi-Fi IP cameras running firmware 4.8.30.57701411 contain a hard-coded credentials vulnerability that allows network-adjacent attackers to gain unauthorized access by using the default admin username with an empty passwor…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58453",
-      "published": "2026-07-01T17:16:40.517000+00:00"
-    },
-    {
-      "id": "e329f637bc2582ae",
-      "kind": "cve",
-      "cve": "CVE-2026-34106",
-      "title": "CVE-2026-34106",
-      "summary": "Guardian language-system passes the id GET parameter directly into a PHP exec() call in subtitles.php (line 19) without sanitization: exec(\\\"php jobs/subtitle_rendering.php \\\".$login_session.\\\" \\\".$_GET['id'].\\\" ...\\\"). No authentication is…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34106",
-      "published": "2026-07-01T17:16:33.657000+00:00"
-    },
-    {
-      "id": "7c71708b8a24fb5d",
-      "kind": "cve",
-      "cve": "CVE-2026-34100",
-      "title": "CVE-2026-34100",
-      "summary": "Guardian language-system passes the id GET parameter directly into an unsanitized SQL query in media.php (line 17): SELECT id, filename, extension, type, duration, owner, private FROM files where id = '\\\".$_GET['id'].\\\"'. An authenticated a…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34100",
-      "published": "2026-07-01T17:16:32.940000+00:00"
     },
     {
       "id": "bd3327f476c4c725",
@@ -2281,23 +2179,6 @@
       "published": "2026-07-01T03:54:22+00:00"
     },
     {
-      "id": "302739c859f5694e",
-      "kind": "cve",
-      "cve": "CVE-2026-53488",
-      "title": "CVE-2026-53488",
-      "summary": "containerd is an open-source container runtime. In versions prior to 1.7.33, 2.3.2, 2.2.5, 2.1.9, and 2.0.10 the CRI plugin propagates labels from an image config (LABEL instruction in Dockerfile) to a container without validation. This may…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53488",
-      "published": "2026-07-01T02:17:00.467000+00:00"
-    },
-    {
       "id": "5e8410d8a2cc45e3",
       "kind": "research",
       "cve": null,
@@ -2500,6 +2381,23 @@
       "product": "",
       "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
       "published": "2026-06-29T19:24:54+00:00"
+    },
+    {
+      "id": "f58b9c123f062c5f",
+      "kind": "research",
+      "cve": null,
+      "title": "Publications",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85RzRDdUdsU29zVkJaVlVJanNPbkI4VmlLVDQyUTI1aFEwWDB4Q0Zsdmk4M1h5VkkxdmFodW90SnZJLUk1VmJqelV5a0N5Z2hpQ2pHUzdXdzVZN0UwZUp6bWx2VXlZa1ltM2ptT2xRSUgyOUxVczhUdUtveFcydw?oc=5",
+      "published": "2026-06-29T14:13:25+00:00"
     },
     {
       "id": "01eefb3fe1276de0",
@@ -3302,6 +3200,23 @@
       "published": "2026-06-09T00:00:00+00:00"
     },
     {
+      "id": "7bf49da8ea8b790e",
+      "kind": "research",
+      "cve": null,
+      "title": "Mehdi Elyassa - SCCM The tree that always bears bad fruits - SO-CON 2026",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNU5oVTBFZVdtclp2c1RJYnJfUG5IMjBDNTV2c21pSzVoQVNWdlBkV1NPOTRfdTBNbDJtOV9tRTlzcThkU0tkNjlpRUMzU1NZQjl3WElKYURHYXZnQnMwdVM2YkxTOTM0MThFeVdhLTBBTlNkNXFleER3ZWtHSWo0VW5sMTMyRGExTXlKeGNBejBqa0xhLThDa1FoRnRRZXJtM2RIMENITFRPbUd0bDFuTGtDbUg3Y0tNcnFhRVJhRThsRmxE?oc=5",
+      "published": "2026-06-08T16:29:05+00:00"
+    },
+    {
       "id": "5d8e67eac79cfc18",
       "kind": "cve",
       "cve": "CVE-2026-42271",
@@ -3934,6 +3849,23 @@
       "published": "2026-05-01T00:00:00+00:00"
     },
     {
+      "id": "9840ed02b97562d3",
+      "kind": "research",
+      "cve": null,
+      "title": "Bypassing Windows authentication reflection mitigations for SYSTEM shells - Part ②",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSGIxN2xTSFdqNmo0WnFJNXgyODZ4RE5VNk9nakloYVRaN0Z6dEVNeDJsbDNfcE9vUmNzUzRfTnFrTW5vU2FSM2tENHFzTzdNVGR3OHJJN0lKNUdRdVIwYW1BcEtxTzJtekFzeENJTm9QM3hQUFpHcTlpWF9NbEozYTdUYktWN3B3ZkhJMFhONkUzX19fd1pqY251OHY4MGNuYjl2eWxlM2hsMnF5a3VaTGtBS2lYWG8?oc=5",
+      "published": "2026-04-30T07:00:00+00:00"
+    },
+    {
       "id": "41a796cb51f0fc3a",
       "kind": "cve",
       "cve": "CVE-2026-41940",
@@ -4261,6 +4193,75 @@
       "product": "KACE Systems Management Appliance (SMA)",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32975",
       "published": "2026-04-20T00:00:00+00:00"
+    },
+    {
+      "id": "b087d48c33c9b826",
+      "kind": "cve",
+      "cve": "CVE-2024-27199",
+      "title": "JetBrains TeamCity Relative Path Traversal Vulnerability",
+      "summary": "JetBrains TeamCity contains a relative path traversal vulnerability that could allow limited admin actions to be performed.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "JetBrains",
+      "product": "TeamCity",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27199",
+      "published": "2026-04-20T00:00:00+00:00"
+    },
+    {
+      "id": "e059758977a9e969",
+      "kind": "research",
+      "cve": null,
+      "title": "Neo v. DIY: The gap between a single finding and a mature security program",
+      "summary": "In our latest webinar, our Founding Solutions Engineer, Davis Franklin, addressed the massive gap between finding a vulnerability with an LLM and running a mature security program. That gap is what Neo is built to close. With the release of…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/neo-vs-diy",
+      "published": "2026-04-17T19:05:29+00:00"
+    },
+    {
+      "id": "ddc10eae918a31fb",
+      "kind": "cve",
+      "cve": "CVE-2026-34197",
+      "title": "Apache ActiveMQ Improper Input Validation Vulnerability",
+      "summary": "Apache ActiveMQ contains an improper input validation vulnerability that allows for code injection.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Apache",
+      "product": "ActiveMQ",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34197",
+      "published": "2026-04-16T00:00:00+00:00"
+    },
+    {
+      "id": "cc5ec83614c97d98",
+      "kind": "cve",
+      "cve": "CVE-2009-0238",
+      "title": "Microsoft Office Remote Code Execution",
+      "summary": "Microsoft Office Excel contains a remote code execution vulnerability that could allow an attacker to take complete control of an affected system if a user opens a specially crafted Excel file that includes a malformed object.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Office",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-0238",
+      "published": "2026-04-14T00:00:00+00:00"
     }
   ]
 }
