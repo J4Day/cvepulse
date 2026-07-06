@@ -1,7 +1,109 @@
 {
-  "generated": "2026-07-06T20:47:50.729238+00:00",
+  "generated": "2026-07-06T22:06:59.612858+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "9cb34f31da4dafc8",
+      "kind": "cve",
+      "cve": "CVE-2026-59713",
+      "title": "CVE-2026-59713",
+      "summary": "Leantime contains an OIDC login CSRF vulnerability in the verifyState() method that unconditionally returns true without validating state parameters. Attackers can craft malicious callback URLs with attacker-controlled authorization codes t…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59713",
+      "published": "2026-07-06T21:16:58.930000+00:00"
+    },
+    {
+      "id": "272446259d485ee0",
+      "kind": "cve",
+      "cve": "CVE-2026-59712",
+      "title": "CVE-2026-59712",
+      "summary": "Leantime's Users::getUser method in the JSON-RPC API lacks proper authorization checks, allowing authenticated users to retrieve full user credential rows including password hashes, TOTP secrets, and session tokens. Attackers can exploit th…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59712",
+      "published": "2026-07-06T21:16:58.793000+00:00"
+    },
+    {
+      "id": "2a098c80aa83dfa3",
+      "kind": "cve",
+      "cve": "CVE-2026-25271",
+      "title": "CVE-2026-25271",
+      "summary": "Memory Corruption when processing asynchronous input parameters due to improper handling of modified values between check and use.",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25271",
+      "published": "2026-07-06T21:16:54.903000+00:00"
+    },
+    {
+      "id": "7bd703f83015b4b0",
+      "kind": "cve",
+      "cve": "CVE-2026-25268",
+      "title": "CVE-2026-25268",
+      "summary": "Memory Corruption when processing invalid HT40 channel layouts during dynamic channel switching operations.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25268",
+      "published": "2026-07-06T21:16:54.730000+00:00"
+    },
+    {
+      "id": "fe220ebfa147c6ed",
+      "kind": "cve",
+      "cve": "CVE-2026-21383",
+      "title": "CVE-2026-21383",
+      "summary": "Cryptographic Issue when using a static initialization vector for AES-GCM key wrapping, which requires a unique value for each call to ensure security.",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21383",
+      "published": "2026-07-06T21:16:53.973000+00:00"
+    },
+    {
+      "id": "aa93b269208c8972",
+      "kind": "cve",
+      "cve": "CVE-2026-21379",
+      "title": "CVE-2026-21379",
+      "summary": "Memory Corruption when allocating memory with sizes that exceed the maximum allowed value.",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21379",
+      "published": "2026-07-06T21:16:53.850000+00:00"
+    },
     {
       "id": "84042dcd1a6e9072",
       "kind": "research",
@@ -479,23 +581,6 @@
       "published": "2026-07-04T02:16:22.327000+00:00"
     },
     {
-      "id": "68d7c8e51421ccb7",
-      "kind": "cve",
-      "cve": "CVE-2025-71347",
-      "title": "CVE-2025-71347",
-      "summary": "picklescan before 0.0.33 fails to detect malicious pickle files using numpy.f2py.crackfortran.param_eval function in reduce methods, allowing attackers to bypass security checks. Remote attackers can embed undetected code in pickle files th…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71347",
-      "published": "2026-07-04T02:16:21.803000+00:00"
-    },
-    {
       "id": "1de1b73f3b95d273",
       "kind": "cve",
       "cve": "CVE-2025-71343",
@@ -579,23 +664,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
       "published": "2026-07-03T20:19:31+00:00"
-    },
-    {
-      "id": "8b37e4246cc140f0",
-      "kind": "cve",
-      "cve": "CVE-2026-14606",
-      "title": "CVE-2026-14606",
-      "summary": "A security flaw has been discovered in RT-Thread up to 5.0.2. Affected by this issue is the function CAN_Receive in the library bsp/synwit/libraries/SWM341_CSL/CMSIS/DeviceSupport/SWM341.h of the component SWM341 CAN Handler. Performing a m…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14606",
-      "published": "2026-07-03T20:16:52.237000+00:00"
     },
     {
       "id": "ecb1fe7391dc0b57",
@@ -4196,75 +4264,6 @@
       "product": "Windows",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-0015",
       "published": "2026-02-17T00:00:00+00:00"
-    },
-    {
-      "id": "1e206c6e1cd88e01",
-      "kind": "cve",
-      "cve": "CVE-2026-2441",
-      "title": "Google Chromium CSS Use-After-Free Vulnerability",
-      "summary": "Google Chromium CSS contains a use-after-free vulnerability that could allow a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, incl…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Chromium",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2441",
-      "published": "2026-02-17T00:00:00+00:00"
-    },
-    {
-      "id": "26e741c7971b61f3",
-      "kind": "cve",
-      "cve": "CVE-2026-1731",
-      "title": "BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability",
-      "summary": "BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA)contain an OS command injection vulnerability. Successful exploitation could allow an unauthenticated remote attacker to execute operating system commands in the context of t…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "BeyondTrust",
-      "product": "Remote Support (RS) and Privileged Remote Access (PRA)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1731",
-      "published": "2026-02-13T00:00:00+00:00"
-    },
-    {
-      "id": "5702965075c0d12b",
-      "kind": "cve",
-      "cve": "CVE-2026-20700",
-      "title": "Apple Multiple Buffer Overflow Vulnerability",
-      "summary": "Apple iOS, macOS, tvOS, watchOS, and visionOS contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow an attacker with memory write the capability to execute arbitrary code.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20700",
-      "published": "2026-02-12T00:00:00+00:00"
-    },
-    {
-      "id": "c55d9323192157bd",
-      "kind": "cve",
-      "cve": "CVE-2024-43468",
-      "title": "Microsoft Configuration Manager SQL Injection Vulnerability",
-      "summary": "Microsoft Configuration Manager contains an SQL injection vulnerability. An unauthenticated attacker could exploit this vulnerability by sending specially crafted requests to the target environment which are processed in an unsafe manner en…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Configuration Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43468",
-      "published": "2026-02-12T00:00:00+00:00"
     }
   ]
 }
