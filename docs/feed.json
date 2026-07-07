@@ -1,7 +1,160 @@
 {
-  "generated": "2026-07-07T07:30:44.287437+00:00",
+  "generated": "2026-07-07T10:46:50.129780+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "b0502bd505d7c02b",
+      "kind": "cve",
+      "cve": "CVE-2026-14476",
+      "title": "CVE-2026-14476",
+      "summary": "A path traversal flaw was found in SSSD's AD GPO provider. The ad_gpo_extract_smb_components() function does not sanitize .. sequences in the gPCFileSysPath LDAP attribute, allowing an attacker with AD GPO management access to write files o…",
+      "severity": "HIGH",
+      "score": 8.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14476",
+      "published": "2026-07-07T10:16:39.993000+00:00"
+    },
+    {
+      "id": "1c9e11ac6e84b6fb",
+      "kind": "cve",
+      "cve": "CVE-2026-14474",
+      "title": "CVE-2026-14474",
+      "summary": "A flaw was found in SSSD's LDAP sudo provider. When the ldap_sudo_search_base option is not explicitly configured, SSSD searches the entire LDAP directory tree for sudoRole objects. An authenticated attacker with write access to any subtree…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14474",
+      "published": "2026-07-07T10:16:39.870000+00:00"
+    },
+    {
+      "id": "aaa9597c373c9518",
+      "kind": "cve",
+      "cve": "CVE-2026-11610",
+      "title": "CVE-2026-11610",
+      "summary": "A heap buffer overflow flaw was found in the SASL I/O layer of 389 Directory Server (389-ds-base). After a successful SASL bind with integrity protection (SSF > 0), an authenticated attacker can send a specially crafted oversized LDAP UNBIN…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11610",
+      "published": "2026-07-07T10:16:39.690000+00:00"
+    },
+    {
+      "id": "283d0d871cef6052",
+      "kind": "cve",
+      "cve": "CVE-2026-58384",
+      "title": "CVE-2026-58384",
+      "summary": "A flaw was found in GIMP's PSD parser. An integer overflow in read_RLE_channel() can cause an undersized heap allocation for the RLE row-length table, after which subsequent per-row writes corrupt heap memory. This could lead to memory corr…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58384",
+      "published": "2026-07-07T09:16:30.003000+00:00"
+    },
+    {
+      "id": "27db0b35a71a5b7a",
+      "kind": "research",
+      "cve": null,
+      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+      "summary": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves th…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+      "published": "2026-07-07T09:10:51+00:00"
+    },
+    {
+      "id": "ba21de4e539e1668",
+      "kind": "cve",
+      "cve": "CVE-2026-8377",
+      "title": "CVE-2026-8377",
+      "summary": "Missing Authorization vulnerability in Armiya Information Technologies Ltd. Co. Access Control System (GKS) allows Collect Data from Common Resource Locations. This issue affects Access Control System (GKS): before Version 2.",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8377",
+      "published": "2026-07-07T08:16:26.127000+00:00"
+    },
+    {
+      "id": "26cae3b97f7bb0a0",
+      "kind": "cve",
+      "cve": "CVE-2026-5799",
+      "title": "CVE-2026-5799",
+      "summary": "Authorization bypass through User-Controlled key vulnerability in Idvlabs Software and Consulting Services Inc. Ontime allows Exploitation of Trusted Identifiers. This issue affects Ontime: through 04052026.",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5799",
+      "published": "2026-07-07T08:16:25.677000+00:00"
+    },
+    {
+      "id": "26afc9a575c65867",
+      "kind": "cve",
+      "cve": "CVE-2026-5730",
+      "title": "CVE-2026-5730",
+      "summary": "Authorization bypass through User-Controlled key vulnerability in Idvlabs Software and Consulting Services Inc. Ontime allows Exploitation of Trusted Identifiers. This issue affects Ontime: through 04052026.",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5730",
+      "published": "2026-07-07T08:16:25.540000+00:00"
+    },
+    {
+      "id": "e2293acd81ed5baf",
+      "kind": "research",
+      "cve": null,
+      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+      "summary": "Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coord…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+      "published": "2026-07-07T06:40:47+00:00"
+    },
     {
       "id": "7090756ea182eae0",
       "kind": "cve",
@@ -52,6 +205,57 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33126",
       "published": "2026-07-07T02:00:02+00:00"
+    },
+    {
+      "id": "9cb34f31da4dafc8",
+      "kind": "cve",
+      "cve": "CVE-2026-59713",
+      "title": "CVE-2026-59713",
+      "summary": "Leantime contains an OIDC login CSRF vulnerability in the verifyState() method that unconditionally returns true without validating state parameters. Attackers can craft malicious callback URLs with attacker-controlled authorization codes t…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59713",
+      "published": "2026-07-06T21:16:58.930000+00:00"
+    },
+    {
+      "id": "272446259d485ee0",
+      "kind": "cve",
+      "cve": "CVE-2026-59712",
+      "title": "CVE-2026-59712",
+      "summary": "Leantime's Users::getUser method in the JSON-RPC API lacks proper authorization checks, allowing authenticated users to retrieve full user credential rows including password hashes, TOTP secrets, and session tokens. Attackers can exploit th…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59712",
+      "published": "2026-07-06T21:16:58.793000+00:00"
+    },
+    {
+      "id": "fe220ebfa147c6ed",
+      "kind": "cve",
+      "cve": "CVE-2026-21383",
+      "title": "CVE-2026-21383",
+      "summary": "Cryptographic Issue when using a static initialization vector for AES-GCM key wrapping, which requires a unique value for each call to ensure security.",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21383",
+      "published": "2026-07-06T21:16:53.973000+00:00"
     },
     {
       "id": "84042dcd1a6e9072",
@@ -207,6 +411,23 @@
       "published": "2026-07-06T10:58:16+00:00"
     },
     {
+      "id": "7354ec7d3a0cc4b4",
+      "kind": "cve",
+      "cve": "CVE-2026-9165",
+      "title": "CVE-2026-9165",
+      "summary": "A flaw was found in Red Hat Advanced Cluster Security for Kubernetes (RHACS). Central does not limit the depth of GraphQL queries served on the authenticated GraphQL API. An authenticated user with a valid API token can send deeply nested q…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9165",
+      "published": "2026-07-06T09:16:39.400000+00:00"
+    },
+    {
       "id": "3e96a85437ab449a",
       "kind": "research",
       "cve": null,
@@ -309,7 +530,41 @@
       "published": "2026-07-04T11:17:24+00:00"
     },
     {
-      "id": "521c1ca1f392dd77",
+      "id": "3fb45b3782220dad",
+      "kind": "cve",
+      "cve": "CVE-2025-71375",
+      "title": "CVE-2025-71375",
+      "summary": "picklescan before 0.0.34 fails to detect the _operator.methodcaller built-in function when scanning pickle files for malicious code. Attackers can craft malicious pickle payloads using _operator.methodcaller that evade detection and execute…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71375",
+      "published": "2026-07-04T02:16:23.347000+00:00"
+    },
+    {
+      "id": "c78e1e46c01087db",
+      "kind": "cve",
+      "cve": "CVE-2025-71364",
+      "title": "CVE-2025-71364",
+      "summary": "picklescan before 0.0.30 fails to detect the asyncio.unix_events._UnixSubprocessTransport._start function in pickle reduce methods, allowing remote code execution. Attackers can craft malicious pickle files embedding this built-in function…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71364",
+      "published": "2026-07-04T02:16:22.583000+00:00"
+    },
+    {
+      "id": "bac5f1a200c86854",
       "kind": "research",
       "cve": null,
       "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
@@ -322,7 +577,7 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/",
+      "url": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026",
       "published": "2026-07-03T22:11:22+00:00"
     },
     {
@@ -834,40 +1089,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
       "published": "2026-07-01T12:59:19+00:00"
-    },
-    {
-      "id": "c8910e24988f2592",
-      "kind": "research",
-      "cve": null,
-      "title": "2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience",
-      "summary": "Organizations have never had greater awareness of cyber risk. Yet turning that awareness into operational resilience has never been more challenging. The 2026 Bitdefender Cybersecurity Assessment confirms this is the case, as this year's fi…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
-      "published": "2026-07-01T11:30:00+00:00"
-    },
-    {
-      "id": "62fcb0eaf9bb85e2",
-      "kind": "research",
-      "cve": null,
-      "title": "Microsoft Accelerates Post-Quantum Cryptography Shift to 2029",
-      "summary": "Microsoft on Tuesday said it's accelerating its quantum safe security roadmap, stating technology advances in quantum computing are making it essential to replace existing encryption standards sooner than previously expected. \"Advances in q…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
-      "published": "2026-07-01T10:41:36+00:00"
     },
     {
       "id": "6d9f6bb0232c6bd4",
@@ -4044,228 +4265,6 @@
       "product": "Windows",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21533",
       "published": "2026-02-10T00:00:00+00:00"
-    },
-    {
-      "id": "d64a458af0edcef9",
-      "kind": "cve",
-      "cve": "CVE-2026-21519",
-      "title": "Microsoft Windows Type Confusion Vulnerability",
-      "summary": "Microsoft Desktop Windows Manager contains a type confusion vulnerability that could allow an authorized attacker to elevate privileges locally.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21519",
-      "published": "2026-02-10T00:00:00+00:00"
-    },
-    {
-      "id": "972f520894903099",
-      "kind": "cve",
-      "cve": "CVE-2026-21514",
-      "title": "Microsoft Office Word Reliance on Untrusted Inputs in a Security Decision Vulnerability",
-      "summary": "Microsoft Office Word contains a reliance on untrusted inputs in a security decision vulnerability that could allow an authorized attacker to elevate privileges locally.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Office",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21514",
-      "published": "2026-02-10T00:00:00+00:00"
-    },
-    {
-      "id": "e0fc36cba3310783",
-      "kind": "research",
-      "cve": null,
-      "title": "Top 10 web hacking techniques of 2025",
-      "summary": "Welcome to the Top 10 Web Hacking Techniques of 2025, the 19th edition of our annual community-powered effort to identify the most innovative must-read web security research published in the last year",
-      "severity": "",
-      "score": null,
-      "source": "PortSwigger Research",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://portswigger.net/research/top-10-web-hacking-techniques-of-2025",
-      "published": "2026-02-05T15:28:08+00:00"
-    },
-    {
-      "id": "7fcefc774d919d51",
-      "kind": "cve",
-      "cve": "CVE-2025-11953",
-      "title": "React Native Community CLI OS Command Injection Vulnerability",
-      "summary": "React Native Community CLI contains an OS command injection vulnerability which could allow unauthenticated network attackers to send POST requests to the Metro Development Server and run arbitrary executables via a vulnerable endpoint expo…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "React Native Community",
-      "product": "CLI",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11953",
-      "published": "2026-02-05T00:00:00+00:00"
-    },
-    {
-      "id": "0aa56329f1a7dbb6",
-      "kind": "cve",
-      "cve": "CVE-2026-24423",
-      "title": "SmarterTools SmarterMail Missing Authentication for Critical Function Vulnerability",
-      "summary": "SmarterTools SmarterMail contains a missing authentication for critical function vulnerability in the ConnectToHub API method. This could allow the attacker to point the SmarterMail instance to a malicious HTTP server which serves the malic…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "SmarterTools",
-      "product": "SmarterMail",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24423",
-      "published": "2026-02-05T00:00:00+00:00"
-    },
-    {
-      "id": "5c456b96c0a6439e",
-      "kind": "cve",
-      "cve": "CVE-2021-39935",
-      "title": "GitLab Community and Enterprise Editions Server-Side Request Forgery (SSRF) Vulnerability",
-      "summary": "GitLab Community and Enterprise Editions contain a server-side request forgery vulnerability which could allow unauthorized external users to perform Server Side Requests via the CI Lint API.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "GitLab",
-      "product": "Community and Enterprise Editions",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-39935",
-      "published": "2026-02-03T00:00:00+00:00"
-    },
-    {
-      "id": "6f4437ccadf0575a",
-      "kind": "cve",
-      "cve": "CVE-2025-64328",
-      "title": "Sangoma FreePBX OS Command Injection Vulnerability",
-      "summary": "Sangoma FreePBX Endpoint Manager contains an OS command injection vulnerability that could allow for a post-authentication command injection by an authenticated known user via the testconnection -> check_ssh_connect() function. An attacker…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Sangoma",
-      "product": "FreePBX ",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64328",
-      "published": "2026-02-03T00:00:00+00:00"
-    },
-    {
-      "id": "b84dd0d673fe8aea",
-      "kind": "cve",
-      "cve": "CVE-2019-19006",
-      "title": " Sangoma FreePBX Improper Authentication Vulnerability",
-      "summary": "Sangoma FreePBX contains an improper authentication vulnerability that potentially allows unauthorized users to bypass password authentication and access services provided by the FreePBX admin.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Sangoma",
-      "product": "FreePBX",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-19006",
-      "published": "2026-02-03T00:00:00+00:00"
-    },
-    {
-      "id": "16b9123c7a0bab13",
-      "kind": "cve",
-      "cve": "CVE-2025-40551",
-      "title": "SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability",
-      "summary": "SolarWinds Web Help Desk contains a deserialization of untrusted data vulnerability that could lead to remote code execution, which would allow an attacker to run commands on the host machine. This could be exploited without authentication.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "SolarWinds",
-      "product": "Web Help Desk",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40551",
-      "published": "2026-02-03T00:00:00+00:00"
-    },
-    {
-      "id": "566435227effa03d",
-      "kind": "research",
-      "cve": null,
-      "title": "Announcing the ProjectDiscovery OSS Bounty Program",
-      "summary": "Democratizing Security, One Contribution at a Time Today, we're excited to announce the launch of the ProjectDiscovery OSS Bounty Program, a new initiative to reward meaningful contributions to our open-source security tools. The Vision At…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/announcing-the-projectdiscovery-oss-bounty-program",
-      "published": "2026-02-02T14:17:38+00:00"
-    },
-    {
-      "id": "de4a72c9415bc5e3",
-      "kind": "research",
-      "cve": "CVE-2026-1281",
-      "title": "Someone Knows Bash Far Too Well, And We Love It (Ivanti EPMM Pre-Auth RCEs CVE-2026-1281 & CVE-2026-1340)",
-      "summary": "When Ivanti removed the embargoes from CVE-2026-1281 and CVE-2026-1340 - actively exploited pre-auth Remote Command Execution vulnerabilities in Ivanti&#x2019;s Endpoint Manager Mobile (EPMM) solution - we sighed with relief. Clearly, the u…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/someone-knows-bash-far-too-well-and-we-love-it-ivanti-epmm-pre-auth-rces-cve-2026-1281-cve-2026-1340/",
-      "published": "2026-01-30T16:15:16+00:00"
-    },
-    {
-      "id": "939313d979fadd86",
-      "kind": "research",
-      "cve": "CVE-2024-54529",
-      "title": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
-      "summary": "In the first part of this series, I detailed my journey into macOS security research, which led to the discovery of a type confusion vulnerability (CVE-2024-54529) and a double-free vulnerability (CVE-2025-31235) in the coreaudiod system da…",
-      "severity": "",
-      "score": null,
-      "source": "Project Zero",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectzero.google/2026/01/sound-barrier-2.html",
-      "published": "2026-01-29T23:00:00+00:00"
-    },
-    {
-      "id": "5f21c734c283ea57",
-      "kind": "cve",
-      "cve": "CVE-2026-1281",
-      "title": "Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
-      "summary": "Ivanti Endpoint Manager Mobile (EPMM) contains a code injection vulnerability that could allow attackers to achieve unauthenticated remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": "Endpoint Manager Mobile (EPMM)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1281",
-      "published": "2026-01-29T00:00:00+00:00"
     }
   ]
 }
