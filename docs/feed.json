@@ -1,7 +1,58 @@
 {
-  "generated": "2026-07-07T22:05:37.811349+00:00",
+  "generated": "2026-07-07T23:49:16.616066+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "984b69fc9c8829c0",
+      "kind": "cve",
+      "cve": "CVE-2026-59705",
+      "title": "CVE-2026-59705",
+      "summary": "mem0's openmemory/api component contains an unauthenticated access vulnerability that allows unauthenticated attackers to read, write, and delete arbitrary user memories by accessing API routers registered without authentication middleware.…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59705",
+      "published": "2026-07-07T23:16:55.997000+00:00"
+    },
+    {
+      "id": "130ef16d6bc93cd9",
+      "kind": "cve",
+      "cve": "CVE-2026-59704",
+      "title": "CVE-2026-59704",
+      "summary": "Cap's GET /api/video/ai endpoint fails to validate user ownership or membership before returning private video AI metadata including titles, summaries, and chapters. Authenticated attackers can supply arbitrary video IDs to read sensitive A…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59704",
+      "published": "2026-07-07T23:16:55.850000+00:00"
+    },
+    {
+      "id": "f9a6b448b0190b08",
+      "kind": "cve",
+      "cve": "CVE-2026-59706",
+      "title": "CVE-2026-59706",
+      "summary": "mem0 contains unauthenticated config API endpoints that expose LLM API keys in plaintext and allow server-side request forgery via attacker-controlled ollama_base_url parameter. Unauthenticated attackers can retrieve stored secrets like Ope…",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59706",
+      "published": "2026-07-07T22:16:54.503000+00:00"
+    },
     {
       "id": "33225f6f1132709b",
       "kind": "cve",
@@ -749,6 +800,57 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
       "published": "2026-07-06T06:33:56+00:00"
+    },
+    {
+      "id": "937c7ef707c8577f",
+      "kind": "cve",
+      "cve": "CVE-2026-14760",
+      "title": "CVE-2026-14760",
+      "summary": "A weakness has been identified in radareorg radare2 up to 6.1.6. Impacted is the function r_core_seek_arch_bits of the file libr/core/disasm.c of the component regprofile Handler. Executing a manipulation can lead to use after free. The att…",
+      "severity": "LOW",
+      "score": 3.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14760",
+      "published": "2026-07-05T16:19:44.740000+00:00"
+    },
+    {
+      "id": "342db8cafc493de1",
+      "kind": "cve",
+      "cve": "CVE-2026-14759",
+      "title": "CVE-2026-14759",
+      "summary": "A security flaw has been discovered in radareorg radare2 up to 6.1.6. This issue affects the function r_bin_java_inner_classes_attr_calc_size of the file shlr/java/class.c of the component RBinJava Line Number Table Parser. Performing a man…",
+      "severity": "LOW",
+      "score": 3.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14759",
+      "published": "2026-07-05T16:19:44.583000+00:00"
+    },
+    {
+      "id": "3cd8f514a9dcadac",
+      "kind": "cve",
+      "cve": "CVE-2026-14757",
+      "title": "CVE-2026-14757",
+      "summary": "A vulnerability was determined in radareorg radare2 up to 6.1.6. This affects the function core_anal_bytes of the file libr/core/cmd_anal.inc. This manipulation causes integer overflow. The attack needs to be launched locally. The exploit h…",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14757",
+      "published": "2026-07-05T15:16:56.810000+00:00"
     },
     {
       "id": "dfe2e4f3f58fedb8",
@@ -4162,109 +4264,6 @@
       "product": "Windows",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-0015",
       "published": "2026-02-17T00:00:00+00:00"
-    },
-    {
-      "id": "1e206c6e1cd88e01",
-      "kind": "cve",
-      "cve": "CVE-2026-2441",
-      "title": "Google Chromium CSS Use-After-Free Vulnerability",
-      "summary": "Google Chromium CSS contains a use-after-free vulnerability that could allow a remote attacker to potentially exploit heap corruption via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, incl…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Chromium",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2441",
-      "published": "2026-02-17T00:00:00+00:00"
-    },
-    {
-      "id": "26e741c7971b61f3",
-      "kind": "cve",
-      "cve": "CVE-2026-1731",
-      "title": "BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability",
-      "summary": "BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA)contain an OS command injection vulnerability. Successful exploitation could allow an unauthenticated remote attacker to execute operating system commands in the context of t…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "BeyondTrust",
-      "product": "Remote Support (RS) and Privileged Remote Access (PRA)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1731",
-      "published": "2026-02-13T00:00:00+00:00"
-    },
-    {
-      "id": "4773f8ec219a6eda",
-      "kind": "research",
-      "cve": null,
-      "title": "Bypassing Administrator Protection by Abusing UI Access",
-      "summary": "In my last blog post I introduced the new Windows feature, Administrator Protection and how it aimed to create a secure boundary for UAC where one didn’t exist. I described one of the ways I was able to bypass the feature before it was rele…",
-      "severity": "",
-      "score": null,
-      "source": "Project Zero",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectzero.google/2026/02/windows-administrator-protection.html",
-      "published": "2026-02-12T08:00:00+00:00"
-    },
-    {
-      "id": "5702965075c0d12b",
-      "kind": "cve",
-      "cve": "CVE-2026-20700",
-      "title": "Apple Multiple Buffer Overflow Vulnerability",
-      "summary": "Apple iOS, macOS, tvOS, watchOS, and visionOS contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow an attacker with memory write the capability to execute arbitrary code.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20700",
-      "published": "2026-02-12T00:00:00+00:00"
-    },
-    {
-      "id": "c55d9323192157bd",
-      "kind": "cve",
-      "cve": "CVE-2024-43468",
-      "title": "Microsoft Configuration Manager SQL Injection Vulnerability",
-      "summary": "Microsoft Configuration Manager contains an SQL injection vulnerability. An unauthenticated attacker could exploit this vulnerability by sending specially crafted requests to the target environment which are processed in an unsafe manner en…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Configuration Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43468",
-      "published": "2026-02-12T00:00:00+00:00"
-    },
-    {
-      "id": "6349ff0b54d5a4b3",
-      "kind": "cve",
-      "cve": "CVE-2025-15556",
-      "title": "Notepad++ Download of Code Without Integrity Check Vulnerability",
-      "summary": "Notepad++ when using the WinGUp updater, contains a download of code without integrity check vulnerability that could allow an attacker to intercept or redirect update traffic to download and execute an attacker-controlled installer. This c…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Notepad++",
-      "product": "Notepad++",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15556",
-      "published": "2026-02-12T00:00:00+00:00"
     }
   ]
 }
