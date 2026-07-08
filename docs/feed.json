@@ -1,7 +1,24 @@
 {
-  "generated": "2026-07-08T01:50:50.952753+00:00",
+  "generated": "2026-07-08T05:13:10.574434+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "e76f51f19e6ae169",
+      "kind": "research",
+      "cve": null,
+      "title": "ISC Stormcast For Wednesday, July 8th, 2026 https://isc.sans.edu/podcastdetail/9998, (Wed, Jul 8th)",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "severity": "",
+      "score": null,
+      "source": "SANS ISC",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://isc.sans.edu/diary/rss/33136",
+      "published": "2026-07-08T02:00:02+00:00"
+    },
     {
       "id": "984b69fc9c8829c0",
       "kind": "cve",
@@ -428,6 +445,40 @@
       "published": "2026-07-06T21:16:57.347000+00:00"
     },
     {
+      "id": "2addd79b562db6a5",
+      "kind": "cve",
+      "cve": "CVE-2026-54765",
+      "title": "CVE-2026-54765",
+      "summary": "Traefik is an open source HTTP reverse proxy and load balancer. From v3.7.0 prior to v3.7.6, Traefik's Kubernetes Gateway API provider may resolve two accepted HTTPRoutes that target the same backend Service:port but configure different bac…",
+      "severity": "HIGH",
+      "score": 8.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54765",
+      "published": "2026-07-06T21:16:57.067000+00:00"
+    },
+    {
+      "id": "3ae1d3064d94e423",
+      "kind": "cve",
+      "cve": "CVE-2026-54763",
+      "title": "CVE-2026-54763",
+      "summary": "Traefik is an HTTP reverse proxy and load balancer. Prior to v2.11.51, v3.6.22, and v3.7.6, Traefik's BasicAuth, DigestAuth, and ForwardAuth middlewares strip canonical-cased spoofed identity headers before writing Traefik's own value, but…",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54763",
+      "published": "2026-07-06T21:16:56.787000+00:00"
+    },
+    {
       "id": "2a098c80aa83dfa3",
       "kind": "cve",
       "cve": "CVE-2026-25271",
@@ -511,6 +562,40 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59615",
       "published": "2026-07-06T21:16:52.077000+00:00"
+    },
+    {
+      "id": "32699161c024f86e",
+      "kind": "cve",
+      "cve": "CVE-2026-9182",
+      "title": "CVE-2026-9182",
+      "summary": "ArcGIS Server contains an unrestricted file upload vulnerability. An unauthenticated attacker could exploit this issue by uploading a crafted file to the affected endpoint. Successful exploitation could allow arbitrary file upload.",
+      "severity": "MEDIUM",
+      "score": 5.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9182",
+      "published": "2026-07-06T19:17:09.680000+00:00"
+    },
+    {
+      "id": "4cc40eb71cbba23f",
+      "kind": "cve",
+      "cve": "CVE-2026-9181",
+      "title": "CVE-2026-9181",
+      "summary": "ArcGIS Server contains a directory traversal vulnerability. An unauthenticated attacker could exploit this issue by sending crafted path parameters. Successful exploitation could allow access to sensitive files on the system. This issue imp…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9181",
+      "published": "2026-07-06T19:17:09.553000+00:00"
     },
     {
       "id": "84042dcd1a6e9072",
@@ -1446,23 +1531,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/ai-modernizing-global-vulnerability-standards",
       "published": "2026-06-29T12:37:04+00:00"
-    },
-    {
-      "id": "36cac332eac2f329",
-      "kind": "research",
-      "cve": null,
-      "title": "Adding some Automation to the favicon.ico method of Host Recon, (Mon, Jun 29th)",
-      "summary": "I&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;m in the throes of target host recon for another pentest, and thought I&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;d share some workflow / automation stuff. &#xd; In the past, I&&#x23&#x3b;x26&#x3b;&#x23…",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33110",
-      "published": "2026-06-29T12:00:54+00:00"
     },
     {
       "id": "6025526b87d6e5ed",
@@ -4196,74 +4264,6 @@
       "product": "GitLab",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22175",
       "published": "2026-02-18T00:00:00+00:00"
-    },
-    {
-      "id": "2d1fad5fa46c2143",
-      "kind": "cve",
-      "cve": "CVE-2026-22769",
-      "title": "Dell RecoverPoint for Virtual Machines (RP4VMs) Use of Hard-coded Credentials Vulnerability",
-      "summary": "Dell RecoverPoint for Virtual Machines (RP4VMs) contains an use of hard-coded credentials vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access to the underlying operating system and root-level persis…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Dell",
-      "product": "RecoverPoint for Virtual Machines (RP4VMs)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22769",
-      "published": "2026-02-18T00:00:00+00:00"
-    },
-    {
-      "id": "ad17fc64327d1f9f",
-      "kind": "cve",
-      "cve": "CVE-2020-7796",
-      "title": "Synacor Zimbra Collaboration Suite (ZCS) Server-Side Request Forgery Vulnerability",
-      "summary": "Synacor Zimbra Collaboration Suite (ZCS) contains a server-side request forgery vulnerability if WebEx zimlet installed and zimlet JSP is enabled.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Synacor",
-      "product": "Zimbra Collaboration Suite",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-7796",
-      "published": "2026-02-17T00:00:00+00:00"
-    },
-    {
-      "id": "0eca4230b200bc4f",
-      "kind": "cve",
-      "cve": "CVE-2024-7694",
-      "title": "TeamT5 ThreatSonar Anti-Ransomware Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "summary": "TeamT5 ThreatSonar Anti-Ransomware contains an unrestricted upload of file with dangerous type vulnerability. ThreatSonar Anti-Ransomware does not properly validate the content of uploaded files. Remote attackers with administrator privileg…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "TeamT5",
-      "product": "ThreatSonar Anti-Ransomware",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7694",
-      "published": "2026-02-17T00:00:00+00:00"
-    },
-    {
-      "id": "a065cd214014a8ef",
-      "kind": "cve",
-      "cve": "CVE-2008-0015",
-      "title": " Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability",
-      "summary": "Microsoft Windows Video ActiveX Control contains a remote code execution vulnerability. An attacker could exploit the vulnerability by constructing a specially crafted Web page. When a user views the Web page, the vulnerability could allow…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-0015",
-      "published": "2026-02-17T00:00:00+00:00"
     }
   ]
 }
