@@ -1,23 +1,74 @@
 {
-  "generated": "2026-07-08T19:09:18.732893+00:00",
+  "generated": "2026-07-08T20:57:43.505274+00:00",
   "count": 250,
   "items": [
     {
-      "id": "61260e770c5e444f",
+      "id": "bb568c9f9c770805",
       "kind": "cve",
-      "cve": "CVE-2026-60102",
-      "title": "CVE-2026-60102",
-      "summary": "Horde Virtual File System (VFS) API before 3.0.1 contains an OS command injection vulnerability in the Horde_Vfs_Smb driver where the _escapeShellCommand() method fails to sanitize command substitution sequences, allowing authenticated atta…",
+      "cve": "CVE-2026-60104",
+      "title": "CVE-2026-60104",
+      "summary": "Bitwarden Server before 2026.6.0 does not verify that the email in a POST /auth-requests/admin-request body belongs to the authenticated caller, allowing a low-privileged organization member to obtain another user's vault key and a victim-s…",
       "severity": "HIGH",
-      "score": 8.8,
+      "score": 7.3,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60102",
-      "published": "2026-07-08T17:17:28.997000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60104",
+      "published": "2026-07-08T20:17:00.413000+00:00"
+    },
+    {
+      "id": "a69a9b14548e30d4",
+      "kind": "cve",
+      "cve": "CVE-2026-59806",
+      "title": "CVE-2026-59806",
+      "summary": "Gradio before 6.20.0 contains an open redirect and server-side request forgery vulnerability that allows attackers to redirect users to arbitrary URLs or perform client-side SSRF by supplying unvalidated HTTP/HTTPS URLs to the file_fetch()…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59806",
+      "published": "2026-07-08T20:16:56.973000+00:00"
+    },
+    {
+      "id": "9bf6c6d743929a79",
+      "kind": "cve",
+      "cve": "CVE-2026-59803",
+      "title": "CVE-2026-59803",
+      "summary": "rpcx through 1.9.3, fixed in commit 047aec1, contains a denial-of-service vulnerability in protocol.Message.Decode (protocol/message.go). When a message has the compression flag set, the payload is gzip-decompressed via util.Unzip with no l…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59803",
+      "published": "2026-07-08T20:16:55.913000+00:00"
+    },
+    {
+      "id": "5a4f872d50e35154",
+      "kind": "cve",
+      "cve": "CVE-2026-59802",
+      "title": "CVE-2026-59802",
+      "summary": "PasswordPusher before 2.8.1 accepts data URI schemes in URL push payloads due to insufficient validation in the valid_url function. Attackers can create malicious pushes containing data:text/html URIs that execute arbitrary JavaScript in vi…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59802",
+      "published": "2026-07-08T20:16:55.737000+00:00"
     },
     {
       "id": "1bfc9e37b64e9a09",
@@ -71,23 +122,6 @@
       "published": "2026-07-08T17:02:12+00:00"
     },
     {
-      "id": "7bfe6da3b7fe1471",
-      "kind": "cve",
-      "cve": "CVE-2026-3144",
-      "title": "CVE-2026-3144",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.0.3 uses default credentials which could allow an attacker to gain unauthorized access to the application before the system enforces a credential update.",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3144",
-      "published": "2026-07-08T16:16:28.463000+00:00"
-    },
-    {
       "id": "bce82ec1f44d8205",
       "kind": "research",
       "cve": null,
@@ -120,6 +154,23 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
       "published": "2026-07-08T14:38:05+00:00"
+    },
+    {
+      "id": "fb1d155489318645",
+      "kind": "cve",
+      "cve": "CVE-2026-59257",
+      "title": "CVE-2026-59257",
+      "summary": "n8n before 1.123.61, 2.x before 2.27.4, and 2.28.x before 2.28.1 contains a SQL injection vulnerability in the legacy MySQL v1 node's executeQuery operation. The operation substitutes evaluated {{ ... }} expression values directly into the…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59257",
+      "published": "2026-07-08T14:17:20.807000+00:00"
     },
     {
       "id": "1ae5a4aebb5529cd",
@@ -358,6 +409,23 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33136",
       "published": "2026-07-08T02:00:02+00:00"
+    },
+    {
+      "id": "ba471581c40f314b",
+      "kind": "cve",
+      "cve": "CVE-2026-44454",
+      "title": "CVE-2026-44454",
+      "summary": "Coder allows organizations to provision remote development environments via Terraform. Prior to versions 2.29.7 and 2.30.2, the `dotfiles` registry module passed unsanitized user input to shell commands, allowing arbitrary code execution in…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44454",
+      "published": "2026-07-07T21:17:25.180000+00:00"
     },
     {
       "id": "042017c4c7446f6a",
@@ -4196,74 +4264,6 @@
       "product": "GitLab",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22175",
       "published": "2026-02-18T00:00:00+00:00"
-    },
-    {
-      "id": "2d1fad5fa46c2143",
-      "kind": "cve",
-      "cve": "CVE-2026-22769",
-      "title": "Dell RecoverPoint for Virtual Machines (RP4VMs) Use of Hard-coded Credentials Vulnerability",
-      "summary": "Dell RecoverPoint for Virtual Machines (RP4VMs) contains an use of hard-coded credentials vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access to the underlying operating system and root-level persis…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Dell",
-      "product": "RecoverPoint for Virtual Machines (RP4VMs)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22769",
-      "published": "2026-02-18T00:00:00+00:00"
-    },
-    {
-      "id": "ad17fc64327d1f9f",
-      "kind": "cve",
-      "cve": "CVE-2020-7796",
-      "title": "Synacor Zimbra Collaboration Suite (ZCS) Server-Side Request Forgery Vulnerability",
-      "summary": "Synacor Zimbra Collaboration Suite (ZCS) contains a server-side request forgery vulnerability if WebEx zimlet installed and zimlet JSP is enabled.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Synacor",
-      "product": "Zimbra Collaboration Suite",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-7796",
-      "published": "2026-02-17T00:00:00+00:00"
-    },
-    {
-      "id": "0eca4230b200bc4f",
-      "kind": "cve",
-      "cve": "CVE-2024-7694",
-      "title": "TeamT5 ThreatSonar Anti-Ransomware Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "summary": "TeamT5 ThreatSonar Anti-Ransomware contains an unrestricted upload of file with dangerous type vulnerability. ThreatSonar Anti-Ransomware does not properly validate the content of uploaded files. Remote attackers with administrator privileg…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "TeamT5",
-      "product": "ThreatSonar Anti-Ransomware",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7694",
-      "published": "2026-02-17T00:00:00+00:00"
-    },
-    {
-      "id": "a065cd214014a8ef",
-      "kind": "cve",
-      "cve": "CVE-2008-0015",
-      "title": " Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability",
-      "summary": "Microsoft Windows Video ActiveX Control contains a remote code execution vulnerability. An attacker could exploit the vulnerability by constructing a specially crafted Web page. When a user views the Web page, the vulnerability could allow…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-0015",
-      "published": "2026-02-17T00:00:00+00:00"
     }
   ]
 }
