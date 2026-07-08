@@ -1,7 +1,279 @@
 {
-  "generated": "2026-07-08T12:14:50.027465+00:00",
+  "generated": "2026-07-08T15:10:51.580532+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "d7d18a06566a1950",
+      "kind": "research",
+      "cve": null,
+      "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
+      "summary": "Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of v…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
+      "published": "2026-07-08T14:38:05+00:00"
+    },
+    {
+      "id": "17b1b43a8556bb80",
+      "kind": "cve",
+      "cve": "CVE-2026-58656",
+      "title": "CVE-2026-58656",
+      "summary": "Grav API plugin before v1.0.0-rc.16 accepts JWT tokens via the ?token= URL query parameter and responds with Access-Control-Allow-Origin: *, allowing unauthenticated attackers to make fully authenticated cross-origin API requests from any m…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58656",
+      "published": "2026-07-08T14:17:20.297000+00:00"
+    },
+    {
+      "id": "1ae5a4aebb5529cd",
+      "kind": "cve",
+      "cve": "CVE-2026-58480",
+      "title": "CVE-2026-58480",
+      "summary": "Blocksy Companion Pro plugin for WordPress before 2.1.47 contains an unauthenticated arbitrary file upload vulnerability that allows attackers to upload executable files by bypassing extension validation in the save_attachments function exp…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58480",
+      "published": "2026-07-08T14:17:19.977000+00:00"
+    },
+    {
+      "id": "a590d08b439d3e18",
+      "kind": "cve",
+      "cve": "CVE-2026-56776",
+      "title": "CVE-2026-56776",
+      "summary": "n8n before 1.123.55, 2.25.7, and 2.26.2 contains an authorization bypass in the POST /workflows/{workflowId}/test-runs/new endpoint, which authorizes access using the workflow:read scope instead of workflow:execute. An authenticated user wi…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56776",
+      "published": "2026-07-08T14:17:17.553000+00:00"
+    },
+    {
+      "id": "1acb3797f6ecee8b",
+      "kind": "cve",
+      "cve": "CVE-2026-56297",
+      "title": "CVE-2026-56297",
+      "summary": "FreeRDP before 3.22.0 contains a use-after-free vulnerability in dvcman_channel_close and dvcman_call_on_receive due to improper synchronization of channel_callback access. A malicious RDP server can trigger a race condition by sending DYNV…",
+      "severity": "HIGH",
+      "score": 7.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56297",
+      "published": "2026-07-08T14:17:16.360000+00:00"
+    },
+    {
+      "id": "7dcaa9441fcfeb41",
+      "kind": "cve",
+      "cve": "CVE-2026-56250",
+      "title": "CVE-2026-56250",
+      "summary": "Capgo before 12.128.2 allows upload-scoped API keys to modify the mutable app_versions.r2_path field through PostgREST, enabling retargeting to arbitrary R2 bundle objects. Attackers can patch r2_path to point to victim objects, soft-delete…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56250",
+      "published": "2026-07-08T14:17:15.673000+00:00"
+    },
+    {
+      "id": "84aec9c1e3480f97",
+      "kind": "cve",
+      "cve": "CVE-2026-56246",
+      "title": "CVE-2026-56246",
+      "summary": "Capgo before 12.128.2 contains a broken access control vulnerability in the organization management API where a scoped API key (limited_to_orgs) inherits its owner-user's permissions, allowing destructive cross-organization actions. When a…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56246",
+      "published": "2026-07-08T14:17:15.543000+00:00"
+    },
+    {
+      "id": "ca3b75780a1983c2",
+      "kind": "cve",
+      "cve": "CVE-2026-56226",
+      "title": "CVE-2026-56226",
+      "summary": "Capgo (Cap-go/capgo) before 12.128.2 exposes the Supabase PostgREST RPC function public.get_orgs_v6(userid uuid), which is SECURITY DEFINER and granted to the anon role, allowing unauthenticated access. Because the function accepts a caller…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56226",
+      "published": "2026-07-08T14:17:15.413000+00:00"
+    },
+    {
+      "id": "12bedf41065fcb5d",
+      "kind": "cve",
+      "cve": "CVE-2026-8307",
+      "title": "CVE-2026-8307",
+      "summary": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in Webbeyaz Web Design Mediküm Web allows SQL Injection. This issue affects Mediküm Web: through 08072026. NOTE: The vendor was contacted and…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8307",
+      "published": "2026-07-08T13:16:57.903000+00:00"
+    },
+    {
+      "id": "6d3199a6ae0c3401",
+      "kind": "cve",
+      "cve": "CVE-2026-5356",
+      "title": "CVE-2026-5356",
+      "summary": "The LatePoint – Calendar Booking Plugin for Appointments and Events plugin for WordPress is vulnerable to Improper Input Validation in all versions up to, and including, 5.4.0. This is due to the plugin's Stripe Connect payment processor ac…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5356",
+      "published": "2026-07-08T13:16:56.767000+00:00"
+    },
+    {
+      "id": "2672debb9e5277d7",
+      "kind": "research",
+      "cve": null,
+      "title": "Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?",
+      "summary": "The shift toward preemptive security is underway, but most organizations are still navigating the realities of limited resources, fragmented tools, and emerging AI risk. At Rapid7’s recent Global Security Summit , we surveyed attendees to b…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey",
+      "published": "2026-07-08T13:00:00+00:00"
+    },
+    {
+      "id": "5cf319acf47726bd",
+      "kind": "research",
+      "cve": null,
+      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
+      "summary": "A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hidden until it decrypts and comes to life inside the victim’s…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
+      "published": "2026-07-08T13:00:00+00:00"
+    },
+    {
+      "id": "4fa32d85f0c6af1b",
+      "kind": "research",
+      "cve": null,
+      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
+      "summary": "A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures. The activity cluster, tracked by Elastic Security Labs under the moniker REF6045, in…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
+      "published": "2026-07-08T12:52:15+00:00"
+    },
+    {
+      "id": "a862312352299b9d",
+      "kind": "research",
+      "cve": null,
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intellige…",
+      "severity": "",
+      "score": null,
+      "source": "Krebs on Security",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "published": "2026-07-08T12:31:39+00:00"
+    },
+    {
+      "id": "70891076ae2e034a",
+      "kind": "cve",
+      "cve": "CVE-2026-6818",
+      "title": "CVE-2026-6818",
+      "summary": "The VikBooking Hotel Booking Engine & PMS plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'special_requests' parameter in all versions up to, and including, 1.8.8 due to insufficient input sanitization and output e…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6818",
+      "published": "2026-07-08T12:17:21.017000+00:00"
+    },
+    {
+      "id": "29aa07da70189cba",
+      "kind": "cve",
+      "cve": "CVE-2026-3688",
+      "title": "CVE-2026-3688",
+      "summary": "The WCFM Membership – WooCommerce Memberships for Multivendor Marketplace plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 2.11.10. This is due to the 'wcfmvm_membership_change' AJ…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3688",
+      "published": "2026-07-08T12:17:20.430000+00:00"
+    },
     {
       "id": "366fe12b6b509852",
       "kind": "research",
@@ -105,57 +377,6 @@
       "published": "2026-07-08T06:16:44+00:00"
     },
     {
-      "id": "64dd2b0a3666c0e8",
-      "kind": "cve",
-      "cve": "CVE-2026-9700",
-      "title": "CVE-2026-9700",
-      "summary": "The Eventer plugin for WordPress is vulnerable to time-based SQL Injection via the ‘code’ parameter in all versions up to, and including, 4.4.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation o…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9700",
-      "published": "2026-07-08T06:16:23.043000+00:00"
-    },
-    {
-      "id": "4d11a9b09112e46b",
-      "kind": "cve",
-      "cve": "CVE-2026-14495",
-      "title": "CVE-2026-14495",
-      "summary": "The DoLogin Security plugin for WordPress is vulnerable to Authentication Bypass via Insufficient Randomness in all versions up to, and including, 4.3. The vulnerability exists because `dologin\\s::rrand()` seeds the Mersenne Twister with `m…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14495",
-      "published": "2026-07-08T06:16:22.443000+00:00"
-    },
-    {
-      "id": "99350bfcd8d4be5c",
-      "kind": "cve",
-      "cve": "CVE-2026-14489",
-      "title": "CVE-2026-14489",
-      "summary": "The WHMCS Bridge plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the connect() function in all versions up to, and including, 6.9. This makes it possible for authenticated attackers, with…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14489",
-      "published": "2026-07-08T06:16:22.307000+00:00"
-    },
-    {
       "id": "bff3c20d33872275",
       "kind": "cve",
       "cve": "CVE-2026-12153",
@@ -190,23 +411,6 @@
       "published": "2026-07-08T05:33:12+00:00"
     },
     {
-      "id": "54afd0d301391a21",
-      "kind": "cve",
-      "cve": "CVE-2026-9842",
-      "title": "CVE-2026-9842",
-      "summary": "The Backstage - Customizer Demo Access plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.4.2. This is due to the plugin assigning the `manage_options` capability to the `backstage_customizer_…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9842",
-      "published": "2026-07-08T05:16:29.097000+00:00"
-    },
-    {
       "id": "f1cbc7c612ff3e12",
       "kind": "cve",
       "cve": "CVE-2026-9701",
@@ -222,40 +426,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9701",
       "published": "2026-07-08T05:16:28.977000+00:00"
-    },
-    {
-      "id": "a779f26e8e58e0e5",
-      "kind": "cve",
-      "cve": "CVE-2026-14487",
-      "title": "CVE-2026-14487",
-      "summary": "The Simple Coherent Form plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the removeUploadDir function in all versions up to, and including, 2.4.13. This makes it possible for unauthe…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14487",
-      "published": "2026-07-08T05:16:26.980000+00:00"
-    },
-    {
-      "id": "17563bb0c13eb532",
-      "kind": "cve",
-      "cve": "CVE-2026-14482",
-      "title": "CVE-2026-14482",
-      "summary": "The 多说社会化评论框 plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.2. The vulnerability exists due to a missing capability and nonce check on a directly web-accessible API endpoint, combined with…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14482",
-      "published": "2026-07-08T05:16:26.840000+00:00"
     },
     {
       "id": "74839cfd2b1b38a2",
@@ -275,23 +445,6 @@
       "published": "2026-07-08T05:16:26.700000+00:00"
     },
     {
-      "id": "8db0ff713ab0a8ed",
-      "kind": "cve",
-      "cve": "CVE-2026-14158",
-      "title": "CVE-2026-14158",
-      "summary": "The Widget Logic Visual plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.52 via the widget_logic_visual_check_visibility function. This is due to missing capability check and nonce verifica…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14158",
-      "published": "2026-07-08T05:16:26.463000+00:00"
-    },
-    {
       "id": "e76f51f19e6ae169",
       "kind": "research",
       "cve": null,
@@ -307,57 +460,6 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33136",
       "published": "2026-07-08T02:00:02+00:00"
-    },
-    {
-      "id": "984b69fc9c8829c0",
-      "kind": "cve",
-      "cve": "CVE-2026-59705",
-      "title": "CVE-2026-59705",
-      "summary": "mem0's openmemory/api component contains an unauthenticated access vulnerability that allows unauthenticated attackers to read, write, and delete arbitrary user memories by accessing API routers registered without authentication middleware.…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59705",
-      "published": "2026-07-07T23:16:55.997000+00:00"
-    },
-    {
-      "id": "130ef16d6bc93cd9",
-      "kind": "cve",
-      "cve": "CVE-2026-59704",
-      "title": "CVE-2026-59704",
-      "summary": "Cap's GET /api/video/ai endpoint fails to validate user ownership or membership before returning private video AI metadata including titles, summaries, and chapters. Authenticated attackers can supply arbitrary video IDs to read sensitive A…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59704",
-      "published": "2026-07-07T23:16:55.850000+00:00"
-    },
-    {
-      "id": "f9a6b448b0190b08",
-      "kind": "cve",
-      "cve": "CVE-2026-59706",
-      "title": "CVE-2026-59706",
-      "summary": "mem0 contains unauthenticated config API endpoints that expose LLM API keys in plaintext and allow server-side request forgery via attacker-controlled ollama_base_url parameter. Unauthenticated attackers can retrieve stored secrets like Ope…",
-      "severity": "CRITICAL",
-      "score": 9.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59706",
-      "published": "2026-07-07T22:16:54.503000+00:00"
     },
     {
       "id": "33225f6f1132709b",
@@ -392,40 +494,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58473",
       "published": "2026-07-07T21:17:29.007000+00:00"
-    },
-    {
-      "id": "e8f83f013f26cce8",
-      "kind": "cve",
-      "cve": "CVE-2026-58469",
-      "title": "CVE-2026-58469",
-      "summary": "GNU Wget through 1.25.0, fixed in commit 37a40fc, contains a heap buffer underread vulnerability in the clean_metalink_string() function within src/metalink.c that allows a malicious server to trigger memory corruption by serving a Metalink…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58469",
-      "published": "2026-07-07T21:17:28.383000+00:00"
-    },
-    {
-      "id": "4c30e4a1cc1cb7dc",
-      "kind": "cve",
-      "cve": "CVE-2026-59708",
-      "title": "CVE-2026-59708",
-      "summary": "The GET /api/v1/public/:accessId/portfolio endpoint in ghostfolio accepts private access IDs without validating granteeUserId filtering, allowing unauthenticated access to full portfolio data. Attackers with a private access ID can retrieve…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59708",
-      "published": "2026-07-07T19:16:55.130000+00:00"
     },
     {
       "id": "042017c4c7446f6a",
@@ -834,6 +902,23 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-59615",
       "published": "2026-07-06T21:16:52.077000+00:00"
+    },
+    {
+      "id": "53d53e1410544ccf",
+      "kind": "cve",
+      "cve": "CVE-2026-14536",
+      "title": "CVE-2026-14536",
+      "summary": "Improper enforcement of a mandatory multi-factor authentication policy in Devolutions Server 2026.2.9.0 allows an attacker with valid user credentials to bypass the MFA Required policy and authenticate without completing multi-factor authen…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14536",
+      "published": "2026-07-06T20:16:29.883000+00:00"
     },
     {
       "id": "32699161c024f86e",
@@ -1448,23 +1533,6 @@
       "published": "2026-07-02T16:38:28+00:00"
     },
     {
-      "id": "94ffeb59b4d68ce0",
-      "kind": "research",
-      "cve": null,
-      "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
-      "summary": "This week’s security news is mostly about weak spots. Browsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal until someone tests a small gap and finds a way through. This…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
-      "published": "2026-07-02T15:24:18+00:00"
-    },
-    {
       "id": "7bf3f2e0198c5ba6",
       "kind": "research",
       "cve": null,
@@ -1480,40 +1548,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/so-red-teaming-offensive-methodology-multi-agent-ai-architecture",
       "published": "2026-07-02T13:32:24+00:00"
-    },
-    {
-      "id": "9f005df124587702",
-      "kind": "research",
-      "cve": null,
-      "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
-      "summary": "The threat actor known as ToddyCat has been attributed to a new malware called Umbrij that's designed to gain surreptitious access to a victim's email correspondence via the Google API. \"In this campaign, the attackers focused their attenti…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
-      "published": "2026-07-02T13:04:13+00:00"
-    },
-    {
-      "id": "9359c9a5b2cd173b",
-      "kind": "research",
-      "cve": null,
-      "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
-      "summary": "Identity lifecycle management was architected around a person with an employment record, a manager, and a departure date. AI agents have none of those. As autonomous principals proliferate across enterprise environments, the governance mode…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
-      "published": "2026-07-02T11:30:00+00:00"
     },
     {
       "id": "dd47bf52eda2c943",
@@ -2299,23 +2333,6 @@
       "published": "2026-06-09T22:07:28+00:00"
     },
     {
-      "id": "f4d53bdf4bd4ed23",
-      "kind": "research",
-      "cve": null,
-      "title": "Patch Tuesday - June 2026",
-      "summary": "Microsoft is publishing 200 vulnerabilities on June 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild for any of these vulnerabilities, and is aware of public disclosure for three. This is similar to last month’s Patch…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/em-patch-tuesday-june-2026",
-      "published": "2026-06-09T21:04:53+00:00"
-    },
-    {
       "id": "924ac277894af899",
       "kind": "cve",
       "cve": "CVE-2026-11645",
@@ -2861,23 +2878,6 @@
       "product": "Defender",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45498",
       "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "94138721a3a51949",
-      "kind": "research",
-      "cve": null,
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of…",
-      "severity": "",
-      "score": null,
-      "source": "Krebs on Security",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "published": "2026-05-18T20:48:21+00:00"
     },
     {
       "id": "f90197c3f4a2d91d",
