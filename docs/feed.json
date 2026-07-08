@@ -1,7 +1,126 @@
 {
-  "generated": "2026-07-08T15:10:51.580532+00:00",
+  "generated": "2026-07-08T17:20:39.062154+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "61260e770c5e444f",
+      "kind": "cve",
+      "cve": "CVE-2026-60102",
+      "title": "CVE-2026-60102",
+      "summary": "Horde Virtual File System (VFS) API before 3.0.1 contains an OS command injection vulnerability in the Horde_Vfs_Smb driver where the _escapeShellCommand() method fails to sanitize command substitution sequences, allowing authenticated atta…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60102",
+      "published": "2026-07-08T17:17:28.997000+00:00"
+    },
+    {
+      "id": "1fa80ab992dc3dfd",
+      "kind": "cve",
+      "cve": "CVE-2026-59261",
+      "title": "CVE-2026-59261",
+      "summary": "OpenClaw before 2026.5.28 contains a credential exposure vulnerability where workspace dotenv files can override provider credentials. Attackers with lower-trust access to configured input paths can expose sensitive data and credentials tha…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59261",
+      "published": "2026-07-08T17:17:25.640000+00:00"
+    },
+    {
+      "id": "1bfc9e37b64e9a09",
+      "kind": "cve",
+      "cve": "CVE-2026-29009",
+      "title": "CVE-2026-29009",
+      "summary": "U-Boot through 2026.04-rc3 contains a buffer overflow vulnerability in nfs_readlink_reply() (net/nfs-common.c) when CONFIG_CMD_NFS is enabled, allowing a malicious or compromised NFS server to overflow the 2048-byte nfs_path_buff buffer by…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29009",
+      "published": "2026-07-08T17:17:21.173000+00:00"
+    },
+    {
+      "id": "81b9dc3a9cf7c8b2",
+      "kind": "cve",
+      "cve": "CVE-2026-29008",
+      "title": "CVE-2026-29008",
+      "summary": "U-Boot through 2026.04-rc3 contains an integer underflow vulnerability in the tcp_rx_state_machine() function (net/tcp.c) that allows a network-adjacent attacker to crash the bootloader by sending a malformed TCP SYN+ACK packet with a manip…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29008",
+      "published": "2026-07-08T17:17:21.047000+00:00"
+    },
+    {
+      "id": "7bfe6da3b7fe1471",
+      "kind": "cve",
+      "cve": "CVE-2026-3144",
+      "title": "CVE-2026-3144",
+      "summary": "IBM API Connect 12.1.0.0 through 12.1.0.3 uses default credentials which could allow an attacker to gain unauthorized access to the application before the system enforces a credential update.",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3144",
+      "published": "2026-07-08T16:16:28.463000+00:00"
+    },
+    {
+      "id": "ac16681fbb73754b",
+      "kind": "cve",
+      "cve": "CVE-2026-59703",
+      "title": "CVE-2026-59703",
+      "summary": "repomix contains a local file inclusion vulnerability in the git clone endpoint that allows unauthenticated attackers to read arbitrary local git repositories. The isValidRemoteValue function in src/core/git/gitRemoteParse.ts fails to block…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59703",
+      "published": "2026-07-08T15:16:32.173000+00:00"
+    },
+    {
+      "id": "bce82ec1f44d8205",
+      "kind": "research",
+      "cve": null,
+      "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
+      "summary": "AI coding assistants have a habit of making things up. Ask one to fetch a popular tool, and it will sometimes hand back a real-sounding name for a project that does not exist. New research, which its authors call&nbsp;HalluSquatting, turns…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+      "published": "2026-07-08T15:07:24+00:00"
+    },
     {
       "id": "d7d18a06566a1950",
       "kind": "research",
@@ -18,23 +137,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
       "published": "2026-07-08T14:38:05+00:00"
-    },
-    {
-      "id": "17b1b43a8556bb80",
-      "kind": "cve",
-      "cve": "CVE-2026-58656",
-      "title": "CVE-2026-58656",
-      "summary": "Grav API plugin before v1.0.0-rc.16 accepts JWT tokens via the ?token= URL query parameter and responds with Access-Control-Allow-Origin: *, allowing unauthenticated attackers to make fully authenticated cross-origin API requests from any m…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58656",
-      "published": "2026-07-08T14:17:20.297000+00:00"
     },
     {
       "id": "1ae5a4aebb5529cd",
@@ -71,74 +173,6 @@
       "published": "2026-07-08T14:17:17.553000+00:00"
     },
     {
-      "id": "1acb3797f6ecee8b",
-      "kind": "cve",
-      "cve": "CVE-2026-56297",
-      "title": "CVE-2026-56297",
-      "summary": "FreeRDP before 3.22.0 contains a use-after-free vulnerability in dvcman_channel_close and dvcman_call_on_receive due to improper synchronization of channel_callback access. A malicious RDP server can trigger a race condition by sending DYNV…",
-      "severity": "HIGH",
-      "score": 7.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56297",
-      "published": "2026-07-08T14:17:16.360000+00:00"
-    },
-    {
-      "id": "7dcaa9441fcfeb41",
-      "kind": "cve",
-      "cve": "CVE-2026-56250",
-      "title": "CVE-2026-56250",
-      "summary": "Capgo before 12.128.2 allows upload-scoped API keys to modify the mutable app_versions.r2_path field through PostgREST, enabling retargeting to arbitrary R2 bundle objects. Attackers can patch r2_path to point to victim objects, soft-delete…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56250",
-      "published": "2026-07-08T14:17:15.673000+00:00"
-    },
-    {
-      "id": "84aec9c1e3480f97",
-      "kind": "cve",
-      "cve": "CVE-2026-56246",
-      "title": "CVE-2026-56246",
-      "summary": "Capgo before 12.128.2 contains a broken access control vulnerability in the organization management API where a scoped API key (limited_to_orgs) inherits its owner-user's permissions, allowing destructive cross-organization actions. When a…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56246",
-      "published": "2026-07-08T14:17:15.543000+00:00"
-    },
-    {
-      "id": "ca3b75780a1983c2",
-      "kind": "cve",
-      "cve": "CVE-2026-56226",
-      "title": "CVE-2026-56226",
-      "summary": "Capgo (Cap-go/capgo) before 12.128.2 exposes the Supabase PostgREST RPC function public.get_orgs_v6(userid uuid), which is SECURITY DEFINER and granted to the anon role, allowing unauthenticated access. Because the function accepts a caller…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56226",
-      "published": "2026-07-08T14:17:15.413000+00:00"
-    },
-    {
       "id": "12bedf41065fcb5d",
       "kind": "cve",
       "cve": "CVE-2026-8307",
@@ -154,23 +188,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8307",
       "published": "2026-07-08T13:16:57.903000+00:00"
-    },
-    {
-      "id": "6d3199a6ae0c3401",
-      "kind": "cve",
-      "cve": "CVE-2026-5356",
-      "title": "CVE-2026-5356",
-      "summary": "The LatePoint – Calendar Booking Plugin for Appointments and Events plugin for WordPress is vulnerable to Improper Input Validation in all versions up to, and including, 5.4.0. This is due to the plugin's Stripe Connect payment processor ac…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5356",
-      "published": "2026-07-08T13:16:56.767000+00:00"
     },
     {
       "id": "2672debb9e5277d7",
@@ -256,23 +273,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6818",
       "published": "2026-07-08T12:17:21.017000+00:00"
-    },
-    {
-      "id": "29aa07da70189cba",
-      "kind": "cve",
-      "cve": "CVE-2026-3688",
-      "title": "CVE-2026-3688",
-      "summary": "The WCFM Membership – WooCommerce Memberships for Multivendor Marketplace plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 2.11.10. This is due to the 'wcfmvm_membership_change' AJ…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3688",
-      "published": "2026-07-08T12:17:20.430000+00:00"
     },
     {
       "id": "366fe12b6b509852",
@@ -428,23 +428,6 @@
       "published": "2026-07-08T05:16:28.977000+00:00"
     },
     {
-      "id": "74839cfd2b1b38a2",
-      "kind": "cve",
-      "cve": "CVE-2026-14244",
-      "title": "CVE-2026-14244",
-      "summary": "The Jssor Slider by jssor.com plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 3.1.24 via the 'url' parameter parameter. This makes it possible for unauthenticated attackers to read the content…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14244",
-      "published": "2026-07-08T05:16:26.700000+00:00"
-    },
-    {
       "id": "e76f51f19e6ae169",
       "kind": "research",
       "cve": null,
@@ -477,23 +460,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59707",
       "published": "2026-07-07T21:17:29.340000+00:00"
-    },
-    {
-      "id": "eda27658a0cc3341",
-      "kind": "cve",
-      "cve": "CVE-2026-58473",
-      "title": "CVE-2026-58473",
-      "summary": "Cognee before 1.2.0 contains an improper access control vulnerability that allows unauthenticated attackers to overwrite the global LLM provider configuration by self-registering an account and calling the settings endpoint, which performs…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58473",
-      "published": "2026-07-07T21:17:29.007000+00:00"
     },
     {
       "id": "042017c4c7446f6a",
@@ -921,28 +887,11 @@
       "published": "2026-07-06T20:16:29.883000+00:00"
     },
     {
-      "id": "32699161c024f86e",
-      "kind": "cve",
-      "cve": "CVE-2026-9182",
-      "title": "CVE-2026-9182",
-      "summary": "ArcGIS Server contains an unrestricted file upload vulnerability. An unauthenticated attacker could exploit this issue by uploading a crafted file to the affected endpoint. Successful exploitation could allow arbitrary file upload.",
-      "severity": "MEDIUM",
-      "score": 5.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9182",
-      "published": "2026-07-06T19:17:09.680000+00:00"
-    },
-    {
       "id": "4cc40eb71cbba23f",
       "kind": "cve",
       "cve": "CVE-2026-9181",
       "title": "CVE-2026-9181",
-      "summary": "ArcGIS Server contains a directory traversal vulnerability. An unauthenticated attacker could exploit this issue by sending crafted path parameters. Successful exploitation could allow access to sensitive files on the system. This issue imp…",
+      "summary": "Esri ArcGIS Server contains a directory traversal vulnerability. ArcGIS Enterprise on Kubernetes is not impacted. An unauthenticated attacker could exploit this issue by sending crafted path parameters. Successful exploitation could allow o…",
       "severity": "CRITICAL",
       "score": 9.8,
       "source": "NVD",
@@ -1497,23 +1446,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
       "published": "2026-07-02T18:54:06+00:00"
-    },
-    {
-      "id": "176ebf5d897f3158",
-      "kind": "research",
-      "cve": "CVE-2025-5777",
-      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
-      "summary": "Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. \"Although tactics differ between affiliates, common patterns emerged in t…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-      "published": "2026-07-02T18:30:33+00:00"
     },
     {
       "id": "67114ad22bf7c88c",
@@ -2382,23 +2314,6 @@
       "product": "Catalyst SD-WAN Manager",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20245",
       "published": "2026-06-09T00:00:00+00:00"
-    },
-    {
-      "id": "7bf49da8ea8b790e",
-      "kind": "research",
-      "cve": null,
-      "title": "Mehdi Elyassa - SCCM The tree that always bears bad fruits - SO-CON 2026",
-      "summary": "",
-      "severity": "",
-      "score": null,
-      "source": "Synacktiv",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNU5oVTBFZVdtclp2c1RJYnJfUG5IMjBDNTV2c21pSzVoQVNWdlBkV1NPOTRfdTBNbDJtOV9tRTlzcThkU0tkNjlpRUMzU1NZQjl3WElKYURHYXZnQnMwdVM2YkxTOTM0MThFeVdhLTBBTlNkNXFleER3ZWtHSWo0VW5sMTMyRGExTXlKeGNBejBqa0xhLThDa1FoRnRRZXJtM2RIMENITFRPbUd0bDFuTGtDbUg3Y0tNcnFhRVJhRThsRmxE?oc=5",
-      "published": "2026-06-08T16:29:05+00:00"
     },
     {
       "id": "5d8e67eac79cfc18",
@@ -4264,6 +4179,91 @@
       "product": "Multiple Chipsets",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21385",
       "published": "2026-03-03T00:00:00+00:00"
+    },
+    {
+      "id": "debc8ec6ce8d0a38",
+      "kind": "research",
+      "cve": null,
+      "title": "AI code review has come a long way, but it can’t catch everything",
+      "summary": "AI code review can reason about intent, but real incidents often stem from business logic flaws that only show up in runtime. Our benchmark reveals where code-only review falls short.",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/ai-code-review-vs-neo",
+      "published": "2026-02-26T22:23:42+00:00"
+    },
+    {
+      "id": "fff7a6b46d2a2f6d",
+      "kind": "research",
+      "cve": null,
+      "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
+      "summary": "In my previous blog post I mentioned the GetProcessHandleFromHwnd API. This was an API I didn’t know existed until I found a publicly disclosed UAC bypass using the Quick Assist UI Access application. This API looked interesting so I though…",
+      "severity": "",
+      "score": null,
+      "source": "Project Zero",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectzero.google/2026/02/gphfh-deep-dive.html",
+      "published": "2026-02-26T08:00:00+00:00"
+    },
+    {
+      "id": "e27911d64587eace",
+      "kind": "research",
+      "cve": null,
+      "title": "Buy A Help Desk, Bundle A Remote Access Solution? (SolarWinds Web Help Desk Pre-Auth RCE Chain(s))",
+      "summary": "It&#x2019;s been a while, but we&#x2019;re back - in time for story time. Gather round, strap in, and prepare for another depressing journey of &#x201c;all we wanted to do was reproduce an N-day, and here we are with 0-days&#x201d;. Today,…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/buy-a-help-desk-bundle-a-remote-access-solution-solarwinds-web-help-desk-pre-auth-rce-chain-s/",
+      "published": "2026-02-25T20:06:32+00:00"
+    },
+    {
+      "id": "bba422c63efcc64e",
+      "kind": "cve",
+      "cve": "CVE-2022-20775",
+      "title": "Cisco SD-WAN Path Traversal Vulnerability",
+      "summary": "Cisco SD-WAN CLI contains a path traversal vulnerability that could allow an authenticated local attacker to gain elevated privileges via improper access controls on commands within the application CLI. A successful exploit could allow the…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "SD-WAN",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-20775",
+      "published": "2026-02-25T00:00:00+00:00"
+    },
+    {
+      "id": "45ae526d49d93b05",
+      "kind": "cve",
+      "cve": "CVE-2026-20127",
+      "title": "Cisco Catalyst SD-WAN Controller and Manager Authentication Bypass Vulnerability",
+      "summary": "Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, contain an authentication bypass vulnerability could allow an unauthenticated, remote attacker to bypass authentication an…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Controller and Manager",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20127",
+      "published": "2026-02-25T00:00:00+00:00"
     }
   ]
 }
