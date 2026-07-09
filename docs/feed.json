@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T22:03:45.247604+00:00",
+  "generated": "2026-07-09T00:00:58.484911+00:00",
   "count": 250,
   "items": [
     {
@@ -43,7 +43,7 @@
       "title": "CVE-2026-60104",
       "summary": "Bitwarden Server before 2026.6.0 does not verify that the email in a POST /auth-requests/admin-request body belongs to the authenticated caller, allowing a low-privileged organization member to obtain another user's vault key and a victim-s…",
       "severity": "HIGH",
-      "score": 7.3,
+      "score": 8.7,
       "source": "NVD",
       "tags": [
         "NVD"
@@ -1174,57 +1174,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
       "published": "2026-07-06T06:33:56+00:00"
-    },
-    {
-      "id": "937c7ef707c8577f",
-      "kind": "cve",
-      "cve": "CVE-2026-14760",
-      "title": "CVE-2026-14760",
-      "summary": "A weakness has been identified in radareorg radare2 up to 6.1.6. Impacted is the function r_core_seek_arch_bits of the file libr/core/disasm.c of the component regprofile Handler. Executing a manipulation can lead to use after free. The att…",
-      "severity": "LOW",
-      "score": 3.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14760",
-      "published": "2026-07-05T16:19:44.740000+00:00"
-    },
-    {
-      "id": "342db8cafc493de1",
-      "kind": "cve",
-      "cve": "CVE-2026-14759",
-      "title": "CVE-2026-14759",
-      "summary": "A security flaw has been discovered in radareorg radare2 up to 6.1.6. This issue affects the function r_bin_java_inner_classes_attr_calc_size of the file shlr/java/class.c of the component RBinJava Line Number Table Parser. Performing a man…",
-      "severity": "LOW",
-      "score": 3.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14759",
-      "published": "2026-07-05T16:19:44.583000+00:00"
-    },
-    {
-      "id": "3cd8f514a9dcadac",
-      "kind": "cve",
-      "cve": "CVE-2026-14757",
-      "title": "CVE-2026-14757",
-      "summary": "A vulnerability was determined in radareorg radare2 up to 6.1.6. This affects the function core_anal_bytes of the file libr/core/cmd_anal.inc. This manipulation causes integer overflow. The attack needs to be launched locally. The exploit h…",
-      "severity": "MEDIUM",
-      "score": 5.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14757",
-      "published": "2026-07-05T15:16:56.810000+00:00"
     },
     {
       "id": "dfe2e4f3f58fedb8",
@@ -4264,6 +4213,57 @@
       "product": "Webmail",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49113",
       "published": "2026-02-20T00:00:00+00:00"
+    },
+    {
+      "id": "101e91e3c3b03000",
+      "kind": "cve",
+      "cve": "CVE-2025-68461",
+      "title": "RoundCube Webmail Cross-site Scripting Vulnerability",
+      "summary": "RoundCube Webmail contains a cross-site scripting vulnerability via the animate tag in an SVG document.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Roundcube",
+      "product": "Webmail",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68461",
+      "published": "2026-02-20T00:00:00+00:00"
+    },
+    {
+      "id": "30e2ef360c11e2ea",
+      "kind": "cve",
+      "cve": "CVE-2021-22175",
+      "title": "GitLab Server-Side Request Forgery (SSRF) Vulnerability",
+      "summary": "GitLab contains a server-side request forgery (SSRF) vulnerability when requests to the internal network for webhooks are enabled.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "GitLab",
+      "product": "GitLab",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22175",
+      "published": "2026-02-18T00:00:00+00:00"
+    },
+    {
+      "id": "2d1fad5fa46c2143",
+      "kind": "cve",
+      "cve": "CVE-2026-22769",
+      "title": "Dell RecoverPoint for Virtual Machines (RP4VMs) Use of Hard-coded Credentials Vulnerability",
+      "summary": "Dell RecoverPoint for Virtual Machines (RP4VMs) contains an use of hard-coded credentials vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access to the underlying operating system and root-level persis…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Dell",
+      "product": "RecoverPoint for Virtual Machines (RP4VMs)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22769",
+      "published": "2026-02-18T00:00:00+00:00"
     }
   ]
 }
