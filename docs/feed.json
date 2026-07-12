@@ -1,7 +1,211 @@
 {
-  "generated": "2026-07-12T11:52:20.353476+00:00",
+  "generated": "2026-07-12T12:58:25.323546+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "434818bf2e3c2ec9",
+      "kind": "cve",
+      "cve": "CVE-2026-61876",
+      "title": "CVE-2026-61876",
+      "summary": "LuCI versions fail to properly encode DHCPv6 lease hostnames before rendering in status tables, allowing adjacent network attackers to inject HTML markup. Attackers can send a DHCPv6 Client FQDN containing script tags that execute in the ad…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61876",
+      "published": "2026-07-12T12:16:46.400000+00:00"
+    },
+    {
+      "id": "75fac92b6884b78e",
+      "kind": "cve",
+      "cve": "CVE-2026-61875",
+      "title": "CVE-2026-61875",
+      "summary": "luci-app-upnp contains a stored cross-site scripting vulnerability that allows unauthenticated LAN clients to inject JavaScript via UPnP IGD AddPortMapping SOAP requests. Attackers can send malicious HTML in the NewPortMappingDescription fi…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61875",
+      "published": "2026-07-12T12:16:46.260000+00:00"
+    },
+    {
+      "id": "66869336153b5f9f",
+      "kind": "cve",
+      "cve": "CVE-2026-59260",
+      "title": "CVE-2026-59260",
+      "summary": "OpenWrt luci-app-samba4 read ACL grants file.exec permission on /usr/sbin/smbd, allowing authenticated delegated users to execute the Samba daemon with caller-controlled command-line arguments. Attackers can pass arbitrary Samba global opti…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59260",
+      "published": "2026-07-12T12:16:45.977000+00:00"
+    },
+    {
+      "id": "f0a1a871342caeee",
+      "kind": "cve",
+      "cve": "CVE-2026-56313",
+      "title": "CVE-2026-56313",
+      "summary": "Capgo before 12.128.2 contains a cross-organization account disruption vulnerability in the SSO prelink endpoint that allows enterprise administrators to delete password identities of users in foreign organizations. Attackers with org.updat…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56313",
+      "published": "2026-07-12T12:16:45.703000+00:00"
+    },
+    {
+      "id": "070638d40631d02b",
+      "kind": "cve",
+      "cve": "CVE-2026-56308",
+      "title": "CVE-2026-56308",
+      "summary": "Capgo before 12.128.2 allows email address changes without requiring current password re-authentication or verification of the existing email address. An attacker with access to a valid session cookie or authenticated browser can change the…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56308",
+      "published": "2026-07-12T12:16:45.567000+00:00"
+    },
+    {
+      "id": "6344de080ce1f473",
+      "kind": "cve",
+      "cve": "CVE-2026-56271",
+      "title": "CVE-2026-56271",
+      "summary": "Flowise before 3.1.0 (affected versions 3.0.13 and earlier) uses weak hardcoded default JWT secrets ('auth_token', 'refresh_token') and default audience and issuer values ('AUDIENCE', 'ISSUER') in the enterprise passport authentication midd…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56271",
+      "published": "2026-07-12T12:16:45.290000+00:00"
+    },
+    {
+      "id": "ec76bedc4c9222cf",
+      "kind": "cve",
+      "cve": "CVE-2026-56260",
+      "title": "CVE-2026-56260",
+      "summary": "Crawl4AI before 0.8.7 contains an arbitrary file write vulnerability in the Docker API server's /screenshot and /pdf endpoints. The output_path parameter accepts arbitrary filesystem paths without validation, allowing an attacker to supply…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56260",
+      "published": "2026-07-12T12:16:45.153000+00:00"
+    },
+    {
+      "id": "fc06b27eb97743d7",
+      "kind": "cve",
+      "cve": "CVE-2026-56259",
+      "title": "CVE-2026-56259",
+      "summary": "Crawl4AI before 0.8.8 contains credential exfiltration vulnerabilities in the Docker API server that allow attackers to redirect LLM API calls to attacker-controlled endpoints and read arbitrary environment variables. Attackers can exploit…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56259",
+      "published": "2026-07-12T12:16:45.013000+00:00"
+    },
+    {
+      "id": "aa500c1040c3c4b6",
+      "kind": "cve",
+      "cve": "CVE-2026-56241",
+      "title": "CVE-2026-56241",
+      "summary": "Capgo before 12.128.2 contains a privilege escalation vulnerability where demoted super_admin users retain access to delete_non_compliant_bundles and count_non_compliant_bundles RPCs due to stale org_users.user_right column not being cleare…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56241",
+      "published": "2026-07-12T12:16:44.730000+00:00"
+    },
+    {
+      "id": "3d86879515cfe75a",
+      "kind": "cve",
+      "cve": "CVE-2026-56238",
+      "title": "CVE-2026-56238",
+      "summary": "Capgo before 12.128.2 contains an information disclosure vulnerability in the Supabase PostgREST global_stats endpoint that allows unauthenticated attackers to read sensitive financial and operational metrics using only the public apikey. R…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56238",
+      "published": "2026-07-12T12:16:44.587000+00:00"
+    },
+    {
+      "id": "1078f11f41e28b91",
+      "kind": "cve",
+      "cve": "CVE-2026-15498",
+      "title": "CVE-2026-15498",
+      "summary": "A vulnerability was identified in sergomanov SmartHomeAdatum up to cf495353d81b680675eb8d9aa14a318aa45ce12c. This impacts an unknown function of the file users.php of the component Login. Such manipulation of the argument Login leads to sql…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15498",
+      "published": "2026-07-12T12:16:44.053000+00:00"
+    },
+    {
+      "id": "a41634fd4208896d",
+      "kind": "cve",
+      "cve": "CVE-2026-15497",
+      "title": "CVE-2026-15497",
+      "summary": "A vulnerability was determined in SonicCloudOrg sonic-agent up to 2.7.2. This affects an unknown function of the file sonic-server-controller/src/main/java/org/cloud/sonic/controller/controller/ExchangeController.java of the component JWT A…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15497",
+      "published": "2026-07-12T12:16:42.897000+00:00"
+    },
     {
       "id": "4a3658bfa6726e3a",
       "kind": "cve",
@@ -4059,210 +4263,6 @@
       "product": "Client",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3502",
       "published": "2026-04-02T00:00:00+00:00"
-    },
-    {
-      "id": "1f9385bb0c9a3f02",
-      "kind": "cve",
-      "cve": "CVE-2026-5281",
-      "title": "Google Dawn Use-After-Free Vulnerability",
-      "summary": "Google Dawn contains an use-after-free vulnerability that could allow a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. This vulnerability could affect multiple Chromium-based prod…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Dawn",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5281",
-      "published": "2026-04-01T00:00:00+00:00"
-    },
-    {
-      "id": "42ff17315a3bcdc5",
-      "kind": "cve",
-      "cve": "CVE-2026-3055",
-      "title": "Citrix NetScaler Out-of-Bounds Read Vulnerability",
-      "summary": "Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3055",
-      "published": "2026-03-30T00:00:00+00:00"
-    },
-    {
-      "id": "892cc8ea298160be",
-      "kind": "research",
-      "cve": "CVE-2026-3055",
-      "title": "Please, We Beg, Just One Weekend Free Of Appliances (Citrix NetScaler CVE-2026-3055 Memory Overread Part 2)",
-      "summary": "Today, we woke up with a nagging feeling: what if Citrix had, in fact, patched multiple Memory Overread vulnerabilities as part of CVE-2026-3055? While we&apos;ve been using our analysis from Part 1 (please read it first, as this post will…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/please-we-beg-just-one-weekend-free-of-appliances-citrix-netscaler-cve-2026-3055-memory-overread-part-2/",
-      "published": "2026-03-29T20:07:28+00:00"
-    },
-    {
-      "id": "b782f35797f57674",
-      "kind": "research",
-      "cve": "CVE-2026-3055",
-      "title": "The Sequels Are Never As Good, But We're Still In Pain (Citrix NetScaler CVE-2026-3055 Memory Overread)",
-      "summary": "Sequels? Pain? We&apos;re obviously talking about Citrix NetScalers, yet again. Welcome back to another watchTowr Labs blog post - pull up a chair, we always welcome new members to our group therapy sessions. If you asked a C programmer wha…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/the-sequels-are-never-as-good-but-were-still-in-pain-citrix-netscaler-cve-2026-3055-memory-overread/",
-      "published": "2026-03-28T20:39:56+00:00"
-    },
-    {
-      "id": "a3914a98347b1572",
-      "kind": "cve",
-      "cve": "CVE-2025-53521",
-      "title": "F5 BIG-IP Stack-Based Buffer Overflow Vulnerability",
-      "summary": "F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "F5",
-      "product": "BIG-IP",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53521",
-      "published": "2026-03-27T00:00:00+00:00"
-    },
-    {
-      "id": "cccb856c0b77013c",
-      "kind": "cve",
-      "cve": "CVE-2026-33634",
-      "title": "Aquasecurity Trivy Embedded Malicious Code Vulnerability",
-      "summary": "Aquasecurity Trivy contains an embedded malicious code vulnerability that could allow an attacker to gain access to everything in the CI/CD environment, including all tokens, SSH keys, cloud credentials, database passwords, and any sensitiv…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Aquasecurity",
-      "product": "Trivy",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33634",
-      "published": "2026-03-26T00:00:00+00:00"
-    },
-    {
-      "id": "0d4cc919ccbfb875",
-      "kind": "cve",
-      "cve": "CVE-2026-33017",
-      "title": "Langflow Code Injection Vulnerability",
-      "summary": "Langflow contains a code injection vulnerability that could allow building public flows without requiring authentication.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33017",
-      "published": "2026-03-25T00:00:00+00:00"
-    },
-    {
-      "id": "b41432a76fcfde16",
-      "kind": "research",
-      "cve": null,
-      "title": "Beyond the Model: Neo Hunts, Exploits, and Proves 22 Zero-Days.",
-      "summary": "LLMs are a genuine leap forward for vulnerability discovery. Anthropic reported 500+ zero-days from Opus 4.6 and OpenAI's Codex Security discovered 14 CVEs across projects like OpenSSH and GnuTLS. If you've experimented with LLMs for securi…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/everyone-is-finding-vulns-the-hard-part-is-proving-them",
-      "published": "2026-03-20T16:14:10+00:00"
-    },
-    {
-      "id": "aed8f072709160b1",
-      "kind": "cve",
-      "cve": "CVE-2025-32432",
-      "title": "Craft CMS Code Injection Vulnerability",
-      "summary": "Craft CMS contains a code injection vulnerability that allows a remote attacker to execute arbitrary code.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Craft CMS",
-      "product": "Craft CMS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32432",
-      "published": "2026-03-20T00:00:00+00:00"
-    },
-    {
-      "id": "4148f6190ffd0d5c",
-      "kind": "cve",
-      "cve": "CVE-2025-54068",
-      "title": "Laravel Livewire Code Injection Vulnerability",
-      "summary": "Laravel Livewire contain a code injection vulnerability that could allow unauthenticated attackers to achieve remote command execution in specific scenarios.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Laravel",
-      "product": "Livewire",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54068",
-      "published": "2026-03-20T00:00:00+00:00"
-    },
-    {
-      "id": "c6e8e7b7887a2e19",
-      "kind": "cve",
-      "cve": "CVE-2025-43510",
-      "title": "Apple Multiple Products Improper Locking Vulnerability",
-      "summary": "Apple watchOS, iOS, iPadOS, macOS, visionOS, and tvOS contain an improper locking vulnerability that could allow a malicious application to cause unexpected changes in memory shared between processes.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43510",
-      "published": "2026-03-20T00:00:00+00:00"
-    },
-    {
-      "id": "d7b34e8a2a9dc378",
-      "kind": "cve",
-      "cve": "CVE-2025-43520",
-      "title": "Apple Multiple Products Classic Buffer Overflow Vulnerability",
-      "summary": "Apple watchOS, iOS, iPadOS, macOS, visionOS, and tvOS contain a classic buffer overflow vulnerability which could allow a malicious application to cause unexpected system termination or write kernel memory.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43520",
-      "published": "2026-03-20T00:00:00+00:00"
     }
   ]
 }
