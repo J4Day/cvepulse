@@ -1,7 +1,41 @@
 {
-  "generated": "2026-07-13T22:46:06.508726+00:00",
+  "generated": "2026-07-13T23:44:14.567486+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "de48fa79038420f2",
+      "kind": "cve",
+      "cve": "CVE-2026-57856",
+      "title": "CVE-2026-57856",
+      "summary": "Cockpit CMS contains a path traversal vulnerability in the Bucket file storage API (/system/buckets/api). The api() method in modules/System/Controller/Buckets.php sanitizes the bucket name with preg_replace('/[^a-zA-Z0-9-_\\\\.]/','', $bucke…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57856",
+      "published": "2026-07-13T23:16:46.883000+00:00"
+    },
+    {
+      "id": "0d442a80e3d28033",
+      "kind": "cve",
+      "cve": "CVE-2026-57855",
+      "title": "CVE-2026-57855",
+      "summary": "Cockpit CMS contains a missing authorization vulnerability in the Bucket file storage API (/system/buckets/api). The api() method in modules/System/Controller/Buckets.php executes bucket commands (ls, upload, removefiles, rename, createfold…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57855",
+      "published": "2026-07-13T23:16:46.743000+00:00"
+    },
     {
       "id": "0e9d20208d858b32",
       "kind": "cve",
@@ -1412,6 +1446,23 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57158",
       "published": "2026-07-10T20:16:48.523000+00:00"
+    },
+    {
+      "id": "dbb0575389d83fe3",
+      "kind": "cve",
+      "cve": "CVE-2026-55827",
+      "title": "CVE-2026-55827",
+      "summary": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.27.1, FreeRDP clients launched with the non-default /cache:codec:rfx option pass desktop stride and height to RemoteFX decoding for Cache Bitmap V3 data while alloc…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55827",
+      "published": "2026-07-10T20:16:48.060000+00:00"
     },
     {
       "id": "c5dba758e3e4a6be",
@@ -4210,58 +4261,6 @@
       "vendor": "Microsoft",
       "product": "Windows",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60710",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "041076831e35804d",
-      "kind": "cve",
-      "cve": "CVE-2023-21529",
-      "title": "Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft Exchange Server contains a deserialization of untrusted data that allows an authenticated attacker to achieve remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Microsoft",
-      "product": "Exchange Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-21529",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "21401c204ece54d3",
-      "kind": "cve",
-      "cve": "CVE-2023-36424",
-      "title": "Microsoft Windows Out-of-Bounds Read Vulnerability",
-      "summary": "Microsoft Windows Common Log File System Driver contains an out-of-bounds read vulnerability that could allow a threat actor for privileges escalation",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36424",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "78f8c3aacb7e266f",
-      "kind": "cve",
-      "cve": "CVE-2020-9715",
-      "title": "Adobe Acrobat Use-After-Free Vulnerability",
-      "summary": "Adobe Acrobat contains a use-after-free vulnerability that allows for code execution",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "Acrobat",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9715",
       "published": "2026-04-13T00:00:00+00:00"
     }
   ]
