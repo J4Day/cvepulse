@@ -1,7 +1,58 @@
 {
-  "generated": "2026-07-13T19:13:46.579806+00:00",
+  "generated": "2026-07-13T20:50:41.649624+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "902fa0ddc1afd14a",
+      "kind": "cve",
+      "cve": "CVE-2026-49972",
+      "title": "CVE-2026-49972",
+      "summary": "Laravel-Mediable before 7.0.0 contains a file upload vulnerability that allows unauthenticated attackers to achieve remote code execution by uploading a file with an embedded PHP extension disguised within a double extension such as shell.p…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49972",
+      "published": "2026-07-13T19:17:10.447000+00:00"
+    },
+    {
+      "id": "3e03eb87a164f4fd",
+      "kind": "cve",
+      "cve": "CVE-2026-49970",
+      "title": "CVE-2026-49970",
+      "summary": "Laravel-Mediable before 7.0.0 contains a path traversal vulnerability in the File::sanitizePath() function that allows attackers to write uploaded files to arbitrary locations by controlling the directory argument passed to MediaUploader::t…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49970",
+      "published": "2026-07-13T19:17:09.943000+00:00"
+    },
+    {
+      "id": "3c0f4ee651e68b94",
+      "kind": "cve",
+      "cve": "CVE-2026-49969",
+      "title": "CVE-2026-49969",
+      "summary": "Laravel-Mediable before 7.0.0 contains a server-side request forgery vulnerability that allows remote attackers to issue arbitrary HTTP requests from the server by supplying unvalidated caller-controlled URLs to endpoints backed by MediaUpl…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49969",
+      "published": "2026-07-13T19:17:09.793000+00:00"
+    },
     {
       "id": "3ed235a724921202",
       "kind": "cve",
@@ -18,40 +69,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61500",
       "published": "2026-07-13T18:16:29.903000+00:00"
-    },
-    {
-      "id": "b8ecb2036bcec24e",
-      "kind": "cve",
-      "cve": "CVE-2026-61463",
-      "title": "CVE-2026-61463",
-      "summary": "Shiori contains a privilege escalation vulnerability in the account update endpoint that allows authenticated users to modify the owner field without authorization checks. Attackers can escalate to administrator by submitting a crafted PATC…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61463",
-      "published": "2026-07-13T18:16:29.770000+00:00"
-    },
-    {
-      "id": "350e5e31186da638",
-      "kind": "cve",
-      "cve": "CVE-2026-61462",
-      "title": "CVE-2026-61462",
-      "summary": "mcp-gitlab contains a path traversal vulnerability in the job_id parameter of build/index.js that allows attackers to redirect GitLab API requests to arbitrary endpoints. Attackers can supply crafted job_id values like ../../../user to esca…",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61462",
-      "published": "2026-07-13T18:16:29.633000+00:00"
     },
     {
       "id": "67a878ed5466ab7a",
@@ -241,23 +258,6 @@
       "published": "2026-07-13T11:02:33+00:00"
     },
     {
-      "id": "239e4df390eb0b2b",
-      "kind": "cve",
-      "cve": "CVE-2026-15557",
-      "title": "CVE-2026-15557",
-      "summary": "A weakness has been identified in waooAI waoowaoo up to 0.4.1. Affected by this vulnerability is the function getInternalTaskSession/getAuthSession/requireUserAuth/requireProjectAuth/requireProjectAuthLight in the library src/lib/api-auth.t…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15557",
-      "published": "2026-07-13T10:16:26.737000+00:00"
-    },
-    {
       "id": "48fe14b5847fb10f",
       "kind": "cve",
       "cve": "CVE-2026-15548",
@@ -273,23 +273,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15548",
       "published": "2026-07-13T10:16:26.537000+00:00"
-    },
-    {
-      "id": "610b7fe060094f85",
-      "kind": "cve",
-      "cve": "CVE-2026-15543",
-      "title": "CVE-2026-15543",
-      "summary": "A vulnerability was found in Tenda CH22 1.0.0.1. This impacts the function formCertListInfo of the file /goform/CertListInfo. The manipulation of the argument Name results in buffer overflow. The attack can be launched remotely. The exploit…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15543",
-      "published": "2026-07-13T08:16:20.967000+00:00"
     },
     {
       "id": "1a8648eaf84db0ea",
@@ -324,23 +307,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
       "published": "2026-07-13T07:30:00+00:00"
-    },
-    {
-      "id": "800d198468a9015e",
-      "kind": "cve",
-      "cve": "CVE-2026-15537",
-      "title": "CVE-2026-15537",
-      "summary": "A security flaw has been discovered in SourceCodester Online Book Store System 1.0. This vulnerability affects unknown code of the file admin/login.php. The manipulation of the argument Username results in sql injection. The attack can be e…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15537",
-      "published": "2026-07-13T07:16:28.647000+00:00"
     },
     {
       "id": "a1c2e3b8921d2735",
@@ -496,23 +462,6 @@
       "published": "2026-07-12T23:16:38.137000+00:00"
     },
     {
-      "id": "e89a0bc932c41962",
-      "kind": "cve",
-      "cve": "CVE-2026-15506",
-      "title": "CVE-2026-15506",
-      "summary": "A security vulnerability has been detected in SecureAge CatchPulse up to 10.9.3. The affected element is an unknown function in the library saappctl.sys of the component Driver. Such manipulation leads to heap-based buffer overflow. An atta…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15506",
-      "published": "2026-07-12T22:16:34.873000+00:00"
-    },
-    {
       "id": "434818bf2e3c2ec9",
       "kind": "cve",
       "cve": "CVE-2026-61876",
@@ -581,23 +530,6 @@
       "published": "2026-07-12T12:16:44.730000+00:00"
     },
     {
-      "id": "1078f11f41e28b91",
-      "kind": "cve",
-      "cve": "CVE-2026-15498",
-      "title": "CVE-2026-15498",
-      "summary": "A vulnerability was identified in sergomanov SmartHomeAdatum up to cf495353d81b680675eb8d9aa14a318aa45ce12c. This impacts an unknown function of the file users.php of the component Login. Such manipulation of the argument Login leads to sql…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15498",
-      "published": "2026-07-12T12:16:44.053000+00:00"
-    },
-    {
       "id": "a41634fd4208896d",
       "kind": "cve",
       "cve": "CVE-2026-15497",
@@ -664,23 +596,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15483",
       "published": "2026-07-12T07:16:24.927000+00:00"
-    },
-    {
-      "id": "8e666112ec7e87d2",
-      "kind": "cve",
-      "cve": "CVE-2026-15480",
-      "title": "CVE-2026-15480",
-      "summary": "A vulnerability was identified in Trendnet TEW-635BRM up to 1.00.03. This affects the function start_httpd of the file /sbin/rc of the component Web Service. Such manipulation of the argument device_name leads to stack-based buffer overflow…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15480",
-      "published": "2026-07-12T06:16:42.650000+00:00"
     },
     {
       "id": "812b1342daf662c3",
@@ -921,23 +836,6 @@
       "published": "2026-07-11T00:32:34+00:00"
     },
     {
-      "id": "b2fd902faffb519a",
-      "kind": "cve",
-      "cve": "CVE-2026-57850",
-      "title": "CVE-2026-57850",
-      "summary": "RustDesk before 1.4.9 does not enforce a session's authorized connection scope on the server side, so a peer granted a limited session type (FileTransfer, PortForward, ViewCamera, or Terminal) can send control messages and login options res…",
-      "severity": "HIGH",
-      "score": 8.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57850",
-      "published": "2026-07-10T20:16:48.663000+00:00"
-    },
-    {
       "id": "c5dba758e3e4a6be",
       "kind": "cve",
       "cve": "CVE-2026-54329",
@@ -953,23 +851,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54329",
       "published": "2026-07-10T19:17:24.440000+00:00"
-    },
-    {
-      "id": "c0053362798840a6",
-      "kind": "cve",
-      "cve": "CVE-2025-30007",
-      "title": "CVE-2025-30007",
-      "summary": "HestiaCP before 1.9.5 contains an authenticated OS command injection vulnerability that allows low-privilege authenticated users to execute arbitrary commands as root by injecting a single-quote character into unvalidated DNS record types.…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30007",
-      "published": "2026-07-10T19:17:18.130000+00:00"
     },
     {
       "id": "342a13c1d15d1864",
@@ -4264,6 +4145,125 @@
       "product": "Skia",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3909",
       "published": "2026-03-13T00:00:00+00:00"
+    },
+    {
+      "id": "390105cc44573965",
+      "kind": "research",
+      "cve": null,
+      "title": "Inside the benchmark: app architectures, walkthroughs of findings, and what each scanner actually caught",
+      "summary": "This is Part 2 of our vibe coding security benchmark study. In Part 1, we compared how LLM-based security tools like ProjectDiscovery's Neo and Claude Code performed against traditional SAST and DAST scanners on AI-generated code. We found…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/inside-the-benchmark-pp-architectures-finding-walkthroughs-and-what-each-scanner-actually-caught",
+      "published": "2026-03-11T16:59:28+00:00"
+    },
+    {
+      "id": "a7006a63fb1d042e",
+      "kind": "cve",
+      "cve": "CVE-2025-68613",
+      "title": "n8n Improper Control of Dynamically-Managed Code Resources Vulnerability",
+      "summary": "n8n contains an improper control of dynamically managed code resources vulnerability in its workflow expression evaluation system that allows for remote code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "n8n",
+      "product": "n8n",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68613",
+      "published": "2026-03-11T00:00:00+00:00"
+    },
+    {
+      "id": "5689299d5624fb5e",
+      "kind": "cve",
+      "cve": "CVE-2021-22054",
+      "title": "Omnissa Workspace ONE Server-Side Request Forgery",
+      "summary": "Omnissa Workspace One UEM formerly known as VMware Workspace One UEM contains a server-side request forgery (SSRF) vulnerability that could allow a malicious actor with network access to UEM to send their requests without authentication and…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Omnissa",
+      "product": "Workspace One UEM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22054",
+      "published": "2026-03-09T00:00:00+00:00"
+    },
+    {
+      "id": "caf7a2fa9adaec5c",
+      "kind": "cve",
+      "cve": "CVE-2025-26399",
+      "title": "SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability",
+      "summary": "SolarWinds Web Help Desk contain a deserialization of untrusted data vulnerability in AjaxProxy that could allow an attacker to run commands on the host machine.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "SolarWinds",
+      "product": "Web Help Desk",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26399",
+      "published": "2026-03-09T00:00:00+00:00"
+    },
+    {
+      "id": "7171d40991ff67ac",
+      "kind": "cve",
+      "cve": "CVE-2026-1603",
+      "title": "Ivanti Endpoint Manager (EPM) Authentication Bypass Vulnerability",
+      "summary": "Ivanti Endpoint Manager (EPM) contains an authentication bypass using an alternate path or channel vulnerability that could allow a remote unauthenticated attacker to leak specific stored credential data.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ivanti",
+      "product": " Endpoint Manager (EPM)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1603",
+      "published": "2026-03-09T00:00:00+00:00"
+    },
+    {
+      "id": "a38c46d93768f159",
+      "kind": "research",
+      "cve": null,
+      "title": "On the Effectiveness of Mutational Grammar Fuzzing",
+      "summary": "Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adh…",
+      "severity": "",
+      "score": null,
+      "source": "Project Zero",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectzero.google/2026/03/mutational-grammar-fuzzing.html",
+      "published": "2026-03-05T08:00:00+00:00"
+    },
+    {
+      "id": "d43d9d46882028a6",
+      "kind": "cve",
+      "cve": "CVE-2017-7921",
+      "title": "Hikvision Multiple Products Improper Authentication Vulnerability",
+      "summary": "Multiple Hikvision products contain an improper authentication vulnerability that could allow a malicious user to escalate privileges on the system and gain access to sensitive information.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Hikvision",
+      "product": "Multiple Products",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7921",
+      "published": "2026-03-05T00:00:00+00:00"
     }
   ]
 }
