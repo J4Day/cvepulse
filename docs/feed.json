@@ -1,7 +1,126 @@
 {
-  "generated": "2026-07-13T23:44:14.567486+00:00",
+  "generated": "2026-07-14T01:41:54.955422+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "af50c6aac68d528f",
+      "kind": "cve",
+      "cve": "CVE-2026-58233",
+      "title": "CVE-2026-58233",
+      "summary": "SAP Change and Transport System Attach Tool (ctsattach) allows an authenticated attacker to supply a specially crafted archive file which, when processed by the application�s library, can trigger insecure deserialization and lead to remote…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58233",
+      "published": "2026-07-14T01:16:18.710000+00:00"
+    },
+    {
+      "id": "c93a0d58ad187b4b",
+      "kind": "cve",
+      "cve": "CVE-2026-44761",
+      "title": "CVE-2026-44761",
+      "summary": "SAP Commerce Cloud could retain a sample OAuth2 client with publicly documented sample credentials originating from sample configuration provided in SAP Help Portal documentation. If left unchanged, an unauthenticated attacker could use the…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44761",
+      "published": "2026-07-14T01:16:18.023000+00:00"
+    },
+    {
+      "id": "db4f3a84b38fbc9c",
+      "kind": "cve",
+      "cve": "CVE-2026-44752",
+      "title": "CVE-2026-44752",
+      "summary": "SAP NetWeaver Application Server Java allows an unauthenticated attacker to inject malicious JavaScript through crafted URLs. When a victim accesses such a URL, the script executes in the user's browser, allowing the attacker to access sens…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44752",
+      "published": "2026-07-14T01:16:17.567000+00:00"
+    },
+    {
+      "id": "e3b267a4699fbbda",
+      "kind": "cve",
+      "cve": "CVE-2026-44747",
+      "title": "CVE-2026-44747",
+      "summary": "SAP NetWeaver Application Server ABAP allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could lead to unauthorized data access, modification, or system unavailability. This ha…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44747",
+      "published": "2026-07-14T01:16:17.437000+00:00"
+    },
+    {
+      "id": "b3402717eca7ffa8",
+      "kind": "cve",
+      "cve": "CVE-2026-44745",
+      "title": "CVE-2026-44745",
+      "summary": "SAP Approuter does not properly validate incoming request headers during the OAuth2 login flow under certain configurations. This allows an unauthenticated remote attacker to craft a malicious link which, when clicked by a victim, could lea…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44745",
+      "published": "2026-07-14T01:16:17.320000+00:00"
+    },
+    {
+      "id": "743a059a01dda420",
+      "kind": "cve",
+      "cve": "CVE-2026-27690",
+      "title": "CVE-2026-27690",
+      "summary": "Due to an HTTP Request Smuggling vulnerability in SAP Approuter, an unauthenticated attacker could send a specially crafted HTTP request that leads to request-response desynchronization. This could result in the exposure of user responses a…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27690",
+      "published": "2026-07-14T01:16:17.193000+00:00"
+    },
+    {
+      "id": "2361fa4d22ee9d0a",
+      "kind": "cve",
+      "cve": "CVE-2026-0487",
+      "title": "CVE-2026-0487",
+      "summary": "SAProuter on Microsoft Windows allows an unauthenticated attacker to load library (DLL) files from an untrusted location, allowing them to execute malicious code on the system. This could enable the attacker to hijack the DLL loading proces…",
+      "severity": "HIGH",
+      "score": 8.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0487",
+      "published": "2026-07-14T01:16:16.370000+00:00"
+    },
     {
       "id": "de48fa79038420f2",
       "kind": "cve",
@@ -547,6 +666,40 @@
       "published": "2026-07-13T17:17:24+00:00"
     },
     {
+      "id": "bffc0177eec9d900",
+      "kind": "cve",
+      "cve": "CVE-2026-59245",
+      "title": "CVE-2026-59245",
+      "summary": "In the Apache Airflow FAB auth manager, a DAG whose `dag_id` is `DAGs` collided with the global all-DAGs permission resource name produced by `resource_name()`, so a user granted per-DAG `access_control` on that one DAG was silently granted…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59245",
+      "published": "2026-07-13T16:16:41.880000+00:00"
+    },
+    {
+      "id": "296458ce3e8ee9c2",
+      "kind": "cve",
+      "cve": "CVE-2026-58065",
+      "title": "CVE-2026-58065",
+      "summary": "The Apache Airflow Git provider runs its git-over-SSH operations with `StrictHostKeyChecking=no` by default, disabling SSH host-key verification. An attacker who can intercept the network path between an Airflow worker and the Git server ca…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58065",
+      "published": "2026-07-13T16:16:41.757000+00:00"
+    },
+    {
       "id": "a7d16af7498e5239",
       "kind": "research",
       "cve": null,
@@ -613,6 +766,74 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
       "published": "2026-07-13T13:49:48+00:00"
+    },
+    {
+      "id": "fa949821dc43ff86",
+      "kind": "cve",
+      "cve": "CVE-2026-40553",
+      "title": "CVE-2026-40553",
+      "summary": "Buffer overflow vulnerability has been found in \"extension/readdir.c\" program file of gawk (ftype() routine). This issue could be used to crash the program and potentially to achieve code execution, although the latter has not been confirme…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40553",
+      "published": "2026-07-13T13:16:37.147000+00:00"
+    },
+    {
+      "id": "06b08c1efc64885d",
+      "kind": "cve",
+      "cve": "CVE-2026-40469",
+      "title": "CVE-2026-40469",
+      "summary": "Integer overflow vulnerability has been found in \"builtin.c\" program file of gawk (do_sub() routine). This issue could be used to overwrite gawk heap metadata and objects causing the program to crash. It affects 32-bit builds of gawk in ver…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40469",
+      "published": "2026-07-13T13:16:37.033000+00:00"
+    },
+    {
+      "id": "abde2c48cb698f5d",
+      "kind": "cve",
+      "cve": "CVE-2026-40468",
+      "title": "CVE-2026-40468",
+      "summary": "Integer overflow vulnerability has been found in \"builtin.c\" program file of gawk. This issue may lead to memory exhaustion on the hosting operating system and could be used to overwrite gawk heap metadata and objects with attacker-controll…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40468",
+      "published": "2026-07-13T13:16:36.907000+00:00"
+    },
+    {
+      "id": "0b3e305af2dcd0b3",
+      "kind": "cve",
+      "cve": "CVE-2026-40467",
+      "title": "CVE-2026-40467",
+      "summary": "Use After Free vulnerability has been found in \"io.c\" program file of gawk (do_getline_redir() routine). This issue may lead to a crash. It affects gawk in versions 5.4.0 and below.",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40467",
+      "published": "2026-07-13T13:16:36.770000+00:00"
     },
     {
       "id": "e1c84265f3b56c1a",
@@ -1346,159 +1567,6 @@
       "published": "2026-07-11T00:32:34+00:00"
     },
     {
-      "id": "13a98da867eed89c",
-      "kind": "cve",
-      "cve": "CVE-2026-57219",
-      "title": "CVE-2026-57219",
-      "summary": "RabbitMQ is a messaging and streaming broker. Prior to 3.13.15, 4.0.20, 4.1.11, and 4.2.6, the obsolete GET /api/auth endpoint can disclose the OAuth 2 client secret on RabbitMQ installations configured with management.oauth_client_secret,…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57219",
-      "published": "2026-07-10T21:16:59.060000+00:00"
-    },
-    {
-      "id": "35ebf4ed62f84a7f",
-      "kind": "cve",
-      "cve": "CVE-2026-57216",
-      "title": "CVE-2026-57216",
-      "summary": "RabbitMQ is a messaging and streaming broker. Prior to 3.13.15, 4.0.20, 4.1.11, and 4.2.6, AMQP 0-9-1, AMQP 1.0, and Stream Protocol authentication can allow a loopback-restricted user such as guest to connect remotely when traffic is accep…",
-      "severity": "MEDIUM",
-      "score": 6.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57216",
-      "published": "2026-07-10T21:16:58.677000+00:00"
-    },
-    {
-      "id": "5a7863a7b3cd3bed",
-      "kind": "cve",
-      "cve": "CVE-2026-57215",
-      "title": "CVE-2026-57215",
-      "summary": "RabbitMQ is a messaging and streaming broker. Prior to 3.13.15, 4.0.20, 4.1.11, and 4.2.6, RabbitMQ allows foreign bindings to amq.rabbitmq.reply-to destinations because volatile direct-reply-to queues can be accepted at bind and route time…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57215",
-      "published": "2026-07-10T21:16:58.550000+00:00"
-    },
-    {
-      "id": "4b58abd3eb109c2a",
-      "kind": "cve",
-      "cve": "CVE-2026-57212",
-      "title": "CVE-2026-57212",
-      "summary": "RabbitMQ is a messaging and streaming broker. Prior to 3.13.14, 4.0.19, 4.1.10, and 4.2.5, the rabbitmq_management HTTP API accepts oversized valid JSON bodies on with_decode and direct_request paths because read_complete_body checks the ac…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57212",
-      "published": "2026-07-10T21:16:58.150000+00:00"
-    },
-    {
-      "id": "653fb1d4e4227c51",
-      "kind": "cve",
-      "cve": "CVE-2026-57211",
-      "title": "CVE-2026-57211",
-      "summary": "RabbitMQ is a messaging and streaming broker. Prior to 4.1.11 and 4.2.6 on Windows, the RabbitMQ management plugin static file handler rabbit_mgmt_wm_static can pass URL-encoded backslashes to erl_prim_loader:read_file_info before path vali…",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57211",
-      "published": "2026-07-10T21:16:58.007000+00:00"
-    },
-    {
-      "id": "e3ff4f124f547a24",
-      "kind": "cve",
-      "cve": "CVE-2026-57158",
-      "title": "CVE-2026-57158",
-      "summary": "FreeRDP is a free implementation of the Remote Desktop Protocol. From 3.21.0 before 3.28.0, FreeRDP clients using the GFX pipeline contain an incomplete fix for CVE-2026-23530 in planar_decompress_plane_rle_only in libfreerdp/codec/planar.c…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57158",
-      "published": "2026-07-10T20:16:48.523000+00:00"
-    },
-    {
-      "id": "dbb0575389d83fe3",
-      "kind": "cve",
-      "cve": "CVE-2026-55827",
-      "title": "CVE-2026-55827",
-      "summary": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.27.1, FreeRDP clients launched with the non-default /cache:codec:rfx option pass desktop stride and height to RemoteFX decoding for Cache Bitmap V3 data while alloc…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55827",
-      "published": "2026-07-10T20:16:48.060000+00:00"
-    },
-    {
-      "id": "c5dba758e3e4a6be",
-      "kind": "cve",
-      "cve": "CVE-2026-54329",
-      "title": "CVE-2026-54329",
-      "summary": "Snipe-IT is an IT asset/license management system. Prior to 8.6.2, the Accessories API create path mass-assigns request parameters to the Accessory model while company_id is mass assignable, allowing a low-privileged authenticated user in o…",
-      "severity": "HIGH",
-      "score": 8.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54329",
-      "published": "2026-07-10T19:17:24.440000+00:00"
-    },
-    {
-      "id": "342a13c1d15d1864",
-      "kind": "cve",
-      "cve": "CVE-2026-39903",
-      "title": "CVE-2026-39903",
-      "summary": "Simple Machines Forum 2.1 prior to 2.1.8 and 3.0 prior to 3.0 Alpha 5 contains an authorization bypass vulnerability in Sources/Actions/AttachmentApprove.php where a single-character operator error causes the permission check to always pass…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39903",
-      "published": "2026-07-10T17:16:57.230000+00:00"
-    },
-    {
       "id": "e449797afea6f6b2",
       "kind": "research",
       "cve": null,
@@ -1531,23 +1599,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
       "published": "2026-07-10T16:29:00+00:00"
-    },
-    {
-      "id": "af50d672987dc7da",
-      "kind": "cve",
-      "cve": "CVE-2026-8609",
-      "title": "CVE-2026-8609",
-      "summary": "An unauthenticated attacker can repeatedly call Grafana's OAuth login route with unique values, causing unbounded memory growth that can eventually exhaust memory and crash the Grafana instance (denial of service).",
-      "severity": "MEDIUM",
-      "score": 5.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8609",
-      "published": "2026-07-10T16:16:39.510000+00:00"
     },
     {
       "id": "5f6c7f2d8eb2eba3",
@@ -1584,74 +1635,6 @@
       "published": "2026-07-10T15:52:27+00:00"
     },
     {
-      "id": "4abaab6f0c1da4d6",
-      "kind": "cve",
-      "cve": "CVE-2026-61437",
-      "title": "CVE-2026-61437",
-      "summary": "PraisonAI (pip package praisonaiagents) before 1.6.78 contains an unsafe dynamic module loading vulnerability in AgentFlow._resolve_pydantic_class (src/praisonai-agents/praisonaiagents/workflows/workflows.py). When a workflow step uses a st…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61437",
-      "published": "2026-07-10T15:16:50.350000+00:00"
-    },
-    {
-      "id": "7c24191305b17b39",
-      "kind": "cve",
-      "cve": "CVE-2026-59792",
-      "title": "CVE-2026-59792",
-      "summary": "In JetBrains IntelliJ IDEA before 2026.1.4, 2026.2 code execution via path traversal in project workspace ID handling was possible",
-      "severity": "CRITICAL",
-      "score": 9.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59792",
-      "published": "2026-07-10T15:16:48.240000+00:00"
-    },
-    {
-      "id": "135029ddb8c630f7",
-      "kind": "cve",
-      "cve": "CVE-2026-56305",
-      "title": "CVE-2026-56305",
-      "summary": "Capgo before 12.128.2 contains an authentication bypass vulnerability in the password change endpoint that allows attackers to change user passwords without requiring current password confirmation. Attackers with temporary session access ca…",
-      "severity": "HIGH",
-      "score": 8.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56305",
-      "published": "2026-07-10T15:16:42.300000+00:00"
-    },
-    {
-      "id": "13787dcec6ee6ffe",
-      "kind": "cve",
-      "cve": "CVE-2026-56261",
-      "title": "CVE-2026-56261",
-      "summary": "Crawl4AI before 0.8.7 contains a server-side request forgery (SSRF) vulnerability in the Docker API server's /crawl/job and /llm/job endpoints, which accept webhook URLs without destination validation. An attacker can supply webhook URLs po…",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56261",
-      "published": "2026-07-10T15:16:42.017000+00:00"
-    },
-    {
       "id": "daf3bdaf00dabafc",
       "kind": "research",
       "cve": null,
@@ -1684,23 +1667,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
       "published": "2026-07-10T14:19:50+00:00"
-    },
-    {
-      "id": "287d18122b811ecc",
-      "kind": "cve",
-      "cve": "CVE-2026-22659",
-      "title": "CVE-2026-22659",
-      "summary": "FlaskBB through 2.2.0, fixed in commit acc88cf, contains an authorization bypass vulnerability that allows authenticated moderators to perform unauthorized actions on topics in forums they do not control by submitting crafted topic ID lists…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22659",
-      "published": "2026-07-10T14:16:52.547000+00:00"
     },
     {
       "id": "e4b38fb48af10e87",
@@ -1788,23 +1754,6 @@
       "published": "2026-07-10T10:30:20+00:00"
     },
     {
-      "id": "c0925f8fb6a04cbf",
-      "kind": "cve",
-      "cve": "CVE-2026-15378",
-      "title": "CVE-2026-15378",
-      "summary": "A flaw was found in the `guardrails-detectors` component. This vulnerability allows a remote attacker to perform a blind Server-Side Request Forgery (SSRF) by submitting a specially crafted XML Schema Definition (XSD) string. This can lead…",
-      "severity": "CRITICAL",
-      "score": 9.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15378",
-      "published": "2026-07-10T10:16:23.553000+00:00"
-    },
-    {
       "id": "6b6b3115cdc4dc8d",
       "kind": "research",
       "cve": null,
@@ -1854,40 +1803,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html",
       "published": "2026-07-10T08:10:12+00:00"
-    },
-    {
-      "id": "33a710c8bf28e642",
-      "kind": "cve",
-      "cve": "CVE-2026-15288",
-      "title": "CVE-2026-15288",
-      "summary": "The SureForms – Drag and Drop Form Builder for WordPress plugin for WordPress is vulnerable to Improper Input Validation in all versions up to, and including, 2.2.1. This is due to the plugin accepting the payment amount directly from user-…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15288",
-      "published": "2026-07-10T05:16:31.923000+00:00"
-    },
-    {
-      "id": "626ebc246d86181e",
-      "kind": "cve",
-      "cve": "CVE-2026-15282",
-      "title": "CVE-2026-15282",
-      "summary": "The Instant Appointment plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'insapp_upload_image_as_attachment' function in all versions up to, and including, 1.2. This makes it possible f…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15282",
-      "published": "2026-07-10T05:16:30.820000+00:00"
     },
     {
       "id": "8dd3f55dea68fbad",
@@ -4261,6 +4176,92 @@
       "vendor": "Microsoft",
       "product": "Windows",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60710",
+      "published": "2026-04-13T00:00:00+00:00"
+    },
+    {
+      "id": "041076831e35804d",
+      "kind": "cve",
+      "cve": "CVE-2023-21529",
+      "title": "Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability",
+      "summary": "Microsoft Exchange Server contains a deserialization of untrusted data that allows an authenticated attacker to achieve remote code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-21529",
+      "published": "2026-04-13T00:00:00+00:00"
+    },
+    {
+      "id": "21401c204ece54d3",
+      "kind": "cve",
+      "cve": "CVE-2023-36424",
+      "title": "Microsoft Windows Out-of-Bounds Read Vulnerability",
+      "summary": "Microsoft Windows Common Log File System Driver contains an out-of-bounds read vulnerability that could allow a threat actor for privileges escalation",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36424",
+      "published": "2026-04-13T00:00:00+00:00"
+    },
+    {
+      "id": "78f8c3aacb7e266f",
+      "kind": "cve",
+      "cve": "CVE-2020-9715",
+      "title": "Adobe Acrobat Use-After-Free Vulnerability",
+      "summary": "Adobe Acrobat contains a use-after-free vulnerability that allows for code execution",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Adobe",
+      "product": "Acrobat",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9715",
+      "published": "2026-04-13T00:00:00+00:00"
+    },
+    {
+      "id": "13aa74940323fbad",
+      "kind": "cve",
+      "cve": "CVE-2026-21643",
+      "title": "Fortinet FortiClient EMS SQL Injection Vulnerability",
+      "summary": "Fortinet FortiClient EMS contains a SQL injection vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Fortinet",
+      "product": "FortiClient EMS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21643",
+      "published": "2026-04-13T00:00:00+00:00"
+    },
+    {
+      "id": "73ed99865ae84a24",
+      "kind": "cve",
+      "cve": "CVE-2026-34621",
+      "title": "Adobe Acrobat and Reader Prototype Pollution Vulnerability",
+      "summary": "Adobe Acrobat and Reader contain a prototype pollution vulnerability that allows for arbitrary code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Adobe",
+      "product": "Acrobat and Reader",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34621",
       "published": "2026-04-13T00:00:00+00:00"
     }
   ]
