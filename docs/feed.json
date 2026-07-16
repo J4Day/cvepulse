@@ -1,7 +1,24 @@
 {
-  "generated": "2026-07-16T20:00:41.285105+00:00",
+  "generated": "2026-07-16T21:56:46.495287+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "5255a5c26a7f9cbf",
+      "kind": "cve",
+      "cve": "CVE-2026-63089",
+      "title": "CVE-2026-63089",
+      "summary": "WireGuard Easy through 15.3.0, fixed in commit 66b292b, contains a cryptographically weak one-time link token generation vulnerability that allows unauthenticated network attackers to recover WireGuard peer credentials by brute-forcing a ke…",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63089",
+      "published": "2026-07-16T20:16:47.800000+00:00"
+    },
     {
       "id": "4cec00a2df96642a",
       "kind": "cve",
@@ -613,6 +630,57 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61866",
       "published": "2026-07-15T12:18:21.673000+00:00"
+    },
+    {
+      "id": "4eaf541af14d15b7",
+      "kind": "cve",
+      "cve": "CVE-2026-61863",
+      "title": "CVE-2026-61863",
+      "summary": "ImageMagick before 7.1.2-26 (and 6.x before 6.9.13-51) contains a memory leak in the TIFF encoder that occurs when a temporary file cannot be created, resulting in a small memory leak.",
+      "severity": "LOW",
+      "score": 2.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61863",
+      "published": "2026-07-15T12:18:21.233000+00:00"
+    },
+    {
+      "id": "731931c564e15434",
+      "kind": "cve",
+      "cve": "CVE-2026-56400",
+      "title": "CVE-2026-56400",
+      "summary": "open-webui before 0.3.14 contains a cross-origin resource sharing misconfiguration allowing arbitrary origins with allow_origins=* and authenticated requests to the /api/v1/functions endpoint. Attackers can execute arbitrary code on the ope…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56400",
+      "published": "2026-07-15T12:18:03.017000+00:00"
+    },
+    {
+      "id": "d34123200bb008d8",
+      "kind": "cve",
+      "cve": "CVE-2026-56398",
+      "title": "CVE-2026-56398",
+      "summary": "Open WebUI before 0.9.5 contains a stored cross-site scripting vulnerability in the OAuth authentication flow where the picture claim URL MIME type is inferred from file extension rather than Content-Type header, allowing SVG files to bypas…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56398",
+      "published": "2026-07-15T12:18:02.870000+00:00"
     },
     {
       "id": "dcc7d7954c83b3ca",
@@ -1363,6 +1431,91 @@
       "published": "2026-07-14T18:18:44.790000+00:00"
     },
     {
+      "id": "7a171f3726638337",
+      "kind": "cve",
+      "cve": "CVE-2026-58617",
+      "title": "CVE-2026-58617",
+      "summary": "Improper access control in Microsoft 365 Copilot for iOS allows an unauthorized attacker to elevate privileges over a network.",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58617",
+      "published": "2026-07-14T18:18:44.260000+00:00"
+    },
+    {
+      "id": "cc70fa239a411702",
+      "kind": "cve",
+      "cve": "CVE-2026-58594",
+      "title": "CVE-2026-58594",
+      "summary": "Integer overflow or wraparound in Windows RDP allows an unauthorized attacker to execute code over a network.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58594",
+      "published": "2026-07-14T18:18:43.067000+00:00"
+    },
+    {
+      "id": "d9d09d1ff7c438b8",
+      "kind": "cve",
+      "cve": "CVE-2026-58547",
+      "title": "CVE-2026-58547",
+      "summary": "Heap-based buffer overflow in Universal Plug and Play (upnp.dll) allows an authorized attacker to elevate privileges locally.",
+      "severity": "MEDIUM",
+      "score": 5.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58547",
+      "published": "2026-07-14T18:18:42.907000+00:00"
+    },
+    {
+      "id": "75c900772a6389da",
+      "kind": "cve",
+      "cve": "CVE-2026-58542",
+      "title": "CVE-2026-58542",
+      "summary": "Heap-based buffer overflow in Windows Media allows an unauthorized attacker to execute code locally.",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58542",
+      "published": "2026-07-14T18:18:42.153000+00:00"
+    },
+    {
+      "id": "fbe846ad84e03160",
+      "kind": "cve",
+      "cve": "CVE-2026-58539",
+      "title": "CVE-2026-58539",
+      "summary": "Out-of-bounds read in Windows RDP allows an unauthorized attacker to disclose information over a network.",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58539",
+      "published": "2026-07-14T18:18:41.200000+00:00"
+    },
+    {
       "id": "75c08aed69725533",
       "kind": "cve",
       "cve": "CVE-2026-57088",
@@ -1482,6 +1635,23 @@
       "published": "2026-07-14T18:18:01.457000+00:00"
     },
     {
+      "id": "7a7d7749a72713ee",
+      "kind": "cve",
+      "cve": "CVE-2026-50670",
+      "title": "CVE-2026-50670",
+      "summary": "Out-of-bounds read in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50670",
+      "published": "2026-07-14T18:18:01.063000+00:00"
+    },
+    {
       "id": "47a29edaf85b9b22",
       "kind": "research",
       "cve": "CVE-2026-44747",
@@ -1497,6 +1667,23 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
       "published": "2026-07-14T18:17:57+00:00"
+    },
+    {
+      "id": "ddae9034c554de7e",
+      "kind": "cve",
+      "cve": "CVE-2026-50321",
+      "title": "CVE-2026-50321",
+      "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows USB Driver allows an authorized attacker to elevate privileges locally.",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50321",
+      "published": "2026-07-14T18:17:30.903000+00:00"
     },
     {
       "id": "f7f0fc37d9e6c557",
@@ -4068,194 +4255,6 @@
       "product": "Defender",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41091",
       "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "5cc0a6e6a9089133",
-      "kind": "cve",
-      "cve": "CVE-2026-45498",
-      "title": "Microsoft Defender Denial of Service Vulnerability",
-      "summary": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45498",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "f90197c3f4a2d91d",
-      "kind": "cve",
-      "cve": "CVE-2026-42897",
-      "title": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
-      "summary": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Microsoft",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
-      "published": "2026-05-15T00:00:00+00:00"
-    },
-    {
-      "id": "c66ba8836b7b8206",
-      "kind": "cve",
-      "cve": "CVE-2026-20182",
-      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
-      "published": "2026-05-14T00:00:00+00:00"
-    },
-    {
-      "id": "3e6f4335ce749d6c",
-      "kind": "research",
-      "cve": null,
-      "title": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",
-      "summary": "We recently published an exploit chain for the Google Pixel 9 that demonstrated it was possible to go from a zero-click context to root on Android in just two exploits. The Dolby 0-click vulnerability existed across all of Android, until it…",
-      "severity": "",
-      "score": null,
-      "source": "Project Zero",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
-      "published": "2026-05-13T07:00:00+00:00"
-    },
-    {
-      "id": "fbd8f4f301b4388c",
-      "kind": "research",
-      "cve": null,
-      "title": "Nuclei Templates - April 2026",
-      "summary": "Two releases shipped this cycle - v10.4.2 (April 15) and v10.4.3 (May 5) - delivering deep KEV coverage, a major push into AI/LLM attack surface, fresh Perforce visibility, and broad quality improvements across the template library. 🚀 April…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/nuclei-templates-april-2026",
-      "published": "2026-05-12T11:26:09+00:00"
-    },
-    {
-      "id": "e2275c3be38e67a1",
-      "kind": "cve",
-      "cve": "CVE-2026-42208",
-      "title": "BerriAI LiteLLM SQL Injection Vulnerability",
-      "summary": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
-      "published": "2026-05-08T00:00:00+00:00"
-    },
-    {
-      "id": "0b960075f0625d20",
-      "kind": "cve",
-      "cve": "CVE-2026-6973",
-      "title": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
-      "summary": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": "Endpoint Manager Mobile (EPMM)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
-      "published": "2026-05-07T00:00:00+00:00"
-    },
-    {
-      "id": "27a5fddb4b783b95",
-      "kind": "cve",
-      "cve": "CVE-2026-0300",
-      "title": "Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability",
-      "summary": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Se…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Palo Alto Networks",
-      "product": "PAN-OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0300",
-      "published": "2026-05-06T00:00:00+00:00"
-    },
-    {
-      "id": "0d08b28d14a01511",
-      "kind": "cve",
-      "cve": "CVE-2026-31431",
-      "title": "Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability",
-      "summary": "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Linux",
-      "product": "Kernel",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
-      "published": "2026-05-01T00:00:00+00:00"
-    },
-    {
-      "id": "9840ed02b97562d3",
-      "kind": "research",
-      "cve": null,
-      "title": "Bypassing Windows authentication reflection mitigations for SYSTEM shells - Part ②",
-      "summary": "",
-      "severity": "",
-      "score": null,
-      "source": "Synacktiv",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSGIxN2xTSFdqNmo0WnFJNXgyODZ4RE5VNk9nakloYVRaN0Z6dEVNeDJsbDNfcE9vUmNzUzRfTnFrTW5vU2FSM2tENHFzTzdNVGR3OHJJN0lKNUdRdVIwYW1BcEtxTzJtekFzeENJTm9QM3hQUFpHcTlpWF9NbEozYTdUYktWN3B3ZkhJMFhONkUzX19fd1pqY251OHY4MGNuYjl2eWxlM2hsMnF5a3VaTGtBS2lYWG8?oc=5",
-      "published": "2026-04-30T07:00:00+00:00"
-    },
-    {
-      "id": "41a796cb51f0fc3a",
-      "kind": "cve",
-      "cve": "CVE-2026-41940",
-      "title": "WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability",
-      "summary": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "WebPros",
-      "product": "cPanel & WHM and WP2 (WordPress Squared)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41940",
-      "published": "2026-04-30T00:00:00+00:00"
     }
   ]
 }
