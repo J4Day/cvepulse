@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T23:51:35.704703+00:00",
+  "generated": "2026-07-17T01:51:46.951981+00:00",
   "count": 250,
   "items": [
     {
@@ -2621,23 +2621,6 @@
       "published": "2026-07-13T17:36:12+00:00"
     },
     {
-      "id": "1b20fe0120de280d",
-      "kind": "cve",
-      "cve": "CVE-2026-57432",
-      "title": "CVE-2026-57432",
-      "summary": "Perl versions through 5.43.10 have an integer overflow in S_measure_struct leading to an out-of-bounds heap read in pack and unpack. S_measure_struct adds each item's size times its repeat count to a running total with no overflow check, so…",
-      "severity": "HIGH",
-      "score": 8.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57432",
-      "published": "2026-07-13T17:17:55.670000+00:00"
-    },
-    {
       "id": "3e6ef506e7c5d428",
       "kind": "research",
       "cve": null,
@@ -2653,57 +2636,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
       "published": "2026-07-13T17:17:24+00:00"
-    },
-    {
-      "id": "62d1a49611400917",
-      "kind": "cve",
-      "cve": "CVE-2026-13221",
-      "title": "CVE-2026-13221",
-      "summary": "Perl versions through 5.43.9 produce silently incorrect regular expression matches when an alternation of more than 65535 fixed string branches is compiled into a trie in Perl_study_chunk. When such branches are combined into a trie, the de…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13221",
-      "published": "2026-07-13T17:16:48.923000+00:00"
-    },
-    {
-      "id": "bffc0177eec9d900",
-      "kind": "cve",
-      "cve": "CVE-2026-59245",
-      "title": "CVE-2026-59245",
-      "summary": "In the Apache Airflow FAB auth manager, a DAG whose `dag_id` is `DAGs` collided with the global all-DAGs permission resource name produced by `resource_name()`, so a user granted per-DAG `access_control` on that one DAG was silently granted…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59245",
-      "published": "2026-07-13T16:16:41.880000+00:00"
-    },
-    {
-      "id": "296458ce3e8ee9c2",
-      "kind": "cve",
-      "cve": "CVE-2026-58065",
-      "title": "CVE-2026-58065",
-      "summary": "The Apache Airflow Git provider runs its git-over-SSH operations with `StrictHostKeyChecking=no` by default, disabling SSH host-key verification. An attacker who can intercept the network path between an Airflow worker and the Git server ca…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58065",
-      "published": "2026-07-13T16:16:41.757000+00:00"
     },
     {
       "id": "a7d16af7498e5239",
@@ -2757,74 +2689,6 @@
       "published": "2026-07-13T13:49:48+00:00"
     },
     {
-      "id": "fa949821dc43ff86",
-      "kind": "cve",
-      "cve": "CVE-2026-40553",
-      "title": "CVE-2026-40553",
-      "summary": "Buffer overflow vulnerability has been found in \"extension/readdir.c\" program file of gawk (ftype() routine). This issue could be used to crash the program and potentially to achieve code execution, although the latter has not been confirme…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40553",
-      "published": "2026-07-13T13:16:37.147000+00:00"
-    },
-    {
-      "id": "06b08c1efc64885d",
-      "kind": "cve",
-      "cve": "CVE-2026-40469",
-      "title": "CVE-2026-40469",
-      "summary": "Integer overflow vulnerability has been found in \"builtin.c\" program file of gawk (do_sub() routine). This issue could be used to overwrite gawk heap metadata and objects causing the program to crash. It affects 32-bit builds of gawk in ver…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40469",
-      "published": "2026-07-13T13:16:37.033000+00:00"
-    },
-    {
-      "id": "abde2c48cb698f5d",
-      "kind": "cve",
-      "cve": "CVE-2026-40468",
-      "title": "CVE-2026-40468",
-      "summary": "Integer overflow vulnerability has been found in \"builtin.c\" program file of gawk. This issue may lead to memory exhaustion on the hosting operating system and could be used to overwrite gawk heap metadata and objects with attacker-controll…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40468",
-      "published": "2026-07-13T13:16:36.907000+00:00"
-    },
-    {
-      "id": "0b3e305af2dcd0b3",
-      "kind": "cve",
-      "cve": "CVE-2026-40467",
-      "title": "CVE-2026-40467",
-      "summary": "Use After Free vulnerability has been found in \"io.c\" program file of gawk (do_getline_redir() routine). This issue may lead to a crash. It affects gawk in versions 5.4.0 and below.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40467",
-      "published": "2026-07-13T13:16:36.770000+00:00"
-    },
-    {
       "id": "ebd4ad1a53ac1ea7",
       "kind": "research",
       "cve": null,
@@ -2857,23 +2721,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
       "published": "2026-07-13T11:54:46+00:00"
-    },
-    {
-      "id": "0ffdf66594188caf",
-      "kind": "cve",
-      "cve": "CVE-2026-57830",
-      "title": "CVE-2026-57830",
-      "summary": "The Joomla extension Helix Ultimate is vulnerable to an unauthenticated arbitrary file deletion.",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57830",
-      "published": "2026-07-13T08:16:21.713000+00:00"
     },
     {
       "id": "a1c2e3b8921d2735",
@@ -4255,6 +4102,159 @@
       "product": "Internet Explorer",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0249",
       "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "f681e20eb89d2529",
+      "kind": "cve",
+      "cve": "CVE-2010-0806",
+      "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "summary": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0806",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "568d947e55fc107c",
+      "kind": "cve",
+      "cve": "CVE-2026-41091",
+      "title": "Microsoft Defender Link Following Vulnerability",
+      "summary": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Defender",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41091",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "5cc0a6e6a9089133",
+      "kind": "cve",
+      "cve": "CVE-2026-45498",
+      "title": "Microsoft Defender Denial of Service Vulnerability",
+      "summary": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Defender",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45498",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "f90197c3f4a2d91d",
+      "kind": "cve",
+      "cve": "CVE-2026-42897",
+      "title": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
+      "summary": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Microsoft",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
+      "published": "2026-05-15T00:00:00+00:00"
+    },
+    {
+      "id": "c66ba8836b7b8206",
+      "kind": "cve",
+      "cve": "CVE-2026-20182",
+      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+      "summary": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
+      "published": "2026-05-14T00:00:00+00:00"
+    },
+    {
+      "id": "3e6f4335ce749d6c",
+      "kind": "research",
+      "cve": null,
+      "title": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",
+      "summary": "We recently published an exploit chain for the Google Pixel 9 that demonstrated it was possible to go from a zero-click context to root on Android in just two exploits. The Dolby 0-click vulnerability existed across all of Android, until it…",
+      "severity": "",
+      "score": null,
+      "source": "Project Zero",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+      "published": "2026-05-13T07:00:00+00:00"
+    },
+    {
+      "id": "fbd8f4f301b4388c",
+      "kind": "research",
+      "cve": null,
+      "title": "Nuclei Templates - April 2026",
+      "summary": "Two releases shipped this cycle - v10.4.2 (April 15) and v10.4.3 (May 5) - delivering deep KEV coverage, a major push into AI/LLM attack surface, fresh Perforce visibility, and broad quality improvements across the template library. 🚀 April…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/nuclei-templates-april-2026",
+      "published": "2026-05-12T11:26:09+00:00"
+    },
+    {
+      "id": "e2275c3be38e67a1",
+      "kind": "cve",
+      "cve": "CVE-2026-42208",
+      "title": "BerriAI LiteLLM SQL Injection Vulnerability",
+      "summary": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
+      "published": "2026-05-08T00:00:00+00:00"
+    },
+    {
+      "id": "0b960075f0625d20",
+      "kind": "cve",
+      "cve": "CVE-2026-6973",
+      "title": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
+      "summary": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
+      "published": "2026-05-07T00:00:00+00:00"
     }
   ]
 }
