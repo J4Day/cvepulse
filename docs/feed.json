@@ -1,7 +1,313 @@
 {
-  "generated": "2026-07-17T19:59:40.223739+00:00",
+  "generated": "2026-07-17T20:58:59.350201+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "c77a96e5b932eaa8",
+      "kind": "research",
+      "cve": null,
+      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+      "summary": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts. OpenSSL shipped the HollowByte fix in Ju…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+      "published": "2026-07-17T20:20:53+00:00"
+    },
+    {
+      "id": "71307111597baeda",
+      "kind": "cve",
+      "cve": "CVE-2026-8859",
+      "title": "CVE-2026-8859",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 Langflow could allow an attacker to write arbitrary files to unintended locations due to improper input validation in the APIRequest component. A path traversal vulnerability exists when the \"Save to Fi…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8859",
+      "published": "2026-07-17T20:17:31.643000+00:00"
+    },
+    {
+      "id": "0f1e744977015e43",
+      "kind": "cve",
+      "cve": "CVE-2026-8635",
+      "title": "CVE-2026-8635",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 allows authenticated users to escalate privileges to superuser by directly manipulating the database, execute arbitrary system commands, and achieve full system compromise with Langflow service permissi…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8635",
+      "published": "2026-07-17T20:17:31.527000+00:00"
+    },
+    {
+      "id": "8f6406fc4a4a6f7b",
+      "kind": "cve",
+      "cve": "CVE-2026-8505",
+      "title": "CVE-2026-8505",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 has a vulnerability in Langflow's webhook authentication logic allows unauthenticated users to trigger the execution of any flow. The system incorrectly bypasses API key validation when the WEBHOOK_AUTH…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8505",
+      "published": "2026-07-17T20:17:31.417000+00:00"
+    },
+    {
+      "id": "87a1407f2ef97d98",
+      "kind": "cve",
+      "cve": "CVE-2026-8481",
+      "title": "CVE-2026-8481",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 contain a critical remote code execution vulnerability in the code validation API endpoint. The POST /api/v1/validate/code endpoint accepts user-supplied Python code and executes it directly using Pytho…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8481",
+      "published": "2026-07-17T20:17:30.747000+00:00"
+    },
+    {
+      "id": "91dce592f74e691d",
+      "kind": "cve",
+      "cve": "CVE-2026-8476",
+      "title": "CVE-2026-8476",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 contain a critical remote code execution vulnerability in the disk-based caching mechanism. The AsyncDiskCache class uses Python's unsafe pickle.loads() function to deserialize cached objects from disk…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8476",
+      "published": "2026-07-17T20:17:30.623000+00:00"
+    },
+    {
+      "id": "3f1b635cfb17ccd2",
+      "kind": "cve",
+      "cve": "CVE-2026-8056",
+      "title": "CVE-2026-8056",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 allows authenticated users to override component parameters at runtime via the API. A critical security flaw exists in the parameter filtering mechanism within the `apply_tweaks()` function.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8056",
+      "published": "2026-07-17T20:17:30.500000+00:00"
+    },
+    {
+      "id": "368f57681ce5b26a",
+      "kind": "cve",
+      "cve": "CVE-2026-7872",
+      "title": "CVE-2026-7872",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 allows an authenticated attacker to read arbitrary files including the JWT signing key and forge authentication tokens for any user.",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7872",
+      "published": "2026-07-17T20:17:30.377000+00:00"
+    },
+    {
+      "id": "50b35313a10fd546",
+      "kind": "cve",
+      "cve": "CVE-2026-7755",
+      "title": "CVE-2026-7755",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 Langflow could allow remote code execution due to incomplete validation enforcement on MCP server configuration files.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7755",
+      "published": "2026-07-17T20:17:30.137000+00:00"
+    },
+    {
+      "id": "3ff4a613b590b1c4",
+      "kind": "cve",
+      "cve": "CVE-2026-7754",
+      "title": "CVE-2026-7754",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 Langflow 1.9.0 could allow server-side request forgery (SSRF) due to insecure default configuration and incomplete enforcement of the SSRF protection mechanism.",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7754",
+      "published": "2026-07-17T20:17:29.470000+00:00"
+    },
+    {
+      "id": "6800b84fea0638c8",
+      "kind": "cve",
+      "cve": "CVE-2026-7667",
+      "title": "CVE-2026-7667",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 allows an authenticated attacker to create a malicious flow pointing to an attacker-controlled URL that returns a specially crafted Content-Disposition header (e.g., filename=\"../../../target/path\" ), e…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7667",
+      "published": "2026-07-17T20:17:29.350000+00:00"
+    },
+    {
+      "id": "8f2f770b0a12a049",
+      "kind": "cve",
+      "cve": "CVE-2026-48373",
+      "title": "CVE-2026-48373",
+      "summary": "Acrobat Reader is affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a mal…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48373",
+      "published": "2026-07-17T20:17:21.290000+00:00"
+    },
+    {
+      "id": "f9f5265d00109e93",
+      "kind": "cve",
+      "cve": "CVE-2026-16118",
+      "title": "CVE-2026-16118",
+      "summary": "A flaw was found in xdgmime. A heap-based buffer overflow can be triggered in _xdg_mime_magic_parse_magic_line() in the xdgmimemagic.c file on little-endian systems when an attacker-controlled MIME magic file in a user-writable XDG data loc…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16118",
+      "published": "2026-07-17T20:17:16.167000+00:00"
+    },
+    {
+      "id": "e877d41bcb892ba1",
+      "kind": "cve",
+      "cve": "CVE-2026-15322",
+      "title": "CVE-2026-15322",
+      "summary": "IBM Engineering AI Hub 1.0.0, 1.1.0, and 1.2.0 could allow a remote attacker to obtain sensitive information due to the exposure of session tokens in URLs.",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15322",
+      "published": "2026-07-17T20:17:15.800000+00:00"
+    },
+    {
+      "id": "2100fd738a69e2be",
+      "kind": "cve",
+      "cve": "CVE-2026-15091",
+      "title": "CVE-2026-15091",
+      "summary": "IBM Engineering AI Hub 1.0.0, 1.1.0, and 1.2.0 could allow a remote attacker to execute arbitrary scripts due to improper neutralization of input during web page generation.",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15091",
+      "published": "2026-07-17T20:17:15.567000+00:00"
+    },
+    {
+      "id": "e0d9a9286a165534",
+      "kind": "cve",
+      "cve": "CVE-2026-14499",
+      "title": "CVE-2026-14499",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.1 Langflow could allow an authenticated user to execute arbitrary commands with elevated privileges on the system due to improper validation of user supplied input in the Python Interpreter component.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14499",
+      "published": "2026-07-17T20:17:14.950000+00:00"
+    },
+    {
+      "id": "6879ee8b7f822d73",
+      "kind": "cve",
+      "cve": "CVE-2026-13473",
+      "title": "CVE-2026-13473",
+      "summary": "IBM Storage Protect Client 8.1.0.0 through 8.1.27.0, 8.1.27.1, and 8.2.0.0 through 8.2.1.0 IBM Storage Protect is vulnerable to a heap-based buffer overflow, caused by improper bounds checking. A remote attacker could overflow a buffer and…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13473",
+      "published": "2026-07-17T20:17:14.827000+00:00"
+    },
+    {
+      "id": "b8f073c230f079f7",
+      "kind": "cve",
+      "cve": "CVE-2026-13448",
+      "title": "CVE-2026-13448",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.1 Lanflow OSS contains an unauthenticated remote code execution vulnerability in the public flow build endpoint ( /api/v1/build_public_tmp/{flow_id}/flow ). The vulnerability stems from an incomplete deny…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13448",
+      "published": "2026-07-17T20:17:14.713000+00:00"
+    },
     {
       "id": "1c37e631aead695b",
       "kind": "research",
@@ -103,23 +409,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild",
       "published": "2026-07-17T18:18:53+00:00"
-    },
-    {
-      "id": "67f502a7ef8d8c34",
-      "kind": "cve",
-      "cve": "CVE-2026-9202",
-      "title": "CVE-2026-9202",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 allows unauthenticated attackers to create unlimited user accounts on any Langflow instance; when NEW_USER_IS_ACTIVE=true (documented deployment option), newly created accounts are immediately active an…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9202",
-      "published": "2026-07-17T18:17:17.490000+00:00"
     },
     {
       "id": "df40b58bee63164c",
@@ -3216,23 +3505,6 @@
       "published": "2026-07-14T11:30:00+00:00"
     },
     {
-      "id": "fc7f385d4632daeb",
-      "kind": "research",
-      "cve": null,
-      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
-      "summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen creden…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
-      "published": "2026-07-14T11:21:35+00:00"
-    },
-    {
       "id": "592ad0e328618468",
       "kind": "cve",
       "cve": "CVE-2026-58319",
@@ -3979,279 +4251,6 @@
       "product": "EDS5000",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038",
       "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "7a710b361560f51e",
-      "kind": "cve",
-      "cve": "CVE-2026-34910",
-      "title": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "c9c1f14b593f0bd4",
-      "kind": "cve",
-      "cve": "CVE-2026-34909",
-      "title": "Ubiquiti UniFi OS Path Traversal Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "fb5f7f2cc98f88e2",
-      "kind": "cve",
-      "cve": "CVE-2026-34908",
-      "title": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "a2ef6ba9732bb03f",
-      "kind": "research",
-      "cve": null,
-      "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
-      "summary": "This week's release includes five new modules, including a full unauthenticated RCE chain for Paperclip AI and a VS Code extension persistence technique. On the post-exploitation side, the new windows/local/ntlm_relay_2_self module coerces…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026",
-      "published": "2026-06-19T17:08:23+00:00"
-    },
-    {
-      "id": "10d87533a665bcff",
-      "kind": "research",
-      "cve": null,
-      "title": "The Vulnerability Curve Bent With the AI Curve",
-      "summary": "How CVE volume, known-exploited counts and time-to-exploit all changed shape across the LLM build-out and why defenders are now on the wrong side of the clock. In 2018 the world published about 18,000 CVEs and the average vulnerability took…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/the-vulnerability-curve-bent-with-the-ai-curve",
-      "published": "2026-06-18T18:32:03+00:00"
-    },
-    {
-      "id": "69b2737ea98ec509",
-      "kind": "research",
-      "cve": null,
-      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
-      "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers…",
-      "severity": "",
-      "score": null,
-      "source": "Krebs on Security",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-      "published": "2026-06-18T17:37:58+00:00"
-    },
-    {
-      "id": "b5033037d1a2b278",
-      "kind": "research",
-      "cve": null,
-      "title": "Why Security Teams Need To Start Earlier",
-      "summary": "Security leaders are facing an unusual set of circumstances. The drumbeat for better security prioritization has been rising for years in boardrooms around the world. The desire is there, but the processes of the past aren’t meeting the nee…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/it-why-security-teams-need-to-start-earlier",
-      "published": "2026-06-18T14:45:55+00:00"
-    },
-    {
-      "id": "6ca5e32e51193a41",
-      "kind": "cve",
-      "cve": "CVE-2026-20253",
-      "title": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
-      "summary": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Splunk",
-      "product": "Enterprise",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20253",
-      "published": "2026-06-18T00:00:00+00:00"
-    },
-    {
-      "id": "8cdd5f1335e50bd1",
-      "kind": "cve",
-      "cve": "CVE-2026-48907",
-      "title": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
-      "summary": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Widget Factory",
-      "product": "Joomla Content Editor ",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48907",
-      "published": "2026-06-16T00:00:00+00:00"
-    },
-    {
-      "id": "a0eeeffc26fa4e3f",
-      "kind": "research",
-      "cve": null,
-      "title": "Continuous PR Security Review",
-      "summary": "The security findings that end up in incident post-mortems rarely looked dangerous in the PR that introduced them. Not because anyone was careless but because there's nothing in the change that looks wrong. The code does exactly what it say…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/continuous-pr-security-review",
-      "published": "2026-06-15T16:26:15+00:00"
-    },
-    {
-      "id": "7242e375734ecf4a",
-      "kind": "cve",
-      "cve": "CVE-2026-54420",
-      "title": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
-      "summary": "LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "LiteSpeed",
-      "product": "cPanel Plugin",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54420",
-      "published": "2026-06-15T00:00:00+00:00"
-    },
-    {
-      "id": "91bd1e0c569db84c",
-      "kind": "cve",
-      "cve": "CVE-2026-20262",
-      "title": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20262",
-      "published": "2026-06-15T00:00:00+00:00"
-    },
-    {
-      "id": "b1f8c189922ad99d",
-      "kind": "research",
-      "cve": "CVE-2026-20253",
-      "title": "Why Use App-Level Auth When Every Database Has Auth? (Splunk Enterprise CVE-2026-20253 Pre-Auth RCE)",
-      "summary": "Three posts? In three days? Are we insane? We&apos;re home alone, there&apos;s no one to stop us, and we&apos;re up past bedtime. So, we need to talk about Splunk. On June 10th, Splunk published this CVE-2026-20253 advisory : It has everyth…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/why-use-app-level-auth-when-every-database-has-auth-splunk-enterprise-cve-2026-20253-pre-auth-rce/",
-      "published": "2026-06-12T20:35:13+00:00"
-    },
-    {
-      "id": "2b7352fc235caa79",
-      "kind": "research",
-      "cve": "CVE-2026-50751",
-      "title": "Marking Your Own Homework (Check Point Remote Access VPN IKEv1 Authentication Bypass CVE-2026-50751)",
-      "summary": "It is yet another day in this parallel universe of security, where the devices we bolt onto the edge of our networks to keep the bad people out are, with remarkable consistency, the exact thing that let the bad people in. While we&#x2019;ve…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/marking-your-own-homework-check-point-remote-access-vpn-ikev1-authentication-bypass-cve-2026-50751/",
-      "published": "2026-06-12T05:17:20+00:00"
-    },
-    {
-      "id": "c5f8e67d9f90eed3",
-      "kind": "cve",
-      "cve": "CVE-2026-35273",
-      "title": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
-      "summary": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Oracle",
-      "product": " PeopleSoft Enterprise PeopleTools",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35273",
-      "published": "2026-06-12T00:00:00+00:00"
-    },
-    {
-      "id": "ce436da605cb0237",
-      "kind": "cve",
-      "cve": "CVE-2026-10520",
-      "title": "Ivanti Sentry OS Command Injection Vulnerability",
-      "summary": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": "Sentry",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10520",
-      "published": "2026-06-11T00:00:00+00:00"
     }
   ]
 }
