@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18T04:40:33.026527+00:00",
+  "generated": "2026-07-18T06:54:03.874219+00:00",
   "count": 250,
   "items": [
     {
@@ -41,7 +41,7 @@
       "kind": "research",
       "cve": null,
       "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-      "summary": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it…",
+      "summary": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it. An anonymous HTTP…",
       "severity": "",
       "score": null,
       "source": "The Hacker News",
@@ -462,23 +462,6 @@
       "published": "2026-07-17T18:18:53+00:00"
     },
     {
-      "id": "df40b58bee63164c",
-      "kind": "cve",
-      "cve": "CVE-2026-9198",
-      "title": "CVE-2026-9198",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 allows unauthenticated attackers to chain /api/v1/auto_login (mints SUPERUSER tokens to any network caller) with /api/v1/validate/code (executes user code via exec()) to achieve full RCE on default Lang…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9198",
-      "published": "2026-07-17T18:17:17.340000+00:00"
-    },
-    {
       "id": "372a36f270d052f2",
       "kind": "cve",
       "cve": "CVE-2026-8297",
@@ -802,40 +785,6 @@
       "published": "2026-07-17T02:18:10.587000+00:00"
     },
     {
-      "id": "42b433f44c81ba12",
-      "kind": "cve",
-      "cve": "CVE-2026-62228",
-      "title": "CVE-2026-62228",
-      "summary": "OpenClaw before 2026.6.5 contain an authorization bypass vulnerability in node exec approvals that allows lower-trust callers to execute actions beyond their intended authorization by using different gateway and node environments. Attackers…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62228",
-      "published": "2026-07-17T02:18:10.153000+00:00"
-    },
-    {
-      "id": "35a9a49b80aa7ffe",
-      "kind": "cve",
-      "cve": "CVE-2026-62222",
-      "title": "CVE-2026-62222",
-      "summary": "OpenClaw before 2026.5.22 contain a vulnerability in setup-mode discovery that allows loading of untrusted workspace plugins. Attackers with lower-trust caller access or control over configured input paths can execute or persist actions bey…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62222",
-      "published": "2026-07-17T02:18:09.273000+00:00"
-    },
-    {
       "id": "c3e6827091904aaf",
       "kind": "cve",
       "cve": "CVE-2026-62219",
@@ -851,40 +800,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62219",
       "published": "2026-07-17T02:18:08.847000+00:00"
-    },
-    {
-      "id": "a64956780a403665",
-      "kind": "cve",
-      "cve": "CVE-2026-62207",
-      "title": "CVE-2026-62207",
-      "summary": "OpenClaw versions before 2026.6.5 contain an authentication bypass vulnerability that allows lower-trust callers to reach admin-scoped tools. Attackers can perform actions requiring stronger authorization by exploiting insufficient policy c…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62207",
-      "published": "2026-07-17T02:18:07.040000+00:00"
-    },
-    {
-      "id": "5b5a3ba6b35c7536",
-      "kind": "cve",
-      "cve": "CVE-2026-62203",
-      "title": "CVE-2026-62203",
-      "summary": "OpenClaw versions before 2026.6.6 contain an environment variable filtering vulnerability in host exec that fails to properly sanitize rustup startup variables. Attackers with lower-trust caller access or configured input paths can execute…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62203",
-      "published": "2026-07-17T02:18:06.587000+00:00"
     },
     {
       "id": "a006ff7d54e693bb",
@@ -4263,6 +4178,91 @@
       "product": "",
       "url": "https://labs.watchtowr.com/please-we-beg-just-one-weekend-free-of-appliances-citrix-netscaler-cve-2026-3055-memory-overread-part-2/",
       "published": "2026-03-29T20:07:28+00:00"
+    },
+    {
+      "id": "b782f35797f57674",
+      "kind": "research",
+      "cve": "CVE-2026-3055",
+      "title": "The Sequels Are Never As Good, But We're Still In Pain (Citrix NetScaler CVE-2026-3055 Memory Overread)",
+      "summary": "Sequels? Pain? We&apos;re obviously talking about Citrix NetScalers, yet again. Welcome back to another watchTowr Labs blog post - pull up a chair, we always welcome new members to our group therapy sessions. If you asked a C programmer wha…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/the-sequels-are-never-as-good-but-were-still-in-pain-citrix-netscaler-cve-2026-3055-memory-overread/",
+      "published": "2026-03-28T20:39:56+00:00"
+    },
+    {
+      "id": "a3914a98347b1572",
+      "kind": "cve",
+      "cve": "CVE-2025-53521",
+      "title": "F5 BIG-IP Stack-Based Buffer Overflow Vulnerability",
+      "summary": "F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "F5",
+      "product": "BIG-IP",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53521",
+      "published": "2026-03-27T00:00:00+00:00"
+    },
+    {
+      "id": "cccb856c0b77013c",
+      "kind": "cve",
+      "cve": "CVE-2026-33634",
+      "title": "Aquasecurity Trivy Embedded Malicious Code Vulnerability",
+      "summary": "Aquasecurity Trivy contains an embedded malicious code vulnerability that could allow an attacker to gain access to everything in the CI/CD environment, including all tokens, SSH keys, cloud credentials, database passwords, and any sensitiv…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Aquasecurity",
+      "product": "Trivy",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33634",
+      "published": "2026-03-26T00:00:00+00:00"
+    },
+    {
+      "id": "0d4cc919ccbfb875",
+      "kind": "cve",
+      "cve": "CVE-2026-33017",
+      "title": "Langflow Code Injection Vulnerability",
+      "summary": "Langflow contains a code injection vulnerability that could allow building public flows without requiring authentication.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Langflow",
+      "product": "Langflow",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33017",
+      "published": "2026-03-25T00:00:00+00:00"
+    },
+    {
+      "id": "b41432a76fcfde16",
+      "kind": "research",
+      "cve": null,
+      "title": "Beyond the Model: Neo Hunts, Exploits, and Proves 22 Zero-Days.",
+      "summary": "LLMs are a genuine leap forward for vulnerability discovery. Anthropic reported 500+ zero-days from Opus 4.6 and OpenAI's Codex Security discovered 14 CVEs across projects like OpenSSH and GnuTLS. If you've experimented with LLMs for securi…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/everyone-is-finding-vulns-the-hard-part-is-proving-them",
+      "published": "2026-03-20T16:14:10+00:00"
     }
   ]
 }
