@@ -1,7 +1,24 @@
 {
-  "generated": "2026-07-18T19:59:39.953184+00:00",
+  "generated": "2026-07-18T20:53:17.070436+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "f0f87adfae93aee3",
+      "kind": "cve",
+      "cve": "CVE-2026-53994",
+      "title": "CVE-2026-53994",
+      "summary": "ProFTPD mod_sftp contains a heap-based buffer overflow reachable by an authenticated SFTP user. The fxp_packet_read() function accepts the attacker-supplied 32-bit big-endian SFTP packet length without a minimum sanity check. A value of 0 c…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53994",
+      "published": "2026-07-18T20:17:30.283000+00:00"
+    },
     {
       "id": "14d5b839c7e66513",
       "kind": "cve",
@@ -4245,23 +4262,6 @@
       "vendor": "Microsoft",
       "product": "Windows",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36424",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "78f8c3aacb7e266f",
-      "kind": "cve",
-      "cve": "CVE-2020-9715",
-      "title": "Adobe Acrobat Use-After-Free Vulnerability",
-      "summary": "Adobe Acrobat contains a use-after-free vulnerability that allows for code execution",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "Acrobat",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9715",
       "published": "2026-04-13T00:00:00+00:00"
     }
   ]
