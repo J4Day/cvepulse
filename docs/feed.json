@@ -1,7 +1,41 @@
 {
-  "generated": "2026-07-20T19:26:43.965617+00:00",
+  "generated": "2026-07-20T21:02:14.898590+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "b71cef36c2fc2119",
+      "kind": "cve",
+      "cve": "CVE-2026-63767",
+      "title": "CVE-2026-63767",
+      "summary": "ktransformers through 0.6.3, fixed in commit def0f93, contains an unauthenticated pickle deserialization vulnerability that allows remote attackers to execute arbitrary commands by sending crafted pickle payloads to the SchedulerServer ZMQ…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63767",
+      "published": "2026-07-20T20:16:46.323000+00:00"
+    },
+    {
+      "id": "3a84a534c40c07bd",
+      "kind": "cve",
+      "cve": "CVE-2026-63766",
+      "title": "CVE-2026-63766",
+      "summary": "GPT-SoVITS through 20250606v2pro contains an OS command injection vulnerability in webui.py where ASR, slice, denoise, and uvr5 functions interpolate unsanitized Gradio textbox values directly into shell commands executed with shell=True. A…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63766",
+      "published": "2026-07-20T20:16:46.170000+00:00"
+    },
     {
       "id": "6dc675e3cab11163",
       "kind": "cve",
@@ -156,6 +190,23 @@
       "published": "2026-07-20T18:41:24+00:00"
     },
     {
+      "id": "739511737776245a",
+      "kind": "research",
+      "cve": null,
+      "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
+      "summary": "Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to deliver a malware family known as SmartL…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
+      "published": "2026-07-20T18:23:03+00:00"
+    },
+    {
       "id": "010b054fbb789b70",
       "kind": "research",
       "cve": null,
@@ -188,23 +239,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63090",
       "published": "2026-07-20T15:16:45.213000+00:00"
-    },
-    {
-      "id": "bb582cafe029b3c8",
-      "kind": "cve",
-      "cve": "CVE-2026-12701",
-      "title": "CVE-2026-12701",
-      "summary": "A path traversal vulnerability was found in pulpcore. The relative_path_validator function only verifies that content paths do not begin with \"/\" but fails to block directory traversal sequences such as \"../\" anywhere in the path. An authen…",
-      "severity": "CRITICAL",
-      "score": 9.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12701",
-      "published": "2026-07-20T15:16:34.333000+00:00"
     },
     {
       "id": "91948e6d60370e02",
@@ -273,23 +307,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64621",
       "published": "2026-07-20T12:19:46.910000+00:00"
-    },
-    {
-      "id": "c994f80be85d8a35",
-      "kind": "cve",
-      "cve": "CVE-2026-64620",
-      "title": "CVE-2026-64620",
-      "summary": "FreeRDP before 3.28.0 (affected out_length, so out-of-bounds bytes are written before the bounds check. On the server side, when a client selects RDP Standard Security, the encrypted client random is decrypted into a fixed 32-byte buffer. B…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64620",
-      "published": "2026-07-20T12:19:46.760000+00:00"
     },
     {
       "id": "a8a1048710b10120",
@@ -632,23 +649,6 @@
       "published": "2026-07-18T16:17:12.873000+00:00"
     },
     {
-      "id": "da1177cacb718d66",
-      "kind": "cve",
-      "cve": "CVE-2026-9323",
-      "title": "CVE-2026-9323",
-      "summary": "The urwid web display backend (urwid/display/web.py) generates web session identifiers (urwid_id) in Screen.start() by concatenating two random.randrange(10**9) calls that use Python's Mersenne Twister PRNG, which is not cryptographically s…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9323",
-      "published": "2026-07-18T14:17:12.170000+00:00"
-    },
-    {
       "id": "04abe166d6b23ebc",
       "kind": "cve",
       "cve": "CVE-2026-9147",
@@ -819,23 +819,6 @@
       "published": "2026-07-17T20:17:30.747000+00:00"
     },
     {
-      "id": "3f1b635cfb17ccd2",
-      "kind": "cve",
-      "cve": "CVE-2026-8056",
-      "title": "CVE-2026-8056",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 allows authenticated users to override component parameters at runtime via the API. A critical security flaw exists in the parameter filtering mechanism within the `apply_tweaks()` function.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8056",
-      "published": "2026-07-17T20:17:30.500000+00:00"
-    },
-    {
       "id": "368f57681ce5b26a",
       "kind": "cve",
       "cve": "CVE-2026-7872",
@@ -970,23 +953,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9171",
       "published": "2026-07-17T19:17:19.520000+00:00"
-    },
-    {
-      "id": "411db912140b0b93",
-      "kind": "cve",
-      "cve": "CVE-2026-9135",
-      "title": "CVE-2026-9135",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 Langflow versions up to 1.9.2 (commit 94981c443d4918517b9e8163d70fc598dc33a32d) contain a code injection vulnerability in the Policies component's ToolGuard integration that bypasses the allow_custom_co…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9135",
-      "published": "2026-07-17T19:17:19.390000+00:00"
     },
     {
       "id": "81c3ccc6cbdf7cc4",
@@ -1837,23 +1803,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
       "published": "2026-07-15T13:00:00+00:00"
-    },
-    {
-      "id": "dcc7d7954c83b3ca",
-      "kind": "research",
-      "cve": null,
-      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
-      "summary": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up. Enterprise workflows now live across SaaS applications, browsers, and an…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-      "published": "2026-07-15T11:50:01+00:00"
     },
     {
       "id": "5ca8367967d5b11d",
@@ -4263,6 +4212,57 @@
       "product": "BIG-IP",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53521",
       "published": "2026-03-27T00:00:00+00:00"
+    },
+    {
+      "id": "cccb856c0b77013c",
+      "kind": "cve",
+      "cve": "CVE-2026-33634",
+      "title": "Aquasecurity Trivy Embedded Malicious Code Vulnerability",
+      "summary": "Aquasecurity Trivy contains an embedded malicious code vulnerability that could allow an attacker to gain access to everything in the CI/CD environment, including all tokens, SSH keys, cloud credentials, database passwords, and any sensitiv…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Aquasecurity",
+      "product": "Trivy",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33634",
+      "published": "2026-03-26T00:00:00+00:00"
+    },
+    {
+      "id": "0d4cc919ccbfb875",
+      "kind": "cve",
+      "cve": "CVE-2026-33017",
+      "title": "Langflow Code Injection Vulnerability",
+      "summary": "Langflow contains a code injection vulnerability that could allow building public flows without requiring authentication.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Langflow",
+      "product": "Langflow",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33017",
+      "published": "2026-03-25T00:00:00+00:00"
+    },
+    {
+      "id": "b41432a76fcfde16",
+      "kind": "research",
+      "cve": null,
+      "title": "Beyond the Model: Neo Hunts, Exploits, and Proves 22 Zero-Days.",
+      "summary": "LLMs are a genuine leap forward for vulnerability discovery. Anthropic reported 500+ zero-days from Opus 4.6 and OpenAI's Codex Security discovered 14 CVEs across projects like OpenSSH and GnuTLS. If you've experimented with LLMs for securi…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/everyone-is-finding-vulns-the-hard-part-is-proving-them",
+      "published": "2026-03-20T16:14:10+00:00"
     }
   ]
 }
