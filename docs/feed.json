@@ -1,7 +1,24 @@
 {
-  "generated": "2026-07-20T06:08:01.533321+00:00",
+  "generated": "2026-07-20T09:50:31.939568+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "b4f20e673cf099ad",
+      "kind": "cve",
+      "cve": "CVE-2026-16242",
+      "title": "CVE-2026-16242",
+      "summary": "A flaw was found in the Konnectivity proxy-server configuration for hosted control planes. The agent-facing listener was started without --cluster-ca-cert (and without token-based agent authentication), so client certificates were not valid…",
+      "severity": "CRITICAL",
+      "score": 9.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16242",
+      "published": "2026-07-20T08:16:29.833000+00:00"
+    },
     {
       "id": "b28632a33ec75ec5",
       "kind": "research",
@@ -4246,23 +4263,6 @@
       "product": "",
       "url": "https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701/",
       "published": "2026-04-02T10:00:42+00:00"
-    },
-    {
-      "id": "f17a42e52a515e6d",
-      "kind": "cve",
-      "cve": "CVE-2026-3502",
-      "title": "TrueConf Client Download of Code Without Integrity Check Vulnerability",
-      "summary": "TrueConf Client contains a download of code without integrity check vulnerability. An attacker who is able to influence the update delivery path can substitute a tampered update payload. If the payload is executed or installed by the update…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "TrueConf",
-      "product": "Client",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3502",
-      "published": "2026-04-02T00:00:00+00:00"
     }
   ]
 }
