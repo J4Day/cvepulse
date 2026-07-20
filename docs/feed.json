@@ -1,7 +1,58 @@
 {
-  "generated": "2026-07-20T21:02:14.898590+00:00",
+  "generated": "2026-07-20T22:47:59.030265+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "d456519c99e4668b",
+      "kind": "cve",
+      "cve": "CVE-2026-64625",
+      "title": "CVE-2026-64625",
+      "summary": "AVideo before 29.0 contains an incomplete fix for CVE-2026-45578 where execAsync() re-wraps escaped commands in double-quoted sh -c, allowing command substitution via $() and backticks. Attackers can inject arbitrary OS commands through the…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64625",
+      "published": "2026-07-20T22:17:18.740000+00:00"
+    },
+    {
+      "id": "d26ada55c69a464a",
+      "kind": "cve",
+      "cve": "CVE-2026-64624",
+      "title": "CVE-2026-64624",
+      "summary": "FreeRDP before 3.28.0 treats lines beginning with forward slash in RDP files as raw command-line options, exposing the entire CLI parser surface to untrusted files. Attackers can craft malicious RDP files with /rdp2tcp, /cert:ignore, or /dr…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64624",
+      "published": "2026-07-20T22:17:18.600000+00:00"
+    },
+    {
+      "id": "edc5c549bf526caa",
+      "kind": "cve",
+      "cve": "CVE-2026-16324",
+      "title": "CVE-2026-16324",
+      "summary": "A vulnerability was identified in Metasoft 美特软件 MetaCRM up to 6.4.0 Beta06. The impacted element is an unknown function of the file /business/qnaire/upload.jsp. Such manipulation of the argument File leads to unrestricted upload. The attack…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16324",
+      "published": "2026-07-20T22:17:13.417000+00:00"
+    },
     {
       "id": "b71cef36c2fc2119",
       "kind": "cve",
@@ -35,40 +86,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63766",
       "published": "2026-07-20T20:16:46.170000+00:00"
-    },
-    {
-      "id": "6dc675e3cab11163",
-      "kind": "cve",
-      "cve": "CVE-2026-64619",
-      "title": "CVE-2026-64619",
-      "summary": "FileCodeBox before 2.4 contains a rate-limit bypass vulnerability in the IPRateLimit class that allows unauthenticated attackers to circumvent request throttling by supplying attacker-controlled X-Real-IP and X-Forwarded-For headers without…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64619",
-      "published": "2026-07-20T19:17:30.373000+00:00"
-    },
-    {
-      "id": "b15be5267aea6ba8",
-      "kind": "cve",
-      "cve": "CVE-2026-63771",
-      "title": "CVE-2026-63771",
-      "summary": "Adminer before 5.4.3 contains a cookie injection vulnerability that allows attackers to manipulate cookie attributes by injecting arbitrary values through the unsanitized X-Forwarded-Prefix HTTP header used in Set-Cookie path attributes. At…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63771",
-      "published": "2026-07-20T19:17:29.910000+00:00"
     },
     {
       "id": "4d4d966591abf3d8",
@@ -120,23 +137,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63731",
       "published": "2026-07-20T19:17:29.360000+00:00"
-    },
-    {
-      "id": "979aa23701ad23e2",
-      "kind": "cve",
-      "cve": "CVE-2026-63108",
-      "title": "CVE-2026-63108",
-      "summary": "Roo Code through 3.54.0 contains a command injection vulnerability in the auto-approve execute feature that allows attackers to bypass allowlist/denylist enforcement by nesting command substitutions inside parameter expansion defaults. The…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63108",
-      "published": "2026-07-20T19:17:29.057000+00:00"
     },
     {
       "id": "7ba6ab8bab414fc7",
