@@ -1,7 +1,245 @@
 {
-  "generated": "2026-07-20T12:10:01.688879+00:00",
+  "generated": "2026-07-20T15:02:57.305478+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "06114b9ee68d23cc",
+      "kind": "research",
+      "cve": null,
+      "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
+      "summary": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often simple: exposed systems, weak checks, old drivers, fake prom…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+      "published": "2026-07-20T13:32:26+00:00"
+    },
+    {
+      "id": "c9d03eca20b3c42e",
+      "kind": "cve",
+      "cve": "CVE-2026-16248",
+      "title": "CVE-2026-16248",
+      "summary": "A vulnerability was found in Tenda AC10 16.03.10.09_multi_TDE01. This issue affects the function fromAdvSetLanip of the file /goform/AdvSetLanip of the component httpd/netctrl. The manipulation of the argument GetValue/SetValue results in s…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16248",
+      "published": "2026-07-20T13:16:56.190000+00:00"
+    },
+    {
+      "id": "caf8c92f5f518d78",
+      "kind": "research",
+      "cve": null,
+      "title": "From a Single Alert to 1,000 Files: Inside an Exposed WebDAV Malware Delivery Lab",
+      "summary": "Executive summary An MDR alert recently led our team to an exposed server that was doing more than hosting payloads. It was functioning as a fully operational malware delivery lab. Containing over 1,000 artifacts, the infrastructure served…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/tr-exposed-webdav-malware-delivery-lab-analysis",
+      "published": "2026-07-20T13:00:00+00:00"
+    },
+    {
+      "id": "67862532aebae81e",
+      "kind": "cve",
+      "cve": "CVE-2026-64623",
+      "title": "CVE-2026-64623",
+      "summary": "Network-AI before 5.13.4 contains an improper cryptographic signature verification vulnerability in APSAdapter where the default local verifier accepts any non-empty string as valid. Unauthenticated attackers can submit forged APS delegatio…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64623",
+      "published": "2026-07-20T12:19:47.200000+00:00"
+    },
+    {
+      "id": "84a3ace7cda74032",
+      "kind": "cve",
+      "cve": "CVE-2026-64621",
+      "title": "CVE-2026-64621",
+      "summary": "FreeRDP before 3.28.0 (affected 3.x through 3.27.1) contains a double-free vulnerability in freerdp_client_rdp_file_apply_to_settings() (client/common/file.c) when parsing the selectedmonitors field of a .rdp connection file. The MonitorIds…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64621",
+      "published": "2026-07-20T12:19:46.910000+00:00"
+    },
+    {
+      "id": "c994f80be85d8a35",
+      "kind": "cve",
+      "cve": "CVE-2026-64620",
+      "title": "CVE-2026-64620",
+      "summary": "FreeRDP before 3.28.0 (affected out_length, so out-of-bounds bytes are written before the bounds check. On the server side, when a client selects RDP Standard Security, the encrypted client random is decrypted into a fixed 32-byte buffer. B…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64620",
+      "published": "2026-07-20T12:19:46.760000+00:00"
+    },
+    {
+      "id": "bea81f1c0b20db92",
+      "kind": "cve",
+      "cve": "CVE-2026-63757",
+      "title": "CVE-2026-63757",
+      "summary": "SurrealDB versions before 3.1.0 contain a session hijacking vulnerability where the HTTP /rpc sessions method returns attached session UUIDs without authentication and accepts arbitrary session fields with no ownership verification. Unauthe…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63757",
+      "published": "2026-07-20T12:19:45.747000+00:00"
+    },
+    {
+      "id": "a8a1048710b10120",
+      "kind": "cve",
+      "cve": "CVE-2026-63756",
+      "title": "CVE-2026-63756",
+      "summary": "SurrealDB versions before 3.1.0 contain a time-of-check/time-of-use race condition in the HTTP /rpc endpoint that allows unauthenticated requests to inherit authenticated session state. Unauthenticated attackers can send concurrent requests…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63756",
+      "published": "2026-07-20T12:19:45.590000+00:00"
+    },
+    {
+      "id": "2c466f71641fbe3e",
+      "kind": "cve",
+      "cve": "CVE-2026-63747",
+      "title": "CVE-2026-63747",
+      "summary": "SurrealDB versions before 3.1.0 contain a denial of service vulnerability in the RPC use handler that panics when db is set without a namespace. Unauthenticated attackers can send a malformed WebSocket message to the /rpc endpoint to crash…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63747",
+      "published": "2026-07-20T12:19:44.300000+00:00"
+    },
+    {
+      "id": "9931beefefa56d3f",
+      "kind": "cve",
+      "cve": "CVE-2026-63739",
+      "title": "CVE-2026-63739",
+      "summary": "SurrealDB before 3.1.5 contains an arbitrary file read vulnerability in the DEFINE ANALYZER mapper filter that allows database users with EDITOR or OWNER roles to read files accessible to the SurrealDB process. Attackers can specify arbitra…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63739",
+      "published": "2026-07-20T12:19:43.143000+00:00"
+    },
+    {
+      "id": "626725bcd84749c6",
+      "kind": "cve",
+      "cve": "CVE-2026-63735",
+      "title": "CVE-2026-63735",
+      "summary": "SurrealDB versions before 3.2.0 fail to validate namespace and database scope in custom API routes, allowing authenticated users to invoke endpoints in different namespaces/databases. Attackers with valid credentials for any namespace/datab…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63735",
+      "published": "2026-07-20T12:19:42.563000+00:00"
+    },
+    {
+      "id": "29b16d804b5358ff",
+      "kind": "cve",
+      "cve": "CVE-2026-14448",
+      "title": "CVE-2026-14448",
+      "summary": "An high privileged remote attacker can exploit an authenticated OS command injection vulnerability in the system_certificates view due to improper neutralization of special elements in an OS command. This can result in a total loss of confi…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14448",
+      "published": "2026-07-20T12:17:54.707000+00:00"
+    },
+    {
+      "id": "6f8c284c6cea5be6",
+      "kind": "research",
+      "cve": null,
+      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
+      "summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
+      "published": "2026-07-20T12:13:39+00:00"
+    },
+    {
+      "id": "a30f65c3fe36a5c6",
+      "kind": "research",
+      "cve": null,
+      "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
+      "summary": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capab…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
+      "published": "2026-07-20T11:30:00+00:00"
+    },
     {
       "id": "588da4c0d957e880",
       "kind": "research",
@@ -35,23 +273,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
       "published": "2026-07-20T09:07:11+00:00"
-    },
-    {
-      "id": "b4f20e673cf099ad",
-      "kind": "cve",
-      "cve": "CVE-2026-16242",
-      "title": "CVE-2026-16242",
-      "summary": "A flaw was found in the Konnectivity proxy-server configuration for hosted control planes. The agent-facing listener was started without --cluster-ca-cert (and without token-based agent authentication), so client certificates were not valid…",
-      "severity": "CRITICAL",
-      "score": 9.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16242",
-      "published": "2026-07-20T08:16:29.833000+00:00"
     },
     {
       "id": "b28632a33ec75ec5",
@@ -173,23 +394,6 @@
       "published": "2026-07-19T13:18:56+00:00"
     },
     {
-      "id": "183b3e43bdd50682",
-      "kind": "cve",
-      "cve": "CVE-2026-16228",
-      "title": "CVE-2026-16228",
-      "summary": "A vulnerability was detected in SourceCodester Class and Exam Timetabling System 1.0. Affected is an unknown function of the file /edit_schoolyr.php. Performing a manipulation of the argument ID results in sql injection. It is possible to i…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16228",
-      "published": "2026-07-19T10:16:32.677000+00:00"
-    },
-    {
       "id": "3e793bcb4efc49da",
       "kind": "cve",
       "cve": "CVE-2026-16227",
@@ -222,23 +426,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16210",
       "published": "2026-07-19T04:17:04.343000+00:00"
-    },
-    {
-      "id": "7a36fec64afbe7ee",
-      "kind": "cve",
-      "cve": "CVE-2026-16209",
-      "title": "CVE-2026-16209",
-      "summary": "A vulnerability has been found in Gerapy up to 0.9.13. The impacted element is an unknown function of the file gerapy/server/core/views.py of the component Project Upload Endpoint. Such manipulation leads to missing authentication. The atta…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16209",
-      "published": "2026-07-19T04:17:03.983000+00:00"
     },
     {
       "id": "c7dfef2bca519c5d",
@@ -324,23 +511,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53994",
       "published": "2026-07-18T20:17:30.283000+00:00"
-    },
-    {
-      "id": "14d5b839c7e66513",
-      "kind": "cve",
-      "cve": "CVE-2026-16128",
-      "title": "CVE-2026-16128",
-      "summary": "A security flaw has been discovered in zevorn rt-claw up to 0.2.0. This impacts the function receiver_thread of the file claw/services/swarm/swarm.c of the component http_request. Performing a manipulation results in server-side request for…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16128",
-      "published": "2026-07-18T17:16:38.273000+00:00"
     },
     {
       "id": "8b7352b4c8ddbff0",
@@ -683,23 +853,6 @@
       "published": "2026-07-17T20:20:53+00:00"
     },
     {
-      "id": "71307111597baeda",
-      "kind": "cve",
-      "cve": "CVE-2026-8859",
-      "title": "CVE-2026-8859",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 Langflow could allow an attacker to write arbitrary files to unintended locations due to improper input validation in the APIRequest component. A path traversal vulnerability exists when the \"Save to Fi…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8859",
-      "published": "2026-07-17T20:17:31.643000+00:00"
-    },
-    {
       "id": "0f1e744977015e43",
       "kind": "cve",
       "cve": "CVE-2026-8635",
@@ -766,23 +919,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8056",
       "published": "2026-07-17T20:17:30.500000+00:00"
-    },
-    {
-      "id": "368f57681ce5b26a",
-      "kind": "cve",
-      "cve": "CVE-2026-7872",
-      "title": "CVE-2026-7872",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 allows an authenticated attacker to read arbitrary files including the JWT signing key and forge authentication tokens for any user.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7872",
-      "published": "2026-07-17T20:17:30.377000+00:00"
     },
     {
       "id": "3ff4a613b590b1c4",
@@ -887,23 +1023,6 @@
       "published": "2026-07-17T20:17:15.567000+00:00"
     },
     {
-      "id": "e0d9a9286a165534",
-      "kind": "cve",
-      "cve": "CVE-2026-14499",
-      "title": "CVE-2026-14499",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.10.1 Langflow could allow an authenticated user to execute arbitrary commands with elevated privileges on the system due to improper validation of user supplied input in the Python Interpreter component.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14499",
-      "published": "2026-07-17T20:17:14.950000+00:00"
-    },
-    {
       "id": "6879ee8b7f822d73",
       "kind": "cve",
       "cve": "CVE-2026-13473",
@@ -987,23 +1106,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9135",
       "published": "2026-07-17T19:17:19.390000+00:00"
-    },
-    {
-      "id": "403e8b65bbb7c313",
-      "kind": "cve",
-      "cve": "CVE-2026-9103",
-      "title": "CVE-2026-9103",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 could allow a remote attacker to gain unauthorized access due to improper authentication in the /api/v1/login/auto_login endpoint. The endpoint issues long-lived superuser bearer tokens without requirin…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9103",
-      "published": "2026-07-17T19:17:19.277000+00:00"
     },
     {
       "id": "81c3ccc6cbdf7cc4",
@@ -1873,57 +1975,6 @@
       "published": "2026-07-15T11:06:57+00:00"
     },
     {
-      "id": "b4074b0b69119c56",
-      "kind": "research",
-      "cve": null,
-      "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
-      "summary": "Open a repository in Cursor&nbsp;on Windows and, if a file named&nbsp;git.exe&nbsp;is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to execute. Whatever that binar…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
-      "published": "2026-07-15T10:55:22+00:00"
-    },
-    {
-      "id": "703342ddd7abdc59",
-      "kind": "research",
-      "cve": null,
-      "title": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
-      "summary": "Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity. The affected packages are listed below - @async…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
-      "published": "2026-07-15T09:16:13+00:00"
-    },
-    {
-      "id": "d8f6ea883c519ff4",
-      "kind": "research",
-      "cve": null,
-      "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
-      "summary": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution. The vulnerabilities are listed…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
-      "published": "2026-07-15T05:30:21+00:00"
-    },
-    {
       "id": "5ca8367967d5b11d",
       "kind": "research",
       "cve": null,
@@ -2755,23 +2806,6 @@
       "product": "UniFi OS",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908",
       "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "a2ef6ba9732bb03f",
-      "kind": "research",
-      "cve": null,
-      "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
-      "summary": "This week's release includes five new modules, including a full unauthenticated RCE chain for Paperclip AI and a VS Code extension persistence technique. On the post-exploitation side, the new windows/local/ntlm_relay_2_self module coerces…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026",
-      "published": "2026-06-19T17:08:23+00:00"
     },
     {
       "id": "10d87533a665bcff",
@@ -4229,40 +4263,6 @@
       "product": "Endpoint Manager Mobile (EPMM)",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1340",
       "published": "2026-04-08T00:00:00+00:00"
-    },
-    {
-      "id": "1417f73c0b73b926",
-      "kind": "cve",
-      "cve": "CVE-2026-35616",
-      "title": "Fortinet FortiClient EMS Improper Access Control Vulnerability",
-      "summary": "Fortinet FortiClient EMS contains an improper access control vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Fortinet",
-      "product": "FortiClient EMS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35616",
-      "published": "2026-04-06T00:00:00+00:00"
-    },
-    {
-      "id": "0f635b841fd7ca28",
-      "kind": "research",
-      "cve": "CVE-2026-2699",
-      "title": "You’re Not Supposed To ShareFile With Everyone (Progress ShareFile Pre-Auth RCE Chain CVE-2026-2699 & CVE-2026-2701)",
-      "summary": "If you squint and look at the CISA KEV list, you might think it&apos;s made up exclusively of vulnerabilities in file transfer solutions. While this would be wrong (and you shouldn&#x2019;t squint, it&#x2019;s bad for your eyes), file trans…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701/",
-      "published": "2026-04-02T10:00:42+00:00"
     }
   ]
 }
