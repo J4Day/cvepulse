@@ -1,7 +1,75 @@
 {
-  "generated": "2026-07-21T20:14:43.070263+00:00",
+  "generated": "2026-07-21T21:56:30.170212+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "f2d8f4687da381e5",
+      "kind": "research",
+      "cve": null,
+      "title": "Introducing Internal Network Scanning: see your network the way an attacker inside it would",
+      "summary": "Most breaches don't begin with a zero-day but with something ordinary like a forgotten server, an unmanaged network device, a service reachable across a segment that was supposed to be isolated. Internal scanning was supposed to catch exact…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/introducing-internal-network-scanning-see-your-network-the-way-an-attacker-inside-it-would",
+      "published": "2026-07-21T21:48:40+00:00"
+    },
+    {
+      "id": "1dc351bfb7a496a3",
+      "kind": "cve",
+      "cve": "CVE-2026-65057",
+      "title": "CVE-2026-65057",
+      "summary": "Keep (commit 91c75e0) contains a server-side request forgery vulnerability that allows unauthenticated attackers to make the backend issue arbitrary HTTP requests by supplying attacker-controlled host values to the unprotected healthcheck e…",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65057",
+      "published": "2026-07-21T21:16:54.427000+00:00"
+    },
+    {
+      "id": "6dc6f35d45ed1b33",
+      "kind": "cve",
+      "cve": "CVE-2026-65056",
+      "title": "CVE-2026-65056",
+      "summary": "mcp-webresearch 0.1.7 contains a server-side request forgery vulnerability that allows attackers to access internal network services by supplying loopback, link-local, or cloud metadata addresses to the visit_page tool, which only validates…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65056",
+      "published": "2026-07-21T21:16:54.287000+00:00"
+    },
+    {
+      "id": "2938685c2d30430d",
+      "kind": "cve",
+      "cve": "CVE-2026-63764",
+      "title": "CVE-2026-63764",
+      "summary": "lmdeploy's OpenAI-compatible API server contains a server-side request forgery vulnerability that allows unauthenticated attackers to access internal services and cloud metadata endpoints by supplying a crafted image_url that redirects to i…",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63764",
+      "published": "2026-07-21T21:16:53.350000+00:00"
+    },
     {
       "id": "f48bbbcafdf97091",
       "kind": "cve",
@@ -4197,74 +4265,6 @@
       "product": "Zimbra Collaboration Suite (ZCS)",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66376",
       "published": "2026-03-18T00:00:00+00:00"
-    },
-    {
-      "id": "365a22db3792b208",
-      "kind": "cve",
-      "cve": "CVE-2026-20963",
-      "title": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20963",
-      "published": "2026-03-18T00:00:00+00:00"
-    },
-    {
-      "id": "5390e1856c97d0f5",
-      "kind": "cve",
-      "cve": "CVE-2025-47813",
-      "title": "Wing FTP Server Information Disclosure Vulnerability",
-      "summary": "Wing FTP Server contains a generation of error message containing sensitive information vulnerability when using a long value in the UID cookie.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Wing FTP Server",
-      "product": "Wing FTP Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47813",
-      "published": "2026-03-16T00:00:00+00:00"
-    },
-    {
-      "id": "20ccd0762d40ed83",
-      "kind": "cve",
-      "cve": "CVE-2026-3910",
-      "title": "Google Chromium V8 Improper Restriction of Operations Within the Bounds of a Memory Buffer Vulnerability",
-      "summary": "Google Chromium V8 contains an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability c…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Chromium V8",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3910",
-      "published": "2026-03-13T00:00:00+00:00"
-    },
-    {
-      "id": "39d93a6907c9dfa3",
-      "kind": "cve",
-      "cve": "CVE-2026-3909",
-      "title": "Google Skia Out-of-Bounds Write Vulnerability",
-      "summary": "Google Skia contains an out-of-bounds write vulnerability that could allow a remote attacker to perform out of bounds memory access via a crafted HTML page. This vulnerability affects Google Chrome and ChromeOS, Android, Flutter, and possib…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Skia",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3909",
-      "published": "2026-03-13T00:00:00+00:00"
     }
   ]
 }
