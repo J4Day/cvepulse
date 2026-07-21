@@ -1,7 +1,109 @@
 {
-  "generated": "2026-07-21T10:57:32.941387+00:00",
+  "generated": "2026-07-21T12:22:25.744537+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "4e2f453a5006bfad",
+      "kind": "cve",
+      "cve": "CVE-2026-65008",
+      "title": "CVE-2026-65008",
+      "summary": "Grav 2.0.4 (fixed in 2.0.7) contains a remote code execution vulnerability in Blueprint::dynamicData() (system/src/Grav/Common/Data/Blueprint.php), which passes a Class::method callable string and its arguments directly to call_user_func_ar…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65008",
+      "published": "2026-07-21T12:19:01.183000+00:00"
+    },
+    {
+      "id": "8e4625a4c9be6134",
+      "kind": "cve",
+      "cve": "CVE-2026-65007",
+      "title": "CVE-2026-65007",
+      "summary": "The Grav api plugin (grav-plugin-api) before 1.0.8 fails to properly authorize API key generation and revocation: the plugin intercepts the apiKeyGenerate/apiKeyRevoke admin tasks before the account-management ACL runs and authorizes the ca…",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65007",
+      "published": "2026-07-21T12:19:00.910000+00:00"
+    },
+    {
+      "id": "26f91bfa5c89beed",
+      "kind": "cve",
+      "cve": "CVE-2026-1617",
+      "title": "CVE-2026-1617",
+      "summary": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in Turkmesh Communication Services Inc. Turkhotspot 5651 Loglama allows SQL Injection. This issue affects Turkhotspot 5651 Loglama: from 5.1.…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1617",
+      "published": "2026-07-21T12:17:21.173000+00:00"
+    },
+    {
+      "id": "06fe19b9b7da0d76",
+      "kind": "research",
+      "cve": null,
+      "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
+      "summary": "An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the same app is running commands on the PC driving…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
+      "published": "2026-07-21T11:58:00+00:00"
+    },
+    {
+      "id": "9540b6fd01dbf2e3",
+      "kind": "research",
+      "cve": null,
+      "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
+      "summary": "Every patch is a confession. The moment a vendor ships a security fix, the diff between the old code and the new code tells anyone watching exactly what was broken and where. Turn that diff back into a working exploit, and you can hit every…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
+      "published": "2026-07-21T11:42:23+00:00"
+    },
+    {
+      "id": "5f7e631ba298b703",
+      "kind": "research",
+      "cve": null,
+      "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
+      "summary": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in. That is the claim behind Bit2Watt, described by three Zhejian…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
+      "published": "2026-07-21T11:24:50+00:00"
+    },
     {
       "id": "1367451f0ec9eb64",
       "kind": "cve",
@@ -1293,57 +1395,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
       "published": "2026-07-16T10:10:00+00:00"
-    },
-    {
-      "id": "fb34f65774c8776c",
-      "kind": "research",
-      "cve": null,
-      "title": "Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide",
-      "summary": "Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read the map of the house, and take the Wi-F…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html",
-      "published": "2026-07-16T09:23:19+00:00"
-    },
-    {
-      "id": "3c725c5c79d55ae1",
-      "kind": "research",
-      "cve": null,
-      "title": "OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol",
-      "summary": "OpenAI has disclosed details of GPT-Red, an internal automated red-teaming model that scales prompt injection vulnerability discovery with an aim to fix issues before the tools are deployed widely. \"GPT‑Red is a strong red-teamer, and our p…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html",
-      "published": "2026-07-16T08:42:31+00:00"
-    },
-    {
-      "id": "291a71049912d9b8",
-      "kind": "research",
-      "cve": "CVE-2026-53412",
-      "title": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover",
-      "summary": "Zoom has released security updates for a critical security flaw impacting Zoom Workplace for Windows that could facilitate account takeover. The vulnerability, tracked as CVE-2026-53412 (CVSS score: 9.8), affects Zoom Workplace for Windows…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
-      "published": "2026-07-16T07:22:44+00:00"
     },
     {
       "id": "a7e893960f55f6fb",
@@ -4213,57 +4264,6 @@
       "product": "",
       "url": "https://projectzero.google/2026/03/mutational-grammar-fuzzing.html",
       "published": "2026-03-05T08:00:00+00:00"
-    },
-    {
-      "id": "d43d9d46882028a6",
-      "kind": "cve",
-      "cve": "CVE-2017-7921",
-      "title": "Hikvision Multiple Products Improper Authentication Vulnerability",
-      "summary": "Multiple Hikvision products contain an improper authentication vulnerability that could allow a malicious user to escalate privileges on the system and gain access to sensitive information.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Hikvision",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7921",
-      "published": "2026-03-05T00:00:00+00:00"
-    },
-    {
-      "id": "b6fa53adcbe09ee5",
-      "kind": "cve",
-      "cve": "CVE-2021-22681",
-      "title": "Rockwell Multiple Products Insufficient Protected Credentials Vulnerability",
-      "summary": "Multiple Rockwell products contain an insufficient protected credentials vulnerability. Studio 5000 Logix Designer software may allow a key to be discovered. This key is used to verify Logix controllers are communicating with Rockwell Autom…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Rockwell",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22681",
-      "published": "2026-03-05T00:00:00+00:00"
-    },
-    {
-      "id": "81261aaa06e04390",
-      "kind": "cve",
-      "cve": "CVE-2023-43000",
-      "title": "Apple Multiple products Use-After-Free Vulnerability",
-      "summary": "Apple macOS, iOS, iPadOS, and Safari 16.6 contain a use-after-free vulnerability due to the processing of maliciously crafted web content that may lead to memory corruption.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-43000",
-      "published": "2026-03-05T00:00:00+00:00"
     }
   ]
 }
