@@ -1,7 +1,211 @@
 {
-  "generated": "2026-07-24T14:45:50.763220+00:00",
+  "generated": "2026-07-24T18:11:53.489976+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "546ae8274bd56ec8",
+      "kind": "cve",
+      "cve": "CVE-2026-66035",
+      "title": "CVE-2026-66035",
+      "summary": "libssh2 through 1.11.1, fixed in commit 42e33d8, contains a pre-authentication heap buffer overflow vulnerability that allows a malicious SSH server to corrupt heap metadata in any connecting client by sending a packet with a packet_length…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66035",
+      "published": "2026-07-24T17:17:35.547000+00:00"
+    },
+    {
+      "id": "ecf477535c0d4506",
+      "kind": "cve",
+      "cve": "CVE-2026-66034",
+      "title": "CVE-2026-66034",
+      "summary": "libssh2 through 1.11.1, fixed in commit a13bb6c, contains a missing bounds check vulnerability that allows a malicious SSH server to trigger an arbitrary-length heap out-of-bounds read and a free of an uninitialized pointer via the publicke…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66034",
+      "published": "2026-07-24T17:17:35.407000+00:00"
+    },
+    {
+      "id": "8698eb95775bd369",
+      "kind": "cve",
+      "cve": "CVE-2026-66033",
+      "title": "CVE-2026-66033",
+      "summary": "libssh2 through 1.11.1, fixed in commit a2ed82d, contains a pre-authentication integer underflow vulnerability in the ssh2_cipher_crypt() function in src/openssl.c that allows a malicious SSH server to crash any connecting client by negotia…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66033",
+      "published": "2026-07-24T17:17:35.263000+00:00"
+    },
+    {
+      "id": "be6d43f277f18739",
+      "kind": "cve",
+      "cve": "CVE-2026-66032",
+      "title": "CVE-2026-66032",
+      "summary": "libssh2 through 1.11.1, fixed in commit 5e47761, contains a double-free vulnerability in the sftp_open() function in src/sftp.c that allows a malicious SSH server to corrupt the heap of any authenticated client opening an SFTP session. When…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66032",
+      "published": "2026-07-24T17:17:35.120000+00:00"
+    },
+    {
+      "id": "9a333598f4a8ef0b",
+      "kind": "cve",
+      "cve": "CVE-2026-65711",
+      "title": "CVE-2026-65711",
+      "summary": "sysPass through version 3.2.11 contains an OS command injection vulnerability that allows authenticated administrators to execute arbitrary commands as the web server process user by setting a malicious backup path and triggering a backup.…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65711",
+      "published": "2026-07-24T17:17:34.857000+00:00"
+    },
+    {
+      "id": "1fa39b2b0c8ec2e1",
+      "kind": "cve",
+      "cve": "CVE-2026-65710",
+      "title": "CVE-2026-65710",
+      "summary": "sysPass through version 3.2.11 contains a missing authorization vulnerability that allows authenticated users with the PUBLICLINK_CREATE profile flag to trigger unauthorized decryption and persistent storage of any vault account's password…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65710",
+      "published": "2026-07-24T17:17:34.713000+00:00"
+    },
+    {
+      "id": "5ee4791335003c5a",
+      "kind": "cve",
+      "cve": "CVE-2026-65709",
+      "title": "CVE-2026-65709",
+      "summary": "sysPass through version 3.2.11 contains a missing object-level authorization vulnerability in the JSON-RPC API that allows API token holders to enumerate account metadata, overwrite passwords, and delete accounts across the entire vault wit…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65709",
+      "published": "2026-07-24T17:17:34.573000+00:00"
+    },
+    {
+      "id": "c6c2579cdbb944aa",
+      "kind": "cve",
+      "cve": "CVE-2026-65708",
+      "title": "CVE-2026-65708",
+      "summary": "sysPass through version 3.2.11 contains an insecure direct object reference vulnerability that allows any authenticated attacker to access account file attachments belonging to accounts they do not have ACL permissions for by exploiting mis…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65708",
+      "published": "2026-07-24T17:17:34.433000+00:00"
+    },
+    {
+      "id": "2be69f7d12b66076",
+      "kind": "cve",
+      "cve": "CVE-2026-65693",
+      "title": "CVE-2026-65693",
+      "summary": "Microweber CMS through 2.0.20 contains a server-side template injection vulnerability that allows authenticated administrators to achieve arbitrary OS command execution by injecting Twig expressions into mail templates. Attackers can exploi…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65693",
+      "published": "2026-07-24T16:16:55.360000+00:00"
+    },
+    {
+      "id": "96101abfe95fbae1",
+      "kind": "cve",
+      "cve": "CVE-2026-58630",
+      "title": "CVE-2026-58630",
+      "summary": "Improper access control in Azure App Service allows an unauthorized attacker to elevate privileges over a network.",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58630",
+      "published": "2026-07-24T15:18:47.847000+00:00"
+    },
+    {
+      "id": "68327402f2a76e00",
+      "kind": "research",
+      "cve": null,
+      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+      "summary": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineer…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+      "published": "2026-07-24T15:12:35+00:00"
+    },
+    {
+      "id": "91710fe58c4b6956",
+      "kind": "research",
+      "cve": null,
+      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+      "summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine. They codenamed the flaw Certighost. Be…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "published": "2026-07-24T14:15:21+00:00"
+    },
     {
       "id": "6bef077b53cc3baf",
       "kind": "research",
@@ -52,6 +256,23 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
       "published": "2026-07-24T11:30:00+00:00"
+    },
+    {
+      "id": "6e88e86fea7edc4c",
+      "kind": "cve",
+      "cve": "CVE-2026-15401",
+      "title": "CVE-2026-15401",
+      "summary": "The VikBooking Hotel Booking Engine & PMS plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'vbfX' parameter in all versions up to, and including, 1.8.13 due to insufficient input sanitization and output escaping. Th…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15401",
+      "published": "2026-07-24T10:16:31.410000+00:00"
     },
     {
       "id": "eb03a2fa4681da06",
@@ -173,38 +394,38 @@
       "published": "2026-07-24T01:17:36.417000+00:00"
     },
     {
-      "id": "0a4b508f3266e6b4",
+      "id": "fee30091baab09e5",
       "kind": "cve",
-      "cve": "CVE-2026-56165",
-      "title": "CVE-2026-56165",
-      "summary": "Heap-based buffer overflow in Microsoft Account allows an unauthorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": 9.8,
+      "cve": "CVE-2026-56167",
+      "title": "CVE-2026-56167",
+      "summary": "Server-side request forgery (ssrf) in Azure AI Search allows an authorized attacker to elevate privileges over a network.",
+      "severity": "HIGH",
+      "score": 8.5,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56165",
-      "published": "2026-07-24T01:17:34.750000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56167",
+      "published": "2026-07-24T01:17:34.877000+00:00"
     },
     {
-      "id": "22322b8433e15949",
+      "id": "a8316196652371a8",
       "kind": "cve",
-      "cve": "CVE-2026-56160",
-      "title": "CVE-2026-56160",
-      "summary": "Improper authorization in Azure Red Hat OpenShift (ARO) allows an authorized attacker to elevate privileges over a network.",
-      "severity": "CRITICAL",
-      "score": 9.1,
+      "cve": "CVE-2026-35425",
+      "title": "CVE-2026-35425",
+      "summary": "Improper access control in Azure API Management (APIM) allows an authorized attacker to execute code over a network.",
+      "severity": "HIGH",
+      "score": 8.0,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56160",
-      "published": "2026-07-24T01:17:34.560000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35425",
+      "published": "2026-07-24T01:16:36.970000+00:00"
     },
     {
       "id": "829113dbe4375ca6",
@@ -241,23 +462,6 @@
       "published": "2026-07-23T22:16:51.750000+00:00"
     },
     {
-      "id": "ab58cb17886b4824",
-      "kind": "cve",
-      "cve": "CVE-2024-58354",
-      "title": "CVE-2024-58354",
-      "summary": "cal.com (calcom repository, later renamed cal.diy) is affected by a repository takeover vulnerability in its GitHub Actions workflows. The workflow pr.yml uses the pull_request_target trigger with the repository's default write permissions…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58354",
-      "published": "2026-07-23T22:16:51.380000+00:00"
-    },
-    {
       "id": "085a737c0ab47c23",
       "kind": "cve",
       "cve": "CVE-2026-15981",
@@ -273,6 +477,40 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15981",
       "published": "2026-07-23T21:17:03.220000+00:00"
+    },
+    {
+      "id": "45a56f157b02cad0",
+      "kind": "cve",
+      "cve": "CVE-2026-60122",
+      "title": "CVE-2026-60122",
+      "summary": "gpsd through release-3.27.5, fixed at commit 4c06658, contains a code injection vulnerability in the gpsprof utility that allows an attacker who controls GPS input data to execute arbitrary OS commands by injecting malicious content into th…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60122",
+      "published": "2026-07-23T20:17:09.207000+00:00"
+    },
+    {
+      "id": "7a9fac40779df0e5",
+      "kind": "cve",
+      "cve": "CVE-2026-63765",
+      "title": "CVE-2026-63765",
+      "summary": "Chatwoot before 4.16.0 contains an authentication bypass vulnerability in the direct uploads controller that allows unauthenticated attackers to create arbitrary ActiveStorage blobs in any tenant account. Attackers can exploit missing authe…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63765",
+      "published": "2026-07-23T19:17:03.560000+00:00"
     },
     {
       "id": "711a8c6076de78c1",
@@ -292,6 +530,40 @@
       "published": "2026-07-23T18:36:08+00:00"
     },
     {
+      "id": "a12ff30fa24b09d5",
+      "kind": "cve",
+      "cve": "CVE-2026-65919",
+      "title": "CVE-2026-65919",
+      "summary": "Meshery before 1.0.57 contains an unauthenticated arbitrary file read vulnerability in the /api/system/fileView and /api/system/fileDownload endpoints that pass user-supplied file parameters directly to os.Open without path validation. Atta…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65919",
+      "published": "2026-07-23T18:17:02.290000+00:00"
+    },
+    {
+      "id": "0f65eaf3228204da",
+      "kind": "cve",
+      "cve": "CVE-2026-65702",
+      "title": "CVE-2026-65702",
+      "summary": "Vanna through 2.0.2 contains a path traversal vulnerability in the FileSystemConversationStore persistence integration that allows unauthenticated remote attackers to write attacker-controlled JSON files to arbitrary filesystem locations an…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65702",
+      "published": "2026-07-23T18:17:01.630000+00:00"
+    },
+    {
       "id": "f78fab799131605f",
       "kind": "cve",
       "cve": "CVE-2026-65700",
@@ -309,6 +581,23 @@
       "published": "2026-07-23T18:17:01.327000+00:00"
     },
     {
+      "id": "1a34c752d2d7299a",
+      "kind": "cve",
+      "cve": "CVE-2026-65917",
+      "title": "CVE-2026-65917",
+      "summary": "CyberPanel through 1.9.1, fixed in commit b198460, contains an insecure direct object reference (IDOR) vulnerability in the IncBackups application's incremental-backup handlers (deleteBackup, fetchRestorePoints, and restorePoint) that allow…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65917",
+      "published": "2026-07-23T16:17:55.020000+00:00"
+    },
+    {
       "id": "c1d6930241ebe889",
       "kind": "research",
       "cve": null,
@@ -324,23 +613,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
       "published": "2026-07-23T15:02:07+00:00"
-    },
-    {
-      "id": "249d442f5de0f66d",
-      "kind": "cve",
-      "cve": "CVE-2026-65689",
-      "title": "CVE-2026-65689",
-      "summary": "Bold Reports Standalone Report Designer before 14.1.12 contains a missing filepath validation vulnerability in its database download feature that allows unauthenticated attackers to read arbitrary files from the server filesystem by supplyi…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65689",
-      "published": "2026-07-23T14:18:03.340000+00:00"
     },
     {
       "id": "6a20c58a71606734",
@@ -853,106 +1125,361 @@
       "published": "2026-07-22T00:00:00+00:00"
     },
     {
-      "id": "0175434de3dcb5ad",
+      "id": "e9553989244be09d",
       "kind": "cve",
-      "cve": "CVE-2026-61076",
-      "title": "CVE-2026-61076",
-      "summary": "Vulnerability in the PeopleSoft Enterprise HCM Talent Acquisition Manager product of Oracle PeopleSoft (component: Job Opening). The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker…",
-      "severity": "CRITICAL",
-      "score": 9.9,
+      "cve": "CVE-2026-16414",
+      "title": "CVE-2026-16414",
+      "summary": "Insufficient validation of untrusted input in Chromecast in Google Chrome prior to 150.0.7871.182 allowed a local attacker to potentially perform a sandbox escape via malicious network traffic. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "score": 7.8,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61076",
-      "published": "2026-07-21T22:18:38.410000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16414",
+      "published": "2026-07-21T23:16:58.943000+00:00"
     },
     {
-      "id": "b23129bcb554130c",
+      "id": "2a9205b5bfcd34f5",
       "kind": "cve",
-      "cve": "CVE-2026-61072",
-      "title": "CVE-2026-61072",
-      "summary": "Vulnerability in the PeopleSoft Enterprise FIN Staffing Front Office Brazil product of Oracle PeopleSoft (component: Staffing). The supported version that is affected is 9.1. Easily exploitable vulnerability allows low privileged attacker w…",
-      "severity": "CRITICAL",
-      "score": 9.9,
+      "cve": "CVE-2026-60932",
+      "title": "CVE-2026-60932",
+      "summary": "Vulnerability in the Oracle Labor Distribution product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker wit…",
+      "severity": "HIGH",
+      "score": 8.8,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61072",
-      "published": "2026-07-21T22:18:37.980000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60932",
+      "published": "2026-07-21T22:18:28.227000+00:00"
     },
     {
-      "id": "ca0a152efd848b45",
+      "id": "d8f8ce54fa9515b0",
       "kind": "cve",
-      "cve": "CVE-2026-61065",
-      "title": "CVE-2026-61065",
-      "summary": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated a…",
-      "severity": "CRITICAL",
-      "score": 9.8,
+      "cve": "CVE-2026-60931",
+      "title": "CVE-2026-60931",
+      "summary": "Vulnerability in the Oracle Public Sector Financials product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged atta…",
+      "severity": "HIGH",
+      "score": 7.5,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61065",
-      "published": "2026-07-21T22:18:37.313000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60931",
+      "published": "2026-07-21T22:18:28.113000+00:00"
     },
     {
-      "id": "f8a20784f6c1468f",
+      "id": "acd062df71546337",
       "kind": "cve",
-      "cve": "CVE-2026-61059",
-      "title": "CVE-2026-61059",
-      "summary": "Vulnerability in the PeopleSoft Enterprise SCM Order Management product of Oracle PeopleSoft (component: Security). The supported version that is affected is 9.2. Easily exploitable vulnerability allows unauthenticated attacker with network…",
-      "severity": "CRITICAL",
-      "score": 9.1,
+      "cve": "CVE-2026-60927",
+      "title": "CVE-2026-60927",
+      "summary": "Vulnerability in the Oracle Public Sector Financials product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged atta…",
+      "severity": "HIGH",
+      "score": 7.5,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61059",
-      "published": "2026-07-21T22:18:36.620000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60927",
+      "published": "2026-07-21T22:18:27.783000+00:00"
     },
     {
-      "id": "f9fd0c7f8be9b67f",
+      "id": "5e614951350404ab",
       "kind": "cve",
-      "cve": "CVE-2026-61041",
-      "title": "CVE-2026-61041",
-      "summary": "Vulnerability in the Oracle Demantra Demand Management product of Oracle Supply Chain (component: Product Security). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker wi…",
-      "severity": "CRITICAL",
-      "score": 9.9,
+      "cve": "CVE-2026-60926",
+      "title": "CVE-2026-60926",
+      "summary": "Vulnerability in the Oracle Public Sector Payroll product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows high privileged attacker…",
+      "severity": "HIGH",
+      "score": 7.2,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61041",
-      "published": "2026-07-21T22:18:35.047000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60926",
+      "published": "2026-07-21T22:18:27.687000+00:00"
     },
     {
-      "id": "3f607493e3d1fa79",
+      "id": "d7bd11a0dbffc560",
       "kind": "cve",
-      "cve": "CVE-2026-60999",
-      "title": "CVE-2026-60999",
-      "summary": "Vulnerability in the Oracle Data Integrator product of Oracle Fusion Middleware (component: Rest Service). The supported version that is affected is 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network a…",
-      "severity": "CRITICAL",
-      "score": 9.8,
+      "cve": "CVE-2026-60925",
+      "title": "CVE-2026-60925",
+      "summary": "Vulnerability in the Oracle Public Sector Payroll product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.4-12.2.15. Easily exploitable vulnerability allows high privileged attacker…",
+      "severity": "HIGH",
+      "score": 7.2,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60999",
-      "published": "2026-07-21T22:18:32.240000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60925",
+      "published": "2026-07-21T22:18:27.577000+00:00"
+    },
+    {
+      "id": "720939a91eb1ddf3",
+      "kind": "cve",
+      "cve": "CVE-2026-60924",
+      "title": "CVE-2026-60924",
+      "summary": "Vulnerability in the Oracle Public Sector Payroll product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60924",
+      "published": "2026-07-21T22:18:27.470000+00:00"
+    },
+    {
+      "id": "c133983be18d5e40",
+      "kind": "cve",
+      "cve": "CVE-2026-60923",
+      "title": "CVE-2026-60923",
+      "summary": "Vulnerability in the Oracle Capacity product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60923",
+      "published": "2026-07-21T22:18:27.360000+00:00"
+    },
+    {
+      "id": "c624ea14d895f4fd",
+      "kind": "cve",
+      "cve": "CVE-2026-60920",
+      "title": "CVE-2026-60920",
+      "summary": "Vulnerability in the Oracle Customer Care product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with net…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60920",
+      "published": "2026-07-21T22:18:27.140000+00:00"
+    },
+    {
+      "id": "03aba4726de66cc9",
+      "kind": "cve",
+      "cve": "CVE-2026-60918",
+      "title": "CVE-2026-60918",
+      "summary": "Vulnerability in the Oracle Shipping Execution product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.12-12.2.15. Easily exploitable vulnerability allows high privileged attacker w…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60918",
+      "published": "2026-07-21T22:18:26.923000+00:00"
+    },
+    {
+      "id": "3373e27d4b5319a1",
+      "kind": "cve",
+      "cve": "CVE-2026-60917",
+      "title": "CVE-2026-60917",
+      "summary": "Vulnerability in the Oracle Inventory Management product of Oracle E-Business Suite (component: Core Receiving). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with n…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60917",
+      "published": "2026-07-21T22:18:26.817000+00:00"
+    },
+    {
+      "id": "fb07446072b21022",
+      "kind": "cve",
+      "cve": "CVE-2026-60910",
+      "title": "CVE-2026-60910",
+      "summary": "Vulnerability in the Oracle Property Manager product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows high privileged attacker with…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60910",
+      "published": "2026-07-21T22:18:26.347000+00:00"
+    },
+    {
+      "id": "9b4fa7c1a413e6e2",
+      "kind": "cve",
+      "cve": "CVE-2026-60908",
+      "title": "CVE-2026-60908",
+      "summary": "Vulnerability in the Oracle Installed Base product of Oracle E-Business Suite (component: Create Item Instance). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with n…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60908",
+      "published": "2026-07-21T22:18:26.233000+00:00"
+    },
+    {
+      "id": "b0fd1ee265d58f51",
+      "kind": "cve",
+      "cve": "CVE-2026-60904",
+      "title": "CVE-2026-60904",
+      "summary": "Vulnerability in the Oracle Installed Base product of Oracle E-Business Suite (component: Create Item Instance). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with n…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60904",
+      "published": "2026-07-21T22:18:26.020000+00:00"
+    },
+    {
+      "id": "49ae266e942a9ba3",
+      "kind": "cve",
+      "cve": "CVE-2026-60901",
+      "title": "CVE-2026-60901",
+      "summary": "Vulnerability in the Oracle Project Intelligence product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker w…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60901",
+      "published": "2026-07-21T22:18:25.910000+00:00"
+    },
+    {
+      "id": "3c606b951f8f1923",
+      "kind": "cve",
+      "cve": "CVE-2026-60900",
+      "title": "CVE-2026-60900",
+      "summary": "Vulnerability in the Oracle HCM Configuration Workbench product of Oracle E-Business Suite (component: Rapid Implementation). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows high privileged a…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60900",
+      "published": "2026-07-21T22:18:25.797000+00:00"
+    },
+    {
+      "id": "6085f3aa9e5ab95b",
+      "kind": "cve",
+      "cve": "CVE-2026-60898",
+      "title": "CVE-2026-60898",
+      "summary": "Vulnerability in the Oracle Warehouse Management product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker w…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60898",
+      "published": "2026-07-21T22:18:25.570000+00:00"
+    },
+    {
+      "id": "cbc7dd5b5ebe1cc2",
+      "kind": "cve",
+      "cve": "CVE-2026-60897",
+      "title": "CVE-2026-60897",
+      "summary": "Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network a…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60897",
+      "published": "2026-07-21T22:18:25.463000+00:00"
+    },
+    {
+      "id": "1e332f9ddbd4a8b1",
+      "kind": "cve",
+      "cve": "CVE-2026-60894",
+      "title": "CVE-2026-60894",
+      "summary": "Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60894",
+      "published": "2026-07-21T22:18:25.247000+00:00"
+    },
+    {
+      "id": "f8b430d7da6ac780",
+      "kind": "cve",
+      "cve": "CVE-2026-60890",
+      "title": "CVE-2026-60890",
+      "summary": "Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network a…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60890",
+      "published": "2026-07-21T22:18:24.810000+00:00"
+    },
+    {
+      "id": "e48488e347feb386",
+      "kind": "cve",
+      "cve": "CVE-2026-60886",
+      "title": "CVE-2026-60886",
+      "summary": "Vulnerability in the Oracle Work in Process product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with n…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60886",
+      "published": "2026-07-21T22:18:24.593000+00:00"
     },
     {
       "id": "8c64793f1df7dbe1",
@@ -972,11 +1499,11 @@
       "published": "2026-07-21T22:18:24.480000+00:00"
     },
     {
-      "id": "6ad04483f7c8c549",
+      "id": "fd9f66ad639bc39a",
       "kind": "cve",
-      "cve": "CVE-2026-60793",
-      "title": "CVE-2026-60793",
-      "summary": "Vulnerability in the Oracle TeleSales product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network…",
+      "cve": "CVE-2026-60877",
+      "title": "CVE-2026-60877",
+      "summary": "Vulnerability in the Oracle Trade Management product of Oracle E-Business Suite (component: Claim LOV). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network ac…",
       "severity": "HIGH",
       "score": 8.1,
       "source": "NVD",
@@ -985,15 +1512,389 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60793",
-      "published": "2026-07-21T22:18:18.187000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60877",
+      "published": "2026-07-21T22:18:24.353000+00:00"
     },
     {
-      "id": "821815be88fff7a8",
+      "id": "becf9218e18b0069",
       "kind": "cve",
-      "cve": "CVE-2026-60790",
-      "title": "CVE-2026-60790",
-      "summary": "Vulnerability in the Oracle Sales Offline product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows high privileged attacker with…",
+      "cve": "CVE-2026-60875",
+      "title": "CVE-2026-60875",
+      "summary": "Vulnerability in the Oracle Trade Management product of Oracle E-Business Suite (component: Claim LOV). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network ac…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60875",
+      "published": "2026-07-21T22:18:24.243000+00:00"
+    },
+    {
+      "id": "6dd69022329d11af",
+      "kind": "cve",
+      "cve": "CVE-2026-60872",
+      "title": "CVE-2026-60872",
+      "summary": "Vulnerability in the Oracle Order Management product of Oracle E-Business Suite (component: Product Diagnostic Tools). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60872",
+      "published": "2026-07-21T22:18:24.130000+00:00"
+    },
+    {
+      "id": "874c9f62221c2565",
+      "kind": "cve",
+      "cve": "CVE-2026-60871",
+      "title": "CVE-2026-60871",
+      "summary": "Vulnerability in the Oracle Risk Management product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with n…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60871",
+      "published": "2026-07-21T22:18:24.020000+00:00"
+    },
+    {
+      "id": "ad2a912030afdba7",
+      "kind": "cve",
+      "cve": "CVE-2026-60870",
+      "title": "CVE-2026-60870",
+      "summary": "Vulnerability in the Oracle Advanced Pricing product of Oracle E-Business Suite (component: Pricing Installation). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60870",
+      "published": "2026-07-21T22:18:23.910000+00:00"
+    },
+    {
+      "id": "678f876f634b3044",
+      "kind": "cve",
+      "cve": "CVE-2026-60868",
+      "title": "CVE-2026-60868",
+      "summary": "Vulnerability in the Oracle Advanced Pricing product of Oracle E-Business Suite (component: Pricing Installation). Supported versions that are affected are 12.2.14-12.2.15. Difficult to exploit vulnerability allows low privileged attacker w…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60868",
+      "published": "2026-07-21T22:18:23.800000+00:00"
+    },
+    {
+      "id": "41be1f0fdde10744",
+      "kind": "cve",
+      "cve": "CVE-2026-60867",
+      "title": "CVE-2026-60867",
+      "summary": "Vulnerability in the Oracle Advanced Pricing product of Oracle E-Business Suite (component: Pricing Installation). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60867",
+      "published": "2026-07-21T22:18:23.677000+00:00"
+    },
+    {
+      "id": "9db9b5bf48c9ebc8",
+      "kind": "cve",
+      "cve": "CVE-2026-60863",
+      "title": "CVE-2026-60863",
+      "summary": "Vulnerability in the Oracle Advanced Pricing product of Oracle E-Business Suite (component: Pricing Installation). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60863",
+      "published": "2026-07-21T22:18:23.440000+00:00"
+    },
+    {
+      "id": "52c66096957d1bbe",
+      "kind": "cve",
+      "cve": "CVE-2026-60859",
+      "title": "CVE-2026-60859",
+      "summary": "Vulnerability in the Oracle Quoting product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60859",
+      "published": "2026-07-21T22:18:23.220000+00:00"
+    },
+    {
+      "id": "95036994517f3f85",
+      "kind": "cve",
+      "cve": "CVE-2026-60857",
+      "title": "CVE-2026-60857",
+      "summary": "Vulnerability in the Oracle Contracts Integration product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60857",
+      "published": "2026-07-21T22:18:23.107000+00:00"
+    },
+    {
+      "id": "5045e0b55e7cab17",
+      "kind": "cve",
+      "cve": "CVE-2026-60855",
+      "title": "CVE-2026-60855",
+      "summary": "Vulnerability in the Oracle Quality product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60855",
+      "published": "2026-07-21T22:18:22.993000+00:00"
+    },
+    {
+      "id": "371727eff0f536ed",
+      "kind": "cve",
+      "cve": "CVE-2026-60854",
+      "title": "CVE-2026-60854",
+      "summary": "Vulnerability in the Oracle Quality product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows high privileged attacker with network…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60854",
+      "published": "2026-07-21T22:18:22.877000+00:00"
+    },
+    {
+      "id": "65ed029881fbb70f",
+      "kind": "cve",
+      "cve": "CVE-2026-60852",
+      "title": "CVE-2026-60852",
+      "summary": "Vulnerability in the Oracle Lease and Finance Management product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged at…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60852",
+      "published": "2026-07-21T22:18:22.770000+00:00"
+    },
+    {
+      "id": "2365bab0b48ee1ba",
+      "kind": "cve",
+      "cve": "CVE-2026-60848",
+      "title": "CVE-2026-60848",
+      "summary": "Vulnerability in the Oracle Project Contracts product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60848",
+      "published": "2026-07-21T22:18:22.647000+00:00"
+    },
+    {
+      "id": "28c8e315eff97a10",
+      "kind": "cve",
+      "cve": "CVE-2026-60845",
+      "title": "CVE-2026-60845",
+      "summary": "Vulnerability in the Oracle Mobile Application Server product of Oracle E-Business Suite (component: MWA General Bugs). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows high privileged attacke…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60845",
+      "published": "2026-07-21T22:18:22.307000+00:00"
+    },
+    {
+      "id": "6cae4c76143e8419",
+      "kind": "cve",
+      "cve": "CVE-2026-60844",
+      "title": "CVE-2026-60844",
+      "summary": "Vulnerability in the Oracle Customer Support product of Oracle E-Business Suite (component: Update Service Request). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker wi…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60844",
+      "published": "2026-07-21T22:18:22.200000+00:00"
+    },
+    {
+      "id": "bcd7addd9d15e798",
+      "kind": "cve",
+      "cve": "CVE-2026-60840",
+      "title": "CVE-2026-60840",
+      "summary": "Vulnerability in the Oracle Demand Signal Repository product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attack…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60840",
+      "published": "2026-07-21T22:18:21.867000+00:00"
+    },
+    {
+      "id": "786bfa4cc7bfd5ec",
+      "kind": "cve",
+      "cve": "CVE-2026-60838",
+      "title": "CVE-2026-60838",
+      "summary": "Vulnerability in the Oracle Price Protection product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60838",
+      "published": "2026-07-21T22:18:21.760000+00:00"
+    },
+    {
+      "id": "c80dfbd82f9f39c7",
+      "kind": "cve",
+      "cve": "CVE-2026-60837",
+      "title": "CVE-2026-60837",
+      "summary": "Vulnerability in the Oracle Price Protection product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with…",
+      "severity": "HIGH",
+      "score": 8.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60837",
+      "published": "2026-07-21T22:18:21.647000+00:00"
+    },
+    {
+      "id": "0f4c4ec79bfd428f",
+      "kind": "cve",
+      "cve": "CVE-2026-60836",
+      "title": "CVE-2026-60836",
+      "summary": "Vulnerability in the Oracle HCM Common Architecture product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows high privileged attack…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60836",
+      "published": "2026-07-21T22:18:21.533000+00:00"
+    },
+    {
+      "id": "1a51beddcb3e760b",
+      "kind": "cve",
+      "cve": "CVE-2026-60834",
+      "title": "CVE-2026-60834",
+      "summary": "Vulnerability in the Oracle Solaris product of Oracle Systems (component: Utility). The supported version that is affected is 11.4. Difficult to exploit vulnerability allows low privileged attacker with network access via RAD to compromise…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60834",
+      "published": "2026-07-21T22:18:21.237000+00:00"
+    },
+    {
+      "id": "e9c79a4dcdba485d",
+      "kind": "cve",
+      "cve": "CVE-2026-60833",
+      "title": "CVE-2026-60833",
+      "summary": "Vulnerability in the Oracle Solaris product of Oracle Systems (component: Utility). The supported version that is affected is 11.4. Difficult to exploit vulnerability allows low privileged attacker with logon to the infrastructure where Ora…",
+      "severity": "HIGH",
+      "score": 7.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60833",
+      "published": "2026-07-21T22:18:21.120000+00:00"
+    },
+    {
+      "id": "aa00ffe16d9c6cbd",
+      "kind": "cve",
+      "cve": "CVE-2026-60810",
+      "title": "CVE-2026-60810",
+      "summary": "Vulnerability in the Oracle Supply Chain Trading Connector product of Oracle E-Business Suite (component: Collaboration History). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticat…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60810",
+      "published": "2026-07-21T22:18:19.443000+00:00"
+    },
+    {
+      "id": "2581a0c1d5acf017",
+      "kind": "cve",
+      "cve": "CVE-2026-60807",
+      "title": "CVE-2026-60807",
+      "summary": "Vulnerability in the Oracle Bills of Material product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with…",
       "severity": "HIGH",
       "score": 8.0,
       "source": "NVD",
@@ -1002,161 +1903,8 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60790",
-      "published": "2026-07-21T22:18:18.070000+00:00"
-    },
-    {
-      "id": "5297f8ab5f9d8b73",
-      "kind": "cve",
-      "cve": "CVE-2026-60789",
-      "title": "CVE-2026-60789",
-      "summary": "Vulnerability in the Oracle Sales Offline product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with net…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60789",
-      "published": "2026-07-21T22:18:17.960000+00:00"
-    },
-    {
-      "id": "43ab49e44485a46f",
-      "kind": "cve",
-      "cve": "CVE-2026-60788",
-      "title": "CVE-2026-60788",
-      "summary": "Vulnerability in the Oracle Sales Offline product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with net…",
-      "severity": "HIGH",
-      "score": 8.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60788",
-      "published": "2026-07-21T22:18:17.847000+00:00"
-    },
-    {
-      "id": "c6046847d1d852b2",
-      "kind": "cve",
-      "cve": "CVE-2026-60787",
-      "title": "CVE-2026-60787",
-      "summary": "Vulnerability in the Oracle Receivables product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows high privileged attacker with netw…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60787",
-      "published": "2026-07-21T22:18:17.733000+00:00"
-    },
-    {
-      "id": "90422bd39698521e",
-      "kind": "cve",
-      "cve": "CVE-2026-60786",
-      "title": "CVE-2026-60786",
-      "summary": "Vulnerability in the Oracle Receivables product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows high privileged attacker with netw…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60786",
-      "published": "2026-07-21T22:18:17.617000+00:00"
-    },
-    {
-      "id": "4b7d135837e67916",
-      "kind": "cve",
-      "cve": "CVE-2026-60785",
-      "title": "CVE-2026-60785",
-      "summary": "Vulnerability in the Oracle iReceivables product of Oracle E-Business Suite (component: AR Web Utilities). Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows unauthenticated attacker with netw…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60785",
-      "published": "2026-07-21T22:18:17.500000+00:00"
-    },
-    {
-      "id": "a6420a34d3327355",
-      "kind": "cve",
-      "cve": "CVE-2026-60784",
-      "title": "CVE-2026-60784",
-      "summary": "Vulnerability in the Oracle Trading Community product of Oracle E-Business Suite (component: Party Search UI). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with net…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60784",
-      "published": "2026-07-21T22:18:17.383000+00:00"
-    },
-    {
-      "id": "9ad12d3c1fefa3bb",
-      "kind": "cve",
-      "cve": "CVE-2026-60783",
-      "title": "CVE-2026-60783",
-      "summary": "Vulnerability in the Oracle iReceivables product of Oracle E-Business Suite (component: AR Web Utilities). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60783",
-      "published": "2026-07-21T22:18:17.260000+00:00"
-    },
-    {
-      "id": "26d592e080287814",
-      "kind": "cve",
-      "cve": "CVE-2026-60780",
-      "title": "CVE-2026-60780",
-      "summary": "Vulnerability in the Oracle Workflow product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows unauthenticated attacker with netwo…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60780",
-      "published": "2026-07-21T22:18:17.150000+00:00"
-    },
-    {
-      "id": "a4a8a3cdb80e77de",
-      "kind": "cve",
-      "cve": "CVE-2026-60778",
-      "title": "CVE-2026-60778",
-      "summary": "Vulnerability in the Oracle Payments product of Oracle E-Business Suite (component: File Transmission). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network ac…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60778",
-      "published": "2026-07-21T22:18:17.030000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60807",
+      "published": "2026-07-21T22:18:19.330000+00:00"
     },
     {
       "id": "b877e4eb5427501e",
@@ -1210,125 +1958,6 @@
       "published": "2026-07-21T22:18:16.327000+00:00"
     },
     {
-      "id": "c50e26366e223d53",
-      "kind": "cve",
-      "cve": "CVE-2026-60771",
-      "title": "CVE-2026-60771",
-      "summary": "Vulnerability in the Oracle Complex Maintenance, Repair and Overhaul product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low p…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60771",
-      "published": "2026-07-21T22:18:16.183000+00:00"
-    },
-    {
-      "id": "c2d55695c59b36ad",
-      "kind": "cve",
-      "cve": "CVE-2026-60770",
-      "title": "CVE-2026-60770",
-      "summary": "Vulnerability in the Oracle Application Object Library product of Oracle E-Business Suite (component: Core). Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with net…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60770",
-      "published": "2026-07-21T22:18:16.067000+00:00"
-    },
-    {
-      "id": "eb6fb2c180066a8e",
-      "kind": "cve",
-      "cve": "CVE-2026-60768",
-      "title": "CVE-2026-60768",
-      "summary": "Vulnerability in the Oracle Applications Framework product of Oracle E-Business Suite (component: Graph / Charting). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker wi…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60768",
-      "published": "2026-07-21T22:18:15.957000+00:00"
-    },
-    {
-      "id": "25b9a28999327541",
-      "kind": "cve",
-      "cve": "CVE-2026-60764",
-      "title": "CVE-2026-60764",
-      "summary": "Vulnerability in the Oracle Financials Common Modules product of Oracle E-Business Suite (component: Common Components). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacke…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60764",
-      "published": "2026-07-21T22:18:15.840000+00:00"
-    },
-    {
-      "id": "ed6d53f1ff95f1ba",
-      "kind": "cve",
-      "cve": "CVE-2026-60763",
-      "title": "CVE-2026-60763",
-      "summary": "Vulnerability in the Oracle Applications Manager product of Oracle E-Business Suite (component: Command Line - RapidClone). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated att…",
-      "severity": "HIGH",
-      "score": 8.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60763",
-      "published": "2026-07-21T22:18:15.720000+00:00"
-    },
-    {
-      "id": "c36fc624e4e69446",
-      "kind": "cve",
-      "cve": "CVE-2026-60756",
-      "title": "CVE-2026-60756",
-      "summary": "Vulnerability in the Oracle EDI Gateway product of Oracle E-Business Suite (component: All Miscellaneous EDI Issues). Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows unauthenticated attacke…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60756",
-      "published": "2026-07-21T22:18:15.263000+00:00"
-    },
-    {
-      "id": "103a5f2fd26433a2",
-      "kind": "cve",
-      "cve": "CVE-2026-60755",
-      "title": "CVE-2026-60755",
-      "summary": "Vulnerability in the Oracle Assets product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows high privileged attacker with network a…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60755",
-      "published": "2026-07-21T22:18:15.153000+00:00"
-    },
-    {
       "id": "8aaa46f651059e4d",
       "kind": "cve",
       "cve": "CVE-2026-60750",
@@ -1378,159 +2007,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60741",
       "published": "2026-07-21T22:18:14.577000+00:00"
-    },
-    {
-      "id": "582d18154be4688d",
-      "kind": "cve",
-      "cve": "CVE-2026-60740",
-      "title": "CVE-2026-60740",
-      "summary": "Vulnerability in the Oracle Cash Management product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with n…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60740",
-      "published": "2026-07-21T22:18:14.460000+00:00"
-    },
-    {
-      "id": "2ad98e9d5fca61f4",
-      "kind": "cve",
-      "cve": "CVE-2026-60739",
-      "title": "CVE-2026-60739",
-      "summary": "Vulnerability in the Oracle Field Service product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with net…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60739",
-      "published": "2026-07-21T22:18:14.347000+00:00"
-    },
-    {
-      "id": "2832fa4b50a59a6f",
-      "kind": "cve",
-      "cve": "CVE-2026-60738",
-      "title": "CVE-2026-60738",
-      "summary": "Vulnerability in the Oracle Installed Base product of Oracle E-Business Suite (component: Create Item Instance). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with n…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60738",
-      "published": "2026-07-21T22:18:14.227000+00:00"
-    },
-    {
-      "id": "6984c9fdd16e254c",
-      "kind": "cve",
-      "cve": "CVE-2026-60736",
-      "title": "CVE-2026-60736",
-      "summary": "Vulnerability in the Oracle E-Business Intelligence product of Oracle E-Business Suite (component: Definition). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with ne…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60736",
-      "published": "2026-07-21T22:18:14.103000+00:00"
-    },
-    {
-      "id": "04ec0defdbe905e3",
-      "kind": "cve",
-      "cve": "CVE-2026-60735",
-      "title": "CVE-2026-60735",
-      "summary": "Vulnerability in the Oracle Sales Offline product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with net…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60735",
-      "published": "2026-07-21T22:18:13.987000+00:00"
-    },
-    {
-      "id": "de2939dd4a3838bf",
-      "kind": "cve",
-      "cve": "CVE-2026-60734",
-      "title": "CVE-2026-60734",
-      "summary": "Vulnerability in the Oracle Trading Community product of Oracle E-Business Suite (component: Party Search UI). Supported versions that are affected are 12.2.3-12.2.12. Easily exploitable vulnerability allows high privileged attacker with ne…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60734",
-      "published": "2026-07-21T22:18:13.867000+00:00"
-    },
-    {
-      "id": "e02bec93d5c5c005",
-      "kind": "cve",
-      "cve": "CVE-2026-60732",
-      "title": "CVE-2026-60732",
-      "summary": "Vulnerability in the Oracle iReceivables product of Oracle E-Business Suite (component: AR Web Utilities). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60732",
-      "published": "2026-07-21T22:18:13.587000+00:00"
-    },
-    {
-      "id": "b9263ea92b962bf2",
-      "kind": "cve",
-      "cve": "CVE-2026-60725",
-      "title": "CVE-2026-60725",
-      "summary": "Vulnerability in the MySQL Router product of Oracle MySQL (component: Router: General). Supported versions that are affected are 8.4.0-8.4.10 and 9.7.0-9.7.1. Difficult to exploit vulnerability allows unauthenticated attacker with network a…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60725",
-      "published": "2026-07-21T22:18:12.617000+00:00"
-    },
-    {
-      "id": "b905a73d903f5c35",
-      "kind": "cve",
-      "cve": "CVE-2026-60723",
-      "title": "CVE-2026-60723",
-      "summary": "Vulnerability in the Oracle Data Integrator product of Oracle Fusion Middleware (component: Market Place). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker w…",
-      "severity": "HIGH",
-      "score": 8.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60723",
-      "published": "2026-07-21T22:18:12.363000+00:00"
     },
     {
       "id": "1b00aa14ac300571",
@@ -1669,91 +2145,6 @@
       "published": "2026-07-21T22:18:10.830000+00:00"
     },
     {
-      "id": "e7087cf82850e677",
-      "kind": "cve",
-      "cve": "CVE-2026-60703",
-      "title": "CVE-2026-60703",
-      "summary": "Vulnerability in the Oracle Interaction Blending product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker w…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60703",
-      "published": "2026-07-21T22:18:10.713000+00:00"
-    },
-    {
-      "id": "9eb14d8c7e30b54e",
-      "kind": "cve",
-      "cve": "CVE-2026-60700",
-      "title": "CVE-2026-60700",
-      "summary": "Vulnerability in the Oracle Universal Work Queue product of Oracle E-Business Suite (component: UWQ Server Issues). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated attacker wi…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60700",
-      "published": "2026-07-21T22:18:10.483000+00:00"
-    },
-    {
-      "id": "1e809f1f7fe230df",
-      "kind": "cve",
-      "cve": "CVE-2026-60692",
-      "title": "CVE-2026-60692",
-      "summary": "Vulnerability in the Oracle Enterprise Asset Management product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged att…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60692",
-      "published": "2026-07-21T22:18:10.037000+00:00"
-    },
-    {
-      "id": "f9949b07d89c81a0",
-      "kind": "cve",
-      "cve": "CVE-2026-60691",
-      "title": "CVE-2026-60691",
-      "summary": "Vulnerability in the Oracle Content Manager product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with n…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60691",
-      "published": "2026-07-21T22:18:09.923000+00:00"
-    },
-    {
-      "id": "66766c1c869029ca",
-      "kind": "cve",
-      "cve": "CVE-2026-60690",
-      "title": "CVE-2026-60690",
-      "summary": "Vulnerability in the Siebel CRM Cloud Applications product of Oracle Siebel CRM (component: Siebel Cloud Manager). Supported versions that are affected are 22.3-26.5. Easily exploitable vulnerability allows low privileged attacker with netw…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60690",
-      "published": "2026-07-21T22:18:09.817000+00:00"
-    },
-    {
       "id": "6bb0189d44055b27",
       "kind": "cve",
       "cve": "CVE-2026-60689",
@@ -1786,40 +2177,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60686",
       "published": "2026-07-21T22:18:09.360000+00:00"
-    },
-    {
-      "id": "911fe84453f30947",
-      "kind": "cve",
-      "cve": "CVE-2026-60683",
-      "title": "CVE-2026-60683",
-      "summary": "Vulnerability in the Oracle Process Manufacturing Regulatory Management product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows lo…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60683",
-      "published": "2026-07-21T22:18:09.017000+00:00"
-    },
-    {
-      "id": "67286891047d4fe5",
-      "kind": "cve",
-      "cve": "CVE-2026-60681",
-      "title": "CVE-2026-60681",
-      "summary": "Vulnerability in the Oracle Process Manufacturing Regulatory Management product of Oracle E-Business Suite (component: Internal Operations). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows lo…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60681",
-      "published": "2026-07-21T22:18:08.910000+00:00"
     },
     {
       "id": "3023dbe274ebe3b1",
@@ -3777,23 +4134,6 @@
       "published": "2026-07-21T22:17:52.400000+00:00"
     },
     {
-      "id": "11920791782675cf",
-      "kind": "cve",
-      "cve": "CVE-2026-60525",
-      "title": "CVE-2026-60525",
-      "summary": "Vulnerability in the Oracle WebCenter Content product of Oracle Fusion Middleware (component: Content Server). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Difficult to exploit vulnerability allows low privileged atta…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60525",
-      "published": "2026-07-21T22:17:52.177000+00:00"
-    },
-    {
       "id": "064bf9a8813af68f",
       "kind": "cve",
       "cve": "CVE-2026-60524",
@@ -3843,108 +4183,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60522",
       "published": "2026-07-21T22:17:51.840000+00:00"
-    },
-    {
-      "id": "010a7a08a3b0eeb6",
-      "kind": "cve",
-      "cve": "CVE-2026-60520",
-      "title": "CVE-2026-60520",
-      "summary": "Vulnerability in the Oracle Unified Directory product of Oracle Fusion Middleware (component: OUD Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows low privileged attacker wit…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60520",
-      "published": "2026-07-21T22:17:51.603000+00:00"
-    },
-    {
-      "id": "3d2b52a4280fe278",
-      "kind": "cve",
-      "cve": "CVE-2026-60519",
-      "title": "CVE-2026-60519",
-      "summary": "Vulnerability in the Oracle Unified Directory product of Oracle Fusion Middleware (component: OUD Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows high privileged attacker wi…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60519",
-      "published": "2026-07-21T22:17:51.490000+00:00"
-    },
-    {
-      "id": "5bfb4d3d99c8e19d",
-      "kind": "cve",
-      "cve": "CVE-2026-60503",
-      "title": "CVE-2026-60503",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60503",
-      "published": "2026-07-21T22:17:51.370000+00:00"
-    },
-    {
-      "id": "c83f415611696466",
-      "kind": "cve",
-      "cve": "CVE-2026-60502",
-      "title": "CVE-2026-60502",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows high privileged attacker with…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60502",
-      "published": "2026-07-21T22:17:51.253000+00:00"
-    },
-    {
-      "id": "a83404f5976b2bfb",
-      "kind": "cve",
-      "cve": "CVE-2026-60499",
-      "title": "CVE-2026-60499",
-      "summary": "Vulnerability in the JD Edwards EnterpriseOne Solution Advisor product of Oracle JD Edwards (component: Solution Advisor). The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker with n…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60499",
-      "published": "2026-07-21T22:17:51.023000+00:00"
-    },
-    {
-      "id": "493cfc735046c56d",
-      "kind": "cve",
-      "cve": "CVE-2026-60498",
-      "title": "CVE-2026-60498",
-      "summary": "Vulnerability in the JD Edwards EnterpriseOne Human Resources Management product of Oracle JD Edwards (component: Human Resources). The supported version that is affected is 9.2. Difficult to exploit vulnerability allows low privileged atta…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60498",
-      "published": "2026-07-21T22:17:50.917000+00:00"
     },
     {
       "id": "0a5592360bf10459",
@@ -4013,244 +4251,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60494",
       "published": "2026-07-21T22:17:50.437000+00:00"
-    },
-    {
-      "id": "078129dc23d8fae9",
-      "kind": "cve",
-      "cve": "CVE-2026-60493",
-      "title": "CVE-2026-60493",
-      "summary": "Vulnerability in the JD Edwards EnterpriseOne Human Resources Management product of Oracle JD Edwards (component: Human Resources). The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attack…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60493",
-      "published": "2026-07-21T22:17:50.327000+00:00"
-    },
-    {
-      "id": "9de1f1f4319df11b",
-      "kind": "cve",
-      "cve": "CVE-2026-60492",
-      "title": "CVE-2026-60492",
-      "summary": "Vulnerability in the JD Edwards EnterpriseOne HCM Foundation product of Oracle JD Edwards (component: OW HR PR Foundation). The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker with…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60492",
-      "published": "2026-07-21T22:17:50.210000+00:00"
-    },
-    {
-      "id": "ccdd324aa4d3f7dd",
-      "kind": "cve",
-      "cve": "CVE-2026-60490",
-      "title": "CVE-2026-60490",
-      "summary": "Vulnerability in the JD Edwards EnterpriseOne CRM Foundation product of Oracle JD Edwards (component: CRM Foundation). The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker with netwo…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60490",
-      "published": "2026-07-21T22:17:49.987000+00:00"
-    },
-    {
-      "id": "f71900e059fdc3b1",
-      "kind": "cve",
-      "cve": "CVE-2026-60489",
-      "title": "CVE-2026-60489",
-      "summary": "Vulnerability in the JD Edwards EnterpriseOne CRM Foundation product of Oracle JD Edwards (component: CRM Foundation). The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker with netwo…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60489",
-      "published": "2026-07-21T22:17:49.873000+00:00"
-    },
-    {
-      "id": "3808383021552e75",
-      "kind": "cve",
-      "cve": "CVE-2026-60472",
-      "title": "CVE-2026-60472",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60472",
-      "published": "2026-07-21T22:17:49.760000+00:00"
-    },
-    {
-      "id": "73f3e53616478a3a",
-      "kind": "cve",
-      "cve": "CVE-2026-60471",
-      "title": "CVE-2026-60471",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Difficult to exploit vulnerability allows unauthenticated attacker wi…",
-      "severity": "HIGH",
-      "score": 8.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60471",
-      "published": "2026-07-21T22:17:49.640000+00:00"
-    },
-    {
-      "id": "bbc6780fcb4e0b80",
-      "kind": "cve",
-      "cve": "CVE-2026-60470",
-      "title": "CVE-2026-60470",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with…",
-      "severity": "HIGH",
-      "score": 8.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60470",
-      "published": "2026-07-21T22:17:49.527000+00:00"
-    },
-    {
-      "id": "c0f67d91576fcccb",
-      "kind": "cve",
-      "cve": "CVE-2026-60469",
-      "title": "CVE-2026-60469",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with…",
-      "severity": "HIGH",
-      "score": 8.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60469",
-      "published": "2026-07-21T22:17:49.413000+00:00"
-    },
-    {
-      "id": "1907ad648944c3b4",
-      "kind": "cve",
-      "cve": "CVE-2026-60468",
-      "title": "CVE-2026-60468",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60468",
-      "published": "2026-07-21T22:17:49.300000+00:00"
-    },
-    {
-      "id": "9a59dbc47eead7b5",
-      "kind": "cve",
-      "cve": "CVE-2026-60467",
-      "title": "CVE-2026-60467",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Difficult to exploit vulnerability allows unauthenticated attacker wi…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60467",
-      "published": "2026-07-21T22:17:49.190000+00:00"
-    },
-    {
-      "id": "f999e3581d12db8f",
-      "kind": "cve",
-      "cve": "CVE-2026-60466",
-      "title": "CVE-2026-60466",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows high privileged attacker with…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60466",
-      "published": "2026-07-21T22:17:49.080000+00:00"
-    },
-    {
-      "id": "ae88c987b2ef50bf",
-      "kind": "cve",
-      "cve": "CVE-2026-60465",
-      "title": "CVE-2026-60465",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60465",
-      "published": "2026-07-21T22:17:48.963000+00:00"
-    },
-    {
-      "id": "0e19a4257f2aa34b",
-      "kind": "cve",
-      "cve": "CVE-2026-60464",
-      "title": "CVE-2026-60464",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60464",
-      "published": "2026-07-21T22:17:48.853000+00:00"
-    },
-    {
-      "id": "93ed13c471c4a3cd",
-      "kind": "cve",
-      "cve": "CVE-2026-60463",
-      "title": "CVE-2026-60463",
-      "summary": "Vulnerability in the WebCenter Content: Imaging product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60463",
-      "published": "2026-07-21T22:17:48.743000+00:00"
     }
   ]
 }
