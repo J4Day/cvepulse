@@ -1,13 +1,30 @@
 {
-  "generated": "2026-07-25T10:20:47.662472+00:00",
+  "generated": "2026-07-25T11:56:49.801195+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "125286c0dc1aa0d8",
+      "kind": "cve",
+      "cve": "CVE-2026-66012",
+      "title": "CVE-2026-66012",
+      "summary": "SiYuan before v3.7.2 contains a missing authorization vulnerability in the POST /mcp kernel endpoint, which is gated only by a general auth check (model.CheckAuth) with no admin-role or read-only enforcement. This exposes 31 MCP tools, incl…",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66012",
+      "published": "2026-07-25T11:17:19.053000+00:00"
+    },
     {
       "id": "ecd8e77873a62836",
       "kind": "research",
       "cve": null,
       "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-      "summary": "Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server. An ordinary authenticated user triggers it by committing tw…",
+      "summary": "Security researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update.…",
       "severity": "",
       "score": null,
       "source": "The Hacker News",
@@ -17,7 +34,58 @@
       "vendor": "",
       "product": "",
       "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-      "published": "2026-07-25T08:34:15+00:00"
+      "published": "2026-07-25T10:14:26+00:00"
+    },
+    {
+      "id": "5b9586162dea04a0",
+      "kind": "research",
+      "cve": null,
+      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+      "summary": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportun…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "published": "2026-07-25T10:14:21+00:00"
+    },
+    {
+      "id": "74666cf2751e2bf8",
+      "kind": "research",
+      "cve": null,
+      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+      "summary": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. \"At…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+      "published": "2026-07-25T10:14:03+00:00"
+    },
+    {
+      "id": "35dcfac959da54eb",
+      "kind": "research",
+      "cve": null,
+      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+      "summary": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims. Swiss cybersec…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+      "published": "2026-07-25T09:53:41+00:00"
     },
     {
       "id": "4b4b7934757199c5",
@@ -1123,57 +1191,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
       "published": "2026-07-21T13:18:31+00:00"
-    },
-    {
-      "id": "06fe19b9b7da0d76",
-      "kind": "research",
-      "cve": null,
-      "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
-      "summary": "An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more steps, and the same app is running commands on the PC driving…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
-      "published": "2026-07-21T11:58:00+00:00"
-    },
-    {
-      "id": "9540b6fd01dbf2e3",
-      "kind": "research",
-      "cve": null,
-      "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
-      "summary": "Every patch is a confession. The moment a vendor ships a security fix, the diff between the old code and the new code tells anyone watching exactly what was broken and where. Turn that diff back into a working exploit, and you can hit every…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
-      "published": "2026-07-21T11:42:23+00:00"
-    },
-    {
-      "id": "5f7e631ba298b703",
-      "kind": "research",
-      "cve": null,
-      "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
-      "summary": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in. That is the claim behind Bit2Watt, described by three Zhejian…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
-      "published": "2026-07-21T11:24:50+00:00"
     },
     {
       "id": "6307139d39a77510",
@@ -4248,23 +4265,6 @@
       "vendor": "Broadcom",
       "product": "VMware Aria Operations",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22719",
-      "published": "2026-03-03T00:00:00+00:00"
-    },
-    {
-      "id": "6c00c5f6f65f4aac",
-      "kind": "cve",
-      "cve": "CVE-2026-21385",
-      "title": "Qualcomm Multiple Chipsets Memory Corruption Vulnerability",
-      "summary": "Multiple Qualcomm chipsets contain a memory corruption vulnerability while using alignments for memory allocation.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Qualcomm",
-      "product": "Multiple Chipsets",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21385",
       "published": "2026-03-03T00:00:00+00:00"
     }
   ]
