@@ -1,7 +1,109 @@
 {
-  "generated": "2026-07-27T06:18:41.024046+00:00",
+  "generated": "2026-07-27T10:33:08.790128+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "0ef1a17e95e6b864",
+      "kind": "cve",
+      "cve": "CVE-2026-17527",
+      "title": "CVE-2026-17527",
+      "summary": "In containerized-data-importer (CDI), the aggregated cdi.kubevirt.io:view ClusterRole, intended to provide read-only access to CDI resources, includes a rule granting create on the datavolumes/source subresource. CDI's DataVolume clone auth…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17527",
+      "published": "2026-07-27T10:16:37.617000+00:00"
+    },
+    {
+      "id": "23aa4862a298e6e9",
+      "kind": "cve",
+      "cve": "CVE-2026-17523",
+      "title": "CVE-2026-17523",
+      "summary": "A flaw was found in the kernel. An unprivileged local user can exploit this vulnerability to execute arbitrary code within the kernel, which leads to a local privilege escalation (LPE). This allows the attacker to gain root privileges and t…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17523",
+      "published": "2026-07-27T10:16:36.270000+00:00"
+    },
+    {
+      "id": "412f2204e5464ce0",
+      "kind": "research",
+      "cve": null,
+      "title": "Java Spring Boot \"heapdump\" scans, (Mon, Jul 27th)",
+      "summary": "Spring Boot exposes the endpoint \"/actuator/heapdump\" to collect debug information. By default, the endpoint will return a file heapdump.hprof, which includes a binary heapdump that can be used to analyze the current state of the applicatio…",
+      "severity": "",
+      "score": null,
+      "source": "SANS ISC",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://isc.sans.edu/diary/rss/33188",
+      "published": "2026-07-27T10:04:51+00:00"
+    },
+    {
+      "id": "cdf31655de8d582c",
+      "kind": "research",
+      "cve": null,
+      "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+      "summary": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have resulted in the deployment of previously unreported malware…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+      "published": "2026-07-27T08:48:47+00:00"
+    },
+    {
+      "id": "0648d6c1fba47bd0",
+      "kind": "cve",
+      "cve": "CVE-2026-14837",
+      "title": "CVE-2026-14837",
+      "summary": "Multiple Lenze products are affected by an improper signature verification vulnerability in the SSH enablement mechanism. A low-privileged local attacker can bypass verification of the SSH enable file signature and enable SSH access on the…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14837",
+      "published": "2026-07-27T08:16:17.463000+00:00"
+    },
+    {
+      "id": "b1809b7e17b9eb1b",
+      "kind": "research",
+      "cve": null,
+      "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
+      "summary": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request. \"The cooldown configuration option in the dependabot.yml still controls t…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+      "published": "2026-07-27T08:01:23+00:00"
+    },
     {
       "id": "7c032f2e3ad3d749",
       "kind": "research",
@@ -1125,40 +1227,6 @@
       "published": "2026-07-21T16:06:12+00:00"
     },
     {
-      "id": "1a528feed537541c",
-      "kind": "research",
-      "cve": null,
-      "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
-      "summary": "Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently. Ac…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
-      "published": "2026-07-21T15:09:28+00:00"
-    },
-    {
-      "id": "58841e16626d1c2b",
-      "kind": "research",
-      "cve": "CVE-2026-50522",
-      "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
-      "summary": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deseriali…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
-      "published": "2026-07-21T14:57:51+00:00"
-    },
-    {
       "id": "d86e0337e48d061c",
       "kind": "research",
       "cve": null,
@@ -1259,23 +1327,6 @@
       "product": "DD-WRT",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137",
       "published": "2026-07-21T00:00:00+00:00"
-    },
-    {
-      "id": "560161e12258fec4",
-      "kind": "research",
-      "cve": "CVE-2026-63030",
-      "title": "WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)",
-      "summary": "Last week, Searchlight Cyber released details about a vulnerability they are calling \"wp2shell\". The vulnerability was initially announced without a CVE number. But now has been assigned CVE-2026-63030. Many WordPress plugin vulnerabilities…",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33168",
-      "published": "2026-07-20T18:41:24+00:00"
     },
     {
       "id": "caf8c92f5f518d78",
@@ -4215,57 +4266,6 @@
       "product": "",
       "url": "https://labs.watchtowr.com/sometimes-you-can-just-feel-the-security-in-the-design-junos-os-evolved-cve-2026-21902-rce/",
       "published": "2026-03-03T14:15:18+00:00"
-    },
-    {
-      "id": "d17511983597eef0",
-      "kind": "cve",
-      "cve": "CVE-2026-22719",
-      "title": "Broadcom VMware Aria Operations Command Injection Vulnerability",
-      "summary": "Broadcom VMware Aria Operations formerly known as vRealize Operations (vROps) contains a command injection vulnerability that allows an unauthenticated attacker to execute arbitrary commands, potentially leading to remote code execution dur…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Broadcom",
-      "product": "VMware Aria Operations",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22719",
-      "published": "2026-03-03T00:00:00+00:00"
-    },
-    {
-      "id": "6c00c5f6f65f4aac",
-      "kind": "cve",
-      "cve": "CVE-2026-21385",
-      "title": "Qualcomm Multiple Chipsets Memory Corruption Vulnerability",
-      "summary": "Multiple Qualcomm chipsets contain a memory corruption vulnerability while using alignments for memory allocation.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Qualcomm",
-      "product": "Multiple Chipsets",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21385",
-      "published": "2026-03-03T00:00:00+00:00"
-    },
-    {
-      "id": "debc8ec6ce8d0a38",
-      "kind": "research",
-      "cve": null,
-      "title": "AI code review has come a long way, but it can’t catch everything",
-      "summary": "AI code review can reason about intent, but real incidents often stem from business logic flaws that only show up in runtime. Our benchmark reveals where code-only review falls short.",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/ai-code-review-vs-neo",
-      "published": "2026-02-26T22:23:42+00:00"
     }
   ]
 }
