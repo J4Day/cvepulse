@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28T15:58:57.481452+00:00",
+  "generated": "2026-07-28T17:35:46.170592+00:00",
   "count": 250,
   "items": [
     {
@@ -20,28 +20,96 @@
       "published": "2026-07-29T13:00:00+00:00"
     },
     {
-      "id": "fe6478e060df0810",
+      "id": "560efc2de8032be7",
       "kind": "cve",
-      "cve": "CVE-2026-8164",
-      "title": "CVE-2026-8164",
-      "summary": "Uncontrolled Search Path Element vulnerability in ArkSigner Software and Hardware Industry and Trade Inc. ArkSigner Desktop Client allows Search Order Hijacking. This issue affects ArkSigner Desktop Client: from v2.2.16.10 through 17062026.",
+      "cve": "CVE-2026-67185",
+      "title": "CVE-2026-67185",
+      "summary": "TinyWeb through 0.0.8 contains a path traversal vulnerability that allows unauthenticated attackers to read arbitrary files by submitting ../ sequences in the URL path, which are concatenated directly to the configured web root in HttpBuild…",
       "severity": "HIGH",
-      "score": 7.3,
+      "score": 7.5,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8164",
-      "published": "2026-07-28T15:17:51.633000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67185",
+      "published": "2026-07-28T17:17:08.013000+00:00"
     },
     {
-      "id": "0d72761d7bf88aeb",
+      "id": "1846b6ee220dd7e0",
       "kind": "cve",
-      "cve": "CVE-2026-63727",
-      "title": "CVE-2026-63727",
-      "summary": "Anchore Enterprise versions from 5.11.0 to 5.27.1 and 6.0.0 contain an improper privilege escalation vulnerability in the user management API. An authenticated attacker who is able to access the Anchore Enterprise API could issue an API cal…",
+      "cve": "CVE-2026-67184",
+      "title": "CVE-2026-67184",
+      "summary": "TinyWeb through 0.0.8 contains a null pointer dereference vulnerability that allows unauthenticated remote attackers to crash worker processes by sending a malformed HTTP request line with an invalid version string. The HttpParser::execute(…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67184",
+      "published": "2026-07-28T17:17:07.880000+00:00"
+    },
+    {
+      "id": "a17544a5e6e3d1cc",
+      "kind": "cve",
+      "cve": "CVE-2026-67183",
+      "title": "CVE-2026-67183",
+      "summary": "TinyWeb through 0.0.8 contains a memory leak vulnerability that allows unauthenticated attackers to exhaust available memory by sending ordinary well-formed HTTP requests. Each request causes HttpParser::execute() to allocate Url objects, H…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67183",
+      "published": "2026-07-28T17:17:07.737000+00:00"
+    },
+    {
+      "id": "67084f9c4949966c",
+      "kind": "cve",
+      "cve": "CVE-2026-67182",
+      "title": "CVE-2026-67182",
+      "summary": "Rouille 0.3.3 through 3.6.2 contains an HTTP request smuggling vulnerability that allows remote attackers to bypass access controls by injecting bare line feed characters (0x0A) into client-supplied request header values that are copied ver…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67182",
+      "published": "2026-07-28T17:17:07.587000+00:00"
+    },
+    {
+      "id": "77f315c78612aba1",
+      "kind": "cve",
+      "cve": "CVE-2026-16313",
+      "title": "CVE-2026-16313",
+      "summary": "A flaw was found in sg3_utils. The sg_inq command, when invoked with the --export option, outputs device identification data without sanitizing control characters in SCSI name string fields. A newline character embedded in a device-supplied…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16313",
+      "published": "2026-07-28T17:16:37.807000+00:00"
+    },
+    {
+      "id": "9b652b0af7903f1e",
+      "kind": "cve",
+      "cve": "CVE-2026-66748",
+      "title": "CVE-2026-66748",
+      "summary": "Camaleon CMS versions 2.1.1 through 2.9.1 contains an authenticated remote code execution vulnerability that allows users with custom_fields manage permission to execute arbitrary Ruby code by supplying a malicious expression through the se…",
       "severity": "HIGH",
       "score": 8.8,
       "source": "NVD",
@@ -50,8 +118,8 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63727",
-      "published": "2026-07-28T15:17:26.063000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66748",
+      "published": "2026-07-28T16:20:16.310000+00:00"
     },
     {
       "id": "444f0bed861e7401",
@@ -241,40 +309,6 @@
       "published": "2026-07-28T10:16:48.153000+00:00"
     },
     {
-      "id": "00d425772950949c",
-      "kind": "cve",
-      "cve": "CVE-2026-14516",
-      "title": "CVE-2026-14516",
-      "summary": "The Online Scheduling and Appointment Booking System – Bookly plugin for WordPress is vulnerable to time-based SQL Injection via the 'staff_ids' parameter in all versions up to, and including, 27.5 due to insufficient escaping on the user s…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14516",
-      "published": "2026-07-28T09:16:41.970000+00:00"
-    },
-    {
-      "id": "a3893e20e8e5b167",
-      "kind": "cve",
-      "cve": "CVE-2026-13161",
-      "title": "CVE-2026-13161",
-      "summary": "The TrueBooker – Appointment Booking and Scheduler System plugin for WordPress is vulnerable to generic SQL Injection via the 'alldata[truebooker_user]' parameter in all versions up to, and including, 1.2.2 due to insufficient escaping on t…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13161",
-      "published": "2026-07-28T09:16:41.220000+00:00"
-    },
-    {
       "id": "258d732292b4c5a9",
       "kind": "research",
       "cve": "CVE-2026-63077",
@@ -341,23 +375,6 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33192",
       "published": "2026-07-28T07:42:27+00:00"
-    },
-    {
-      "id": "df2f0c07dd05a5a2",
-      "kind": "cve",
-      "cve": "CVE-2026-16585",
-      "title": "CVE-2026-16585",
-      "summary": "The Better Messages – Chat Rooms, Group Chat, Private Messages & AI Chat Bots plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the delete_sticker function in all versions up to, and i…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16585",
-      "published": "2026-07-28T07:16:41.993000+00:00"
     },
     {
       "id": "0ede672f8e44d10b",
@@ -4249,23 +4266,6 @@
       "product": " Endpoint Manager (EPM)",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1603",
       "published": "2026-03-09T00:00:00+00:00"
-    },
-    {
-      "id": "a38c46d93768f159",
-      "kind": "research",
-      "cve": null,
-      "title": "On the Effectiveness of Mutational Grammar Fuzzing",
-      "summary": "Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adh…",
-      "severity": "",
-      "score": null,
-      "source": "Project Zero",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectzero.google/2026/03/mutational-grammar-fuzzing.html",
-      "published": "2026-03-05T08:00:00+00:00"
     }
   ]
 }
