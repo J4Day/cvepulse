@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28T17:35:46.170592+00:00",
+  "generated": "2026-07-28T19:09:38.406653+00:00",
   "count": 250,
   "items": [
     {
@@ -20,6 +20,57 @@
       "published": "2026-07-29T13:00:00+00:00"
     },
     {
+      "id": "d11a3add06e88420",
+      "kind": "research",
+      "cve": "CVE-2026-16232",
+      "title": "Check Point SmartConsole Authentication Bypass Technical Analysis (CVE-2026-16232)",
+      "summary": "Overview On July 22, 2026, Check Point published a security advisory for CVE-2026-16232 , an authentication bypass in the SmartConsole login process affecting Security Management Server and Multi-Domain Security Management Server (MDS). By…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/ra-check-point-smartconsole-authentication-bypass-technical-analysis-cve-2026-16232",
+      "published": "2026-07-28T18:32:03+00:00"
+    },
+    {
+      "id": "11fc280c8b7025af",
+      "kind": "cve",
+      "cve": "CVE-2026-48388",
+      "title": "CVE-2026-48388",
+      "summary": "Adobe Photoshop Installer was affected by an Uncontrolled Search Path Element vulnerability that could have resulted in arbitrary code execution in the context of the current user. An attacker could have exploited this vulnerability by plac…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48388",
+      "published": "2026-07-28T18:17:20.887000+00:00"
+    },
+    {
+      "id": "dd49d6aec38e7264",
+      "kind": "cve",
+      "cve": "CVE-2026-48372",
+      "title": "CVE-2026-48372",
+      "summary": "Format Plugins is affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a mal…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48372",
+      "published": "2026-07-28T18:17:20.747000+00:00"
+    },
+    {
       "id": "560efc2de8032be7",
       "kind": "cve",
       "cve": "CVE-2026-67185",
@@ -35,57 +86,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67185",
       "published": "2026-07-28T17:17:08.013000+00:00"
-    },
-    {
-      "id": "1846b6ee220dd7e0",
-      "kind": "cve",
-      "cve": "CVE-2026-67184",
-      "title": "CVE-2026-67184",
-      "summary": "TinyWeb through 0.0.8 contains a null pointer dereference vulnerability that allows unauthenticated remote attackers to crash worker processes by sending a malformed HTTP request line with an invalid version string. The HttpParser::execute(…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67184",
-      "published": "2026-07-28T17:17:07.880000+00:00"
-    },
-    {
-      "id": "a17544a5e6e3d1cc",
-      "kind": "cve",
-      "cve": "CVE-2026-67183",
-      "title": "CVE-2026-67183",
-      "summary": "TinyWeb through 0.0.8 contains a memory leak vulnerability that allows unauthenticated attackers to exhaust available memory by sending ordinary well-formed HTTP requests. Each request causes HttpParser::execute() to allocate Url objects, H…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67183",
-      "published": "2026-07-28T17:17:07.737000+00:00"
-    },
-    {
-      "id": "67084f9c4949966c",
-      "kind": "cve",
-      "cve": "CVE-2026-67182",
-      "title": "CVE-2026-67182",
-      "summary": "Rouille 0.3.3 through 3.6.2 contains an HTTP request smuggling vulnerability that allows remote attackers to bypass access controls by injecting bare line feed characters (0x0A) into client-supplied request header values that are copied ver…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67182",
-      "published": "2026-07-28T17:17:07.587000+00:00"
     },
     {
       "id": "77f315c78612aba1",
@@ -2075,23 +2075,6 @@
       "product": "ColdFusion",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282",
       "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "230f7ba352d8c809",
-      "kind": "research",
-      "cve": null,
-      "title": "A Day With Your Vector Command Red Team Pod",
-      "summary": "Anyone trying to understand continuous red teaming usually gets the same high-level explanation: it is ongoing, attacker-informed, and designed to uncover risk between formal assessments. Useful as that description is, it still leaves most…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/so-ditl-day-with-your-vector-command-red-team-pod",
-      "published": "2026-07-06T14:26:46+00:00"
     },
     {
       "id": "80703c01ba9374f5",
@@ -4266,6 +4249,23 @@
       "product": " Endpoint Manager (EPM)",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1603",
       "published": "2026-03-09T00:00:00+00:00"
+    },
+    {
+      "id": "a38c46d93768f159",
+      "kind": "research",
+      "cve": null,
+      "title": "On the Effectiveness of Mutational Grammar Fuzzing",
+      "summary": "Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adh…",
+      "severity": "",
+      "score": null,
+      "source": "Project Zero",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectzero.google/2026/03/mutational-grammar-fuzzing.html",
+      "published": "2026-03-05T08:00:00+00:00"
     }
   ]
 }
