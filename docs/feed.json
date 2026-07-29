@@ -1,41 +1,7 @@
 {
-  "generated": "2026-07-29T20:13:23.890408+00:00",
+  "generated": "2026-07-29T21:51:23.915239+00:00",
   "count": 250,
   "items": [
-    {
-      "id": "df746fbaf42778e9",
-      "kind": "cve",
-      "cve": "CVE-2026-67201",
-      "title": "CVE-2026-67201",
-      "summary": "V through 0.5.2, fixed in commit 85859f0, contains a server-side request forgery (SSRF) bypass vulnerability that allows attackers to circumvent host-based allowlists by exploiting a parser differential between net.urllib and net.http. Atta…",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67201",
-      "published": "2026-07-29T19:16:51.330000+00:00"
-    },
-    {
-      "id": "26997c04e8552c44",
-      "kind": "cve",
-      "cve": "CVE-2026-14529",
-      "title": "CVE-2026-14529",
-      "summary": "IBM WebSphere Application Server 9.0, and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.8 traditional is vulnerable to server-side request forgery (SSRF) when the SIP container feature (sipServlet-1.1) is enable…",
-      "severity": "CRITICAL",
-      "score": 9.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14529",
-      "published": "2026-07-29T19:16:44.720000+00:00"
-    },
     {
       "id": "96f70d0034428ac2",
       "kind": "cve",
@@ -69,23 +35,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
       "published": "2026-07-29T18:10:00+00:00"
-    },
-    {
-      "id": "fcd2854690bea61d",
-      "kind": "cve",
-      "cve": "CVE-2026-67192",
-      "title": "CVE-2026-67192",
-      "summary": "Xlight FTP Server before 3.9.5 contains a pre-authentication stack buffer overflow vulnerability that allows unauthenticated attackers to corrupt stack memory by sending malformed SSH packets when a GCM cipher is negotiated. Attackers can c…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67192",
-      "published": "2026-07-29T16:17:57.683000+00:00"
     },
     {
       "id": "4d117dfbb449854a",
@@ -426,23 +375,6 @@
       "product": "Secure Firewall Management Center (FMC)",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
       "published": "2026-07-29T00:00:00+00:00"
-    },
-    {
-      "id": "2b36ba337a020e6f",
-      "kind": "cve",
-      "cve": "CVE-2026-14528",
-      "title": "CVE-2026-14528",
-      "summary": "IBM WebSphere Application Server 9.0, and 8.5 traditional could allow a remote attacker to obtain sensitive information.",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14528",
-      "published": "2026-07-28T21:17:26.060000+00:00"
     },
     {
       "id": "fedb7385f1853239",
@@ -4266,6 +4198,74 @@
       "product": "n8n",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68613",
       "published": "2026-03-11T00:00:00+00:00"
+    },
+    {
+      "id": "5689299d5624fb5e",
+      "kind": "cve",
+      "cve": "CVE-2021-22054",
+      "title": "Omnissa Workspace ONE Server-Side Request Forgery",
+      "summary": "Omnissa Workspace One UEM formerly known as VMware Workspace One UEM contains a server-side request forgery (SSRF) vulnerability that could allow a malicious actor with network access to UEM to send their requests without authentication and…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Omnissa",
+      "product": "Workspace One UEM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22054",
+      "published": "2026-03-09T00:00:00+00:00"
+    },
+    {
+      "id": "caf7a2fa9adaec5c",
+      "kind": "cve",
+      "cve": "CVE-2025-26399",
+      "title": "SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability",
+      "summary": "SolarWinds Web Help Desk contain a deserialization of untrusted data vulnerability in AjaxProxy that could allow an attacker to run commands on the host machine.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "SolarWinds",
+      "product": "Web Help Desk",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26399",
+      "published": "2026-03-09T00:00:00+00:00"
+    },
+    {
+      "id": "7171d40991ff67ac",
+      "kind": "cve",
+      "cve": "CVE-2026-1603",
+      "title": "Ivanti Endpoint Manager (EPM) Authentication Bypass Vulnerability",
+      "summary": "Ivanti Endpoint Manager (EPM) contains an authentication bypass using an alternate path or channel vulnerability that could allow a remote unauthenticated attacker to leak specific stored credential data.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ivanti",
+      "product": " Endpoint Manager (EPM)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1603",
+      "published": "2026-03-09T00:00:00+00:00"
+    },
+    {
+      "id": "a38c46d93768f159",
+      "kind": "research",
+      "cve": null,
+      "title": "On the Effectiveness of Mutational Grammar Fuzzing",
+      "summary": "Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adh…",
+      "severity": "",
+      "score": null,
+      "source": "Project Zero",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectzero.google/2026/03/mutational-grammar-fuzzing.html",
+      "published": "2026-03-05T08:00:00+00:00"
     }
   ]
 }
