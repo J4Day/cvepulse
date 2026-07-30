@@ -1,13 +1,183 @@
 {
-  "generated": "2026-07-30T19:11:07.945624+00:00",
+  "generated": "2026-07-30T20:57:01.496175+00:00",
   "count": 250,
   "items": [
     {
-      "id": "e7ac3c9404d41d76",
+      "id": "35f0ede4b9b73e8b",
       "kind": "cve",
-      "cve": "CVE-2026-9322",
-      "title": "CVE-2026-9322",
-      "summary": "IBM WebSphere Application Server 9.0, and 8.5 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 are vulnerable to a denial of service via a crafted HTTP request.",
+      "cve": "CVE-2026-67594",
+      "title": "CVE-2026-67594",
+      "summary": "Spikster through commit e1cdf8c contains a missing authentication vulnerability that allows unauthenticated remote attackers to access all API routes by exploiting the unattached CipiAuth middleware, which is registered but never applied to…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67594",
+      "published": "2026-07-30T20:18:15.173000+00:00"
+    },
+    {
+      "id": "83b7f2a5d34f38a1",
+      "kind": "cve",
+      "cve": "CVE-2026-67208",
+      "title": "CVE-2026-67208",
+      "summary": "Juggle through 1.6.0 contains a remote code execution vulnerability that allows unauthenticated remote attackers to execute arbitrary OS commands by connecting to the exposed H2 database web console using default shipped credentials. Attack…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67208",
+      "published": "2026-07-30T20:18:14.323000+00:00"
+    },
+    {
+      "id": "15fc5723c9a1ed7a",
+      "kind": "cve",
+      "cve": "CVE-2026-67207",
+      "title": "CVE-2026-67207",
+      "summary": "Wolf CMS through 0.8.3.1 contains an authorization bypass vulnerability in BackupRestoreController that allows authenticated non-administrative users to access restricted backup functionality due to a PHP operator precedence flaw in the per…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67207",
+      "published": "2026-07-30T20:18:14.180000+00:00"
+    },
+    {
+      "id": "4f34b971d7ff6b52",
+      "kind": "cve",
+      "cve": "CVE-2026-67206",
+      "title": "CVE-2026-67206",
+      "summary": "Wolf CMS through 0.8.3.1 contains a remote code execution vulnerability in FileManagerController that allows authenticated attackers to create arbitrary PHP files by exploiting missing file extension validation in the create_file() and save…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67206",
+      "published": "2026-07-30T20:18:14.030000+00:00"
+    },
+    {
+      "id": "440accade12e02cd",
+      "kind": "cve",
+      "cve": "CVE-2026-12946",
+      "title": "CVE-2026-12946",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.0 could allow a remote attacker to inject arbitrary code on the system, due to the improper control of user input code.",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12946",
+      "published": "2026-07-30T20:16:52.293000+00:00"
+    },
+    {
+      "id": "16d060b562a0af5b",
+      "kind": "cve",
+      "cve": "CVE-2026-11536",
+      "title": "CVE-2026-11536",
+      "summary": "IBM WebSphere Application Server 9.0, and 8.5 is affected by a remote code execution vulnerability in the SOAP/JMX connector.",
+      "severity": "HIGH",
+      "score": 8.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11536",
+      "published": "2026-07-30T20:16:52.140000+00:00"
+    },
+    {
+      "id": "ba76c998377c4956",
+      "kind": "cve",
+      "cve": "CVE-2026-66416",
+      "title": "CVE-2026-66416",
+      "summary": "Leantime 3.6.2 contains a cross-site request forgery vulnerability that allows unauthenticated attackers to perform state-changing actions on behalf of authenticated users by excluding the Laravel VerifyCsrfToken middleware from the global…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66416",
+      "published": "2026-07-30T19:18:36.340000+00:00"
+    },
+    {
+      "id": "64394164adf780d6",
+      "kind": "cve",
+      "cve": "CVE-2026-66415",
+      "title": "CVE-2026-66415",
+      "summary": "Leantime 3.6.2 contains a server-side request forgery and local file inclusion vulnerability that allows authenticated attackers to read internal resources by passing unsanitized user-supplied filenames to file_get_contents() in the Bluepri…",
+      "severity": "HIGH",
+      "score": 8.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66415",
+      "published": "2026-07-30T19:18:36.190000+00:00"
+    },
+    {
+      "id": "cf64b304c597fe67",
+      "kind": "cve",
+      "cve": "CVE-2026-13435",
+      "title": "CVE-2026-13435",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.1 contains an improper input validation vulnerability in the PythonREPL sandbox implementation.",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13435",
+      "published": "2026-07-30T19:17:06.840000+00:00"
+    },
+    {
+      "id": "5943443a16833fd2",
+      "kind": "cve",
+      "cve": "CVE-2026-12943",
+      "title": "CVE-2026-12943",
+      "summary": "IBM HMC V10.3.1050.0 through 10.3.1064.0 and IBM HMC V11.1.1110.0 through 11.1.1112.0 Management systems in IBM Power environments (HMC and Novalink) could allow an unauthenticated user to execute arbitrary commands with elevated privileges…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12943",
+      "published": "2026-07-30T19:17:05.453000+00:00"
+    },
+    {
+      "id": "ca9c26906a274ffd",
+      "kind": "cve",
+      "cve": "CVE-2026-12942",
+      "title": "CVE-2026-12942",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.10.1 could allow a remote attacker to traverse directories on the system. An attacker could send a specially crafted URL request containing \"dot dot \" sequences ( /.. /) to view arbitrary files on the system…",
       "severity": "HIGH",
       "score": 7.5,
       "source": "NVD",
@@ -16,8 +186,110 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9322",
-      "published": "2026-07-30T17:16:34.580000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12942",
+      "published": "2026-07-30T19:17:05.297000+00:00"
+    },
+    {
+      "id": "9d303d7e9afb2c27",
+      "kind": "cve",
+      "cve": "CVE-2026-12733",
+      "title": "CVE-2026-12733",
+      "summary": "IBM DataPower Gateway could allow a remote attacker to cause a denial of service due to improper resource limitations.",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12733",
+      "published": "2026-07-30T19:17:04.867000+00:00"
+    },
+    {
+      "id": "76cee4de0d84f529",
+      "kind": "cve",
+      "cve": "CVE-2026-12118",
+      "title": "CVE-2026-12118",
+      "summary": "IBM webMethods Integration (on prem) 10.15, 10.11 could allow an unauthenticated remote attacker to execute arbitrary code on the system due to the deserialization of untrusted data.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12118",
+      "published": "2026-07-30T19:17:04.483000+00:00"
+    },
+    {
+      "id": "740b86930382c890",
+      "kind": "cve",
+      "cve": "CVE-2026-10545",
+      "title": "CVE-2026-10545",
+      "summary": "IBM Planning Analytics Local 2.1.0 through 2.1.21 is vulnerable to an open redirect that allows an attacker to redirect users to arbitrary external websites via a crafted URL. If used in SSO authentication flows, this could result in exposu…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10545",
+      "published": "2026-07-30T19:17:01.597000+00:00"
+    },
+    {
+      "id": "e402d461af29c702",
+      "kind": "cve",
+      "cve": "CVE-2026-10535",
+      "title": "CVE-2026-10535",
+      "summary": "IBM Db2 11.5.0 through 11.5.9, and 12.1.0 through 12.1.4 is vulnerable to buffer overflow in setgid helper db2flacc.",
+      "severity": "HIGH",
+      "score": 8.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10535",
+      "published": "2026-07-30T19:17:01.167000+00:00"
+    },
+    {
+      "id": "bfb1ff1aa4f2aaa8",
+      "kind": "cve",
+      "cve": "CVE-2024-25039",
+      "title": "CVE-2024-25039",
+      "summary": "IBM Engineering Requirements Management DOORS and DOORS Web Access 9.7.2.1 through 9.7.2.11, and 9.6.1.1 through 9.6.1.13 do not limit the length of a connection which could allow for a Slowloris HTTP denial of service attack to take place.…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-25039",
+      "published": "2026-07-30T19:16:56.507000+00:00"
+    },
+    {
+      "id": "5871e107a16fd2b3",
+      "kind": "research",
+      "cve": null,
+      "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
+      "summary": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to deliver malware as part of…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+      "published": "2026-07-30T18:18:24+00:00"
     },
     {
       "id": "bff41e398fb2c67a",
@@ -35,40 +307,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12945",
       "published": "2026-07-30T17:16:28.173000+00:00"
-    },
-    {
-      "id": "47625017abf509cc",
-      "kind": "cve",
-      "cve": "CVE-2026-12940",
-      "title": "CVE-2026-12940",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.10.1 are vulnerable to unauthenticated remote code execution via environment variable injection in the MCP (Model Context Protocol) stdio launcher. The vulnerability exists in src/lfx/src/lfx/base/mcp/util.p…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12940",
-      "published": "2026-07-30T17:16:28.040000+00:00"
-    },
-    {
-      "id": "0f4aa9e190ded5d5",
-      "kind": "cve",
-      "cve": "CVE-2026-11885",
-      "title": "CVE-2026-11885",
-      "summary": "IBM PowerVM Hypervisor FW1110.00 through FW1110.20, FW1060.00 through FW1060.71, and FW950.00 through FW950.H1 A carefully crafted OS hypervisor call can cause the PowerVM hypervisor to crash or compromise OS memory integrity.",
-      "severity": "HIGH",
-      "score": 8.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11885",
-      "published": "2026-07-30T17:16:27.760000+00:00"
     },
     {
       "id": "1ef900d67892d700",
@@ -103,40 +341,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4978",
       "published": "2026-07-30T16:17:12.933000+00:00"
-    },
-    {
-      "id": "a87d4af4ba93d411",
-      "kind": "cve",
-      "cve": "CVE-2026-28323",
-      "title": "CVE-2026-28323",
-      "summary": "SolarWinds Web Help Desk is found to be affected by a SAML authentication bypass vulnerability. This requires the SAML 2.0 authentication method to be enabled.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28323",
-      "published": "2026-07-30T16:17:10.710000+00:00"
-    },
-    {
-      "id": "8ce37e490e86c8ab",
-      "kind": "cve",
-      "cve": "CVE-2026-10842",
-      "title": "CVE-2026-10842",
-      "summary": "IBM WebSphere Application Server 8.5, and 9.0 and IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 Traditional and Liberty could allow a remote attacker to bypass security constraints.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10842",
-      "published": "2026-07-30T16:16:53.980000+00:00"
     },
     {
       "id": "1eb680ff02bf8555",
@@ -190,40 +394,6 @@
       "published": "2026-07-30T15:16:36.900000+00:00"
     },
     {
-      "id": "59a48be2cbcdc5a4",
-      "kind": "cve",
-      "cve": "CVE-2026-67346",
-      "title": "CVE-2026-67346",
-      "summary": "Swarms through 6.8.1, fixed in commit 8b0fc9e, contains a server-side request forgery vulnerability in the _is_safe_url function that fails to validate hostnames through DNS resolution, allowing attackers to bypass the blocklist. Attackers…",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67346",
-      "published": "2026-07-30T15:16:35.953000+00:00"
-    },
-    {
-      "id": "61d778d16a3a18a9",
-      "kind": "cve",
-      "cve": "CVE-2026-67345",
-      "title": "CVE-2026-67345",
-      "summary": "MaxKey through 4.1.12, fixed in commit ddbb72f, contains an insufficient redirect URI validation vulnerability in DefaultRedirectResolver.hostMatches() that allows remote attackers to hijack OAuth 2.0 authorization codes by supplying a craf…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67345",
-      "published": "2026-07-30T15:16:35.583000+00:00"
-    },
-    {
       "id": "51a6da54521d8da2",
       "kind": "cve",
       "cve": "CVE-2026-15435",
@@ -241,40 +411,6 @@
       "published": "2026-07-30T15:16:26.757000+00:00"
     },
     {
-      "id": "bff59a3d71979f88",
-      "kind": "cve",
-      "cve": "CVE-2026-14980",
-      "title": "CVE-2026-14980",
-      "summary": "IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.8 is vulnerable to cross-site request forgery which could allow an attacker to perform SSRF attacks with elevated privileges when the collectiveController-1.0 feature is ena…",
-      "severity": "HIGH",
-      "score": 8.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14980",
-      "published": "2026-07-30T15:16:26.120000+00:00"
-    },
-    {
-      "id": "70d9a69a2c97ae1e",
-      "kind": "cve",
-      "cve": "CVE-2026-14519",
-      "title": "CVE-2026-14519",
-      "summary": "IBM App Connect Enterprise 13.0.1.0 through 13.0.7.2, and 12.0.1.0 through 12.0.12.27 could allow a remote attacker to read arbitrary files due to a path traversal vulnerability.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14519",
-      "published": "2026-07-30T15:16:25.547000+00:00"
-    },
-    {
       "id": "df3b325c8518b73a",
       "kind": "cve",
       "cve": "CVE-2026-11980",
@@ -290,23 +426,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11980",
       "published": "2026-07-30T15:16:24.277000+00:00"
-    },
-    {
-      "id": "a7d49e4ed44fa258",
-      "kind": "cve",
-      "cve": "CVE-2026-11897",
-      "title": "CVE-2026-11897",
-      "summary": "IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.7 is vulnerable to a denial of service, caused by sending a specially crafted request. A remote attacker could exploit this vulnerability to cause the server to consume memo…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11897",
-      "published": "2026-07-30T15:16:24.143000+00:00"
     },
     {
       "id": "8358626a2bf7b019",
@@ -330,7 +449,7 @@
       "kind": "research",
       "cve": null,
       "title": "Metasploit Framework 6.5 Released",
-      "summary": "oday we’re proud to announce that Metasploit Framework version 6.5 has been released. Over the past two years, with the help of countless contributors, we’ve added 422 new modules along with a whole slew of new features. Malleable C2 Profil…",
+      "summary": "Today we’re proud to announce that Metasploit Framework version 6.5 has been released. Over the past two years, with the help of countless contributors, we’ve added 422 new modules along with a whole slew of new features. Malleable C2 Profi…",
       "severity": "",
       "score": null,
       "source": "Rapid7",
@@ -647,23 +766,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
       "published": "2026-07-30T05:08:39+00:00"
-    },
-    {
-      "id": "68f90c2f2b012f04",
-      "kind": "cve",
-      "cve": "CVE-2026-48448",
-      "title": "CVE-2026-48448",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could lead to disclosure of sensitive memory. An attacker could leverage this vulnerabili…",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48448",
-      "published": "2026-07-30T03:16:24.810000+00:00"
     },
     {
       "id": "b5ef662449b606af",
@@ -1514,23 +1616,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
       "published": "2026-07-27T13:05:15+00:00"
-    },
-    {
-      "id": "94fb342247ca6c35",
-      "kind": "research",
-      "cve": null,
-      "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
-      "summary": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools. \"The victim was directed through compromised web infr…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
-      "published": "2026-07-27T12:37:49+00:00"
     },
     {
       "id": "269e8bf9bd2baf60",
@@ -4180,91 +4265,6 @@
       "product": "",
       "url": "https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701/",
       "published": "2026-04-02T10:00:42+00:00"
-    },
-    {
-      "id": "f17a42e52a515e6d",
-      "kind": "cve",
-      "cve": "CVE-2026-3502",
-      "title": "TrueConf Client Download of Code Without Integrity Check Vulnerability",
-      "summary": "TrueConf Client contains a download of code without integrity check vulnerability. An attacker who is able to influence the update delivery path can substitute a tampered update payload. If the payload is executed or installed by the update…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "TrueConf",
-      "product": "Client",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3502",
-      "published": "2026-04-02T00:00:00+00:00"
-    },
-    {
-      "id": "1f9385bb0c9a3f02",
-      "kind": "cve",
-      "cve": "CVE-2026-5281",
-      "title": "Google Dawn Use-After-Free Vulnerability",
-      "summary": "Google Dawn contains an use-after-free vulnerability that could allow a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. This vulnerability could affect multiple Chromium-based prod…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Dawn",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5281",
-      "published": "2026-04-01T00:00:00+00:00"
-    },
-    {
-      "id": "42ff17315a3bcdc5",
-      "kind": "cve",
-      "cve": "CVE-2026-3055",
-      "title": "Citrix NetScaler Out-of-Bounds Read Vulnerability",
-      "summary": "Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3055",
-      "published": "2026-03-30T00:00:00+00:00"
-    },
-    {
-      "id": "892cc8ea298160be",
-      "kind": "research",
-      "cve": "CVE-2026-3055",
-      "title": "Please, We Beg, Just One Weekend Free Of Appliances (Citrix NetScaler CVE-2026-3055 Memory Overread Part 2)",
-      "summary": "Today, we woke up with a nagging feeling: what if Citrix had, in fact, patched multiple Memory Overread vulnerabilities as part of CVE-2026-3055? While we&apos;ve been using our analysis from Part 1 (please read it first, as this post will…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/please-we-beg-just-one-weekend-free-of-appliances-citrix-netscaler-cve-2026-3055-memory-overread-part-2/",
-      "published": "2026-03-29T20:07:28+00:00"
-    },
-    {
-      "id": "b782f35797f57674",
-      "kind": "research",
-      "cve": "CVE-2026-3055",
-      "title": "The Sequels Are Never As Good, But We're Still In Pain (Citrix NetScaler CVE-2026-3055 Memory Overread)",
-      "summary": "Sequels? Pain? We&apos;re obviously talking about Citrix NetScalers, yet again. Welcome back to another watchTowr Labs blog post - pull up a chair, we always welcome new members to our group therapy sessions. If you asked a C programmer wha…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/the-sequels-are-never-as-good-but-were-still-in-pain-citrix-netscaler-cve-2026-3055-memory-overread/",
-      "published": "2026-03-28T20:39:56+00:00"
     }
   ]
 }
