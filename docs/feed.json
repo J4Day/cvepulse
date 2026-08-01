@@ -1,7 +1,109 @@
 {
-  "generated": "2026-08-01T09:00:31.000545+00:00",
+  "generated": "2026-08-01T11:10:48.612560+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "69d7cbebd3bc3bbb",
+      "kind": "cve",
+      "cve": "CVE-2026-16635",
+      "title": "CVE-2026-16635",
+      "summary": "The Pronamic Pay plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 10.1.0 This is due to the `maybe_update_user_role()` function passing an attacker-controlled Gravity Forms field value (`$lead…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16635",
+      "published": "2026-08-01T09:17:00.970000+00:00"
+    },
+    {
+      "id": "e604ab190fb288a9",
+      "kind": "cve",
+      "cve": "CVE-2026-16144",
+      "title": "CVE-2026-16144",
+      "summary": "The Kali Forms — Contact Form & Drag-and-Drop Builder plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 2.4.20 via the _save_data function. This is due to insufficient validation of the 'thisP…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16144",
+      "published": "2026-08-01T09:17:00.690000+00:00"
+    },
+    {
+      "id": "70b63bec04673778",
+      "kind": "cve",
+      "cve": "CVE-2026-15964",
+      "title": "CVE-2026-15964",
+      "summary": "The Single Sign On For TNG plugin for WordPress is vulnerable to Authentication Bypass via unauthenticated password reset in all versions up to, and including, 2.0.0. This is due to the `ssoprocess_ajax()` function — registered on `wp_ajax_…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15964",
+      "published": "2026-08-01T09:17:00.137000+00:00"
+    },
+    {
+      "id": "ddcaedadecacf915",
+      "kind": "cve",
+      "cve": "CVE-2026-15450",
+      "title": "CVE-2026-15450",
+      "summary": "The Nex Forms – Ultimate Form Builder – Lite plugin for WordPress is vulnerable to arbitrary file deletion via path traversal in versions up to, and including, 9.2.3. This is due to the delete_file() AJAX handler retrieving a file path from…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15450",
+      "published": "2026-08-01T09:16:59.023000+00:00"
+    },
+    {
+      "id": "960e579bc36cc2f8",
+      "kind": "cve",
+      "cve": "CVE-2026-15052",
+      "title": "CVE-2026-15052",
+      "summary": "The MailChimp Subscribe Form, Optin Builder, PopUp Builder, Form Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Form Field Values in all versions up to, and including, 4.3.3 due to insufficient input sanitizat…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15052",
+      "published": "2026-08-01T09:16:58.893000+00:00"
+    },
+    {
+      "id": "a2387078b1d649b4",
+      "kind": "research",
+      "cve": null,
+      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+      "summary": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform detected the incident on July 27, 2026, removed the malicious co…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+      "published": "2026-08-01T09:03:07+00:00"
+    },
     {
       "id": "123c6770611286f4",
       "kind": "cve",
@@ -1293,23 +1395,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/dr-the-next-evolution-mdr-preemptive-defense-agentic-investigation",
       "published": "2026-07-28T13:00:00+00:00"
-    },
-    {
-      "id": "fd5f744f3ab65af5",
-      "kind": "research",
-      "cve": "CVE-2026-53921",
-      "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
-      "summary": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in O…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
-      "published": "2026-07-28T12:56:14+00:00"
     },
     {
       "id": "8beff3c633d54d4b",
@@ -4181,91 +4266,6 @@
       "product": "Web Help Desk",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26399",
       "published": "2026-03-09T00:00:00+00:00"
-    },
-    {
-      "id": "7171d40991ff67ac",
-      "kind": "cve",
-      "cve": "CVE-2026-1603",
-      "title": "Ivanti Endpoint Manager (EPM) Authentication Bypass Vulnerability",
-      "summary": "Ivanti Endpoint Manager (EPM) contains an authentication bypass using an alternate path or channel vulnerability that could allow a remote unauthenticated attacker to leak specific stored credential data.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": " Endpoint Manager (EPM)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1603",
-      "published": "2026-03-09T00:00:00+00:00"
-    },
-    {
-      "id": "a38c46d93768f159",
-      "kind": "research",
-      "cve": null,
-      "title": "On the Effectiveness of Mutational Grammar Fuzzing",
-      "summary": "Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adh…",
-      "severity": "",
-      "score": null,
-      "source": "Project Zero",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectzero.google/2026/03/mutational-grammar-fuzzing.html",
-      "published": "2026-03-05T08:00:00+00:00"
-    },
-    {
-      "id": "d43d9d46882028a6",
-      "kind": "cve",
-      "cve": "CVE-2017-7921",
-      "title": "Hikvision Multiple Products Improper Authentication Vulnerability",
-      "summary": "Multiple Hikvision products contain an improper authentication vulnerability that could allow a malicious user to escalate privileges on the system and gain access to sensitive information.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Hikvision",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-7921",
-      "published": "2026-03-05T00:00:00+00:00"
-    },
-    {
-      "id": "b6fa53adcbe09ee5",
-      "kind": "cve",
-      "cve": "CVE-2021-22681",
-      "title": "Rockwell Multiple Products Insufficient Protected Credentials Vulnerability",
-      "summary": "Multiple Rockwell products contain an insufficient protected credentials vulnerability. Studio 5000 Logix Designer software may allow a key to be discovered. This key is used to verify Logix controllers are communicating with Rockwell Autom…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Rockwell",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-22681",
-      "published": "2026-03-05T00:00:00+00:00"
-    },
-    {
-      "id": "81261aaa06e04390",
-      "kind": "cve",
-      "cve": "CVE-2023-43000",
-      "title": "Apple Multiple products Use-After-Free Vulnerability",
-      "summary": "Apple macOS, iOS, iPadOS, and Safari 16.6 contain a use-after-free vulnerability due to the processing of maliciously crafted web content that may lead to memory corruption.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-43000",
-      "published": "2026-03-05T00:00:00+00:00"
     }
   ]
 }
