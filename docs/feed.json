@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31T23:59:29.802538+00:00",
+  "generated": "2026-08-01T03:13:12.261263+00:00",
   "count": 250,
   "items": [
     {
@@ -1057,40 +1057,6 @@
       "published": "2026-07-29T00:00:00+00:00"
     },
     {
-      "id": "fedb7385f1853239",
-      "kind": "cve",
-      "cve": "CVE-2026-57510",
-      "title": "CVE-2026-57510",
-      "summary": "SuperPlane before 0.27.0 contains a broken object-level authorization vulnerability in the CanvasService gRPC handlers that allows authenticated users with viewer-level access to one organization to access resources belonging to other organ…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57510",
-      "published": "2026-07-28T20:17:27.027000+00:00"
-    },
-    {
-      "id": "5256c4bd5cbc9255",
-      "kind": "cve",
-      "cve": "CVE-2026-48374",
-      "title": "CVE-2026-48374",
-      "summary": "Bridge is affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could lead to arbitrary file system read. An attacker could exploit this vulnerability to access sensitive files and…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48374",
-      "published": "2026-07-28T19:17:34.987000+00:00"
-    },
-    {
       "id": "fa7c4b6dddc2a99a",
       "kind": "research",
       "cve": null,
@@ -1174,40 +1140,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
       "published": "2026-07-28T13:33:47+00:00"
-    },
-    {
-      "id": "f36247e78b6b5759",
-      "kind": "cve",
-      "cve": "CVE-2026-7187",
-      "title": "CVE-2026-7187",
-      "summary": "Missing authentication for critical function vulnerability in Universal Software Inc. UKBS allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects UKBS: through 28072026. NOTE: The vendor was contacted and it was…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7187",
-      "published": "2026-07-28T13:19:08.247000+00:00"
-    },
-    {
-      "id": "4a3bc1b21fa6d511",
-      "kind": "cve",
-      "cve": "CVE-2026-49332",
-      "title": "CVE-2026-49332",
-      "summary": "A flaw was found in openshift/oauth-proxy. The proxy sets authenticated identity headers using only dash-variant keys (X-Forwarded-User) but does not strip underscore-variant keys (X_Forwarded_User) from incoming requests. WSGI and PHP fram…",
-      "severity": "HIGH",
-      "score": 8.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49332",
-      "published": "2026-07-28T13:18:46.067000+00:00"
     },
     {
       "id": "0225cfd4f0ecc967",
@@ -4266,6 +4198,74 @@
       "product": "Multiple Products",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-43000",
       "published": "2026-03-05T00:00:00+00:00"
+    },
+    {
+      "id": "8b6c981b83b1deb8",
+      "kind": "cve",
+      "cve": "CVE-2021-30952",
+      "title": "Apple Multiple Products Integer Overflow or Wraparound Vulnerability",
+      "summary": "Apple tvOS, macOS, Safari, iPadOS and watchOS contain an integer overflow or wraparound vulnerability due to the processing of maliciously crafted web content that may lead to arbitrary code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Apple",
+      "product": "Multiple Products",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-30952",
+      "published": "2026-03-05T00:00:00+00:00"
+    },
+    {
+      "id": "5976438749c5f21f",
+      "kind": "cve",
+      "cve": "CVE-2023-41974",
+      "title": "Apple iOS and iPadOS Use-After-Free Vulnerability",
+      "summary": "Apple iOS and iPadOS contain a use-after-free vulnerability. An app may be able to execute arbitrary code with kernel privileges.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Apple",
+      "product": "iOS and iPadOS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41974",
+      "published": "2026-03-05T00:00:00+00:00"
+    },
+    {
+      "id": "d4190565b3919684",
+      "kind": "research",
+      "cve": null,
+      "title": "How Neo found an SSRF vulnerability in Faraday, and why it matters for every team that ships code",
+      "summary": "Executive Summary Neo found a Server-Side Request Forgery (SSRF) vulnerability in Faraday, a widely used HTTP client library in the Ruby ecosystem. This is Neo’s first credited CVE discovery. Neo is ProjectDiscovery’s AI security copilot fo…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/how-neo-found-an-ssrf-vulnerability-in-faraday-and-why-it-matters-for-every-team-that-ships-code",
+      "published": "2026-03-03T17:05:32+00:00"
+    },
+    {
+      "id": "4e63a3bc5b2c8ed3",
+      "kind": "research",
+      "cve": "CVE-2026-21902",
+      "title": "Sometimes, You Can Just Feel The Security In The Design (Juniper Junos Evolved CVE-2026-21902 Pre-Auth RCE)",
+      "summary": "On today&#x2019;s &#x2018;good news disguised as other things&#x2019; segment, we&#x2019;re turning our gaze to CVE-2026-21902 - a recently disclosed &#x201c;Incorrect Permission Assignment for Critical Resource&#x201d; vulnerability affect…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/sometimes-you-can-just-feel-the-security-in-the-design-junos-os-evolved-cve-2026-21902-rce/",
+      "published": "2026-03-03T14:15:18+00:00"
     }
   ]
 }
