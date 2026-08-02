@@ -1,7 +1,143 @@
 {
-  "generated": "2026-08-02T13:00:50.315669+00:00",
+  "generated": "2026-08-02T14:54:22.888761+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "7404d571300b7fdf",
+      "kind": "cve",
+      "cve": "CVE-2026-68581",
+      "title": "CVE-2026-68581",
+      "summary": "Vikunja versions 0.22.0 through 2.3.0 fail to validate the principal type in API token management. Because user IDs and link-share IDs are independent numeric sequences and both resolve through a generic web.Auth.GetID() interface, a link-s…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68581",
+      "published": "2026-08-02T13:16:54.087000+00:00"
+    },
+    {
+      "id": "19909e2b24ea65ad",
+      "kind": "cve",
+      "cve": "CVE-2026-68580",
+      "title": "CVE-2026-68580",
+      "summary": "FreeRDP before 3.29.0 contains integer overflow vulnerabilities in the audio input redirection channel (audin) across ALSA, sndio, WinMM, and OpenSL ES backends that fail to validate the FramesPerPacket parameter from RDP servers. Attackers…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68580",
+      "published": "2026-08-02T13:16:53.950000+00:00"
+    },
+    {
+      "id": "942ed668a23aec2d",
+      "kind": "cve",
+      "cve": "CVE-2026-68579",
+      "title": "CVE-2026-68579",
+      "summary": "FreeRDP before 3.30.0 (<= 3.29.0) contains a heap-based buffer overflow in the Windows clipboard client's CliprdrStream_Read function (client/Windows/wf_cliprdr.c). When an OLE paste consumer (e.g. explorer.exe) calls IStream::Read with a f…",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68579",
+      "published": "2026-08-02T13:16:53.800000+00:00"
+    },
+    {
+      "id": "0555b99f07111374",
+      "kind": "cve",
+      "cve": "CVE-2026-68578",
+      "title": "CVE-2026-68578",
+      "summary": "ArcadeDB versions before 26.7.3 fail to bind the authenticated principal in the MCP HTTP transport, causing all engine permission checks to silently pass as no-ops. Non-root MCP-allowed users can perform arbitrary database writes, DDL, sche…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68578",
+      "published": "2026-08-02T13:16:53.657000+00:00"
+    },
+    {
+      "id": "ad4ad01ee1c5295b",
+      "kind": "cve",
+      "cve": "CVE-2026-67357",
+      "title": "CVE-2026-67357",
+      "summary": "ArcadeDB versions before 26.7.3 contain an information disclosure vulnerability in the MCP get_server_settings tool that leaks the arcadedb.ha.clusterToken in cleartext. Attackers with MCP access can retrieve the cluster token and use it wi…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67357",
+      "published": "2026-08-02T13:16:53.520000+00:00"
+    },
+    {
+      "id": "2073c3fae24b4d18",
+      "kind": "cve",
+      "cve": "CVE-2026-67356",
+      "title": "CVE-2026-67356",
+      "summary": "ArcadeDB before 26.7.3 binds the real LocalDatabase object into JavaScript trigger contexts with HostAccess.ALL, allowing schema-admins to call getSecurity().createUser() without permission checks. Attackers with UPDATE_SCHEMA permission ca…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67356",
+      "published": "2026-08-02T13:16:53.363000+00:00"
+    },
+    {
+      "id": "8e5b112026539501",
+      "kind": "cve",
+      "cve": "CVE-2025-71400",
+      "title": "CVE-2025-71400",
+      "summary": "better-auth passkey versions before 1.4.0 contain an insecure direct object reference vulnerability in the passkey deletion endpoint that allows authenticated users to delete arbitrary passkeys by ID. Attackers with valid sessions can submi…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71400",
+      "published": "2026-08-02T13:16:52.387000+00:00"
+    },
+    {
+      "id": "a557ce876b718931",
+      "kind": "cve",
+      "cve": "CVE-2025-71399",
+      "title": "CVE-2025-71399",
+      "summary": "Better Auth relies on better-call, which uses the rou3 router library. In affected versions of rou3, paths are normalized by removing empty segments, so /path, //path, and ///path resolve to the same route. In Better Auth versions prior to…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71399",
+      "published": "2026-08-02T13:16:52.210000+00:00"
+    },
     {
       "id": "396aff28f311b806",
       "kind": "research",
@@ -4128,143 +4264,6 @@
       "product": "Visual Basic for Applications (VBA)",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-1854",
       "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "1a522f20237ddca1",
-      "kind": "cve",
-      "cve": "CVE-2025-60710",
-      "title": "Microsoft Windows Link Following Vulnerability",
-      "summary": "Microsoft Windows contains a link following vulnerability that allows for privilege escalation",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60710",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "041076831e35804d",
-      "kind": "cve",
-      "cve": "CVE-2023-21529",
-      "title": "Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft Exchange Server contains a deserialization of untrusted data that allows an authenticated attacker to achieve remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Microsoft",
-      "product": "Exchange Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-21529",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "21401c204ece54d3",
-      "kind": "cve",
-      "cve": "CVE-2023-36424",
-      "title": "Microsoft Windows Out-of-Bounds Read Vulnerability",
-      "summary": "Microsoft Windows Common Log File System Driver contains an out-of-bounds read vulnerability that could allow a threat actor for privileges escalation",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36424",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "78f8c3aacb7e266f",
-      "kind": "cve",
-      "cve": "CVE-2020-9715",
-      "title": "Adobe Acrobat Use-After-Free Vulnerability",
-      "summary": "Adobe Acrobat contains a use-after-free vulnerability that allows for code execution",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "Acrobat",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9715",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "13aa74940323fbad",
-      "kind": "cve",
-      "cve": "CVE-2026-21643",
-      "title": "Fortinet FortiClient EMS SQL Injection Vulnerability",
-      "summary": "Fortinet FortiClient EMS contains a SQL injection vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Fortinet",
-      "product": "FortiClient EMS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21643",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "73ed99865ae84a24",
-      "kind": "cve",
-      "cve": "CVE-2026-34621",
-      "title": "Adobe Acrobat and Reader Prototype Pollution Vulnerability",
-      "summary": "Adobe Acrobat and Reader contain a prototype pollution vulnerability that allows for arbitrary code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "Acrobat and Reader",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34621",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "2e66d67660ffd4c5",
-      "kind": "research",
-      "cve": null,
-      "title": "How We Cut LLM Costs by 59% With Prompt Caching",
-      "summary": "At ProjectDiscovery, we've been building Neo, an autonomous security testing platform that runs multi-agent, multi-step workflows, routinely executing 20-40+ LLM steps per task. Vulnerability assessments, code reviews, and security audits a…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/how-we-cut-llm-cost-with-prompt-caching",
-      "published": "2026-04-10T02:42:06+00:00"
-    },
-    {
-      "id": "17679c484b80ed01",
-      "kind": "cve",
-      "cve": "CVE-2026-1340",
-      "title": "Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
-      "summary": "Ivanti Endpoint Manager Mobile (EPMM) contains a code injection vulnerability that could allow attackers to achieve unauthenticated remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": "Endpoint Manager Mobile (EPMM)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1340",
-      "published": "2026-04-08T00:00:00+00:00"
     }
   ]
 }
