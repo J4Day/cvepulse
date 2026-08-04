@@ -1,7 +1,58 @@
 {
-  "generated": "2026-08-04T02:54:37.779007+00:00",
+  "generated": "2026-08-04T05:40:07.658090+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "d5634e229a2e6271",
+      "kind": "cve",
+      "cve": "CVE-2026-42169",
+      "title": "CVE-2026-42169",
+      "summary": "A heap-buffer-overflow vulnerability exists in the APNG (Animated PNG) file loader of GIMP. This flaw occurs when the `fcTL` width exceeds the `IHDR` width, leading to pixel data being written past the end of a heap allocation. Additionally…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42169",
+      "published": "2026-08-04T04:16:32.710000+00:00"
+    },
+    {
+      "id": "2fbde6e033920ab0",
+      "kind": "cve",
+      "cve": "CVE-2026-14818",
+      "title": "CVE-2026-14818",
+      "summary": "A path traversal vulnerability in the CLI command used to execute configuration files in Zyxel ATP series firmware versions from V4.32 through V5.42 Patch 1, USG FLEX series firmware versions from V4.50 through V5.42 Patch 1, USG FLEX 50(W)…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14818",
+      "published": "2026-08-04T04:16:30.930000+00:00"
+    },
+    {
+      "id": "d7494a5e58a409fa",
+      "kind": "cve",
+      "cve": "CVE-2026-6837",
+      "title": "CVE-2026-6837",
+      "summary": "A post-authentication command injection vulnerability in the \"export-cgi\" CGI program in Zyxel WAX650S firmware versions through 7.10(ABRM.4)C0 could allow an authenticated attacker with administrator privileges to execute OS commands on an…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6837",
+      "published": "2026-08-04T03:16:25.890000+00:00"
+    },
     {
       "id": "e940325331cacddc",
       "kind": "research",
@@ -4216,57 +4267,6 @@
       "product": "Multiple Products",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43510",
       "published": "2026-03-20T00:00:00+00:00"
-    },
-    {
-      "id": "d7b34e8a2a9dc378",
-      "kind": "cve",
-      "cve": "CVE-2025-43520",
-      "title": "Apple Multiple Products Classic Buffer Overflow Vulnerability",
-      "summary": "Apple watchOS, iOS, iPadOS, macOS, visionOS, and tvOS contain a classic buffer overflow vulnerability which could allow a malicious application to cause unexpected system termination or write kernel memory.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43520",
-      "published": "2026-03-20T00:00:00+00:00"
-    },
-    {
-      "id": "86db6a1209a5ea30",
-      "kind": "cve",
-      "cve": "CVE-2025-31277",
-      "title": "Apple Multiple Products Buffer Overflow Vulnerability",
-      "summary": "Apple Safari, iOS, watchOS, visionOS, iPadOS, macOS, and tvOS contain a buffer overflow vulnerability that could allow the processing of maliciously crafted web content which may lead to memory corruption.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
-      "published": "2026-03-20T00:00:00+00:00"
-    },
-    {
-      "id": "8b019fa9695eddea",
-      "kind": "research",
-      "cve": "CVE-2026-32746",
-      "title": "A 32-Year-Old Bug Walks Into A Telnet Server (GNU inetutils Telnetd CVE-2026-32746 Pre-Auth RCE)",
-      "summary": "A long, long time ago, in a land free of binary exploit mitigations, when Unix still roamed the Earth, there lived a pre-authentication Telnetd vulnerability. In fact, this vulnerability was born so long ago (way back in 1994) that it may e…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746/",
-      "published": "2026-03-19T20:21:07+00:00"
     }
   ]
 }
