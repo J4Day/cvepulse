@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T21:29:27.232424+00:00",
+  "generated": "2026-08-07T22:25:41.290486+00:00",
   "count": 250,
   "items": [
     {
@@ -18,23 +18,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19231",
       "published": "2026-08-07T19:17:40.840000+00:00"
-    },
-    {
-      "id": "37354c850bad54a6",
-      "kind": "cve",
-      "cve": "CVE-2026-11430",
-      "title": "CVE-2026-11430",
-      "summary": "Grav CMS's scheduler-webhook plugin contains an authentication bypass in the webhook token check. When the webhook feature is enabled but no webhookToken is configured, a compound conditional short-circuits and skips token validation, so an…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11430",
-      "published": "2026-08-07T19:17:34.497000+00:00"
     },
     {
       "id": "da919a79098b7d03",
@@ -103,74 +86,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68772",
       "published": "2026-08-07T17:17:07.573000+00:00"
-    },
-    {
-      "id": "67b4f7fc33d79ab7",
-      "kind": "cve",
-      "cve": "CVE-2026-20348",
-      "title": "CVE-2026-20348",
-      "summary": "A vulnerability in the XAR file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition or possibly other expanded impacts as a result of&nbsp;memory corruption on an affected device. This vulnerabil…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20348",
-      "published": "2026-08-07T17:17:03.537000+00:00"
-    },
-    {
-      "id": "fc83232aeac8a174",
-      "kind": "cve",
-      "cve": "CVE-2026-20347",
-      "title": "CVE-2026-20347",
-      "summary": "A vulnerability in the Mach-O file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition or possibly other expanded impacts as a result of&nbsp;memory corruption on an affected device. This vulnera…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20347",
-      "published": "2026-08-07T17:17:03.337000+00:00"
-    },
-    {
-      "id": "6b9fbffcac9c9702",
-      "kind": "cve",
-      "cve": "CVE-2026-20345",
-      "title": "CVE-2026-20345",
-      "summary": "A vulnerability in the GPT file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition or possibly other expanded impacts as a result of&nbsp;memory corruption on an affected device. This vulnerabil…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20345",
-      "published": "2026-08-07T17:17:03.003000+00:00"
-    },
-    {
-      "id": "279551a05577f80e",
-      "kind": "cve",
-      "cve": "CVE-2026-20339",
-      "title": "CVE-2026-20339",
-      "summary": "A vulnerability in the PESpin file format parser of ClamAV could allow an unauthenticated, remote attacker to cause a DoS condition or possibly other expanded impacts as a result of&nbsp;memory corruption on an affected device. This vulnera…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20339",
-      "published": "2026-08-07T17:17:02.807000+00:00"
     },
     {
       "id": "11ee850003e749d9",
@@ -4267,6 +4182,91 @@
       "product": "Client",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3502",
       "published": "2026-04-02T00:00:00+00:00"
+    },
+    {
+      "id": "1f9385bb0c9a3f02",
+      "kind": "cve",
+      "cve": "CVE-2026-5281",
+      "title": "Google Dawn Use-After-Free Vulnerability",
+      "summary": "Google Dawn contains an use-after-free vulnerability that could allow a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. This vulnerability could affect multiple Chromium-based prod…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Google",
+      "product": "Dawn",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5281",
+      "published": "2026-04-01T00:00:00+00:00"
+    },
+    {
+      "id": "42ff17315a3bcdc5",
+      "kind": "cve",
+      "cve": "CVE-2026-3055",
+      "title": "Citrix NetScaler Out-of-Bounds Read Vulnerability",
+      "summary": "Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Citrix",
+      "product": "NetScaler",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3055",
+      "published": "2026-03-30T00:00:00+00:00"
+    },
+    {
+      "id": "892cc8ea298160be",
+      "kind": "research",
+      "cve": "CVE-2026-3055",
+      "title": "Please, We Beg, Just One Weekend Free Of Appliances (Citrix NetScaler CVE-2026-3055 Memory Overread Part 2)",
+      "summary": "Today, we woke up with a nagging feeling: what if Citrix had, in fact, patched multiple Memory Overread vulnerabilities as part of CVE-2026-3055? While we&apos;ve been using our analysis from Part 1 (please read it first, as this post will…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/please-we-beg-just-one-weekend-free-of-appliances-citrix-netscaler-cve-2026-3055-memory-overread-part-2/",
+      "published": "2026-03-29T20:07:28+00:00"
+    },
+    {
+      "id": "b782f35797f57674",
+      "kind": "research",
+      "cve": "CVE-2026-3055",
+      "title": "The Sequels Are Never As Good, But We're Still In Pain (Citrix NetScaler CVE-2026-3055 Memory Overread)",
+      "summary": "Sequels? Pain? We&apos;re obviously talking about Citrix NetScalers, yet again. Welcome back to another watchTowr Labs blog post - pull up a chair, we always welcome new members to our group therapy sessions. If you asked a C programmer wha…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/the-sequels-are-never-as-good-but-were-still-in-pain-citrix-netscaler-cve-2026-3055-memory-overread/",
+      "published": "2026-03-28T20:39:56+00:00"
+    },
+    {
+      "id": "a3914a98347b1572",
+      "kind": "cve",
+      "cve": "CVE-2025-53521",
+      "title": "F5 BIG-IP Stack-Based Buffer Overflow Vulnerability",
+      "summary": "F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "F5",
+      "product": "BIG-IP",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53521",
+      "published": "2026-03-27T00:00:00+00:00"
     }
   ]
 }
