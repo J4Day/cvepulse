@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T23:25:36.686457+00:00",
+  "generated": "2026-08-08T00:57:13.337936+00:00",
   "count": 250,
   "items": [
     {
@@ -120,6 +120,23 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077",
       "published": "2026-08-07T14:32:47+00:00"
+    },
+    {
+      "id": "747675a52dbaa7f0",
+      "kind": "cve",
+      "cve": "CVE-2026-56793",
+      "title": "CVE-2026-56793",
+      "summary": "Dell OpenManage Server Administrator, versions prior to 11.1.0.2, contains an Improper Authentication vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to Unauthorized access…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56793",
+      "published": "2026-08-07T13:16:52.503000+00:00"
     },
     {
       "id": "d4fa171fab39b8bd",
@@ -1244,125 +1261,6 @@
       "published": "2026-08-05T00:00:00+00:00"
     },
     {
-      "id": "e6d496ff91a600db",
-      "kind": "cve",
-      "cve": "CVE-2026-47619",
-      "title": "CVE-2026-47619",
-      "summary": "NVIDIA Dynamo for Linux examples and recipes contain a vulnerability where an attacker could cause a system failure. A successful exploit of this vulnerability might lead to code execution, data tampering, denial of service, and information…",
-      "severity": "MEDIUM",
-      "score": 6.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47619",
-      "published": "2026-08-04T18:16:51.490000+00:00"
-    },
-    {
-      "id": "a0261d9b1657798b",
-      "kind": "cve",
-      "cve": "CVE-2026-15314",
-      "title": "CVE-2026-15314",
-      "summary": "Tapo P110 v1 smart Wi-Fi Plug contains an improper boundary validation vulnerability in the handling of authenticated HTTP request bodies due to insufficient input validation before memory copy operations. This may lead to buffer overflow c…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15314",
-      "published": "2026-08-04T17:16:46.313000+00:00"
-    },
-    {
-      "id": "d6946103f4c27f59",
-      "kind": "cve",
-      "cve": "CVE-2026-63252",
-      "title": "CVE-2026-63252",
-      "summary": "In Eclipse Milo versions 0.6.0 through 1.1.4, UASC server transport handlers fail to release retained partial message chunks when a channel disconnects, allowing a remote unauthenticated client to exhaust pooled direct memory by repeatedly…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63252",
-      "published": "2026-08-04T13:18:55.913000+00:00"
-    },
-    {
-      "id": "4328d87f2ede71b0",
-      "kind": "cve",
-      "cve": "CVE-2026-62927",
-      "title": "CVE-2026-62927",
-      "summary": "In Eclipse Milo versions 1.0.0 through 1.1.4, the Call service dispatches the original mixed batch to address-space handlers after calculating authorization, allowing an anonymous or otherwise low-privileged client to execute a denied metho…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62927",
-      "published": "2026-08-04T13:18:55.670000+00:00"
-    },
-    {
-      "id": "0c0a446796a015d0",
-      "kind": "cve",
-      "cve": "CVE-2026-61387",
-      "title": "CVE-2026-61387",
-      "summary": "In Eclipse Milo versions 1.0.0 through 1.1.4, monitored-item quota accounting is not exception-safe: if item creation fails with an unchecked error, the server-global reservation is not restored. Deeply nested PubSub ExtensionObjects in a `…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61387",
-      "published": "2026-08-04T13:18:55.543000+00:00"
-    },
-    {
-      "id": "430feb184d038ef4",
-      "kind": "cve",
-      "cve": "CVE-2026-60007",
-      "title": "CVE-2026-60007",
-      "summary": "In Eclipse Milo versions 0.6.0 through 1.1.4, username-token processing returns distinguishable errors for invalid RSA PKCS#1 v1.5 padding and other authentication failures, allowing an on-path attacker who captures a victim's `Basic128Rsa1…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60007",
-      "published": "2026-08-04T13:18:55.427000+00:00"
-    },
-    {
-      "id": "35933b7245211ba4",
-      "kind": "cve",
-      "cve": "CVE-2026-58080",
-      "title": "CVE-2026-58080",
-      "summary": "In Eclipse Milo versions 1.0.0 through 1.1.4, `OpcUaServerConfig.copy()` fails to preserve a configured `RoleMapper`. On servers that rely on role permissions and construct the running configuration through `copy()`, sessions receive no rol…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58080",
-      "published": "2026-08-04T13:18:55.293000+00:00"
-    },
-    {
       "id": "d8604fbc4f65184f",
       "kind": "research",
       "cve": null,
@@ -1412,74 +1310,6 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33212",
       "published": "2026-08-04T02:00:03+00:00"
-    },
-    {
-      "id": "6613ae2fd681c74f",
-      "kind": "cve",
-      "cve": "CVE-2026-66326",
-      "title": "CVE-2026-66326",
-      "summary": "Missing authorization in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66326",
-      "published": "2026-08-04T00:17:39.847000+00:00"
-    },
-    {
-      "id": "64b9ea8093c9d75d",
-      "kind": "cve",
-      "cve": "CVE-2026-66321",
-      "title": "CVE-2026-66321",
-      "summary": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66321",
-      "published": "2026-08-04T00:17:39.440000+00:00"
-    },
-    {
-      "id": "54b4ee39003cf27b",
-      "kind": "cve",
-      "cve": "CVE-2026-66312",
-      "title": "CVE-2026-66312",
-      "summary": "Buffer over-read in Microsoft Edge (Chromium-based) allows an authorized attacker to execute code over a network.",
-      "severity": "MEDIUM",
-      "score": 6.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66312",
-      "published": "2026-08-04T00:17:38.510000+00:00"
-    },
-    {
-      "id": "c58dcdf1fdfd5093",
-      "kind": "cve",
-      "cve": "CVE-2026-66310",
-      "title": "CVE-2026-66310",
-      "summary": "External control of file name or path in Microsoft Edge for Android allows an unauthorized attacker to disclose information locally.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66310",
-      "published": "2026-08-04T00:17:38.240000+00:00"
     },
     {
       "id": "28fa1079a8865ae2",
@@ -3547,23 +3377,6 @@
       "published": "2026-05-01T00:00:00+00:00"
     },
     {
-      "id": "9840ed02b97562d3",
-      "kind": "research",
-      "cve": null,
-      "title": "Bypassing Windows authentication reflection mitigations for SYSTEM shells - Part ②",
-      "summary": "",
-      "severity": "",
-      "score": null,
-      "source": "Synacktiv",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSGIxN2xTSFdqNmo0WnFJNXgyODZ4RE5VNk9nakloYVRaN0Z6dEVNeDJsbDNfcE9vUmNzUzRfTnFrTW5vU2FSM2tENHFzTzdNVGR3OHJJN0lKNUdRdVIwYW1BcEtxTzJtekFzeENJTm9QM3hQUFpHcTlpWF9NbEozYTdUYktWN3B3ZkhJMFhONkUzX19fd1pqY251OHY4MGNuYjl2eWxlM2hsMnF5a3VaTGtBS2lYWG8?oc=5",
-      "published": "2026-04-30T07:00:00+00:00"
-    },
-    {
       "id": "41a796cb51f0fc3a",
       "kind": "cve",
       "cve": "CVE-2026-41940",
@@ -4267,6 +4080,194 @@
       "product": "BIG-IP",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53521",
       "published": "2026-03-27T00:00:00+00:00"
+    },
+    {
+      "id": "cccb856c0b77013c",
+      "kind": "cve",
+      "cve": "CVE-2026-33634",
+      "title": "Aquasecurity Trivy Embedded Malicious Code Vulnerability",
+      "summary": "Aquasecurity Trivy contains an embedded malicious code vulnerability that could allow an attacker to gain access to everything in the CI/CD environment, including all tokens, SSH keys, cloud credentials, database passwords, and any sensitiv…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Aquasecurity",
+      "product": "Trivy",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33634",
+      "published": "2026-03-26T00:00:00+00:00"
+    },
+    {
+      "id": "0d4cc919ccbfb875",
+      "kind": "cve",
+      "cve": "CVE-2026-33017",
+      "title": "Langflow Code Injection Vulnerability",
+      "summary": "Langflow contains a code injection vulnerability that could allow building public flows without requiring authentication.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Langflow",
+      "product": "Langflow",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33017",
+      "published": "2026-03-25T00:00:00+00:00"
+    },
+    {
+      "id": "b41432a76fcfde16",
+      "kind": "research",
+      "cve": null,
+      "title": "Beyond the Model: Neo Hunts, Exploits, and Proves 22 Zero-Days.",
+      "summary": "LLMs are a genuine leap forward for vulnerability discovery. Anthropic reported 500+ zero-days from Opus 4.6 and OpenAI's Codex Security discovered 14 CVEs across projects like OpenSSH and GnuTLS. If you've experimented with LLMs for securi…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/everyone-is-finding-vulns-the-hard-part-is-proving-them",
+      "published": "2026-03-20T16:14:10+00:00"
+    },
+    {
+      "id": "aed8f072709160b1",
+      "kind": "cve",
+      "cve": "CVE-2025-32432",
+      "title": "Craft CMS Code Injection Vulnerability",
+      "summary": "Craft CMS contains a code injection vulnerability that allows a remote attacker to execute arbitrary code.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Craft CMS",
+      "product": "Craft CMS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32432",
+      "published": "2026-03-20T00:00:00+00:00"
+    },
+    {
+      "id": "4148f6190ffd0d5c",
+      "kind": "cve",
+      "cve": "CVE-2025-54068",
+      "title": "Laravel Livewire Code Injection Vulnerability",
+      "summary": "Laravel Livewire contain a code injection vulnerability that could allow unauthenticated attackers to achieve remote command execution in specific scenarios.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Laravel",
+      "product": "Livewire",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54068",
+      "published": "2026-03-20T00:00:00+00:00"
+    },
+    {
+      "id": "c6e8e7b7887a2e19",
+      "kind": "cve",
+      "cve": "CVE-2025-43510",
+      "title": "Apple Multiple Products Improper Locking Vulnerability",
+      "summary": "Apple watchOS, iOS, iPadOS, macOS, visionOS, and tvOS contain an improper locking vulnerability that could allow a malicious application to cause unexpected changes in memory shared between processes.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Apple",
+      "product": "Multiple Products",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43510",
+      "published": "2026-03-20T00:00:00+00:00"
+    },
+    {
+      "id": "d7b34e8a2a9dc378",
+      "kind": "cve",
+      "cve": "CVE-2025-43520",
+      "title": "Apple Multiple Products Classic Buffer Overflow Vulnerability",
+      "summary": "Apple watchOS, iOS, iPadOS, macOS, visionOS, and tvOS contain a classic buffer overflow vulnerability which could allow a malicious application to cause unexpected system termination or write kernel memory.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Apple",
+      "product": "Multiple Products",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43520",
+      "published": "2026-03-20T00:00:00+00:00"
+    },
+    {
+      "id": "86db6a1209a5ea30",
+      "kind": "cve",
+      "cve": "CVE-2025-31277",
+      "title": "Apple Multiple Products Buffer Overflow Vulnerability",
+      "summary": "Apple Safari, iOS, watchOS, visionOS, iPadOS, macOS, and tvOS contain a buffer overflow vulnerability that could allow the processing of maliciously crafted web content which may lead to memory corruption.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Apple",
+      "product": "Multiple Products",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
+      "published": "2026-03-20T00:00:00+00:00"
+    },
+    {
+      "id": "8b019fa9695eddea",
+      "kind": "research",
+      "cve": "CVE-2026-32746",
+      "title": "A 32-Year-Old Bug Walks Into A Telnet Server (GNU inetutils Telnetd CVE-2026-32746 Pre-Auth RCE)",
+      "summary": "A long, long time ago, in a land free of binary exploit mitigations, when Unix still roamed the Earth, there lived a pre-authentication Telnetd vulnerability. In fact, this vulnerability was born so long ago (way back in 1994) that it may e…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746/",
+      "published": "2026-03-19T20:21:07+00:00"
+    },
+    {
+      "id": "7f0968150566566b",
+      "kind": "cve",
+      "cve": "CVE-2026-20131",
+      "title": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management Deserialization of Untrusted Data Vulnerability",
+      "summary": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain a deserialization of untrusted data vulnerability in the web-based management interface that could allow an unauthenti…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "Cisco",
+      "product": "Secure Firewall Management Center (FMC)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20131",
+      "published": "2026-03-19T00:00:00+00:00"
+    },
+    {
+      "id": "75d02899387c1a5f",
+      "kind": "research",
+      "cve": null,
+      "title": "The Most Organized Threat Actors Use Your ITSM (BMC FootPrints Pre-Auth Remote Code Execution Chains)",
+      "summary": "SolarWinds. Ivanti. SysAid. ManageEngine. Giants of the KEV world, all of whom have ITSM side-projects. ITSMs, as a group of solutions, have played pivotal roles in numerous ransomware gang campaigns - not only do they represent code runnin…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/thanks-itsms-threat-actors-have-never-been-so-organized-bmc-footprints-pre-auth-remote-code-execution-chains/",
+      "published": "2026-03-18T10:02:49+00:00"
     }
   ]
 }
