@@ -1,7 +1,41 @@
 {
-  "generated": "2026-08-08T15:20:28.066436+00:00",
+  "generated": "2026-08-08T16:21:15.089511+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "95cc380580cc6b9f",
+      "kind": "cve",
+      "cve": "CVE-2026-67620",
+      "title": "CVE-2026-67620",
+      "summary": "Flowise through 3.1.4 contains a server-side request forgery vulnerability in the SSRF guard implemented in httpSecurity.ts, where the DEFAULT_DENY_LIST omits the Oracle Cloud Infrastructure metadata endpoint 192.0.0.192 and the Alibaba Clo…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67620",
+      "published": "2026-08-08T16:16:49.420000+00:00"
+    },
+    {
+      "id": "72ed7636041d9f9b",
+      "kind": "cve",
+      "cve": "CVE-2026-42170",
+      "title": "CVE-2026-42170",
+      "summary": "A heap-based buffer overflow vulnerability exists in the GIMP DDS (DirectDraw Surface) file parser. When a crafted DDS file declares a D3D9 pixel format but sets a lower bits-per-pixel (bpp) value in the header, the loader allocates an unde…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42170",
+      "published": "2026-08-08T16:16:49.093000+00:00"
+    },
     {
       "id": "209a413a79b1731e",
       "kind": "research",
@@ -4234,40 +4268,6 @@
       "product": "Zimbra Collaboration Suite (ZCS)",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66376",
       "published": "2026-03-18T00:00:00+00:00"
-    },
-    {
-      "id": "365a22db3792b208",
-      "kind": "cve",
-      "cve": "CVE-2026-20963",
-      "title": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20963",
-      "published": "2026-03-18T00:00:00+00:00"
-    },
-    {
-      "id": "5390e1856c97d0f5",
-      "kind": "cve",
-      "cve": "CVE-2025-47813",
-      "title": "Wing FTP Server Information Disclosure Vulnerability",
-      "summary": "Wing FTP Server contains a generation of error message containing sensitive information vulnerability when using a long value in the UID cookie.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Wing FTP Server",
-      "product": "Wing FTP Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47813",
-      "published": "2026-03-16T00:00:00+00:00"
     }
   ]
 }
