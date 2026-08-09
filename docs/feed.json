@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T01:01:01.079702+00:00",
+  "generated": "2026-08-09T03:25:04.210822+00:00",
   "count": 250,
   "items": [
     {
@@ -258,6 +258,40 @@
       "published": "2026-08-08T17:16:47.550000+00:00"
     },
     {
+      "id": "95cc380580cc6b9f",
+      "kind": "cve",
+      "cve": "CVE-2026-67620",
+      "title": "CVE-2026-67620",
+      "summary": "Flowise through 3.1.4 contains a server-side request forgery vulnerability in the SSRF guard implemented in httpSecurity.ts, where the DEFAULT_DENY_LIST omits the Oracle Cloud Infrastructure metadata endpoint 192.0.0.192 and the Alibaba Clo…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67620",
+      "published": "2026-08-08T16:16:49.420000+00:00"
+    },
+    {
+      "id": "72ed7636041d9f9b",
+      "kind": "cve",
+      "cve": "CVE-2026-42170",
+      "title": "CVE-2026-42170",
+      "summary": "A heap-based buffer overflow vulnerability exists in the GIMP DDS (DirectDraw Surface) file parser. When a crafted DDS file declares a D3D9 pixel format but sets a lower bits-per-pixel (bpp) value in the header, the loader allocates an unde…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42170",
+      "published": "2026-08-08T16:16:49.093000+00:00"
+    },
+    {
       "id": "209a413a79b1731e",
       "kind": "research",
       "cve": null,
@@ -290,6 +324,23 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
       "published": "2026-08-08T08:03:57+00:00"
+    },
+    {
+      "id": "6a4f388f9fdc75d2",
+      "kind": "cve",
+      "cve": "CVE-2026-19263",
+      "title": "CVE-2026-19263",
+      "summary": "A vulnerability was found in INQUIRELAB mcp-bridge-api up to b30a82aa1d1d1139e0de846c41c8aadee6e06114. The impacted element is an unknown function of the file mcp-bridge.js of the component Servers Endpoint. Performing a manipulation of the…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19263",
+      "published": "2026-08-08T07:17:11.790000+00:00"
     },
     {
       "id": "a5ee18b74e135588",
@@ -360,6 +411,23 @@
       "published": "2026-08-08T06:52:16+00:00"
     },
     {
+      "id": "fdeec821c381bf55",
+      "kind": "cve",
+      "cve": "CVE-2026-19231",
+      "title": "CVE-2026-19231",
+      "summary": "A security flaw has been discovered in SourceCodester Simple Doctors Appointment System 1.0. This vulnerability affects unknown code of the file /admin/ajax.php?action=delete_appointment. The manipulation of the argument ID results in sql i…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19231",
+      "published": "2026-08-07T19:17:40.840000+00:00"
+    },
+    {
       "id": "da919a79098b7d03",
       "kind": "research",
       "cve": null,
@@ -409,6 +477,23 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
       "published": "2026-08-07T18:16:13+00:00"
+    },
+    {
+      "id": "11ee850003e749d9",
+      "kind": "cve",
+      "cve": "CVE-2026-19211",
+      "title": "CVE-2026-19211",
+      "summary": "A vulnerability was found in SourceCodester Photo Share Website 1.0. This affects an unknown function of the file /social/ajax.php?action=signup. Performing a manipulation of the argument email results in sql injection. Remote exploitation…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19211",
+      "published": "2026-08-07T17:17:02.027000+00:00"
     },
     {
       "id": "4780d90ea27fe62e",
@@ -4182,92 +4267,6 @@
       "product": "Multiple Products",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
       "published": "2026-03-20T00:00:00+00:00"
-    },
-    {
-      "id": "8b019fa9695eddea",
-      "kind": "research",
-      "cve": "CVE-2026-32746",
-      "title": "A 32-Year-Old Bug Walks Into A Telnet Server (GNU inetutils Telnetd CVE-2026-32746 Pre-Auth RCE)",
-      "summary": "A long, long time ago, in a land free of binary exploit mitigations, when Unix still roamed the Earth, there lived a pre-authentication Telnetd vulnerability. In fact, this vulnerability was born so long ago (way back in 1994) that it may e…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746/",
-      "published": "2026-03-19T20:21:07+00:00"
-    },
-    {
-      "id": "7f0968150566566b",
-      "kind": "cve",
-      "cve": "CVE-2026-20131",
-      "title": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management Deserialization of Untrusted Data Vulnerability",
-      "summary": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain a deserialization of untrusted data vulnerability in the web-based management interface that could allow an unauthenti…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Cisco",
-      "product": "Secure Firewall Management Center (FMC)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20131",
-      "published": "2026-03-19T00:00:00+00:00"
-    },
-    {
-      "id": "75d02899387c1a5f",
-      "kind": "research",
-      "cve": null,
-      "title": "The Most Organized Threat Actors Use Your ITSM (BMC FootPrints Pre-Auth Remote Code Execution Chains)",
-      "summary": "SolarWinds. Ivanti. SysAid. ManageEngine. Giants of the KEV world, all of whom have ITSM side-projects. ITSMs, as a group of solutions, have played pivotal roles in numerous ransomware gang campaigns - not only do they represent code runnin…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/thanks-itsms-threat-actors-have-never-been-so-organized-bmc-footprints-pre-auth-remote-code-execution-chains/",
-      "published": "2026-03-18T10:02:49+00:00"
-    },
-    {
-      "id": "d0f06e02cae26e15",
-      "kind": "cve",
-      "cve": "CVE-2025-66376",
-      "title": "Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting Vulnerability",
-      "summary": "Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability in the Classic UI where attackers could abuse Cascading Style Sheets (CSS) @import directives in email HTML.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Synacor",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66376",
-      "published": "2026-03-18T00:00:00+00:00"
-    },
-    {
-      "id": "365a22db3792b208",
-      "kind": "cve",
-      "cve": "CVE-2026-20963",
-      "title": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20963",
-      "published": "2026-03-18T00:00:00+00:00"
     }
   ]
 }
