@@ -1,7 +1,228 @@
 {
-  "generated": "2026-08-11T08:04:02.570319+00:00",
+  "generated": "2026-08-11T09:51:59.666627+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "b63731a76c0787ce",
+      "kind": "cve",
+      "cve": "CVE-2026-72694",
+      "title": "CVE-2026-72694",
+      "summary": "A flaw was found in MRTG. When the MRTG daemon is started as a root user and subsequently drops privileges, a local, low-privileged attacker can exploit a symbolic link (symlink) following vulnerability. By influencing or pre-placing a syml…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72694",
+      "published": "2026-08-11T09:17:14.493000+00:00"
+    },
+    {
+      "id": "0768528a901a6e03",
+      "kind": "cve",
+      "cve": "CVE-2026-72693",
+      "title": "CVE-2026-72693",
+      "summary": "`openvt -u` is intended to identify the owner of the current VT and then execute `login` as that user from a privileged context. In the documented `kbrequest`/init usage, the ownership test in `authenticate_user()` relies on `stat(\"/proc/ /…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72693",
+      "published": "2026-08-11T09:17:14.340000+00:00"
+    },
+    {
+      "id": "e95de32b6fdd2595",
+      "kind": "cve",
+      "cve": "CVE-2026-71217",
+      "title": "CVE-2026-71217",
+      "summary": "A flaw was found in iperf3. A remote attacker can exploit this vulnerability by sending crafted control-channel JSON with oversized numeric parameters, such as `parallel` and `len`, which are not properly validated by the server. This impro…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71217",
+      "published": "2026-08-11T09:17:14.057000+00:00"
+    },
+    {
+      "id": "fc401c56c65247a3",
+      "kind": "cve",
+      "cve": "CVE-2026-15567",
+      "title": "CVE-2026-15567",
+      "summary": "A flaw was found in Wildfly. A remote unauthenticated attacker can trigger OutOfMemoryError as CSIv2Util's GSS token decoder reads an attacker-controlled length field without bounds checking and attempts to allocate a byte array of that siz…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15567",
+      "published": "2026-08-11T09:17:13.530000+00:00"
+    },
+    {
+      "id": "423d4b9b7f16b32d",
+      "kind": "cve",
+      "cve": "CVE-2026-15565",
+      "title": "CVE-2026-15565",
+      "summary": "A flaw was found in Undertow. A remote attacker can cause Out of Memory on websockets endpoint without authentication on any @ServerEndpoint class that has any @OnMessage method. This allows an attacker to cause Denial of Service attack wit…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15565",
+      "published": "2026-08-11T09:17:13.370000+00:00"
+    },
+    {
+      "id": "33d69a9e9c4dce6b",
+      "kind": "cve",
+      "cve": "CVE-2026-15563",
+      "title": "CVE-2026-15563",
+      "summary": "A flaw was found in EAP's IIOP. The listener's NameService would accept bind operations without authentication, allowing an attacker to hijack JNDI lookups and binding them to a malicious ORB, achieving MITM or DoS on further invocations.",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15563",
+      "published": "2026-08-11T09:17:13.233000+00:00"
+    },
+    {
+      "id": "7995c0d2073f101f",
+      "kind": "cve",
+      "cve": "CVE-2026-15562",
+      "title": "CVE-2026-15562",
+      "summary": "A flaw was found in EAP's jboss-remoting. A remote unauthenticated attacker who can reach :8080 (or :9990, or :4447) and complete an Upgrade: jboss-remoting handshake can cause OOM errors that degrade requests server-wide, leading to denial…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15562",
+      "published": "2026-08-11T09:17:13.100000+00:00"
+    },
+    {
+      "id": "80fb10c19d739dc4",
+      "kind": "cve",
+      "cve": "CVE-2026-15561",
+      "title": "CVE-2026-15561",
+      "summary": "A flaw was found in EAP's undertow http/1.1 chunked-transfer decoder. missing limits on size and count would allow an attacker to use an unauthenticated connection to drive the JVM to an OutOfMemory error, stopping all deployments on the li…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15561",
+      "published": "2026-08-11T09:17:12.963000+00:00"
+    },
+    {
+      "id": "9ff8dc2d5cb55841",
+      "kind": "cve",
+      "cve": "CVE-2026-15560",
+      "title": "CVE-2026-15560",
+      "summary": "when EAP runs with -secmgr, the openjdk-orb's JDKBridge honours attacker-supplied CDR codebase URLs during object unmarshalling on :3528, allowing an unauthenticated attacker to load and instantiate arbitrary classes from a remote URL in th…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15560",
+      "published": "2026-08-11T09:17:12.823000+00:00"
+    },
+    {
+      "id": "b29a6e76228224ab",
+      "kind": "cve",
+      "cve": "CVE-2026-15556",
+      "title": "CVE-2026-15556",
+      "summary": "A flaw was found in Picketlink's SP signature validation; a SAML response containing zero assertion elements matching the signature check can allow an attacker to forge a SAML response and auth as any principal with any roles on the protect…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15556",
+      "published": "2026-08-11T09:17:12.687000+00:00"
+    },
+    {
+      "id": "4def2ae0b6ccefb6",
+      "kind": "cve",
+      "cve": "CVE-2026-15555",
+      "title": "CVE-2026-15555",
+      "summary": "A flaw was found in JBoss marshalling. The Infinispan session replication path deserializes replicated session data via the JBoss Marshalling River unmarshaller with no class filtering — enabling RCE via deserialization gadget chains on eve…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15555",
+      "published": "2026-08-11T09:17:12.540000+00:00"
+    },
+    {
+      "id": "a99a77451aa2836d",
+      "kind": "cve",
+      "cve": "CVE-2026-15554",
+      "title": "CVE-2026-15554",
+      "summary": "the Undertow AJP listener honours forged ssl_cert and is_ssl AJP attributes without requiring any shared-secret authentication. This enables an unauthenticated attacker with direct TCP access to port 8009 to bypass CLIENT-CERT authenticatio…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15554",
+      "published": "2026-08-11T09:17:12.400000+00:00"
+    },
+    {
+      "id": "ae435f7e133fb76b",
+      "kind": "cve",
+      "cve": "CVE-2026-10579",
+      "title": "CVE-2026-10579",
+      "summary": "A flaw was found in Picketlink Federation SAML; the unsolcited response handler would accept forged assertions with no verification or validation, permitting an unauthed attacker to authenticate as any principal in any role. This could lead…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10579",
+      "published": "2026-08-11T09:17:12.260000+00:00"
+    },
     {
       "id": "66ce18499c5654e5",
       "kind": "research",
@@ -4047,227 +4268,6 @@
       "product": "Acrobat",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9715",
       "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "13aa74940323fbad",
-      "kind": "cve",
-      "cve": "CVE-2026-21643",
-      "title": "Fortinet FortiClient EMS SQL Injection Vulnerability",
-      "summary": "Fortinet FortiClient EMS contains a SQL injection vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Fortinet",
-      "product": "FortiClient EMS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21643",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "73ed99865ae84a24",
-      "kind": "cve",
-      "cve": "CVE-2026-34621",
-      "title": "Adobe Acrobat and Reader Prototype Pollution Vulnerability",
-      "summary": "Adobe Acrobat and Reader contain a prototype pollution vulnerability that allows for arbitrary code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "Acrobat and Reader",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34621",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "2e66d67660ffd4c5",
-      "kind": "research",
-      "cve": null,
-      "title": "How We Cut LLM Costs by 59% With Prompt Caching",
-      "summary": "At ProjectDiscovery, we've been building Neo, an autonomous security testing platform that runs multi-agent, multi-step workflows, routinely executing 20-40+ LLM steps per task. Vulnerability assessments, code reviews, and security audits a…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/how-we-cut-llm-cost-with-prompt-caching",
-      "published": "2026-04-10T02:42:06+00:00"
-    },
-    {
-      "id": "17679c484b80ed01",
-      "kind": "cve",
-      "cve": "CVE-2026-1340",
-      "title": "Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
-      "summary": "Ivanti Endpoint Manager Mobile (EPMM) contains a code injection vulnerability that could allow attackers to achieve unauthenticated remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": "Endpoint Manager Mobile (EPMM)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-1340",
-      "published": "2026-04-08T00:00:00+00:00"
-    },
-    {
-      "id": "1417f73c0b73b926",
-      "kind": "cve",
-      "cve": "CVE-2026-35616",
-      "title": "Fortinet FortiClient EMS Improper Access Control Vulnerability",
-      "summary": "Fortinet FortiClient EMS contains an improper access control vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Fortinet",
-      "product": "FortiClient EMS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35616",
-      "published": "2026-04-06T00:00:00+00:00"
-    },
-    {
-      "id": "0f635b841fd7ca28",
-      "kind": "research",
-      "cve": "CVE-2026-2699",
-      "title": "You’re Not Supposed To ShareFile With Everyone (Progress ShareFile Pre-Auth RCE Chain CVE-2026-2699 & CVE-2026-2701)",
-      "summary": "If you squint and look at the CISA KEV list, you might think it&apos;s made up exclusively of vulnerabilities in file transfer solutions. While this would be wrong (and you shouldn&#x2019;t squint, it&#x2019;s bad for your eyes), file trans…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701/",
-      "published": "2026-04-02T10:00:42+00:00"
-    },
-    {
-      "id": "f17a42e52a515e6d",
-      "kind": "cve",
-      "cve": "CVE-2026-3502",
-      "title": "TrueConf Client Download of Code Without Integrity Check Vulnerability",
-      "summary": "TrueConf Client contains a download of code without integrity check vulnerability. An attacker who is able to influence the update delivery path can substitute a tampered update payload. If the payload is executed or installed by the update…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "TrueConf",
-      "product": "Client",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3502",
-      "published": "2026-04-02T00:00:00+00:00"
-    },
-    {
-      "id": "1f9385bb0c9a3f02",
-      "kind": "cve",
-      "cve": "CVE-2026-5281",
-      "title": "Google Dawn Use-After-Free Vulnerability",
-      "summary": "Google Dawn contains an use-after-free vulnerability that could allow a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. This vulnerability could affect multiple Chromium-based prod…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Dawn",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5281",
-      "published": "2026-04-01T00:00:00+00:00"
-    },
-    {
-      "id": "42ff17315a3bcdc5",
-      "kind": "cve",
-      "cve": "CVE-2026-3055",
-      "title": "Citrix NetScaler Out-of-Bounds Read Vulnerability",
-      "summary": "Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3055",
-      "published": "2026-03-30T00:00:00+00:00"
-    },
-    {
-      "id": "892cc8ea298160be",
-      "kind": "research",
-      "cve": "CVE-2026-3055",
-      "title": "Please, We Beg, Just One Weekend Free Of Appliances (Citrix NetScaler CVE-2026-3055 Memory Overread Part 2)",
-      "summary": "Today, we woke up with a nagging feeling: what if Citrix had, in fact, patched multiple Memory Overread vulnerabilities as part of CVE-2026-3055? While we&apos;ve been using our analysis from Part 1 (please read it first, as this post will…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/please-we-beg-just-one-weekend-free-of-appliances-citrix-netscaler-cve-2026-3055-memory-overread-part-2/",
-      "published": "2026-03-29T20:07:28+00:00"
-    },
-    {
-      "id": "b782f35797f57674",
-      "kind": "research",
-      "cve": "CVE-2026-3055",
-      "title": "The Sequels Are Never As Good, But We're Still In Pain (Citrix NetScaler CVE-2026-3055 Memory Overread)",
-      "summary": "Sequels? Pain? We&apos;re obviously talking about Citrix NetScalers, yet again. Welcome back to another watchTowr Labs blog post - pull up a chair, we always welcome new members to our group therapy sessions. If you asked a C programmer wha…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/the-sequels-are-never-as-good-but-were-still-in-pain-citrix-netscaler-cve-2026-3055-memory-overread/",
-      "published": "2026-03-28T20:39:56+00:00"
-    },
-    {
-      "id": "a3914a98347b1572",
-      "kind": "cve",
-      "cve": "CVE-2025-53521",
-      "title": "F5 BIG-IP Stack-Based Buffer Overflow Vulnerability",
-      "summary": "F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "F5",
-      "product": "BIG-IP",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53521",
-      "published": "2026-03-27T00:00:00+00:00"
-    },
-    {
-      "id": "cccb856c0b77013c",
-      "kind": "cve",
-      "cve": "CVE-2026-33634",
-      "title": "Aquasecurity Trivy Embedded Malicious Code Vulnerability",
-      "summary": "Aquasecurity Trivy contains an embedded malicious code vulnerability that could allow an attacker to gain access to everything in the CI/CD environment, including all tokens, SSH keys, cloud credentials, database passwords, and any sensitiv…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Aquasecurity",
-      "product": "Trivy",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33634",
-      "published": "2026-03-26T00:00:00+00:00"
     }
   ]
 }
