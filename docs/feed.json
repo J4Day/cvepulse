@@ -1,7 +1,381 @@
 {
-  "generated": "2026-08-11T12:42:47.792993+00:00",
+  "generated": "2026-08-11T14:13:18.051375+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "34546a6ecaa4034b",
+      "kind": "cve",
+      "cve": "CVE-2026-72781",
+      "title": "CVE-2026-72781",
+      "summary": "Craft CMS versions >= 5.0.0-RC1 before 5.10.7 and >= 4.0.0-RC1 before 4.18.3 contain a remote code execution vulnerability in the Twig sandbox mechanism. Because Craft marks the ElementInterface as safe (via the AllowedInSandbox attribute)…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72781",
+      "published": "2026-08-11T13:19:08.657000+00:00"
+    },
+    {
+      "id": "7d55685350198819",
+      "kind": "cve",
+      "cve": "CVE-2026-72778",
+      "title": "CVE-2026-72778",
+      "summary": "Craft CMS versions from 4.0.0-RC1 before 4.18.2 and from 5.0.0-RC1 before 5.10.6 contain an authenticated remote code execution vulnerability in the control panel element-search condition handling. Craft cleanses the outer request-controlle…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72778",
+      "published": "2026-08-11T13:19:08.207000+00:00"
+    },
+    {
+      "id": "63ba55257fce80f9",
+      "kind": "cve",
+      "cve": "CVE-2026-72748",
+      "title": "CVE-2026-72748",
+      "summary": "AVideo contains an unauthenticated arbitrary file write vulnerability in the aVideoEncoderChunk.json.php endpoint that allows remote attackers to write up to 4 GB of arbitrary content to the server filesystem via HTTP PUT requests without a…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72748",
+      "published": "2026-08-11T13:19:05.813000+00:00"
+    },
+    {
+      "id": "f497fbd121a4fc0f",
+      "kind": "cve",
+      "cve": "CVE-2026-72747",
+      "title": "CVE-2026-72747",
+      "summary": "AVideo fails to sanitize the phone field during user registration, allowing unauthenticated attackers to inject malicious JavaScript that persists in the database. When administrators visit the users management page, the unsanitized phone v…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72747",
+      "published": "2026-08-11T13:19:05.663000+00:00"
+    },
+    {
+      "id": "9f3592bf0c0b1799",
+      "kind": "cve",
+      "cve": "CVE-2026-72746",
+      "title": "CVE-2026-72746",
+      "summary": "FreeRDP before 3.30.0 contains a server-side authentication bypass in the RDSTLS handshake. When a server is configured with RdstlsSecurity = TRUE, the handshake dispatches inbound PDUs based solely on the attacker-supplied wire pduType wit…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72746",
+      "published": "2026-08-11T13:19:05.520000+00:00"
+    },
+    {
+      "id": "5cc7aac1e869341f",
+      "kind": "cve",
+      "cve": "CVE-2026-72745",
+      "title": "CVE-2026-72745",
+      "summary": "FreeRDP before 3.30.0 contains an out-of-bounds vulnerability in kerberos_DecryptMessage() (winpr/libwinpr/sspi/Kerberos/kerberos.c). The 16-bit EC (extra count) field of a peer-supplied GSS Wrap token (RFC 4121) is used directly in pointer…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72745",
+      "published": "2026-08-11T13:19:05.370000+00:00"
+    },
+    {
+      "id": "e050d9e250acbe4a",
+      "kind": "cve",
+      "cve": "CVE-2026-69109",
+      "title": "CVE-2026-69109",
+      "summary": "A vulnerability has been identified in Siemens License Server (SLS) (All versions < V5.3). The affected application is vulnerable to a path traversal vulnerability due to lack of sanitization of user input. This could allow a remote attacke…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69109",
+      "published": "2026-08-11T13:19:02.030000+00:00"
+    },
+    {
+      "id": "9dd5e0fd5d7027e3",
+      "kind": "cve",
+      "cve": "CVE-2026-64629",
+      "title": "CVE-2026-64629",
+      "summary": "A vulnerability has been identified in Parasolid V38.0 (All versions < V38.0.235), Parasolid V38.1 (All versions < V38.1.230). The affected applications contains an out of bounds read vulnerability while parsing specially crafted X_T files.…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64629",
+      "published": "2026-08-11T13:19:01.560000+00:00"
+    },
+    {
+      "id": "a8c1acf0b398f957",
+      "kind": "cve",
+      "cve": "CVE-2026-59701",
+      "title": "CVE-2026-59701",
+      "summary": "A vulnerability has been identified in Simcenter Femap (All versions < V2606.0001). The affected applications contains an out of bounds read vulnerability while parsing specially crafted BMP files. This could allow an attacker to execute co…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59701",
+      "published": "2026-08-11T13:19:00.763000+00:00"
+    },
+    {
+      "id": "26e386dddb85c9cf",
+      "kind": "cve",
+      "cve": "CVE-2026-59700",
+      "title": "CVE-2026-59700",
+      "summary": "A vulnerability has been identified in Simcenter Femap (All versions < V2606.0001). The affected applications contains an out of bounds read vulnerability while parsing specially crafted BMP files. This could allow an attacker to execute co…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59700",
+      "published": "2026-08-11T13:19:00.627000+00:00"
+    },
+    {
+      "id": "de3cd360f0ea46f1",
+      "kind": "cve",
+      "cve": "CVE-2026-59086",
+      "title": "CVE-2026-59086",
+      "summary": "A vulnerability has been identified in Simcenter Nastran (All versions < V2606). The affected applications contain a stack overflow vulnerability while parsing specially strings as argument for one of the application binaries. This could al…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59086",
+      "published": "2026-08-11T13:19:00.333000+00:00"
+    },
+    {
+      "id": "a1414cde1984d1f7",
+      "kind": "cve",
+      "cve": "CVE-2026-58115",
+      "title": "CVE-2026-58115",
+      "summary": "A vulnerability has been identified in SIMATIC IoT2050 Advanced (6ES7647-0BA00-1YA2) (All versions < V4.3.4.1 running Industrial OS with Node-RED installed). Affected devices do not enforce authentication on the Node-RED HTTP interface, all…",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58115",
+      "published": "2026-08-11T13:19:00.190000+00:00"
+    },
+    {
+      "id": "af4d4f0656ed870a",
+      "kind": "cve",
+      "cve": "CVE-2026-50064",
+      "title": "CVE-2026-50064",
+      "summary": "A vulnerability has been identified in Solid Edge SE2025 (All versions < V225.0 Update 15), Solid Edge SE2026 (All versions < V226.0 Update 7). The affected applications contains an out of bounds write vulnerability while parsing specially…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50064",
+      "published": "2026-08-11T13:18:58.990000+00:00"
+    },
+    {
+      "id": "9cd3c325f74b8c38",
+      "kind": "cve",
+      "cve": "CVE-2026-50063",
+      "title": "CVE-2026-50063",
+      "summary": "A vulnerability has been identified in Solid Edge SE2025 (All versions < V225.0 Update 15), Solid Edge SE2026 (All versions < V226.0 Update 7). The affected applications contains an out of bounds read vulnerability while parsing specially c…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50063",
+      "published": "2026-08-11T13:18:58.860000+00:00"
+    },
+    {
+      "id": "1ff7925d981201ba",
+      "kind": "cve",
+      "cve": "CVE-2026-50062",
+      "title": "CVE-2026-50062",
+      "summary": "A vulnerability has been identified in Solid Edge SE2025 (All versions < V225.0 Update 15), Solid Edge SE2026 (All versions < V226.0 Update 7). The affected applications contains an out of bounds read vulnerability while parsing specially c…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50062",
+      "published": "2026-08-11T13:18:58.720000+00:00"
+    },
+    {
+      "id": "47263305ae267845",
+      "kind": "cve",
+      "cve": "CVE-2026-50061",
+      "title": "CVE-2026-50061",
+      "summary": "A vulnerability has been identified in Solid Edge SE2025 (All versions < V225.0 Update 15), Solid Edge SE2026 (All versions < V226.0 Update 7). The affected applications contain a use-after-free vulnerability that could be triggered while p…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50061",
+      "published": "2026-08-11T13:18:58.583000+00:00"
+    },
+    {
+      "id": "40869238c6bdcfda",
+      "kind": "cve",
+      "cve": "CVE-2026-50060",
+      "title": "CVE-2026-50060",
+      "summary": "A vulnerability has been identified in Solid Edge SE2025 (All versions < V225.0 Update 15), Solid Edge SE2026 (All versions < V226.0 Update 7). The affected applications contain a use-after-free vulnerability that could be triggered while p…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50060",
+      "published": "2026-08-11T13:18:58.447000+00:00"
+    },
+    {
+      "id": "377b4fa770eb8985",
+      "kind": "cve",
+      "cve": "CVE-2026-50059",
+      "title": "CVE-2026-50059",
+      "summary": "A vulnerability has been identified in Solid Edge SE2025 (All versions < V225.0 Update 15), Solid Edge SE2026 (All versions < V226.0 Update 7). The affected applications contains an out of bounds write vulnerability while parsing specially…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50059",
+      "published": "2026-08-11T13:18:58.313000+00:00"
+    },
+    {
+      "id": "b6ecf371fb74d8f1",
+      "kind": "cve",
+      "cve": "CVE-2026-50058",
+      "title": "CVE-2026-50058",
+      "summary": "A vulnerability has been identified in Solid Edge SE2025 (All versions < V225.0 Update 15), Solid Edge SE2026 (All versions < V226.0 Update 7). The affected applications contains an out of bounds read vulnerability while parsing specially c…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50058",
+      "published": "2026-08-11T13:18:58.153000+00:00"
+    },
+    {
+      "id": "997e9df47ee3c608",
+      "kind": "research",
+      "cve": null,
+      "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+      "summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Built on GPT‑5.6 Sol, it is trained to improve capabilities on…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+      "published": "2026-08-11T13:11:23+00:00"
+    },
+    {
+      "id": "87b1435382104e46",
+      "kind": "research",
+      "cve": "CVE-2026-63520",
+      "title": "CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED)",
+      "summary": "Overview Rapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated remote code execution (RCE) against a vulner…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/etr-cve-2026-63520-microsoft-sharepoint-remote-code-execution-fixed",
+      "published": "2026-08-11T13:00:00+00:00"
+    },
+    {
+      "id": "c965ec94014fac96",
+      "kind": "research",
+      "cve": "CVE-2026-55040",
+      "title": "Rapid7 Analysis: Microsoft SharePoint JWT Token Authentication Bypass (CVE-2026-55040)",
+      "summary": "Overview On July 14, 2026, Rapid7 and Microsoft disclosed CVE-2026-55040, an authentication bypass vulnerability affecting Microsoft SharePoint. Today we are publishing a technical analysis of the vulnerability along with an accompanying pr…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-jwt-token-authentication-bypass-cve-2026-55040",
+      "published": "2026-08-11T13:00:00+00:00"
+    },
     {
       "id": "07f177c3e989e3b9",
       "kind": "cve",
@@ -1601,23 +1975,6 @@
       "published": "2026-08-06T11:49:48+00:00"
     },
     {
-      "id": "c34793f7c92673be",
-      "kind": "research",
-      "cve": null,
-      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-      "summary": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users' privacy…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-      "published": "2026-08-06T11:33:08+00:00"
-    },
-    {
       "id": "57d4c4ecd0e7989d",
       "kind": "research",
       "cve": null,
@@ -2230,23 +2587,6 @@
       "published": "2026-07-22T20:37:22+00:00"
     },
     {
-      "id": "5db3f17a23a5a3d4",
-      "kind": "research",
-      "cve": null,
-      "title": "What’s New in Rapid7 Products and Services: Q2 2026 in Review",
-      "summary": "If Q1 set the pace for Rapid7's tools, Q2 accelerated it. This quarter brought a steady stream of product enhancements, platform investments, and customer-driven innovation across Rapid7’s portfolio. Each release was designed with a clear g…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/pt-new-products-services-q2-2026-mdr",
-      "published": "2026-07-22T13:28:02+00:00"
-    },
-    {
       "id": "76af5b683c70d8f4",
       "kind": "research",
       "cve": null,
@@ -2381,23 +2721,6 @@
       "product": "DD-WRT",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137",
       "published": "2026-07-21T00:00:00+00:00"
-    },
-    {
-      "id": "caf8c92f5f518d78",
-      "kind": "research",
-      "cve": null,
-      "title": "From a Single Alert to 1,000 Files: Inside an Exposed WebDAV Malware Delivery Lab",
-      "summary": "Executive summary An MDR alert recently led our team to an exposed server that was doing more than hosting payloads. It was functioning as a fully operational malware delivery lab. Containing over 1,000 artifacts, the infrastructure served…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/tr-exposed-webdav-malware-delivery-lab-analysis",
-      "published": "2026-07-20T13:00:00+00:00"
     },
     {
       "id": "9ac47da170c4637c",
@@ -3939,335 +4262,6 @@
       "product": "MagicINFO 9 Server",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7399",
       "published": "2026-04-24T00:00:00+00:00"
-    },
-    {
-      "id": "e4f2e2c595af62f5",
-      "kind": "cve",
-      "cve": "CVE-2024-57728",
-      "title": "SimpleHelp Path Traversal Vulnerability",
-      "summary": "SimpleHelp contains a path traversal vulnerability that allows admin users to upload arbitrary files anywhere on the file system by uploading a crafted zip file (i.e. zip slip). This can be exploited to execute arbitrary code on the host in…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "SimpleHelp ",
-      "product": "SimpleHelp",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57728",
-      "published": "2026-04-24T00:00:00+00:00"
-    },
-    {
-      "id": "45d1e7b8e0b9e5e3",
-      "kind": "cve",
-      "cve": "CVE-2024-57726",
-      "title": "SimpleHelp Missing Authorization Vulnerability",
-      "summary": "SimpleHelp contains a missing authorization vulnerability that could allow low-privileged technicians to create API keys with excessive permissions. These API keys can be used to escalate privileges to the server admin role.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "SimpleHelp ",
-      "product": "SimpleHelp",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57726",
-      "published": "2026-04-24T00:00:00+00:00"
-    },
-    {
-      "id": "883a2b762604b66a",
-      "kind": "cve",
-      "cve": "CVE-2026-39987",
-      "title": "Marimo Remote Code Execution Vulnerability",
-      "summary": "Marimo contains an pre-authorization remote code execution vulnerability, allowing an unauthenticated attacked to shell access and execute arbitrary system commands.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Marimo",
-      "product": "Marimo",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39987",
-      "published": "2026-04-23T00:00:00+00:00"
-    },
-    {
-      "id": "a18021500272fe4f",
-      "kind": "cve",
-      "cve": "CVE-2026-33825",
-      "title": "Microsoft Defender Insufficient Granularity of Access Control Vulnerability",
-      "summary": "Microsoft Defender contains an insufficient granularity of access control vulnerability that could allow an authorized attacker to escalate privileges locally.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33825",
-      "published": "2026-04-22T00:00:00+00:00"
-    },
-    {
-      "id": "4bbd8e20a6586940",
-      "kind": "cve",
-      "cve": "CVE-2026-20122",
-      "title": "Cisco Catalyst SD-WAN Manager Incorrect Use of Privileged APIs Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains an incorrect use of privileged APIs vulnerability due to improper file handling on the API interface of an affected system. An attacker could exploit this vulnerability by uploading a malicious file on…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manger",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20122",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "2166f6c7e73b91d2",
-      "kind": "cve",
-      "cve": "CVE-2026-20133",
-      "title": "Cisco Catalyst SD-WAN Manager Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains an exposure of sensitive information to an unauthorized actor vulnerability that could allow remote attackers to view sensitive information on affected systems.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20133",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "c2476643493dac3e",
-      "kind": "cve",
-      "cve": "CVE-2025-2749",
-      "title": "Kentico Xperience Path Traversal Vulnerability",
-      "summary": "Kentico Xperience contains a path traversal vulnerability that could allow an authenticated user's Staging Sync Server to upload arbitrary data to path relative locations.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Kentico",
-      "product": "Kentico Xperience",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2749",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "76f73c8d0c1fd4bc",
-      "kind": "cve",
-      "cve": "CVE-2023-27351",
-      "title": "PaperCut NG/MF Improper Authentication Vulnerability",
-      "summary": "PaperCut NG/MF contains an improper authentication vulnerability that could allow remote attackers to bypass authentication on affected installations via the SecurityRequestFilter class.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "PaperCut",
-      "product": "NG/MF",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27351",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "0c32e53379660022",
-      "kind": "cve",
-      "cve": "CVE-2025-48700",
-      "title": "Synacor Zimbra Collaboration Suite (ZCS) Cross-site Scripting Vulnerability",
-      "summary": "Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability that could allow attackers to execute arbitrary JavaScript within the user's session, potentially leading to unauthorized access to sensitive information…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Synacor",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48700",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "24a8319c64d5399f",
-      "kind": "cve",
-      "cve": "CVE-2026-20128",
-      "title": "Cisco Catalyst SD-WAN Manager Storing Passwords in a Recoverable Format Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains a storing passwords in a recoverable format vulnerability that allows an authenticated, local attacker to gain DCA user privileges by accessing a credential file for the DCA user on the filesystem as a…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20128",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "f472d09cc09d767c",
-      "kind": "cve",
-      "cve": "CVE-2025-32975",
-      "title": "Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability",
-      "summary": "Quest KACE Systems Management Appliance (SMA) contains an improper authentication vulnerability that could allow attackers to impersonate legitimate users without valid credentials.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Quest",
-      "product": "KACE Systems Management Appliance (SMA)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32975",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "b087d48c33c9b826",
-      "kind": "cve",
-      "cve": "CVE-2024-27199",
-      "title": "JetBrains TeamCity Relative Path Traversal Vulnerability",
-      "summary": "JetBrains TeamCity contains a relative path traversal vulnerability that could allow limited admin actions to be performed.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "JetBrains",
-      "product": "TeamCity",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27199",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "e059758977a9e969",
-      "kind": "research",
-      "cve": null,
-      "title": "Neo v. DIY: The gap between a single finding and a mature security program",
-      "summary": "In our latest webinar, our Founding Solutions Engineer, Davis Franklin, addressed the massive gap between finding a vulnerability with an LLM and running a mature security program. That gap is what Neo is built to close. With the release of…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/neo-vs-diy",
-      "published": "2026-04-17T19:05:29+00:00"
-    },
-    {
-      "id": "ddc10eae918a31fb",
-      "kind": "cve",
-      "cve": "CVE-2026-34197",
-      "title": "Apache ActiveMQ Improper Input Validation Vulnerability",
-      "summary": "Apache ActiveMQ contains an improper input validation vulnerability that allows for code injection.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apache",
-      "product": "ActiveMQ",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34197",
-      "published": "2026-04-16T00:00:00+00:00"
-    },
-    {
-      "id": "cc5ec83614c97d98",
-      "kind": "cve",
-      "cve": "CVE-2009-0238",
-      "title": "Microsoft Office Remote Code Execution",
-      "summary": "Microsoft Office Excel contains a remote code execution vulnerability that could allow an attacker to take complete control of an affected system if a user opens a specially crafted Excel file that includes a malformed object.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Office",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-0238",
-      "published": "2026-04-14T00:00:00+00:00"
-    },
-    {
-      "id": "517ea19addbc257d",
-      "kind": "cve",
-      "cve": "CVE-2026-32201",
-      "title": "Microsoft SharePoint Server Improper Input Validation Vulnerability",
-      "summary": "Microsoft SharePoint Server contains an improper input validation vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32201",
-      "published": "2026-04-14T00:00:00+00:00"
-    },
-    {
-      "id": "ea72b43f396f9b7a",
-      "kind": "cve",
-      "cve": "CVE-2012-1854",
-      "title": "Microsoft Visual Basic for Applications Insecure Library Loading Vulnerability",
-      "summary": "Microsoft Visual Basic for Applications (VBA) contains an insecure library loading vulnerability that could allow for remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Visual Basic for Applications (VBA)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-1854",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "1a522f20237ddca1",
-      "kind": "cve",
-      "cve": "CVE-2025-60710",
-      "title": "Microsoft Windows Link Following Vulnerability",
-      "summary": "Microsoft Windows contains a link following vulnerability that allows for privilege escalation",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-60710",
-      "published": "2026-04-13T00:00:00+00:00"
-    },
-    {
-      "id": "041076831e35804d",
-      "kind": "cve",
-      "cve": "CVE-2023-21529",
-      "title": "Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft Exchange Server contains a deserialization of untrusted data that allows an authenticated attacker to achieve remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Microsoft",
-      "product": "Exchange Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-21529",
-      "published": "2026-04-13T00:00:00+00:00"
     }
   ]
 }
