@@ -1,7 +1,75 @@
 {
-  "generated": "2026-08-13T17:51:08.539986+00:00",
+  "generated": "2026-08-13T18:49:52.423098+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "fb9f54bf13bb54cd",
+      "kind": "cve",
+      "cve": "CVE-2026-72741",
+      "title": "CVE-2026-72741",
+      "summary": "Rainbond through 6.9.7 contains a broken access control vulnerability in the CheckToken function that allows authenticated attackers to access unauthorized enterprise resources by substituting another enterprise's tenant name in URL paths.…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72741",
+      "published": "2026-08-13T18:18:16.670000+00:00"
+    },
+    {
+      "id": "8b2b20d72e94963c",
+      "kind": "cve",
+      "cve": "CVE-2026-67614",
+      "title": "CVE-2026-67614",
+      "summary": "CyberPanel before 3.0.0 contains a hard-coded JWT secret vulnerability in the WebTerminal FastAPI SSH service that allows unauthenticated remote attackers to forge valid authentication tokens and obtain an interactive root shell via WebSock…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67614",
+      "published": "2026-08-13T18:18:08.370000+00:00"
+    },
+    {
+      "id": "4389b5ff74741919",
+      "kind": "cve",
+      "cve": "CVE-2024-58374",
+      "title": "CVE-2024-58374",
+      "summary": "Hongjing e-HR contains an unauthenticated SQL injection vulnerability in the getSdutyTree servlet endpoint that allows remote unauthenticated attackers to access protected resources by supplying a path traversal sequence in the request URI…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58374",
+      "published": "2026-08-13T18:17:16.433000+00:00"
+    },
+    {
+      "id": "4e9d5ee3b1a8bb1f",
+      "kind": "cve",
+      "cve": "CVE-2019-25765",
+      "title": "CVE-2019-25765",
+      "summary": "ASP-CMS contains a SQL injection vulnerability in the commentList.asp endpoint that allows unauthenticated remote attackers to inject arbitrary SQL by manipulating the id parameter in GET requests to the comment listing script. Attackers ca…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25765",
+      "published": "2026-08-13T18:17:15.113000+00:00"
+    },
     {
       "id": "176e74fbec6a4081",
       "kind": "cve",
@@ -71,40 +139,6 @@
       "published": "2026-08-13T16:19:05.480000+00:00"
     },
     {
-      "id": "72b92baafae8f28d",
-      "kind": "cve",
-      "cve": "CVE-2026-73515",
-      "title": "CVE-2026-73515",
-      "summary": "PostGIS before 3.7.0beta2 contains an out-of-bounds read vulnerability that allows attackers to cause memory disclosure or a server crash by supplying a malformed FlatGeobuf buffer. The FlatGeobuf property metadata decoder verifies that a s…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73515",
-      "published": "2026-08-13T16:19:05.333000+00:00"
-    },
-    {
-      "id": "6e8ca17985b5b245",
-      "kind": "cve",
-      "cve": "CVE-2026-73514",
-      "title": "CVE-2026-73514",
-      "summary": "The address_standardizer extension for PostGIS through 3.7.0, fixed in commit 423570b, contains an out-of-bounds write vulnerability that allows a database user with the ability to supply caller-controlled relation names to standardize_addr…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73514",
-      "published": "2026-08-13T16:19:05.190000+00:00"
-    },
-    {
       "id": "3b473aae57c41742",
       "kind": "cve",
       "cve": "CVE-2026-19710",
@@ -156,23 +190,6 @@
       "published": "2026-08-13T15:20:01.513000+00:00"
     },
     {
-      "id": "768b3213686cd6f2",
-      "kind": "cve",
-      "cve": "CVE-2026-70461",
-      "title": "CVE-2026-70461",
-      "summary": "rsync 3.2.5 before 3.5.0 contains a heap out-of-bounds write vulnerability that allows remote unauthenticated attackers to write one attacker-controlled byte past the end of a heap allocation by supplying a crafted files-from entry. Attacke…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70461",
-      "published": "2026-08-13T15:20:00.117000+00:00"
-    },
-    {
       "id": "93829dabb7cd61d5",
       "kind": "cve",
       "cve": "CVE-2026-70460",
@@ -222,23 +239,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70455",
       "published": "2026-08-13T15:19:59.197000+00:00"
-    },
-    {
-      "id": "76d091200d44c9e8",
-      "kind": "cve",
-      "cve": "CVE-2026-70453",
-      "title": "CVE-2026-70453",
-      "summary": "rsync before 3.5.0 contains an algorithmic complexity vulnerability in the hash_search() function that allows a remote attacker to cause a denial of service by delivering a carefully constructed file list. A sender can exploit the quadratic…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70453",
-      "published": "2026-08-13T15:19:58.893000+00:00"
     },
     {
       "id": "9c8ad4bb2f4915bd",
