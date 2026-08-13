@@ -1,7 +1,228 @@
 {
-  "generated": "2026-08-13T11:40:01.727513+00:00",
+  "generated": "2026-08-13T12:47:39.578484+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "ff724e019f67dbba",
+      "kind": "cve",
+      "cve": "CVE-2026-73629",
+      "title": "CVE-2026-73629",
+      "summary": "Serendipity before 2.6.0 contains a server-side request forgery vulnerability in the serendipity_url_allowed() filter that fails to block hex-encoded IPv4 addresses, IPv6 literals, and link-local ranges. Authenticated users with adminImages…",
+      "severity": "HIGH",
+      "score": 8.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73629",
+      "published": "2026-08-13T12:17:28.330000+00:00"
+    },
+    {
+      "id": "2862e33de3fb2080",
+      "kind": "cve",
+      "cve": "CVE-2026-73625",
+      "title": "CVE-2026-73625",
+      "summary": "GitPython versions before 3.1.54 contain a remote code execution vulnerability in the check_unsafe_options guard that can be bypassed by smuggling git options inside single-character kwarg values. Attackers can supply crafted option diction…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73625",
+      "published": "2026-08-13T12:17:27.753000+00:00"
+    },
+    {
+      "id": "fadde2d6322622b8",
+      "kind": "cve",
+      "cve": "CVE-2026-73624",
+      "title": "CVE-2026-73624",
+      "summary": "GitPython versions before 3.1.54 contain an arbitrary file overwrite vulnerability in the Diffable.diff method that fails to validate git options passed through kwargs. Attackers can supply the --output argument via the other parameter or o…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73624",
+      "published": "2026-08-13T12:17:27.617000+00:00"
+    },
+    {
+      "id": "575b1a9ad4b837da",
+      "kind": "cve",
+      "cve": "CVE-2026-73623",
+      "title": "CVE-2026-73623",
+      "summary": "GitPython before 3.1.54 contains an incomplete denylist in unsafe_git_clone_options that omits --template, allowing attackers to achieve arbitrary command execution during clone operations. Attackers can supply --template pointing to a dire…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73623",
+      "published": "2026-08-13T12:17:27.477000+00:00"
+    },
+    {
+      "id": "58d60b7b1182ca32",
+      "kind": "cve",
+      "cve": "CVE-2026-73622",
+      "title": "CVE-2026-73622",
+      "summary": "GitPython before 3.1.55 fails to disable environment variable expansion in Remote.create() and Submodule.add() URL handling, allowing attackers to exfiltrate secrets by supplying URLs containing variable references. Attackers can craft URLs…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73622",
+      "published": "2026-08-13T12:17:27.337000+00:00"
+    },
+    {
+      "id": "d7f6a0bce8cd00f5",
+      "kind": "cve",
+      "cve": "CVE-2026-73620",
+      "title": "CVE-2026-73620",
+      "summary": "GitPython before 3.1.57 fails to guard git option forwarding in IndexFile.checkout() and TagReference.create(), allowing attackers to pass unsafe options via kwargs. Attackers can use --prefix to overwrite arbitrary files with repository co…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73620",
+      "published": "2026-08-13T12:17:27.057000+00:00"
+    },
+    {
+      "id": "be37b38fd35c08c1",
+      "kind": "cve",
+      "cve": "CVE-2026-73618",
+      "title": "CVE-2026-73618",
+      "summary": "Budibase Server before 3.40.0 contains a NoSQL injection vulnerability in the MongoDB query execution endpoint where user-supplied parameters are interpolated into JSON query templates without proper sanitization of JSON metacharacters. Att…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73618",
+      "published": "2026-08-13T12:17:26.770000+00:00"
+    },
+    {
+      "id": "3f5553b7dbe49a9a",
+      "kind": "cve",
+      "cve": "CVE-2026-73617",
+      "title": "CVE-2026-73617",
+      "summary": "Budibase before 3.40.0 contains a NoSQL injection vulnerability in the MongoDB datasource integration where user-supplied parameters are enriched with handlebars using noEscaping: true and parsed without operator filtering. Attackers can in…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73617",
+      "published": "2026-08-13T12:17:26.627000+00:00"
+    },
+    {
+      "id": "280d3c43d2e7a3c2",
+      "kind": "cve",
+      "cve": "CVE-2026-73615",
+      "title": "CVE-2026-73615",
+      "summary": "Network-AI versions before 5.15.1 contain a security matcher bypass vulnerability where SandboxPolicy evaluates raw command strings with quotes preserved while the executor tokenizes commands by stripping quotes before execution. Attackers…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73615",
+      "published": "2026-08-13T12:17:26.337000+00:00"
+    },
+    {
+      "id": "3347779787f42bb1",
+      "kind": "cve",
+      "cve": "CVE-2026-73614",
+      "title": "CVE-2026-73614",
+      "summary": "Network-AI ClaudeHookBridge before 5.15.1 truncates the target string to 500 characters before evaluating denyPatterns, while Claude Code executes the full untruncated command. Attackers can position dangerous content past byte 500 in a Bas…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73614",
+      "published": "2026-08-13T12:17:26.197000+00:00"
+    },
+    {
+      "id": "868fe2b3ab38b400",
+      "kind": "cve",
+      "cve": "CVE-2026-73613",
+      "title": "CVE-2026-73613",
+      "summary": "filebrowser versions before 2.63.19 contain an out-of-scope file deletion vulnerability in the TUS upload cache eviction mechanism that allows authenticated users with only Create permission to delete arbitrary files outside their scope. At…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73613",
+      "published": "2026-08-13T12:17:26.043000+00:00"
+    },
+    {
+      "id": "d6d79ab14f41b53a",
+      "kind": "cve",
+      "cve": "CVE-2026-73612",
+      "title": "CVE-2026-73612",
+      "summary": "File Browser before v2.63.22 fails to validate access rules for descendants during recursive copy, rename, and delete operations, allowing authenticated users to bypass path-based access controls. Attackers can copy, rename, or delete denie…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73612",
+      "published": "2026-08-13T12:17:25.897000+00:00"
+    },
+    {
+      "id": "04c534f45fa0fd1a",
+      "kind": "cve",
+      "cve": "CVE-2026-73608",
+      "title": "CVE-2026-73608",
+      "summary": "SiYuan's development branch (endpoint introduced by commit 9b8e8956f, not present in v3.7.3 or master, patched in v3.7.4) contains a missing-authorization vulnerability in the /api/av/getAttributeViewSearchTarget endpoint. The route is regi…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73608",
+      "published": "2026-08-13T12:17:25.323000+00:00"
+    },
     {
       "id": "3e1932b1625e34ab",
       "kind": "cve",
@@ -4039,229 +4260,6 @@
       "product": "Microsoft",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
       "published": "2026-05-15T00:00:00+00:00"
-    },
-    {
-      "id": "c66ba8836b7b8206",
-      "kind": "cve",
-      "cve": "CVE-2026-20182",
-      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
-      "published": "2026-05-14T00:00:00+00:00"
-    },
-    {
-      "id": "3e6f4335ce749d6c",
-      "kind": "research",
-      "cve": null,
-      "title": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",
-      "summary": "We recently published an exploit chain for the Google Pixel 9 that demonstrated it was possible to go from a zero-click context to root on Android in just two exploits. The Dolby 0-click vulnerability existed across all of Android, until it…",
-      "severity": "",
-      "score": null,
-      "source": "Project Zero",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
-      "published": "2026-05-13T07:00:00+00:00"
-    },
-    {
-      "id": "fbd8f4f301b4388c",
-      "kind": "research",
-      "cve": null,
-      "title": "Nuclei Templates - April 2026",
-      "summary": "Two releases shipped this cycle - v10.4.2 (April 15) and v10.4.3 (May 5) - delivering deep KEV coverage, a major push into AI/LLM attack surface, fresh Perforce visibility, and broad quality improvements across the template library. 🚀 April…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/nuclei-templates-april-2026",
-      "published": "2026-05-12T11:26:09+00:00"
-    },
-    {
-      "id": "e2275c3be38e67a1",
-      "kind": "cve",
-      "cve": "CVE-2026-42208",
-      "title": "BerriAI LiteLLM SQL Injection Vulnerability",
-      "summary": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
-      "published": "2026-05-08T00:00:00+00:00"
-    },
-    {
-      "id": "0b960075f0625d20",
-      "kind": "cve",
-      "cve": "CVE-2026-6973",
-      "title": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
-      "summary": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": "Endpoint Manager Mobile (EPMM)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
-      "published": "2026-05-07T00:00:00+00:00"
-    },
-    {
-      "id": "27a5fddb4b783b95",
-      "kind": "cve",
-      "cve": "CVE-2026-0300",
-      "title": "Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability",
-      "summary": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Se…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Palo Alto Networks",
-      "product": "PAN-OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0300",
-      "published": "2026-05-06T00:00:00+00:00"
-    },
-    {
-      "id": "0d08b28d14a01511",
-      "kind": "cve",
-      "cve": "CVE-2026-31431",
-      "title": "Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability",
-      "summary": "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Linux",
-      "product": "Kernel",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
-      "published": "2026-05-01T00:00:00+00:00"
-    },
-    {
-      "id": "41a796cb51f0fc3a",
-      "kind": "cve",
-      "cve": "CVE-2026-41940",
-      "title": "WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability",
-      "summary": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "WebPros",
-      "product": "cPanel & WHM and WP2 (WordPress Squared)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41940",
-      "published": "2026-04-30T00:00:00+00:00"
-    },
-    {
-      "id": "c54ea2e1916fd0aa",
-      "kind": "research",
-      "cve": "CVE-2026-41940",
-      "title": "The Internet Is Falling Down, Falling Down, Falling Down (cPanel & WHM Authentication Bypass CVE-2026-41940)",
-      "summary": "Hello! Yes, it&apos;s all a disaster again! Let&apos;s get this party started: No comments today, so imagine this: We wrote something that we find very funny, Nobody else gets it, But everyone humors us Just like a typical watchTowr Labs bl…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
-      "published": "2026-04-29T17:19:19+00:00"
-    },
-    {
-      "id": "5e5fdff3978ce846",
-      "kind": "research",
-      "cve": null,
-      "title": "The Trust Gap Behind the AI Coding Boom: What 200 Security Practitioners Just Told Us",
-      "summary": "New research from ProjectDiscovery surfaces an uncomfortable truth: Engineering has accelerated, and Security has been left to absorb the impact, mostly by hand. If you work in application security right now, you already know the shape of t…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/the-trust-gap-behind-the-ai-coding-boom-what-200-security-practitioners-just-told-us",
-      "published": "2026-04-28T18:05:58+00:00"
-    },
-    {
-      "id": "ec49b2f63f0026f3",
-      "kind": "cve",
-      "cve": "CVE-2024-1708",
-      "title": "ConnectWise ScreenConnect Path Traversal Vulnerability",
-      "summary": "ConnectWise ScreenConnect contains a path traversal vulnerability which could allow an attacker to execute remote code or directly impact confidential data and critical systems.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "ConnectWise",
-      "product": "ScreenConnect",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1708",
-      "published": "2026-04-28T00:00:00+00:00"
-    },
-    {
-      "id": "5049d3302bb8a41c",
-      "kind": "cve",
-      "cve": "CVE-2026-32202",
-      "title": "Microsoft Windows Protection Mechanism Failure Vulnerability",
-      "summary": "Microsoft Windows Shell contains a protection mechanism failure vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32202",
-      "published": "2026-04-28T00:00:00+00:00"
-    },
-    {
-      "id": "14c9ca9873f79ff3",
-      "kind": "research",
-      "cve": null,
-      "title": "Benchmarking Neo's Black-Box DAST Capabilities",
-      "summary": "Since the launch of Neo, we've been steadily expanding what it can do. Neo has found 33+ real CVEs across open-source projects, performed well on white-box security testing where source code is available, and generally proven itself as a ca…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/neo-black-box-dast-capabilities",
-      "published": "2026-04-27T17:11:00+00:00"
     }
   ]
 }
