@@ -1,13 +1,30 @@
 {
-  "generated": "2026-08-14T17:44:48.181166+00:00",
+  "generated": "2026-08-14T18:41:30.753363+00:00",
   "count": 250,
   "items": [
     {
-      "id": "966675f52623d674",
+      "id": "3871110e18cff5b6",
       "kind": "cve",
-      "cve": "CVE-2026-19845",
-      "title": "CVE-2026-19845",
-      "summary": "A vulnerability was determined in TOTOLINK A800R 4.1.2cu.5137_B20200730. This affects the function setStaticDhcpConfig of the file /cgi-bin/cstecgi.cgi of the component lan.so. Executing a manipulation of the argument Comment can lead to st…",
+      "cve": "CVE-2026-72970",
+      "title": "CVE-2026-72970",
+      "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72970",
+      "published": "2026-08-14T18:19:09.003000+00:00"
+    },
+    {
+      "id": "8117a1ff4292d832",
+      "kind": "cve",
+      "cve": "CVE-2026-19847",
+      "title": "CVE-2026-19847",
+      "summary": "A security flaw has been discovered in TOTOLINK A800R 4.1.2cu.5137_B20200730. Affected is the function setWiFiWpsConfig of the file /cgi-bin/cstecgi.cgi of the component wps.so. The manipulation of the argument pin results in stack-based bu…",
       "severity": "HIGH",
       "score": 8.8,
       "source": "NVD",
@@ -16,8 +33,25 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19845",
-      "published": "2026-08-14T17:17:35.753000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19847",
+      "published": "2026-08-14T18:17:24.037000+00:00"
+    },
+    {
+      "id": "e645b05e81f973c9",
+      "kind": "cve",
+      "cve": "CVE-2026-19846",
+      "title": "CVE-2026-19846",
+      "summary": "A vulnerability was identified in TOTOLINK A800R 4.1.2cu.5137_B20200730. This impacts the function setUrlFilterRules of the file /cgi-bin/cstecgi.cgi of the component firewall.so. The manipulation of the argument url leads to stack-based bu…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19846",
+      "published": "2026-08-14T18:17:23.883000+00:00"
     },
     {
       "id": "926acab799283eec",
@@ -156,23 +190,6 @@
       "published": "2026-08-14T12:16:46.400000+00:00"
     },
     {
-      "id": "b73197aec7c1bcfb",
-      "kind": "cve",
-      "cve": "CVE-2026-72830",
-      "title": "CVE-2026-72830",
-      "summary": "Grav API plugin versions before 1.0.13 fail to enforce API key scope caps in ConfigController super-scope gates, allowing scoped keys to write scheduler configuration. Attackers with a scoped api.config.write key can inject arbitrary comman…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72830",
-      "published": "2026-08-14T12:16:46.277000+00:00"
-    },
-    {
       "id": "5fc2ba749ee155e3",
       "kind": "cve",
       "cve": "CVE-2026-72828",
@@ -205,23 +222,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72826",
       "published": "2026-08-14T12:16:45.780000+00:00"
-    },
-    {
-      "id": "243a7e75304899e5",
-      "kind": "cve",
-      "cve": "CVE-2026-72825",
-      "title": "CVE-2026-72825",
-      "summary": "The getgrav/grav-plugin-api plugin before 1.0.13 contains an API-key scope cap bypass in the POST /reports/twig-content/allowlist endpoint (ReportsController). The endpoint enforces requirePermission('api.config.write') followed by a bare i…",
-      "severity": "HIGH",
-      "score": 7.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72825",
-      "published": "2026-08-14T12:16:45.650000+00:00"
     },
     {
       "id": "8a35b680c95cef6e",
@@ -2128,6 +2128,40 @@
       "published": "2026-08-11T17:19:06.880000+00:00"
     },
     {
+      "id": "fd0d7df764e7b2d2",
+      "kind": "cve",
+      "cve": "CVE-2026-68821",
+      "title": "CVE-2026-68821",
+      "summary": "Improper privilege management in Windows Package Manager allows an authorized attacker to elevate privileges locally.",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68821",
+      "published": "2026-08-11T17:19:06.540000+00:00"
+    },
+    {
+      "id": "bc3acd1020e7c7f4",
+      "kind": "cve",
+      "cve": "CVE-2026-68819",
+      "title": "CVE-2026-68819",
+      "summary": "Buffer over-read in Windows Network File System allows an unauthorized attacker to deny service over a network.",
+      "severity": "MEDIUM",
+      "score": 5.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68819",
+      "published": "2026-08-11T17:19:06.207000+00:00"
+    },
+    {
       "id": "de05caf1d977c00a",
       "kind": "cve",
       "cve": "CVE-2026-65810",
@@ -2143,23 +2177,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65810",
       "published": "2026-08-11T17:19:00.570000+00:00"
-    },
-    {
-      "id": "40e3468a9ce6c7e5",
-      "kind": "cve",
-      "cve": "CVE-2026-65796",
-      "title": "CVE-2026-65796",
-      "summary": "Heap-based buffer overflow in Windows iSCSI Target Service allows an unauthorized attacker to execute code over a network.",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65796",
-      "published": "2026-08-11T17:18:59.590000+00:00"
     },
     {
       "id": "6fbc5903487d8579",
@@ -2602,23 +2619,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
       "published": "2026-08-11T05:48:44+00:00"
-    },
-    {
-      "id": "606f4a578e8e72b9",
-      "kind": "research",
-      "cve": null,
-      "title": "Windows SMB Server Elevation of Privilege vulnerabilities",
-      "summary": "",
-      "severity": "",
-      "score": null,
-      "source": "Synacktiv",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVUhoMzg0bVVneklIdjdQSHBtaHk3WGJ2VGZwZGRSNDNCblNROEhXREhyV0x2c3QzVkxiT29SY2Y3aG9KZkVid0w1cWphM2hvVzczcVRjZ0JXY091bU1XczRrOVpaT0d0bndxcmRodGU5Q3Zlak9WaEVqVll6UWVCZmZQMlloZks5QzlGU3padFgzQzVZenR4bkh3?oc=5",
-      "published": "2026-08-11T05:27:32+00:00"
     },
     {
       "id": "83490caa49a63b9a",
