@@ -1,7 +1,296 @@
 {
-  "generated": "2026-08-14T11:37:10.082350+00:00",
+  "generated": "2026-08-14T12:42:46.907048+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "50f1e54f8f6b623d",
+      "kind": "cve",
+      "cve": "CVE-2026-72859",
+      "title": "CVE-2026-72859",
+      "summary": "Budibase versions 3.39.4 before 3.40.0 contain an authorization regression in the S3 attachment upload endpoint that allows BASIC users to obtain S3 PutObject presigned URLs by sending POST requests to the attachments endpoint. The route wa…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72859",
+      "published": "2026-08-14T12:16:47.440000+00:00"
+    },
+    {
+      "id": "9c5de914046a5f4c",
+      "kind": "cve",
+      "cve": "CVE-2026-72837",
+      "title": "CVE-2026-72837",
+      "summary": "File Browser versions before 2.63.20 fail to honor the createUserDir isolation in proxy and hook authentication auto-provisioning paths. Attackers with valid upstream-authenticated credentials can read, modify, delete, and share files belon…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72837",
+      "published": "2026-08-14T12:16:47.187000+00:00"
+    },
+    {
+      "id": "59d638eee8072960",
+      "kind": "cve",
+      "cve": "CVE-2026-72836",
+      "title": "CVE-2026-72836",
+      "summary": "FileBrowser before 2.63.19 does not account for case-insensitive filesystems when checking home directory ownership during self-registration. When Signup and CreateUserDir are enabled and FileBrowser's root is on a case-insensitive filesyst…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72836",
+      "published": "2026-08-14T12:16:47.060000+00:00"
+    },
+    {
+      "id": "de4892670b8b820a",
+      "kind": "cve",
+      "cve": "CVE-2026-72833",
+      "title": "CVE-2026-72833",
+      "summary": "The Grav API plugin (getgrav/grav-plugin-api) versions >= 1.0.6 and <= 1.0.11 contain a privilege escalation vulnerability. A scoped API key minted on a super-admin account bypasses its declared scope cap on four isSuperAdmin()-gated write…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72833",
+      "published": "2026-08-14T12:16:46.670000+00:00"
+    },
+    {
+      "id": "d3898e37fef1aa28",
+      "kind": "cve",
+      "cve": "CVE-2026-72831",
+      "title": "CVE-2026-72831",
+      "summary": "The Flex Objects plugin (through 1.4.6, tested with Grav 2.0.11) contains an incorrect authorization vulnerability in its Flex Objects API. FlexApiController::update() checks only the general Flex directory permission and does not apply the…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72831",
+      "published": "2026-08-14T12:16:46.400000+00:00"
+    },
+    {
+      "id": "b73197aec7c1bcfb",
+      "kind": "cve",
+      "cve": "CVE-2026-72830",
+      "title": "CVE-2026-72830",
+      "summary": "Grav API plugin versions before 1.0.13 fail to enforce API key scope caps in ConfigController super-scope gates, allowing scoped keys to write scheduler configuration. Attackers with a scoped api.config.write key can inject arbitrary comman…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72830",
+      "published": "2026-08-14T12:16:46.277000+00:00"
+    },
+    {
+      "id": "5c08cab0c5186489",
+      "kind": "cve",
+      "cve": "CVE-2026-72829",
+      "title": "CVE-2026-72829",
+      "summary": "The Grav API plugin (getgrav/grav-plugin-api) before 1.0.13 contains an API-key scope-cap bypass in UsersController's create() and update() methods. These methods enforce the scope cap only for api.users.write, but gate super-privilege gran…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72829",
+      "published": "2026-08-14T12:16:46.157000+00:00"
+    },
+    {
+      "id": "5fc2ba749ee155e3",
+      "kind": "cve",
+      "cve": "CVE-2026-72828",
+      "title": "CVE-2026-72828",
+      "summary": "Grav Plugin API (getgrav/grav-plugin-api) before 1.0.13 fails to enforce API-key scope caps in InvitationsController. The strip-super and accept-groups decisions are gated on a bare isSuperAdmin() check rather than a scope-aware permission…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72828",
+      "published": "2026-08-14T12:16:46.030000+00:00"
+    },
+    {
+      "id": "79ffdd6ff7800668",
+      "kind": "cve",
+      "cve": "CVE-2026-72827",
+      "title": "CVE-2026-72827",
+      "summary": "Grav CMS before 2.0.13 contains a server-side template injection vulnerability in email-action parameters that allows low-privileged page editors to execute arbitrary operating-system commands. Attackers can inject Twig payloads using the u…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72827",
+      "published": "2026-08-14T12:16:45.907000+00:00"
+    },
+    {
+      "id": "dd6849f3a042b7e2",
+      "kind": "cve",
+      "cve": "CVE-2026-72826",
+      "title": "CVE-2026-72826",
+      "summary": "The getgrav/grav-plugin-api plugin before 1.0.13 fails to validate that the scopes of a newly created API key are a subset of the caller's scopes in createApiKey. The self-target path of requireApiKeyPermission() requires only the baseline…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72826",
+      "published": "2026-08-14T12:16:45.780000+00:00"
+    },
+    {
+      "id": "243a7e75304899e5",
+      "kind": "cve",
+      "cve": "CVE-2026-72825",
+      "title": "CVE-2026-72825",
+      "summary": "The getgrav/grav-plugin-api plugin before 1.0.13 contains an API-key scope cap bypass in the POST /reports/twig-content/allowlist endpoint (ReportsController). The endpoint enforces requirePermission('api.config.write') followed by a bare i…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72825",
+      "published": "2026-08-14T12:16:45.650000+00:00"
+    },
+    {
+      "id": "83fc7dd5b5d839df",
+      "kind": "cve",
+      "cve": "CVE-2026-72824",
+      "title": "CVE-2026-72824",
+      "summary": "The Grav API plugin (getgrav/grav-plugin-api) before 1.0.13 contains an API key scope-cap bypass in PagesController::guardTwigContent(). The Twig-toggle check uses a bare isSuperAdmin() gate that does not consult api_key_scopes, so a least-…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72824",
+      "published": "2026-08-14T12:16:45.520000+00:00"
+    },
+    {
+      "id": "e4d6acd6d5070009",
+      "kind": "cve",
+      "cve": "CVE-2026-72822",
+      "title": "CVE-2026-72822",
+      "summary": "The getgrav/grav-plugin-api Composer package before 1.0.13 (affected <= 1.0.12) fails to enforce API key scope caps on the disable2fa endpoint. Unlike the sibling generate2fa endpoint, disable2fa authorizes the admin (non-self) path solely…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72822",
+      "published": "2026-08-14T12:16:45.267000+00:00"
+    },
+    {
+      "id": "2deb2fa89e44c789",
+      "kind": "cve",
+      "cve": "CVE-2026-72819",
+      "title": "CVE-2026-72819",
+      "summary": "Grav CMS before 2.0.13 contains a remote code execution vulnerability in the Flex Objects plugin settings validation that allows authenticated users to execute arbitrary code by uploading a ZIP file containing PHP code. Attackers can bypass…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72819",
+      "published": "2026-08-14T12:16:44.873000+00:00"
+    },
+    {
+      "id": "b2692af1cc67e431",
+      "kind": "cve",
+      "cve": "CVE-2026-72811",
+      "title": "CVE-2026-72811",
+      "summary": "SiYuan versions <= v3.7.2 contain a SQL injection vulnerability in the backlink/mention search query (kernel/model/backlink.go), which concatenates stored block metadata (title, name, alias, anchor text) and the client-supplied keyword into…",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72811",
+      "published": "2026-08-14T12:16:43.903000+00:00"
+    },
+    {
+      "id": "8a35b680c95cef6e",
+      "kind": "cve",
+      "cve": "CVE-2026-72810",
+      "title": "CVE-2026-72810",
+      "summary": "SiYuan versions before v3.7.4 contain a publish-boundary bypass vulnerability in WebSocket broadcast sessions that allows anonymous readers to receive unfiltered edits. Attackers can establish a WebSocket connection to the publish surface a…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72810",
+      "published": "2026-08-14T12:16:43.760000+00:00"
+    },
+    {
+      "id": "fb099a826a3aa401",
+      "kind": "cve",
+      "cve": "CVE-2026-19822",
+      "title": "CVE-2026-19822",
+      "summary": "A vulnerability was identified in Tenda W20E 15.11.0.6(1068_1546_841)_CN_TDC. This issue affects the function lstAdd of the file /goform/editQos of the component QoS Edit. Such manipulation of the argument qosListConnecttedNum leads to stac…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19822",
+      "published": "2026-08-14T12:16:43.577000+00:00"
+    },
     {
       "id": "d878e0c4e97714ff",
       "kind": "research",
@@ -2519,6 +2808,23 @@
       "published": "2026-08-11T17:19:12.810000+00:00"
     },
     {
+      "id": "712c8ce406501838",
+      "kind": "cve",
+      "cve": "CVE-2026-65767",
+      "title": "CVE-2026-65767",
+      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Teams for Android allows an authorized attacker to perform spoofing over a network.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65767",
+      "published": "2026-08-11T17:18:55.997000+00:00"
+    },
+    {
       "id": "67e25d3698fc67d4",
       "kind": "cve",
       "cve": "CVE-2026-62782",
@@ -2891,6 +3197,23 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
       "published": "2026-08-11T05:48:44+00:00"
+    },
+    {
+      "id": "606f4a578e8e72b9",
+      "kind": "research",
+      "cve": null,
+      "title": "Windows SMB Server Elevation of Privilege vulnerabilities",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVUhoMzg0bVVneklIdjdQSHBtaHk3WGJ2VGZwZGRSNDNCblNROEhXREhyV0x2c3QzVkxiT29SY2Y3aG9KZkVid0w1cWphM2hvVzczcVRjZ0JXY091bU1XczRrOVpaT0d0bndxcmRodGU5Q3Zlak9WaEVqVll6UWVCZmZQMlloZks5QzlGU3padFgzQzVZenR4bkh3?oc=5",
+      "published": "2026-08-11T05:27:32+00:00"
     },
     {
       "id": "83490caa49a63b9a",
@@ -3928,331 +4251,6 @@
       "product": "Langflow",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770",
       "published": "2026-07-21T00:00:00+00:00"
-    },
-    {
-      "id": "802df7da9c62fae1",
-      "kind": "cve",
-      "cve": "CVE-2021-27137",
-      "title": "DD-WRT Stack-Based Buffer Overflow Vulnerability",
-      "summary": "DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "DD-WRT",
-      "product": "DD-WRT",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137",
-      "published": "2026-07-21T00:00:00+00:00"
-    },
-    {
-      "id": "9ac47da170c4637c",
-      "kind": "cve",
-      "cve": "CVE-2026-58644",
-      "title": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58644",
-      "published": "2026-07-16T00:00:00+00:00"
-    },
-    {
-      "id": "60afe02518d5329f",
-      "kind": "cve",
-      "cve": "CVE-2026-25089",
-      "title": "Fortinet FortiSandbox OS Command Injection Vulnerability",
-      "summary": "Fortinet FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS contain an OS command injection vulnerability that allows an unauthenticated attacker to execute unauthorized commands via specifically crafted HTTP requests.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Fortinet",
-      "product": "FortiSandbox",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25089",
-      "published": "2026-07-16T00:00:00+00:00"
-    },
-    {
-      "id": "7db6b9a7eede67c7",
-      "kind": "cve",
-      "cve": "CVE-2026-39808",
-      "title": "Fortinet FortiSandbox OS Command Injection Vulnerability",
-      "summary": "Fortinet FortiSandbox contains an OS command injection vulnerability that could allow an unauthenticated attacker to execute unauthorized code or commands via crafted HTTP requests.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Fortinet",
-      "product": "FortiSandbox",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39808",
-      "published": "2026-07-16T00:00:00+00:00"
-    },
-    {
-      "id": "fb80839a07c8c172",
-      "kind": "cve",
-      "cve": "CVE-2026-46817",
-      "title": "Oracle E-Business Suite Improper Privilege Management Vulnerability",
-      "summary": "Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks of this vulnerability can result in takeo…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Oracle",
-      "product": "E-Business Suite",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817",
-      "published": "2026-07-15T00:00:00+00:00"
-    },
-    {
-      "id": "5290ea3c53b30ae8",
-      "kind": "cve",
-      "cve": "CVE-2023-4346",
-      "title": "KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability",
-      "summary": "KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without additional security options enabled and set a BC…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "KNX Association",
-      "product": "KNX Protocol Connection Authorization Option 1",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346",
-      "published": "2026-07-15T00:00:00+00:00"
-    },
-    {
-      "id": "2c2b2700dd7b44b3",
-      "kind": "research",
-      "cve": null,
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesd…",
-      "severity": "",
-      "score": null,
-      "source": "Krebs on Security",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "published": "2026-07-14T19:22:42+00:00"
-    },
-    {
-      "id": "a00956a19dff3095",
-      "kind": "cve",
-      "cve": "CVE-2026-56155",
-      "title": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
-      "summary": "Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Active Directory Federation Services",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56155",
-      "published": "2026-07-14T00:00:00+00:00"
-    },
-    {
-      "id": "994f25b3dc3286e3",
-      "kind": "cve",
-      "cve": "CVE-2026-56164",
-      "title": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
-      "summary": "Microsoft SharePoint contains a missing authentication for critical function vulnerability that allows an unauthorized attacker to elevate privileges over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56164",
-      "published": "2026-07-14T00:00:00+00:00"
-    },
-    {
-      "id": "33d0dca221b2c14a",
-      "kind": "cve",
-      "cve": "CVE-2026-15409",
-      "title": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
-      "summary": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "SonicWall",
-      "product": "SMA1000 Appliances",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409",
-      "published": "2026-07-14T00:00:00+00:00"
-    },
-    {
-      "id": "819d67875b653a38",
-      "kind": "cve",
-      "cve": "CVE-2026-15410",
-      "title": "SonicWall SMA1000 Appliances Code Injection Vulnerability",
-      "summary": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "SonicWall",
-      "product": "SMA1000 Appliances",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410",
-      "published": "2026-07-14T00:00:00+00:00"
-    },
-    {
-      "id": "7fc7252b143c942e",
-      "kind": "research",
-      "cve": null,
-      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almos…",
-      "severity": "",
-      "score": null,
-      "source": "Krebs on Security",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
-      "published": "2026-07-13T15:03:28+00:00"
-    },
-    {
-      "id": "a1c2e3b8921d2735",
-      "kind": "research",
-      "cve": null,
-      "title": "Community Spotlight: Rishi (@rxerium)",
-      "summary": "“Open source isn’t about perfection; it’s about putting an idea forward and improving it together as a community.” Rishi (@rxerium) If you’ve spent any time in the Nuclei Templates repository, you’ve almost certainly run something Rishi eng…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/community-spotlight-rishi-rxerium",
-      "published": "2026-07-13T06:12:18+00:00"
-    },
-    {
-      "id": "064355d993297ad4",
-      "kind": "cve",
-      "cve": "CVE-2008-4128",
-      "title": "Cisco IOS Cross-Site Request Forgery Vulnerability",
-      "summary": "Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, and (2) a certain \"alias exec\" command to…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "IOS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128",
-      "published": "2026-07-13T00:00:00+00:00"
-    },
-    {
-      "id": "8149a00ee74f082e",
-      "kind": "cve",
-      "cve": "CVE-2026-56291",
-      "title": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "summary": "Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Balbooa",
-      "product": "Forms",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56291",
-      "published": "2026-07-10T00:00:00+00:00"
-    },
-    {
-      "id": "d57560d4b570014d",
-      "kind": "cve",
-      "cve": "CVE-2026-48939",
-      "title": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "summary": "iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "iCagenda",
-      "product": "iCagenda",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48939",
-      "published": "2026-07-10T00:00:00+00:00"
-    },
-    {
-      "id": "a862312352299b9d",
-      "kind": "research",
-      "cve": null,
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intellige…",
-      "severity": "",
-      "score": null,
-      "source": "Krebs on Security",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "published": "2026-07-08T12:31:39+00:00"
-    },
-    {
-      "id": "545d56cad8908ebf",
-      "kind": "cve",
-      "cve": "CVE-2026-48908",
-      "title": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "summary": "JoomShaper SP Page Builder contains an unrestricted upload of file with dangerous type vulnerability that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and execution of PHP code.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "JoomShaper",
-      "product": "SP Page Builder",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48908",
-      "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "f6ca726433d5ffcf",
-      "kind": "cve",
-      "cve": "CVE-2026-55255",
-      "title": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
-      "summary": "Langflow contains an authorization bypass through user-controlled key vulnerability which allows an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow ID in the request.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55255",
-      "published": "2026-07-07T00:00:00+00:00"
     }
   ]
 }
