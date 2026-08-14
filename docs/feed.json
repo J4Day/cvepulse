@@ -1,7 +1,41 @@
 {
-  "generated": "2026-08-14T16:40:59.010563+00:00",
+  "generated": "2026-08-14T17:44:48.181166+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "966675f52623d674",
+      "kind": "cve",
+      "cve": "CVE-2026-19845",
+      "title": "CVE-2026-19845",
+      "summary": "A vulnerability was determined in TOTOLINK A800R 4.1.2cu.5137_B20200730. This affects the function setStaticDhcpConfig of the file /cgi-bin/cstecgi.cgi of the component lan.so. Executing a manipulation of the argument Comment can lead to st…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19845",
+      "published": "2026-08-14T17:17:35.753000+00:00"
+    },
+    {
+      "id": "926acab799283eec",
+      "kind": "cve",
+      "cve": "CVE-2026-19844",
+      "title": "CVE-2026-19844",
+      "summary": "A vulnerability was found in TOTOLINK A800R 4.1.2cu.5137_B20200730. The impacted element is the function setRadvdCfg of the file /cgi-bin/cstecgi.cgi of the component ipv6.so. Performing a manipulation of the argument radvdinterfacename res…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19844",
+      "published": "2026-08-14T17:17:35.560000+00:00"
+    },
     {
       "id": "c83b86ab90dd3f8b",
       "kind": "cve",
@@ -377,23 +411,6 @@
       "published": "2026-08-14T01:18:56.680000+00:00"
     },
     {
-      "id": "594220babe891f67",
-      "kind": "cve",
-      "cve": "CVE-2026-72857",
-      "title": "CVE-2026-72857",
-      "summary": "Budibase before 3.40.0 fails to redact datasource credentials stored in STRING typed fields, allowing authenticated users to read MongoDB connection strings and Firebase private keys in plaintext. Attackers with table read permissions can r…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72857",
-      "published": "2026-08-13T22:17:25.040000+00:00"
-    },
-    {
       "id": "eb9b9d064970ecf8",
       "kind": "cve",
       "cve": "CVE-2026-72856",
@@ -409,23 +426,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72856",
       "published": "2026-08-13T22:17:24.893000+00:00"
-    },
-    {
-      "id": "0d555c54c227ad9c",
-      "kind": "cve",
-      "cve": "CVE-2026-72855",
-      "title": "CVE-2026-72855",
-      "summary": "Budibase before 3.40.0 contains server-side request forgery vulnerabilities in OpenAPI query import and REST query execution that allow authenticated builder-level users to bypass DNS pinning protections through DNS rebinding attacks. Attac…",
-      "severity": "HIGH",
-      "score": 8.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72855",
-      "published": "2026-08-13T22:17:24.753000+00:00"
     },
     {
       "id": "d8eb83ff75c225f7",
@@ -462,23 +462,6 @@
       "published": "2026-08-13T22:17:24.450000+00:00"
     },
     {
-      "id": "38614dae35bf1980",
-      "kind": "cve",
-      "cve": "CVE-2026-72850",
-      "title": "CVE-2026-72850",
-      "summary": "Budibase before 3.40.0 fails to properly sanitize S3 object keys, allowing authenticated builders to upload files with traversal sequences that are preserved during export. Attackers can craft filenames containing .. segments that escape th…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72850",
-      "published": "2026-08-13T22:17:24.307000+00:00"
-    },
-    {
       "id": "1f34fd8788a620d1",
       "kind": "cve",
       "cve": "CVE-2026-72849",
@@ -494,23 +477,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72849",
       "published": "2026-08-13T22:17:24.140000+00:00"
-    },
-    {
-      "id": "22761bd3a23d3c4d",
-      "kind": "cve",
-      "cve": "CVE-2026-72842",
-      "title": "CVE-2026-72842",
-      "summary": "luci-app-lxc contains an ACL inconsistency vulnerability that allows low-privileged authenticated LuCI users to access backend container management routes without proper authorization checks. Attackers can exploit path traversal via `/.%2E`…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72842",
-      "published": "2026-08-13T22:17:23.977000+00:00"
     },
     {
       "id": "51f00c9d2e8eee6f",
@@ -547,57 +513,6 @@
       "published": "2026-08-13T22:17:23.640000+00:00"
     },
     {
-      "id": "1280bdfef205c057",
-      "kind": "cve",
-      "cve": "CVE-2026-72839",
-      "title": "CVE-2026-72839",
-      "summary": "filebrowser through 2.63.16 fails to properly restrict scope and permissions when self-signup is enabled with default CreateUserDir setting. Unauthenticated attackers can register accounts that inherit the server root scope with full create…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72839",
-      "published": "2026-08-13T22:17:23.490000+00:00"
-    },
-    {
-      "id": "cd8fdce90579a3e0",
-      "kind": "cve",
-      "cve": "CVE-2026-19750",
-      "title": "CVE-2026-19750",
-      "summary": "A flaw has been found in Tenda CH, CP and TX3 V21.x/V22.x/V25.x/V26.x/V27.x. Affected by this issue is some unknown functionality of the component SSH. Executing a manipulation can lead to use of hard-coded password. It is possible to launc…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19750",
-      "published": "2026-08-13T22:17:19.290000+00:00"
-    },
-    {
-      "id": "7ab8fdf98df30a3d",
-      "kind": "cve",
-      "cve": "CVE-2026-19297",
-      "title": "CVE-2026-19297",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.9.6 could allow a remote attacker to obtain unauthorized access to user accounts due to improper restriction of excessive authentication attempts.",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19297",
-      "published": "2026-08-13T21:17:45.870000+00:00"
-    },
-    {
       "id": "8994d94b9f043a08",
       "kind": "cve",
       "cve": "CVE-2026-18193",
@@ -613,23 +528,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18193",
       "published": "2026-08-13T21:17:44.700000+00:00"
-    },
-    {
-      "id": "e817774baccf2e99",
-      "kind": "cve",
-      "cve": "CVE-2026-18101",
-      "title": "CVE-2026-18101",
-      "summary": "IBM i 7.6, 7.5, 7.4, and 7.3 could allow a local attacker to gain elevated privileges due to improper management of thread authority swaps.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18101",
-      "published": "2026-08-13T21:17:44.550000+00:00"
     },
     {
       "id": "e82250bb7f35c27a",
@@ -664,40 +562,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17482",
       "published": "2026-08-13T21:17:43.543000+00:00"
-    },
-    {
-      "id": "63c3c0eb832a28dc",
-      "kind": "cve",
-      "cve": "CVE-2026-17481",
-      "title": "CVE-2026-17481",
-      "summary": "IBM Documentation Offline 1.0.0 through 1.4.1 could allow a remote attacker to execute arbitrary code due to improper output neutralization for logs.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17481",
-      "published": "2026-08-13T21:17:43.390000+00:00"
-    },
-    {
-      "id": "dcc53d143ae9b19c",
-      "kind": "cve",
-      "cve": "CVE-2026-17473",
-      "title": "CVE-2026-17473",
-      "summary": "IBM Documentation Offline 1.0.0 through 1.4.1 could allow a remote attacker to read arbitrary files due to improper limitation of a pathname to a restricted directory.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17473",
-      "published": "2026-08-13T21:17:43.067000+00:00"
     },
     {
       "id": "b3f73bd40a7efca0",
@@ -853,23 +717,6 @@
       "published": "2026-08-13T20:17:17.377000+00:00"
     },
     {
-      "id": "f7ce0e06bfb4cdda",
-      "kind": "cve",
-      "cve": "CVE-2026-16961",
-      "title": "CVE-2026-16961",
-      "summary": "IBM i 7.6, 7.5, and 7.4 s vulnerable to SQL injection. A remote attacker could send specially crafted SQL statements, which could allow the attacker to view, add, modify, or delete information in the back-end database.",
-      "severity": "HIGH",
-      "score": 7.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16961",
-      "published": "2026-08-13T20:17:16.967000+00:00"
-    },
-    {
       "id": "c04647029fb4980d",
       "kind": "cve",
       "cve": "CVE-2026-16908",
@@ -885,23 +732,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16908",
       "published": "2026-08-13T20:17:16.667000+00:00"
-    },
-    {
-      "id": "6b9116bfffe81a8b",
-      "kind": "cve",
-      "cve": "CVE-2026-16898",
-      "title": "CVE-2026-16898",
-      "summary": "IBM i 7.6, 7.5, 7.4, and 7.3 could allow a local authenticated attacker to change the ownership of arbitrary files due to improper validation of an attacker-controlled file path.",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16898",
-      "published": "2026-08-13T20:17:16.533000+00:00"
     },
     {
       "id": "c14d649956e09bc9",
@@ -938,23 +768,6 @@
       "published": "2026-08-13T20:17:16.263000+00:00"
     },
     {
-      "id": "94125dcbc6c6c662",
-      "kind": "cve",
-      "cve": "CVE-2026-16868",
-      "title": "CVE-2026-16868",
-      "summary": "IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote attacker to cause a denial of service due to the use of uninitialized memory during ASN.1 length processing.",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16868",
-      "published": "2026-08-13T20:17:15.883000+00:00"
-    },
-    {
       "id": "6eaba9aaf2be5788",
       "kind": "cve",
       "cve": "CVE-2026-16867",
@@ -970,23 +783,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16867",
       "published": "2026-08-13T20:17:15.723000+00:00"
-    },
-    {
-      "id": "98484bcd82e4ef50",
-      "kind": "cve",
-      "cve": "CVE-2026-16815",
-      "title": "CVE-2026-16815",
-      "summary": "IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote attacker to cause a denial of service and potentially obtain sensitive information due to a stack-based buffer overflow.",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16815",
-      "published": "2026-08-13T20:17:15.187000+00:00"
     },
     {
       "id": "f5d4afadce07b54d",
@@ -1023,23 +819,6 @@
       "published": "2026-08-13T20:17:14.527000+00:00"
     },
     {
-      "id": "2831fa71b5437469",
-      "kind": "cve",
-      "cve": "CVE-2026-14875",
-      "title": "CVE-2026-14875",
-      "summary": "IBM i Access Client Solutions 1.1.2.0 through 1.1.9.13 is vulnerable to arbitrary code execution on Windows when installed for all users due to publicly writeable directory.",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14875",
-      "published": "2026-08-13T20:17:14.390000+00:00"
-    },
-    {
       "id": "483cc716b7adba61",
       "kind": "cve",
       "cve": "CVE-2026-14525",
@@ -1072,23 +851,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13460",
       "published": "2026-08-13T20:17:14.010000+00:00"
-    },
-    {
-      "id": "f0f5ebdc8a4969fb",
-      "kind": "cve",
-      "cve": "CVE-2026-13365",
-      "title": "CVE-2026-13365",
-      "summary": "IBM Planning Analytics 2.0, and 2.1 Local is vulnerable to cross-site request forgery which could allow an attacker to execute malicious and unauthorized actions transmitted from a user that the website trusts.",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13365",
-      "published": "2026-08-13T20:17:13.773000+00:00"
     },
     {
       "id": "9690a703a845076a",
@@ -1208,40 +970,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73533",
       "published": "2026-08-13T16:19:05.620000+00:00"
-    },
-    {
-      "id": "69084ca614f63aff",
-      "kind": "cve",
-      "cve": "CVE-2026-73532",
-      "title": "CVE-2026-73532",
-      "summary": "Fluent Forms Pro 6.2.7 contains an embedded malicious code vulnerability introduced via a tampered plugin build served through a decommissioned update server. The tampered build introduced a rogue PHP file (libs/class-license-sync.php), loa…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73532",
-      "published": "2026-08-13T16:19:05.480000+00:00"
-    },
-    {
-      "id": "3b473aae57c41742",
-      "kind": "cve",
-      "cve": "CVE-2026-19710",
-      "title": "CVE-2026-19710",
-      "summary": "A vulnerability was found in SourceCodester Simple Student Information System. Affected by this vulnerability is an unknown functionality of the file app/admin/departments/view_department.php. Performing a manipulation of the argument ID re…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19710",
-      "published": "2026-08-13T16:17:59.560000+00:00"
     },
     {
       "id": "7c9e11da987e4050",
@@ -2332,6 +2060,23 @@
       "published": "2026-08-11T17:19:12.810000+00:00"
     },
     {
+      "id": "cf4ffd53f4de76d4",
+      "kind": "cve",
+      "cve": "CVE-2026-70338",
+      "title": "CVE-2026-70338",
+      "summary": "Improper control of generation of code ('code injection') in Microsoft PowerShell allows an unauthorized attacker to bypass a security feature locally.",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70338",
+      "published": "2026-08-11T17:19:11.520000+00:00"
+    },
+    {
       "id": "4e5f68df596b47b8",
       "kind": "cve",
       "cve": "CVE-2026-70336",
@@ -2347,6 +2092,23 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70336",
       "published": "2026-08-11T17:19:11.277000+00:00"
+    },
+    {
+      "id": "039506370cb28b23",
+      "kind": "cve",
+      "cve": "CVE-2026-70130",
+      "title": "CVE-2026-70130",
+      "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code locally.",
+      "severity": "HIGH",
+      "score": 8.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70130",
+      "published": "2026-08-11T17:19:07.653000+00:00"
     },
     {
       "id": "a2b3c53a58c18618",
@@ -2381,6 +2143,23 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65810",
       "published": "2026-08-11T17:19:00.570000+00:00"
+    },
+    {
+      "id": "40e3468a9ce6c7e5",
+      "kind": "cve",
+      "cve": "CVE-2026-65796",
+      "title": "CVE-2026-65796",
+      "summary": "Heap-based buffer overflow in Windows iSCSI Target Service allows an unauthorized attacker to execute code over a network.",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65796",
+      "published": "2026-08-11T17:18:59.590000+00:00"
     },
     {
       "id": "6fbc5903487d8579",
@@ -4253,6 +4032,229 @@
       "product": "",
       "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
       "published": "2026-07-02T19:27:33+00:00"
+    },
+    {
+      "id": "67114ad22bf7c88c",
+      "kind": "research",
+      "cve": null,
+      "title": "It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)",
+      "summary": "We&#x2019;re back, melting - we&#x2019;ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not men…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/",
+      "published": "2026-07-02T16:38:28+00:00"
+    },
+    {
+      "id": "093432cd2e7000cd",
+      "kind": "cve",
+      "cve": "CVE-2026-45659",
+      "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+      "summary": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "Microsoft",
+      "product": "SharePoint Server",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45659",
+      "published": "2026-07-01T00:00:00+00:00"
+    },
+    {
+      "id": "b577802c68fd64b5",
+      "kind": "research",
+      "cve": "CVE-2026-8451",
+      "title": "CitrixBleed To Infinity And Beyond (Citrix NetScaler Pre-Auth Memory Overread CVE-2026-8451)",
+      "summary": "Well, well, well - once again, the cat has dragged us in and spat us out. Today, we find ourselves questioning the reality we sit within. Must it be so predictable, and why us? &#x201c;But watchTowr, what do you mean?&#x201d; Well, if you&#…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/citrixbleed-to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451/",
+      "published": "2026-06-30T19:35:58+00:00"
+    },
+    {
+      "id": "4cb02bd8a6c62d99",
+      "kind": "research",
+      "cve": "CVE-2026-8037",
+      "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037)",
+      "summary": "Welcome back to another watchTowr Labs blog post. This time, we&apos;re looking at Progress Kemp LoadMaster, a load balancer that sits at the edge of a lot of enterprise networks. Edge appliances have a habit of becoming the way in rather t…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
+      "published": "2026-06-29T19:24:54+00:00"
+    },
+    {
+      "id": "6025526b87d6e5ed",
+      "kind": "cve",
+      "cve": "CVE-2026-48558",
+      "title": "SimpleHelp Authentication Bypass Vulnerability",
+      "summary": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vu…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "SimpleHelp ",
+      "product": "SimpleHelp",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48558",
+      "published": "2026-06-29T00:00:00+00:00"
+    },
+    {
+      "id": "7202501c151746ab",
+      "kind": "cve",
+      "cve": "CVE-2026-12569",
+      "title": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+      "summary": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "PTC",
+      "product": "Windchill and FlexPLM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12569",
+      "published": "2026-06-25T00:00:00+00:00"
+    },
+    {
+      "id": "6f3b367dd113d15d",
+      "kind": "cve",
+      "cve": "CVE-2026-20230",
+      "title": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+      "summary": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote at…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Unified Communications Manager",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230",
+      "published": "2026-06-25T00:00:00+00:00"
+    },
+    {
+      "id": "3da70ef6e63c15ca",
+      "kind": "research",
+      "cve": null,
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "summary": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The…",
+      "severity": "",
+      "score": null,
+      "source": "Krebs on Security",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "published": "2026-06-23T16:12:49+00:00"
+    },
+    {
+      "id": "52d57a1d99dd0898",
+      "kind": "cve",
+      "cve": "CVE-2025-67038",
+      "title": "Lantronix EDS5000 Code Injection Vulnerability",
+      "summary": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Lantronix",
+      "product": "EDS5000",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "id": "7a710b361560f51e",
+      "kind": "cve",
+      "cve": "CVE-2026-34910",
+      "title": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+      "summary": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "id": "c9c1f14b593f0bd4",
+      "kind": "cve",
+      "cve": "CVE-2026-34909",
+      "title": "Ubiquiti UniFi OS Path Traversal Vulnerability",
+      "summary": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "id": "fb5f7f2cc98f88e2",
+      "kind": "cve",
+      "cve": "CVE-2026-34908",
+      "title": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+      "summary": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "id": "10d87533a665bcff",
+      "kind": "research",
+      "cve": null,
+      "title": "The Vulnerability Curve Bent With the AI Curve",
+      "summary": "How CVE volume, known-exploited counts and time-to-exploit all changed shape across the LLM build-out and why defenders are now on the wrong side of the clock. In 2018 the world published about 18,000 CVEs and the average vulnerability took…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/the-vulnerability-curve-bent-with-the-ai-curve",
+      "published": "2026-06-18T18:32:03+00:00"
     }
   ]
 }
