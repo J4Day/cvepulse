@@ -1,7 +1,58 @@
 {
-  "generated": "2026-08-14T21:16:52.209627+00:00",
+  "generated": "2026-08-14T22:13:14.936306+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "b18395cc7b09ca02",
+      "kind": "research",
+      "cve": null,
+      "title": "Metasploit Wrap Up: Lot of summer shells and fit http profiles",
+      "summary": "This wrap-up brings a full-on shell parade. Thirteen shiny new modules landed, starting with a buffet of RCEs. WordPress WP2Shell, Ghost CMS, Joomla JCE, Langflow, OpenCATS, Pterodactyl Panel, SonicWall SMA1000, Ray Dashboard, a Pix-for-Woo…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles",
+      "published": "2026-08-14T21:27:45+00:00"
+    },
+    {
+      "id": "bd48b74b64cce71b",
+      "kind": "cve",
+      "cve": "CVE-2026-73682",
+      "title": "CVE-2026-73682",
+      "summary": "Semaphore versions prior to 2.18.20 contain an OS command injection (argument injection) vulnerability in the repository git_url handling that allows authenticated users holding the Manager or Owner role on any project to achieve remote cod…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73682",
+      "published": "2026-08-14T21:17:58.033000+00:00"
+    },
+    {
+      "id": "8c24988a768b74e4",
+      "kind": "cve",
+      "cve": "CVE-2026-50523",
+      "title": "CVE-2026-50523",
+      "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft PowerShell allows an authorized attacker to execute code locally.",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50523",
+      "published": "2026-08-14T21:17:18.920000+00:00"
+    },
     {
       "id": "862b764da0ba1b3e",
       "kind": "cve",
@@ -972,23 +1023,6 @@
       "published": "2026-08-13T16:19:05.620000+00:00"
     },
     {
-      "id": "ea920123c40561db",
-      "kind": "cve",
-      "cve": "CVE-2026-53795",
-      "title": "CVE-2026-53795",
-      "summary": "rsync before 3.5.0 contains an arbitrary file write vulnerability that allows attackers to write files outside the intended destination tree by specifying an absolute path via --temp-dir or --link-dest options. The rename-confinement logic…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53795",
-      "published": "2026-08-13T15:19:44.117000+00:00"
-    },
-    {
       "id": "545239b94512b928",
       "kind": "cve",
       "cve": "CVE-2026-53784",
@@ -1004,23 +1038,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53784",
       "published": "2026-08-13T15:19:42.190000+00:00"
-    },
-    {
-      "id": "2862e33de3fb2080",
-      "kind": "cve",
-      "cve": "CVE-2026-73625",
-      "title": "CVE-2026-73625",
-      "summary": "GitPython versions before 3.1.54 contain a remote code execution vulnerability in the check_unsafe_options guard that can be bypassed by smuggling git options inside single-character kwarg values. Attackers can supply crafted option diction…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73625",
-      "published": "2026-08-13T12:17:27.753000+00:00"
     },
     {
       "id": "575b1a9ad4b837da",
@@ -1055,23 +1072,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73615",
       "published": "2026-08-13T12:17:26.337000+00:00"
-    },
-    {
-      "id": "868fe2b3ab38b400",
-      "kind": "cve",
-      "cve": "CVE-2026-73613",
-      "title": "CVE-2026-73613",
-      "summary": "filebrowser versions before 2.63.19 contain an out-of-scope file deletion vulnerability in the TUS upload cache eviction mechanism that allows authenticated users with only Create permission to delete arbitrary files outside their scope. At…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73613",
-      "published": "2026-08-13T12:17:26.043000+00:00"
     },
     {
       "id": "194c32e5aaf78b99",
@@ -3335,23 +3335,6 @@
       "published": "2026-07-28T13:00:00+00:00"
     },
     {
-      "id": "8beff3c633d54d4b",
-      "kind": "research",
-      "cve": null,
-      "title": "Rapid7 and Exclusive Networks expand partnership to modernize security operations and accelerate customer success",
-      "summary": "Claudia Zoon is Senior Manager, Channel Sales at Rapid7. Across Belgium, the Netherlands, and Luxembourg, organizations are accelerating digital transformation through AI, cloud adoption, and increasingly connected business operations. Thes…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/c-exclusive-networks-partnership-accelerating-customer-success",
-      "published": "2026-07-28T08:00:00+00:00"
-    },
-    {
       "id": "cb9c2b875483bfdd",
       "kind": "cve",
       "cve": "CVE-2025-68686",
@@ -4255,6 +4238,24 @@
       "product": "",
       "url": "https://labs.watchtowr.com/marking-your-own-homework-check-point-remote-access-vpn-ikev1-authentication-bypass-cve-2026-50751/",
       "published": "2026-06-12T05:17:20+00:00"
+    },
+    {
+      "id": "c5f8e67d9f90eed3",
+      "kind": "cve",
+      "cve": "CVE-2026-35273",
+      "title": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
+      "summary": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "Oracle",
+      "product": " PeopleSoft Enterprise PeopleTools",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35273",
+      "published": "2026-06-12T00:00:00+00:00"
     }
   ]
 }
