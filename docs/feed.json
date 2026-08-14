@@ -1,7 +1,41 @@
 {
-  "generated": "2026-08-14T22:13:14.936306+00:00",
+  "generated": "2026-08-14T23:12:56.340416+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "9d795e8c750314e3",
+      "kind": "cve",
+      "cve": "CVE-2026-73683",
+      "title": "CVE-2026-73683",
+      "summary": "Laravel Socialite's Facebook provider contains an authentication bypass vulnerability that allows unauthenticated attackers to replay captured OIDC id_tokens by exploiting the missing nonce claim validation in the getUserByOIDCToken() funct…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73683",
+      "published": "2026-08-14T22:17:11.550000+00:00"
+    },
+    {
+      "id": "ca4f92161243cc34",
+      "kind": "cve",
+      "cve": "CVE-2026-69414",
+      "title": "CVE-2026-69414",
+      "summary": "Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender publicly referred to as &quot;ShieldBreak &quot;. We are working to provide a high quality security update that addresses this…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69414",
+      "published": "2026-08-14T22:17:06.810000+00:00"
+    },
     {
       "id": "b18395cc7b09ca02",
       "kind": "research",
@@ -1193,23 +1227,6 @@
       "published": "2026-08-12T20:17:55.480000+00:00"
     },
     {
-      "id": "5b018e8d70849570",
-      "kind": "cve",
-      "cve": "CVE-2026-73331",
-      "title": "CVE-2026-73331",
-      "summary": "CamaleonCMS 2.9.1 contains an authenticated SQL injection vulnerability that allows authenticated attackers with post creation or editing privileges to submit a crafted slug value containing SQL syntax that the database backend evaluates as…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73331",
-      "published": "2026-08-12T20:17:55.340000+00:00"
-    },
-    {
       "id": "f0f657825a18cf4d",
       "kind": "cve",
       "cve": "CVE-2026-73326",
@@ -1244,23 +1261,6 @@
       "published": "2026-08-12T20:17:53.650000+00:00"
     },
     {
-      "id": "9281e37c99320614",
-      "kind": "cve",
-      "cve": "CVE-2026-72809",
-      "title": "CVE-2026-72809",
-      "summary": "SiYuan versions <= v3.7.2 (patched in v3.7.4) contain an authentication bypass vulnerability in the kernel's CheckAuth function, which grants the administrator role (RoleAdministrator) to any request whose RemoteAddr is loopback (127.0.0.1)…",
-      "severity": "HIGH",
-      "score": 8.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72809",
-      "published": "2026-08-12T20:17:53.110000+00:00"
-    },
-    {
       "id": "7b4e27c0d5e851c3",
       "kind": "cve",
       "cve": "CVE-2026-72804",
@@ -1276,23 +1276,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72804",
       "published": "2026-08-12T20:17:52.383000+00:00"
-    },
-    {
-      "id": "53eeeec2b28a968b",
-      "kind": "cve",
-      "cve": "CVE-2026-72801",
-      "title": "CVE-2026-72801",
-      "summary": "SiYuan versions before v3.7.4 disclose encrypted-notebook key-derivation material and wrapped data keys through unauthenticated endpoints in publish mode. Attackers can retrieve Argon2id salt, cost parameters, password verifiers, and wrappe…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72801",
-      "published": "2026-08-12T20:17:51.973000+00:00"
     },
     {
       "id": "c49946eb371f8d38",
@@ -1327,40 +1310,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72794",
       "published": "2026-08-12T20:17:50.977000+00:00"
-    },
-    {
-      "id": "ab049af97eea2656",
-      "kind": "cve",
-      "cve": "CVE-2026-72793",
-      "title": "CVE-2026-72793",
-      "summary": "SiYuan versions before v3.7.4 fail to mask sensitive configuration fields in the /api/system/getConf endpoint, allowing anonymous or publish-reader users to obtain the session-cookie signing key, OS username via pandoc path, and encrypted-n…",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72793",
-      "published": "2026-08-12T20:17:50.837000+00:00"
-    },
-    {
-      "id": "e5fc6c1a617557f8",
-      "kind": "cve",
-      "cve": "CVE-2026-72789",
-      "title": "CVE-2026-72789",
-      "summary": "SiYuan before v3.7.4 fails to properly validate publish access for encrypted notebooks, treating them as publicly accessible by default. Anonymous readers can enumerate and retrieve fully decrypted document content from unlocked encrypted n…",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72789",
-      "published": "2026-08-12T20:17:50.270000+00:00"
     },
     {
       "id": "0528f5c24acd6d5a",
@@ -4256,6 +4205,57 @@
       "product": " PeopleSoft Enterprise PeopleTools",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35273",
       "published": "2026-06-12T00:00:00+00:00"
+    },
+    {
+      "id": "ce436da605cb0237",
+      "kind": "cve",
+      "cve": "CVE-2026-10520",
+      "title": "Ivanti Sentry OS Command Injection Vulnerability",
+      "summary": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ivanti",
+      "product": "Sentry",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10520",
+      "published": "2026-06-11T00:00:00+00:00"
+    },
+    {
+      "id": "a87887de0fe62558",
+      "kind": "research",
+      "cve": "CVE-2026-10520",
+      "title": "More Evidence That Words Don't Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520)",
+      "summary": "Today, Ivanti published an advisory. &#x201c;No way?&#x201d; we hear you say. &quot;Yes way!&quot; Today&#x2019;s advisory outlines two vulnerabilities in Ivanti&#x2019;s Sentry product, appealing directly to our inner desire for sophistica…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/more-evidence-that-words-dont-mean-what-we-thought-they-meant-ivanti-sentry-pre-auth-os-command-injection-cve-2026-10520/",
+      "published": "2026-06-10T00:52:20+00:00"
+    },
+    {
+      "id": "924ac277894af899",
+      "kind": "cve",
+      "cve": "CVE-2026-11645",
+      "title": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
+      "summary": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Google",
+      "product": "Chromium V8",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11645",
+      "published": "2026-06-09T00:00:00+00:00"
     }
   ]
 }
