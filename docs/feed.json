@@ -1,7 +1,143 @@
 {
-  "generated": "2026-08-15T02:08:41.865149+00:00",
+  "generated": "2026-08-15T03:31:21.392126+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "70ea7156dafec2e4",
+      "kind": "cve",
+      "cve": "CVE-2026-15965",
+      "title": "CVE-2026-15965",
+      "summary": "The MaxUpload – Big File Uploads – Increase Maximum File Upload Size plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.4.0 via the handle_upload function. This is due to a filename-validatio…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15965",
+      "published": "2026-08-15T03:16:48.077000+00:00"
+    },
+    {
+      "id": "a14e1472076983db",
+      "kind": "cve",
+      "cve": "CVE-2026-15341",
+      "title": "CVE-2026-15341",
+      "summary": "The User Session Synchronizer plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 1.4.0. The `synchronize_session()` function, hooked on `init` and therefore executed…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15341",
+      "published": "2026-08-15T03:16:47.943000+00:00"
+    },
+    {
+      "id": "293ba1b55b3b5645",
+      "kind": "cve",
+      "cve": "CVE-2026-15312",
+      "title": "CVE-2026-15312",
+      "summary": "The Propovoice: All-in-One Client Management System plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.7.8. This is due to the `create()` function's REST endpoint failing to validate the user-…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15312",
+      "published": "2026-08-15T03:16:47.817000+00:00"
+    },
+    {
+      "id": "16e44ac73addad54",
+      "kind": "cve",
+      "cve": "CVE-2026-15303",
+      "title": "CVE-2026-15303",
+      "summary": "The 6Storage Rentals plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.27.0. This is due to the six_storage_create_wp_user() AJAX handler being registered on wp_ajax_nopriv_six_storage_create_wp…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15303",
+      "published": "2026-08-15T03:16:47.670000+00:00"
+    },
+    {
+      "id": "1bbdb4e12c6b8ded",
+      "kind": "cve",
+      "cve": "CVE-2026-15162",
+      "title": "CVE-2026-15162",
+      "summary": "The Object Sync for Salesforce plugin is vulnerable to unauthenticated SQL Injection via the wordpress_object_type parameter of its /wp-json/object-sync-for-salesforce/push/ REST route. The route's permission callback (can_process()) checks…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15162",
+      "published": "2026-08-15T03:16:47.523000+00:00"
+    },
+    {
+      "id": "9a3cff7fa62b9f5c",
+      "kind": "cve",
+      "cve": "CVE-2026-15001",
+      "title": "CVE-2026-15001",
+      "summary": "The bLoyal: Loyalty & Promotions by bLoyal plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.1.611.78. This is due to the AJAX actions `save_bloyal_configuration_data` and `save_bloyal_access…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15001",
+      "published": "2026-08-15T03:16:47.393000+00:00"
+    },
+    {
+      "id": "c4d7d3460b3ee89c",
+      "kind": "cve",
+      "cve": "CVE-2026-14484",
+      "title": "CVE-2026-14484",
+      "summary": "The RapiSafe – Secure Multi File Upload for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the handleAjaxRemoveUpload function in all versions up to, and including, 1…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14484",
+      "published": "2026-08-15T03:16:47.263000+00:00"
+    },
+    {
+      "id": "709d972cd739a136",
+      "kind": "cve",
+      "cve": "CVE-2026-14433",
+      "title": "CVE-2026-14433",
+      "summary": "The Online Booking & Scheduling Calendar for WordPress by vcita plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'business_id' parameter in all versions up to, and including, 4.6.0 due to insufficient input sanitiza…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14433",
+      "published": "2026-08-15T03:16:47.130000+00:00"
+    },
     {
       "id": "9d795e8c750314e3",
       "kind": "cve",
@@ -2774,6 +2910,23 @@
       "published": "2026-07-29T13:00:00+00:00"
     },
     {
+      "id": "bd8d65017d63b6f2",
+      "kind": "research",
+      "cve": null,
+      "title": "Exploiting Titan Quest",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14d3FaT0tJVE5IR09oX3ZTMzJ5Nmk3T0tKaWhWTU90QkdoWVFaN29GdF9FTjR5SHdXNWZxRTcyblVaZE1FVTcxbkhqQ3VhS1JEM1duUWMxRW1GaU15X3NMUncyNWNOX3ZMek9CYmE3S3h3dw?oc=5",
+      "published": "2026-07-29T12:53:36+00:00"
+    },
+    {
       "id": "db1fcc223e4cb0c5",
       "kind": "cve",
       "cve": "CVE-2026-20316",
@@ -3403,6 +3556,23 @@
       "product": "",
       "url": "https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/",
       "published": "2026-07-02T16:38:28+00:00"
+    },
+    {
+      "id": "acb4b3c8f63507ee",
+      "kind": "research",
+      "cve": null,
+      "title": "Exploring cross-domain & cross-forest RBCD: part 2",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTXhuSkpNMXVoOG1pNE5zOHl1OVdnWlduMTlYVjQwOTczdEVCcU9zU1RUVmR4cDBrSnM1NDAzR3h2R2JJMFZ1YlcxcUdCSEVLYTJpeUNvd2llUUpTM0NaQmNDVXlTNml5RzlvU29fUGp2VVl0eTFnU1lWdDZHcnR0eDRyRzluaUtFYXNhS3N3?oc=5",
+      "published": "2026-07-02T07:00:00+00:00"
     },
     {
       "id": "093432cd2e7000cd",
@@ -4090,176 +4260,6 @@
       "product": "",
       "url": "https://projectdiscovery.io/blog/red-teaming-cloud-infrastructure-with-neo",
       "published": "2026-05-21T12:18:50+00:00"
-    },
-    {
-      "id": "026ffbb5984f599e",
-      "kind": "cve",
-      "cve": "CVE-2025-34291",
-      "title": "Langflow Origin Validation Error Vulnerability",
-      "summary": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that in…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34291",
-      "published": "2026-05-21T00:00:00+00:00"
-    },
-    {
-      "id": "52891b77d8d239d1",
-      "kind": "cve",
-      "cve": "CVE-2026-34926",
-      "title": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
-      "summary": "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Trend Micro",
-      "product": "Apex One",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34926",
-      "published": "2026-05-21T00:00:00+00:00"
-    },
-    {
-      "id": "a5b0f655e5275e0e",
-      "kind": "cve",
-      "cve": "CVE-2008-4250",
-      "title": "Microsoft Windows Buffer Overflow Vulnerability",
-      "summary": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4250",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "7f13c444ca87978f",
-      "kind": "cve",
-      "cve": "CVE-2009-1537",
-      "title": "Microsoft DirectX NULL Byte Overwrite Vulnerability",
-      "summary": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "DirectX",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-1537",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "bc149b5f3de3ce61",
-      "kind": "cve",
-      "cve": "CVE-2009-3459",
-      "title": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
-      "summary": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "Acrobat and Reader",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-3459",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "3a344219e399a7e5",
-      "kind": "cve",
-      "cve": "CVE-2010-0249",
-      "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-      "summary": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Internet Explorer",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0249",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "f681e20eb89d2529",
-      "kind": "cve",
-      "cve": "CVE-2010-0806",
-      "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-      "summary": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Internet Explorer",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0806",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "568d947e55fc107c",
-      "kind": "cve",
-      "cve": "CVE-2026-41091",
-      "title": "Microsoft Defender Link Following Vulnerability",
-      "summary": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41091",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "5cc0a6e6a9089133",
-      "kind": "cve",
-      "cve": "CVE-2026-45498",
-      "title": "Microsoft Defender Denial of Service Vulnerability",
-      "summary": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45498",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "f90197c3f4a2d91d",
-      "kind": "cve",
-      "cve": "CVE-2026-42897",
-      "title": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
-      "summary": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Microsoft",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
-      "published": "2026-05-15T00:00:00+00:00"
     }
   ]
 }
