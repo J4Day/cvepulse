@@ -1,7 +1,41 @@
 {
-  "generated": "2026-08-15T06:21:30.763295+00:00",
+  "generated": "2026-08-15T07:22:54.866100+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "59ccdbefc8f0c5ea",
+      "kind": "cve",
+      "cve": "CVE-2026-15826",
+      "title": "CVE-2026-15826",
+      "summary": "The User Profile Builder plugin for WordPress is vulnerable to Authentication Bypass via Type Confusion in versions up to, and including, 3.16.4. This is due to the wppb_log_in_user() function calling absint() on the return value of wp_inse…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15826",
+      "published": "2026-08-15T07:16:19.280000+00:00"
+    },
+    {
+      "id": "0910286a55a02171",
+      "kind": "cve",
+      "cve": "CVE-2026-14279",
+      "title": "CVE-2026-14279",
+      "summary": "The Wholesale Market plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 2.2.2 via the ced_wholesale_request_send AJAX action. The ced_wholesale_request_send_callback() handler only verifies a nonce…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14279",
+      "published": "2026-08-15T07:16:19.120000+00:00"
+    },
     {
       "id": "3e006f3b89853420",
       "kind": "cve",
@@ -4225,40 +4259,6 @@
       "vendor": "Microsoft",
       "product": "DirectX",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-1537",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "bc149b5f3de3ce61",
-      "kind": "cve",
-      "cve": "CVE-2009-3459",
-      "title": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
-      "summary": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "Acrobat and Reader",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-3459",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "3a344219e399a7e5",
-      "kind": "cve",
-      "cve": "CVE-2010-0249",
-      "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-      "summary": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Internet Explorer",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0249",
       "published": "2026-05-20T00:00:00+00:00"
     }
   ]
