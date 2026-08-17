@@ -1,7 +1,41 @@
 {
-  "generated": "2026-08-17T12:24:12.962396+00:00",
+  "generated": "2026-08-17T13:32:49.818919+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "d53ffa4f224db27f",
+      "kind": "cve",
+      "cve": "CVE-2026-16467",
+      "title": "CVE-2026-16467",
+      "summary": "Missing Authorization vulnerability in Dolusoft Software Technologies Fortilogger allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects Fortilogger: before 6.1.5.9.",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16467",
+      "published": "2026-08-17T13:16:50.963000+00:00"
+    },
+    {
+      "id": "aaf8ce6957bb7792",
+      "kind": "cve",
+      "cve": "CVE-2026-14564",
+      "title": "CVE-2026-14564",
+      "summary": "Insufficiently Protected Credentials vulnerability in Innotim Software Telecommunications and Consulting Trade Ltd. Co. Logsign SIEM allows Retrieve Embedded Sensitive Data. This issue affects Logsign SIEM: from 6.4.97 before 6.4.114.",
+      "severity": "CRITICAL",
+      "score": 9.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14564",
+      "published": "2026-08-17T13:16:50.797000+00:00"
+    },
     {
       "id": "1f2b412f849f7219",
       "kind": "cve",
@@ -20,6 +54,40 @@
       "published": "2026-08-17T12:18:58.180000+00:00"
     },
     {
+      "id": "6ccd7a15a7ac096e",
+      "kind": "research",
+      "cve": null,
+      "title": "How MCP Servers Can Expose Enterprise Secrets",
+      "summary": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more organizations adopt AI agents into their sy…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "published": "2026-08-17T11:58:00+00:00"
+    },
+    {
+      "id": "97c2411c5534214b",
+      "kind": "research",
+      "cve": null,
+      "title": "Operation ASTERIX: Anatomy of a Crypto Fraud Pipeline",
+      "summary": "Operation ASTERIX overview Rapid7 researchers identified an exposed web directory on infrastructure used to support a cryptocurrency fraud operation. The server contained raw phone-number datasets, account-validation tools, enriched lead re…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/tr-operation-asterix-crypto-fraud-vishing-phishing",
+      "published": "2026-08-17T11:29:31+00:00"
+    },
+    {
       "id": "a5e978b2e2f62903",
       "kind": "cve",
       "cve": "CVE-2026-74901",
@@ -35,23 +103,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74901",
       "published": "2026-08-17T11:16:45.183000+00:00"
-    },
-    {
-      "id": "a56dd7218f1909b7",
-      "kind": "cve",
-      "cve": "CVE-2026-74900",
-      "title": "CVE-2026-74900",
-      "summary": "openssl_encrypt versions before 1.4.0 contain a critical vulnerability in pqc.py where KEM decapsulation failures silently fall back to simulation mode, generating a deterministic shared secret from only 16 bytes of the private key and publ…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74900",
-      "published": "2026-08-17T11:16:45.050000+00:00"
     },
     {
       "id": "36e7c6e9d9527a5a",
@@ -122,23 +173,6 @@
       "published": "2026-08-17T11:16:44.523000+00:00"
     },
     {
-      "id": "ecea95da787fd0d6",
-      "kind": "cve",
-      "cve": "CVE-2026-74893",
-      "title": "CVE-2026-74893",
-      "summary": "openssl_encrypt versions before 1.4.0 contain hardcoded default JWT signing secrets in config.py that pass validation checks. Attackers with access to source code can forge valid JWT tokens for any client_id to gain authenticated access to…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74893",
-      "published": "2026-08-17T11:16:44.397000+00:00"
-    },
-    {
       "id": "750b3a08177c0bd8",
       "kind": "cve",
       "cve": "CVE-2026-74892",
@@ -190,23 +224,6 @@
       "published": "2026-08-17T11:16:43.803000+00:00"
     },
     {
-      "id": "d45f451949d41820",
-      "kind": "cve",
-      "cve": "CVE-2026-74888",
-      "title": "CVE-2026-74888",
-      "summary": "openssl_encrypt versions before 1.4.0 use a non-standard PBKDF2 key derivation construction with iterations=1 per call in an outer loop, creating a KDF whose security properties have not been formally analyzed. Attackers can exploit this we…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74888",
-      "published": "2026-08-17T11:16:43.653000+00:00"
-    },
-    {
       "id": "1cd068ed7e2c8001",
       "kind": "cve",
       "cve": "CVE-2026-74886",
@@ -239,23 +256,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74884",
       "published": "2026-08-17T11:16:43.130000+00:00"
-    },
-    {
-      "id": "13729383ff6c9830",
-      "kind": "cve",
-      "cve": "CVE-2026-74883",
-      "title": "CVE-2026-74883",
-      "summary": "openssl_encrypt versions before 1.4.0 contain a sandbox bypass vulnerability where the plugin sandbox fails to restrict alternative file access methods like pathlib.Path and io.open. Attackers can import pathlib or io modules to read and wr…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74883",
-      "published": "2026-08-17T11:16:42.993000+00:00"
     },
     {
       "id": "286be9bfec6ea5a7",
@@ -528,6 +528,23 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74798",
       "published": "2026-08-17T11:16:39.873000+00:00"
+    },
+    {
+      "id": "7f864a73a9278547",
+      "kind": "research",
+      "cve": null,
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+      "summary": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, with no fix from the chipset maker. The&nbs…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "published": "2026-08-17T10:52:34+00:00"
     },
     {
       "id": "94401e3a9e83ec11",
@@ -3386,40 +3403,6 @@
       "published": "2026-08-11T12:04:51+00:00"
     },
     {
-      "id": "c5e2acb56602b69c",
-      "kind": "research",
-      "cve": null,
-      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-      "summary": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording. The onboarding paperwork is the par…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
-      "published": "2026-08-11T11:35:03+00:00"
-    },
-    {
-      "id": "8446412b3947b6a9",
-      "kind": "research",
-      "cve": null,
-      "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
-      "summary": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine. The same PnP path…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-      "published": "2026-08-11T10:48:26+00:00"
-    },
-    {
       "id": "83490caa49a63b9a",
       "kind": "research",
       "cve": null,
@@ -3964,23 +3947,6 @@
       "published": "2026-07-28T18:32:03+00:00"
     },
     {
-      "id": "0225cfd4f0ecc967",
-      "kind": "research",
-      "cve": null,
-      "title": "Rapid7 Cyber GRC is now available: Turn security action into compliance proof",
-      "summary": "Compliance has become one of the biggest operational drains on modern security teams. CISOs are being asked to manage a growing sprawl of frameworks, prove control effectiveness more often, respond to more customer assurance requests, track…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/pt-cyber-grc-available-prove-compliance-security",
-      "published": "2026-07-28T13:00:00+00:00"
-    },
-    {
       "id": "cb9c2b875483bfdd",
       "kind": "cve",
       "cve": "CVE-2025-68686",
@@ -4251,6 +4217,40 @@
       "product": "KNX Protocol Connection Authorization Option 1",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346",
       "published": "2026-07-15T00:00:00+00:00"
+    },
+    {
+      "id": "2c2b2700dd7b44b3",
+      "kind": "research",
+      "cve": null,
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesd…",
+      "severity": "",
+      "score": null,
+      "source": "Krebs on Security",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "published": "2026-07-14T19:22:42+00:00"
+    },
+    {
+      "id": "a00956a19dff3095",
+      "kind": "cve",
+      "cve": "CVE-2026-56155",
+      "title": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+      "summary": "Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Active Directory Federation Services",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56155",
+      "published": "2026-07-14T00:00:00+00:00"
     }
   ]
 }
