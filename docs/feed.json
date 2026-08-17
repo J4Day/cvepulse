@@ -1,13 +1,13 @@
 {
-  "generated": "2026-08-17T18:29:52.296445+00:00",
+  "generated": "2026-08-17T19:20:56.042449+00:00",
   "count": 250,
   "items": [
     {
-      "id": "d733c79d9da0f208",
+      "id": "4ad545c003b55ac2",
       "kind": "cve",
-      "cve": "CVE-2026-73523",
-      "title": "CVE-2026-73523",
-      "summary": "COVESA Open1722 through 0.9.2 contains an integer truncation vulnerability in acf-can-listener.c that allows unauthenticated remote attackers to cause the CAN listener to transmit process stack memory onto the CAN bus by sending a rejected…",
+      "cve": "CVE-2026-74238",
+      "title": "CVE-2026-74238",
+      "summary": "TIER IV Nebula through 1.2.0 contains an out-of-bounds read vulnerability in the Vlp32Decoder::unpack() function that allows unauthenticated remote attackers to cause the decoder to read past the end of a received UDP buffer into adjacent h…",
       "severity": "HIGH",
       "score": 7.5,
       "source": "NVD",
@@ -16,8 +16,25 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73523",
-      "published": "2026-08-17T18:18:14.170000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74238",
+      "published": "2026-08-17T19:16:42.713000+00:00"
+    },
+    {
+      "id": "fc9a9b8fabde5e48",
+      "kind": "cve",
+      "cve": "CVE-2026-66792",
+      "title": "CVE-2026-66792",
+      "summary": "A flaw was found in the multicloud-operators-subscription component. This vulnerability allows a user on a managed cluster to escalate their privileges by creating a Subscription with specific, crafted annotations. Successful exploitation g…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66792",
+      "published": "2026-08-17T19:16:34.237000+00:00"
     },
     {
       "id": "5b231c82f65269e7",
@@ -35,23 +52,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73522",
       "published": "2026-08-17T18:18:14.030000+00:00"
-    },
-    {
-      "id": "08e718d13547c7d9",
-      "kind": "cve",
-      "cve": "CVE-2026-71980",
-      "title": "CVE-2026-71980",
-      "summary": "Belledonne Communications bcg729 through 1.1.2 contains an out-of-bounds read vulnerability in the decodeSIDframe() function in src/cng.c that allows unauthenticated network-adjacent attackers to trigger a heap read beyond buffer boundaries…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71980",
-      "published": "2026-08-17T18:18:12.510000+00:00"
     },
     {
       "id": "e2d34925dbe7e269",
@@ -564,23 +564,6 @@
       "published": "2026-08-16T14:16:55.230000+00:00"
     },
     {
-      "id": "0b1ae1064bf72e02",
-      "kind": "cve",
-      "cve": "CVE-2026-73056",
-      "title": "CVE-2026-73056",
-      "summary": "SiYuan kernel versions before 3.7.4 contain an improper restriction of excessive authentication attempts vulnerability in the CheckAuth() middleware. The middleware accepts the API token (Conf.Api.Token) via an Authorization header (Token/B…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73056",
-      "published": "2026-08-16T14:16:55.083000+00:00"
-    },
-    {
       "id": "ede97f30c97d8a29",
       "kind": "research",
       "cve": null,
@@ -783,23 +766,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73045",
       "published": "2026-08-15T22:16:54.463000+00:00"
-    },
-    {
-      "id": "a7cca09847f12ffe",
-      "kind": "cve",
-      "cve": "CVE-2026-73044",
-      "title": "CVE-2026-73044",
-      "summary": "SiYuan versions before v3.7.4 fail to validate or escape table column width values, allowing stored cross-site scripting injection into style attributes. Attackers can inject malicious payloads through the setAttrViewColWidth API that break…",
-      "severity": "CRITICAL",
-      "score": 9.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73044",
-      "published": "2026-08-15T22:16:54.330000+00:00"
     },
     {
       "id": "58e1aa74821812a4",
@@ -1057,40 +1023,6 @@
       "published": "2026-08-14T21:27:45+00:00"
     },
     {
-      "id": "bd48b74b64cce71b",
-      "kind": "cve",
-      "cve": "CVE-2026-73682",
-      "title": "CVE-2026-73682",
-      "summary": "Semaphore versions prior to 2.18.20 contain an OS command injection (argument injection) vulnerability in the repository git_url handling that allows authenticated users holding the Manager or Owner role on any project to achieve remote cod…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73682",
-      "published": "2026-08-14T21:17:58.033000+00:00"
-    },
-    {
-      "id": "6030f40154bdf49f",
-      "kind": "cve",
-      "cve": "CVE-2026-17182",
-      "title": "CVE-2026-17182",
-      "summary": "IBM Db2 Mirror for i 7.4, 7.5, and 7.6 could allow a remote attacker to bypass authentication and obtain or alter sensitive information due to improper validation of request URI path segments.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17182",
-      "published": "2026-08-14T20:16:50.893000+00:00"
-    },
-    {
       "id": "bc178bd6d57753a2",
       "kind": "cve",
       "cve": "CVE-2026-17181",
@@ -1142,23 +1074,6 @@
       "published": "2026-08-14T20:16:50.180000+00:00"
     },
     {
-      "id": "bdd2131d6c6745e1",
-      "kind": "cve",
-      "cve": "CVE-2026-16879",
-      "title": "CVE-2026-16879",
-      "summary": "IBM Db2 Mirror for i 7.4, 7.5, and 7.6 could allow a remote authenticated attacker to bypass security restrictions due to improper authorization using user-supplied input.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16879",
-      "published": "2026-08-14T20:16:49.700000+00:00"
-    },
-    {
       "id": "07423ce4c38d46cc",
       "kind": "cve",
       "cve": "CVE-2026-16708",
@@ -1174,23 +1089,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16708",
       "published": "2026-08-14T20:16:49.457000+00:00"
-    },
-    {
-      "id": "0000b0ad2de6e3a8",
-      "kind": "cve",
-      "cve": "CVE-2026-73678",
-      "title": "CVE-2026-73678",
-      "summary": "MindsDB Minds Platform version 26.1.0 and earlier contains an unauthenticated remote code execution vulnerability that allows unauthenticated attackers to execute arbitrary OS commands by submitting crafted prompts to the unprotected POST /…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73678",
-      "published": "2026-08-14T19:18:01.457000+00:00"
     },
     {
       "id": "bc41d94d2cc2e3ac",
@@ -2774,6 +2672,23 @@
       "published": "2026-07-29T13:00:00+00:00"
     },
     {
+      "id": "bd8d65017d63b6f2",
+      "kind": "research",
+      "cve": null,
+      "title": "Exploiting Titan Quest",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14d3FaT0tJVE5IR09oX3ZTMzJ5Nmk3T0tKaWhWTU90QkdoWVFaN29GdF9FTjR5SHdXNWZxRTcyblVaZE1FVTcxbkhqQ3VhS1JEM1duUWMxRW1GaU15X3NMUncyNWNOX3ZMek9CYmE3S3h3dw?oc=5",
+      "published": "2026-07-29T12:53:36+00:00"
+    },
+    {
       "id": "db1fcc223e4cb0c5",
       "kind": "cve",
       "cve": "CVE-2026-20316",
@@ -3216,6 +3131,23 @@
       "product": "IOS",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128",
       "published": "2026-07-13T00:00:00+00:00"
+    },
+    {
+      "id": "9a5fe2c655eec6cd",
+      "kind": "research",
+      "cve": null,
+      "title": "The SQL Server Unicode problem: why your data might not be what you think it is?",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMjJackp0OFhkSHhvVmx1M3pVcEFjd1dEUjlVOTBFQXVHc3lyaTRoM0hxSUktYUVFOHNkQ0Rsc0pGUEtSZVpMT3NMZ21hdmpXb3dTOEtNRGhQN29FWEViV3NvRnBnTUxBMHFNUzJPUF9qV1I5bUxQQTlIR0tVV2RUMEJoQWJNNG1QSjZPRzBJalMyeEhCcEIxQ0Z0YWljSFJkaVJYX25GU0g4Y09ZRVJabmdva0FLU00?oc=5",
+      "published": "2026-07-10T07:00:00+00:00"
     },
     {
       "id": "8149a00ee74f082e",
@@ -4260,6 +4192,74 @@
       "product": "",
       "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
       "published": "2026-05-13T07:00:00+00:00"
+    },
+    {
+      "id": "fbd8f4f301b4388c",
+      "kind": "research",
+      "cve": null,
+      "title": "Nuclei Templates - April 2026",
+      "summary": "Two releases shipped this cycle - v10.4.2 (April 15) and v10.4.3 (May 5) - delivering deep KEV coverage, a major push into AI/LLM attack surface, fresh Perforce visibility, and broad quality improvements across the template library. 🚀 April…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/nuclei-templates-april-2026",
+      "published": "2026-05-12T11:26:09+00:00"
+    },
+    {
+      "id": "e2275c3be38e67a1",
+      "kind": "cve",
+      "cve": "CVE-2026-42208",
+      "title": "BerriAI LiteLLM SQL Injection Vulnerability",
+      "summary": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
+      "published": "2026-05-08T00:00:00+00:00"
+    },
+    {
+      "id": "0b960075f0625d20",
+      "kind": "cve",
+      "cve": "CVE-2026-6973",
+      "title": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
+      "summary": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
+      "published": "2026-05-07T00:00:00+00:00"
+    },
+    {
+      "id": "27a5fddb4b783b95",
+      "kind": "cve",
+      "cve": "CVE-2026-0300",
+      "title": "Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability",
+      "summary": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Se…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0300",
+      "published": "2026-05-06T00:00:00+00:00"
     }
   ]
 }
