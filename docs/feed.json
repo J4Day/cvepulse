@@ -1,7 +1,75 @@
 {
-  "generated": "2026-08-18T16:20:35.197192+00:00",
+  "generated": "2026-08-18T17:18:44.918734+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "714ca53a301f1709",
+      "kind": "cve",
+      "cve": "CVE-2026-75924",
+      "title": "CVE-2026-75924",
+      "summary": "A flaw was found in managed-serviceaccount. A compromised addon-manager pod, due to its ClusterRole granting excessive permissions, can read any secret across all namespaces. Additionally, it can approve arbitrary Certificate Signing Reques…",
+      "severity": "HIGH",
+      "score": 8.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75924",
+      "published": "2026-08-18T17:17:03.457000+00:00"
+    },
+    {
+      "id": "3b74afbff9c48b12",
+      "kind": "cve",
+      "cve": "CVE-2026-66783",
+      "title": "CVE-2026-66783",
+      "summary": "A flaw was found in the `submariner-operator` component of Red Hat Advanced Cluster Management for Kubernetes. This vulnerability allows a cluster administrator, or any user with permissions to modify the Submariner Custom Resource (CR), to…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66783",
+      "published": "2026-08-18T17:17:00.840000+00:00"
+    },
+    {
+      "id": "8b0aac575b72ab09",
+      "kind": "cve",
+      "cve": "CVE-2026-66782",
+      "title": "CVE-2026-66782",
+      "summary": "A flaw was found in the Submariner operator. This vulnerability allows for the exposure of a long-lived broker service account (SA) bearer token within the Submariner Custom Resource (CR) specification. An attacker with access to the cluste…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66782",
+      "published": "2026-08-18T17:17:00.710000+00:00"
+    },
+    {
+      "id": "e49d2ac494498f23",
+      "kind": "cve",
+      "cve": "CVE-2026-18963",
+      "title": "CVE-2026-18963",
+      "summary": "A flaw was found in the reset-credentials flow of the keycloak-services component, which is the core engine for identity and access management in Red Hat Build of Keycloak. The issue allows an unauthenticated attacker to force the password…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18963",
+      "published": "2026-08-18T17:16:57.083000+00:00"
+    },
     {
       "id": "aaff79cb125c4fe1",
       "kind": "cve",
@@ -4196,75 +4264,6 @@
       "vendor": "Kentico",
       "product": "Kentico Xperience",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2749",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "76f73c8d0c1fd4bc",
-      "kind": "cve",
-      "cve": "CVE-2023-27351",
-      "title": "PaperCut NG/MF Improper Authentication Vulnerability",
-      "summary": "PaperCut NG/MF contains an improper authentication vulnerability that could allow remote attackers to bypass authentication on affected installations via the SecurityRequestFilter class.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "PaperCut",
-      "product": "NG/MF",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27351",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "0c32e53379660022",
-      "kind": "cve",
-      "cve": "CVE-2025-48700",
-      "title": "Synacor Zimbra Collaboration Suite (ZCS) Cross-site Scripting Vulnerability",
-      "summary": "Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability that could allow attackers to execute arbitrary JavaScript within the user's session, potentially leading to unauthorized access to sensitive information…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Synacor",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48700",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "24a8319c64d5399f",
-      "kind": "cve",
-      "cve": "CVE-2026-20128",
-      "title": "Cisco Catalyst SD-WAN Manager Storing Passwords in a Recoverable Format Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains a storing passwords in a recoverable format vulnerability that allows an authenticated, local attacker to gain DCA user privileges by accessing a credential file for the DCA user on the filesystem as a…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20128",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "f472d09cc09d767c",
-      "kind": "cve",
-      "cve": "CVE-2025-32975",
-      "title": "Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability",
-      "summary": "Quest KACE Systems Management Appliance (SMA) contains an improper authentication vulnerability that could allow attackers to impersonate legitimate users without valid credentials.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Quest",
-      "product": "KACE Systems Management Appliance (SMA)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32975",
       "published": "2026-04-20T00:00:00+00:00"
     }
   ]
