@@ -1,23 +1,74 @@
 {
-  "generated": "2026-08-18T17:18:44.918734+00:00",
+  "generated": "2026-08-18T18:23:27.665817+00:00",
   "count": 250,
   "items": [
     {
-      "id": "714ca53a301f1709",
+      "id": "93eaf39c401693df",
       "kind": "cve",
-      "cve": "CVE-2026-75924",
-      "title": "CVE-2026-75924",
-      "summary": "A flaw was found in managed-serviceaccount. A compromised addon-manager pod, due to its ClusterRole granting excessive permissions, can read any secret across all namespaces. Additionally, it can approve arbitrary Certificate Signing Reques…",
-      "severity": "HIGH",
-      "score": 8.7,
+      "cve": "CVE-2026-75625",
+      "title": "CVE-2026-75625",
+      "summary": "Kraken agents fail to verify peer-to-peer downloaded blobs against their requested SHA-256 digest before committing to the content-addressable cache, relying only on CRC32 checksums for piece validation. Attackers on the agent-to-agent path…",
+      "severity": "CRITICAL",
+      "score": 9.0,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75924",
-      "published": "2026-08-18T17:17:03.457000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75625",
+      "published": "2026-08-18T18:19:34.343000+00:00"
+    },
+    {
+      "id": "c4921c981a25c77b",
+      "kind": "cve",
+      "cve": "CVE-2026-75130",
+      "title": "CVE-2026-75130",
+      "summary": "Context7 through 2.1.2 contains a prompt injection vulnerability that allows attackers to execute malicious instructions in connected AI coding agents by injecting unsanitized content through the Custom AI Instructions feature served via th…",
+      "severity": "CRITICAL",
+      "score": 9.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75130",
+      "published": "2026-08-18T18:19:34.197000+00:00"
+    },
+    {
+      "id": "c6fef35714be5c7d",
+      "kind": "cve",
+      "cve": "CVE-2026-74038",
+      "title": "CVE-2026-74038",
+      "summary": "Wazuh 4.0.0 before 4.14.6 contains a path traversal vulnerability that allows unauthenticated remote attackers to cause denial of service by enrolling an agent with a dot-sequence name such as \"..\" through the enrollment port. Attackers exp…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74038",
+      "published": "2026-08-18T18:19:33.610000+00:00"
+    },
+    {
+      "id": "4d52298fb06321bc",
+      "kind": "cve",
+      "cve": "CVE-2026-66780",
+      "title": "CVE-2026-66780",
+      "summary": "A flaw was found in the submariner-operator component. The `submariner-k8s-broker-cluster` Role, which is assigned to joined clusters, possesses excessive permissions. This allows a compromised cluster to alter network configurations, speci…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66780",
+      "published": "2026-08-18T18:19:23.940000+00:00"
     },
     {
       "id": "3b74afbff9c48b12",
@@ -190,23 +241,6 @@
       "published": "2026-08-18T16:18:21.787000+00:00"
     },
     {
-      "id": "bf7ab1ee662a1751",
-      "kind": "cve",
-      "cve": "CVE-2026-75858",
-      "title": "CVE-2026-75858",
-      "summary": "CodeWhale (packages codewhale / codewhale-tui) versions >= 0.8.41 and < 0.8.64 contain a remote code execution vulnerability in the rlm_eval tool. The tool's approval_requirement() returns ApprovalRequirement::Auto, which the engine treats…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75858",
-      "published": "2026-08-18T16:18:21.653000+00:00"
-    },
-    {
       "id": "fc2f1005b826f35d",
       "kind": "cve",
       "cve": "CVE-2026-75857",
@@ -307,23 +341,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75784",
       "published": "2026-08-18T15:17:13.857000+00:00"
-    },
-    {
-      "id": "54ffdb0afec33f1a",
-      "kind": "cve",
-      "cve": "CVE-2026-66793",
-      "title": "CVE-2026-66793",
-      "summary": "A flaw was found in the governance-policy-addon-controller component of Red Hat Advanced Cluster Management for Kubernetes. A user with permissions to annotate the namespaced ManagedClusterAddOn resource can override the governance-policy c…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66793",
-      "published": "2026-08-18T15:17:00.140000+00:00"
     },
     {
       "id": "7ff408733da67079",
@@ -530,23 +547,6 @@
       "published": "2026-08-18T11:20:00+00:00"
     },
     {
-      "id": "c43bc6d6a06d3b94",
-      "kind": "cve",
-      "cve": "CVE-2026-75627",
-      "title": "CVE-2026-75627",
-      "summary": "Bastillion fails to properly validate request URI paths in its controller dispatcher, allowing unauthenticated attackers to bypass authentication filters by prefixing requests with arbitrary path segments. Attackers can access administrativ…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75627",
-      "published": "2026-08-18T11:16:52.060000+00:00"
-    },
-    {
       "id": "91d422ce2ed08381",
       "kind": "cve",
       "cve": "CVE-2026-75626",
@@ -647,6 +647,74 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33256",
       "published": "2026-08-18T02:00:03+00:00"
+    },
+    {
+      "id": "7141113217a74fa6",
+      "kind": "cve",
+      "cve": "CVE-2026-33824",
+      "title": "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+      "summary": "Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Internet Key Exchange (IKE) Service Extensions",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
+      "published": "2026-08-18T00:00:00+00:00"
+    },
+    {
+      "id": "8e50e36fb4851c22",
+      "kind": "cve",
+      "cve": "CVE-2026-59310",
+      "title": "Broadcom VMware vCenter Path Traversal Vulnerability",
+      "summary": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Broadcom",
+      "product": "VMware vCenter",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
+      "published": "2026-08-18T00:00:00+00:00"
+    },
+    {
+      "id": "4953d6e60ee46cdf",
+      "kind": "cve",
+      "cve": "CVE-2026-55040",
+      "title": "Microsoft SharePoint Weak Authentication Vulnerability",
+      "summary": "Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "SharePoint",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+      "published": "2026-08-18T00:00:00+00:00"
+    },
+    {
+      "id": "7285a84df22619e5",
+      "kind": "cve",
+      "cve": "CVE-2026-65400",
+      "title": "Apple macOS Improper Authentication Vulnerability",
+      "summary": "Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Apple",
+      "product": "macOS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+      "published": "2026-08-18T00:00:00+00:00"
     },
     {
       "id": "2ba66817df221d62",
@@ -4196,75 +4264,6 @@
       "product": "Marimo",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39987",
       "published": "2026-04-23T00:00:00+00:00"
-    },
-    {
-      "id": "a18021500272fe4f",
-      "kind": "cve",
-      "cve": "CVE-2026-33825",
-      "title": "Microsoft Defender Insufficient Granularity of Access Control Vulnerability",
-      "summary": "Microsoft Defender contains an insufficient granularity of access control vulnerability that could allow an authorized attacker to escalate privileges locally.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33825",
-      "published": "2026-04-22T00:00:00+00:00"
-    },
-    {
-      "id": "4bbd8e20a6586940",
-      "kind": "cve",
-      "cve": "CVE-2026-20122",
-      "title": "Cisco Catalyst SD-WAN Manager Incorrect Use of Privileged APIs Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains an incorrect use of privileged APIs vulnerability due to improper file handling on the API interface of an affected system. An attacker could exploit this vulnerability by uploading a malicious file on…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manger",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20122",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "2166f6c7e73b91d2",
-      "kind": "cve",
-      "cve": "CVE-2026-20133",
-      "title": "Cisco Catalyst SD-WAN Manager Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains an exposure of sensitive information to an unauthorized actor vulnerability that could allow remote attackers to view sensitive information on affected systems.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20133",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "c2476643493dac3e",
-      "kind": "cve",
-      "cve": "CVE-2025-2749",
-      "title": "Kentico Xperience Path Traversal Vulnerability",
-      "summary": "Kentico Xperience contains a path traversal vulnerability that could allow an authenticated user's Staging Sync Server to upload arbitrary data to path relative locations.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Kentico",
-      "product": "Kentico Xperience",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2749",
-      "published": "2026-04-20T00:00:00+00:00"
     }
   ]
 }
