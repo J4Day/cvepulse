@@ -1,7 +1,211 @@
 {
-  "generated": "2026-08-18T15:22:04.882435+00:00",
+  "generated": "2026-08-18T16:20:35.197192+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "aaff79cb125c4fe1",
+      "kind": "cve",
+      "cve": "CVE-2026-75926",
+      "title": "CVE-2026-75926",
+      "summary": "Hugo 0.161.0 placed the Node asset pipelines behind the Node.js permission model so that code running through PostCSS, Babel, or TailwindCSS could not reach the file system outside the project directory. Hugo 0.162.0 added tailwindcss to th…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75926",
+      "published": "2026-08-18T16:18:24.443000+00:00"
+    },
+    {
+      "id": "4d8c6af9e5d711d3",
+      "kind": "cve",
+      "cve": "CVE-2026-75915",
+      "title": "CVE-2026-75915",
+      "summary": "CodeWhale versions before 0.8.64 contain an environment variable exposure vulnerability in the js_execution tool that fails to scrub parent process environment variables before spawning Node.js. Attackers can craft malicious JavaScript code…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75915",
+      "published": "2026-08-18T16:18:23.970000+00:00"
+    },
+    {
+      "id": "c98b8f1f187b7bad",
+      "kind": "cve",
+      "cve": "CVE-2026-75914",
+      "title": "CVE-2026-75914",
+      "summary": "CodeWhale versions before 0.8.64 contain a path traversal vulnerability in the image_analyze tool that fails to canonicalize symlinks before reading files. Attackers can create workspace symlinks pointing to external files with image extens…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75914",
+      "published": "2026-08-18T16:18:23.840000+00:00"
+    },
+    {
+      "id": "f91cbe4809a7e84c",
+      "kind": "cve",
+      "cve": "CVE-2026-75913",
+      "title": "CVE-2026-75913",
+      "summary": "CodeWhale (codewhale / codewhale-tui) versions >= 0.8.41 and < 0.8.64 contain an argument injection vulnerability in the git_show tool. The model-supplied rev parameter is passed unvalidated into the git show argv without an --end-of-option…",
+      "severity": "CRITICAL",
+      "score": 9.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75913",
+      "published": "2026-08-18T16:18:23.363000+00:00"
+    },
+    {
+      "id": "96460ffd153b1e32",
+      "kind": "cve",
+      "cve": "CVE-2026-75912",
+      "title": "CVE-2026-75912",
+      "summary": "CodeWhale versions before 0.8.64 contain an argument injection vulnerability in the git_blame tool that allows attackers to read arbitrary files by injecting git options into the unvalidated rev parameter. Attackers can supply rev values li…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75912",
+      "published": "2026-08-18T16:18:23.220000+00:00"
+    },
+    {
+      "id": "6eea95f0b53ba9a2",
+      "kind": "cve",
+      "cve": "CVE-2026-75911",
+      "title": "CVE-2026-75911",
+      "summary": "CodeWhale versions before 0.8.64 fail to properly validate the allow_shell configuration parameter from project config files, allowing attackers to enable arbitrary shell command execution by committing a malicious .codewhale/config.toml fi…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75911",
+      "published": "2026-08-18T16:18:23.057000+00:00"
+    },
+    {
+      "id": "f93e58c9769b852c",
+      "kind": "cve",
+      "cve": "CVE-2026-75859",
+      "title": "CVE-2026-75859",
+      "summary": "CodeWhale versions before 0.8.64 fail to validate file paths in the project config instructions field, allowing attackers to read arbitrary files on the victim's system. A malicious .codewhale/config.toml file in a cloned repository can spe…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75859",
+      "published": "2026-08-18T16:18:21.787000+00:00"
+    },
+    {
+      "id": "bf7ab1ee662a1751",
+      "kind": "cve",
+      "cve": "CVE-2026-75858",
+      "title": "CVE-2026-75858",
+      "summary": "CodeWhale (packages codewhale / codewhale-tui) versions >= 0.8.41 and < 0.8.64 contain a remote code execution vulnerability in the rlm_eval tool. The tool's approval_requirement() returns ApprovalRequirement::Auto, which the engine treats…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75858",
+      "published": "2026-08-18T16:18:21.653000+00:00"
+    },
+    {
+      "id": "fc2f1005b826f35d",
+      "kind": "cve",
+      "cve": "CVE-2026-75857",
+      "title": "CVE-2026-75857",
+      "summary": "CodeWhale versions >= 0.8.41 and < 0.8.64 contain a vulnerability in the exec_shell_interact (alias exec_interact) tool, whose approval_requirement returns ApprovalRequirement::Auto. This overrides the default Required approval for code-exe…",
+      "severity": "HIGH",
+      "score": 7.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75857",
+      "published": "2026-08-18T16:18:21.520000+00:00"
+    },
+    {
+      "id": "0738ef86aaf9c089",
+      "kind": "cve",
+      "cve": "CVE-2026-75856",
+      "title": "CVE-2026-75856",
+      "summary": "CodeWhale before 0.8.64 contains a server-side request forgery bypass vulnerability in DNS pinning logic that fails to prevent time-of-check-time-of-use attacks. Attackers can manipulate DNS responses to fail initial resolution checks and s…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75856",
+      "published": "2026-08-18T16:18:21.133000+00:00"
+    },
+    {
+      "id": "935fa034c567223f",
+      "kind": "cve",
+      "cve": "CVE-2026-71365",
+      "title": "CVE-2026-71365",
+      "summary": "A server-side request forgery (SSRF) vulnerability was found in AWX's webhook status callback mechanism. When processing GitHub pull request webhooks, AWX extracts the status callback URL (pull_request.statuses_url) from the incoming webhoo…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71365",
+      "published": "2026-08-18T16:18:16.157000+00:00"
+    },
+    {
+      "id": "049fa8a55a00d34f",
+      "kind": "cve",
+      "cve": "CVE-2026-12564",
+      "title": "CVE-2026-12564",
+      "summary": "A flaw was found in the AAP Controller's HashiCorp Vault credential plugin. The kubernetes_auth() function in awx_plugins/credentials/hashivault.py reads the controller pod's Kubernetes service account token and sends it to an attacker-cont…",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12564",
+      "published": "2026-08-18T16:17:01.917000+00:00"
+    },
     {
       "id": "1d2fbaacfd7df9ef",
       "kind": "cve",
@@ -343,23 +547,6 @@
       "published": "2026-08-18T06:16:44.227000+00:00"
     },
     {
-      "id": "b730e1062acd26ee",
-      "kind": "cve",
-      "cve": "CVE-2026-15748",
-      "title": "CVE-2026-15748",
-      "summary": "The Forminator Forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.56.1 via the handle_file_upload function. This is due to insufficient file type validation in handle_file_upload, where…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15748",
-      "published": "2026-08-18T06:16:40.670000+00:00"
-    },
-    {
       "id": "7ea6b1eba4f7b113",
       "kind": "cve",
       "cve": "CVE-2026-11801",
@@ -394,40 +581,6 @@
       "published": "2026-08-18T02:00:03+00:00"
     },
     {
-      "id": "319ab3885b300e65",
-      "kind": "cve",
-      "cve": "CVE-2026-75080",
-      "title": "CVE-2026-75080",
-      "summary": "A security vulnerability has been detected in SourceCodester Class and Exam Timetabling System 1.0. This issue affects some unknown processing of the file /edit_subject1.php. The manipulation of the argument ID leads to sql injection. The a…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75080",
-      "published": "2026-08-18T00:16:53.543000+00:00"
-    },
-    {
-      "id": "ebaf04651ea567de",
-      "kind": "cve",
-      "cve": "CVE-2026-75481",
-      "title": "CVE-2026-75481",
-      "summary": "SkyPilot fails to validate that authenticated users are entitled to grant administrator roles when updating service account permissions. Attackers can create a service account, escalate it to administrator role, and authenticate with its be…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75481",
-      "published": "2026-08-17T21:16:50.647000+00:00"
-    },
-    {
       "id": "2ba66817df221d62",
       "kind": "cve",
       "cve": "CVE-2026-75111",
@@ -445,23 +598,6 @@
       "published": "2026-08-17T21:16:50.193000+00:00"
     },
     {
-      "id": "46d86b2472b37659",
-      "kind": "cve",
-      "cve": "CVE-2026-75109",
-      "title": "CVE-2026-75109",
-      "summary": "Determined fails to authorize requests on the generic task kill, pause, and unpause endpoints in the API handlers. Authenticated attackers can disrupt other users' workloads by terminating, pausing, or unpausing tasks they do not own.",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75109",
-      "published": "2026-08-17T21:16:49.897000+00:00"
-    },
-    {
       "id": "71f1e40c6b831647",
       "kind": "cve",
       "cve": "CVE-2026-75105",
@@ -477,40 +613,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75105",
       "published": "2026-08-17T21:16:49.473000+00:00"
-    },
-    {
-      "id": "ca870df9f75dad49",
-      "kind": "cve",
-      "cve": "CVE-2026-75103",
-      "title": "CVE-2026-75103",
-      "summary": "Crawlab fails to verify user ownership or administrative role on the password-change endpoint, allowing any authenticated user to reset any account's password. Attackers can enumerate user accounts through the user listing endpoint and chan…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75103",
-      "published": "2026-08-17T21:16:49.200000+00:00"
-    },
-    {
-      "id": "7b457ca4e488bbe6",
-      "kind": "cve",
-      "cve": "CVE-2026-66795",
-      "title": "CVE-2026-66795",
-      "summary": "A flaw was found in the managedcluster-import-controller. The Certificate Signing Request (CSR) auto-approval logic improperly validates incoming CSRs, specifically by not inspecting the signer name or decoding the PEM-encoded x509 CSR. Thi…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66795",
-      "published": "2026-08-17T21:16:47.163000+00:00"
     },
     {
       "id": "0ef249a9b6484edd",
@@ -4164,109 +4266,6 @@
       "product": "KACE Systems Management Appliance (SMA)",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32975",
       "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "b087d48c33c9b826",
-      "kind": "cve",
-      "cve": "CVE-2024-27199",
-      "title": "JetBrains TeamCity Relative Path Traversal Vulnerability",
-      "summary": "JetBrains TeamCity contains a relative path traversal vulnerability that could allow limited admin actions to be performed.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "JetBrains",
-      "product": "TeamCity",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27199",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "e059758977a9e969",
-      "kind": "research",
-      "cve": null,
-      "title": "Neo v. DIY: The gap between a single finding and a mature security program",
-      "summary": "In our latest webinar, our Founding Solutions Engineer, Davis Franklin, addressed the massive gap between finding a vulnerability with an LLM and running a mature security program. That gap is what Neo is built to close. With the release of…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/neo-vs-diy",
-      "published": "2026-04-17T19:05:29+00:00"
-    },
-    {
-      "id": "ddc10eae918a31fb",
-      "kind": "cve",
-      "cve": "CVE-2026-34197",
-      "title": "Apache ActiveMQ Improper Input Validation Vulnerability",
-      "summary": "Apache ActiveMQ contains an improper input validation vulnerability that allows for code injection.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apache",
-      "product": "ActiveMQ",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34197",
-      "published": "2026-04-16T00:00:00+00:00"
-    },
-    {
-      "id": "cc5ec83614c97d98",
-      "kind": "cve",
-      "cve": "CVE-2009-0238",
-      "title": "Microsoft Office Remote Code Execution",
-      "summary": "Microsoft Office Excel contains a remote code execution vulnerability that could allow an attacker to take complete control of an affected system if a user opens a specially crafted Excel file that includes a malformed object.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Office",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-0238",
-      "published": "2026-04-14T00:00:00+00:00"
-    },
-    {
-      "id": "517ea19addbc257d",
-      "kind": "cve",
-      "cve": "CVE-2026-32201",
-      "title": "Microsoft SharePoint Server Improper Input Validation Vulnerability",
-      "summary": "Microsoft SharePoint Server contains an improper input validation vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32201",
-      "published": "2026-04-14T00:00:00+00:00"
-    },
-    {
-      "id": "ea72b43f396f9b7a",
-      "kind": "cve",
-      "cve": "CVE-2012-1854",
-      "title": "Microsoft Visual Basic for Applications Insecure Library Loading Vulnerability",
-      "summary": "Microsoft Visual Basic for Applications (VBA) contains an insecure library loading vulnerability that could allow for remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Visual Basic for Applications (VBA)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-1854",
-      "published": "2026-04-13T00:00:00+00:00"
     }
   ]
 }
