@@ -1,7 +1,126 @@
 {
-  "generated": "2026-08-19T22:15:02.240862+00:00",
+  "generated": "2026-08-19T23:14:38.283425+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "1337354e582d855a",
+      "kind": "cve",
+      "cve": "CVE-2026-76850",
+      "title": "CVE-2026-76850",
+      "summary": "LMDeploy deserializes disaggregated-serving peer messages with pickle. The handle_zmq_recv coroutine in lmdeploy/pytorch/disagg/conn/engine_conn.py reads peer-to-peer cache-free requests with recv_pyobj(), which deserializes the received by…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76850",
+      "published": "2026-08-19T22:17:28.123000+00:00"
+    },
+    {
+      "id": "4f20d8d201d62a4c",
+      "kind": "cve",
+      "cve": "CVE-2026-76590",
+      "title": "CVE-2026-76590",
+      "summary": "A vulnerability was identified in TRENDnet TEW-755AP up to 20260702. Affected by this issue is some unknown functionality of the file /cgi-bin/wan.cgi of the component ssi. Such manipulation of the argument cameo.wan.wan_pppoe_password_00 l…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76590",
+      "published": "2026-08-19T22:17:27.613000+00:00"
+    },
+    {
+      "id": "db446b5b9962e0ac",
+      "kind": "cve",
+      "cve": "CVE-2026-76589",
+      "title": "CVE-2026-76589",
+      "summary": "A vulnerability was found in TRENDnet TEW-755AP up to 20260702. Affected is the function FUN_401000 of the file /sbin/mycli. The manipulation of the argument ssid results in stack-based buffer overflow. The attack may be launched remotely.…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76589",
+      "published": "2026-08-19T22:17:27.447000+00:00"
+    },
+    {
+      "id": "77e9b25e285393be",
+      "kind": "cve",
+      "cve": "CVE-2026-76404",
+      "title": "CVE-2026-76404",
+      "summary": "In Splunk MCP Server app versions below 1.2.1, a user who holds the \"admin\" Splunk role could execute arbitrary commands on the underlying operating system. The vulnerability is possible because of missing input validation in the app's cred…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76404",
+      "published": "2026-08-19T22:17:27.170000+00:00"
+    },
+    {
+      "id": "a7334a10f399455e",
+      "kind": "cve",
+      "cve": "CVE-2026-76312",
+      "title": "CVE-2026-76312",
+      "summary": "In Splunk Enterprise versions below 10.4.1, 10.2.6, 10.0.9, and 9.4.14, an unauthenticated user who can read the Hypertext Markup Language (HTML) source of a page that embeds a Splunk report could use exposed session material to access all…",
+      "severity": "CRITICAL",
+      "score": 9.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76312",
+      "published": "2026-08-19T22:17:14.960000+00:00"
+    },
+    {
+      "id": "c66860867ac68e96",
+      "kind": "cve",
+      "cve": "CVE-2026-76311",
+      "title": "CVE-2026-76311",
+      "summary": "In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, an unauthenticated user who has an embedded report token could download the dispatch archive for an embedded report search job and use exposed session material to acces…",
+      "severity": "CRITICAL",
+      "score": 9.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76311",
+      "published": "2026-08-19T22:17:14.837000+00:00"
+    },
+    {
+      "id": "3e499c4805b1c1c2",
+      "kind": "cve",
+      "cve": "CVE-2026-76310",
+      "title": "CVE-2026-76310",
+      "summary": "In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, an unauthenticated user who has an embedded report token could download the associated search job dispatch archive, recover session material, and use it to access all r…",
+      "severity": "CRITICAL",
+      "score": 9.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76310",
+      "published": "2026-08-19T22:17:14.700000+00:00"
+    },
     {
       "id": "e1b8b027dae3616c",
       "kind": "cve",
@@ -4132,125 +4251,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61193",
       "published": "2026-08-18T21:16:54.653000+00:00"
-    },
-    {
-      "id": "338b78d0fb77d0f6",
-      "kind": "cve",
-      "cve": "CVE-2026-61177",
-      "title": "CVE-2026-61177",
-      "summary": "Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Runtime Tools). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61177",
-      "published": "2026-08-18T21:16:54.537000+00:00"
-    },
-    {
-      "id": "23f149f3d64121bb",
-      "kind": "cve",
-      "cve": "CVE-2026-61118",
-      "title": "CVE-2026-61118",
-      "summary": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: OIM Legacy UI). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows low privileged attacker…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61118",
-      "published": "2026-08-18T21:16:54.177000+00:00"
-    },
-    {
-      "id": "1f23332233fb06dd",
-      "kind": "cve",
-      "cve": "CVE-2026-61066",
-      "title": "CVE-2026-61066",
-      "summary": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: OIM Legacy UI). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows low privileged attacker…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61066",
-      "published": "2026-08-18T21:16:54.043000+00:00"
-    },
-    {
-      "id": "27c3736bea7c25f7",
-      "kind": "cve",
-      "cve": "CVE-2026-61058",
-      "title": "CVE-2026-61058",
-      "summary": "Vulnerability in the Oracle WebCenter Sites product of Oracle Fusion Middleware (component: WebCenter Sites). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacke…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61058",
-      "published": "2026-08-18T21:16:53.927000+00:00"
-    },
-    {
-      "id": "5a4f7bf5dfca86cc",
-      "kind": "cve",
-      "cve": "CVE-2026-61054",
-      "title": "CVE-2026-61054",
-      "summary": "Vulnerability in the Oracle WebCenter Sites product of Oracle Fusion Middleware (component: WebCenter Sites). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attack…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61054",
-      "published": "2026-08-18T21:16:53.807000+00:00"
-    },
-    {
-      "id": "077cd947a3f707cf",
-      "kind": "cve",
-      "cve": "CVE-2026-61042",
-      "title": "CVE-2026-61042",
-      "summary": "Vulnerability in the Oracle WebCenter Sites product of Oracle Fusion Middleware (component: WebCenter Sites). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacke…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61042",
-      "published": "2026-08-18T21:16:53.570000+00:00"
-    },
-    {
-      "id": "923f3b1347454429",
-      "kind": "cve",
-      "cve": "CVE-2026-61040",
-      "title": "CVE-2026-61040",
-      "summary": "Vulnerability in the Oracle WebCenter Sites product of Oracle Fusion Middleware (component: WebCenter Sites). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacke…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61040",
-      "published": "2026-08-18T21:16:53.457000+00:00"
     }
   ]
 }
