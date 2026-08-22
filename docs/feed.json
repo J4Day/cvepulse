@@ -1,7 +1,109 @@
 {
-  "generated": "2026-08-22T12:20:23.243536+00:00",
+  "generated": "2026-08-22T13:24:39.731098+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "3d532887efa2933f",
+      "kind": "cve",
+      "cve": "CVE-2026-62243",
+      "title": "CVE-2026-62243",
+      "summary": "Netty (io.netty:netty-handler) versions from 4.2.0.Final through 4.2.16.Final and versions through 4.1.136.Final disable TLS hostname verification on the SslProvider.OPENSSL client path when a plain (non-extended) X509TrustManager is used a…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62243",
+      "published": "2026-08-22T13:16:39.687000+00:00"
+    },
+    {
+      "id": "d3f4cd1e4621cfed",
+      "kind": "cve",
+      "cve": "CVE-2026-60084",
+      "title": "CVE-2026-60084",
+      "summary": "SiYuan versions before v3.7.4 contain an arbitrary file deletion vulnerability in the /api/search/removeTemplate endpoint that accepts an unvalidated path parameter passed directly to os.RemoveAll. Authenticated admin attackers can supply a…",
+      "severity": "HIGH",
+      "score": 8.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60084",
+      "published": "2026-08-22T13:16:39.407000+00:00"
+    },
+    {
+      "id": "4b0cb32ec4820ae7",
+      "kind": "cve",
+      "cve": "CVE-2026-59808",
+      "title": "CVE-2026-59808",
+      "summary": "AVideo through commit 9c39d8c8 contains an authentication bypass vulnerability where deduplicateByEncoderQueueId() returns video_id_hash credentials for any video by encoder_queue_id without ownership verification, and useVideoHashOrLogin()…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59808",
+      "published": "2026-08-22T13:16:38.977000+00:00"
+    },
+    {
+      "id": "86bb70f3fd5b2a57",
+      "kind": "cve",
+      "cve": "CVE-2026-59256",
+      "title": "CVE-2026-59256",
+      "summary": "WWBN AVideo through commit 9c39d8c8 contains an authorization bypass vulnerability where getToken() creates tokens without binding to user identity or purpose, and plugin/Gallery/view/sections.php issues valid tokens to unauthenticated visi…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59256",
+      "published": "2026-08-22T13:16:38.817000+00:00"
+    },
+    {
+      "id": "836031937f21c04e",
+      "kind": "cve",
+      "cve": "CVE-2026-58003",
+      "title": "CVE-2026-58003",
+      "summary": "WWBN AVideo through commit 9c39d8c8 contains a cross-site request forgery vulnerability in the releaseVideoNow.json.php endpoint that lacks authenticity checks and accepts GET requests. Attackers can craft a malicious cross-site GET request…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58003",
+      "published": "2026-08-22T13:16:38.673000+00:00"
+    },
+    {
+      "id": "e20554a31a674541",
+      "kind": "cve",
+      "cve": "CVE-2026-57998",
+      "title": "CVE-2026-57998",
+      "summary": "better-npm-audit through 3.11.0, and the 4.0.0-rc.2 prerelease, builds its npm audit command by interpolating the user-supplied --registry option into a command string in src/handlers/handleInput.ts without validation or quoting, then passe…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-57998",
+      "published": "2026-08-22T13:16:38.263000+00:00"
+    },
     {
       "id": "33aa1845a2b04329",
       "kind": "cve",
@@ -4158,109 +4260,6 @@
       "product": "",
       "url": "https://projectdiscovery.io/blog/nuclei-templates-april-2026",
       "published": "2026-05-12T11:26:09+00:00"
-    },
-    {
-      "id": "e2275c3be38e67a1",
-      "kind": "cve",
-      "cve": "CVE-2026-42208",
-      "title": "BerriAI LiteLLM SQL Injection Vulnerability",
-      "summary": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
-      "published": "2026-05-08T00:00:00+00:00"
-    },
-    {
-      "id": "0b960075f0625d20",
-      "kind": "cve",
-      "cve": "CVE-2026-6973",
-      "title": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
-      "summary": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": "Endpoint Manager Mobile (EPMM)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
-      "published": "2026-05-07T00:00:00+00:00"
-    },
-    {
-      "id": "27a5fddb4b783b95",
-      "kind": "cve",
-      "cve": "CVE-2026-0300",
-      "title": "Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability",
-      "summary": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Se…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Palo Alto Networks",
-      "product": "PAN-OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0300",
-      "published": "2026-05-06T00:00:00+00:00"
-    },
-    {
-      "id": "0d08b28d14a01511",
-      "kind": "cve",
-      "cve": "CVE-2026-31431",
-      "title": "Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability",
-      "summary": "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Linux",
-      "product": "Kernel",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
-      "published": "2026-05-01T00:00:00+00:00"
-    },
-    {
-      "id": "41a796cb51f0fc3a",
-      "kind": "cve",
-      "cve": "CVE-2026-41940",
-      "title": "WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability",
-      "summary": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "WebPros",
-      "product": "cPanel & WHM and WP2 (WordPress Squared)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41940",
-      "published": "2026-04-30T00:00:00+00:00"
-    },
-    {
-      "id": "c54ea2e1916fd0aa",
-      "kind": "research",
-      "cve": "CVE-2026-41940",
-      "title": "The Internet Is Falling Down, Falling Down, Falling Down (cPanel & WHM Authentication Bypass CVE-2026-41940)",
-      "summary": "Hello! Yes, it&apos;s all a disaster again! Let&apos;s get this party started: No comments today, so imagine this: We wrote something that we find very funny, Nobody else gets it, But everyone humors us Just like a typical watchTowr Labs bl…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
-      "published": "2026-04-29T17:19:19+00:00"
     }
   ]
 }
