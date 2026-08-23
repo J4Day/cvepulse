@@ -1,7 +1,75 @@
 {
-  "generated": "2026-08-22T23:12:12.332311+00:00",
+  "generated": "2026-08-23T00:45:17.613248+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "6df7d3cecd92f608",
+      "kind": "cve",
+      "cve": "CVE-2026-78050",
+      "title": "CVE-2026-78050",
+      "summary": "A vulnerability was found in Comfast CF-N1-S 2.6.0.1. The affected element is the function sub_41AD7C of the file /cgi-bin/mbox-config?method=SET&section=ntp_timezone of the component Web Management. The manipulation of the argument timestr…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78050",
+      "published": "2026-08-23T00:16:50.590000+00:00"
+    },
+    {
+      "id": "0610a86122d3fe28",
+      "kind": "cve",
+      "cve": "CVE-2026-16149",
+      "title": "CVE-2026-16149",
+      "summary": "The Security Hardener plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 2.4.4. The vulnerability exists because the plugin's user-enumeration protection, which is enabled by default, hooks the…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16149",
+      "published": "2026-08-23T00:16:50.233000+00:00"
+    },
+    {
+      "id": "84f13e0162b6d976",
+      "kind": "cve",
+      "cve": "CVE-2026-0551",
+      "title": "CVE-2026-0551",
+      "summary": "The PPWP – Password Protect Pages plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.9.18 via deserialization of untrusted input from the 'post_protection_roles' vulnerable parameter. This mak…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0551",
+      "published": "2026-08-23T00:16:49.777000+00:00"
+    },
+    {
+      "id": "ce696f415db06536",
+      "kind": "cve",
+      "cve": "CVE-2026-78122",
+      "title": "CVE-2026-78122",
+      "summary": "docker-socket-proxy fails to properly gate read endpoints in the /containers Docker API namespace when the CONTAINERS environment variable is set. Attackers can use GET requests to /containers/{id}/archive, /containers/{id}/export, /contain…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78122",
+      "published": "2026-08-22T23:16:22.923000+00:00"
+    },
     {
       "id": "a54296763bc7d445",
       "kind": "cve",
@@ -1278,346 +1346,6 @@
       "published": "2026-08-20T00:00:00+00:00"
     },
     {
-      "id": "db446b5b9962e0ac",
-      "kind": "cve",
-      "cve": "CVE-2026-76589",
-      "title": "CVE-2026-76589",
-      "summary": "A vulnerability was found in TRENDnet TEW-755AP up to 20260702. Affected is the function FUN_401000 of the file /sbin/mycli. The manipulation of the argument ssid results in stack-based buffer overflow. The attack may be launched remotely.…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76589",
-      "published": "2026-08-19T22:17:27.447000+00:00"
-    },
-    {
-      "id": "d47869ef3b95c535",
-      "kind": "cve",
-      "cve": "CVE-2026-76399",
-      "title": "CVE-2026-76399",
-      "summary": "In Splunk AI Toolkit versions below 6.0.1, a user who holds the \"power\" Splunk role could modify app-provided scheduled searches to run arbitrary Search Processing Language (SPL) using the permissions of the search owner, which could allow…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76399",
-      "published": "2026-08-19T22:17:26.523000+00:00"
-    },
-    {
-      "id": "d78a9eb0b692f296",
-      "kind": "cve",
-      "cve": "CVE-2026-76395",
-      "title": "CVE-2026-76395",
-      "summary": "In Splunk AI Toolkit versions below 6.0.0, a user who holds the \"power\" Splunk role could execute arbitrary code on the Splunk server by loading a model file containing crafted sparse matrix data. The deserialization of untrusted data is po…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76395",
-      "published": "2026-08-19T22:17:26.023000+00:00"
-    },
-    {
-      "id": "9421ca3e6ab0f2aa",
-      "kind": "cve",
-      "cve": "CVE-2026-76394",
-      "title": "CVE-2026-76394",
-      "summary": "In Splunk AI Toolkit versions below 6.0.0, a low-privileged user who does not hold the \"admin\" or \"power\" Splunk roles could start, stop, and configure containers, and read or modify connection and configuration data through the Representat…",
-      "severity": "HIGH",
-      "score": 8.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76394",
-      "published": "2026-08-19T22:17:25.870000+00:00"
-    },
-    {
-      "id": "cbdb287ccb893133",
-      "kind": "cve",
-      "cve": "CVE-2026-76391",
-      "title": "CVE-2026-76391",
-      "summary": "In Splunk AI Toolkit versions below 6.0.0, a user who does not hold the \"admin\" or \"power\" Splunk roles could run searches with system-level privileges, access all relevant data, affect system integrity, and read or delete search jobs belon…",
-      "severity": "HIGH",
-      "score": 8.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76391",
-      "published": "2026-08-19T22:17:25.487000+00:00"
-    },
-    {
-      "id": "289ba6443d36ac6b",
-      "kind": "cve",
-      "cve": "CVE-2026-76355",
-      "title": "CVE-2026-76355",
-      "summary": "In Splunk Enterprise 10.4 versions below 10.4.2, an unauthenticated user could retrieve the information contained in Edge Processor pipeline configurations through a Representational State Transfer (REST) API endpoint when Edge Processor is…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76355",
-      "published": "2026-08-19T22:17:20.593000+00:00"
-    },
-    {
-      "id": "211c305e2507b1a2",
-      "kind": "cve",
-      "cve": "CVE-2026-76344",
-      "title": "CVE-2026-76344",
-      "summary": "In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, a user who does not hold the \"admin\" or \"power\" Splunk roles could write dispatch metadata to an arbitrary location on the host by supplying a crafted search identifier…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76344",
-      "published": "2026-08-19T22:17:19.150000+00:00"
-    },
-    {
-      "id": "296fd0e9ad55771f",
-      "kind": "cve",
-      "cve": "CVE-2026-76336",
-      "title": "CVE-2026-76336",
-      "summary": "In Splunk Enterprise versions below 10.4.2 and 10.2.6, a user who does not hold the \"admin\" or \"power\" Splunk roles could delete all Search Processing Language 2 (SPL2) modules across all apps and users on the instance through the SPL2 modu…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76336",
-      "published": "2026-08-19T22:17:18.093000+00:00"
-    },
-    {
-      "id": "19acea11d3e7b352",
-      "kind": "cve",
-      "cve": "CVE-2026-76333",
-      "title": "CVE-2026-76333",
-      "summary": "In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, a user who holds the \"power\" Splunk role could store a Dashboard Studio workflow action with a crafted Uniform Resource Locator (URL). When another authenticated user s…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76333",
-      "published": "2026-08-19T22:17:17.673000+00:00"
-    },
-    {
-      "id": "f32ecd0ec69bb3ff",
-      "kind": "cve",
-      "cve": "CVE-2026-76325",
-      "title": "CVE-2026-76325",
-      "summary": "In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, a user who holds the \"power\" Splunk role could store a malicious ui-tour knowledge object that matches an auto-tour page name and share the object at the app level. The…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76325",
-      "published": "2026-08-19T22:17:16.650000+00:00"
-    },
-    {
-      "id": "28042d1b97a3d643",
-      "kind": "cve",
-      "cve": "CVE-2026-76323",
-      "title": "CVE-2026-76323",
-      "summary": "In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, a user who does not hold the \"admin\" or \"power\" Splunk roles could bypass Search Processing Language (SPL) safeguards for risky commands through the Job Details dashboa…",
-      "severity": "MEDIUM",
-      "score": 6.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76323",
-      "published": "2026-08-19T22:17:16.393000+00:00"
-    },
-    {
-      "id": "2cc53cf2a597731b",
-      "kind": "cve",
-      "cve": "CVE-2026-76322",
-      "title": "CVE-2026-76322",
-      "summary": "In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, and 9.4.14, a user who holds the \"user\" Splunk role could craft a Dashboard Studio dashboard that runs attacker-controlled Search Processing Language (SPL) for another authenticate…",
-      "severity": "MEDIUM",
-      "score": 6.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76322",
-      "published": "2026-08-19T22:17:16.267000+00:00"
-    },
-    {
-      "id": "2d793bdd21b154e2",
-      "kind": "cve",
-      "cve": "CVE-2026-76262",
-      "title": "CVE-2026-76262",
-      "summary": "In Splunk Enterprise 10.4 versions below 10.4.2, an unauthenticated user could read Prometheus service metrics from the Edge Processor SPL2 Preview sidecar, including service details that expose relevant runtime and build metadata for the s…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76262",
-      "published": "2026-08-19T22:17:14.323000+00:00"
-    },
-    {
-      "id": "954bfda18b9eca74",
-      "kind": "cve",
-      "cve": "CVE-2026-76259",
-      "title": "CVE-2026-76259",
-      "summary": "In Splunk Enterprise for Windows versions below 10.4.2, 10.2.6, 10.0.9, 9.4.13, and 9.3.14, a local user with access to the Windows host could bind to the management port before Splunk Enterprise starts, intercept authentication tokens from…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76259",
-      "published": "2026-08-19T22:17:13.927000+00:00"
-    },
-    {
-      "id": "cd1a07f6b19c6d3f",
-      "kind": "cve",
-      "cve": "CVE-2026-76255",
-      "title": "CVE-2026-76255",
-      "summary": "In Splunk Enterprise versions below 10.4.1, 10.2.6, 10.0.8, and 9.4.13, a user who does not hold the \"admin\" or \"power\" Splunk roles could trick another user into running arbitrary Search Processing Language (SPL) commands through the Data…",
-      "severity": "MEDIUM",
-      "score": 6.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76255",
-      "published": "2026-08-19T22:17:13.407000+00:00"
-    },
-    {
-      "id": "36eea4a120818976",
-      "kind": "cve",
-      "cve": "CVE-2026-76254",
-      "title": "CVE-2026-76254",
-      "summary": "In Splunk Enterprise versions below 10.4.2, 10.2.6, 10.0.9, 9.4.14, and 9.3.14, an unauthenticated user could cause another user to dispatch arbitrary Search Processing Language (SPL) pipelines from Dataset Explorer with the same privileges…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76254",
-      "published": "2026-08-19T22:17:13.270000+00:00"
-    },
-    {
-      "id": "eb13179feb7594ca",
-      "kind": "cve",
-      "cve": "CVE-2026-76251",
-      "title": "CVE-2026-76251",
-      "summary": "In Splunk Enterprise versions below 10.4.2, 10.2.6, and 10.0.9, a user who does not hold the \"admin\" or \"power\" Splunk roles could cause the Splunk App for Splunk Observability Cloud to forward requests to Splunk Observability Cloud, includ…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76251",
-      "published": "2026-08-19T22:17:12.850000+00:00"
-    },
-    {
-      "id": "6517feab7e5b89ed",
-      "kind": "cve",
-      "cve": "CVE-2026-76574",
-      "title": "CVE-2026-76574",
-      "summary": "A flaw has been found in code-projects Hospital Information System 1.0. The impacted element is the function User::login of the file includes/users/UsersController.php of the component User Login Handler. This manipulation of the argument e…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76574",
-      "published": "2026-08-19T20:17:23.830000+00:00"
-    },
-    {
-      "id": "a70f17c322304ee1",
-      "kind": "cve",
-      "cve": "CVE-2026-17042",
-      "title": "CVE-2026-17042",
-      "summary": "IBM Power Systems Firmware FW950.00 through FW950.H2, OP940.00 through OP940.a1 (Power9), and OP940.00 - OP940.81 (Power HMC) is affected by a vulnerability in host firmware NVRAM parsing. An attacker with root access to a guest partition o…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17042",
-      "published": "2026-08-19T20:17:12.127000+00:00"
-    },
-    {
-      "id": "12a1a45d50f3767d",
-      "kind": "cve",
-      "cve": "CVE-2026-70496",
-      "title": "CVE-2026-70496",
-      "summary": "A flaw was found in search-v2-operator. The operator's ClusterRole has permissions equivalent to a cluster administrator, allowing it to impersonate other entities, write Role-Based Access Control (RBAC) configurations, approve Certificate…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70496",
-      "published": "2026-08-19T19:17:23.230000+00:00"
-    },
-    {
       "id": "e4c21819349ee6c3",
       "kind": "research",
       "cve": null,
@@ -1652,23 +1380,6 @@
       "published": "2026-08-19T18:06:44+00:00"
     },
     {
-      "id": "9927a855f737339b",
-      "kind": "cve",
-      "cve": "CVE-2026-75147",
-      "title": "CVE-2026-75147",
-      "summary": "FFmpeg before commit 983dae9 contains an out-of-bounds read in the AV1 RTP packetizer (libavformat/rtpenc_av1.c). The keyframe detection loop that searches for a sequence header OBU advanced its pointer and remaining-size counter by the enc…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75147",
-      "published": "2026-08-19T17:21:13.290000+00:00"
-    },
-    {
       "id": "8ed62263de9fc985",
       "kind": "research",
       "cve": "CVE-2026-19490",
@@ -1701,125 +1412,6 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33260",
       "published": "2026-08-19T14:24:58+00:00"
-    },
-    {
-      "id": "fbcbd1e0c9a11bc6",
-      "kind": "cve",
-      "cve": "CVE-2026-76222",
-      "title": "CVE-2026-76222",
-      "summary": "GitPython before 3.1.58 fails to validate submodule names from .gitmodules files, allowing attackers to create Git repositories at arbitrary filesystem paths outside the intended clone directory. Attackers can craft malicious repositories w…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76222",
-      "published": "2026-08-19T14:17:48.603000+00:00"
-    },
-    {
-      "id": "6c81301f20e6c6f4",
-      "kind": "cve",
-      "cve": "CVE-2026-76207",
-      "title": "CVE-2026-76207",
-      "summary": "phpMyFAQ before 4.1.7 contains a two-factor authentication bypass vulnerability where remember-me tokens are issued before 2FA verification completes. Attackers with valid credentials can obtain a remember-me cookie, skip the 2FA challenge,…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76207",
-      "published": "2026-08-19T14:17:46.073000+00:00"
-    },
-    {
-      "id": "2522a42c0bd23b38",
-      "kind": "cve",
-      "cve": "CVE-2026-75918",
-      "title": "CVE-2026-75918",
-      "summary": "phpMyFAQ before 4.1.7 stores password reset tokens in a publicly accessible tracking file when user tracking is enabled. Unauthenticated attackers can read the tracking file at content/core/data/trackingDDMMYYYY to extract reset tokens and…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75918",
-      "published": "2026-08-19T14:17:42.053000+00:00"
-    },
-    {
-      "id": "2b4e5e04570021d1",
-      "kind": "cve",
-      "cve": "CVE-2026-70422",
-      "title": "CVE-2026-70422",
-      "summary": "Dell OpenManage Enterprise, versions prior to 4.7.0, contains an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70422",
-      "published": "2026-08-19T14:17:38.897000+00:00"
-    },
-    {
-      "id": "01bde3a816fcaac7",
-      "kind": "cve",
-      "cve": "CVE-2026-56088",
-      "title": "CVE-2026-56088",
-      "summary": "Dell OpenManage Enterprise, versions prior to 4.7.0, contains an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability. A low privileged attacker with remote access could potentially exploit this…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56088",
-      "published": "2026-08-19T14:17:34.517000+00:00"
-    },
-    {
-      "id": "98e1d1f6ec600dcb",
-      "kind": "cve",
-      "cve": "CVE-2019-25766",
-      "title": "CVE-2019-25766",
-      "summary": "Renovate versions >= 13.87.0 and <= 19.38.6 leak temporary repository tokens into pull request comments during certain Go Modules update failure scenarios. The issue is fixed in version 19.38.7. Anyone able to view the affected pull request…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-25766",
-      "published": "2026-08-19T14:17:14.937000+00:00"
-    },
-    {
-      "id": "0aef7ab7803b70fc",
-      "kind": "cve",
-      "cve": "CVE-2026-76235",
-      "title": "CVE-2026-76235",
-      "summary": "A memory leak flaw was found in cockpit-ws. The login page handler leaks a heap allocation on every unauthenticated request that carries a CockpitLang cookie, allowing a remote unauthenticated attacker to exhaust memory on the host and caus…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76235",
-      "published": "2026-08-19T13:18:11.637000+00:00"
     },
     {
       "id": "a5bd7d34d6d98f30",
@@ -1958,23 +1550,6 @@
       "published": "2026-08-19T05:39:25+00:00"
     },
     {
-      "id": "6ff013f33a0b54ea",
-      "kind": "cve",
-      "cve": "CVE-2026-75986",
-      "title": "CVE-2026-75986",
-      "summary": "A vulnerability has been found in code-projects Online Job Portal System 1.0. The impacted element is an unknown function of the file /ForPass.php of the component Password Recovery. Such manipulation of the argument txtUserName leads to sq…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75986",
-      "published": "2026-08-19T02:16:12.993000+00:00"
-    },
-    {
       "id": "14701b61925dc0a9",
       "kind": "research",
       "cve": null,
@@ -1990,23 +1565,6 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33258",
       "published": "2026-08-19T02:00:03+00:00"
-    },
-    {
-      "id": "6a06183ff0fc6024",
-      "kind": "cve",
-      "cve": "CVE-2026-75976",
-      "title": "CVE-2026-75976",
-      "summary": "A weakness has been identified in TRENDnet TEW-823DRU 1.1.02b01. Impacted is the function strcpy of the file /cgi-bin/wan.cgi of the component NVRAM. This manipulation of the argument wan_l2tp_password causes stack-based buffer overflow. Th…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75976",
-      "published": "2026-08-19T00:16:28.510000+00:00"
     },
     {
       "id": "3158e2788850b3bc",
@@ -4260,6 +3818,453 @@
       "product": "Internet Explorer",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0249",
       "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "f681e20eb89d2529",
+      "kind": "cve",
+      "cve": "CVE-2010-0806",
+      "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "summary": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0806",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "568d947e55fc107c",
+      "kind": "cve",
+      "cve": "CVE-2026-41091",
+      "title": "Microsoft Defender Link Following Vulnerability",
+      "summary": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Defender",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41091",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "5cc0a6e6a9089133",
+      "kind": "cve",
+      "cve": "CVE-2026-45498",
+      "title": "Microsoft Defender Denial of Service Vulnerability",
+      "summary": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Defender",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45498",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "f90197c3f4a2d91d",
+      "kind": "cve",
+      "cve": "CVE-2026-42897",
+      "title": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
+      "summary": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Microsoft",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
+      "published": "2026-05-15T00:00:00+00:00"
+    },
+    {
+      "id": "c66ba8836b7b8206",
+      "kind": "cve",
+      "cve": "CVE-2026-20182",
+      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+      "summary": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
+      "published": "2026-05-14T00:00:00+00:00"
+    },
+    {
+      "id": "3e6f4335ce749d6c",
+      "kind": "research",
+      "cve": null,
+      "title": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",
+      "summary": "We recently published an exploit chain for the Google Pixel 9 that demonstrated it was possible to go from a zero-click context to root on Android in just two exploits. The Dolby 0-click vulnerability existed across all of Android, until it…",
+      "severity": "",
+      "score": null,
+      "source": "Project Zero",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+      "published": "2026-05-13T07:00:00+00:00"
+    },
+    {
+      "id": "fbd8f4f301b4388c",
+      "kind": "research",
+      "cve": null,
+      "title": "Nuclei Templates - April 2026",
+      "summary": "Two releases shipped this cycle - v10.4.2 (April 15) and v10.4.3 (May 5) - delivering deep KEV coverage, a major push into AI/LLM attack surface, fresh Perforce visibility, and broad quality improvements across the template library. 🚀 April…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/nuclei-templates-april-2026",
+      "published": "2026-05-12T11:26:09+00:00"
+    },
+    {
+      "id": "e2275c3be38e67a1",
+      "kind": "cve",
+      "cve": "CVE-2026-42208",
+      "title": "BerriAI LiteLLM SQL Injection Vulnerability",
+      "summary": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
+      "published": "2026-05-08T00:00:00+00:00"
+    },
+    {
+      "id": "0b960075f0625d20",
+      "kind": "cve",
+      "cve": "CVE-2026-6973",
+      "title": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
+      "summary": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
+      "published": "2026-05-07T00:00:00+00:00"
+    },
+    {
+      "id": "27a5fddb4b783b95",
+      "kind": "cve",
+      "cve": "CVE-2026-0300",
+      "title": "Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability",
+      "summary": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Se…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0300",
+      "published": "2026-05-06T00:00:00+00:00"
+    },
+    {
+      "id": "0d08b28d14a01511",
+      "kind": "cve",
+      "cve": "CVE-2026-31431",
+      "title": "Linux Kernel Incorrect Resource Transfer Between Spheres Vulnerability",
+      "summary": "Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Linux",
+      "product": "Kernel",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
+      "published": "2026-05-01T00:00:00+00:00"
+    },
+    {
+      "id": "41a796cb51f0fc3a",
+      "kind": "cve",
+      "cve": "CVE-2026-41940",
+      "title": "WebPros cPanel & WHM and WP2 (WordPress Squared) Missing Authentication for Critical Function Vulnerability",
+      "summary": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "WebPros",
+      "product": "cPanel & WHM and WP2 (WordPress Squared)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41940",
+      "published": "2026-04-30T00:00:00+00:00"
+    },
+    {
+      "id": "c54ea2e1916fd0aa",
+      "kind": "research",
+      "cve": "CVE-2026-41940",
+      "title": "The Internet Is Falling Down, Falling Down, Falling Down (cPanel & WHM Authentication Bypass CVE-2026-41940)",
+      "summary": "Hello! Yes, it&apos;s all a disaster again! Let&apos;s get this party started: No comments today, so imagine this: We wrote something that we find very funny, Nobody else gets it, But everyone humors us Just like a typical watchTowr Labs bl…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/the-internet-is-falling-down-falling-down-falling-down-cpanel-whm-authentication-bypass-cve-2026-41940/",
+      "published": "2026-04-29T17:19:19+00:00"
+    },
+    {
+      "id": "5e5fdff3978ce846",
+      "kind": "research",
+      "cve": null,
+      "title": "The Trust Gap Behind the AI Coding Boom: What 200 Security Practitioners Just Told Us",
+      "summary": "New research from ProjectDiscovery surfaces an uncomfortable truth: Engineering has accelerated, and Security has been left to absorb the impact, mostly by hand. If you work in application security right now, you already know the shape of t…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/the-trust-gap-behind-the-ai-coding-boom-what-200-security-practitioners-just-told-us",
+      "published": "2026-04-28T18:05:58+00:00"
+    },
+    {
+      "id": "ec49b2f63f0026f3",
+      "kind": "cve",
+      "cve": "CVE-2024-1708",
+      "title": "ConnectWise ScreenConnect Path Traversal Vulnerability",
+      "summary": "ConnectWise ScreenConnect contains a path traversal vulnerability which could allow an attacker to execute remote code or directly impact confidential data and critical systems.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1708",
+      "published": "2026-04-28T00:00:00+00:00"
+    },
+    {
+      "id": "5049d3302bb8a41c",
+      "kind": "cve",
+      "cve": "CVE-2026-32202",
+      "title": "Microsoft Windows Protection Mechanism Failure Vulnerability",
+      "summary": "Microsoft Windows Shell contains a protection mechanism failure vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32202",
+      "published": "2026-04-28T00:00:00+00:00"
+    },
+    {
+      "id": "14c9ca9873f79ff3",
+      "kind": "research",
+      "cve": null,
+      "title": "Benchmarking Neo's Black-Box DAST Capabilities",
+      "summary": "Since the launch of Neo, we've been steadily expanding what it can do. Neo has found 33+ real CVEs across open-source projects, performed well on white-box security testing where source code is available, and generally proven itself as a ca…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/neo-black-box-dast-capabilities",
+      "published": "2026-04-27T17:11:00+00:00"
+    },
+    {
+      "id": "7a8d09648ca60f6a",
+      "kind": "cve",
+      "cve": "CVE-2025-29635",
+      "title": "D-Link DIR-823X Command Injection Vulnerability",
+      "summary": "D-Link DIR-823X contains a command injection vulnerability that allows an authorized attacker to execute arbitrary commands on remote devices by sending a POST request to /goform/set_prohibiting via the corresponding function. The impacted…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "D-Link",
+      "product": "DIR-823X",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29635",
+      "published": "2026-04-24T00:00:00+00:00"
+    },
+    {
+      "id": "77665b77a05ddaa3",
+      "kind": "cve",
+      "cve": "CVE-2024-7399",
+      "title": "Samsung MagicINFO 9 Server Path Traversal Vulnerability",
+      "summary": "Samsung MagicINFO 9 Server contains a path traversal vulnerability that could allow an attacker to write arbitrary files as system authority.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Samsung",
+      "product": "MagicINFO 9 Server",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7399",
+      "published": "2026-04-24T00:00:00+00:00"
+    },
+    {
+      "id": "e4f2e2c595af62f5",
+      "kind": "cve",
+      "cve": "CVE-2024-57728",
+      "title": "SimpleHelp Path Traversal Vulnerability",
+      "summary": "SimpleHelp contains a path traversal vulnerability that allows admin users to upload arbitrary files anywhere on the file system by uploading a crafted zip file (i.e. zip slip). This can be exploited to execute arbitrary code on the host in…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "SimpleHelp ",
+      "product": "SimpleHelp",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57728",
+      "published": "2026-04-24T00:00:00+00:00"
+    },
+    {
+      "id": "45d1e7b8e0b9e5e3",
+      "kind": "cve",
+      "cve": "CVE-2024-57726",
+      "title": "SimpleHelp Missing Authorization Vulnerability",
+      "summary": "SimpleHelp contains a missing authorization vulnerability that could allow low-privileged technicians to create API keys with excessive permissions. These API keys can be used to escalate privileges to the server admin role.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "SimpleHelp ",
+      "product": "SimpleHelp",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57726",
+      "published": "2026-04-24T00:00:00+00:00"
+    },
+    {
+      "id": "883a2b762604b66a",
+      "kind": "cve",
+      "cve": "CVE-2026-39987",
+      "title": "Marimo Remote Code Execution Vulnerability",
+      "summary": "Marimo contains an pre-authorization remote code execution vulnerability, allowing an unauthenticated attacked to shell access and execute arbitrary system commands.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Marimo",
+      "product": "Marimo",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39987",
+      "published": "2026-04-23T00:00:00+00:00"
+    },
+    {
+      "id": "a18021500272fe4f",
+      "kind": "cve",
+      "cve": "CVE-2026-33825",
+      "title": "Microsoft Defender Insufficient Granularity of Access Control Vulnerability",
+      "summary": "Microsoft Defender contains an insufficient granularity of access control vulnerability that could allow an authorized attacker to escalate privileges locally.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "Microsoft",
+      "product": "Defender",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33825",
+      "published": "2026-04-22T00:00:00+00:00"
+    },
+    {
+      "id": "4bbd8e20a6586940",
+      "kind": "cve",
+      "cve": "CVE-2026-20122",
+      "title": "Cisco Catalyst SD-WAN Manager Incorrect Use of Privileged APIs Vulnerability",
+      "summary": "Cisco Catalyst SD-WAN Manager contains an incorrect use of privileged APIs vulnerability due to improper file handling on the API interface of an affected system. An attacker could exploit this vulnerability by uploading a malicious file on…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manger",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20122",
+      "published": "2026-04-20T00:00:00+00:00"
+    },
+    {
+      "id": "2166f6c7e73b91d2",
+      "kind": "cve",
+      "cve": "CVE-2026-20133",
+      "title": "Cisco Catalyst SD-WAN Manager Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
+      "summary": "Cisco Catalyst SD-WAN Manager contains an exposure of sensitive information to an unauthorized actor vulnerability that could allow remote attackers to view sensitive information on affected systems.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20133",
+      "published": "2026-04-20T00:00:00+00:00"
+    },
+    {
+      "id": "c2476643493dac3e",
+      "kind": "cve",
+      "cve": "CVE-2025-2749",
+      "title": "Kentico Xperience Path Traversal Vulnerability",
+      "summary": "Kentico Xperience contains a path traversal vulnerability that could allow an authenticated user's Staging Sync Server to upload arbitrary data to path relative locations.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Kentico",
+      "product": "Kentico Xperience",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2749",
+      "published": "2026-04-20T00:00:00+00:00"
     }
   ]
 }
