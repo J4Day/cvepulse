@@ -1,23 +1,737 @@
 {
-  "generated": "2026-08-24T17:22:52.372175+00:00",
+  "generated": "2026-08-24T18:26:38.903802+00:00",
   "count": 250,
   "items": [
     {
-      "id": "4d9a86b935803670",
+      "id": "0a6bce2ed0226a17",
       "kind": "cve",
-      "cve": "CVE-2026-78465",
-      "title": "CVE-2026-78465",
-      "summary": "A flaw was found in the file-pcx plugin in GIMP, affecting 32-bit builds only. When processing a PCX image file, the plugin calculates memory allocation sizes based on the image dimensions and the number of color planes. If a crafted file s…",
+      "cve": "CVE-2026-76838",
+      "title": "CVE-2026-76838",
+      "summary": "Hi.Events validates a webhook destination only when it is registered, never when it is used. NoInternalUrlRule in backend/app/Validators/Rules/NoInternalUrlRule.php resolves the hostname with gethostbyname() and rejects private and reserved…",
       "severity": "HIGH",
-      "score": 7.0,
+      "score": 8.5,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78465",
-      "published": "2026-08-24T17:18:20.810000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76838",
+      "published": "2026-08-24T18:17:22.363000+00:00"
+    },
+    {
+      "id": "be2b704db5359180",
+      "kind": "cve",
+      "cve": "CVE-2026-76836",
+      "title": "CVE-2026-76836",
+      "summary": "AzuraCast exposes the Liquidsoap custom configuration fields through an endpoint that does not require the permission guarding them. The backend_config property in backend/src/Entity/Station.php is annotated with GROUP_GENERAL, and PUT /api…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76836",
+      "published": "2026-08-24T18:17:21.733000+00:00"
+    },
+    {
+      "id": "a66237e287c61230",
+      "kind": "cve",
+      "cve": "CVE-2026-76835",
+      "title": "CVE-2026-76835",
+      "summary": "OAuth2 Proxy honours a client-supplied X-Forwarded-Uri header when deciding whether a request may skip authentication, because the guard added for CVE-2026-40575 is inert in the default reverse-proxy configuration. GetRequestURI in pkg/requ…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76835",
+      "published": "2026-08-24T18:17:21.570000+00:00"
+    },
+    {
+      "id": "b65f686e4660a0a3",
+      "kind": "cve",
+      "cve": "CVE-2026-76073",
+      "title": "CVE-2026-76073",
+      "summary": "Label Studio does not scope the annotation detail endpoint to the requesting user's organization. AnnotationAPI in label_studio/tasks/api.py declares queryset = Annotation.objects.all() and provides no get_queryset override, so the default…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76073",
+      "published": "2026-08-24T18:17:21.410000+00:00"
+    },
+    {
+      "id": "e1250ac2941fb4d3",
+      "kind": "cve",
+      "cve": "CVE-2026-76072",
+      "title": "CVE-2026-76072",
+      "summary": "The Continue CLI applies an incomplete denylist as its only barrier to destructive shell commands when running unattended. In headless mode and auto mode the default policy in extensions/cli/src/permissions/defaultPolicies.ts grants the Bas…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76072",
+      "published": "2026-08-24T18:17:21.233000+00:00"
+    },
+    {
+      "id": "6beb96d42d57e92d",
+      "kind": "cve",
+      "cve": "CVE-2026-71943",
+      "title": "CVE-2026-71943",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the setDevNet function. The vulnerability is caused by insufficient filtering of the username and password fields before command execution. A remote attacker c…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71943",
+      "published": "2026-08-24T18:17:20.077000+00:00"
+    },
+    {
+      "id": "279fe2df5bee9ab8",
+      "kind": "cve",
+      "cve": "CVE-2026-71942",
+      "title": "CVE-2026-71942",
+      "summary": "Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the mail_mailalert function. The vulnerability is caused by concatenating multiple smtpReceiver email addresses into a fixed-size buffer without checking the rem…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71942",
+      "published": "2026-08-24T18:17:19.877000+00:00"
+    },
+    {
+      "id": "d0c97dff4b80405a",
+      "kind": "cve",
+      "cve": "CVE-2026-71941",
+      "title": "CVE-2026-71941",
+      "summary": "Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the diag_logmail function. The vulnerability is caused by concatenating multiple smtpReceiver email addresses into a fixed-size buffer without checking the remai…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71941",
+      "published": "2026-08-24T18:17:19.680000+00:00"
+    },
+    {
+      "id": "616bc159c96447c5",
+      "kind": "cve",
+      "cve": "CVE-2026-71940",
+      "title": "CVE-2026-71940",
+      "summary": "Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the acl_general_setup Edit ACE function. The vulnerability is caused by copying the name field into a fixed-size buffer without length validation. A remote attac…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71940",
+      "published": "2026-08-24T18:17:19.480000+00:00"
+    },
+    {
+      "id": "71d260a763947e20",
+      "kind": "cve",
+      "cve": "CVE-2026-71939",
+      "title": "CVE-2026-71939",
+      "summary": "Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the acl_general_setup Add ACE function. The vulnerability is caused by copying the name field into a fixed-size buffer without length validation. A remote attack…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71939",
+      "published": "2026-08-24T18:17:19.280000+00:00"
+    },
+    {
+      "id": "fb19010b6287f3c3",
+      "kind": "cve",
+      "cve": "CVE-2026-71938",
+      "title": "CVE-2026-71938",
+      "summary": "Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the switch_lan_gvrp function. The vulnerability is caused by unsafe copying of the portList field into an undersized buffer. A remote attacker can trigger this v…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71938",
+      "published": "2026-08-24T18:17:19.083000+00:00"
+    },
+    {
+      "id": "87b5422a9d45c634",
+      "kind": "cve",
+      "cve": "CVE-2026-71937",
+      "title": "CVE-2026-71937",
+      "summary": "Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the poe_schedule_profile function. The vulnerability is caused by repeated concatenation of the start_date, start_time, duration_time, how_often, weekdays, month…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71937",
+      "published": "2026-08-24T18:17:18.890000+00:00"
+    },
+    {
+      "id": "002699588364f309",
+      "kind": "cve",
+      "cve": "CVE-2026-71936",
+      "title": "CVE-2026-71936",
+      "summary": "Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the sysreboot function. The vulnerability is caused by unsafe concatenation of split valueN data into a fixed-size buffer. A remote attacker can trigger this vul…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71936",
+      "published": "2026-08-24T18:17:18.693000+00:00"
+    },
+    {
+      "id": "918feadd1bb403a0",
+      "kind": "cve",
+      "cve": "CVE-2026-71935",
+      "title": "CVE-2026-71935",
+      "summary": "Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the webBackupAction function. The vulnerability is caused by repeated string concatenation of the pathN, valueN, key, and option fields into fixed-size stack buf…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71935",
+      "published": "2026-08-24T18:17:18.490000+00:00"
+    },
+    {
+      "id": "c36789e6346c0bb9",
+      "kind": "cve",
+      "cve": "CVE-2026-71934",
+      "title": "CVE-2026-71934",
+      "summary": "Multiple DrayTek VigorSwitch models contain a buffer overflow vulnerability in the pingtrace function. The vulnerability is caused by missing length checks when the host, count, and interval fields are concatenated into a fixed-size buffer.…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71934",
+      "published": "2026-08-24T18:17:18.290000+00:00"
+    },
+    {
+      "id": "ece7c11bf759a4ee",
+      "kind": "cve",
+      "cve": "CVE-2026-71933",
+      "title": "CVE-2026-71933",
+      "summary": "Multiple DrayTek VigorSwitch models contain unauthorized operation vulnerabilities in multiple syslog functions. The vulnerability is caused by missing authorization checks. A remote attacker can trigger these vulnerabilities via crafted re…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71933",
+      "published": "2026-08-24T18:17:18.090000+00:00"
+    },
+    {
+      "id": "dfc8396b11170dde",
+      "kind": "cve",
+      "cve": "CVE-2026-71931",
+      "title": "CVE-2026-71931",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the tftp_upgrade function. The vulnerability is caused by insufficient filtering before the filename field is concatenated into a command. A remote attacker ca…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71931",
+      "published": "2026-08-24T18:17:17.697000+00:00"
+    },
+    {
+      "id": "f8b1e5bc01f64adc",
+      "kind": "cve",
+      "cve": "CVE-2026-71930",
+      "title": "CVE-2026-71930",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the setTime function. The vulnerability is caused by insufficient filtering of the username and password fields before command execution. A remote attacker can…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71930",
+      "published": "2026-08-24T18:17:08.643000+00:00"
+    },
+    {
+      "id": "e322a4b4959ab18f",
+      "kind": "cve",
+      "cve": "CVE-2026-71929",
+      "title": "CVE-2026-71929",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the setDevProto function. The vulnerability is caused by insufficient filtering of the username and password fields before command execution. A remote attacker…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71929",
+      "published": "2026-08-24T18:17:08.480000+00:00"
+    },
+    {
+      "id": "2bbd3bc5b87e6e22",
+      "kind": "cve",
+      "cve": "CVE-2026-71928",
+      "title": "CVE-2026-71928",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the fdftDevice function. The vulnerability is caused by insufficient filtering of the username and password fields before command execution. A remote attacker…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71928",
+      "published": "2026-08-24T18:17:08.303000+00:00"
+    },
+    {
+      "id": "f45ea807285be19c",
+      "kind": "cve",
+      "cve": "CVE-2026-71927",
+      "title": "CVE-2026-71927",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the rebDevice function. The vulnerability is caused by insufficient filtering of the username and password fields before command execution. A remote attacker c…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71927",
+      "published": "2026-08-24T18:17:08.140000+00:00"
+    },
+    {
+      "id": "f9ad7a3910f6ec75",
+      "kind": "cve",
+      "cve": "CVE-2026-71926",
+      "title": "CVE-2026-71926",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the setDevice function. The vulnerability is caused by insufficient sanitization of the username, password, and location fields before command execution. A rem…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71926",
+      "published": "2026-08-24T18:17:07.977000+00:00"
+    },
+    {
+      "id": "ab031b45d1cc688e",
+      "kind": "cve",
+      "cve": "CVE-2026-71925",
+      "title": "CVE-2026-71925",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the getDetail function. The vulnerability is caused by insufficient filtering of the username and password fields before command execution. A remote attacker c…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71925",
+      "published": "2026-08-24T18:17:07.813000+00:00"
+    },
+    {
+      "id": "02a382ecac0490bb",
+      "kind": "cve",
+      "cve": "CVE-2026-71924",
+      "title": "CVE-2026-71924",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the getVid function. The vulnerability is caused by insufficient filtering of the username and password fields before command execution. A remote attacker can…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71924",
+      "published": "2026-08-24T18:17:07.653000+00:00"
+    },
+    {
+      "id": "831ecb00fd28c8d4",
+      "kind": "cve",
+      "cve": "CVE-2026-71923",
+      "title": "CVE-2026-71923",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the auth_set function. The vulnerability is caused by insufficient filtering of the username and password fields before command execution. A remote attacker ca…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71923",
+      "published": "2026-08-24T18:17:07.497000+00:00"
+    },
+    {
+      "id": "6dd42c578d3b9c43",
+      "kind": "cve",
+      "cve": "CVE-2026-71922",
+      "title": "CVE-2026-71922",
+      "summary": "Multiple DrayTek VigorSwitch models contain a pre-authentication null pointer dereference vulnerability in the setget.cgi interface. The vulnerability is caused by missing validation when the pass field is absent. A remote attacker can trig…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71922",
+      "published": "2026-08-24T18:17:07.280000+00:00"
+    },
+    {
+      "id": "10c70c9c78c9e395",
+      "kind": "cve",
+      "cve": "CVE-2026-71921",
+      "title": "CVE-2026-71921",
+      "summary": "Multiple DrayTek VigorSwitch models contain a pre-authentication command injection vulnerability in the setget.cgi interface. The vulnerability is caused by insufficient filtering of the pass field before command execution. A remote attacke…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71921",
+      "published": "2026-08-24T18:17:07.060000+00:00"
+    },
+    {
+      "id": "543581235ec50351",
+      "kind": "cve",
+      "cve": "CVE-2026-71919",
+      "title": "CVE-2026-71919",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the sysreboot function. The vulnerability is caused by insufficient filtering of the config, act, pathN, and valueN fields before command execution. A remote a…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71919",
+      "published": "2026-08-24T18:17:06.610000+00:00"
+    },
+    {
+      "id": "10ea8ddf010dfc8d",
+      "kind": "cve",
+      "cve": "CVE-2026-71918",
+      "title": "CVE-2026-71918",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the webBackupAction function. The vulnerability is caused by insufficient filtering of the option, key, pw_encode, pathN, and valueN fields before command exec…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71918",
+      "published": "2026-08-24T18:17:06.377000+00:00"
+    },
+    {
+      "id": "75d024854fc22402",
+      "kind": "cve",
+      "cve": "CVE-2026-71917",
+      "title": "CVE-2026-71917",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the pingtrace function. The vulnerability is caused by insufficient validation of the host field before command execution. A remote attacker can trigger this v…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71917",
+      "published": "2026-08-24T18:17:06.153000+00:00"
+    },
+    {
+      "id": "0b8d4ab9077575f9",
+      "kind": "cve",
+      "cve": "CVE-2026-71916",
+      "title": "CVE-2026-71916",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the commandTable function. The vulnerability is caused by incomplete filtering of dangerous characters such as backticks, newline characters, and single quotes…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71916",
+      "published": "2026-08-24T18:17:03.940000+00:00"
+    },
+    {
+      "id": "b2b23fb88f6b4a89",
+      "kind": "cve",
+      "cve": "CVE-2026-71915",
+      "title": "CVE-2026-71915",
+      "summary": "Multiple DrayTek VigorSwitch models contain a command injection vulnerability in the jsonstatus function. The vulnerability is caused by insufficient filtering of the usescript, usefile, and option fields before command execution. A remote…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71915",
+      "published": "2026-08-24T18:17:03.670000+00:00"
+    },
+    {
+      "id": "0eeb998f717b79df",
+      "kind": "cve",
+      "cve": "CVE-2026-71914",
+      "title": "CVE-2026-71914",
+      "summary": "Multiple DrayTek VigorAP models contain a command injection vulnerability in the dray_apm component. The vulnerability is caused by insufficient validation of UDP message content after START_SPEED_TEST before command execution. A remote att…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71914",
+      "published": "2026-08-24T18:17:03.497000+00:00"
+    },
+    {
+      "id": "8a7c205bbf3f6b80",
+      "kind": "cve",
+      "cve": "CVE-2026-71913",
+      "title": "CVE-2026-71913",
+      "summary": "Multiple DrayTek VigorAP models contain a command injection vulnerability in the upload_settings.cgi interface. The vulnerability is caused by insufficient filtering before the restorekey field is concatenated into a shell command. A remote…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71913",
+      "published": "2026-08-24T18:17:03.300000+00:00"
+    },
+    {
+      "id": "a477e5beac6eaed5",
+      "kind": "cve",
+      "cve": "CVE-2026-71912",
+      "title": "CVE-2026-71912",
+      "summary": "Multiple DrayTek VigorAP models contain a buffer overflow vulnerability in the apautotest function. The vulnerability is caused by missing length checks during memory copy operations involving the CMD6 field. A remote attacker can trigger t…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71912",
+      "published": "2026-08-24T18:17:03.110000+00:00"
+    },
+    {
+      "id": "807a2e176605d425",
+      "kind": "cve",
+      "cve": "CVE-2026-71911",
+      "title": "CVE-2026-71911",
+      "summary": "Multiple DrayTek VigorAP models contain a buffer overflow vulnerability in the setLan function. The vulnerability is caused by missing length checks during memory copy operations involving the lanVlanId0, lanIp, and lanNetmask fields. A rem…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71911",
+      "published": "2026-08-24T18:17:02.947000+00:00"
+    },
+    {
+      "id": "b824b50990d2d4c4",
+      "kind": "cve",
+      "cve": "CVE-2026-71910",
+      "title": "CVE-2026-71910",
+      "summary": "Multiple DrayTek VigorAP models contain a command injection vulnerability in the apautotest function. The vulnerability is caused by insufficient validation of the CMD0, CMD3, and CMD6 fields before command execution. A remote attacker can…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71910",
+      "published": "2026-08-24T18:17:02.770000+00:00"
+    },
+    {
+      "id": "447599a51750ca3b",
+      "kind": "cve",
+      "cve": "CVE-2026-71909",
+      "title": "CVE-2026-71909",
+      "summary": "Multiple DrayTek VigorAP models contain a command injection vulnerability in the InquierTime function. The vulnerability is caused by insufficient filtering of the time field before command execution. A remote attacker can trigger this vuln…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71909",
+      "published": "2026-08-24T18:17:02.593000+00:00"
+    },
+    {
+      "id": "e53b50d5ce66ea07",
+      "kind": "cve",
+      "cve": "CVE-2026-71908",
+      "title": "CVE-2026-71908",
+      "summary": "Multiple DrayTek VigorAP models contain a command injection vulnerability in the mesh_start_speed_test function. The vulnerability is caused by insufficient sanitization of the meshdevice_index and meshdevice_ip fields before command execut…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71908",
+      "published": "2026-08-24T18:17:02.420000+00:00"
+    },
+    {
+      "id": "93ad810ec00015f3",
+      "kind": "cve",
+      "cve": "CVE-2026-71907",
+      "title": "CVE-2026-71907",
+      "summary": "Multiple DrayTek VigorAP models contain a command injection vulnerability in the setcamset function. The vulnerability is caused by insufficient filtering of the selectSlaves field before command execution. A remote attacker can trigger thi…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71907",
+      "published": "2026-08-24T18:17:02.243000+00:00"
+    },
+    {
+      "id": "74af3e98b8a071fb",
+      "kind": "cve",
+      "cve": "CVE-2026-71906",
+      "title": "CVE-2026-71906",
+      "summary": "Multiple DrayTek VigorAP models contain a command injection vulnerability in the setLan function. The vulnerability is caused by insufficient validation of the lanIp and lanNetmask fields before command execution. A remote attacker can trig…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71906",
+      "published": "2026-08-24T18:17:02.067000+00:00"
+    },
+    {
+      "id": "c7b31f95c510f045",
+      "kind": "cve",
+      "cve": "CVE-2026-71905",
+      "title": "CVE-2026-71905",
+      "summary": "Multiple DrayTek VigorAP models contain a command injection vulnerability in the ExportSettings function. The vulnerability is caused by insufficient filtering of the backupkey, backuptype, and realtime fields before command execution. A re…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71905",
+      "published": "2026-08-24T18:17:01.890000+00:00"
+    },
+    {
+      "id": "ed932221db636307",
+      "kind": "cve",
+      "cve": "CVE-2026-71904",
+      "title": "CVE-2026-71904",
+      "summary": "Multiple DrayTek VigorAP models contain a command injection vulnerability in the tr069TestInform function. The vulnerability is caused by insufficient filtering of dangerous characters before the event_code field is concatenated into a syst…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71904",
+      "published": "2026-08-24T18:17:01.700000+00:00"
     },
     {
       "id": "bdaaf27aab95e334",
@@ -139,40 +853,6 @@
       "published": "2026-08-24T14:32:10+00:00"
     },
     {
-      "id": "6f6be502a47005b2",
-      "kind": "cve",
-      "cve": "CVE-2026-78248",
-      "title": "CVE-2026-78248",
-      "summary": "A vulnerability was determined in SourceCodester Simple Online Food Ordering System 1.0. Impacted is an unknown function of the file /fos/admin/ajax.php?action=save_settings. This manipulation of the argument Name causes sql injection. The…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78248",
-      "published": "2026-08-24T14:17:04.050000+00:00"
-    },
-    {
-      "id": "106f9ae07fefc5ca",
-      "kind": "cve",
-      "cve": "CVE-2026-76848",
-      "title": "CVE-2026-76848",
-      "summary": "TypeORM's SelectQueryBuilder.distinctOn accepts an array of strings and stores it on the expression map without validation. For PostgreSQL-family drivers, createSelectDistinctExpression in src/query-builder/SelectQueryBuilder.ts joins that…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76848",
-      "published": "2026-08-24T14:17:03.013000+00:00"
-    },
-    {
       "id": "b02ca38955560163",
       "kind": "cve",
       "cve": "CVE-2026-76847",
@@ -222,23 +902,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76843",
       "published": "2026-08-24T14:17:02.087000+00:00"
-    },
-    {
-      "id": "98ab75551163dd89",
-      "kind": "cve",
-      "cve": "CVE-2026-76842",
-      "title": "CVE-2026-76842",
-      "summary": "The Mercado Pago Node.js SDK interpolates caller-supplied identifiers into API request paths without percent-encoding them, so characters that are structural in a URL survive into the outgoing request. The payment (get, capture, cancel), pa…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76842",
-      "published": "2026-08-24T14:17:01.930000+00:00"
     },
     {
       "id": "3819fcf574de7ec7",
@@ -462,23 +1125,6 @@
       "published": "2026-08-24T07:23:16+00:00"
     },
     {
-      "id": "a4b410e39133fde6",
-      "kind": "cve",
-      "cve": "CVE-2026-78202",
-      "title": "CVE-2026-78202",
-      "summary": "A vulnerability was found in itsourcecode Payroll System 1.0. This affects the function save_settings of the file admin_class.php. The manipulation of the argument img results in unrestricted upload. The attack may be performed from remote.…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78202",
-      "published": "2026-08-24T07:16:54.400000+00:00"
-    },
-    {
       "id": "601c51f38787f0fd",
       "kind": "cve",
       "cve": "CVE-2026-78201",
@@ -513,40 +1159,6 @@
       "published": "2026-08-24T06:19:46.750000+00:00"
     },
     {
-      "id": "218d3ec73f176de9",
-      "kind": "cve",
-      "cve": "CVE-2026-78197",
-      "title": "CVE-2026-78197",
-      "summary": "A weakness has been identified in SourceCodester Simple Online Food Ordering System 1.0. This vulnerability affects unknown code of the file /fos/admin/ajax.php?action=save_user. This manipulation of the argument Username causes sql injecti…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78197",
-      "published": "2026-08-24T05:16:55.917000+00:00"
-    },
-    {
-      "id": "4b0cbdc55f6eaa67",
-      "kind": "cve",
-      "cve": "CVE-2026-78182",
-      "title": "CVE-2026-78182",
-      "summary": "A security vulnerability has been detected in Shenzhen Gongji Technology XBROTHER Dynamic Environment Monitoring System up to 300R004C00B300. The affected element is the function PlanController.getImmediatePlans of the file /xbreport/api/v1…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78182",
-      "published": "2026-08-24T04:16:59.040000+00:00"
-    },
-    {
       "id": "6c27ab1461d0ec4c",
       "kind": "cve",
       "cve": "CVE-2026-78181",
@@ -562,23 +1174,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78181",
       "published": "2026-08-24T04:16:58.847000+00:00"
-    },
-    {
-      "id": "2a0949e7ea4a3365",
-      "kind": "cve",
-      "cve": "CVE-2026-78180",
-      "title": "CVE-2026-78180",
-      "summary": "A security flaw has been discovered in alibaba-fusion next up to 1.27.34. This issue affects the function ConfigProvider.getContextProps of the file components/dialog/index.tsx of the component deepMerge. Performing a manipulation of the ar…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78180",
-      "published": "2026-08-24T04:16:58.647000+00:00"
     },
     {
       "id": "9a315f0a05b1e82c",
@@ -615,23 +1210,6 @@
       "published": "2026-08-24T03:16:39.423000+00:00"
     },
     {
-      "id": "1837dd8a6cc335ad",
-      "kind": "cve",
-      "cve": "CVE-2026-78170",
-      "title": "CVE-2026-78170",
-      "summary": "A flaw has been found in UTT HiPER 1200GW up to 2.5.3-170306. Affected is the function strcpy of the file /goform/formConfigFastDirectionW. Executing a manipulation of the argument ssid can lead to buffer overflow. The attack may be perform…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78170",
-      "published": "2026-08-24T02:17:04.817000+00:00"
-    },
-    {
       "id": "3115ad6a20d682a5",
       "kind": "cve",
       "cve": "CVE-2026-78168",
@@ -647,23 +1225,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78168",
       "published": "2026-08-24T02:17:04.480000+00:00"
-    },
-    {
-      "id": "3dbd53866ddbf16c",
-      "kind": "cve",
-      "cve": "CVE-2026-78167",
-      "title": "CVE-2026-78167",
-      "summary": "A weakness has been identified in EFM ipTIME T16000M 14.20.2. The impacted element is the function httpcon_check_session_url of the component Session Validation Handler. This manipulation causes improper authentication. Remote exploitation…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78167",
-      "published": "2026-08-24T02:17:04.300000+00:00"
     },
     {
       "id": "1fb5740f788c32a6",
@@ -683,23 +1244,6 @@
       "published": "2026-08-24T02:00:03+00:00"
     },
     {
-      "id": "df7aafa7beef5877",
-      "kind": "cve",
-      "cve": "CVE-2026-78209",
-      "title": "CVE-2026-78209",
-      "summary": "exceljs-hardened versions before 5.0.0 fail to neutralize leading equals, plus, minus, or at signs in cell values written to CSV output. Attackers who can influence exported cell values can inject formulas that execute when the CSV file is…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78209",
-      "published": "2026-08-24T01:16:58.423000+00:00"
-    },
-    {
       "id": "93165133e8d608d8",
       "kind": "cve",
       "cve": "CVE-2026-78208",
@@ -715,23 +1259,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78208",
       "published": "2026-08-24T01:16:58.280000+00:00"
-    },
-    {
-      "id": "412b2c969e92360d",
-      "kind": "cve",
-      "cve": "CVE-2026-78207",
-      "title": "CVE-2026-78207",
-      "summary": "exceljs-hardened before 5.0.0 contains a prototype pollution vulnerability in the deepMerge helper that fails to reject __proto__, constructor, or prototype keys when merging note objects. Attackers can assign parsed JSON with a malicious _…",
-      "severity": "CRITICAL",
-      "score": 9.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78207",
-      "published": "2026-08-24T01:16:58.137000+00:00"
     },
     {
       "id": "054aa72a391e694d",
@@ -768,40 +1295,6 @@
       "published": "2026-08-24T01:16:57.530000+00:00"
     },
     {
-      "id": "7003e4d6a07a24d6",
-      "kind": "cve",
-      "cve": "CVE-2026-78161",
-      "title": "CVE-2026-78161",
-      "summary": "A vulnerability was found in warmcat libwebsockets 4.5.0. Impacted is the function report_raw_cbor of the file lib/misc/lecp.c of the component LECP CBOR Recording. The manipulation results in out-of-bounds write. The attack can be launched…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78161",
-      "published": "2026-08-24T01:16:57.360000+00:00"
-    },
-    {
-      "id": "b275338de7999925",
-      "kind": "cve",
-      "cve": "CVE-2026-78157",
-      "title": "CVE-2026-78157",
-      "summary": "A vulnerability was detected in Open5GS 2.8.0. This affects the function pcrf_rx_aar_cb of the file src/pcrf/pcrf-rx-path.c of the component Rx AA-Request Handler. Performing a manipulation results in out-of-bounds read. It is possible to i…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78157",
-      "published": "2026-08-24T01:16:56.817000+00:00"
-    },
-    {
       "id": "6836252068c0781f",
       "kind": "cve",
       "cve": "CVE-2026-78156",
@@ -817,23 +1310,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78156",
       "published": "2026-08-24T00:16:47.367000+00:00"
-    },
-    {
-      "id": "1fbfe29a40a01824",
-      "kind": "cve",
-      "cve": "CVE-2026-78154",
-      "title": "CVE-2026-78154",
-      "summary": "A vulnerability was identified in the-momentum open-wearables up to 0.6.2. This impacts the function redeem_invitation_code of the file backend/app/api/routes/v1/user_invitation_code.py of the component Public Invitation-Code Redemption End…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78154",
-      "published": "2026-08-24T00:16:47.200000+00:00"
     },
     {
       "id": "96b5fcc29817b37f",
@@ -853,23 +1329,6 @@
       "published": "2026-08-23T23:16:46.243000+00:00"
     },
     {
-      "id": "6679cd08b9d6d04e",
-      "kind": "cve",
-      "cve": "CVE-2026-78143",
-      "title": "CVE-2026-78143",
-      "summary": "A vulnerability was determined in code-projects Barangay Resident Profiling Management System 1.0. Affected is an unknown function of the file residents.php of the component Resident Search Functionality. This manipulation of the argument S…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78143",
-      "published": "2026-08-23T23:16:44.810000+00:00"
-    },
-    {
       "id": "e48f5a062d8b328e",
       "kind": "cve",
       "cve": "CVE-2026-78141",
@@ -885,23 +1344,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78141",
       "published": "2026-08-23T22:16:32.667000+00:00"
-    },
-    {
-      "id": "cda3f8237bfe1334",
-      "kind": "cve",
-      "cve": "CVE-2026-9769",
-      "title": "CVE-2026-9769",
-      "summary": "justhtml through 1.9.1 (fixed in 1.10.0) is vulnerable to uncontrolled recursion leading to denial of service. During JustHTML() construction, TreeBuilder.finish() unconditionally calls _populate_selectedcontent(), which recursively travers…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9769",
-      "published": "2026-08-23T14:16:55.277000+00:00"
     },
     {
       "id": "f7a4848c901c7181",
@@ -953,23 +1395,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5388",
       "published": "2026-08-23T14:16:53.470000+00:00"
-    },
-    {
-      "id": "0933dc8e166a2d22",
-      "kind": "cve",
-      "cve": "CVE-2026-4671",
-      "title": "CVE-2026-4671",
-      "summary": "justhtml before 1.18.0 contains multiple low-severity denial-of-service issues in CSS selector handling and linkification. Applications that evaluate attacker-controlled selector strings (via query(), matches(), or selector-based transforms…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4671",
-      "published": "2026-08-23T14:16:53.293000+00:00"
     },
     {
       "id": "5d83b0ef884929b7",
@@ -3830,436 +4255,6 @@
       "product": "",
       "url": "https://labs.watchtowr.com/marking-your-own-homework-check-point-remote-access-vpn-ikev1-authentication-bypass-cve-2026-50751/",
       "published": "2026-06-12T05:17:20+00:00"
-    },
-    {
-      "id": "c5f8e67d9f90eed3",
-      "kind": "cve",
-      "cve": "CVE-2026-35273",
-      "title": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
-      "summary": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Oracle",
-      "product": " PeopleSoft Enterprise PeopleTools",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35273",
-      "published": "2026-06-12T00:00:00+00:00"
-    },
-    {
-      "id": "ce436da605cb0237",
-      "kind": "cve",
-      "cve": "CVE-2026-10520",
-      "title": "Ivanti Sentry OS Command Injection Vulnerability",
-      "summary": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": "Sentry",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10520",
-      "published": "2026-06-11T00:00:00+00:00"
-    },
-    {
-      "id": "a87887de0fe62558",
-      "kind": "research",
-      "cve": "CVE-2026-10520",
-      "title": "More Evidence That Words Don't Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520)",
-      "summary": "Today, Ivanti published an advisory. &#x201c;No way?&#x201d; we hear you say. &quot;Yes way!&quot; Today&#x2019;s advisory outlines two vulnerabilities in Ivanti&#x2019;s Sentry product, appealing directly to our inner desire for sophistica…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/more-evidence-that-words-dont-mean-what-we-thought-they-meant-ivanti-sentry-pre-auth-os-command-injection-cve-2026-10520/",
-      "published": "2026-06-10T00:52:20+00:00"
-    },
-    {
-      "id": "924ac277894af899",
-      "kind": "cve",
-      "cve": "CVE-2026-11645",
-      "title": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
-      "summary": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Chromium V8",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11645",
-      "published": "2026-06-09T00:00:00+00:00"
-    },
-    {
-      "id": "ad05e4257cab107d",
-      "kind": "cve",
-      "cve": "CVE-2026-7473",
-      "title": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
-      "summary": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configure…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Arista",
-      "product": "Extensible Operating System",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7473",
-      "published": "2026-06-09T00:00:00+00:00"
-    },
-    {
-      "id": "e1b09c75e89f3cfc",
-      "kind": "cve",
-      "cve": "CVE-2026-20245",
-      "title": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a cr…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20245",
-      "published": "2026-06-09T00:00:00+00:00"
-    },
-    {
-      "id": "5d8e67eac79cfc18",
-      "kind": "cve",
-      "cve": "CVE-2026-42271",
-      "title": "BerriAI LiteLLM Command Injection Vulnerability",
-      "summary": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42271",
-      "published": "2026-06-08T00:00:00+00:00"
-    },
-    {
-      "id": "cd6db8ee9b1fdef2",
-      "kind": "cve",
-      "cve": "CVE-2026-50751",
-      "title": "Check Point Security Gateway Improper Authentication Vulnerability",
-      "summary": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a va…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Check Point",
-      "product": "Security Gateway",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50751",
-      "published": "2026-06-08T00:00:00+00:00"
-    },
-    {
-      "id": "7d09a023fb52d043",
-      "kind": "cve",
-      "cve": "CVE-2026-28318",
-      "title": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
-      "summary": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "SolarWinds",
-      "product": "Serv-U",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28318",
-      "published": "2026-06-05T00:00:00+00:00"
-    },
-    {
-      "id": "42750f3a5b6a646f",
-      "kind": "cve",
-      "cve": "CVE-2026-45247",
-      "title": "Mirasvit Full Page Cache Warmer Deserialization of Untrusted Data Vulnerability",
-      "summary": "Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized PHP object in the CacheWarmer cookie.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Mirasvit",
-      "product": "Mirasvit Full Page Cache Warmer",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45247",
-      "published": "2026-06-03T00:00:00+00:00"
-    },
-    {
-      "id": "4078c11d212566f6",
-      "kind": "cve",
-      "cve": "CVE-2022-0492",
-      "title": "Linux Kernel Improper Authentication Vulnerability",
-      "summary": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Linux",
-      "product": "Kernel",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0492",
-      "published": "2026-06-02T00:00:00+00:00"
-    },
-    {
-      "id": "5023d62b9608e0cc",
-      "kind": "cve",
-      "cve": "CVE-2025-48595",
-      "title": "Android Framework Integer Overflow Vulnerability",
-      "summary": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Android",
-      "product": "Framework",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48595",
-      "published": "2026-06-02T00:00:00+00:00"
-    },
-    {
-      "id": "738a35f0986c9ef0",
-      "kind": "research",
-      "cve": null,
-      "title": "How Neo's Agent Architecture Evolved: From One Agent → Plan, Execute & Verify",
-      "summary": "Our first engineering post covered prompt caching, the infrastructure change that made long-running agentic tasks economically viable. That post assumed a multi-step, multi-agent system already existed. It did not exist on day one. When we…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/neo-agent-architecture",
-      "published": "2026-06-01T18:28:00+00:00"
-    },
-    {
-      "id": "8eac94831f16d21f",
-      "kind": "cve",
-      "cve": "CVE-2024-21182",
-      "title": "Oracle WebLogic Server Unspecified Vulnerability",
-      "summary": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized ac…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Oracle",
-      "product": "WebLogic Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21182",
-      "published": "2026-06-01T00:00:00+00:00"
-    },
-    {
-      "id": "808ab0c237c8e4ff",
-      "kind": "cve",
-      "cve": "CVE-2026-0257",
-      "title": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
-      "summary": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Palo Alto Networks",
-      "product": "PAN-OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0257",
-      "published": "2026-05-29T00:00:00+00:00"
-    },
-    {
-      "id": "b818eda335a0a56e",
-      "kind": "cve",
-      "cve": "CVE-2026-48027",
-      "title": "Nx Console Embedded Malicious Code Vulnerability",
-      "summary": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on d…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Nx",
-      "product": "Nx Console",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48027",
-      "published": "2026-05-27T00:00:00+00:00"
-    },
-    {
-      "id": "ae556b0c7c3256b1",
-      "kind": "cve",
-      "cve": "CVE-2026-45321",
-      "title": "TanStack Unspecified Vulnerability",
-      "summary": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "TanStack",
-      "product": "TanStack",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45321",
-      "published": "2026-05-27T00:00:00+00:00"
-    },
-    {
-      "id": "059c204631a72c6d",
-      "kind": "cve",
-      "cve": "CVE-2026-8398",
-      "title": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
-      "summary": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Daemon",
-      "product": "Daemon Tools Lite",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8398",
-      "published": "2026-05-27T00:00:00+00:00"
-    },
-    {
-      "id": "4b1b0eb53a6b1528",
-      "kind": "cve",
-      "cve": "CVE-2026-48172",
-      "title": "LiteSpeed cPanel Plugin Privilege Escalation Vulnerability",
-      "summary": "LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "LiteSpeed",
-      "product": "cPanel Plugin",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48172",
-      "published": "2026-05-26T00:00:00+00:00"
-    },
-    {
-      "id": "2987ef69236eecd0",
-      "kind": "cve",
-      "cve": "CVE-2026-9082",
-      "title": "Drupal Core SQL Injection Vulnerability",
-      "summary": "Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Drupal",
-      "product": "Core",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9082",
-      "published": "2026-05-22T00:00:00+00:00"
-    },
-    {
-      "id": "097c2402a78d2dad",
-      "kind": "research",
-      "cve": null,
-      "title": "Red-Teaming Cloud Infrastructure with Neo",
-      "summary": "Most AI security tooling shipped over the last year focuses on one of two workflows, code review at PR time or zero-day research in open-source software. Models in PR pipelines now flag insecure patterns at every commit and autonomous resea…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/red-teaming-cloud-infrastructure-with-neo",
-      "published": "2026-05-21T12:18:50+00:00"
-    },
-    {
-      "id": "026ffbb5984f599e",
-      "kind": "cve",
-      "cve": "CVE-2025-34291",
-      "title": "Langflow Origin Validation Error Vulnerability",
-      "summary": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that in…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34291",
-      "published": "2026-05-21T00:00:00+00:00"
-    },
-    {
-      "id": "52891b77d8d239d1",
-      "kind": "cve",
-      "cve": "CVE-2026-34926",
-      "title": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
-      "summary": "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Trend Micro",
-      "product": "Apex One",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34926",
-      "published": "2026-05-21T00:00:00+00:00"
-    },
-    {
-      "id": "a5b0f655e5275e0e",
-      "kind": "cve",
-      "cve": "CVE-2008-4250",
-      "title": "Microsoft Windows Buffer Overflow Vulnerability",
-      "summary": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4250",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "7f13c444ca87978f",
-      "kind": "cve",
-      "cve": "CVE-2009-1537",
-      "title": "Microsoft DirectX NULL Byte Overwrite Vulnerability",
-      "summary": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "DirectX",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-1537",
-      "published": "2026-05-20T00:00:00+00:00"
     }
   ]
 }
