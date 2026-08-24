@@ -1,7 +1,143 @@
 {
-  "generated": "2026-08-24T00:43:26.344732+00:00",
+  "generated": "2026-08-24T02:17:19.872579+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "1fb5740f788c32a6",
+      "kind": "research",
+      "cve": null,
+      "title": "ISC Stormcast For Monday, August 24th, 2026 https://isc.sans.edu/podcastdetail/10064, (Mon, Aug 24th)",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "severity": "",
+      "score": null,
+      "source": "SANS ISC",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://isc.sans.edu/diary/rss/33276",
+      "published": "2026-08-24T02:00:03+00:00"
+    },
+    {
+      "id": "df7aafa7beef5877",
+      "kind": "cve",
+      "cve": "CVE-2026-78209",
+      "title": "CVE-2026-78209",
+      "summary": "exceljs-hardened versions before 5.0.0 fail to neutralize leading equals, plus, minus, or at signs in cell values written to CSV output. Attackers who can influence exported cell values can inject formulas that execute when the CSV file is…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78209",
+      "published": "2026-08-24T01:16:58.423000+00:00"
+    },
+    {
+      "id": "93165133e8d608d8",
+      "kind": "cve",
+      "cve": "CVE-2026-78208",
+      "title": "CVE-2026-78208",
+      "summary": "exceljs-hardened before 5.0.0 contains a path traversal vulnerability in the Workbook.addImage() function that fails to validate file paths. Attackers can supply arbitrary file paths to read any file accessible to the Node.js process and em…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78208",
+      "published": "2026-08-24T01:16:58.280000+00:00"
+    },
+    {
+      "id": "412b2c969e92360d",
+      "kind": "cve",
+      "cve": "CVE-2026-78207",
+      "title": "CVE-2026-78207",
+      "summary": "exceljs-hardened before 5.0.0 contains a prototype pollution vulnerability in the deepMerge helper that fails to reject __proto__, constructor, or prototype keys when merging note objects. Attackers can assign parsed JSON with a malicious _…",
+      "severity": "CRITICAL",
+      "score": 9.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78207",
+      "published": "2026-08-24T01:16:58.137000+00:00"
+    },
+    {
+      "id": "054aa72a391e694d",
+      "kind": "cve",
+      "cve": "CVE-2026-78206",
+      "title": "CVE-2026-78206",
+      "summary": "exceljs-hardened before 5.0.0 decompresses all entries from supplied xlsx archives into memory without limits on entry size, total size, or compression ratio. Attackers can upload highly compressed workbooks that expand to gigabytes in memo…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78206",
+      "published": "2026-08-24T01:16:57.973000+00:00"
+    },
+    {
+      "id": "c471e3482c88a853",
+      "kind": "cve",
+      "cve": "CVE-2026-78203",
+      "title": "CVE-2026-78203",
+      "summary": "Ghostwriter before 7.1.2 fails to validate template ownership in the report template swap endpoint, allowing attackers to attach client-scoped templates from other clients to their own reports. Attackers can exploit sequential template prim…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78203",
+      "published": "2026-08-24T01:16:57.530000+00:00"
+    },
+    {
+      "id": "7003e4d6a07a24d6",
+      "kind": "cve",
+      "cve": "CVE-2026-78161",
+      "title": "CVE-2026-78161",
+      "summary": "A vulnerability was found in warmcat libwebsockets 4.5.0. Impacted is the function report_raw_cbor of the file lib/misc/lecp.c of the component LECP CBOR Recording. The manipulation results in out-of-bounds write. The attack can be launched…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78161",
+      "published": "2026-08-24T01:16:57.360000+00:00"
+    },
+    {
+      "id": "b275338de7999925",
+      "kind": "cve",
+      "cve": "CVE-2026-78157",
+      "title": "CVE-2026-78157",
+      "summary": "A vulnerability was detected in Open5GS 2.8.0. This affects the function pcrf_rx_aar_cb of the file src/pcrf/pcrf-rx-path.c of the component Rx AA-Request Handler. Performing a manipulation results in out-of-bounds read. It is possible to i…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78157",
+      "published": "2026-08-24T01:16:56.817000+00:00"
+    },
     {
       "id": "6836252068c0781f",
       "kind": "cve",
@@ -1701,23 +1837,6 @@
       "product": "macOS",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
       "published": "2026-08-18T00:00:00+00:00"
-    },
-    {
-      "id": "1dc8b158cf0889ae",
-      "kind": "research",
-      "cve": null,
-      "title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
-      "summary": "Apple today released updates for iOS/iPadOS (26 and 18) and macOS 26. This update fixes 108 vulnerabilities and comes about two weeks after the much smaller macOS update that addressed the single screen-sharing vulnerability. This vulnerabi…",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33254",
-      "published": "2026-08-17T20:26:39+00:00"
     },
     {
       "id": "97c2411c5534214b",
@@ -4146,126 +4265,6 @@
       "product": "Defender",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33825",
       "published": "2026-04-22T00:00:00+00:00"
-    },
-    {
-      "id": "4bbd8e20a6586940",
-      "kind": "cve",
-      "cve": "CVE-2026-20122",
-      "title": "Cisco Catalyst SD-WAN Manager Incorrect Use of Privileged APIs Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains an incorrect use of privileged APIs vulnerability due to improper file handling on the API interface of an affected system. An attacker could exploit this vulnerability by uploading a malicious file on…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manger",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20122",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "2166f6c7e73b91d2",
-      "kind": "cve",
-      "cve": "CVE-2026-20133",
-      "title": "Cisco Catalyst SD-WAN Manager Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains an exposure of sensitive information to an unauthorized actor vulnerability that could allow remote attackers to view sensitive information on affected systems.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20133",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "c2476643493dac3e",
-      "kind": "cve",
-      "cve": "CVE-2025-2749",
-      "title": "Kentico Xperience Path Traversal Vulnerability",
-      "summary": "Kentico Xperience contains a path traversal vulnerability that could allow an authenticated user's Staging Sync Server to upload arbitrary data to path relative locations.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Kentico",
-      "product": "Kentico Xperience",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2749",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "76f73c8d0c1fd4bc",
-      "kind": "cve",
-      "cve": "CVE-2023-27351",
-      "title": "PaperCut NG/MF Improper Authentication Vulnerability",
-      "summary": "PaperCut NG/MF contains an improper authentication vulnerability that could allow remote attackers to bypass authentication on affected installations via the SecurityRequestFilter class.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "PaperCut",
-      "product": "NG/MF",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27351",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "0c32e53379660022",
-      "kind": "cve",
-      "cve": "CVE-2025-48700",
-      "title": "Synacor Zimbra Collaboration Suite (ZCS) Cross-site Scripting Vulnerability",
-      "summary": "Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability that could allow attackers to execute arbitrary JavaScript within the user's session, potentially leading to unauthorized access to sensitive information…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Synacor",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48700",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "24a8319c64d5399f",
-      "kind": "cve",
-      "cve": "CVE-2026-20128",
-      "title": "Cisco Catalyst SD-WAN Manager Storing Passwords in a Recoverable Format Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains a storing passwords in a recoverable format vulnerability that allows an authenticated, local attacker to gain DCA user privileges by accessing a credential file for the DCA user on the filesystem as a…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20128",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "f472d09cc09d767c",
-      "kind": "cve",
-      "cve": "CVE-2025-32975",
-      "title": "Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability",
-      "summary": "Quest KACE Systems Management Appliance (SMA) contains an improper authentication vulnerability that could allow attackers to impersonate legitimate users without valid credentials.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Quest",
-      "product": "KACE Systems Management Appliance (SMA)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32975",
-      "published": "2026-04-20T00:00:00+00:00"
     }
   ]
 }
