@@ -1,7 +1,194 @@
 {
-  "generated": "2026-08-24T13:42:50.086455+00:00",
+  "generated": "2026-08-24T14:32:33.401957+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "b4dd2f671e913f8c",
+      "kind": "cve",
+      "cve": "CVE-2026-78376",
+      "title": "CVE-2026-78376",
+      "summary": "A flaw was found in WebKitGTK. Processing malicious web content can cause a use-after-free issue due to improper memory handling and result in memory corruption.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78376",
+      "published": "2026-08-24T14:17:05.390000+00:00"
+    },
+    {
+      "id": "f776362d0e44726d",
+      "kind": "cve",
+      "cve": "CVE-2026-78367",
+      "title": "CVE-2026-78367",
+      "summary": "A flaw was found in rpmbuild. When rpmbuild processes a crafted tarball in tarball mode, a specially designed tar member name can lead to macro injection. This vulnerability allows a remote attacker to execute arbitrary code on the system b…",
+      "severity": "HIGH",
+      "score": 7.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78367",
+      "published": "2026-08-24T14:17:04.767000+00:00"
+    },
+    {
+      "id": "6f6be502a47005b2",
+      "kind": "cve",
+      "cve": "CVE-2026-78248",
+      "title": "CVE-2026-78248",
+      "summary": "A vulnerability was determined in SourceCodester Simple Online Food Ordering System 1.0. Impacted is an unknown function of the file /fos/admin/ajax.php?action=save_settings. This manipulation of the argument Name causes sql injection. The…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78248",
+      "published": "2026-08-24T14:17:04.050000+00:00"
+    },
+    {
+      "id": "106f9ae07fefc5ca",
+      "kind": "cve",
+      "cve": "CVE-2026-76848",
+      "title": "CVE-2026-76848",
+      "summary": "TypeORM's SelectQueryBuilder.distinctOn accepts an array of strings and stores it on the expression map without validation. For PostgreSQL-family drivers, createSelectDistinctExpression in src/query-builder/SelectQueryBuilder.ts joins that…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76848",
+      "published": "2026-08-24T14:17:03.013000+00:00"
+    },
+    {
+      "id": "b02ca38955560163",
+      "kind": "cve",
+      "cve": "CVE-2026-76847",
+      "title": "CVE-2026-76847",
+      "summary": "act starts an HTTP Artifacts V4 backend whenever a workflow uses actions/upload-artifact@v4 or actions/download-artifact@v4. The control-plane RPCs of that backend, including CreateArtifact, GetSignedArtifactURL, ListArtifacts, FinalizeArti…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76847",
+      "published": "2026-08-24T14:17:02.857000+00:00"
+    },
+    {
+      "id": "7985d52288a2edb2",
+      "kind": "cve",
+      "cve": "CVE-2026-76844",
+      "title": "CVE-2026-76844",
+      "summary": "webpack-dev-middleware resolves a request to a local file in getFilenameFromUrl by testing the request pathname against a traversal guard and then slicing it at a fixed character offset. The guard, UP_PATH_REGEXP applied to path.normalize(`…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76844",
+      "published": "2026-08-24T14:17:02.250000+00:00"
+    },
+    {
+      "id": "9ca87b5ce444ac32",
+      "kind": "cve",
+      "cve": "CVE-2026-76843",
+      "title": "CVE-2026-76843",
+      "summary": "The official Flair wheels for 0.15.0 and 0.15.1 still contain flair/models/clustering.py, whose ClusteringModel.load static method returns pickle.loads(joblib.load(str(model_file))) and so executes arbitrary Python while loading a model fil…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76843",
+      "published": "2026-08-24T14:17:02.087000+00:00"
+    },
+    {
+      "id": "98ab75551163dd89",
+      "kind": "cve",
+      "cve": "CVE-2026-76842",
+      "title": "CVE-2026-76842",
+      "summary": "The Mercado Pago Node.js SDK interpolates caller-supplied identifiers into API request paths without percent-encoding them, so characters that are structural in a URL survive into the outgoing request. The payment (get, capture, cancel), pa…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76842",
+      "published": "2026-08-24T14:17:01.930000+00:00"
+    },
+    {
+      "id": "3819fcf574de7ec7",
+      "kind": "cve",
+      "cve": "CVE-2026-76841",
+      "title": "CVE-2026-76841",
+      "summary": "Xinference loads models with Hugging Face remote code execution unconditionally enabled, and before version 2.12.0 exposes no setting to disable it. Six loader call sites pass trust_remote_code=True as a literal or as an unconditional defau…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76841",
+      "published": "2026-08-24T14:17:01.760000+00:00"
+    },
+    {
+      "id": "64836b484379d0b5",
+      "kind": "cve",
+      "cve": "CVE-2026-76840",
+      "title": "CVE-2026-76840",
+      "summary": "RustDesk's Windows clipboard redirection copies a peer-supplied length into a fixed-size caller buffer without an upper bound check. When an OLE paste consumer such as explorer.exe calls IStream::Read with a buffer of cb bytes, CliprdrStrea…",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76840",
+      "published": "2026-08-24T14:17:01.550000+00:00"
+    },
+    {
+      "id": "9019899fc7d0d496",
+      "kind": "cve",
+      "cve": "CVE-2026-67602",
+      "title": "CVE-2026-67602",
+      "summary": "phpIPAM before 1.8.2 contains an authentication bypass vulnerability in the REST API that allows unauthenticated attackers to gain full API access by exploiting an insecure object cache keying mechanism. The cache is keyed by lookup value a…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67602",
+      "published": "2026-08-24T14:16:57.347000+00:00"
+    },
     {
       "id": "16f52ae1056f8fb5",
       "kind": "cve",
@@ -18,6 +205,23 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78247",
       "published": "2026-08-24T13:19:17.867000+00:00"
+    },
+    {
+      "id": "ed974b7e9a642d07",
+      "kind": "research",
+      "cve": null,
+      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+      "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According to findings from Gen Digital, WordlistLoa…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+      "published": "2026-08-24T12:35:36+00:00"
     },
     {
       "id": "b79d82d97fb86d90",
@@ -103,23 +307,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
       "published": "2026-08-24T11:30:00+00:00"
-    },
-    {
-      "id": "e3bba36648fc6f17",
-      "kind": "cve",
-      "cve": "CVE-2026-78245",
-      "title": "CVE-2026-78245",
-      "summary": "A flaw has been found in itsourcecode Online Pharmacy System 1.0. This affects the function move_uploaded_file of the file all_users/register.php of the component User Registration. Executing a manipulation of the argument photo can lead to…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78245",
-      "published": "2026-08-24T11:16:41.040000+00:00"
     },
     {
       "id": "8c7b8b35b2fa0747",
@@ -409,23 +596,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78170",
       "published": "2026-08-24T02:17:04.817000+00:00"
-    },
-    {
-      "id": "4c79a5e109424682",
-      "kind": "cve",
-      "cve": "CVE-2026-78169",
-      "title": "CVE-2026-78169",
-      "summary": "A vulnerability was detected in UTT HiPER 1250GW up to 3.2.7-210907-180535. This impacts the function strcpy of the file /goform/aspRemoteApConfTempSend of the component HTTP Request Handler. Performing a manipulation of the argument Profil…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78169",
-      "published": "2026-08-24T02:17:04.650000+00:00"
     },
     {
       "id": "3115ad6a20d682a5",
@@ -870,23 +1040,6 @@
       "published": "2026-08-22T23:16:22.923000+00:00"
     },
     {
-      "id": "a54296763bc7d445",
-      "kind": "cve",
-      "cve": "CVE-2026-4703",
-      "title": "CVE-2026-4703",
-      "summary": "The WS Form LITE – Drag & Drop Contact Form Builder plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 1.10.80 via deserialization of untrusted input from form submission meta values. This makes…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4703",
-      "published": "2026-08-22T16:16:29.497000+00:00"
-    },
-    {
       "id": "4d29da4b11e0d2c0",
       "kind": "cve",
       "cve": "CVE-2026-68766",
@@ -1021,23 +1174,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71513",
       "published": "2026-08-22T14:16:33.417000+00:00"
-    },
-    {
-      "id": "88d471e7696a5fed",
-      "kind": "cve",
-      "cve": "CVE-2026-2996",
-      "title": "CVE-2026-2996",
-      "summary": "The Advanced Product Fields (Product Addons) for WooCommerce plugin for WordPress is vulnerable to Improper Input Validation in all versions up to, and including, 1.6.21. This is due to a logic flaw in the 'validate_cart_data' function. Thi…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2996",
-      "published": "2026-08-22T14:16:32.807000+00:00"
     },
     {
       "id": "3d532887efa2933f",
@@ -1191,23 +1327,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78003",
       "published": "2026-08-22T09:16:53.543000+00:00"
-    },
-    {
-      "id": "4228eedbcb22f038",
-      "kind": "cve",
-      "cve": "CVE-2026-19883",
-      "title": "CVE-2026-19883",
-      "summary": "The WPeMatico RSS Feed Fetcher plugin for WordPress is vulnerable to unauthorized modification of data that can lead to privilege escalation due to a missing capability check on the wpematico_import_settings function in all versions up to,…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19883",
-      "published": "2026-08-22T03:16:20.833000+00:00"
     },
     {
       "id": "2a42acdf4b3844a7",
@@ -2092,23 +2211,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
       "published": "2026-08-18T17:47:22+00:00"
-    },
-    {
-      "id": "a4bd0e1b72a3e261",
-      "kind": "research",
-      "cve": null,
-      "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
-      "summary": "Two critical vulnerabilities impacting MLflow, an open-source artificial intelligence (AI) platform, and FUXA, an open-source, web-based SCADA / HMI software built for operational technology (OT) and industrial automation, are witnessing ma…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-      "published": "2026-08-18T17:44:05+00:00"
     },
     {
       "id": "2fcf1627ed10b933",
@@ -4158,108 +4260,6 @@
       "product": "Apex One",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34926",
       "published": "2026-05-21T00:00:00+00:00"
-    },
-    {
-      "id": "a5b0f655e5275e0e",
-      "kind": "cve",
-      "cve": "CVE-2008-4250",
-      "title": "Microsoft Windows Buffer Overflow Vulnerability",
-      "summary": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4250",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "7f13c444ca87978f",
-      "kind": "cve",
-      "cve": "CVE-2009-1537",
-      "title": "Microsoft DirectX NULL Byte Overwrite Vulnerability",
-      "summary": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "DirectX",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-1537",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "bc149b5f3de3ce61",
-      "kind": "cve",
-      "cve": "CVE-2009-3459",
-      "title": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
-      "summary": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "Acrobat and Reader",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-3459",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "3a344219e399a7e5",
-      "kind": "cve",
-      "cve": "CVE-2010-0249",
-      "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-      "summary": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Internet Explorer",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0249",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "f681e20eb89d2529",
-      "kind": "cve",
-      "cve": "CVE-2010-0806",
-      "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-      "summary": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Internet Explorer",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0806",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "568d947e55fc107c",
-      "kind": "cve",
-      "cve": "CVE-2026-41091",
-      "title": "Microsoft Defender Link Following Vulnerability",
-      "summary": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41091",
-      "published": "2026-05-20T00:00:00+00:00"
     }
   ]
 }
