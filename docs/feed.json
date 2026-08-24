@@ -1,40 +1,91 @@
 {
-  "generated": "2026-08-24T15:29:38.830480+00:00",
+  "generated": "2026-08-24T16:24:43.626055+00:00",
   "count": 250,
   "items": [
     {
-      "id": "a38e2469d3e9a208",
+      "id": "7a6ea3714a9d9fd9",
       "kind": "cve",
-      "cve": "CVE-2026-39915",
-      "title": "CVE-2026-39915",
-      "summary": "TIM Flow before 26.0.6 contains a CRLF injection vulnerability that allows remote attackers to inject arbitrary HTTP headers and response body content by embedding unsanitized carriage return and line feed sequences in the rt URL parameter…",
-      "severity": "HIGH",
-      "score": 8.1,
+      "cve": "CVE-2026-76071",
+      "title": "CVE-2026-76071",
+      "summary": "Netis NC63 firmware through V3.0.0.3327 contains a stack-based buffer overflow vulnerability that allows unauthenticated remote attackers to overwrite saved stack state by supplying an oversized destHost parameter to the ipFilterList=mod ac…",
+      "severity": "CRITICAL",
+      "score": 9.8,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39915",
-      "published": "2026-08-24T15:16:38.090000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76071",
+      "published": "2026-08-24T16:17:23.117000+00:00"
     },
     {
-      "id": "f776362d0e44726d",
+      "id": "cfdb11c5a5706a83",
       "kind": "cve",
-      "cve": "CVE-2026-78367",
-      "title": "CVE-2026-78367",
-      "summary": "A flaw was found in rpmbuild. When rpmbuild processes a crafted tarball in tarball mode, a specially designed tar member name can lead to macro injection. This vulnerability allows a remote attacker to execute arbitrary code on the system b…",
-      "severity": "HIGH",
-      "score": 7.0,
+      "cve": "CVE-2026-76070",
+      "title": "CVE-2026-76070",
+      "summary": "Netis NC63 firmware through V3.0.0.3327 contains a stack-based buffer overflow vulnerability that allows unauthenticated remote attackers to overwrite saved stack state by submitting an oversized Base64-encoded password to the login handler…",
+      "severity": "CRITICAL",
+      "score": 9.8,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78367",
-      "published": "2026-08-24T14:17:04.767000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76070",
+      "published": "2026-08-24T16:17:22.963000+00:00"
+    },
+    {
+      "id": "2ff2a2bd81171cb7",
+      "kind": "cve",
+      "cve": "CVE-2026-71366",
+      "title": "CVE-2026-71366",
+      "summary": "A server-side request forgery (SSRF) vulnerability was found in multiple AWX notification backends. The webhook, Mattermost, Rocket.Chat, and Grafana notification backends use notification template URLs as direct HTTP request targets withou…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71366",
+      "published": "2026-08-24T16:17:22.820000+00:00"
+    },
+    {
+      "id": "527ed2564b7a4432",
+      "kind": "cve",
+      "cve": "CVE-2026-71364",
+      "title": "CVE-2026-71364",
+      "summary": "A path traversal vulnerability was found in AWX's project archive extraction. The project_archive action plugin extracts zip and tar archive members by joining the project directory path with the member filename without performing path norm…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71364",
+      "published": "2026-08-24T16:17:22.663000+00:00"
+    },
+    {
+      "id": "931eb972dbc1a65e",
+      "kind": "research",
+      "cve": null,
+      "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
+      "summary": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh attention, AI makes exploit work cheaper,…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
+      "published": "2026-08-24T14:32:10+00:00"
     },
     {
       "id": "6f6be502a47005b2",
@@ -360,23 +411,6 @@
       "published": "2026-08-24T08:08:31+00:00"
     },
     {
-      "id": "dc0e6dc1e9916034",
-      "kind": "research",
-      "cve": null,
-      "title": "DOUBLECUP's PNG Payload, (Mon, Aug 24th)",
-      "summary": "New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;t use real steganography: &#xd;",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33274",
-      "published": "2026-08-24T07:23:16+00:00"
-    },
-    {
       "id": "a4b410e39133fde6",
       "kind": "cve",
       "cve": "CVE-2026-78202",
@@ -613,23 +647,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78167",
       "published": "2026-08-24T02:17:04.300000+00:00"
-    },
-    {
-      "id": "1fb5740f788c32a6",
-      "kind": "research",
-      "cve": null,
-      "title": "ISC Stormcast For Monday, August 24th, 2026 https://isc.sans.edu/podcastdetail/10064, (Mon, Aug 24th)",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33276",
-      "published": "2026-08-24T02:00:03+00:00"
     },
     {
       "id": "df7aafa7beef5877",
@@ -921,23 +938,6 @@
       "published": "2026-08-23T14:16:53.293000+00:00"
     },
     {
-      "id": "c30d11d4a8a4fe97",
-      "kind": "cve",
-      "cve": "CVE-2026-78063",
-      "title": "CVE-2026-78063",
-      "summary": "A security flaw has been discovered in Tenda CH22 1.0.0.1. The impacted element is the function formeditFileName of the file /goform/editFileName. The manipulation of the argument editNameMit results in command injection. The attack can be…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78063",
-      "published": "2026-08-23T05:16:53.273000+00:00"
-    },
-    {
       "id": "5d83b0ef884929b7",
       "kind": "cve",
       "cve": "CVE-2026-78062",
@@ -953,23 +953,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78062",
       "published": "2026-08-23T05:16:52.137000+00:00"
-    },
-    {
-      "id": "6df7d3cecd92f608",
-      "kind": "cve",
-      "cve": "CVE-2026-78050",
-      "title": "CVE-2026-78050",
-      "summary": "A vulnerability was found in Comfast CF-N1-S 2.6.0.1. The affected element is the function sub_41AD7C of the file /cgi-bin/mbox-config?method=SET&section=ntp_timezone of the component Web Management. The manipulation of the argument timestr…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78050",
-      "published": "2026-08-23T00:16:50.590000+00:00"
     },
     {
       "id": "0610a86122d3fe28",
@@ -1516,57 +1499,6 @@
       "published": "2026-08-21T03:16:39.080000+00:00"
     },
     {
-      "id": "71733a0355c0ddf7",
-      "kind": "research",
-      "cve": null,
-      "title": "Who Got Missed in the MFA Rollout&#x3f; More Powershell &#x2b; Graph &#x2b; Entra scripting&#x21;, (Fri, Aug 21st)",
-      "summary": "In every MFA rollout, there will come a time where you think you are closing in on \"done\", and some automation to list what&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s left would be handy. Something quicker than scrolling through the web inter…",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33272",
-      "published": "2026-08-21T02:47:00+00:00"
-    },
-    {
-      "id": "3e6c04c139293be5",
-      "kind": "research",
-      "cve": null,
-      "title": "ISC Stormcast For Friday, August 21st, 2026 https://isc.sans.edu/podcastdetail/10062, (Fri, Aug 21st)",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33270",
-      "published": "2026-08-21T02:00:03+00:00"
-    },
-    {
-      "id": "60ccb0cacb6d8d4c",
-      "kind": "research",
-      "cve": null,
-      "title": "Even MOAR Powershell, looking at Entra logins - the good, the bad and the password sprays, (Fri, Aug 21st)",
-      "summary": "One thing that folks never seem to do after \"going to the CLOOOOUUUUD\" is to look at their logs, logs that they would have checked daily when things were on premise. &#xd; One log that really bears looking at is the log of successful and fa…",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33268",
-      "published": "2026-08-21T01:49:18+00:00"
-    },
-    {
       "id": "992d763e68dd45b4",
       "kind": "cve",
       "cve": "CVE-2026-73570",
@@ -1720,40 +1652,6 @@
       "published": "2026-08-20T13:24:28+00:00"
     },
     {
-      "id": "c2d330c65fc8dbf2",
-      "kind": "research",
-      "cve": null,
-      "title": "Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug 20th)",
-      "summary": "Building on the last diary on Using MS Graph and Powershell, let&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s look at \"Risky\" logins. &#xd;",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33266",
-      "published": "2026-08-20T13:09:50+00:00"
-    },
-    {
-      "id": "b34a5e308b80ef56",
-      "kind": "research",
-      "cve": null,
-      "title": "Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)",
-      "summary": "Microsoft Graph is a newer API that is meant to replace several others.&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xc2&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xa0&#x3b; OK, it&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s at version 2.3.9, so it&&#x23&#x3b;x26…",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33264",
-      "published": "2026-08-20T12:45:32+00:00"
-    },
-    {
       "id": "8bfad57d255664df",
       "kind": "research",
       "cve": null,
@@ -1890,23 +1788,6 @@
       "published": "2026-08-20T06:04:34+00:00"
     },
     {
-      "id": "18d19487decca160",
-      "kind": "research",
-      "cve": null,
-      "title": "ISC Stormcast For Thursday, August 20th, 2026 https://isc.sans.edu/podcastdetail/10060, (Thu, Aug 20th)",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33262",
-      "published": "2026-08-20T02:00:03+00:00"
-    },
-    {
       "id": "3d980646bdcea991",
       "kind": "cve",
       "cve": "CVE-2026-72530",
@@ -1990,23 +1871,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway",
       "published": "2026-08-19T16:46:06+00:00"
-    },
-    {
-      "id": "0b33e58bf2f4cb5d",
-      "kind": "research",
-      "cve": null,
-      "title": "Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)",
-      "summary": "Cloud providers typically expose a REST API at 169.254.169.254 that allows code running on virtual machines to retrieve machine-specific data. Some of the data is more or less harmless, such as the region the machine is running in or its MA…",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33260",
-      "published": "2026-08-19T14:24:58+00:00"
     },
     {
       "id": "a5bd7d34d6d98f30",
@@ -2145,23 +2009,6 @@
       "published": "2026-08-19T05:39:25+00:00"
     },
     {
-      "id": "14701b61925dc0a9",
-      "kind": "research",
-      "cve": null,
-      "title": "ISC Stormcast For Wednesday, August 19th, 2026 https://isc.sans.edu/podcastdetail/10058, (Wed, Aug 19th)",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33258",
-      "published": "2026-08-19T02:00:03+00:00"
-    },
-    {
       "id": "3158e2788850b3bc",
       "kind": "cve",
       "cve": "CVE-2026-64849",
@@ -2177,23 +2024,6 @@
       "product": "MLflow",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
       "published": "2026-08-19T00:00:00+00:00"
-    },
-    {
-      "id": "ceafc26e50f3688c",
-      "kind": "research",
-      "cve": null,
-      "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
-      "summary": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilo…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-      "published": "2026-08-18T17:47:22+00:00"
     },
     {
       "id": "2fcf1627ed10b933",
@@ -4260,6 +4090,176 @@
       "product": "Windows",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4250",
       "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "7f13c444ca87978f",
+      "kind": "cve",
+      "cve": "CVE-2009-1537",
+      "title": "Microsoft DirectX NULL Byte Overwrite Vulnerability",
+      "summary": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "DirectX",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-1537",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "bc149b5f3de3ce61",
+      "kind": "cve",
+      "cve": "CVE-2009-3459",
+      "title": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
+      "summary": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Adobe",
+      "product": "Acrobat and Reader",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-3459",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "3a344219e399a7e5",
+      "kind": "cve",
+      "cve": "CVE-2010-0249",
+      "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "summary": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0249",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "f681e20eb89d2529",
+      "kind": "cve",
+      "cve": "CVE-2010-0806",
+      "title": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "summary": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0806",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "568d947e55fc107c",
+      "kind": "cve",
+      "cve": "CVE-2026-41091",
+      "title": "Microsoft Defender Link Following Vulnerability",
+      "summary": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Defender",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41091",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "5cc0a6e6a9089133",
+      "kind": "cve",
+      "cve": "CVE-2026-45498",
+      "title": "Microsoft Defender Denial of Service Vulnerability",
+      "summary": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Defender",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45498",
+      "published": "2026-05-20T00:00:00+00:00"
+    },
+    {
+      "id": "f90197c3f4a2d91d",
+      "kind": "cve",
+      "cve": "CVE-2026-42897",
+      "title": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
+      "summary": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Microsoft",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
+      "published": "2026-05-15T00:00:00+00:00"
+    },
+    {
+      "id": "c66ba8836b7b8206",
+      "kind": "cve",
+      "cve": "CVE-2026-20182",
+      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+      "summary": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
+      "published": "2026-05-14T00:00:00+00:00"
+    },
+    {
+      "id": "3e6f4335ce749d6c",
+      "kind": "research",
+      "cve": null,
+      "title": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",
+      "summary": "We recently published an exploit chain for the Google Pixel 9 that demonstrated it was possible to go from a zero-click context to root on Android in just two exploits. The Dolby 0-click vulnerability existed across all of Android, until it…",
+      "severity": "",
+      "score": null,
+      "source": "Project Zero",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+      "published": "2026-05-13T07:00:00+00:00"
+    },
+    {
+      "id": "fbd8f4f301b4388c",
+      "kind": "research",
+      "cve": null,
+      "title": "Nuclei Templates - April 2026",
+      "summary": "Two releases shipped this cycle - v10.4.2 (April 15) and v10.4.3 (May 5) - delivering deep KEV coverage, a major push into AI/LLM attack surface, fresh Perforce visibility, and broad quality improvements across the template library. 🚀 April…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/nuclei-templates-april-2026",
+      "published": "2026-05-12T11:26:09+00:00"
     }
   ]
 }
