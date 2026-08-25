@@ -1,7 +1,75 @@
 {
-  "generated": "2026-08-25T18:25:26.953857+00:00",
+  "generated": "2026-08-25T19:24:08.340120+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "827a383e4c4ebcb2",
+      "kind": "cve",
+      "cve": "CVE-2026-80049",
+      "title": "CVE-2026-80049",
+      "summary": "Airbyte Platform resolves the workspace used for its authorization decision from a field the caller supplies. AuthorizationServerHandler copies recognised identifiers out of the raw JSON request body into X-Airbyte-* headers, and Authentica…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80049",
+      "published": "2026-08-25T19:16:55.340000+00:00"
+    },
+    {
+      "id": "251ff57132c620a5",
+      "kind": "cve",
+      "cve": "CVE-2026-79788",
+      "title": "CVE-2026-79788",
+      "summary": "In Dradis Community Edition, the ProvidersController and AgentsController gate their admin_required before_action on `defined?(Dradis::Pro)`, a constant that is never defined in CE, so the authorization check is never applied. As a result,…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79788",
+      "published": "2026-08-25T19:16:55.080000+00:00"
+    },
+    {
+      "id": "15e1427ca9f663e6",
+      "kind": "cve",
+      "cve": "CVE-2026-79787",
+      "title": "CVE-2026-79787",
+      "summary": "Alluxio's S3 REST proxy fails to verify AWS Signature Version 4 signatures in its default configuration, allowing unauthenticated attackers to spoof user identity. Attackers can extract usernames from unsigned Authorization headers and impe…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79787",
+      "published": "2026-08-25T19:16:54.907000+00:00"
+    },
+    {
+      "id": "c79685916c46b520",
+      "kind": "cve",
+      "cve": "CVE-2026-79786",
+      "title": "CVE-2026-79786",
+      "summary": "Coroot's unauthenticated MCP OAuth dynamic client registration endpoint accepts any syntactically valid redirect URI without validation, allowing attackers to register clients pointing to attacker-controlled hosts. Attackers can send author…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79786",
+      "published": "2026-08-25T19:16:54.750000+00:00"
+    },
     {
       "id": "885fcb822a7a0338",
       "kind": "cve",
@@ -88,23 +156,6 @@
       "published": "2026-08-25T18:18:04.403000+00:00"
     },
     {
-      "id": "826235b483e3e5d3",
-      "kind": "cve",
-      "cve": "CVE-2026-75769",
-      "title": "CVE-2026-75769",
-      "summary": "Substance3D - Painter is affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must ope…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75769",
-      "published": "2026-08-25T18:18:04.257000+00:00"
-    },
-    {
       "id": "e04cf7226322fa39",
       "kind": "cve",
       "cve": "CVE-2026-75768",
@@ -122,23 +173,6 @@
       "published": "2026-08-25T18:18:04.097000+00:00"
     },
     {
-      "id": "17dfed740a6b2fc3",
-      "kind": "cve",
-      "cve": "CVE-2026-75767",
-      "title": "CVE-2026-75767",
-      "summary": "Substance3D - Painter is affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must ope…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75767",
-      "published": "2026-08-25T18:18:03.970000+00:00"
-    },
-    {
       "id": "747223a8edf74496",
       "kind": "cve",
       "cve": "CVE-2026-75766",
@@ -154,23 +188,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75766",
       "published": "2026-08-25T18:18:03.817000+00:00"
-    },
-    {
-      "id": "a48b5c4a271e15f2",
-      "kind": "cve",
-      "cve": "CVE-2026-75750",
-      "title": "CVE-2026-75750",
-      "summary": "Substance3D - Painter is affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must ope…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75750",
-      "published": "2026-08-25T18:18:03.520000+00:00"
     },
     {
       "id": "a816f5552ca4ca08",
@@ -241,40 +258,6 @@
       "published": "2026-08-25T18:18:01.333000+00:00"
     },
     {
-      "id": "93f8d2fe01def6b6",
-      "kind": "cve",
-      "cve": "CVE-2026-71399",
-      "title": "CVE-2026-71399",
-      "summary": "Adobe XD is affected by a Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue req…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71399",
-      "published": "2026-08-25T18:18:00.903000+00:00"
-    },
-    {
-      "id": "54764a40f83bda65",
-      "kind": "cve",
-      "cve": "CVE-2026-71382",
-      "title": "CVE-2026-71382",
-      "summary": "Substance3D - Sampler is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a ma…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71382",
-      "published": "2026-08-25T18:18:00.477000+00:00"
-    },
-    {
       "id": "deead2f387cbe207",
       "kind": "cve",
       "cve": "CVE-2026-71360",
@@ -307,23 +290,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48433",
       "published": "2026-08-25T18:17:55.377000+00:00"
-    },
-    {
-      "id": "224adeea4f3a4a64",
-      "kind": "cve",
-      "cve": "CVE-2026-48432",
-      "title": "CVE-2026-48432",
-      "summary": "Substance3D - Designer is affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must op…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48432",
-      "published": "2026-08-25T18:17:55.237000+00:00"
     },
     {
       "id": "118303373dfbdd1a",
@@ -377,23 +343,6 @@
       "published": "2026-08-25T18:17:54.627000+00:00"
     },
     {
-      "id": "1b8a38a6f30204cd",
-      "kind": "cve",
-      "cve": "CVE-2026-48427",
-      "title": "CVE-2026-48427",
-      "summary": "Substance3D - Designer is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a m…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48427",
-      "published": "2026-08-25T18:17:54.473000+00:00"
-    },
-    {
       "id": "83706d46379187dd",
       "kind": "cve",
       "cve": "CVE-2026-48426",
@@ -428,23 +377,6 @@
       "published": "2026-08-25T18:17:54.183000+00:00"
     },
     {
-      "id": "49132992dd0df64c",
-      "kind": "cve",
-      "cve": "CVE-2026-48424",
-      "title": "CVE-2026-48424",
-      "summary": "Substance3D - Sampler is affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must ope…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48424",
-      "published": "2026-08-25T18:17:54.037000+00:00"
-    },
-    {
       "id": "34d38a5576a1619a",
       "kind": "cve",
       "cve": "CVE-2026-48423",
@@ -460,23 +392,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48423",
       "published": "2026-08-25T18:17:53.880000+00:00"
-    },
-    {
-      "id": "1b55e68a230d36a3",
-      "kind": "cve",
-      "cve": "CVE-2026-48422",
-      "title": "CVE-2026-48422",
-      "summary": "Substance3D - Sampler is affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must ope…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48422",
-      "published": "2026-08-25T18:17:53.730000+00:00"
     },
     {
       "id": "48e8a59806f887d1",
@@ -513,23 +428,6 @@
       "published": "2026-08-25T18:17:53.450000+00:00"
     },
     {
-      "id": "de849f7bc0573e7a",
-      "kind": "cve",
-      "cve": "CVE-2026-48419",
-      "title": "CVE-2026-48419",
-      "summary": "Substance3D - Sampler is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a ma…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48419",
-      "published": "2026-08-25T18:17:53.303000+00:00"
-    },
-    {
       "id": "4d408f0b0d3b1e2d",
       "kind": "cve",
       "cve": "CVE-2026-48418",
@@ -547,21 +445,21 @@
       "published": "2026-08-25T18:17:53.160000+00:00"
     },
     {
-      "id": "f6c4a23c6dde9d61",
-      "kind": "cve",
-      "cve": "CVE-2026-48417",
-      "title": "CVE-2026-48417",
-      "summary": "Substance3D - Sampler is affected by a Stack-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must op…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
+      "id": "c503fa13531c361a",
+      "kind": "research",
+      "cve": null,
+      "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+      "summary": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and its enablers. \"We are launching an economi…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
       "tags": [
-        "NVD"
+        "NEWS"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48417",
-      "published": "2026-08-25T18:17:52.993000+00:00"
+      "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+      "published": "2026-08-25T18:17:17+00:00"
     },
     {
       "id": "0ba22826152c868d",
@@ -1242,57 +1140,6 @@
       "product": "Gitea",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
       "published": "2026-08-25T00:00:00+00:00"
-    },
-    {
-      "id": "8f982016ff957efc",
-      "kind": "cve",
-      "cve": "CVE-2026-7455",
-      "title": "CVE-2026-7455",
-      "summary": "A maliciously crafted FLT file, when parsed through Autodesk 3ds Max, can force an Out-of-Bounds Write vulnerability. A malicious actor may leverage this vulnerability to cause a crash, cause data corruption, or execute arbitrary code in th…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7455",
-      "published": "2026-08-24T21:17:49.040000+00:00"
-    },
-    {
-      "id": "fde2d03fedc19d63",
-      "kind": "cve",
-      "cve": "CVE-2026-19568",
-      "title": "CVE-2026-19568",
-      "summary": "A maliciously crafted SVG file, when parsed through Autodesk 3ds Max, can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to execute arbitrary code in the context of the current process.",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19568",
-      "published": "2026-08-24T21:16:49.573000+00:00"
-    },
-    {
-      "id": "c2ab4be8a7af3112",
-      "kind": "cve",
-      "cve": "CVE-2026-16783",
-      "title": "CVE-2026-16783",
-      "summary": "A maliciously crafted ABC file, when parsed through Autodesk 3ds Max, can force an Out-of-Bounds Write vulnerability. A malicious actor may leverage this vulnerability to cause a crash, cause data corruption, or execute arbitrary code in th…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16783",
-      "published": "2026-08-24T21:16:49.023000+00:00"
     },
     {
       "id": "2104abd98af79338",
@@ -2825,23 +2672,6 @@
       "published": "2026-08-20T10:38:28+00:00"
     },
     {
-      "id": "ec521d0cf1efe505",
-      "kind": "research",
-      "cve": null,
-      "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
-      "summary": "A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products. According to the Socket Threat Research team, the extensions are part of…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
-      "published": "2026-08-20T08:42:03+00:00"
-    },
-    {
       "id": "18d19487decca160",
       "kind": "research",
       "cve": null,
@@ -4253,6 +4083,178 @@
       "product": "",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTXhuSkpNMXVoOG1pNE5zOHl1OVdnWlduMTlYVjQwOTczdEVCcU9zU1RUVmR4cDBrSnM1NDAzR3h2R2JJMFZ1YlcxcUdCSEVLYTJpeUNvd2llUUpTM0NaQmNDVXlTNml5RzlvU29fUGp2VVl0eTFnU1lWdDZHcnR0eDRyRzluaUtFYXNhS3N3?oc=5",
       "published": "2026-07-02T07:00:00+00:00"
+    },
+    {
+      "id": "093432cd2e7000cd",
+      "kind": "cve",
+      "cve": "CVE-2026-45659",
+      "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+      "summary": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "Microsoft",
+      "product": "SharePoint Server",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45659",
+      "published": "2026-07-01T00:00:00+00:00"
+    },
+    {
+      "id": "b577802c68fd64b5",
+      "kind": "research",
+      "cve": "CVE-2026-8451",
+      "title": "CitrixBleed To Infinity And Beyond (Citrix NetScaler Pre-Auth Memory Overread CVE-2026-8451)",
+      "summary": "Well, well, well - once again, the cat has dragged us in and spat us out. Today, we find ourselves questioning the reality we sit within. Must it be so predictable, and why us? &#x201c;But watchTowr, what do you mean?&#x201d; Well, if you&#…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/citrixbleed-to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451/",
+      "published": "2026-06-30T19:35:58+00:00"
+    },
+    {
+      "id": "4cb02bd8a6c62d99",
+      "kind": "research",
+      "cve": "CVE-2026-8037",
+      "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037)",
+      "summary": "Welcome back to another watchTowr Labs blog post. This time, we&apos;re looking at Progress Kemp LoadMaster, a load balancer that sits at the edge of a lot of enterprise networks. Edge appliances have a habit of becoming the way in rather t…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
+      "published": "2026-06-29T19:24:54+00:00"
+    },
+    {
+      "id": "6025526b87d6e5ed",
+      "kind": "cve",
+      "cve": "CVE-2026-48558",
+      "title": "SimpleHelp Authentication Bypass Vulnerability",
+      "summary": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vu…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "SimpleHelp ",
+      "product": "SimpleHelp",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48558",
+      "published": "2026-06-29T00:00:00+00:00"
+    },
+    {
+      "id": "7202501c151746ab",
+      "kind": "cve",
+      "cve": "CVE-2026-12569",
+      "title": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+      "summary": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "PTC",
+      "product": "Windchill and FlexPLM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12569",
+      "published": "2026-06-25T00:00:00+00:00"
+    },
+    {
+      "id": "6f3b367dd113d15d",
+      "kind": "cve",
+      "cve": "CVE-2026-20230",
+      "title": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+      "summary": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote at…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Unified Communications Manager",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230",
+      "published": "2026-06-25T00:00:00+00:00"
+    },
+    {
+      "id": "3da70ef6e63c15ca",
+      "kind": "research",
+      "cve": null,
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "summary": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The…",
+      "severity": "",
+      "score": null,
+      "source": "Krebs on Security",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "published": "2026-06-23T16:12:49+00:00"
+    },
+    {
+      "id": "52d57a1d99dd0898",
+      "kind": "cve",
+      "cve": "CVE-2025-67038",
+      "title": "Lantronix EDS5000 Code Injection Vulnerability",
+      "summary": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Lantronix",
+      "product": "EDS5000",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "id": "7a710b361560f51e",
+      "kind": "cve",
+      "cve": "CVE-2026-34910",
+      "title": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+      "summary": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "id": "c9c1f14b593f0bd4",
+      "kind": "cve",
+      "cve": "CVE-2026-34909",
+      "title": "Ubiquiti UniFi OS Path Traversal Vulnerability",
+      "summary": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909",
+      "published": "2026-06-23T00:00:00+00:00"
     }
   ]
 }
