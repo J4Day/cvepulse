@@ -1,7 +1,24 @@
 {
-  "generated": "2026-08-25T20:18:19.808910+00:00",
+  "generated": "2026-08-25T21:18:53.087250+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "f0705e397748a073",
+      "kind": "cve",
+      "cve": "CVE-2026-80104",
+      "title": "CVE-2026-80104",
+      "summary": "DB-GPT builds the destination path for an uploaded skill from the multipart filename without constraining it to the upload directory. skill_upload in packages/dbgpt-app/src/dbgpt_app/openapi/api_v1/agentic_data_api.py takes file.filename as…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80104",
+      "published": "2026-08-25T21:18:24.163000+00:00"
+    },
     {
       "id": "251ff57132c620a5",
       "kind": "cve",
@@ -4238,23 +4255,6 @@
       "product": "Joomla Content Editor ",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48907",
       "published": "2026-06-16T00:00:00+00:00"
-    },
-    {
-      "id": "a0eeeffc26fa4e3f",
-      "kind": "research",
-      "cve": null,
-      "title": "Continuous PR Security Review",
-      "summary": "The security findings that end up in incident post-mortems rarely looked dangerous in the PR that introduced them. Not because anyone was careless but because there's nothing in the change that looks wrong. The code does exactly what it say…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/continuous-pr-security-review",
-      "published": "2026-06-15T16:26:15+00:00"
     }
   ]
 }
