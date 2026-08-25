@@ -1,7 +1,160 @@
 {
-  "generated": "2026-08-25T11:18:34.303495+00:00",
+  "generated": "2026-08-25T12:29:20.899525+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "de9ba86a5a27f900",
+      "kind": "cve",
+      "cve": "CVE-2026-79667",
+      "title": "CVE-2026-79667",
+      "summary": "Ech0 version 4.3.4 and earlier fails to reliably enforce scoped access token (least-privilege) restrictions on several privileged admin routes. Multiple privileged endpoints (e.g., /api/inbox, /api/panel/comments, /api/backup/export) omit s…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79667",
+      "published": "2026-08-25T12:16:34.813000+00:00"
+    },
+    {
+      "id": "e3b14c3234b53306",
+      "kind": "cve",
+      "cve": "CVE-2026-79665",
+      "title": "CVE-2026-79665",
+      "summary": "Ech0 before 4.5.1 contains an authorization bypass vulnerability where session tokens skip scope validation in RequireScopes middleware, allowing logged-in non-admin users to access admin endpoints. Attackers can read system logs, visitor s…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79665",
+      "published": "2026-08-25T12:16:34.523000+00:00"
+    },
+    {
+      "id": "b070bb3816e07d10",
+      "kind": "cve",
+      "cve": "CVE-2026-79664",
+      "title": "CVE-2026-79664",
+      "summary": "Ech0 before 4.7.3 fails to properly revoke access tokens created with never-expire option, allowing attackers to maintain perpetual authenticated access after token theft. Three independent revocation mechanisms fail: logout panics on nil E…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79664",
+      "published": "2026-08-25T12:16:34.370000+00:00"
+    },
+    {
+      "id": "7faf06d247a82a6c",
+      "kind": "cve",
+      "cve": "CVE-2026-79662",
+      "title": "CVE-2026-79662",
+      "summary": "Ech0 through 4.5.6 contains an OAuth redirect URI validation vulnerability in parseAndValidateClientRedirect (internal/service/auth/auth.go) that compares only the scheme and host of the client-supplied redirect_uri against the admin-config…",
+      "severity": "HIGH",
+      "score": 8.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79662",
+      "published": "2026-08-25T12:16:31.470000+00:00"
+    },
+    {
+      "id": "5675d0cc5297a898",
+      "kind": "cve",
+      "cve": "CVE-2026-79659",
+      "title": "CVE-2026-79659",
+      "summary": "Ech0 before 4.7.3 contains a server-side request forgery vulnerability in the fetchPeerConnectInfo function that uses unvalidated HTTP requests instead of safe request methods with URL validation. Authenticated attackers can supply arbitrar…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79659",
+      "published": "2026-08-25T12:16:29.380000+00:00"
+    },
+    {
+      "id": "478cb10cada5179a",
+      "kind": "cve",
+      "cve": "CVE-2026-79658",
+      "title": "CVE-2026-79658",
+      "summary": "Ech0 before 5.0.1 does not impose any size or shape limit on the Accept-Language header processed by its i18n middleware, which runs on every HTTP request. The header is passed unfiltered to go-i18n's NewLocalizer, which internally calls go…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79658",
+      "published": "2026-08-25T12:16:29.123000+00:00"
+    },
+    {
+      "id": "53db194b27892a09",
+      "kind": "cve",
+      "cve": "CVE-2026-79657",
+      "title": "CVE-2026-79657",
+      "summary": "NLTK versions before 3.10.3 contain a remote code execution vulnerability in allowlisted pickle loaders that trust entire module namespaces instead of specific safe callables. Attackers can craft malicious pickle payloads invoking dangerous…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79657",
+      "published": "2026-08-25T12:16:28.870000+00:00"
+    },
+    {
+      "id": "70d2d7393df6678d",
+      "kind": "cve",
+      "cve": "CVE-2026-75971",
+      "title": "CVE-2026-75971",
+      "summary": "The ShopEngine Elementor WooCommerce Builder Addon – All in One WooCommerce Solution plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.9.4. This is due to the `rum_importer()` function being…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75971",
+      "published": "2026-08-25T12:16:25.087000+00:00"
+    },
+    {
+      "id": "3952624f2e1b2cc5",
+      "kind": "cve",
+      "cve": "CVE-2026-19949",
+      "title": "CVE-2026-19949",
+      "summary": "The All-in-One WP Migration and Backup plugin for WordPress is vulnerable to SQL Injection via archive restore functionality in all versions up to, and including, 7.109 due to insufficient escaping on the user supplied parameter and lack of…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19949",
+      "published": "2026-08-25T12:16:23.783000+00:00"
+    },
     {
       "id": "12a48e2260079c6b",
       "kind": "cve",
@@ -4102,160 +4255,6 @@
       "product": "Enterprise",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20253",
       "published": "2026-06-18T00:00:00+00:00"
-    },
-    {
-      "id": "8cdd5f1335e50bd1",
-      "kind": "cve",
-      "cve": "CVE-2026-48907",
-      "title": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
-      "summary": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Widget Factory",
-      "product": "Joomla Content Editor ",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48907",
-      "published": "2026-06-16T00:00:00+00:00"
-    },
-    {
-      "id": "a0eeeffc26fa4e3f",
-      "kind": "research",
-      "cve": null,
-      "title": "Continuous PR Security Review",
-      "summary": "The security findings that end up in incident post-mortems rarely looked dangerous in the PR that introduced them. Not because anyone was careless but because there's nothing in the change that looks wrong. The code does exactly what it say…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/continuous-pr-security-review",
-      "published": "2026-06-15T16:26:15+00:00"
-    },
-    {
-      "id": "7242e375734ecf4a",
-      "kind": "cve",
-      "cve": "CVE-2026-54420",
-      "title": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
-      "summary": "LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "LiteSpeed",
-      "product": "cPanel Plugin",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54420",
-      "published": "2026-06-15T00:00:00+00:00"
-    },
-    {
-      "id": "91bd1e0c569db84c",
-      "kind": "cve",
-      "cve": "CVE-2026-20262",
-      "title": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20262",
-      "published": "2026-06-15T00:00:00+00:00"
-    },
-    {
-      "id": "b1f8c189922ad99d",
-      "kind": "research",
-      "cve": "CVE-2026-20253",
-      "title": "Why Use App-Level Auth When Every Database Has Auth? (Splunk Enterprise CVE-2026-20253 Pre-Auth RCE)",
-      "summary": "Three posts? In three days? Are we insane? We&apos;re home alone, there&apos;s no one to stop us, and we&apos;re up past bedtime. So, we need to talk about Splunk. On June 10th, Splunk published this CVE-2026-20253 advisory : It has everyth…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/why-use-app-level-auth-when-every-database-has-auth-splunk-enterprise-cve-2026-20253-pre-auth-rce/",
-      "published": "2026-06-12T20:35:13+00:00"
-    },
-    {
-      "id": "2b7352fc235caa79",
-      "kind": "research",
-      "cve": "CVE-2026-50751",
-      "title": "Marking Your Own Homework (Check Point Remote Access VPN IKEv1 Authentication Bypass CVE-2026-50751)",
-      "summary": "It is yet another day in this parallel universe of security, where the devices we bolt onto the edge of our networks to keep the bad people out are, with remarkable consistency, the exact thing that let the bad people in. While we&#x2019;ve…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/marking-your-own-homework-check-point-remote-access-vpn-ikev1-authentication-bypass-cve-2026-50751/",
-      "published": "2026-06-12T05:17:20+00:00"
-    },
-    {
-      "id": "c5f8e67d9f90eed3",
-      "kind": "cve",
-      "cve": "CVE-2026-35273",
-      "title": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
-      "summary": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Oracle",
-      "product": " PeopleSoft Enterprise PeopleTools",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35273",
-      "published": "2026-06-12T00:00:00+00:00"
-    },
-    {
-      "id": "ce436da605cb0237",
-      "kind": "cve",
-      "cve": "CVE-2026-10520",
-      "title": "Ivanti Sentry OS Command Injection Vulnerability",
-      "summary": "Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vulnerability can be successfully exploited…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ivanti",
-      "product": "Sentry",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10520",
-      "published": "2026-06-11T00:00:00+00:00"
-    },
-    {
-      "id": "a87887de0fe62558",
-      "kind": "research",
-      "cve": "CVE-2026-10520",
-      "title": "More Evidence That Words Don't Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520)",
-      "summary": "Today, Ivanti published an advisory. &#x201c;No way?&#x201d; we hear you say. &quot;Yes way!&quot; Today&#x2019;s advisory outlines two vulnerabilities in Ivanti&#x2019;s Sentry product, appealing directly to our inner desire for sophistica…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/more-evidence-that-words-dont-mean-what-we-thought-they-meant-ivanti-sentry-pre-auth-os-command-injection-cve-2026-10520/",
-      "published": "2026-06-10T00:52:20+00:00"
     }
   ]
 }
