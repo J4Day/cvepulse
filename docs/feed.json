@@ -1,7 +1,58 @@
 {
-  "generated": "2026-08-25T23:17:31.931691+00:00",
+  "generated": "2026-08-26T00:44:08.566400+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "cf8fcf5c8b0453ef",
+      "kind": "cve",
+      "cve": "CVE-2026-80138",
+      "title": "CVE-2026-80138",
+      "summary": "ClipBucket V5's web installer fails to properly validate or escape the php_cli_filepath parameter before passing it to shell execution. Unauthenticated attackers can submit a crafted POST request to the installer with a malicious php_cli_fi…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80138",
+      "published": "2026-08-25T23:17:59.860000+00:00"
+    },
+    {
+      "id": "cec8409f51e5116d",
+      "kind": "cve",
+      "cve": "CVE-2026-79912",
+      "title": "CVE-2026-79912",
+      "summary": "A vulnerability was detected in TOTOLINK N600R 4.3.0cu.7647_B20210106. The impacted element is the function getCurrentTime of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument ntp_server results in command injection.…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79912",
+      "published": "2026-08-25T23:17:59.663000+00:00"
+    },
+    {
+      "id": "2b6dfc9bc0750217",
+      "kind": "cve",
+      "cve": "CVE-2026-79911",
+      "title": "CVE-2026-79911",
+      "summary": "A security vulnerability has been detected in TOTOLINK N600R 4.3.0cu.7647_B20210106. The affected element is the function setSystemConfig of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. Such manipulation of the argument Hostn…",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79911",
+      "published": "2026-08-25T23:17:59.490000+00:00"
+    },
     {
       "id": "191e72a14640ea4c",
       "kind": "cve",
@@ -2094,57 +2145,6 @@
       "published": "2026-08-23T05:16:52.137000+00:00"
     },
     {
-      "id": "ce696f415db06536",
-      "kind": "cve",
-      "cve": "CVE-2026-78122",
-      "title": "CVE-2026-78122",
-      "summary": "docker-socket-proxy fails to properly gate read endpoints in the /containers Docker API namespace when the CONTAINERS environment variable is set. Attackers can use GET requests to /containers/{id}/archive, /containers/{id}/export, /contain…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78122",
-      "published": "2026-08-22T23:16:22.923000+00:00"
-    },
-    {
-      "id": "751dd6e2cffaa2f6",
-      "kind": "cve",
-      "cve": "CVE-2026-66393",
-      "title": "CVE-2026-66393",
-      "summary": "NLTK versions before 3.9.4 contain an unbounded recursion vulnerability in JSONTaggedDecoder.decode_obj() that allows attackers to cause denial of service by supplying deeply nested JSON structures. Attackers can craft JSON payloads exceedi…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66393",
-      "published": "2026-08-22T15:16:19.633000+00:00"
-    },
-    {
-      "id": "3a98aeac60eb2b07",
-      "kind": "cve",
-      "cve": "CVE-2026-62388",
-      "title": "CVE-2026-62388",
-      "summary": "NLTK versions before 3.10.0 default to ENFORCE=False in pathsec.py, causing all security validation functions to emit warnings instead of raising exceptions. Attackers can bypass path traversal and pickle deserialization protections by expl…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62388",
-      "published": "2026-08-22T15:16:18.967000+00:00"
-    },
-    {
       "id": "b55737a91db09810",
       "kind": "research",
       "cve": null,
@@ -2160,40 +2160,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
       "published": "2026-08-22T14:32:41+00:00"
-    },
-    {
-      "id": "86bb70f3fd5b2a57",
-      "kind": "cve",
-      "cve": "CVE-2026-59256",
-      "title": "CVE-2026-59256",
-      "summary": "WWBN AVideo through commit 9c39d8c8 contains an authorization bypass vulnerability where getToken() creates tokens without binding to user identity or purpose, and plugin/Gallery/view/sections.php issues valid tokens to unauthenticated visi…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59256",
-      "published": "2026-08-22T13:16:38.817000+00:00"
-    },
-    {
-      "id": "33aa1845a2b04329",
-      "kind": "cve",
-      "cve": "CVE-2026-77946",
-      "title": "CVE-2026-77946",
-      "summary": "A vulnerability was determined in TRENDnet TEW-821DAP 2.2.01b05. Affected by this vulnerability is the function uci_safe_get of the file /cgi-bin/apply_time.cgi of the component NTP Timezone Configuration Handler. Executing a manipulation o…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77946",
-      "published": "2026-08-22T11:16:54.447000+00:00"
     },
     {
       "id": "2a42acdf4b3844a7",
@@ -4255,6 +4221,40 @@
       "product": "UniFi OS",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908",
       "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "id": "10d87533a665bcff",
+      "kind": "research",
+      "cve": null,
+      "title": "The Vulnerability Curve Bent With the AI Curve",
+      "summary": "How CVE volume, known-exploited counts and time-to-exploit all changed shape across the LLM build-out and why defenders are now on the wrong side of the clock. In 2018 the world published about 18,000 CVEs and the average vulnerability took…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/the-vulnerability-curve-bent-with-the-ai-curve",
+      "published": "2026-06-18T18:32:03+00:00"
+    },
+    {
+      "id": "6ca5e32e51193a41",
+      "kind": "cve",
+      "cve": "CVE-2026-20253",
+      "title": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+      "summary": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Splunk",
+      "product": "Enterprise",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20253",
+      "published": "2026-06-18T00:00:00+00:00"
     }
   ]
 }
