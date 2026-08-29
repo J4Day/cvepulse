@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T02:57:19.268592+00:00",
+  "generated": "2026-08-29T09:41:41.987670+00:00",
   "count": 250,
   "items": [
     {
@@ -494,23 +494,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75121",
       "published": "2026-08-28T20:19:52.567000+00:00"
-    },
-    {
-      "id": "1310af12939283c4",
-      "kind": "cve",
-      "cve": "CVE-2026-72984",
-      "title": "CVE-2026-72984",
-      "summary": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72984",
-      "published": "2026-08-28T20:19:44.943000+00:00"
     },
     {
       "id": "46407b68e95c5a24",
@@ -1244,23 +1227,6 @@
       "published": "2026-08-27T00:00:00+00:00"
     },
     {
-      "id": "6fb69d28636ff5db",
-      "kind": "cve",
-      "cve": "CVE-2026-81203",
-      "title": "CVE-2026-81203",
-      "summary": "A vulnerability has been found in SourceCodester Simple Online Food Ordering System 1.0. This affects an unknown function of the file /admin/ajax.php?action=login2. The manipulation of the argument email leads to sql injection. It is possib…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81203",
-      "published": "2026-08-26T23:17:20.797000+00:00"
-    },
-    {
       "id": "f18ae3db68cd5902",
       "kind": "cve",
       "cve": "CVE-2026-74774",
@@ -1293,40 +1259,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
       "published": "2026-08-26T16:42:03+00:00"
-    },
-    {
-      "id": "5818b86d642bff44",
-      "kind": "cve",
-      "cve": "CVE-2026-81036",
-      "title": "CVE-2026-81036",
-      "summary": "Stalwart Mail Server does not compare an OAuth redirect target against any registered destination in its default configuration. The validation routine in crates/http/src/auth/oauth/registration.rs returns success immediately when the client…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81036",
-      "published": "2026-08-26T16:16:46.607000+00:00"
-    },
-    {
-      "id": "7c7581608ccc7a89",
-      "kind": "cve",
-      "cve": "CVE-2026-80428",
-      "title": "CVE-2026-80428",
-      "summary": "ILIAS deserialises stored session data for an unauthenticated caller. The Shibboleth back-channel endpoint at components/ILIAS/AuthShibboleth/resources/shib_logout.php runs in a context that ilInitialisation exempts from authentication, and…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80428",
-      "published": "2026-08-26T16:16:45.100000+00:00"
     },
     {
       "id": "94dac3c44124a696",
@@ -4262,6 +4194,74 @@
       "product": "ScreenConnect",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1708",
       "published": "2026-04-28T00:00:00+00:00"
+    },
+    {
+      "id": "5049d3302bb8a41c",
+      "kind": "cve",
+      "cve": "CVE-2026-32202",
+      "title": "Microsoft Windows Protection Mechanism Failure Vulnerability",
+      "summary": "Microsoft Windows Shell contains a protection mechanism failure vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32202",
+      "published": "2026-04-28T00:00:00+00:00"
+    },
+    {
+      "id": "14c9ca9873f79ff3",
+      "kind": "research",
+      "cve": null,
+      "title": "Benchmarking Neo's Black-Box DAST Capabilities",
+      "summary": "Since the launch of Neo, we've been steadily expanding what it can do. Neo has found 33+ real CVEs across open-source projects, performed well on white-box security testing where source code is available, and generally proven itself as a ca…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/neo-black-box-dast-capabilities",
+      "published": "2026-04-27T17:11:00+00:00"
+    },
+    {
+      "id": "7a8d09648ca60f6a",
+      "kind": "cve",
+      "cve": "CVE-2025-29635",
+      "title": "D-Link DIR-823X Command Injection Vulnerability",
+      "summary": "D-Link DIR-823X contains a command injection vulnerability that allows an authorized attacker to execute arbitrary commands on remote devices by sending a POST request to /goform/set_prohibiting via the corresponding function. The impacted…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "D-Link",
+      "product": "DIR-823X",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29635",
+      "published": "2026-04-24T00:00:00+00:00"
+    },
+    {
+      "id": "77665b77a05ddaa3",
+      "kind": "cve",
+      "cve": "CVE-2024-7399",
+      "title": "Samsung MagicINFO 9 Server Path Traversal Vulnerability",
+      "summary": "Samsung MagicINFO 9 Server contains a path traversal vulnerability that could allow an attacker to write arbitrary files as system authority.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Samsung",
+      "product": "MagicINFO 9 Server",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7399",
+      "published": "2026-04-24T00:00:00+00:00"
     }
   ]
 }
