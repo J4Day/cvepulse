@@ -1,7 +1,194 @@
 {
-  "generated": "2026-08-30T14:07:18.014038+00:00",
+  "generated": "2026-08-30T18:16:45.800346+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "f529763f88b01475",
+      "kind": "cve",
+      "cve": "CVE-2026-82549",
+      "title": "CVE-2026-82549",
+      "summary": "A vulnerability was identified in Linux Foundation Magma 1.9.0. This affects an unknown function of the component SecurityModeComplete Handler. Such manipulation leads to improper validation of integrity check value. The attack may be launc…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82549",
+      "published": "2026-08-30T16:16:43.667000+00:00"
+    },
+    {
+      "id": "c3677585dcba8ff4",
+      "kind": "cve",
+      "cve": "CVE-2026-82657",
+      "title": "CVE-2026-82657",
+      "summary": "Admidio before 5.0.12 fails to enforce login-only module restrictions in RSS feed endpoints for forum and announcements modules. Unauthenticated attackers can retrieve forum topics and announcements by sending GET requests to rss/forum.php…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82657",
+      "published": "2026-08-30T15:16:46.607000+00:00"
+    },
+    {
+      "id": "80faaac3ea03e16f",
+      "kind": "cve",
+      "cve": "CVE-2026-82655",
+      "title": "CVE-2026-82655",
+      "summary": "Admidio before 5.0.12 contains a blind SQL injection vulnerability in the relation_type_list parameter of lists_show.php that allows unauthenticated attackers to execute arbitrary SQL queries. Attackers can bypass authentication by providin…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82655",
+      "published": "2026-08-30T15:16:46.310000+00:00"
+    },
+    {
+      "id": "de5d347008bb2dee",
+      "kind": "cve",
+      "cve": "CVE-2026-82654",
+      "title": "CVE-2026-82654",
+      "summary": "SiYuan before v3.8.1 fails to properly escape block name, alias, and memo fields in hint, backlink, and breadcrumb rendering functions. Attackers can set a block's name to contain HTML/script tags that execute when another user views docume…",
+      "severity": "HIGH",
+      "score": 8.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82654",
+      "published": "2026-08-30T15:16:46.173000+00:00"
+    },
+    {
+      "id": "0baff57a374a710f",
+      "kind": "cve",
+      "cve": "CVE-2026-82653",
+      "title": "CVE-2026-82653",
+      "summary": "SiYuan before v3.8.1 contains a stored cross-site scripting vulnerability in confirmDialog() where unescaped package names and notebook names are interpolated directly into innerHTML assignments. Attackers can submit malicious bazaar packag…",
+      "severity": "HIGH",
+      "score": 8.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82653",
+      "published": "2026-08-30T15:16:46.033000+00:00"
+    },
+    {
+      "id": "cf54839f666325dd",
+      "kind": "cve",
+      "cve": "CVE-2026-82648",
+      "title": "CVE-2026-82648",
+      "summary": "WWBN AVideo contains a server-side request forgery filter bypass vulnerability in the isSSRFSafeURL function that fails to normalize NAT64 addresses written in hexadecimal form. Attackers can bypass SSRF protections by supplying hex-encoded…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82648",
+      "published": "2026-08-30T15:16:45.300000+00:00"
+    },
+    {
+      "id": "7b634e270a699b9b",
+      "kind": "cve",
+      "cve": "CVE-2026-82645",
+      "title": "CVE-2026-82645",
+      "summary": "AVideo (current commit e01e41ecc and earlier) exposes stream credentials through the plugin/Live/view/Live_restreams/getLiveKey.json.php endpoint. Supplying a 'token' request parameter waives both the Live::canRestream() access gate and the…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82645",
+      "published": "2026-08-30T15:16:44.863000+00:00"
+    },
+    {
+      "id": "c4323175014e3f1b",
+      "kind": "cve",
+      "cve": "CVE-2026-82644",
+      "title": "CVE-2026-82644",
+      "summary": "WWBN AVideo (current e01e41ecc and earlier) contains a brute-force rate limiting bypass in enforceRateLimit(), which protects login.json.php and 13 other endpoints. The function stores its attempt counter via a cache layer (ObjectYPT::setCa…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82644",
+      "published": "2026-08-30T15:16:44.727000+00:00"
+    },
+    {
+      "id": "659004939d156d71",
+      "kind": "cve",
+      "cve": "CVE-2026-82641",
+      "title": "CVE-2026-82641",
+      "summary": "keploy versions 3.1.0 through 3.6.25 bind the agent control-plane HTTP server to all interfaces without authentication, exposing endpoints that stream TLS session keys and traffic data. Attackers can access the /agent/pcap/keylog endpoint t…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82641",
+      "published": "2026-08-30T14:17:04.020000+00:00"
+    },
+    {
+      "id": "4e454271bafdce5e",
+      "kind": "cve",
+      "cve": "CVE-2026-82639",
+      "title": "CVE-2026-82639",
+      "summary": "NextChat versions from 2.15.8 through 2.16.1 contain an improper URL validation vulnerability in the proxy endpoint that allows attackers to obtain the server's OpenAI API key. The x-base-url header is validated using substring matching ins…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82639",
+      "published": "2026-08-30T14:17:03.750000+00:00"
+    },
+    {
+      "id": "04d9cac2067144d1",
+      "kind": "cve",
+      "cve": "CVE-2026-82638",
+      "title": "CVE-2026-82638",
+      "summary": "jina-ai reader disables its private-address guard outside Google Cloud deployments, allowing unauthenticated attackers to perform server-side request forgery. Attackers can supply publicly resolvable hostnames mapping to private addresses t…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82638",
+      "published": "2026-08-30T14:17:03.610000+00:00"
+    },
     {
       "id": "72b423795546431d",
       "kind": "cve",
@@ -4070,196 +4257,6 @@
       "product": "Kernel",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0492",
       "published": "2026-06-02T00:00:00+00:00"
-    },
-    {
-      "id": "5023d62b9608e0cc",
-      "kind": "cve",
-      "cve": "CVE-2025-48595",
-      "title": "Android Framework Integer Overflow Vulnerability",
-      "summary": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Android",
-      "product": "Framework",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48595",
-      "published": "2026-06-02T00:00:00+00:00"
-    },
-    {
-      "id": "738a35f0986c9ef0",
-      "kind": "research",
-      "cve": null,
-      "title": "How Neo's Agent Architecture Evolved: From One Agent → Plan, Execute & Verify",
-      "summary": "Our first engineering post covered prompt caching, the infrastructure change that made long-running agentic tasks economically viable. That post assumed a multi-step, multi-agent system already existed. It did not exist on day one. When we…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/neo-agent-architecture",
-      "published": "2026-06-01T18:28:00+00:00"
-    },
-    {
-      "id": "8eac94831f16d21f",
-      "kind": "cve",
-      "cve": "CVE-2024-21182",
-      "title": "Oracle WebLogic Server Unspecified Vulnerability",
-      "summary": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized ac…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Oracle",
-      "product": "WebLogic Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21182",
-      "published": "2026-06-01T00:00:00+00:00"
-    },
-    {
-      "id": "808ab0c237c8e4ff",
-      "kind": "cve",
-      "cve": "CVE-2026-0257",
-      "title": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
-      "summary": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Palo Alto Networks",
-      "product": "PAN-OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0257",
-      "published": "2026-05-29T00:00:00+00:00"
-    },
-    {
-      "id": "b818eda335a0a56e",
-      "kind": "cve",
-      "cve": "CVE-2026-48027",
-      "title": "Nx Console Embedded Malicious Code Vulnerability",
-      "summary": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on d…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Nx",
-      "product": "Nx Console",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48027",
-      "published": "2026-05-27T00:00:00+00:00"
-    },
-    {
-      "id": "ae556b0c7c3256b1",
-      "kind": "cve",
-      "cve": "CVE-2026-45321",
-      "title": "TanStack Unspecified Vulnerability",
-      "summary": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "TanStack",
-      "product": "TanStack",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45321",
-      "published": "2026-05-27T00:00:00+00:00"
-    },
-    {
-      "id": "059c204631a72c6d",
-      "kind": "cve",
-      "cve": "CVE-2026-8398",
-      "title": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
-      "summary": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Daemon",
-      "product": "Daemon Tools Lite",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8398",
-      "published": "2026-05-27T00:00:00+00:00"
-    },
-    {
-      "id": "4b1b0eb53a6b1528",
-      "kind": "cve",
-      "cve": "CVE-2026-48172",
-      "title": "LiteSpeed cPanel Plugin Privilege Escalation Vulnerability",
-      "summary": "LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "LiteSpeed",
-      "product": "cPanel Plugin",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48172",
-      "published": "2026-05-26T00:00:00+00:00"
-    },
-    {
-      "id": "2987ef69236eecd0",
-      "kind": "cve",
-      "cve": "CVE-2026-9082",
-      "title": "Drupal Core SQL Injection Vulnerability",
-      "summary": "Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Drupal",
-      "product": "Core",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9082",
-      "published": "2026-05-22T00:00:00+00:00"
-    },
-    {
-      "id": "097c2402a78d2dad",
-      "kind": "research",
-      "cve": null,
-      "title": "Red-Teaming Cloud Infrastructure with Neo",
-      "summary": "Most AI security tooling shipped over the last year focuses on one of two workflows, code review at PR time or zero-day research in open-source software. Models in PR pipelines now flag insecure patterns at every commit and autonomous resea…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/red-teaming-cloud-infrastructure-with-neo",
-      "published": "2026-05-21T12:18:50+00:00"
-    },
-    {
-      "id": "026ffbb5984f599e",
-      "kind": "cve",
-      "cve": "CVE-2025-34291",
-      "title": "Langflow Origin Validation Error Vulnerability",
-      "summary": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that in…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34291",
-      "published": "2026-05-21T00:00:00+00:00"
     }
   ]
 }
