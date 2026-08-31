@@ -1,7 +1,24 @@
 {
-  "generated": "2026-08-30T21:44:32.809708+00:00",
+  "generated": "2026-08-31T00:03:15.549457+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "49285e6c6b8927ce",
+      "kind": "cve",
+      "cve": "CVE-2026-82592",
+      "title": "CVE-2026-82592",
+      "summary": "A vulnerability was detected in D-Link DIR-825M 1.1.8. This affects the function sub_46725C of the file /boafrm/formDiskFormat of the component Disk Formatting Handler Endpoint. The manipulation of the argument partition results in stack-ba…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82592",
+      "published": "2026-08-30T23:17:08.303000+00:00"
+    },
     {
       "id": "04664a409bbf0f22",
       "kind": "cve",
@@ -1482,23 +1499,6 @@
       "published": "2026-08-28T02:00:02+00:00"
     },
     {
-      "id": "3e7ecc7159c19c5d",
-      "kind": "cve",
-      "cve": "CVE-2026-76639",
-      "title": "CVE-2026-76639",
-      "summary": "Unitree G1 EDU firmware through 1.5.2 contains an unauthenticated remote code execution vulnerability that allows network-adjacent attackers to execute arbitrary commands as root by chaining three weaknesses: an unauthenticated WebRTC-to-DD…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76639",
-      "published": "2026-08-27T20:18:38.230000+00:00"
-    },
-    {
       "id": "e4222c90706c64ea",
       "kind": "research",
       "cve": null,
@@ -1514,108 +1514,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
       "published": "2026-08-27T18:36:19+00:00"
-    },
-    {
-      "id": "1cd5b523402251b8",
-      "kind": "cve",
-      "cve": "CVE-2026-81735",
-      "title": "CVE-2026-81735",
-      "summary": "startServer.ts in the mcp-http-server package of UI-TARS-desktop defaulted its listen address to '::' when no host was given, so startSseAndStreamableHttpMcpServer bound the Streamable HTTP and SSE MCP transports to every interface, and its…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81735",
-      "published": "2026-08-27T17:21:03.677000+00:00"
-    },
-    {
-      "id": "ae7b60cee4009390",
-      "kind": "cve",
-      "cve": "CVE-2026-81718",
-      "title": "CVE-2026-81718",
-      "summary": "openssl_encrypt versions before 1.4.9 use under-parameterized PBKDF2-HMAC-SHA256 with only 100,000 iterations to protect PQC keyfile private keys and 10,000 iterations for dual-encryption file-password verification. Attackers who obtain key…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81718",
-      "published": "2026-08-27T17:21:02.180000+00:00"
-    },
-    {
-      "id": "e6f5cbd988dea483",
-      "kind": "cve",
-      "cve": "CVE-2026-81707",
-      "title": "CVE-2026-81707",
-      "summary": "openssl_encrypt before 1.4.9 fails to sanitize the email field of imported identity documents, allowing attackers to inject ANSI escape sequences that forge the fingerprint verification line displayed to users. Attackers can deliver a craft…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81707",
-      "published": "2026-08-27T17:21:01.440000+00:00"
-    },
-    {
-      "id": "751921c01f874616",
-      "kind": "cve",
-      "cve": "CVE-2026-81702",
-      "title": "CVE-2026-81702",
-      "summary": "openssl_encrypt before 1.4.9 fails to re-derive and validate fingerprints when loading identities from identity.json, allowing attackers to substitute public keys in identity stores. Attackers can replace legitimate public keys with their o…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81702",
-      "published": "2026-08-27T17:21:00.680000+00:00"
-    },
-    {
-      "id": "1711d71e2a41061b",
-      "kind": "cve",
-      "cve": "CVE-2026-81692",
-      "title": "CVE-2026-81692",
-      "summary": "openssl_encrypt (pip: openssl-encrypt) versions 1.4.8 and earlier fail to validate the 36-bit STREAMINFO total_samples field of FLAC files before using it to size an allocation (np.random.randint(size=(total_samples, channels))). A ~50-byte…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81692",
-      "published": "2026-08-27T17:20:59.140000+00:00"
-    },
-    {
-      "id": "633e704ce653d31a",
-      "kind": "cve",
-      "cve": "CVE-2026-5680",
-      "title": "CVE-2026-5680",
-      "summary": "A flaw was found in Undertow. A remote attacker could exploit this vulnerability by sending specially crafted WebSocket messages with permessage-deflate negotiated. This could lead to excessive memory consumption due to the PerMessageDeflat…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5680",
-      "published": "2026-08-27T17:18:58.397000+00:00"
     },
     {
       "id": "8dcdb0fd292766b9",
@@ -1769,23 +1667,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
       "published": "2026-08-27T11:00:57+00:00"
-    },
-    {
-      "id": "3c2cb3da22f5d936",
-      "kind": "cve",
-      "cve": "CVE-2026-75005",
-      "title": "CVE-2026-75005",
-      "summary": "Inefficient Algorithmic Complexity vulnerability in Apache APISIX. A single small request can pin a gateway worker at 100% CPU for an extended period in graphql-limit-count routes. This issue affects Apache APISIX: 3.17.0. Users are recomme…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75005",
-      "published": "2026-08-27T10:16:36.493000+00:00"
     },
     {
       "id": "b1b4909ffa7b5ddb",
@@ -4257,6 +4138,128 @@
       "product": "Mirasvit Full Page Cache Warmer",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45247",
       "published": "2026-06-03T00:00:00+00:00"
+    },
+    {
+      "id": "4078c11d212566f6",
+      "kind": "cve",
+      "cve": "CVE-2022-0492",
+      "title": "Linux Kernel Improper Authentication Vulnerability",
+      "summary": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Linux",
+      "product": "Kernel",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0492",
+      "published": "2026-06-02T00:00:00+00:00"
+    },
+    {
+      "id": "5023d62b9608e0cc",
+      "kind": "cve",
+      "cve": "CVE-2025-48595",
+      "title": "Android Framework Integer Overflow Vulnerability",
+      "summary": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Android",
+      "product": "Framework",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48595",
+      "published": "2026-06-02T00:00:00+00:00"
+    },
+    {
+      "id": "738a35f0986c9ef0",
+      "kind": "research",
+      "cve": null,
+      "title": "How Neo's Agent Architecture Evolved: From One Agent → Plan, Execute & Verify",
+      "summary": "Our first engineering post covered prompt caching, the infrastructure change that made long-running agentic tasks economically viable. That post assumed a multi-step, multi-agent system already existed. It did not exist on day one. When we…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/neo-agent-architecture",
+      "published": "2026-06-01T18:28:00+00:00"
+    },
+    {
+      "id": "8eac94831f16d21f",
+      "kind": "cve",
+      "cve": "CVE-2024-21182",
+      "title": "Oracle WebLogic Server Unspecified Vulnerability",
+      "summary": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized ac…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Oracle",
+      "product": "WebLogic Server",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21182",
+      "published": "2026-06-01T00:00:00+00:00"
+    },
+    {
+      "id": "808ab0c237c8e4ff",
+      "kind": "cve",
+      "cve": "CVE-2026-0257",
+      "title": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
+      "summary": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0257",
+      "published": "2026-05-29T00:00:00+00:00"
+    },
+    {
+      "id": "b818eda335a0a56e",
+      "kind": "cve",
+      "cve": "CVE-2026-48027",
+      "title": "Nx Console Embedded Malicious Code Vulnerability",
+      "summary": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on d…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "Nx",
+      "product": "Nx Console",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48027",
+      "published": "2026-05-27T00:00:00+00:00"
+    },
+    {
+      "id": "ae556b0c7c3256b1",
+      "kind": "cve",
+      "cve": "CVE-2026-45321",
+      "title": "TanStack Unspecified Vulnerability",
+      "summary": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "TanStack",
+      "product": "TanStack",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45321",
+      "published": "2026-05-27T00:00:00+00:00"
     }
   ]
 }
