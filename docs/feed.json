@@ -1,7 +1,160 @@
 {
-  "generated": "2026-09-01T22:12:18.820372+00:00",
+  "generated": "2026-09-02T00:41:10.172737+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "4a38ea381cbc55f8",
+      "kind": "cve",
+      "cve": "CVE-2026-84482",
+      "title": "CVE-2026-84482",
+      "summary": "WWBN AVideo through commit 9c39d8c8 contains a cross-site request forgery vulnerability in the get_domain() and isSameDomain() functions that fail to properly validate referer origins. Attackers can forge requests from sibling subdomains or…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84482",
+      "published": "2026-09-01T23:17:22.477000+00:00"
+    },
+    {
+      "id": "78dde60f74ae91d2",
+      "kind": "cve",
+      "cve": "CVE-2026-84480",
+      "title": "CVE-2026-84480",
+      "summary": "WWBN AVideo fails to validate password recovery token expiration in userRecoverPassSave.json.php, allowing attackers to use expired tokens to reset account passwords indefinitely. Attackers who obtain a recovery token can use it at any time…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84480",
+      "published": "2026-09-01T23:17:22.220000+00:00"
+    },
+    {
+      "id": "70f3c5e9fe26184a",
+      "kind": "cve",
+      "cve": "CVE-2026-84479",
+      "title": "CVE-2026-84479",
+      "summary": "WWBN AVideo (current e01e41ecc and earlier) makes three login-time security controls depend solely on the client-supplied User-Agent header. The isAVideoEncoder()/isAVideoMobileApp() checks match HTTP_USER_AGENT against a hardcoded literal…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84479",
+      "published": "2026-09-01T23:17:22.083000+00:00"
+    },
+    {
+      "id": "e7915d12aecd3b43",
+      "kind": "cve",
+      "cve": "CVE-2026-84478",
+      "title": "CVE-2026-84478",
+      "summary": "WWBN AVideo contains a path traversal vulnerability in the API get_api_login_code endpoint that allows unauthenticated attackers to delete arbitrary .log files by supplying directory traversal sequences in the code parameter. Attackers can…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84478",
+      "published": "2026-09-01T23:17:21.947000+00:00"
+    },
+    {
+      "id": "46e790c06fddd9f4",
+      "kind": "cve",
+      "cve": "CVE-2026-84476",
+      "title": "CVE-2026-84476",
+      "summary": "WWBN AVideo fails to validate trusted proxies before accepting X-Real-IP and X-Forwarded-For headers, allowing attackers to spoof the client address used by enforceRateLimit(). Attackers can rotate the header value per request to bypass log…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84476",
+      "published": "2026-09-01T23:17:21.670000+00:00"
+    },
+    {
+      "id": "775b7eb3015db25a",
+      "kind": "cve",
+      "cve": "CVE-2026-84423",
+      "title": "CVE-2026-84423",
+      "summary": "A vulnerability has been found in Casdoor up to 4.0.0. This affects an unknown function of the file controllers/resource.go of the component upload-resource API. Such manipulation leads to missing authentication. It is possible to launch th…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84423",
+      "published": "2026-09-01T23:17:21.497000+00:00"
+    },
+    {
+      "id": "89b080d414e78b57",
+      "kind": "cve",
+      "cve": "CVE-2026-84208",
+      "title": "CVE-2026-84208",
+      "summary": "AVideo through version 29.0 contains an unauthenticated SQL injection vulnerability in the User_Location plugin's regions.json.php and cities.json.php endpoints. The country and region GET parameters are passed directly into SQL queries wit…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84208",
+      "published": "2026-09-01T23:17:21.353000+00:00"
+    },
+    {
+      "id": "a0aed382f4580bb8",
+      "kind": "research",
+      "cve": null,
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are availabl…",
+      "severity": "",
+      "score": null,
+      "source": "Krebs on Security",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "published": "2026-09-01T22:40:28+00:00"
+    },
+    {
+      "id": "b0f41e32dc7bf7f1",
+      "kind": "cve",
+      "cve": "CVE-2023-54391",
+      "title": "CVE-2023-54391",
+      "summary": "Proxmox Virtual Environment (VE) 7.0 through 8.0 contains an authentication bypass vulnerability in libpve-access-control before 8.0.4 that allows unauthenticated attackers to authenticate as any existing enabled user without a configured s…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54391",
+      "published": "2026-09-01T22:17:10.283000+00:00"
+    },
     {
       "id": "d005256a4e537026",
       "kind": "research",
@@ -802,40 +955,6 @@
       "published": "2026-08-30T07:14:49+00:00"
     },
     {
-      "id": "918478405abbcdc3",
-      "kind": "cve",
-      "cve": "CVE-2026-82474",
-      "title": "CVE-2026-82474",
-      "summary": "Sudo through 1.9.17p2 fails to apply intercept policy checks to the execveat system call in ptrace-based intercept mode. Users permitted to run specific commands can execute denied programs by calling execveat directly or through fexecve, b…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82474",
-      "published": "2026-08-29T17:17:59.910000+00:00"
-    },
-    {
-      "id": "178feb97b50ecd1a",
-      "kind": "cve",
-      "cve": "CVE-2026-82463",
-      "title": "CVE-2026-82463",
-      "summary": "pac4j-core before 6.5.6 contains an authentication bypass vulnerability in CheckProfileTypeAuthorizer that reverses the profile type validation logic. Attackers can authenticate through a weaker client and access resources requiring a stron…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82463",
-      "published": "2026-08-29T17:17:58.490000+00:00"
-    },
-    {
       "id": "df044a4bbe03a77b",
       "kind": "research",
       "cve": null,
@@ -851,23 +970,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
       "published": "2026-08-29T16:25:03+00:00"
-    },
-    {
-      "id": "b08f1452635e7209",
-      "kind": "cve",
-      "cve": "CVE-2026-82456",
-      "title": "CVE-2026-82456",
-      "summary": "argocd-mcp 0.8.0 binds its HTTP transport to every network interface and accepts MCP sessions without requiring caller credentials when ARGOCD_API_TOKEN is configured. Attackers who can reach the listener can invoke the full tool surface us…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82456",
-      "published": "2026-08-29T14:16:38.767000+00:00"
     },
     {
       "id": "cc7c93e350718ae5",
@@ -2946,23 +3048,6 @@
       "published": "2026-07-07T00:00:00+00:00"
     },
     {
-      "id": "80703c01ba9374f5",
-      "kind": "research",
-      "cve": null,
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technolo…",
-      "severity": "",
-      "score": null,
-      "source": "Krebs on Security",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "published": "2026-07-02T19:27:33+00:00"
-    },
-    {
       "id": "67114ad22bf7c88c",
       "kind": "research",
       "cve": null,
@@ -4179,92 +4264,6 @@
       "vendor": "Cisco",
       "product": "Catalyst SD-WAN Manager",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20133",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "c2476643493dac3e",
-      "kind": "cve",
-      "cve": "CVE-2025-2749",
-      "title": "Kentico Xperience Path Traversal Vulnerability",
-      "summary": "Kentico Xperience contains a path traversal vulnerability that could allow an authenticated user's Staging Sync Server to upload arbitrary data to path relative locations.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Kentico",
-      "product": "Kentico Xperience",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2749",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "76f73c8d0c1fd4bc",
-      "kind": "cve",
-      "cve": "CVE-2023-27351",
-      "title": "PaperCut NG/MF Improper Authentication Vulnerability",
-      "summary": "PaperCut NG/MF contains an improper authentication vulnerability that could allow remote attackers to bypass authentication on affected installations via the SecurityRequestFilter class.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "PaperCut",
-      "product": "NG/MF",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27351",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "0c32e53379660022",
-      "kind": "cve",
-      "cve": "CVE-2025-48700",
-      "title": "Synacor Zimbra Collaboration Suite (ZCS) Cross-site Scripting Vulnerability",
-      "summary": "Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability that could allow attackers to execute arbitrary JavaScript within the user's session, potentially leading to unauthorized access to sensitive information…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Synacor",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48700",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "24a8319c64d5399f",
-      "kind": "cve",
-      "cve": "CVE-2026-20128",
-      "title": "Cisco Catalyst SD-WAN Manager Storing Passwords in a Recoverable Format Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Manager contains a storing passwords in a recoverable format vulnerability that allows an authenticated, local attacker to gain DCA user privileges by accessing a credential file for the DCA user on the filesystem as a…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20128",
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
-      "id": "f472d09cc09d767c",
-      "kind": "cve",
-      "cve": "CVE-2025-32975",
-      "title": "Quest KACE Systems Management Appliance (SMA) Improper Authentication Vulnerability",
-      "summary": "Quest KACE Systems Management Appliance (SMA) contains an improper authentication vulnerability that could allow attackers to impersonate legitimate users without valid credentials.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Quest",
-      "product": "KACE Systems Management Appliance (SMA)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32975",
       "published": "2026-04-20T00:00:00+00:00"
     }
   ]
