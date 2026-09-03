@@ -1,7 +1,194 @@
 {
-  "generated": "2026-09-03T16:46:09.259237+00:00",
+  "generated": "2026-09-03T19:30:50.548175+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "35541a192b8ce0dd",
+      "kind": "cve",
+      "cve": "CVE-2026-85396",
+      "title": "CVE-2026-85396",
+      "summary": "rubyzip versions before 3.4.0 contain a path traversal vulnerability in Zip::Entry#extract that fails to properly validate extraction paths using prefix comparison without trailing separators. Attackers can craft archive entries with names…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85396",
+      "published": "2026-09-03T19:17:31.527000+00:00"
+    },
+    {
+      "id": "65fb7bd246a9f41a",
+      "kind": "cve",
+      "cve": "CVE-2026-85395",
+      "title": "CVE-2026-85395",
+      "summary": "UnoPim before 2.1.3 fails to include integration store, update, and key-generation routes in its ACL map, allowing any admin user to bypass permission checks. Attackers with minimal admin privileges can create OAuth API integrations, mint c…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85395",
+      "published": "2026-09-03T19:17:31.390000+00:00"
+    },
+    {
+      "id": "975d137f7f3a0a94",
+      "kind": "cve",
+      "cve": "CVE-2026-85394",
+      "title": "CVE-2026-85394",
+      "summary": "python-jose through 3.5.0 fails to properly validate asymmetric keys in HMAC initialization, accepting DER-encoded public keys that lack PEM armor or SSH prefixes. Attackers holding the service's public key can forge HS256 tokens that pass…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85394",
+      "published": "2026-09-03T19:17:31.257000+00:00"
+    },
+    {
+      "id": "a250eb8acbc9a76e",
+      "kind": "cve",
+      "cve": "CVE-2026-85393",
+      "title": "CVE-2026-85393",
+      "summary": "node-forge through 1.4.0 fails to validate element count in nested DigestAlgorithm sequences during RSA PKCS#1 v1.5 signature verification. Attackers can embed garbage bytes inside the DigestAlgorithm sequence to forge valid signatures for…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85393",
+      "published": "2026-09-03T19:17:31.103000+00:00"
+    },
+    {
+      "id": "33d1fb9b5502e6b2",
+      "kind": "cve",
+      "cve": "CVE-2026-85391",
+      "title": "CVE-2026-85391",
+      "summary": "Peppermint through 0.5.5 contains a hardcoded JWT signing secret in docker-compose.yml that allows unauthenticated attackers to forge session tokens for any account. Attackers can use the published secret to mint valid tokens for arbitrary…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85391",
+      "published": "2026-09-03T19:17:30.830000+00:00"
+    },
+    {
+      "id": "b29cc9611591b885",
+      "kind": "cve",
+      "cve": "CVE-2026-85390",
+      "title": "CVE-2026-85390",
+      "summary": "Checkmate through 3.11.0 omits the isAllowed role guard middleware on maintenance-window, notification, and check-deletion routes, allowing read-only users to perform administrative actions. Attackers with user-role sessions can create arbi…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85390",
+      "published": "2026-09-03T19:17:30.690000+00:00"
+    },
+    {
+      "id": "02d8491239995b3b",
+      "kind": "cve",
+      "cve": "CVE-2026-85388",
+      "title": "CVE-2026-85388",
+      "summary": "Worklenz through 3.0.0 fails to properly validate the sort-field query parameter in pagination helper functions, allowing authenticated users to inject arbitrary PostgreSQL expressions into ORDER BY clauses. Attackers can use time-based and…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85388",
+      "published": "2026-09-03T19:17:30.403000+00:00"
+    },
+    {
+      "id": "f0f9e2599c319629",
+      "kind": "cve",
+      "cve": "CVE-2026-82526",
+      "title": "CVE-2026-82526",
+      "summary": "R2R through 3.6.6 contains a stacked SQL injection vulnerability that allows unauthenticated attackers to execute arbitrary SQL statements by manipulating the index name parameter in the vector index creation endpoint. The index name is int…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82526",
+      "published": "2026-09-03T19:17:29.950000+00:00"
+    },
+    {
+      "id": "31190ba0f7fbabab",
+      "kind": "cve",
+      "cve": "CVE-2026-85187",
+      "title": "CVE-2026-85187",
+      "summary": "A security vulnerability has been detected in itsourcecode Online Medicine Delivery System 1.0. Affected by this issue is the function Order::pupdate of the file /rider/orders/controller.php?action=edit&actions=confirm of the component Orde…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85187",
+      "published": "2026-09-03T18:17:33.707000+00:00"
+    },
+    {
+      "id": "d876c2a8faef2a68",
+      "kind": "cve",
+      "cve": "CVE-2026-83959",
+      "title": "CVE-2026-83959",
+      "summary": "Substance3D - Sampler is affected by a Heap-based Buffer Overflow vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must ope…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83959",
+      "published": "2026-09-03T18:17:24.733000+00:00"
+    },
+    {
+      "id": "517c6272dbd33f48",
+      "kind": "research",
+      "cve": null,
+      "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+      "summary": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door? That idea runs through this edition. Attackers use real tools,…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+      "published": "2026-09-03T18:02:47+00:00"
+    },
     {
       "id": "7bb7496fb62e8ee9",
       "kind": "cve",
@@ -35,23 +222,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85137",
       "published": "2026-09-03T16:18:26.470000+00:00"
-    },
-    {
-      "id": "611ca33f55f34040",
-      "kind": "cve",
-      "cve": "CVE-2026-83961",
-      "title": "CVE-2026-83961",
-      "summary": "ColdFusion is affected by an Improper Authentication vulnerability that could result in privilege escalation. An attacker could leverage this vulnerability to gain limited read and write access. The vulnerable component is restricted to an…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83961",
-      "published": "2026-09-03T16:18:23.383000+00:00"
     },
     {
       "id": "f072510034860812",
@@ -139,23 +309,6 @@
       "published": "2026-09-03T15:17:40.567000+00:00"
     },
     {
-      "id": "c46b1b8483557177",
-      "kind": "cve",
-      "cve": "CVE-2026-85212",
-      "title": "CVE-2026-85212",
-      "summary": "CRMEB contains an authentication bypass vulnerability in the verifyAuth() method of SystemRoleServices.php that returns true from both conditional branches. Sub-administrators and accounts with no roles can access restricted admin endpoints…",
-      "severity": "HIGH",
-      "score": 8.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85212",
-      "published": "2026-09-03T15:17:40.417000+00:00"
-    },
-    {
       "id": "6354c91ed334c4f5",
       "kind": "cve",
       "cve": "CVE-2026-85211",
@@ -207,23 +360,6 @@
       "published": "2026-09-03T15:17:39.593000+00:00"
     },
     {
-      "id": "696916cc580fa5bc",
-      "kind": "cve",
-      "cve": "CVE-2026-85181",
-      "title": "CVE-2026-85181",
-      "summary": "CAT uses Java String.hashCode as the sole integrity check for session cookies without server-side keying, allowing attackers to forge valid checksums offline. Attackers can set the x-forwarded-for header to bypass IP binding validation and…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85181",
-      "published": "2026-09-03T15:17:39.433000+00:00"
-    },
-    {
       "id": "65cadede273b5b7d",
       "kind": "cve",
       "cve": "CVE-2026-85180",
@@ -273,23 +409,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85178",
       "published": "2026-09-03T15:17:38.933000+00:00"
-    },
-    {
-      "id": "39b25e05bfec5749",
-      "kind": "cve",
-      "cve": "CVE-2026-85176",
-      "title": "CVE-2026-85176",
-      "summary": "DbGate fails to validate jslid parameters in the jsldata controller, allowing authenticated users to read and write arbitrary files via file:// scheme resolution. Attackers can exploit getJslFileName() to bypass directory containment and ac…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85176",
-      "published": "2026-09-03T15:17:38.607000+00:00"
     },
     {
       "id": "77c79351428de70f",
@@ -460,23 +579,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85031",
       "published": "2026-09-03T13:06:19.767000+00:00"
-    },
-    {
-      "id": "05508b0e4ec37acf",
-      "kind": "cve",
-      "cve": "CVE-2026-80465",
-      "title": "CVE-2026-80465",
-      "summary": "A vulnerability has been identified in Mendix SAML (Mendix 10 compatible) (All versions < V4.2.3), Mendix SAML (Mendix 11 compatible) (All versions < V4.2.3), Mendix SAML (Mendix 9.24 compatible) (All versions < V3.6.27). Affected versions…",
-      "severity": "HIGH",
-      "score": 8.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80465",
-      "published": "2026-09-03T13:06:10.877000+00:00"
     },
     {
       "id": "f230dca4efeadf09",
@@ -1312,6 +1414,23 @@
       "published": "2026-09-01T13:20:08.127000+00:00"
     },
     {
+      "id": "3f5c288465bff8cd",
+      "kind": "cve",
+      "cve": "CVE-2026-84135",
+      "title": "CVE-2026-84135",
+      "summary": "Other issue in Firefox Focus for Android. This vulnerability was fixed in Firefox 155.",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84135",
+      "published": "2026-09-01T13:20:07.573000+00:00"
+    },
+    {
       "id": "c6c20774e562d311",
       "kind": "research",
       "cve": null,
@@ -1718,23 +1837,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
       "published": "2026-08-29T16:25:03+00:00"
-    },
-    {
-      "id": "cc7c93e350718ae5",
-      "kind": "research",
-      "cve": null,
-      "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-      "summary": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands. The same statement discl…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
-      "published": "2026-08-28T21:30:52+00:00"
     },
     {
       "id": "3f02d631aff506dd",
@@ -4158,108 +4260,6 @@
       "product": "Internet Explorer",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-0806",
       "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "568d947e55fc107c",
-      "kind": "cve",
-      "cve": "CVE-2026-41091",
-      "title": "Microsoft Defender Link Following Vulnerability",
-      "summary": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41091",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "5cc0a6e6a9089133",
-      "kind": "cve",
-      "cve": "CVE-2026-45498",
-      "title": "Microsoft Defender Denial of Service Vulnerability",
-      "summary": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45498",
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "id": "f90197c3f4a2d91d",
-      "kind": "cve",
-      "cve": "CVE-2026-42897",
-      "title": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
-      "summary": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Microsoft",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
-      "published": "2026-05-15T00:00:00+00:00"
-    },
-    {
-      "id": "c66ba8836b7b8206",
-      "kind": "cve",
-      "cve": "CVE-2026-20182",
-      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-      "summary": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
-      "published": "2026-05-14T00:00:00+00:00"
-    },
-    {
-      "id": "3e6f4335ce749d6c",
-      "kind": "research",
-      "cve": null,
-      "title": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",
-      "summary": "We recently published an exploit chain for the Google Pixel 9 that demonstrated it was possible to go from a zero-click context to root on Android in just two exploits. The Dolby 0-click vulnerability existed across all of Android, until it…",
-      "severity": "",
-      "score": null,
-      "source": "Project Zero",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectzero.google/2026/05/pixel-10-exploit.html",
-      "published": "2026-05-13T07:00:00+00:00"
-    },
-    {
-      "id": "fbd8f4f301b4388c",
-      "kind": "research",
-      "cve": null,
-      "title": "Nuclei Templates - April 2026",
-      "summary": "Two releases shipped this cycle - v10.4.2 (April 15) and v10.4.3 (May 5) - delivering deep KEV coverage, a major push into AI/LLM attack surface, fresh Perforce visibility, and broad quality improvements across the template library. 🚀 April…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/nuclei-templates-april-2026",
-      "published": "2026-05-12T11:26:09+00:00"
     }
   ]
 }
