@@ -1,7 +1,143 @@
 {
-  "generated": "2026-09-04T05:15:32.793923+00:00",
+  "generated": "2026-09-04T10:11:51.435722+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "3d2b6fa81cc8977d",
+      "kind": "cve",
+      "cve": "CVE-2026-81665",
+      "title": "CVE-2026-81665",
+      "summary": "A heap-based buffer overflow was found in Corosync's Totem Process Group (totempg) message reassembly. When processing fragmented multicast messages, the buffer used to reassemble fragments lacks a runtime bounds check in release builds. A…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81665",
+      "published": "2026-09-04T09:17:11.357000+00:00"
+    },
+    {
+      "id": "de6679dfecaa821b",
+      "kind": "research",
+      "cve": "CVE-2026-14894",
+      "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+      "summary": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) - A missing file type…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+      "published": "2026-09-04T08:48:45+00:00"
+    },
+    {
+      "id": "881bb4d1af736852",
+      "kind": "cve",
+      "cve": "CVE-2026-85197",
+      "title": "CVE-2026-85197",
+      "summary": "A flaw was found in libsoup. A malicious HTTP/2 server or a Man-in-the-Middle (MITM) attacker can exploit a heap use-after-free vulnerability in the HTTP/2 client implementation. This occurs when a GNOME application uploads a file using HTT…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85197",
+      "published": "2026-09-04T08:17:16.677000+00:00"
+    },
+    {
+      "id": "d2d1ffe7fc291ce8",
+      "kind": "research",
+      "cve": null,
+      "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
+      "summary": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws. The fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
+      "published": "2026-09-04T07:35:14+00:00"
+    },
+    {
+      "id": "c21f3d5267aa5a63",
+      "kind": "research",
+      "cve": "CVE-2026-85046",
+      "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+      "summary": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+      "published": "2026-09-04T07:18:47+00:00"
+    },
+    {
+      "id": "43647b5321964a18",
+      "kind": "cve",
+      "cve": "CVE-2026-15354",
+      "title": "CVE-2026-15354",
+      "summary": "The ACPT (Premium) plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.0.66. This is due to missing authorization in the `submit()` function, which allows unauthenticated form submissions to co…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15354",
+      "published": "2026-09-04T07:17:08.487000+00:00"
+    },
+    {
+      "id": "2d8294ff6466718a",
+      "kind": "research",
+      "cve": null,
+      "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+      "summary": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\" The development comes days after the artificial intelligence (AI) company said the model had reached the \"Critical\"…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+      "published": "2026-09-04T06:47:52+00:00"
+    },
+    {
+      "id": "e364f29091366ace",
+      "kind": "cve",
+      "cve": "CVE-2026-11613",
+      "title": "CVE-2026-11613",
+      "summary": "The Divi Ajax Filter plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 5.1.2 via the 'custom_loop_template' parameter parameter. This makes it possible for unauthenticated attackers to include…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11613",
+      "published": "2026-09-04T05:17:13.013000+00:00"
+    },
     {
       "id": "30c162ad1b0cd20d",
       "kind": "cve",
@@ -2451,40 +2587,6 @@
       "published": "2026-08-31T11:31:47+00:00"
     },
     {
-      "id": "08dcfdc56d8ac354",
-      "kind": "research",
-      "cve": null,
-      "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
-      "summary": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control System (TACACS) servers, and Linux manageme…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-      "published": "2026-08-31T09:04:55+00:00"
-    },
-    {
-      "id": "5b0f332fc66fdddb",
-      "kind": "research",
-      "cve": null,
-      "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
-      "summary": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now pointing out that they were among those targ…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
-      "published": "2026-08-31T07:56:53+00:00"
-    },
-    {
       "id": "51c55cdde1020421",
       "kind": "research",
       "cve": null,
@@ -2536,23 +2638,6 @@
       "published": "2026-08-31T00:00:00+00:00"
     },
     {
-      "id": "53af0197de88cefd",
-      "kind": "research",
-      "cve": null,
-      "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
-      "summary": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell. \"While traditional ClickFix campaigns direct victims to the Windows…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
-      "published": "2026-08-30T07:36:33+00:00"
-    },
-    {
       "id": "3ec45cafb15e35dc",
       "kind": "research",
       "cve": null,
@@ -2568,23 +2653,6 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33288",
       "published": "2026-08-30T07:14:49+00:00"
-    },
-    {
-      "id": "df044a4bbe03a77b",
-      "kind": "research",
-      "cve": null,
-      "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-      "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code exec…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-      "published": "2026-08-29T16:25:03+00:00"
     },
     {
       "id": "3f02d631aff506dd",
@@ -4185,75 +4253,6 @@
       "product": "ColdFusion",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282",
       "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "67114ad22bf7c88c",
-      "kind": "research",
-      "cve": null,
-      "title": "It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)",
-      "summary": "We&#x2019;re back, melting - we&#x2019;ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not men…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/",
-      "published": "2026-07-02T16:38:28+00:00"
-    },
-    {
-      "id": "093432cd2e7000cd",
-      "kind": "cve",
-      "cve": "CVE-2026-45659",
-      "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45659",
-      "published": "2026-07-01T00:00:00+00:00"
-    },
-    {
-      "id": "b577802c68fd64b5",
-      "kind": "research",
-      "cve": "CVE-2026-8451",
-      "title": "CitrixBleed To Infinity And Beyond (Citrix NetScaler Pre-Auth Memory Overread CVE-2026-8451)",
-      "summary": "Well, well, well - once again, the cat has dragged us in and spat us out. Today, we find ourselves questioning the reality we sit within. Must it be so predictable, and why us? &#x201c;But watchTowr, what do you mean?&#x201d; Well, if you&#…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/citrixbleed-to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451/",
-      "published": "2026-06-30T19:35:58+00:00"
-    },
-    {
-      "id": "4cb02bd8a6c62d99",
-      "kind": "research",
-      "cve": "CVE-2026-8037",
-      "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037)",
-      "summary": "Welcome back to another watchTowr Labs blog post. This time, we&apos;re looking at Progress Kemp LoadMaster, a load balancer that sits at the edge of a lot of enterprise networks. Edge appliances have a habit of becoming the way in rather t…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
-      "published": "2026-06-29T19:24:54+00:00"
     }
   ]
 }
