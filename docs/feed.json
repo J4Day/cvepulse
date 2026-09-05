@@ -1,7 +1,41 @@
 {
-  "generated": "2026-09-04T22:38:56.726656+00:00",
+  "generated": "2026-09-05T00:29:00.476912+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "fc06c942a9df87ac",
+      "kind": "cve",
+      "cve": "CVE-2026-86098",
+      "title": "CVE-2026-86098",
+      "summary": "ntop nDPI versions before 6.0 contain a heap buffer overflow vulnerability in the ndpi_json_string_escape function that writes beyond caller-supplied buffer boundaries. Attackers can trigger the overflow by supplying crafted network packet…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86098",
+      "published": "2026-09-04T23:18:03.687000+00:00"
+    },
+    {
+      "id": "dc81505bc59212fa",
+      "kind": "cve",
+      "cve": "CVE-2026-86095",
+      "title": "CVE-2026-86095",
+      "summary": "Unidata netcdf-c through 4.10.1 contains an out-of-bounds write vulnerability in NC4_HDF5_inq_attname() that copies HDF5 attribute names into a fixed 256-byte buffer without length validation. Attackers can craft HDF5 files with oversized a…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86095",
+      "published": "2026-09-04T23:18:03.220000+00:00"
+    },
     {
       "id": "17054c21963170fd",
       "kind": "cve",
@@ -2400,23 +2434,6 @@
       "published": "2026-09-01T21:30:18+00:00"
     },
     {
-      "id": "115fa79941d80ac7",
-      "kind": "cve",
-      "cve": "CVE-2026-78607",
-      "title": "CVE-2026-78607",
-      "summary": "Missing Authorization (CWE-862) in the Elasticsearch custom inference service can lead to information disclosure via Privilege Abuse (CAPEC-122). A user holding only inference execution privileges could cause outbound inference traffic to b…",
-      "severity": "MEDIUM",
-      "score": 5.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78607",
-      "published": "2026-09-01T20:17:24.030000+00:00"
-    },
-    {
       "id": "79a539446b8e43b7",
       "kind": "research",
       "cve": "CVE-2026-82329",
@@ -2466,91 +2483,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
       "published": "2026-09-01T14:07:20+00:00"
-    },
-    {
-      "id": "07805e77ec96b047",
-      "kind": "cve",
-      "cve": "CVE-2026-84143",
-      "title": "CVE-2026-84143",
-      "summary": "Internally found bugs present in Thunderbird 154, Thunderbird ESR 153.1 and Thunderbird ESR 140.14. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of t…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84143",
-      "published": "2026-09-01T13:20:08.457000+00:00"
-    },
-    {
-      "id": "0af1ecfc346e93a6",
-      "kind": "cve",
-      "cve": "CVE-2026-84142",
-      "title": "CVE-2026-84142",
-      "summary": "Internally found bugs present in Thunderbird 154. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. This vulnerability…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84142",
-      "published": "2026-09-01T13:20:08.337000+00:00"
-    },
-    {
-      "id": "935a706d12037f79",
-      "kind": "cve",
-      "cve": "CVE-2026-84141",
-      "title": "CVE-2026-84141",
-      "summary": "Integer overflow in the Graphics: ImageLib component. This vulnerability was fixed in Firefox 155, Firefox ESR 153.2, Thunderbird 155, and Thunderbird 153.2.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84141",
-      "published": "2026-09-01T13:20:08.230000+00:00"
-    },
-    {
-      "id": "1c7589d9b5c27010",
-      "kind": "cve",
-      "cve": "CVE-2026-84140",
-      "title": "CVE-2026-84140",
-      "summary": "Site isolation issue in the DOM: Navigation component. This vulnerability was fixed in Firefox 155, Firefox ESR 153.2, Thunderbird 155, and Thunderbird 153.2.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84140",
-      "published": "2026-09-01T13:20:08.127000+00:00"
-    },
-    {
-      "id": "3f5c288465bff8cd",
-      "kind": "cve",
-      "cve": "CVE-2026-84135",
-      "title": "CVE-2026-84135",
-      "summary": "Other issue in Firefox Focus for Android. This vulnerability was fixed in Firefox 155.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84135",
-      "published": "2026-09-01T13:20:07.573000+00:00"
     },
     {
       "id": "c6c20774e562d311",
@@ -2636,23 +2568,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
       "published": "2026-09-01T07:22:30+00:00"
-    },
-    {
-      "id": "aabd07c138cf34f7",
-      "kind": "cve",
-      "cve": "CVE-2026-65643",
-      "title": "CVE-2026-65643",
-      "summary": "Eval injection in cPanel 11.138.0.0 and earlier allows remote authenticated users to execute arbitrary code as root.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65643",
-      "published": "2026-09-01T03:16:50.807000+00:00"
     },
     {
       "id": "c2b3c032d4bf1dc3",
@@ -4253,6 +4168,91 @@
       "product": "IOS",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128",
       "published": "2026-07-13T00:00:00+00:00"
+    },
+    {
+      "id": "9a5fe2c655eec6cd",
+      "kind": "research",
+      "cve": null,
+      "title": "The SQL Server Unicode problem: why your data might not be what you think it is?",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMjJackp0OFhkSHhvVmx1M3pVcEFjd1dEUjlVOTBFQXVHc3lyaTRoM0hxSUktYUVFOHNkQ0Rsc0pGUEtSZVpMT3NMZ21hdmpXb3dTOEtNRGhQN29FWEViV3NvRnBnTUxBMHFNUzJPUF9qV1I5bUxQQTlIR0tVV2RUMEJoQWJNNG1QSjZPRzBJalMyeEhCcEIxQ0Z0YWljSFJkaVJYX25GU0g4Y09ZRVJabmdva0FLU00?oc=5",
+      "published": "2026-07-10T07:00:00+00:00"
+    },
+    {
+      "id": "8149a00ee74f082e",
+      "kind": "cve",
+      "cve": "CVE-2026-56291",
+      "title": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "summary": "Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Balbooa",
+      "product": "Forms",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56291",
+      "published": "2026-07-10T00:00:00+00:00"
+    },
+    {
+      "id": "d57560d4b570014d",
+      "kind": "cve",
+      "cve": "CVE-2026-48939",
+      "title": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "summary": "iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "iCagenda",
+      "product": "iCagenda",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48939",
+      "published": "2026-07-10T00:00:00+00:00"
+    },
+    {
+      "id": "a862312352299b9d",
+      "kind": "research",
+      "cve": null,
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intellige…",
+      "severity": "",
+      "score": null,
+      "source": "Krebs on Security",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "published": "2026-07-08T12:31:39+00:00"
+    },
+    {
+      "id": "545d56cad8908ebf",
+      "kind": "cve",
+      "cve": "CVE-2026-48908",
+      "title": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "summary": "JoomShaper SP Page Builder contains an unrestricted upload of file with dangerous type vulnerability that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and execution of PHP code.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "JoomShaper",
+      "product": "SP Page Builder",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48908",
+      "published": "2026-07-07T00:00:00+00:00"
     }
   ]
 }
