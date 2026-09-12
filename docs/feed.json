@@ -1,7 +1,58 @@
 {
-  "generated": "2026-09-12T11:48:32.920979+00:00",
+  "generated": "2026-09-12T14:39:59.692468+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "df423ce538de894b",
+      "kind": "cve",
+      "cve": "CVE-2026-90553",
+      "title": "CVE-2026-90553",
+      "summary": "vLLM before 0.28.0 contains a remote code execution vulnerability in the LlavaOnevision2 processor loader that ignores the trust_remote_code parameter when loading remote processor classes. Attackers can craft a malicious model with arbitra…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90553",
+      "published": "2026-09-12T13:16:53.887000+00:00"
+    },
+    {
+      "id": "6b3509af25ad5a29",
+      "kind": "cve",
+      "cve": "CVE-2026-90537",
+      "title": "CVE-2026-90537",
+      "summary": "WWBN AVideo through commit c3edcc274c389816d434acadac07ee78eaf330c1 contains a missing authorization vulnerability in plugin/Scheduler/sendEmail.json.php that allows unauthenticated attackers to access scheduler email jobs by providing a si…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90537",
+      "published": "2026-09-12T13:16:51.667000+00:00"
+    },
+    {
+      "id": "81e5d341a2d48207",
+      "kind": "cve",
+      "cve": "CVE-2026-15451",
+      "title": "CVE-2026-15451",
+      "summary": "The MemberPress Corporate Accounts plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 1.5.39. This is due to a mass assignment vulnerability in the 'add_sub_account_user' function that passes the ra…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15451",
+      "published": "2026-09-12T13:16:50.940000+00:00"
+    },
     {
       "id": "07d948111ef17178",
       "kind": "research",
@@ -4205,58 +4256,6 @@
       "product": "",
       "url": "https://labs.watchtowr.com/citrixbleed-to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451/",
       "published": "2026-06-30T19:35:58+00:00"
-    },
-    {
-      "id": "4cb02bd8a6c62d99",
-      "kind": "research",
-      "cve": "CVE-2026-8037",
-      "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037)",
-      "summary": "Welcome back to another watchTowr Labs blog post. This time, we&apos;re looking at Progress Kemp LoadMaster, a load balancer that sits at the edge of a lot of enterprise networks. Edge appliances have a habit of becoming the way in rather t…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
-      "published": "2026-06-29T19:24:54+00:00"
-    },
-    {
-      "id": "6025526b87d6e5ed",
-      "kind": "cve",
-      "cve": "CVE-2026-48558",
-      "title": "SimpleHelp Authentication Bypass Vulnerability",
-      "summary": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vu…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "SimpleHelp ",
-      "product": "SimpleHelp",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48558",
-      "published": "2026-06-29T00:00:00+00:00"
-    },
-    {
-      "id": "7202501c151746ab",
-      "kind": "cve",
-      "cve": "CVE-2026-12569",
-      "title": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
-      "summary": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "PTC",
-      "product": "Windchill and FlexPLM",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12569",
-      "published": "2026-06-25T00:00:00+00:00"
     }
   ]
 }
