@@ -1,7 +1,75 @@
 {
-  "generated": "2026-09-12T17:32:40.609585+00:00",
+  "generated": "2026-09-12T19:53:33.998193+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "e12aeb12924789fc",
+      "kind": "cve",
+      "cve": "CVE-2026-90560",
+      "title": "CVE-2026-90560",
+      "summary": "zstd-jni versions 1.2.0 through 1.5.7-13 contain an out-of-bounds read vulnerability in the ZstdDictDecompress constructor because offset and length arguments are never validated against the dictionary array bounds. Attackers can supply arb…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90560",
+      "published": "2026-09-12T18:16:44.890000+00:00"
+    },
+    {
+      "id": "837802ed2c1e0c11",
+      "kind": "cve",
+      "cve": "CVE-2026-90559",
+      "title": "CVE-2026-90559",
+      "summary": "snappy-java through 1.1.10.8 contains an out-of-bounds write vulnerability in Snappy.uncompress(ByteBuffer, ByteBuffer) because destination buffer capacity is never validated against decompressed size. Attackers can supply valid compressed…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90559",
+      "published": "2026-09-12T18:16:44.743000+00:00"
+    },
+    {
+      "id": "881f4a603040cbda",
+      "kind": "cve",
+      "cve": "CVE-2026-90558",
+      "title": "CVE-2026-90558",
+      "summary": "sngrep through 1.8.4 contains stack buffer overflow vulnerabilities in SIP attribute formatting routines when header values exceed the 255-byte buffer limit. Attackers can craft malicious SIP packets with oversized Call-ID, X-Call-ID, or ot…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90558",
+      "published": "2026-09-12T18:16:44.587000+00:00"
+    },
+    {
+      "id": "6836dc7ddc849890",
+      "kind": "cve",
+      "cve": "CVE-2026-90556",
+      "title": "CVE-2026-90556",
+      "summary": "Freeciv versions before 3.2.6 contain a heap buffer overflow in worklist_load() when processing savegame files with declared worklist lengths exceeding the fixed array bound of 64 elements. Attackers can craft malicious savegame files that…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90556",
+      "published": "2026-09-12T18:16:44.193000+00:00"
+    },
     {
       "id": "3be9058c0a3e93a1",
       "kind": "research",
@@ -4187,75 +4255,6 @@
       "product": "Langflow",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55255",
       "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "3140056303388282",
-      "kind": "cve",
-      "cve": "CVE-2026-56290",
-      "title": "Joomlack Page Builder Improper Access Control Vulnerability",
-      "summary": "Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Joomlack",
-      "product": "Page Builder",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56290",
-      "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "d950a00daa6d3c03",
-      "kind": "cve",
-      "cve": "CVE-2026-48282",
-      "title": "Adobe ColdFusion Path Traversal Vulnerability",
-      "summary": "Adobe ColdFusion contains a path traversal vulnerability that could lead to arbitrary code execution in the context of the current user.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "ColdFusion",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282",
-      "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "67114ad22bf7c88c",
-      "kind": "research",
-      "cve": null,
-      "title": "It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)",
-      "summary": "We&#x2019;re back, melting - we&#x2019;ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not men…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/",
-      "published": "2026-07-02T16:38:28+00:00"
-    },
-    {
-      "id": "093432cd2e7000cd",
-      "kind": "cve",
-      "cve": "CVE-2026-45659",
-      "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45659",
-      "published": "2026-07-01T00:00:00+00:00"
     }
   ]
 }
