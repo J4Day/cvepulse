@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T17:55:35.080247+00:00",
+  "generated": "2026-09-17T20:47:19.214343+00:00",
   "count": 250,
   "items": [
     {
@@ -20,40 +20,6 @@
       "published": "2026-09-17T15:06:44+00:00"
     },
     {
-      "id": "3db194d623244089",
-      "kind": "cve",
-      "cve": "CVE-2026-92957",
-      "title": "CVE-2026-92957",
-      "summary": "vm2 through 3.11.6 does not normalize `node:`-prefixed builtin specifiers when evaluating user-supplied negative (deny) entries in a NodeVM wildcard require policy. Although NodeVM strips the `node:` prefix during require() resolution, nega…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92957",
-      "published": "2026-09-17T14:18:01.813000+00:00"
-    },
-    {
-      "id": "5f0ddd70ecd548a8",
-      "kind": "cve",
-      "cve": "CVE-2026-92956",
-      "title": "CVE-2026-92956",
-      "summary": "vm2 versions 3.10.1 through 3.11.6 contain a sandbox escape reachable from a default `new VM()` sandbox when running on Node.js 26. WebAssembly.compileStreaming and WebAssembly.instantiateStreaming can produce a raw host-realm Promise that…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92956",
-      "published": "2026-09-17T14:18:01.640000+00:00"
-    },
-    {
       "id": "554f68736e93d1b8",
       "kind": "cve",
       "cve": "CVE-2026-92953",
@@ -69,23 +35,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92953",
       "published": "2026-09-17T14:18:01.160000+00:00"
-    },
-    {
-      "id": "0635fdae1271b86b",
-      "kind": "cve",
-      "cve": "CVE-2026-92951",
-      "title": "CVE-2026-92951",
-      "summary": "vm2 before 3.11.7 contains an incorrect authorization vulnerability in the external package allowlist check that uses non-exact substring matching instead of full package-name boundary validation. Attackers can bypass the allowlist by requi…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92951",
-      "published": "2026-09-17T14:18:00.827000+00:00"
     },
     {
       "id": "67137fa47adfb6f6",
@@ -105,23 +54,6 @@
       "published": "2026-09-17T14:18:00.310000+00:00"
     },
     {
-      "id": "9c6c410280ae5f79",
-      "kind": "cve",
-      "cve": "CVE-2026-92946",
-      "title": "CVE-2026-92946",
-      "summary": "vm2 before 3.11.7 contains a remote code execution vulnerability when require.external is enabled without an explicit require.root that excludes node_modules. Sandboxed code can require vm2's own package, instantiate an unrestricted NodeVM…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92946",
-      "published": "2026-09-17T14:17:59.963000+00:00"
-    },
-    {
       "id": "75dcb7d11b71eaaa",
       "kind": "cve",
       "cve": "CVE-2026-92944",
@@ -137,23 +69,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92944",
       "published": "2026-09-17T14:17:59.623000+00:00"
-    },
-    {
-      "id": "c11502a10f8d3d07",
-      "kind": "cve",
-      "cve": "CVE-2026-92940",
-      "title": "CVE-2026-92940",
-      "summary": "vm2 versions 3.11.3 through 3.11.6 expose the host process's real https.globalAgent to sandboxed code when a NodeVM is explicitly configured to allow require('https'). The builtin loader wraps host modules in a read-only proxy, but method c…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92940",
-      "published": "2026-09-17T14:17:59.143000+00:00"
     },
     {
       "id": "b23c75b6e8e5de32",
@@ -188,23 +103,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92937",
       "published": "2026-09-17T14:17:58.517000+00:00"
-    },
-    {
-      "id": "f32d91cc94bd1918",
-      "kind": "cve",
-      "cve": "CVE-2026-92935",
-      "title": "CVE-2026-92935",
-      "summary": "vm2 is a sandbox for running untrusted Node.js code. In versions >= 3.11.4 and <= 3.11.6, the NodeVM constructor computes `hasRealRequireConfig` with `typeof requireOpts === 'object' && requireOpts !== null`, so an array-shaped `require` va…",
-      "severity": "CRITICAL",
-      "score": 9.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92935",
-      "published": "2026-09-17T14:17:57.810000+00:00"
     },
     {
       "id": "84bff6238c91897e",
@@ -564,23 +462,6 @@
       "published": "2026-09-16T18:44:04+00:00"
     },
     {
-      "id": "020c8b8495196729",
-      "kind": "cve",
-      "cve": "CVE-2026-92720",
-      "title": "CVE-2026-92720",
-      "summary": "Kubero through 3.1.1 fails to apply authentication guards to the notifications API endpoints, allowing unauthenticated attackers to read webhook secrets and service URLs. Attackers can retrieve stored credentials and register malicious webh…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92720",
-      "published": "2026-09-16T18:17:22.990000+00:00"
-    },
-    {
       "id": "ad55111b0d513bea",
       "kind": "cve",
       "cve": "CVE-2026-92717",
@@ -802,23 +683,6 @@
       "published": "2026-09-16T05:18:06+00:00"
     },
     {
-      "id": "50a65a4348c3783c",
-      "kind": "cve",
-      "cve": "CVE-2026-12793",
-      "title": "CVE-2026-12793",
-      "summary": "The JetFormBuilder — Dynamic Blocks Form Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.6.2. This is due to the plugin not validating that a submitted form ID belongs to a JetFormB…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12793",
-      "published": "2026-09-16T04:17:56.110000+00:00"
-    },
-    {
       "id": "474a6a40144f3405",
       "kind": "research",
       "cve": null,
@@ -885,6 +749,91 @@
       "product": "Backup",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87886",
       "published": "2026-09-16T00:00:00+00:00"
+    },
+    {
+      "id": "a1ceb1a6863b109b",
+      "kind": "cve",
+      "cve": "CVE-2026-10144",
+      "title": "CVE-2026-10144",
+      "summary": "Rsbuild before 2.0.9 contains a command injection vulnerability that allows attackers to execute arbitrary OS commands by supplying a crafted URL containing shell metacharacters to the server.open configuration on macOS. The openBrowser() f…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10144",
+      "published": "2026-09-15T22:16:55.387000+00:00"
+    },
+    {
+      "id": "8db227e6143f47a9",
+      "kind": "cve",
+      "cve": "CVE-2026-87266",
+      "title": "CVE-2026-87266",
+      "summary": "Vulnerability in the Oracle Agile PLM product of Oracle Supply Chain (component: Application Server). The supported version that is affected is 9.3.6. Easily exploitable vulnerability allows unauthenticated attacker with network access via…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87266",
+      "published": "2026-09-15T20:19:15.260000+00:00"
+    },
+    {
+      "id": "515fe95730616a4a",
+      "kind": "cve",
+      "cve": "CVE-2026-87265",
+      "title": "CVE-2026-87265",
+      "summary": "Vulnerability in the Oracle Purchasing product of Oracle E-Business Suite (component: Other issue). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87265",
+      "published": "2026-09-15T20:19:15.153000+00:00"
+    },
+    {
+      "id": "b81ccbae3b3773e3",
+      "kind": "cve",
+      "cve": "CVE-2026-87243",
+      "title": "CVE-2026-87243",
+      "summary": "Vulnerability in the Oracle Hyperion Financial Management product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Difficult to exploit vulnerability allows unauthenticated attacker with acc…",
+      "severity": "HIGH",
+      "score": 8.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87243",
+      "published": "2026-09-15T20:19:13.033000+00:00"
+    },
+    {
+      "id": "65daf2b377e6c7d6",
+      "kind": "cve",
+      "cve": "CVE-2026-87242",
+      "title": "CVE-2026-87242",
+      "summary": "Vulnerability in the Oracle Hyperion Financial Management product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Difficult to exploit vulnerability allows unauthenticated attacker with net…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87242",
+      "published": "2026-09-15T20:19:12.920000+00:00"
     },
     {
       "id": "3ae96b9b316e87bc",
@@ -3794,23 +3743,6 @@
       "published": "2026-09-15T18:54:14+00:00"
     },
     {
-      "id": "5303b9e635be11a9",
-      "kind": "cve",
-      "cve": "CVE-2026-89026",
-      "title": "CVE-2026-89026",
-      "summary": "The Issabel Framework, the web framework supporting Issabel PBX software, before commit b97dbaf contains a hard-coded HS256 JWT signing key in the pbxapi index.php file that is identical across every installation, allowing unauthenticated r…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89026",
-      "published": "2026-09-15T17:17:33.510000+00:00"
-    },
-    {
       "id": "355f163e63124408",
       "kind": "cve",
       "cve": "CVE-2024-58385",
@@ -3843,23 +3775,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
       "published": "2026-09-15T16:29:51+00:00"
-    },
-    {
-      "id": "76e0f19f31898e7f",
-      "kind": "cve",
-      "cve": "CVE-2026-91989",
-      "title": "CVE-2026-91989",
-      "summary": "atomic-agents-stack before 1.1.0 contains a path traversal vulnerability in the dashboard HTTP server that allows remote attackers to read arbitrary files by supplying directory traversal sequences in request paths. Attackers can bypass pat…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91989",
-      "published": "2026-09-15T16:17:58.010000+00:00"
     },
     {
       "id": "4038f55f3ec6f478",
@@ -3913,23 +3828,6 @@
       "published": "2026-09-15T16:17:49.963000+00:00"
     },
     {
-      "id": "0db99b63faa68ea8",
-      "kind": "cve",
-      "cve": "CVE-2026-91949",
-      "title": "CVE-2026-91949",
-      "summary": "FreeRDP server versions before 3.31.0 contain a protocol negotiation bypass vulnerability that allows unauthenticated attackers to establish RDSTLS connections despite server policy disabling them. Attackers can send incompatible protocol r…",
-      "severity": "CRITICAL",
-      "score": 9.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91949",
-      "published": "2026-09-15T16:17:48.653000+00:00"
-    },
-    {
       "id": "5fd1ac19f60db7a9",
       "kind": "cve",
       "cve": "CVE-2026-91941",
@@ -3964,23 +3862,6 @@
       "published": "2026-09-15T16:17:45.460000+00:00"
     },
     {
-      "id": "e09b2ff9aac7deaf",
-      "kind": "cve",
-      "cve": "CVE-2026-91938",
-      "title": "CVE-2026-91938",
-      "summary": "Flowise versions before 3.1.4 contain a server-side request forgery vulnerability in Cheerio, Playwright, and Puppeteer document loader nodes that bypass SSRF protection. Attackers can provide arbitrary URLs to fetch cloud metadata, interna…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91938",
-      "published": "2026-09-15T16:17:45.317000+00:00"
-    },
-    {
       "id": "b999ee9ba1a4d321",
       "kind": "cve",
       "cve": "CVE-2026-91935",
@@ -4013,23 +3894,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91934",
       "published": "2026-09-15T16:17:44.317000+00:00"
-    },
-    {
-      "id": "41f7354e02930177",
-      "kind": "cve",
-      "cve": "CVE-2026-91933",
-      "title": "CVE-2026-91933",
-      "summary": "Flowise before 3.1.4 fails to enforce workspace-level authorization checks in openai-realtime endpoints, allowing authenticated users to access tools from ChatFlows in other workspaces by supplying an unscoped chatflowid. Attackers can invo…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91933",
-      "published": "2026-09-15T16:17:44.170000+00:00"
     },
     {
       "id": "4dd64e3a99009c8f",
@@ -4168,23 +4032,6 @@
       "published": "2026-09-15T12:22:50+00:00"
     },
     {
-      "id": "0a58a6cecfcf87e4",
-      "kind": "cve",
-      "cve": "CVE-2026-91998",
-      "title": "CVE-2026-91998",
-      "summary": "Casdoor through 4.4.0 contains an authorization bypass vulnerability in the /api/mcp endpoint that allows attackers with any application's clientId and clientSecret to gain unrestricted access to user administration across all organizations…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91998",
-      "published": "2026-09-15T12:17:55.407000+00:00"
-    },
-    {
       "id": "1405f3656dd564d9",
       "kind": "cve",
       "cve": "CVE-2026-91995",
@@ -4251,6 +4098,159 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91923",
       "published": "2026-09-15T11:17:12.897000+00:00"
+    },
+    {
+      "id": "2863f9a0ea26502d",
+      "kind": "research",
+      "cve": null,
+      "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+      "summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed Vite development servers that's designed to st…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+      "published": "2026-09-15T11:12:32+00:00"
+    },
+    {
+      "id": "6fecc4da6b6da72e",
+      "kind": "research",
+      "cve": null,
+      "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+      "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14. On such servers, many customers' si…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+      "published": "2026-09-15T06:52:16+00:00"
+    },
+    {
+      "id": "4a859598d5aa1c23",
+      "kind": "research",
+      "cve": "CVE-2026-76461",
+      "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+      "summary": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+      "published": "2026-09-15T06:11:11+00:00"
+    },
+    {
+      "id": "ed5aa7d726336f69",
+      "kind": "research",
+      "cve": null,
+      "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+      "summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tra…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+      "published": "2026-09-15T05:31:05+00:00"
+    },
+    {
+      "id": "0c65945d487424c1",
+      "kind": "research",
+      "cve": null,
+      "title": "ISC Stormcast For Tuesday, September 15th, 2026 https://isc.sans.edu/podcastdetail/10094, (Tue, Sep 15th)",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "severity": "",
+      "score": null,
+      "source": "SANS ISC",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://isc.sans.edu/diary/rss/33338",
+      "published": "2026-09-15T02:25:12+00:00"
+    },
+    {
+      "id": "5f01516a7a117129",
+      "kind": "cve",
+      "cve": "CVE-2026-91771",
+      "title": "CVE-2026-91771",
+      "summary": "Weights & Biases wandb before 0.29.0 fails to validate the file name from server responses in the File.download function, allowing path traversal attacks. Attackers controlling the backend can supply file names with directory traversal sequ…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91771",
+      "published": "2026-09-15T02:16:49.680000+00:00"
+    },
+    {
+      "id": "c3ddb218706e605d",
+      "kind": "cve",
+      "cve": "CVE-2026-84584",
+      "title": "CVE-2026-84584",
+      "summary": "This issue was addressed with improved handling of symlinks. This issue is fixed in macOS Golden Gate 27. An app may be able to break out of its sandbox.",
+      "severity": "HIGH",
+      "score": 8.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84584",
+      "published": "2026-09-14T21:17:34.480000+00:00"
+    },
+    {
+      "id": "3aba0500e580bd2b",
+      "kind": "cve",
+      "cve": "CVE-2026-84580",
+      "title": "CVE-2026-84580",
+      "summary": "The issue was addressed with improved checks. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7. An app may be able to break out of its sandbox.",
+      "severity": "HIGH",
+      "score": 8.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84580",
+      "published": "2026-09-14T21:17:34.167000+00:00"
+    },
+    {
+      "id": "7e42fceb159cd759",
+      "kind": "cve",
+      "cve": "CVE-2026-84565",
+      "title": "CVE-2026-84565",
+      "summary": "An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in macOS Golden Gate 27, macOS Sequoia 15.8, macOS Tahoe 26.7. Processing a maliciously crafted disk image may lead to unexpected app termination.",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84565",
+      "published": "2026-09-14T21:17:32.680000+00:00"
     }
   ]
 }
