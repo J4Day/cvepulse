@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T20:47:19.214343+00:00",
+  "generated": "2026-09-17T23:16:46.703962+00:00",
   "count": 250,
   "items": [
     {
@@ -649,6 +649,40 @@
       "published": "2026-09-16T11:08:54+00:00"
     },
     {
+      "id": "bcdf8ff4c2a309e6",
+      "kind": "cve",
+      "cve": "CVE-2026-27558",
+      "title": "CVE-2026-27558",
+      "summary": "A low-privileged remote attacker can exploit a command injection vulnerability in the /index.php/attached_devices_tab/ajax_remove_uploaded_iodd_files endpoint using operator credentials allowing execution of commands with root privileges on…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27558",
+      "published": "2026-09-16T08:16:38.673000+00:00"
+    },
+    {
+      "id": "6e6f3f4e268a634b",
+      "kind": "cve",
+      "cve": "CVE-2026-27548",
+      "title": "CVE-2026-27548",
+      "summary": "A low-privileged remote attacker can exploit a command injection vulnerability in the /index.php/ajax/get_iodd_port_info endpoint using user or operator credentials allowing execution of commands with root privileges on the device.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27548",
+      "published": "2026-09-16T08:16:37.180000+00:00"
+    },
+    {
       "id": "98f91b85111c2c80",
       "kind": "research",
       "cve": null,
@@ -749,6 +783,57 @@
       "product": "Backup",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87886",
       "published": "2026-09-16T00:00:00+00:00"
+    },
+    {
+      "id": "d108f17bc55060a3",
+      "kind": "cve",
+      "cve": "CVE-2026-76866",
+      "title": "CVE-2026-76866",
+      "summary": "Netcore NR255-V firmware version 1.5.130703 builds root-run command lines from unquoted user-supplied DDNS input in DDNSset_cgi.c and related ddns_Proc.c components, enabling os command argument injection. Attackers can exploit the unsaniti…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76866",
+      "published": "2026-09-15T22:17:01.337000+00:00"
+    },
+    {
+      "id": "d1952cbfb8d347a9",
+      "kind": "cve",
+      "cve": "CVE-2026-76861",
+      "title": "CVE-2026-76861",
+      "summary": "Netcore NR255-V version 1.5.130703 contains a stack-based buffer overflow in ntools_tcpdump_start_set.cgi caused by an unsized sprintf call when processing form values. An attacker can submit crafted input to this cgi endpoint to overflow t…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76861",
+      "published": "2026-09-15T22:17:00.480000+00:00"
+    },
+    {
+      "id": "6f2344e31d068573",
+      "kind": "cve",
+      "cve": "CVE-2026-76856",
+      "title": "CVE-2026-76856",
+      "summary": "Netcore NR255-V firmware version 1.5.130703 contains a cross-site request forgery vulnerability affecting the wan_config_set_cgi, wan_num_set_cgi, and lan_ip_change_cgi endpoints. Attackers can craft forged requests to trick authenticated a…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76856",
+      "published": "2026-09-15T22:16:59.590000+00:00"
     },
     {
       "id": "a1ceb1a6863b109b",
@@ -1021,91 +1106,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87223",
       "published": "2026-09-15T20:19:10.630000+00:00"
-    },
-    {
-      "id": "4a06fa92e5486360",
-      "kind": "cve",
-      "cve": "CVE-2026-87221",
-      "title": "CVE-2026-87221",
-      "summary": "Vulnerability in the Oracle Hyperion Financial Management product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with netwo…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87221",
-      "published": "2026-09-15T20:19:10.420000+00:00"
-    },
-    {
-      "id": "29081e880bdb88f8",
-      "kind": "cve",
-      "cve": "CVE-2026-87220",
-      "title": "CVE-2026-87220",
-      "summary": "Vulnerability in the Oracle Hyperion Financial Management product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with acces…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87220",
-      "published": "2026-09-15T20:19:10.307000+00:00"
-    },
-    {
-      "id": "9f14f3870427af4b",
-      "kind": "cve",
-      "cve": "CVE-2026-87219",
-      "title": "CVE-2026-87219",
-      "summary": "Vulnerability in the Oracle Hyperion Financial Management product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows low privileged attacker with logon…",
-      "severity": "HIGH",
-      "score": 8.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87219",
-      "published": "2026-09-15T20:19:10.200000+00:00"
-    },
-    {
-      "id": "c3a83daaa2a20440",
-      "kind": "cve",
-      "cve": "CVE-2026-87218",
-      "title": "CVE-2026-87218",
-      "summary": "Vulnerability in the Oracle Hyperion Financial Management product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with acces…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87218",
-      "published": "2026-09-15T20:19:10.090000+00:00"
-    },
-    {
-      "id": "c97b4fba26ef001e",
-      "kind": "cve",
-      "cve": "CVE-2026-87213",
-      "title": "CVE-2026-87213",
-      "summary": "Vulnerability in the Oracle Hyperion Financial Management product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Difficult to exploit vulnerability allows unauthenticated attacker with net…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87213",
-      "published": "2026-09-15T20:19:09.550000+00:00"
     },
     {
       "id": "cb1fa6282a70aba7",
