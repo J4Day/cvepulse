@@ -1,7 +1,75 @@
 {
-  "generated": "2026-09-19T21:57:10.611829+00:00",
+  "generated": "2026-09-19T23:51:38.889442+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "886515e42b39d326",
+      "kind": "cve",
+      "cve": "CVE-2026-93993",
+      "title": "CVE-2026-93993",
+      "summary": "Mistral Vibe before 2.25.5 contains a remote code execution vulnerability in the worktree creation process that executes git hooks before trust validation. Attackers can supply a repository with a crafted post-checkout hook that executes ar…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93993",
+      "published": "2026-09-19T23:17:10.673000+00:00"
+    },
+    {
+      "id": "3447a0d3dedd8ec4",
+      "kind": "cve",
+      "cve": "CVE-2026-93992",
+      "title": "CVE-2026-93992",
+      "summary": "Gopeed through 2.0.0-beta.3 contains a path traversal vulnerability in archive extraction that allows attackers to write arbitrary files outside the extraction directory. Attackers can craft malicious archives with entries containing direct…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93992",
+      "published": "2026-09-19T23:17:10.517000+00:00"
+    },
+    {
+      "id": "2cbf41d51a280cdb",
+      "kind": "cve",
+      "cve": "CVE-2026-93991",
+      "title": "CVE-2026-93991",
+      "summary": "Argo Workflows versions 4.1.0 through 4.1.3 contain an authorization bypass vulnerability in ListArchivedWorkflows that fails to apply cluster-scoped access review when the metadata.namespace field selector uses the NotEquals operator. Atta…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93991",
+      "published": "2026-09-19T23:17:10.360000+00:00"
+    },
+    {
+      "id": "1b9f273254da862b",
+      "kind": "cve",
+      "cve": "CVE-2026-93990",
+      "title": "CVE-2026-93990",
+      "summary": "Expat through 2.8.4 fails to validate low surrogates following high surrogates in UTF-16 input, allowing malformed UTF-16 sequences to be accepted. Attackers can craft UTF-16 encoded XML with lone high surrogates that consume following code…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93990",
+      "published": "2026-09-19T23:17:10.203000+00:00"
+    },
     {
       "id": "cc2fd48c518b89fd",
       "kind": "research",
@@ -4189,74 +4257,6 @@
       "product": "EDS5000",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038",
       "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "7a710b361560f51e",
-      "kind": "cve",
-      "cve": "CVE-2026-34910",
-      "title": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "c9c1f14b593f0bd4",
-      "kind": "cve",
-      "cve": "CVE-2026-34909",
-      "title": "Ubiquiti UniFi OS Path Traversal Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "fb5f7f2cc98f88e2",
-      "kind": "cve",
-      "cve": "CVE-2026-34908",
-      "title": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "10d87533a665bcff",
-      "kind": "research",
-      "cve": null,
-      "title": "The Vulnerability Curve Bent With the AI Curve",
-      "summary": "How CVE volume, known-exploited counts and time-to-exploit all changed shape across the LLM build-out and why defenders are now on the wrong side of the clock. In 2018 the world published about 18,000 CVEs and the average vulnerability took…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/the-vulnerability-curve-bent-with-the-ai-curve",
-      "published": "2026-06-18T18:32:03+00:00"
     }
   ]
 }
