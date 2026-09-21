@@ -1,7 +1,126 @@
 {
-  "generated": "2026-09-21T05:41:15.594196+00:00",
+  "generated": "2026-09-21T11:29:55.314831+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "24ce00a915220f78",
+      "kind": "research",
+      "cve": null,
+      "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
+      "summary": "Microsoft Security Research published an interesting blog post \" TerminalFix campaign deploys a reverse tunnel through multistage intrusion \" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the th…",
+      "severity": "",
+      "score": null,
+      "source": "SANS ISC",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://isc.sans.edu/diary/rss/33318",
+      "published": "2026-09-21T10:33:53+00:00"
+    },
+    {
+      "id": "85c030a4e52b407d",
+      "kind": "cve",
+      "cve": "CVE-2026-92574",
+      "title": "CVE-2026-92574",
+      "summary": "A vulnerability in CRI-O checkpoint restore allows a user who can create a pod from a malicious checkpointed container to bypass the destination Kubernetes security context. The restored process may retain credentials, Linux capabilities, n…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92574",
+      "published": "2026-09-21T10:17:17.360000+00:00"
+    },
+    {
+      "id": "7da739580f3b0e7d",
+      "kind": "cve",
+      "cve": "CVE-2026-15801",
+      "title": "CVE-2026-15801",
+      "summary": "A vulnerability was found in CRI-O related to the container checkpoint and restore feature. When CRI-O is configured to restore containers from checkpoint archives, insufficient validation of restore metadata may allow a user with sufficien…",
+      "severity": "HIGH",
+      "score": 8.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15801",
+      "published": "2026-09-21T09:17:05.743000+00:00"
+    },
+    {
+      "id": "466b4f516547fabd",
+      "kind": "research",
+      "cve": null,
+      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+      "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared,…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+      "published": "2026-09-21T08:39:38+00:00"
+    },
+    {
+      "id": "614971330e01674d",
+      "kind": "cve",
+      "cve": "CVE-2026-94146",
+      "title": "CVE-2026-94146",
+      "summary": "A vulnerability was found in BioStar BIOS Update Utility 1.9.7.3. This issue affects the function sub_110BC of the file BSMEM64_W10.sys of the component IOCTL Handler. The manipulation of the argument PhysicalAddress/Size results in write-w…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94146",
+      "published": "2026-09-21T07:16:53.993000+00:00"
+    },
+    {
+      "id": "9b56fc65cef36b0f",
+      "kind": "cve",
+      "cve": "CVE-2026-94144",
+      "title": "CVE-2026-94144",
+      "summary": "A flaw has been found in drogonframework drogon up to 1.9.13. This affects the function makeCriteria in the library orm_lib/src/Criteria.cc of the component ORM. Executing a manipulation of the argument filter can lead to sql injection. The…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94144",
+      "published": "2026-09-21T07:16:53.600000+00:00"
+    },
+    {
+      "id": "d657c58df2d2b77a",
+      "kind": "research",
+      "cve": null,
+      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+      "summary": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again highlighting how the adversary continues…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+      "published": "2026-09-21T06:06:44+00:00"
+    },
     {
       "id": "3bf0961b94f41263",
       "kind": "cve",
@@ -54,23 +173,6 @@
       "published": "2026-09-21T05:15:12+00:00"
     },
     {
-      "id": "f13d4943273d9830",
-      "kind": "cve",
-      "cve": "CVE-2026-94129",
-      "title": "CVE-2026-94129",
-      "summary": "A vulnerability was detected in BioStar VALKYRIE AURORA 2.10.2411.0800. This vulnerability affects the function sub_1105C of the file BS_RVSIO64.sys of the component IOCTL Handler. The manipulation of the argument PhysicalAddress results in…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94129",
-      "published": "2026-09-21T02:16:54.213000+00:00"
-    },
-    {
       "id": "29090e0ab93bde02",
       "kind": "cve",
       "cve": "CVE-2026-94128",
@@ -103,23 +205,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94110",
       "published": "2026-09-21T02:16:53.853000+00:00"
-    },
-    {
-      "id": "23989973a83891c2",
-      "kind": "cve",
-      "cve": "CVE-2026-94101",
-      "title": "CVE-2026-94101",
-      "summary": "A security vulnerability has been detected in Netcore NBR200V2 1.3.241127.071246. The affected element is the function vlan_load_form_uci of the file /usr/bin/routerd. The manipulation of the argument wan_num leads to buffer overflow. It is…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94101",
-      "published": "2026-09-21T02:16:53.317000+00:00"
     },
     {
       "id": "2f9efbefa08a807e",
@@ -188,23 +273,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94097",
       "published": "2026-09-21T00:16:59.793000+00:00"
-    },
-    {
-      "id": "964677613fc1b74a",
-      "kind": "cve",
-      "cve": "CVE-2026-94096",
-      "title": "CVE-2026-94096",
-      "summary": "A vulnerability was found in Netcore NBR200V2 1.3.241127.071246. Affected by this issue is some unknown functionality of the file /usr/bin/network_tools of the component LAN IP Configuration Handler. The manipulation of the argument ipv4 re…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94096",
-      "published": "2026-09-21T00:16:59.617000+00:00"
     },
     {
       "id": "e6ff154351f7dcb7",
@@ -2094,40 +2162,6 @@
       "published": "2026-09-16T11:08:54+00:00"
     },
     {
-      "id": "98f91b85111c2c80",
-      "kind": "research",
-      "cve": null,
-      "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-      "summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. \"This vulnerability can be leveraged by unauthenticated attackers to upload ar…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
-      "published": "2026-09-16T05:48:28+00:00"
-    },
-    {
-      "id": "9c461222ca4f36d9",
-      "kind": "research",
-      "cve": "CVE-2026-5430",
-      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-      "summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a c…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
-      "published": "2026-09-16T05:18:06+00:00"
-    },
-    {
       "id": "474a6a40144f3405",
       "kind": "research",
       "cve": null,
@@ -2245,23 +2279,6 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33338",
       "published": "2026-09-15T02:25:12+00:00"
-    },
-    {
-      "id": "5822efeadc1a3366",
-      "kind": "research",
-      "cve": null,
-      "title": "Apple Updates Everything, (Mon, Sep 14th)",
-      "summary": "Today, Apple released its annual update across all its operating systems. With that, Apple not only released new features but also patched 261 different vulnerabilities. This is the most vulnerabilities Apple has ever patched, but the incre…",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33336",
-      "published": "2026-09-14T18:33:44+00:00"
     },
     {
       "id": "4e863af2bcacd13d",
@@ -4237,23 +4254,6 @@
       "vendor": "JoomShaper",
       "product": "SP Page Builder",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48908",
-      "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "f6ca726433d5ffcf",
-      "kind": "cve",
-      "cve": "CVE-2026-55255",
-      "title": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
-      "summary": "Langflow contains an authorization bypass through user-controlled key vulnerability which allows an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow ID in the request.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55255",
       "published": "2026-07-07T00:00:00+00:00"
     }
   ]
