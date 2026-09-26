@@ -1,7 +1,75 @@
 {
-  "generated": "2026-09-26T17:29:18.307429+00:00",
+  "generated": "2026-09-26T20:23:53.336363+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "db9e30bc994c1f17",
+      "kind": "cve",
+      "cve": "CVE-2026-82901",
+      "title": "CVE-2026-82901",
+      "summary": "The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to Arbitrary File Upload due to insufficient file type validation in the 'uacf7_wpcf7_mail_components' function in all versions up to, and including, 3.5.50. This makes…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82901",
+      "published": "2026-09-26T19:16:28.427000+00:00"
+    },
+    {
+      "id": "d0389279f56227f3",
+      "kind": "research",
+      "cve": null,
+      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex. The new findings come from Ontinue, whi…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "published": "2026-09-26T18:22:52+00:00"
+    },
+    {
+      "id": "f934c5e5bc1bf74f",
+      "kind": "cve",
+      "cve": "CVE-2026-85984",
+      "title": "CVE-2026-85984",
+      "summary": "The miniOrange OTP Login, Verification and SMS Notifications plugin for WordPress is vulnerable to Authentication Bypass via the mo_wp_login_intent parameter in all versions up to, and including, 5.5.5. This is due to a missing password-int…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85984",
+      "published": "2026-09-26T18:16:31.010000+00:00"
+    },
+    {
+      "id": "f8a0f3267bc16370",
+      "kind": "cve",
+      "cve": "CVE-2026-77203",
+      "title": "CVE-2026-77203",
+      "summary": "The Groups – Memberships and Access Control plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 4.6.0. This is due to the groups_join() function deriving group-join eligibility from the ambient p…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77203",
+      "published": "2026-09-26T18:16:29.917000+00:00"
+    },
     {
       "id": "9e8283d58f6a9d97",
       "kind": "cve",
@@ -3437,23 +3505,6 @@
       "published": "2026-09-22T17:03:31+00:00"
     },
     {
-      "id": "375f4910d184ba60",
-      "kind": "research",
-      "cve": null,
-      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-      "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw,…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-      "published": "2026-09-22T16:41:12+00:00"
-    },
-    {
       "id": "573f361a7e547265",
       "kind": "research",
       "cve": null,
@@ -4200,57 +4251,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild",
       "published": "2026-09-02T16:58:45+00:00"
-    },
-    {
-      "id": "cb43ba931b5630b1",
-      "kind": "cve",
-      "cve": "CVE-2026-59822",
-      "title": "BerriAI LiteLLM Improper Authentication Vulnerability",
-      "summary": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59822",
-      "published": "2026-09-02T00:00:00+00:00"
-    },
-    {
-      "id": "9a52668e8b7473f3",
-      "kind": "cve",
-      "cve": "CVE-2026-48710",
-      "title": "Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
-      "summary": "Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depe…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Kludex",
-      "product": "Starlette",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710",
-      "published": "2026-09-02T00:00:00+00:00"
-    },
-    {
-      "id": "bb7c173fdb2943c5",
-      "kind": "cve",
-      "cve": "CVE-2026-49869",
-      "title": "Kestra OSS OS Command Injection Vulnerability",
-      "summary": "Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Kestra",
-      "product": "Kestra OSS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49869",
-      "published": "2026-09-02T00:00:00+00:00"
     }
   ]
 }
