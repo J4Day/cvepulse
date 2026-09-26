@@ -1,7 +1,534 @@
 {
-  "generated": "2026-09-26T02:39:15.191597+00:00",
+  "generated": "2026-09-26T08:07:42.178735+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "613876e9ca19915e",
+      "kind": "cve",
+      "cve": "CVE-2026-18143",
+      "title": "CVE-2026-18143",
+      "summary": "The Request a Quote for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.9.2 via the `afrfq_submit_quote_via_popup()` function. This is due to missing file extension and MIME ty…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18143",
+      "published": "2026-09-26T07:17:02.017000+00:00"
+    },
+    {
+      "id": "df16f8aebed02184",
+      "kind": "cve",
+      "cve": "CVE-2026-100599",
+      "title": "CVE-2026-100599",
+      "summary": "OpenClaw versions 2026.5.1 through 2026.7.0 fail to apply the configured exec approval path to Google Meet node commands. The googlemeet.chrome command accepts caller-supplied audio command arrays and executes them on a paired node without…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100599",
+      "published": "2026-09-26T03:17:08.667000+00:00"
+    },
+    {
+      "id": "018c8371bce6464b",
+      "kind": "cve",
+      "cve": "CVE-2026-100598",
+      "title": "CVE-2026-100598",
+      "summary": "OpenClaw (npm package openclaw) before 2026.7.1 incorrectly binds Signal approval reactions. In affected versions, a reaction intended to resolve a structured approval request could instead attach to ordinary outbound text when unrelated ou…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100598",
+      "published": "2026-09-26T03:17:08.487000+00:00"
+    },
+    {
+      "id": "2ae73dcc502c6f58",
+      "kind": "cve",
+      "cve": "CVE-2026-100597",
+      "title": "CVE-2026-100597",
+      "summary": "OpenClaw (npm package 'openclaw') before 2026.7.1 is vulnerable to a time-of-check time-of-use race condition in OpenShell local mirror filesystem mutation operations. The remove, mkdir, and rename operations could act on a different filesy…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100597",
+      "published": "2026-09-26T03:17:08.337000+00:00"
+    },
+    {
+      "id": "14a1ebb398cbae0f",
+      "kind": "cve",
+      "cve": "CVE-2026-100596",
+      "title": "CVE-2026-100596",
+      "summary": "OpenClaw versions before 2026.7.1 fail to properly authorize non-owner users executing MCP configuration changes through /mcp set and /mcp unset commands. Attackers can persist arbitrary stdio MCP commands that execute with OpenClaw process…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100596",
+      "published": "2026-09-26T03:17:08.187000+00:00"
+    },
+    {
+      "id": "9edea9dcd79a9d94",
+      "kind": "cve",
+      "cve": "CVE-2026-100589",
+      "title": "CVE-2026-100589",
+      "summary": "OpenClaw versions before 2026.7.1 contain a sandbox bypass vulnerability in the browser tool that allows sandboxed sessions to access paired node browser actions despite allowHostControl=false configuration. Attackers with control over sand…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100589",
+      "published": "2026-09-26T03:17:07.110000+00:00"
+    },
+    {
+      "id": "5b76129e187efdad",
+      "kind": "cve",
+      "cve": "CVE-2026-100588",
+      "title": "CVE-2026-100588",
+      "summary": "OpenClaw (npm package 'openclaw') before 2026.7.1 does not enforce the administrator scope requirement on browser control when it is reached through the node.invoke method, although direct browser.request access requires administrator scope…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100588",
+      "published": "2026-09-26T03:17:06.963000+00:00"
+    },
+    {
+      "id": "f87b3fbc378ee86f",
+      "kind": "cve",
+      "cve": "CVE-2026-100587",
+      "title": "CVE-2026-100587",
+      "summary": "OpenClaw versions before 2026.7.1 fail to properly validate owner authorization in the Codex computer-use installation command. Non-owner channel senders can install arbitrary plugins and execute MCP processes with OpenClaw user privileges,…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100587",
+      "published": "2026-09-26T03:17:06.810000+00:00"
+    },
+    {
+      "id": "8ccfcb3929766e0b",
+      "kind": "cve",
+      "cve": "CVE-2026-100586",
+      "title": "CVE-2026-100586",
+      "summary": "OpenClaw Codex before 2026.7.1 fails to properly enforce owner authorization when creating native conversation bindings. Non-owner channel senders with command access can create bindings to the native Codex runtime and execute host-capable…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100586",
+      "published": "2026-09-26T03:17:06.660000+00:00"
+    },
+    {
+      "id": "1f15663883646b16",
+      "kind": "cve",
+      "cve": "CVE-2026-100585",
+      "title": "CVE-2026-100585",
+      "summary": "OpenClaw (npm package `openclaw`) before 2026.7.1 fails to enforce the owner-only authorization requirement for Claude Code permission prompts delivered through the MCP channel bridge. An authorized non-owner channel sender with channel com…",
+      "severity": "HIGH",
+      "score": 8.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100585",
+      "published": "2026-09-26T03:17:06.517000+00:00"
+    },
+    {
+      "id": "b61677bb15306abf",
+      "kind": "cve",
+      "cve": "CVE-2026-100580",
+      "title": "CVE-2026-100580",
+      "summary": "OpenClaw (npm package 'openclaw') before 2026.7.1 improperly handles case sensitivity in the model-facing cron tool: a mixed-case payload kind can pass the agent-facing shell-execution guard and later normalize into a command job. An actor…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100580",
+      "published": "2026-09-26T03:17:05.783000+00:00"
+    },
+    {
+      "id": "e4bc065d8f83c439",
+      "kind": "cve",
+      "cve": "CVE-2026-100579",
+      "title": "CVE-2026-100579",
+      "summary": "OpenClaw (npm package 'openclaw') before 2026.7.1 incorrectly trusts requester provenance in message.action. In identity-bearing Gateway deployments (authentication modes that honor caller identity and narrower operator scopes), a write-sco…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100579",
+      "published": "2026-09-26T03:17:05.633000+00:00"
+    },
+    {
+      "id": "f43c4a67ed55833b",
+      "kind": "cve",
+      "cve": "CVE-2026-100578",
+      "title": "CVE-2026-100578",
+      "summary": "OpenClaw (npm package `openclaw`) before 2026.7.1 fails to restrict owner-only infrastructure tools exposed through the chat.send endpoint. In Gateway deployments using authentication modes that honor caller identity and narrower operator s…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100578",
+      "published": "2026-09-26T03:17:05.483000+00:00"
+    },
+    {
+      "id": "2ce79b3d8ac72ba1",
+      "kind": "cve",
+      "cve": "CVE-2026-100575",
+      "title": "CVE-2026-100575",
+      "summary": "OpenClaw Slack versions before 2026.8.1 fail to properly enforce sender allowlists in multi-person direct messages. Disallowed participants can trigger Slack agents and access tools and data granted to those agents by bypassing configured s…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100575",
+      "published": "2026-09-26T03:17:05.030000+00:00"
+    },
+    {
+      "id": "32c0a19edeb7b5c2",
+      "kind": "cve",
+      "cve": "CVE-2026-100570",
+      "title": "CVE-2026-100570",
+      "summary": "OpenClaw (npm package 'openclaw') versions >= 2026.3.28 and < 2026.8.1 allow an untrusted workspace .env file to set the CLOUDSDK_PYTHON_ARGS environment variable. When an operator starts OpenClaw in attacker-controlled workspace content an…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100570",
+      "published": "2026-09-26T03:17:04.177000+00:00"
+    },
+    {
+      "id": "36e0ced2d06de3d4",
+      "kind": "cve",
+      "cve": "CVE-2026-100568",
+      "title": "CVE-2026-100568",
+      "summary": "OpenClaw versions before 2026.8.1 fail to properly restrict access to operator command cron jobs, allowing model-visible agent callers to read and execute ownerless command jobs. Attackers can inspect stored environment variables and force-…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100568",
+      "published": "2026-09-26T03:17:03.887000+00:00"
+    },
+    {
+      "id": "1c32173ccf6ca2c1",
+      "kind": "cve",
+      "cve": "CVE-2026-100567",
+      "title": "CVE-2026-100567",
+      "summary": "OpenClaw is an agent gateway distributed as the npm package 'openclaw'. In versions >= 2026.4.5 and < 2026.8.1, the Gateway validated a single DNS resolution result for a configured remote Chrome DevTools Protocol (CDP) hostname, but the ra…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100567",
+      "published": "2026-09-26T03:17:03.737000+00:00"
+    },
+    {
+      "id": "78bb451aa2dac728",
+      "kind": "cve",
+      "cve": "CVE-2026-100561",
+      "title": "CVE-2026-100561",
+      "summary": "OpenClaw (npm package 'openclaw') versions >= 2026.3.22 and < 2026.8.1 contain an approval-bypass flaw in the exec approval policy: the policy could trust a command-running wrapper without inspecting the command carried in its arguments. Af…",
+      "severity": "HIGH",
+      "score": 8.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100561",
+      "published": "2026-09-26T03:17:02.987000+00:00"
+    },
+    {
+      "id": "73e32f8ee27407f6",
+      "kind": "cve",
+      "cve": "CVE-2026-100560",
+      "title": "CVE-2026-100560",
+      "summary": "OpenClaw versions before 2026.8.1 contain an authorization bypass vulnerability where Allow Always approvals for exact commands persist as path-only grants on macOS and Linux. Attackers can reuse the same executable with different arguments…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100560",
+      "published": "2026-09-26T03:17:02.833000+00:00"
+    },
+    {
+      "id": "52216cda86f1baba",
+      "kind": "cve",
+      "cve": "CVE-2026-100559",
+      "title": "CVE-2026-100559",
+      "summary": "OpenClaw versions before 2026.8.1 contain a command parser vulnerability where escaped newlines confuse exec allowlist parsing, allowing hidden commands to execute. Attackers can craft input with escaped newlines to bypass allowlist validat…",
+      "severity": "HIGH",
+      "score": 8.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100559",
+      "published": "2026-09-26T03:17:02.680000+00:00"
+    },
+    {
+      "id": "d0fa1c80a93666bd",
+      "kind": "cve",
+      "cve": "CVE-2026-100558",
+      "title": "CVE-2026-100558",
+      "summary": "OpenClaw versions before 2026.8.1 contain a resource exhaustion vulnerability in the Gateway listener that allows unauthenticated clients to retain response sockets by sending WebSocket upgrade requests without matching connection semantics…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100558",
+      "published": "2026-09-26T03:17:02.533000+00:00"
+    },
+    {
+      "id": "d11c091ed1a2aa7a",
+      "kind": "cve",
+      "cve": "CVE-2026-100557",
+      "title": "CVE-2026-100557",
+      "summary": "OpenClaw versions before 2026.8.1 contain an authorization bypass vulnerability in skill tool dispatch that fails to carry the sender's owner status. Non-owner senders authorized to invoke skill commands can access owner-only tools and serv…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100557",
+      "published": "2026-09-26T03:17:02.387000+00:00"
+    },
+    {
+      "id": "31250f3d0a24fb3e",
+      "kind": "cve",
+      "cve": "CVE-2026-100555",
+      "title": "CVE-2026-100555",
+      "summary": "OpenClaw is an npm-distributed gateway application. In versions >= 2026.7.1 and < 2026.8.1, Synology Chat attachment delivery could lose DNS pinning: the Gateway validated a single DNS result for a supplied file URL but then passed the orig…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100555",
+      "published": "2026-09-26T03:17:02.087000+00:00"
+    },
+    {
+      "id": "c5e0b9b6bb784748",
+      "kind": "cve",
+      "cve": "CVE-2026-100552",
+      "title": "CVE-2026-100552",
+      "summary": "OpenClaw (npm package 'openclaw') before 2026.8.1 does not correctly enforce per-chat tool policies for Codex app-server runtime tools. A conversation-level tools.allow rule filtered OpenClaw tools but did not restrict the shell, process, f…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100552",
+      "published": "2026-09-26T03:17:01.640000+00:00"
+    },
+    {
+      "id": "1b3b0789e77f503f",
+      "kind": "cve",
+      "cve": "CVE-2026-100551",
+      "title": "CVE-2026-100551",
+      "summary": "OpenClaw for iOS versions >= 2026.7.1 and < 2026.8.11 do not enforce saved Gateway TLS pins in the Control UI. While native connections enforced the saved Gateway fingerprint, the authenticated Terminal and session Dashboard WebViews omitte…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100551",
+      "published": "2026-09-26T03:17:01.487000+00:00"
+    },
+    {
+      "id": "e880f481fba4d561",
+      "kind": "cve",
+      "cve": "CVE-2026-100544",
+      "title": "CVE-2026-100544",
+      "summary": "openclaw's @openclaw/voice-call package before 2026.8.1 launches the configured agent for classic inbound voice calls without propagating the caller's identity or non-owner status. As a result, owner-only tool filtering can fail open and ex…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100544",
+      "published": "2026-09-26T03:17:00.440000+00:00"
+    },
+    {
+      "id": "c699fadad9055adc",
+      "kind": "cve",
+      "cve": "CVE-2026-100543",
+      "title": "CVE-2026-100543",
+      "summary": "OpenClaw (npm package openclaw) before 2026.8.1 could include deterministic hashes computed over the original, unredacted configuration in redacted configuration responses. When the Gateway password had low entropy and the remaining configu…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100543",
+      "published": "2026-09-26T03:17:00.287000+00:00"
+    },
+    {
+      "id": "9180dd31a8b9b0ed",
+      "kind": "cve",
+      "cve": "CVE-2026-100541",
+      "title": "CVE-2026-100541",
+      "summary": "OpenClaw's Matrix integration (npm package @openclaw/matrix) versions >= 2026.2.2 and < 2026.8.1 lowercase complete Matrix user IDs — including historical localparts and the case-sensitive server-name portion — when deriving the OpenClaw au…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100541",
+      "published": "2026-09-26T03:16:59.987000+00:00"
+    },
+    {
+      "id": "964b78c5853d782f",
+      "kind": "cve",
+      "cve": "CVE-2026-100535",
+      "title": "CVE-2026-100535",
+      "summary": "OpenClaw (npm package 'openclaw') versions >= 2026.4.5 and < 2026.8.1 can lose the originating requester's restrictions and untrusted provenance when session-derived text is persisted to session memory. In deployments where session-memory c…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100535",
+      "published": "2026-09-26T03:16:59.103000+00:00"
+    },
+    {
+      "id": "8564ff632f180dd1",
+      "kind": "cve",
+      "cve": "CVE-2026-100532",
+      "title": "CVE-2026-100532",
+      "summary": "@openclaw/whatsapp (npm) before 2026.8.1 exposes the WhatsApp login tool through the generic channel-tool path without preserving the originating sender's owner status, so the owner-only tool boundary is not enforced. An admitted non-owner…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100532",
+      "published": "2026-09-26T03:16:58.660000+00:00"
+    },
+    {
+      "id": "9755ca0703435d5b",
+      "kind": "cve",
+      "cve": "CVE-2026-100530",
+      "title": "CVE-2026-100530",
+      "summary": "OpenClaw versions before 2026.8.1 fail to bind working directory context to reusable exec approvals, allowing approved commands to execute in different directories. Attackers with an allow-always approval can reuse it to run the same comman…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100530",
+      "published": "2026-09-26T03:16:58.367000+00:00"
+    },
     {
       "id": "68d5a54efe122210",
       "kind": "cve",
@@ -326,40 +853,6 @@
       "published": "2026-09-25T15:17:56.943000+00:00"
     },
     {
-      "id": "1ba279212d606b46",
-      "kind": "cve",
-      "cve": "CVE-2026-84882",
-      "title": "CVE-2026-84882",
-      "summary": "IBM Guardium Data Protection 12.2 is vulnerable to path traversal in the Universal Connector Oracle Wallet upload component. An authenticated remote attacker could exploit this vulnerability to write arbitrary files to the system.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84882",
-      "published": "2026-09-25T15:17:56.273000+00:00"
-    },
-    {
-      "id": "b2489e7450c935ab",
-      "kind": "cve",
-      "cve": "CVE-2026-84862",
-      "title": "CVE-2026-84862",
-      "summary": "IBM Guardium Data Protection 12.2 is vulnerable to insecure deserialization in the Quartz JDBC job store. An authenticated attacker could exploit this vulnerability to execute arbitrary code on the affected system.",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84862",
-      "published": "2026-09-25T15:17:56.110000+00:00"
-    },
-    {
       "id": "dbcb67608f9d2a11",
       "kind": "research",
       "cve": null,
@@ -426,57 +919,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93834",
       "published": "2026-09-25T14:17:24.063000+00:00"
-    },
-    {
-      "id": "a808958b669164ac",
-      "kind": "cve",
-      "cve": "CVE-2026-85542",
-      "title": "CVE-2026-85542",
-      "summary": "IBM Guardium Data Protection 12.2 is affected by a command injection vulnerability in the GIM bundle import functionality. An authenticated attacker can provide a crafted GIM bundle that causes attacker-controlled arguments to be passed to…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85542",
-      "published": "2026-09-25T14:17:20.193000+00:00"
-    },
-    {
-      "id": "03b4db1b033a5c00",
-      "kind": "cve",
-      "cve": "CVE-2026-85029",
-      "title": "CVE-2026-85029",
-      "summary": "IBM Guardium Data Protection 12.2 could allow a remote attacker to obtain sensitive information, delete arbitrary files, or execute arbitrary code due to improper limitation of a pathname to a restricted directory.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85029",
-      "published": "2026-09-25T14:17:20.050000+00:00"
-    },
-    {
-      "id": "4a42639854110538",
-      "kind": "cve",
-      "cve": "CVE-2026-84884",
-      "title": "CVE-2026-84884",
-      "summary": "IBM Guardium Data Protection 12.2 stores internal REST service-account passwords in a reversible plaintext-equivalent format. An authenticated attacker who gains access to the stored credential could recover the password and obtain an admin…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84884",
-      "published": "2026-09-25T14:17:19.770000+00:00"
     },
     {
       "id": "221b77e289a2ab9a",
@@ -3812,452 +4254,6 @@
       "product": "KNX Protocol Connection Authorization Option 1",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346",
       "published": "2026-07-15T00:00:00+00:00"
-    },
-    {
-      "id": "a00956a19dff3095",
-      "kind": "cve",
-      "cve": "CVE-2026-56155",
-      "title": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
-      "summary": "Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Active Directory Federation Services",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56155",
-      "published": "2026-07-14T00:00:00+00:00"
-    },
-    {
-      "id": "994f25b3dc3286e3",
-      "kind": "cve",
-      "cve": "CVE-2026-56164",
-      "title": "Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability",
-      "summary": "Microsoft SharePoint contains a missing authentication for critical function vulnerability that allows an unauthorized attacker to elevate privileges over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56164",
-      "published": "2026-07-14T00:00:00+00:00"
-    },
-    {
-      "id": "33d0dca221b2c14a",
-      "kind": "cve",
-      "cve": "CVE-2026-15409",
-      "title": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
-      "summary": "SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended location.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "SonicWall",
-      "product": "SMA1000 Appliances",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409",
-      "published": "2026-07-14T00:00:00+00:00"
-    },
-    {
-      "id": "819d67875b653a38",
-      "kind": "cve",
-      "cve": "CVE-2026-15410",
-      "title": "SonicWall SMA1000 Appliances Code Injection Vulnerability",
-      "summary": "SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "SonicWall",
-      "product": "SMA1000 Appliances",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410",
-      "published": "2026-07-14T00:00:00+00:00"
-    },
-    {
-      "id": "a1c2e3b8921d2735",
-      "kind": "research",
-      "cve": null,
-      "title": "Community Spotlight: Rishi (@rxerium)",
-      "summary": "“Open source isn’t about perfection; it’s about putting an idea forward and improving it together as a community.” Rishi (@rxerium) If you’ve spent any time in the Nuclei Templates repository, you’ve almost certainly run something Rishi eng…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/community-spotlight-rishi-rxerium",
-      "published": "2026-07-13T06:12:18+00:00"
-    },
-    {
-      "id": "064355d993297ad4",
-      "kind": "cve",
-      "cve": "CVE-2008-4128",
-      "title": "Cisco IOS Cross-Site Request Forgery Vulnerability",
-      "summary": "Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, and (2) a certain \"alias exec\" command to…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "IOS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128",
-      "published": "2026-07-13T00:00:00+00:00"
-    },
-    {
-      "id": "8149a00ee74f082e",
-      "kind": "cve",
-      "cve": "CVE-2026-56291",
-      "title": "Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "summary": "Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to full RCE.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Balbooa",
-      "product": "Forms",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56291",
-      "published": "2026-07-10T00:00:00+00:00"
-    },
-    {
-      "id": "d57560d4b570014d",
-      "kind": "cve",
-      "cve": "CVE-2026-48939",
-      "title": "iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "summary": "iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "iCagenda",
-      "product": "iCagenda",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48939",
-      "published": "2026-07-10T00:00:00+00:00"
-    },
-    {
-      "id": "545d56cad8908ebf",
-      "kind": "cve",
-      "cve": "CVE-2026-48908",
-      "title": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "summary": "JoomShaper SP Page Builder contains an unrestricted upload of file with dangerous type vulnerability that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and execution of PHP code.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "JoomShaper",
-      "product": "SP Page Builder",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48908",
-      "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "f6ca726433d5ffcf",
-      "kind": "cve",
-      "cve": "CVE-2026-55255",
-      "title": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
-      "summary": "Langflow contains an authorization bypass through user-controlled key vulnerability which allows an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow ID in the request.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55255",
-      "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "3140056303388282",
-      "kind": "cve",
-      "cve": "CVE-2026-56290",
-      "title": "Joomlack Page Builder Improper Access Control Vulnerability",
-      "summary": "Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Joomlack",
-      "product": "Page Builder",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56290",
-      "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "d950a00daa6d3c03",
-      "kind": "cve",
-      "cve": "CVE-2026-48282",
-      "title": "Adobe ColdFusion Path Traversal Vulnerability",
-      "summary": "Adobe ColdFusion contains a path traversal vulnerability that could lead to arbitrary code execution in the context of the current user.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "ColdFusion",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282",
-      "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "67114ad22bf7c88c",
-      "kind": "research",
-      "cve": null,
-      "title": "It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)",
-      "summary": "We&#x2019;re back, melting - we&#x2019;ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not men…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/",
-      "published": "2026-07-02T16:38:28+00:00"
-    },
-    {
-      "id": "093432cd2e7000cd",
-      "kind": "cve",
-      "cve": "CVE-2026-45659",
-      "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45659",
-      "published": "2026-07-01T00:00:00+00:00"
-    },
-    {
-      "id": "b577802c68fd64b5",
-      "kind": "research",
-      "cve": "CVE-2026-8451",
-      "title": "CitrixBleed To Infinity And Beyond (Citrix NetScaler Pre-Auth Memory Overread CVE-2026-8451)",
-      "summary": "Well, well, well - once again, the cat has dragged us in and spat us out. Today, we find ourselves questioning the reality we sit within. Must it be so predictable, and why us? &#x201c;But watchTowr, what do you mean?&#x201d; Well, if you&#…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/citrixbleed-to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451/",
-      "published": "2026-06-30T19:35:58+00:00"
-    },
-    {
-      "id": "4cb02bd8a6c62d99",
-      "kind": "research",
-      "cve": "CVE-2026-8037",
-      "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037)",
-      "summary": "Welcome back to another watchTowr Labs blog post. This time, we&apos;re looking at Progress Kemp LoadMaster, a load balancer that sits at the edge of a lot of enterprise networks. Edge appliances have a habit of becoming the way in rather t…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
-      "published": "2026-06-29T19:24:54+00:00"
-    },
-    {
-      "id": "6025526b87d6e5ed",
-      "kind": "cve",
-      "cve": "CVE-2026-48558",
-      "title": "SimpleHelp Authentication Bypass Vulnerability",
-      "summary": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vu…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "SimpleHelp ",
-      "product": "SimpleHelp",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48558",
-      "published": "2026-06-29T00:00:00+00:00"
-    },
-    {
-      "id": "7202501c151746ab",
-      "kind": "cve",
-      "cve": "CVE-2026-12569",
-      "title": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
-      "summary": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "PTC",
-      "product": "Windchill and FlexPLM",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12569",
-      "published": "2026-06-25T00:00:00+00:00"
-    },
-    {
-      "id": "6f3b367dd113d15d",
-      "kind": "cve",
-      "cve": "CVE-2026-20230",
-      "title": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
-      "summary": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote at…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Unified Communications Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230",
-      "published": "2026-06-25T00:00:00+00:00"
-    },
-    {
-      "id": "52d57a1d99dd0898",
-      "kind": "cve",
-      "cve": "CVE-2025-67038",
-      "title": "Lantronix EDS5000 Code Injection Vulnerability",
-      "summary": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Lantronix",
-      "product": "EDS5000",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "7a710b361560f51e",
-      "kind": "cve",
-      "cve": "CVE-2026-34910",
-      "title": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "c9c1f14b593f0bd4",
-      "kind": "cve",
-      "cve": "CVE-2026-34909",
-      "title": "Ubiquiti UniFi OS Path Traversal Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "fb5f7f2cc98f88e2",
-      "kind": "cve",
-      "cve": "CVE-2026-34908",
-      "title": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "10d87533a665bcff",
-      "kind": "research",
-      "cve": null,
-      "title": "The Vulnerability Curve Bent With the AI Curve",
-      "summary": "How CVE volume, known-exploited counts and time-to-exploit all changed shape across the LLM build-out and why defenders are now on the wrong side of the clock. In 2018 the world published about 18,000 CVEs and the average vulnerability took…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/the-vulnerability-curve-bent-with-the-ai-curve",
-      "published": "2026-06-18T18:32:03+00:00"
-    },
-    {
-      "id": "6ca5e32e51193a41",
-      "kind": "cve",
-      "cve": "CVE-2026-20253",
-      "title": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
-      "summary": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Splunk",
-      "product": "Enterprise",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20253",
-      "published": "2026-06-18T00:00:00+00:00"
-    },
-    {
-      "id": "8cdd5f1335e50bd1",
-      "kind": "cve",
-      "cve": "CVE-2026-48907",
-      "title": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
-      "summary": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Widget Factory",
-      "product": "Joomla Content Editor ",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48907",
-      "published": "2026-06-16T00:00:00+00:00"
     }
   ]
 }
