@@ -1,7 +1,109 @@
 {
-  "generated": "2026-09-27T14:25:21.506572+00:00",
+  "generated": "2026-09-27T18:46:32.763453+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "78ff1cc822701aec",
+      "kind": "cve",
+      "cve": "CVE-2026-101060",
+      "title": "CVE-2026-101060",
+      "summary": "python-utcp versions before 1.1.4 contain a server-side request forgery vulnerability in HttpCommunicationProtocol.call_tool that validates the initial tool URL but follows HTTP redirects without re-validating the target. Attackers controll…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101060",
+      "published": "2026-09-27T18:16:32.273000+00:00"
+    },
+    {
+      "id": "76fc1a7bcc3a8539",
+      "kind": "cve",
+      "cve": "CVE-2026-101059",
+      "title": "CVE-2026-101059",
+      "summary": "utcp-http before 1.1.4 fails to validate the OAuth2 tokenUrl field from remote OpenAPI specifications, allowing attackers to redirect credential submission to arbitrary endpoints. When a victim registers an attacker-controlled OpenAPI spec…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101059",
+      "published": "2026-09-27T18:16:32.130000+00:00"
+    },
+    {
+      "id": "3ca9713798cebc13",
+      "kind": "cve",
+      "cve": "CVE-2026-101045",
+      "title": "CVE-2026-101045",
+      "summary": "Fleet-maintained app install and uninstall scripts for macOS are generated from Homebrew cask metadata. In manifests generated before 2026-08-19, the script generator escaped this metadata at some interpolation sites but not all of them, so…",
+      "severity": "HIGH",
+      "score": 8.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101045",
+      "published": "2026-09-27T18:16:30.897000+00:00"
+    },
+    {
+      "id": "e340c3fef4c88d62",
+      "kind": "cve",
+      "cve": "CVE-2026-101044",
+      "title": "CVE-2026-101044",
+      "summary": "pacquet, the Rust package-manager component shipped in the pnpm npm package versions >=12.0.0-alpha.0 and <12.0.0-alpha.5, does not validate dependency alias/name paths taken from a lockfile before using them in install-time filesystem join…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101044",
+      "published": "2026-09-27T18:16:30.753000+00:00"
+    },
+    {
+      "id": "ff66acff7d880c22",
+      "kind": "cve",
+      "cve": "CVE-2026-101043",
+      "title": "CVE-2026-101043",
+      "summary": "pnpm versions 11.0.0 before 11.11.0 and 10.7.0 before 10.34.5 expand ${VAR} environment-variable placeholders in the httpProxy, httpsProxy, and noProxy settings read from a project's pnpm-workspace.yaml. Because the manifest is repository-c…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101043",
+      "published": "2026-09-27T18:16:29.700000+00:00"
+    },
+    {
+      "id": "584c126ee73ca25b",
+      "kind": "research",
+      "cve": null,
+      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+      "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs. &#xd;",
+      "severity": "",
+      "score": null,
+      "source": "SANS ISC",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://isc.sans.edu/diary/rss/33372",
+      "published": "2026-09-27T15:04:49+00:00"
+    },
     {
       "id": "0fc253b0c7474b64",
       "kind": "cve",
@@ -75,7 +177,7 @@
       "kind": "research",
       "cve": null,
       "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-      "summary": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr said on September 26. Citrix has not conf…",
+      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for both, along with six other flaws. One of th…",
       "severity": "",
       "score": null,
       "source": "The Hacker News",
@@ -103,23 +205,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100746",
       "published": "2026-09-27T04:16:34.570000+00:00"
-    },
-    {
-      "id": "2372ee8ec6b2709a",
-      "kind": "cve",
-      "cve": "CVE-2026-100865",
-      "title": "CVE-2026-100865",
-      "summary": "Heym before 0.0.53 contains multiple independent vulnerabilities. (1) The workflow condition evaluator uses Python eval() without an effective sandbox, allowing any user who can edit a workflow branch/condition node — or who can import a wo…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100865",
-      "published": "2026-09-27T02:17:26.410000+00:00"
     },
     {
       "id": "cac19d83b44539db",
@@ -171,23 +256,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100856",
       "published": "2026-09-27T02:17:25.050000+00:00"
-    },
-    {
-      "id": "ac3bdf41ff7668a4",
-      "kind": "cve",
-      "cve": "CVE-2026-100852",
-      "title": "CVE-2026-100852",
-      "summary": "AzuraCast through 0.23.x contains a command injection vulnerability in the Liquidsoap config generation for live recording that fails to quote the streamer username in process.run calls. Authenticated station users with Streamers and Profil…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100852",
-      "published": "2026-09-27T02:17:24.437000+00:00"
     },
     {
       "id": "24ab1542d4279b8f",
@@ -358,23 +426,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100842",
       "published": "2026-09-27T02:17:22.693000+00:00"
-    },
-    {
-      "id": "86eae3ea7d7177ac",
-      "kind": "cve",
-      "cve": "CVE-2026-100841",
-      "title": "CVE-2026-100841",
-      "summary": "In MONAI 1.6.0, PersistentDataset (monai/data/dataset.py) explicitly rejects the combination track_meta=True with weights_only=True, forcing users who cache MetaTensors (the default tensor type in MONAI >= 1.0) to run torch.load(hashfile, w…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100841",
-      "published": "2026-09-27T02:17:22.543000+00:00"
     },
     {
       "id": "7c5f05e3621ca6e1",
@@ -972,40 +1023,6 @@
       "published": "2026-09-26T14:16:51.577000+00:00"
     },
     {
-      "id": "1e23caa48ac04d17",
-      "kind": "cve",
-      "cve": "CVE-2026-100673",
-      "title": "CVE-2026-100673",
-      "summary": "The Grav Data Manager plugin (getgrav/grav-plugin-datamanager) versions 1.0.1 through 1.4.4 render stored data entries in the item-detail view (admin/templates/partials/item.html.twig) without escaping, applying Twig's `raw` filter — in som…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100673",
-      "published": "2026-09-26T14:16:51.133000+00:00"
-    },
-    {
-      "id": "a48df3ed71144331",
-      "kind": "cve",
-      "cve": "CVE-2026-100672",
-      "title": "CVE-2026-100672",
-      "summary": "The Comments plugin (getgrav/grav-plugin-comments) for Grav CMS through version 1.2.10 registers an admin handler that returns comment data as JSON without any authentication check. The handler branches on isAdmin(), which only indicates th…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100672",
-      "published": "2026-09-26T14:16:50.970000+00:00"
-    },
-    {
       "id": "e5fe9b982411c63e",
       "kind": "cve",
       "cve": "CVE-2026-100671",
@@ -1055,176 +1072,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100669",
       "published": "2026-09-26T14:16:50.427000+00:00"
-    },
-    {
-      "id": "0724ce33d3b26bb3",
-      "kind": "cve",
-      "cve": "CVE-2026-100666",
-      "title": "CVE-2026-100666",
-      "summary": "Netty's HttpServerCodec (io.netty:netty-codec-http) in versions 4.2.0.Final through 4.2.16.Final and in versions up to and including 4.1.136.Final pairs each outbound response with an inbound request by calling pollMethod() once per respons…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100666",
-      "published": "2026-09-26T14:16:49.830000+00:00"
-    },
-    {
-      "id": "c3f33f28f79702e3",
-      "kind": "cve",
-      "cve": "CVE-2026-100665",
-      "title": "CVE-2026-100665",
-      "summary": "Netty versions from 4.2.11.Final before 4.2.18.Final contain an incomplete hostname verification fix in the QUIC certificate verification path when using a plain X509TrustManager. The BoringSSLCertificateVerifyCallback discards the SSLEngin…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100665",
-      "published": "2026-09-26T14:16:49.677000+00:00"
-    },
-    {
-      "id": "1094d420c8281cfc",
-      "kind": "cve",
-      "cve": "CVE-2026-100664",
-      "title": "CVE-2026-100664",
-      "summary": "Netty's HTTP/3 codec (io.netty:netty-codec-http3) versions 4.2.2.Final through 4.2.17.Final builds the HTTP/3 :authority pseudo-header from the HTTP/1 Host header before considering the authority of an absolute-form HTTP/1 request-target. I…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100664",
-      "published": "2026-09-26T14:16:49.540000+00:00"
-    },
-    {
-      "id": "f6979cf510ccd91f",
-      "kind": "cve",
-      "cve": "CVE-2026-100663",
-      "title": "CVE-2026-100663",
-      "summary": "Netty's HTTP/3 codec (io.netty:netty-codec-http3) from 4.2.2.Final through 4.2.17.Final does not special-case HTTP/1 CONNECT authority-form request-targets when converting HTTP/1 messages to HTTP/3 in HttpConversionUtil.toHttp3Headers. The…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100663",
-      "published": "2026-09-26T14:16:49.400000+00:00"
-    },
-    {
-      "id": "bef56ca0c34fffde",
-      "kind": "cve",
-      "cve": "CVE-2026-100662",
-      "title": "CVE-2026-100662",
-      "summary": "Netty's HTTP/3 codec (io.netty:netty-codec-http3) versions 4.2.0.Final through 4.2.17.Final contain an uncontrolled resource consumption vulnerability in the QPACK encoder-stream instruction decoder (QpackEncoderHandler, installed on the pe…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100662",
-      "published": "2026-09-26T14:16:49.257000+00:00"
-    },
-    {
-      "id": "706799beb415fee2",
-      "kind": "cve",
-      "cve": "CVE-2026-100661",
-      "title": "CVE-2026-100661",
-      "summary": "Netty's HTTP/3 codec (io.netty:netty-codec-http3) versions 4.2.0.Final through 4.2.17.Final contain a denial-of-service vulnerability in the QPACK prefixed-integer decoder (QpackUtil.decodePrefixedInteger), which does not bound the number o…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100661",
-      "published": "2026-09-26T14:16:49.110000+00:00"
-    },
-    {
-      "id": "7af4095368b4bfd2",
-      "kind": "cve",
-      "cve": "CVE-2026-100660",
-      "title": "CVE-2026-100660",
-      "summary": "Netty's HTTP/3 codec (io.netty:netty-codec-http3) from 4.2.0.Final through 4.2.17.Final retains unbounded per-stream QPACK encoder state. QpackEncoder stores a queue and a dynamic-table index tracker for every encoded field section that ref…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100660",
-      "published": "2026-09-26T14:16:48.970000+00:00"
-    },
-    {
-      "id": "c9b3a29f445f7b78",
-      "kind": "cve",
-      "cve": "CVE-2026-100657",
-      "title": "CVE-2026-100657",
-      "summary": "Netty's STOMP codec (io.netty:netty-codec-stomp) contains a ByteBuf leak in StompSubframeDecoder. Once a frame's declared content-length has been fully read, the decoder allocates a chunk buffer from the channel allocator and parks it in an…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100657",
-      "published": "2026-09-26T14:16:48.540000+00:00"
-    },
-    {
-      "id": "9cb4769e51a5241e",
-      "kind": "cve",
-      "cve": "CVE-2026-100656",
-      "title": "CVE-2026-100656",
-      "summary": "Netty (io.netty:netty-codec-http) contains an unbounded per-connection queue growth flaw in HttpServerCodec. The codec tracks the HTTP method of each still-unanswered pipelined request; the first 32 entries are bit-packed into a single long…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100656",
-      "published": "2026-09-26T14:16:48.390000+00:00"
-    },
-    {
-      "id": "bb2d7ab6c94ce657",
-      "kind": "cve",
-      "cve": "CVE-2026-100655",
-      "title": "CVE-2026-100655",
-      "summary": "Netty (io.netty:netty-codec-http) versions up to and including 4.1.137.Final and from 4.2.0.Final through 4.2.17.Final accept an unlimited number of concurrent remote-initiated SPDY streams: SpdySessionHandler defaults localConcurrentStream…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100655",
-      "published": "2026-09-26T14:16:48.243000+00:00"
     },
     {
       "id": "19e60769699d14bc",
@@ -3760,23 +3607,6 @@
       "published": "2026-09-22T00:00:00+00:00"
     },
     {
-      "id": "24ce00a915220f78",
-      "kind": "research",
-      "cve": null,
-      "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
-      "summary": "Microsoft Security Research published an interesting blog post \" TerminalFix campaign deploys a reverse tunnel through multistage intrusion \" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the th…",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33318",
-      "published": "2026-09-21T10:33:53+00:00"
-    },
-    {
       "id": "3a7b569916d74508",
       "kind": "research",
       "cve": "CVE-2026-66804",
@@ -4251,6 +4081,176 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/em-patch-tuesday-september-2026",
       "published": "2026-09-08T21:44:04+00:00"
+    },
+    {
+      "id": "0375211d6d6ffe97",
+      "kind": "research",
+      "cve": "CVE-2026-86206",
+      "title": "CVE-2026-86206, CVE-2026-86207: N-able N-central Authentication Bypass (FIXED)",
+      "summary": "Overview While conducting research into a recent N-able N-central authentication bypass vulnerability ( CVE-2026-18577 ), Rapid7 Labs discovered two new vulnerabilities affecting the latest version of N-central. When chained together, these…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/ve-cve-2026-86206-cve-2026-86207-n-able-n-central-authentication-bypass-fixed",
+      "published": "2026-09-08T11:01:27+00:00"
+    },
+    {
+      "id": "0f625bcdfa97d280",
+      "kind": "research",
+      "cve": null,
+      "title": "Testing race conditions with memory access tracing and stack-based delay injection",
+      "summary": "Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discove…",
+      "severity": "",
+      "score": null,
+      "source": "Project Zero",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectzero.google/2026/09/maccconc-race-condition.html",
+      "published": "2026-09-08T07:00:00+00:00"
+    },
+    {
+      "id": "8dd854de21bd3332",
+      "kind": "cve",
+      "cve": "CVE-2026-75650",
+      "title": "Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
+      "summary": "Adobe Commerce and Magento Open Source contain an improper neutralization of special elements used in a template engine vulnerability that could allow an attacker to execute arbitrary code.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Adobe",
+      "product": "Commerce and Magento",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650",
+      "published": "2026-09-08T00:00:00+00:00"
+    },
+    {
+      "id": "e0c8ac8ac2c4cb86",
+      "kind": "cve",
+      "cve": "CVE-2026-81963",
+      "title": "Microsoft Windows Link Following Vulnerability",
+      "summary": "Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
+      "published": "2026-09-08T00:00:00+00:00"
+    },
+    {
+      "id": "af47007e6e0f65cf",
+      "kind": "cve",
+      "cve": "CVE-2026-86218",
+      "title": "N-able N-central Static Code Injection Vulnerability",
+      "summary": "N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "N-able",
+      "product": "N-central",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
+      "published": "2026-09-08T00:00:00+00:00"
+    },
+    {
+      "id": "b9b3a58fe995103d",
+      "kind": "cve",
+      "cve": "CVE-2026-85880",
+      "title": "Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
+      "summary": "Microsoft Windows Advanced Local Procedure Call contains a heap-based buffer overflow vulnerability that allows an attacker to elevate privileges locally.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
+      "published": "2026-09-08T00:00:00+00:00"
+    },
+    {
+      "id": "ba1e0af3fb415475",
+      "kind": "research",
+      "cve": null,
+      "title": "DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors",
+      "summary": "Overview A new Linux toolkit, identified by Rapid7 Labs, has been targeting organizations across South Korea’s automotive and media industries with minimal detection. The campaign made use of a HAProxy instance named “ted backdoor”, alongsi…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors",
+      "published": "2026-09-04T12:00:00+00:00"
+    },
+    {
+      "id": "997e5439d6cb051e",
+      "kind": "cve",
+      "cve": "CVE-2026-85046",
+      "title": "Google Chromium V8 Type Confusion Vulnerability",
+      "summary": "Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, incl…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Google",
+      "product": "Chromium V8",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
+      "published": "2026-09-04T00:00:00+00:00"
+    },
+    {
+      "id": "a4323813a3bc72b1",
+      "kind": "research",
+      "cve": "CVE-2026-83548",
+      "title": "Critical SonicWall SMA1000 Vulnerabilities CVE-2026-83548, CVE-2026-83549 Exploited in the Wild",
+      "summary": "Overview On September 1, 2026, SonicWall disclosed two vulnerabilities affecting SonicWall SMA1000 appliances that the vendor says are being actively exploited in the wild. The vulnerabilities, CVE-2026-83548 and CVE-2026-83549 , can be cha…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild",
+      "published": "2026-09-02T16:58:45+00:00"
+    },
+    {
+      "id": "cb43ba931b5630b1",
+      "kind": "cve",
+      "cve": "CVE-2026-59822",
+      "title": "BerriAI LiteLLM Improper Authentication Vulnerability",
+      "summary": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59822",
+      "published": "2026-09-02T00:00:00+00:00"
     }
   ]
 }
