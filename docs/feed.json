@@ -1,7 +1,75 @@
 {
-  "generated": "2026-09-29T06:25:06.663024+00:00",
+  "generated": "2026-09-29T13:33:48.020197+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "eefc3c7ca9157917",
+      "kind": "research",
+      "cve": null,
+      "title": "Scans for Wordfence Protected Websites, (Tue, Sep 29th)",
+      "summary": "Starting yesterday, our sensors picked up a small number of scans for \"wordfence-waf.php\". This particular script is used by Wordfence, a solution to protect WordPress sites. During the Wordfence install, the wordpress-waf.php file will be…",
+      "severity": "",
+      "score": null,
+      "source": "SANS ISC",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://isc.sans.edu/diary/rss/33382",
+      "published": "2026-09-29T13:29:33+00:00"
+    },
+    {
+      "id": "72c621d50a3bad9e",
+      "kind": "cve",
+      "cve": "CVE-2026-95520",
+      "title": "CVE-2026-95520",
+      "summary": "A heap-based buffer overflow flaw was found in rpm. Parsing a symlink entry in an untrusted RPM package whose declared RPMTAG_LONGFILESIZES value is 0xFFFFFFFFFFFFFFFF causes an integer overflow in iterReadArchiveNext() that shrinks a buffe…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95520",
+      "published": "2026-09-29T12:17:12.650000+00:00"
+    },
+    {
+      "id": "05cd93a89b5271a9",
+      "kind": "cve",
+      "cve": "CVE-2026-87748",
+      "title": "CVE-2026-87748",
+      "summary": "Missing Authorization vulnerability in Interprobe Information Technologies Inc. Qorela DC allows Privilege Abuse. This issue affects Qorela DC: from 1.6.1-RC29 before v1.6.2.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87748",
+      "published": "2026-09-29T12:17:12.527000+00:00"
+    },
+    {
+      "id": "27299aaf20418184",
+      "kind": "research",
+      "cve": null,
+      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+      "summary": "Dutch authorities have confirmed that they arrested a 24-year-old man from Amsterdam in connection with the ShinyHunters group. \"It is true that this month a 24-year-old man from Amsterdam was arrested in an investigation into the hacker gr…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+      "published": "2026-09-29T08:35:10+00:00"
+    },
     {
       "id": "bdc53a13355c8625",
       "kind": "cve",
@@ -20,21 +88,55 @@
       "published": "2026-09-29T06:16:58.543000+00:00"
     },
     {
-      "id": "d70736ad0b00f112",
-      "kind": "cve",
-      "cve": "CVE-2026-97024",
-      "title": "CVE-2026-97024",
-      "summary": "A path traversal vulnerability in Flatpak's handling of the files/etc directory during app deployment allows a malicious Flatpak app to cause certain host system files (such as passwd, group, machine-id, or resolv.conf) to be emptied or rep…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
+      "id": "70b35ed4cc7c633a",
+      "kind": "research",
+      "cve": null,
+      "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+      "summary": "A malicious MCP server could trick an application built on the official&nbsp;MCP Python SDK&nbsp;into handing over the OAuth credentials it uses to log in to a real service, the SDK's maintainers said in a security advisory. Affected versio…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
       "tags": [
-        "NVD"
+        "NEWS"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97024",
-      "published": "2026-09-29T04:18:02.397000+00:00"
+      "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+      "published": "2026-09-29T06:08:25+00:00"
+    },
+    {
+      "id": "44b9dd173b6dd042",
+      "kind": "research",
+      "cve": null,
+      "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+      "summary": "OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment audits. The development was first reported b…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+      "published": "2026-09-29T05:12:32+00:00"
+    },
+    {
+      "id": "235b45fcaaf66d81",
+      "kind": "research",
+      "cve": null,
+      "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+      "summary": "OpenAI said it has made the decision to pause training of its most powerful models after one of its agents during reinforcement learning (RL) training contacted an external chatbot by exploiting a loophole in its internet-access restriction…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+      "published": "2026-09-29T04:45:20+00:00"
     },
     {
       "id": "7a8d465f5cd13201",
@@ -88,23 +190,6 @@
       "published": "2026-09-29T04:17:52.653000+00:00"
     },
     {
-      "id": "65e3380fd498ef66",
-      "kind": "cve",
-      "cve": "CVE-2026-102243",
-      "title": "CVE-2026-102243",
-      "summary": "A vulnerability was identified in MODSetter SurfSense up to 2.0.3. This issue affects some unknown processing of the file /api/search-source/connectors/mcp/test of the component MCP Connector Integration. Such manipulation leads to command…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102243",
-      "published": "2026-09-29T03:17:15.730000+00:00"
-    },
-    {
       "id": "8a296e490b13003d",
       "kind": "cve",
       "cve": "CVE-2026-96326",
@@ -154,40 +239,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101878",
       "published": "2026-09-29T02:16:54.990000+00:00"
-    },
-    {
-      "id": "ef8f8d8fdd50e257",
-      "kind": "cve",
-      "cve": "CVE-2026-101860",
-      "title": "CVE-2026-101860",
-      "summary": "A vulnerability was found in RaspAP raspap-webgui up to 3.5.5. Affected by this issue is the function PluginInstaller::addSudoers of the file src/RaspAP/Plugins/PluginInstaller.php of the component sudo Configuration. Performing a manipulat…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101860",
-      "published": "2026-09-29T02:16:54.787000+00:00"
-    },
-    {
-      "id": "0c14db398b565bbe",
-      "kind": "cve",
-      "cve": "CVE-2026-101354",
-      "title": "CVE-2026-101354",
-      "summary": "A security flaw has been discovered in FAST FAC1203R 20200116_2.0.4. The affected element is the function _tWlanTask of the component MmtAtePrase Parser. Performing a manipulation results in stack-based buffer overflow. The attacker must ha…",
-      "severity": "CRITICAL",
-      "score": 9.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101354",
-      "published": "2026-09-29T02:16:53.230000+00:00"
     },
     {
       "id": "c3c75025d3d708fa",
@@ -324,23 +375,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102334",
       "published": "2026-09-28T23:17:01.837000+00:00"
-    },
-    {
-      "id": "9f1ae78091471056",
-      "kind": "cve",
-      "cve": "CVE-2026-101262",
-      "title": "CVE-2026-101262",
-      "summary": "A vulnerability has been found in Ziroom ZHOME A0101 1.0.1.0. This vulnerability affects unknown code of the file /api/ZRQos/set_online_client. The manipulation of the argument ip leads to command injection. It is possible to initiate the a…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101262",
-      "published": "2026-09-28T23:17:01.187000+00:00"
     },
     {
       "id": "ef37cf85b5366344",
@@ -2978,40 +3012,6 @@
       "published": "2026-09-23T16:14:37+00:00"
     },
     {
-      "id": "4ed7569264881bae",
-      "kind": "research",
-      "cve": null,
-      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-      "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, c…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-      "published": "2026-09-23T16:06:41+00:00"
-    },
-    {
-      "id": "19134da9e252acae",
-      "kind": "research",
-      "cve": null,
-      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
-      "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22. The models can choose to steal Windows credentials, saved browser…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
-      "published": "2026-09-23T14:17:58+00:00"
-    },
-    {
       "id": "63d6d101ab6d4360",
       "kind": "research",
       "cve": null,
@@ -3027,23 +3027,6 @@
       "product": "",
       "url": "https://portswigger.net/research/http3-in-burp-suite",
       "published": "2026-09-23T14:00:00+00:00"
-    },
-    {
-      "id": "44afbf71f877746f",
-      "kind": "research",
-      "cve": null,
-      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
-      "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS.…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-      "published": "2026-09-23T13:52:46+00:00"
     },
     {
       "id": "8414f1b5df7710e9",
@@ -3063,23 +3046,6 @@
       "published": "2026-09-23T13:49:39+00:00"
     },
     {
-      "id": "8e0ee533a3572d57",
-      "kind": "research",
-      "cve": null,
-      "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
-      "summary": "A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22. A&nbsp;second bug in the WP Toolkit plugin, used to…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
-      "published": "2026-09-23T12:16:00+00:00"
-    },
-    {
       "id": "2c0a187d61ab358e",
       "kind": "research",
       "cve": "CVE-2026-94127",
@@ -3095,23 +3061,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/etr-cve-2026-94127-critical-unauthenticated-rce-in-f5-big-ip-apm",
       "published": "2026-09-23T08:43:39+00:00"
-    },
-    {
-      "id": "eede5cd39333669e",
-      "kind": "research",
-      "cve": null,
-      "title": "ISC Stormcast For Wednesday, September 23rd, 2026 https://isc.sans.edu/podcastdetail/10106, (Wed, Sep 23rd)",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "severity": "",
-      "score": null,
-      "source": "SANS ISC",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://isc.sans.edu/diary/rss/33362",
-      "published": "2026-09-23T02:40:13+00:00"
     },
     {
       "id": "d8b419e6106b6a28",
@@ -3182,23 +3131,6 @@
       "published": "2026-09-22T00:00:00+00:00"
     },
     {
-      "id": "3a7b569916d74508",
-      "kind": "research",
-      "cve": "CVE-2026-66804",
-      "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
-      "summary": "This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Ca…",
-      "severity": "",
-      "score": null,
-      "source": "Project Zero",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectzero.google/2026/09/windows-dangling-com.html",
-      "published": "2026-09-21T07:00:00+00:00"
-    },
-    {
       "id": "e1e74311bde6b67a",
       "kind": "cve",
       "cve": "CVE-2026-7273",
@@ -3214,6 +3146,23 @@
       "product": "GS1900 Series Switches",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7273",
       "published": "2026-09-21T00:00:00+00:00"
+    },
+    {
+      "id": "3a7b569916d74508",
+      "kind": "research",
+      "cve": "CVE-2026-66804",
+      "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
+      "summary": "This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Ca…",
+      "severity": "",
+      "score": null,
+      "source": "Project Zero",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectzero.google/2026/09/windows-dangling-com.html",
+      "published": "2026-09-20T22:00:00+00:00"
     },
     {
       "id": "6840d7d17c667cac",
@@ -3675,23 +3624,6 @@
       "published": "2026-09-08T11:01:27+00:00"
     },
     {
-      "id": "0f625bcdfa97d280",
-      "kind": "research",
-      "cve": null,
-      "title": "Testing race conditions with memory access tracing and stack-based delay injection",
-      "summary": "Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discove…",
-      "severity": "",
-      "score": null,
-      "source": "Project Zero",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectzero.google/2026/09/maccconc-race-condition.html",
-      "published": "2026-09-08T07:00:00+00:00"
-    },
-    {
       "id": "8dd854de21bd3332",
       "kind": "cve",
       "cve": "CVE-2026-75650",
@@ -3758,6 +3690,23 @@
       "product": "Windows",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
       "published": "2026-09-08T00:00:00+00:00"
+    },
+    {
+      "id": "0f625bcdfa97d280",
+      "kind": "research",
+      "cve": null,
+      "title": "Testing race conditions with memory access tracing and stack-based delay injection",
+      "summary": "Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discove…",
+      "severity": "",
+      "score": null,
+      "source": "Project Zero",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectzero.google/2026/09/maccconc-race-condition.html",
+      "published": "2026-09-07T22:00:00+00:00"
     },
     {
       "id": "ba1e0af3fb415475",
@@ -4251,6 +4200,57 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520",
       "published": "2026-08-24T16:18:05+00:00"
+    },
+    {
+      "id": "36d8997529b2efe4",
+      "kind": "cve",
+      "cve": "CVE-2026-21962",
+      "title": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
+      "summary": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data as well as unauthorized access to critic…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Oracle",
+      "product": "HTTP Server and Oracle Weblogic Server Proxy Plug-in",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
+      "published": "2026-08-24T00:00:00+00:00"
+    },
+    {
+      "id": "992d763e68dd45b4",
+      "kind": "cve",
+      "cve": "CVE-2026-73570",
+      "title": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
+      "summary": "Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Synacor",
+      "product": "Zimbra Collaboration Suite (ZCS)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570",
+      "published": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "id": "3d980646bdcea991",
+      "kind": "cve",
+      "cve": "CVE-2026-72530",
+      "title": "TrueConf Server Code Injection Vulnerability",
+      "summary": "TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the isolated environment and execute arbitrary…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "TrueConf",
+      "product": "Server",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
+      "published": "2026-08-20T00:00:00+00:00"
     }
   ]
 }
