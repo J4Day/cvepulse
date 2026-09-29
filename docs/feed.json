@@ -1,30 +1,98 @@
 {
-  "generated": "2026-09-29T18:59:38.627801+00:00",
+  "generated": "2026-09-29T22:52:04.073521+00:00",
   "count": 250,
   "items": [
     {
-      "id": "e85dc1c4cd158eba",
+      "id": "3511bee9145ea287",
       "kind": "cve",
-      "cve": "CVE-2026-84842",
-      "title": "CVE-2026-84842",
-      "summary": "IBM Guardium Data Protection 12.2 is vulnerable to path traversal and arbitrary file deletion in the Datasource REST component. An authenticated remote attacker could exploit this vulnerability to delete files and potentially cause denial o…",
+      "cve": "CVE-2026-74225",
+      "title": "CVE-2026-74225",
+      "summary": "U-Boot before 2026.10-rc5 contains out-of-bounds memory access in dhcp6_parse_options() that fails to validate SERVERID and CLIENTID option lengths from DHCPv6 packets. Attackers on the local network can send crafted DHCPv6 ADVERTISE or REP…",
       "severity": "HIGH",
-      "score": 8.1,
+      "score": 7.1,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84842",
-      "published": "2026-09-29T18:17:18.083000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74225",
+      "published": "2026-09-29T22:18:33.827000+00:00"
     },
     {
-      "id": "8ef75bfdc8ad60a1",
+      "id": "43ef87056d468240",
       "kind": "cve",
-      "cve": "CVE-2026-84440",
-      "title": "CVE-2026-84440",
-      "summary": "IBM Guardium Data Protection 12.2 is vulnerable to command injection in the SNMP alert notification functionality. An authenticated attacker who can influence policy alert text can cause attacker-controlled data to be executed as operating…",
+      "cve": "CVE-2026-74222",
+      "title": "CVE-2026-74222",
+      "summary": "U-Boot before 2026.10-rc5 contains a use-after-free vulnerability in the httpc_recv_cb() function within the lwIP wget implementation. When HTTP data storage fails, the callback frees the connection PCB but returns ERR_BUF instead of ERR_AB…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74222",
+      "published": "2026-09-29T22:18:33.660000+00:00"
+    },
+    {
+      "id": "c018857ac71a5f76",
+      "kind": "cve",
+      "cve": "CVE-2026-74221",
+      "title": "CVE-2026-74221",
+      "summary": "U-Boot before 2026.10-rc5 contains a buffer overflow in nfs_readlink_reply() function in net/nfs-common.c when processing NFS server responses. A malicious NFS server can send crafted READLINK replies with negative or oversized symlink leng…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74221",
+      "published": "2026-09-29T22:18:33.493000+00:00"
+    },
+    {
+      "id": "a4c70d00d04bfee9",
+      "kind": "cve",
+      "cve": "CVE-2026-74220",
+      "title": "CVE-2026-74220",
+      "summary": "U-Boot before 2026.10-rc5 contains a buffer overflow in nfs_read_reply() function in net/nfs-common.c that allows attackers to corrupt memory by supplying crafted NFS READ reply lengths. A malicious NFS server can exploit signed integer han…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74220",
+      "published": "2026-09-29T22:18:33.317000+00:00"
+    },
+    {
+      "id": "79a2e14bf46e62f8",
+      "kind": "cve",
+      "cve": "CVE-2026-71971",
+      "title": "CVE-2026-71971",
+      "summary": "U-Boot before 2026.10-rc3 with CONFIG_IP_DEFRAG enabled contains an out-of-bounds write vulnerability in the __net_defragment() function in net/net.c. Remote attackers can send a crafted IP fragment with non-zero offset and More-Fragments f…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71971",
+      "published": "2026-09-29T22:18:21.723000+00:00"
+    },
+    {
+      "id": "dd8b7bab3f0e5696",
+      "kind": "cve",
+      "cve": "CVE-2026-102253",
+      "title": "CVE-2026-102253",
+      "summary": "iperf3 versions prior to 3.22 contains a denial of service vulnerability that allows unauthenticated remote attackers to crash-loop the server's UDP receive worker into an unrecoverable infinite loop by sending a single crafted control-chan…",
       "severity": "HIGH",
       "score": 7.5,
       "source": "NVD",
@@ -33,49 +101,15 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84440",
-      "published": "2026-09-29T18:17:17.953000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102253",
+      "published": "2026-09-29T21:17:13.640000+00:00"
     },
     {
-      "id": "cf3e6b46c584e2e7",
+      "id": "57ae02f6f07b8dd2",
       "kind": "cve",
-      "cve": "CVE-2026-84436",
-      "title": "CVE-2026-84436",
-      "summary": "IBM Guardium Data Protection 12.2 is vulnerable to command injection in the certificate export CLI functionality, allowing a privileged authenticated CLI user to execute arbitrary commands with root privileges.",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84436",
-      "published": "2026-09-29T18:17:17.823000+00:00"
-    },
-    {
-      "id": "e35f17956153590b",
-      "kind": "cve",
-      "cve": "CVE-2026-84422",
-      "title": "CVE-2026-84422",
-      "summary": "IBM Guardium Data Protection 12.2 is vulnerable to command injection in the CLI certificate SMIME recipient deletion functionality, allowing an authenticated privileged CLI user to execute arbitrary commands with root privileges.",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84422",
-      "published": "2026-09-29T18:17:17.693000+00:00"
-    },
-    {
-      "id": "ec0cc6986d06d75e",
-      "kind": "cve",
-      "cve": "CVE-2026-84421",
-      "title": "CVE-2026-84421",
-      "summary": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to execute arbitrary code due to improper validation of paths during archive extraction.",
+      "cve": "CVE-2026-61519",
+      "title": "CVE-2026-61519",
+      "summary": "Liberu CRM 0.9.1 before 10.0.0 contains a broken access control vulnerability that allows any user holding a pending team invitation to invite additional attacker-controlled accounts with elevated privileges by exploiting a flawed authoriza…",
       "severity": "HIGH",
       "score": 8.8,
       "source": "NVD",
@@ -84,15 +118,49 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84421",
-      "published": "2026-09-29T18:17:17.560000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-61519",
+      "published": "2026-09-29T20:17:21.150000+00:00"
     },
     {
-      "id": "bd278b054aa830ac",
+      "id": "27e7bd4267940f7b",
       "kind": "cve",
-      "cve": "CVE-2026-84414",
-      "title": "CVE-2026-84414",
-      "summary": "IBM i 7.6, 7.5, 7.4, and 7.3 could allow a local authenticated attacker to change the ownership of arbitrary files due to improper validation of an attacker-controlled file path.",
+      "cve": "CVE-2026-53988",
+      "title": "CVE-2026-53988",
+      "summary": "Dockhand before 1.0.40 contains an authentication bypass vulnerability in its git webhook endpoints that allows unauthenticated remote attackers to trigger arbitrary stack redeployments by exploiting a null webhook secret guard condition. A…",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53988",
+      "published": "2026-09-29T20:17:20.403000+00:00"
+    },
+    {
+      "id": "ff92f20a1a06823c",
+      "kind": "cve",
+      "cve": "CVE-2026-102876",
+      "title": "CVE-2026-102876",
+      "summary": "SurrealDB before 3.3.0 contains an authorization bypass in HTTP session construction where check_auth() verifies credentials against Surreal-Auth-NS and Surreal-Auth-DB headers but constructs sessions using Surreal-NS and Surreal-DB headers…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102876",
+      "published": "2026-09-29T20:17:18.230000+00:00"
+    },
+    {
+      "id": "7271bc8680cc6a36",
+      "kind": "cve",
+      "cve": "CVE-2026-102875",
+      "title": "CVE-2026-102875",
+      "summary": "VLC media player before 3.0.24 contains a path traversal vulnerability in the skins2 ThemeLoader that fails to validate member names in .vlt skin archives. Attackers can craft malicious skin files with path traversal sequences to write arbi…",
       "severity": "HIGH",
       "score": 7.8,
       "source": "NVD",
@@ -101,8 +169,8 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84414",
-      "published": "2026-09-29T18:17:17.400000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102875",
+      "published": "2026-09-29T20:17:18.053000+00:00"
     },
     {
       "id": "ea9373300a3b37f6",
@@ -120,40 +188,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102811",
       "published": "2026-09-29T18:17:14.527000+00:00"
-    },
-    {
-      "id": "d9eeba044ca4c122",
-      "kind": "cve",
-      "cve": "CVE-2026-102810",
-      "title": "CVE-2026-102810",
-      "summary": "Marmite through 0.4.2 contains a path traversal vulnerability in the development server started by --serve that allows unauthenticated attackers to read arbitrary files. The handle_request function in src/server.rs fails to reject .. segmen…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102810",
-      "published": "2026-09-29T18:17:14.370000+00:00"
-    },
-    {
-      "id": "ac4265ea8fe649ec",
-      "kind": "cve",
-      "cve": "CVE-2026-102560",
-      "title": "CVE-2026-102560",
-      "summary": "A flaw was found in libsoup. When the permessage-deflate WebSocket extension compresses a very large outgoing message, truncated size calculations used for GByteArray growth could wrap, causing zlib to write past the allocated buffer and re…",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102560",
-      "published": "2026-09-29T18:17:08.750000+00:00"
     },
     {
       "id": "f772fe8274eb4ca6",
@@ -188,23 +222,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102558",
       "published": "2026-09-29T18:17:08.340000+00:00"
-    },
-    {
-      "id": "ffcbcec05cf24ad7",
-      "kind": "cve",
-      "cve": "CVE-2026-102555",
-      "title": "CVE-2026-102555",
-      "summary": "A flaw was found in libsoup. The soup_uri_decode_data_uri() function incorrectly treated base64 data-URI payloads as NUL-terminated strings when calling g_base64_decode_inplace(). If the percent-decoded payload contained embedded NUL bytes,…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102555",
-      "published": "2026-09-29T18:17:07.977000+00:00"
     },
     {
       "id": "d6d690a45d2cd808",
@@ -581,23 +598,6 @@
       "published": "2026-09-29T00:17:02.663000+00:00"
     },
     {
-      "id": "2ad5611e0b1bdfa7",
-      "kind": "cve",
-      "cve": "CVE-2026-101263",
-      "title": "CVE-2026-101263",
-      "summary": "A vulnerability was found in Ziroom ZHOME A0101 1.0.1.0. This issue affects some unknown processing of the file /api/ZRQos/set_online_client. The manipulation of the argument mac results in command injection. It is possible to launch the at…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101263",
-      "published": "2026-09-29T00:17:01.540000+00:00"
-    },
-    {
       "id": "0fca6bd1e503fdf6",
       "kind": "cve",
       "cve": "CVE-2026-86950",
@@ -632,23 +632,6 @@
       "published": "2026-09-28T23:17:02.007000+00:00"
     },
     {
-      "id": "ec60281ccb5c74da",
-      "kind": "cve",
-      "cve": "CVE-2026-102334",
-      "title": "CVE-2026-102334",
-      "summary": "Nginx Proxy Manager through 2.16.0 lacks rate-limiting on authentication endpoints, allowing unauthenticated attackers to make unlimited password guesses against any account. Attackers can brute-force login credentials via POST /api/tokens…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102334",
-      "published": "2026-09-28T23:17:01.837000+00:00"
-    },
-    {
       "id": "ef37cf85b5366344",
       "kind": "cve",
       "cve": "CVE-2026-101261",
@@ -664,23 +647,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101261",
       "published": "2026-09-28T23:17:01.003000+00:00"
-    },
-    {
-      "id": "8e279b39058bb3a4",
-      "kind": "cve",
-      "cve": "CVE-2026-101260",
-      "title": "CVE-2026-101260",
-      "summary": "A vulnerability was detected in Ziroom ZHOME A0101 1.0.1.0. Affected by this issue is some unknown functionality of the file /api/ZRnetwork/firstLogin. Performing a manipulation of the argument firstLogin results in command injection. The a…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101260",
-      "published": "2026-09-28T23:17:00.300000+00:00"
     },
     {
       "id": "d21608339f34d5a8",
@@ -715,57 +681,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101188",
       "published": "2026-09-28T22:17:31.037000+00:00"
-    },
-    {
-      "id": "7f3769858f9140a0",
-      "kind": "cve",
-      "cve": "CVE-2026-101091",
-      "title": "CVE-2026-101091",
-      "summary": "SiYuan versions before v3.8.4 fail to properly validate SQL statements in block query embed blocks executed against siyuan.db. Attackers can craft malicious .sy documents with non-read-only SQL statements that execute automatically during b…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101091",
-      "published": "2026-09-28T22:17:30.413000+00:00"
-    },
-    {
-      "id": "8ef2fa5abccf8c75",
-      "kind": "cve",
-      "cve": "CVE-2026-101187",
-      "title": "CVE-2026-101187",
-      "summary": "A weakness has been identified in Ziroom ZHOME A0101 1.0.1.0. This vulnerability affects the function pop_usb_device of the file usr/lib/lua/luci/controller/api/zrUsb.lua of the component USB Device Management API. This manipulation of the…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101187",
-      "published": "2026-09-28T21:17:12.810000+00:00"
-    },
-    {
-      "id": "55d4685ce54631c8",
-      "kind": "cve",
-      "cve": "CVE-2026-87741",
-      "title": "CVE-2026-87741",
-      "summary": "The ConvertPlus plugin for WordPress is vulnerable to Deserialization of Untrusted Data in all versions up to, and including, 3.6.3 via the style parameter of the cp_display_preview_modal AJAX action. The vulnerability exists because the ac…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87741",
-      "published": "2026-09-28T20:17:11.377000+00:00"
     },
     {
       "id": "cbf3cfa45f59f9f5",
@@ -4251,6 +4166,91 @@
       "product": "Gitea",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
       "published": "2026-08-25T00:00:00+00:00"
+    },
+    {
+      "id": "e36971723056d798",
+      "kind": "research",
+      "cve": "CVE-2026-63520",
+      "title": "Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520",
+      "published": "2026-08-24T16:18:05+00:00"
+    },
+    {
+      "id": "36d8997529b2efe4",
+      "kind": "cve",
+      "cve": "CVE-2026-21962",
+      "title": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
+      "summary": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data as well as unauthorized access to critic…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Oracle",
+      "product": "HTTP Server and Oracle Weblogic Server Proxy Plug-in",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
+      "published": "2026-08-24T00:00:00+00:00"
+    },
+    {
+      "id": "992d763e68dd45b4",
+      "kind": "cve",
+      "cve": "CVE-2026-73570",
+      "title": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
+      "summary": "Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Synacor",
+      "product": "Zimbra Collaboration Suite (ZCS)",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570",
+      "published": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "id": "3d980646bdcea991",
+      "kind": "cve",
+      "cve": "CVE-2026-72530",
+      "title": "TrueConf Server Code Injection Vulnerability",
+      "summary": "TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the isolated environment and execute arbitrary…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "TrueConf",
+      "product": "Server",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
+      "published": "2026-08-20T00:00:00+00:00"
+    },
+    {
+      "id": "55f2f4e219feea57",
+      "kind": "cve",
+      "cve": "CVE-2026-72529",
+      "title": "TrueConf Server Missing Authentication for Critical Function Vulnerability",
+      "summary": "TrueConf Server contains a missing authentication for critical function vulnerability which could allow a remote unauthorized attacker with network access via port 4307/TCP to execute an arbitrary script.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "TrueConf",
+      "product": "Server",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
+      "published": "2026-08-20T00:00:00+00:00"
     }
   ]
 }
