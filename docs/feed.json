@@ -1,7 +1,126 @@
 {
-  "generated": "2026-10-01T22:08:50.669087+00:00",
+  "generated": "2026-10-02T01:53:34.335043+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "d5ed8dafb2b8d227",
+      "kind": "cve",
+      "cve": "CVE-2026-86345",
+      "title": "CVE-2026-86345",
+      "summary": "A flaw was found in 389-ds-base. The server does not discard plaintext bytes already buffered from a client connection when negotiating StartTLS, allowing an on-path attacker to inject a crafted LDAP message that is processed after the TLS…",
+      "severity": "CRITICAL",
+      "score": 9.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86345",
+      "published": "2026-10-02T00:17:04.180000+00:00"
+    },
+    {
+      "id": "97e9810c6dc9e418",
+      "kind": "cve",
+      "cve": "CVE-2026-103766",
+      "title": "CVE-2026-103766",
+      "summary": "ClipBucket v5 through 5.5.3-#197 contains an sql injection vulnerability that allows authenticated users with ad_manager_access permission to inject SQL via the delete parameter in admin_area/ads_manager.php. Attackers can supply time-based…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103766",
+      "published": "2026-10-02T00:16:59.820000+00:00"
+    },
+    {
+      "id": "b1c2638de3abc25a",
+      "kind": "cve",
+      "cve": "CVE-2026-103765",
+      "title": "CVE-2026-103765",
+      "summary": "Mooncake through 0.3.13.post1 contains a missing authentication vulnerability in the HTTP metadata server /metadata handler that allows unauthenticated attackers to read, overwrite, and delete transfer engine metadata keys. Attackers can po…",
+      "severity": "CRITICAL",
+      "score": 9.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103765",
+      "published": "2026-10-02T00:16:59.663000+00:00"
+    },
+    {
+      "id": "137f95567d0bc62b",
+      "kind": "cve",
+      "cve": "CVE-2026-103764",
+      "title": "CVE-2026-103764",
+      "summary": "Mooncake transfer engine before 0.3.13 contains an untrusted pointer dereference in ServerSession::readHeader that allows unauthenticated attackers to read and write arbitrary process memory via the TCP transport data port. Attackers can se…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103764",
+      "published": "2026-10-02T00:16:59.253000+00:00"
+    },
+    {
+      "id": "0555bf457a6486c3",
+      "kind": "cve",
+      "cve": "CVE-2026-103761",
+      "title": "CVE-2026-103761",
+      "summary": "Mooncake transfer engine through 0.3.13.post1 contains a memory exhaustion vulnerability in TransferMetadata::receivePeerNotify that allows unauthenticated attackers to grow process memory without limit. Attackers can repeatedly send notify…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103761",
+      "published": "2026-10-01T23:16:46.987000+00:00"
+    },
+    {
+      "id": "50075a50ef539bf0",
+      "kind": "cve",
+      "cve": "CVE-2026-86344",
+      "title": "CVE-2026-86344",
+      "summary": "A flaw was found in 389-ds-base. An unauthenticated remote attacker can send a complete LDAP operation followed by the first bytes of an incomplete LDAPMessage on the same connection, causing the server to hand that connection to a second w…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86344",
+      "published": "2026-10-01T22:17:05.590000+00:00"
+    },
+    {
+      "id": "05feacb4d0c5a88c",
+      "kind": "cve",
+      "cve": "CVE-2026-104051",
+      "title": "CVE-2026-104051",
+      "summary": "PictShare before 3.7.1 contains an information disclosure vulnerability that allows unauthenticated attackers to obtain the secret delete_code and uploader metadata by calling the API::info() endpoint which returns the complete raw metadata…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104051",
+      "published": "2026-10-01T22:17:00.833000+00:00"
+    },
     {
       "id": "3c2e42207a5027d1",
       "kind": "cve",
@@ -52,57 +171,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54404",
       "published": "2026-10-01T18:17:11.040000+00:00"
-    },
-    {
-      "id": "f6acb1d0f19a4652",
-      "kind": "cve",
-      "cve": "CVE-2026-96659",
-      "title": "CVE-2026-96659",
-      "summary": "A flaw was found in Foreman. This vulnerability allows an authenticated user with low-level Viewer permissions to cause unauthorized information disclosure by submitting requests to template preview endpoints. By exploiting this issue, the…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96659",
-      "published": "2026-10-01T17:17:35.590000+00:00"
-    },
-    {
-      "id": "921acec09ea99554",
-      "kind": "cve",
-      "cve": "CVE-2026-12541",
-      "title": "CVE-2026-12541",
-      "summary": "A flaw was found in Foreman. OS command injection vulnerabilities exist in the foreman-rake db:dump and db:import_dump tasks. The application fails to properly sanitize user-supplied input in the destination parameter (during backups) and t…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12541",
-      "published": "2026-10-01T17:17:20.190000+00:00"
-    },
-    {
-      "id": "f4755a36e1b23195",
-      "kind": "cve",
-      "cve": "CVE-2026-12540",
-      "title": "CVE-2026-12540",
-      "summary": "A flaw was found in Foreman. A command injection vulnerability exists in the foreman-rake errors:fetch_log task. The request_id parameter is passed to an underlying system command (typically grep) without adequate shell neutralization. Whil…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12540",
-      "published": "2026-10-01T17:17:20.053000+00:00"
     },
     {
       "id": "c1f2fe32465a9ae6",
@@ -1567,40 +1635,6 @@
       "published": "2026-09-28T17:38:33+00:00"
     },
     {
-      "id": "c24e081ec9328bfc",
-      "kind": "cve",
-      "cve": "CVE-2026-101081",
-      "title": "CVE-2026-101081",
-      "summary": "A security flaw has been discovered in D-Link DI-8400 16.07. This vulnerability affects the function menu_nat_more_asp of the file menu_nat_more.asp of the component Web Administration Service. The manipulation of the argument opt results i…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101081",
-      "published": "2026-09-28T17:17:47.817000+00:00"
-    },
-    {
-      "id": "035d8c8646252be2",
-      "kind": "cve",
-      "cve": "CVE-2026-101077",
-      "title": "CVE-2026-101077",
-      "summary": "A flaw has been found in Netcore NR289-GE 1.4.5102. This impacts the function process_request of the component boa_temp Handler. This manipulation causes missing authentication. The attack is possible to be carried out remotely. The exploit…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101077",
-      "published": "2026-09-28T16:17:12.143000+00:00"
-    },
-    {
       "id": "9eea57edb89b5463",
       "kind": "research",
       "cve": null,
@@ -1618,23 +1652,6 @@
       "published": "2026-09-28T15:08:57+00:00"
     },
     {
-      "id": "b37cd33b0e22cefc",
-      "kind": "cve",
-      "cve": "CVE-2026-101072",
-      "title": "CVE-2026-101072",
-      "summary": "A vulnerability was identified in Netcore NR289-GE 1.4.5102. This issue affects the function system of the file /ap_ip.cgi of the component CGI Handler. Such manipulation of the argument ip leads to os command injection. The attack can be l…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101072",
-      "published": "2026-09-28T14:17:13.973000+00:00"
-    },
-    {
       "id": "7d4f95884d68b25b",
       "kind": "research",
       "cve": null,
@@ -1650,23 +1667,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
       "published": "2026-09-28T14:00:53+00:00"
-    },
-    {
-      "id": "4e89f6f60e411fd8",
-      "kind": "cve",
-      "cve": "CVE-2026-101066",
-      "title": "CVE-2026-101066",
-      "summary": "A vulnerability was determined in dbgate up to 7.3.1. The impacted element is the function createLink of the file packages/api/src/controllers/archive.js of the component Archive Link Creation. This manipulation of the argument linkedFolder…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101066",
-      "published": "2026-09-28T13:17:20.080000+00:00"
     },
     {
       "id": "8a2ae7a592912afb",
@@ -1701,23 +1701,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
       "published": "2026-09-28T11:46:00+00:00"
-    },
-    {
-      "id": "f994271191cead21",
-      "kind": "cve",
-      "cve": "CVE-2026-101038",
-      "title": "CVE-2026-101038",
-      "summary": "A vulnerability was determined in FAST FAC1200R 5.0_20201119_1.0.2. Affected by this vulnerability is the function MmtAtePrase of the component MmtAtePrase Parser. This manipulation causes stack-based buffer overflow. Remote exploitation of…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101038",
-      "published": "2026-09-28T11:16:43.423000+00:00"
     },
     {
       "id": "cb8ce7babd6edd26",
@@ -3692,6 +3675,23 @@
       "product": "",
       "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "published": "2026-07-30T16:49:00+00:00"
+    },
+    {
+      "id": "df6fa04183034cdc",
+      "kind": "research",
+      "cve": null,
+      "title": "Exploiting Titan Quest",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5EVVI2c01jZ2VVNnU1ekhfOXlJaGFUWXlzZzZ2OGhQZHZmanJDRXRZOE1ZSXpPdkd4dVB5ZDczMk1nb1dNV0Y1OUd1Mkc5RUhwX1FGaUtEamYySUVZMWNOQ0NNXzZzbEFQV0hpbw?oc=5",
+      "published": "2026-07-29T07:00:00+00:00"
     },
     {
       "id": "db1fcc223e4cb0c5",
