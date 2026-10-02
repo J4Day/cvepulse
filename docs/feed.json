@@ -1,13 +1,64 @@
 {
-  "generated": "2026-10-02T19:40:25.239655+00:00",
+  "generated": "2026-10-02T23:25:54.291040+00:00",
   "count": 250,
   "items": [
     {
-      "id": "4d7b5e689cb8d8e8",
+      "id": "dfe536c103e5eabf",
       "kind": "cve",
-      "cve": "CVE-2026-96940",
-      "title": "CVE-2026-96940",
-      "summary": "Weak authorization in Microsoft Exchange Server allows an authenticated attacker to elevate privileges over a network.",
+      "cve": "CVE-2026-82044",
+      "title": "CVE-2026-82044",
+      "summary": "UTMStack before 11.2.16 contains a server-side request forgery vulnerability that allows authenticated attackers to make the server request arbitrary internal resources by supplying an unvalidated url parameter to the PdfService.downloadPdf…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82044",
+      "published": "2026-10-02T21:16:56.933000+00:00"
+    },
+    {
+      "id": "e67c90b14656c892",
+      "kind": "cve",
+      "cve": "CVE-2026-82042",
+      "title": "CVE-2026-82042",
+      "summary": "UTMStack before 11.2.16 contains an authentication bypass vulnerability that allows remote attackers to gain full administrative API access by presenting a valid Utm-Internal-Key header matching the INTERNAL_KEY environment variable value,…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82042",
+      "published": "2026-10-02T21:16:56.643000+00:00"
+    },
+    {
+      "id": "98ec2f9212b46d6c",
+      "kind": "cve",
+      "cve": "CVE-2026-82041",
+      "title": "CVE-2026-82041",
+      "summary": "UTMStack before 11.2.16 contains a missing authorization vulnerability in UTMIncidentCommandWebsocket.processCommand(), the handler mapped to the /command/{hostname} STOMP destination, where no role check or command allowlist is applied bef…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82041",
+      "published": "2026-10-02T21:16:56.497000+00:00"
+    },
+    {
+      "id": "b6c49ff697e8a624",
+      "kind": "cve",
+      "cve": "CVE-2026-82039",
+      "title": "CVE-2026-82039",
+      "summary": "UTMStack before 11.2.16 contains a SQL injection vulnerability in UtmAssetGroupService.searchQueryBuilder() that allows authenticated attackers to inject arbitrary SQL by supplying malicious assetType and groupName values that are inserted…",
       "severity": "HIGH",
       "score": 8.8,
       "source": "NVD",
@@ -16,8 +67,42 @@
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96940",
-      "published": "2026-10-02T19:16:43.023000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82039",
+      "published": "2026-10-02T20:17:04.430000+00:00"
+    },
+    {
+      "id": "b9b58af6841d21eb",
+      "kind": "cve",
+      "cve": "CVE-2026-104991",
+      "title": "CVE-2026-104991",
+      "summary": "Phproject before 1.8.7 contains a missing object-level authorization vulnerability in the REST API issue endpoints (single_get, single_comments, single_comments_post) that allows authenticated API key holders to bypass the security.restrict…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104991",
+      "published": "2026-10-02T20:17:01.513000+00:00"
+    },
+    {
+      "id": "fa8ebf95744e5650",
+      "kind": "cve",
+      "cve": "CVE-2026-104988",
+      "title": "CVE-2026-104988",
+      "summary": "A flaw was found in Dogtag PKI (pki-core). The CMCAuthForEST authentication plugin fails open when an EST fullcmc enrollment request is submitted via BasicAuth without an end-user TLS client certificate. The SSL_CLIENT_CERT session attribut…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104988",
+      "published": "2026-10-02T20:17:01.370000+00:00"
     },
     {
       "id": "2798b80d258455b9",
@@ -35,23 +120,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54405",
       "published": "2026-10-02T19:16:38.897000+00:00"
-    },
-    {
-      "id": "9b3384901fc0c45c",
-      "kind": "cve",
-      "cve": "CVE-2020-37278",
-      "title": "CVE-2020-37278",
-      "summary": "Weaver e-Bridge contains an unauthenticated arbitrary file read vulnerability that allows remote attackers to access arbitrary files on the host system by supplying a file: URL to the downloadUrl parameter of the saveYZJFile endpoint. Attac…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-37278",
-      "published": "2026-10-02T19:16:38.703000+00:00"
     },
     {
       "id": "037c74caa46253ca",
@@ -273,23 +341,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104445",
       "published": "2026-10-02T12:17:15.657000+00:00"
-    },
-    {
-      "id": "406c3d79d84cc200",
-      "kind": "cve",
-      "cve": "CVE-2026-104444",
-      "title": "CVE-2026-104444",
-      "summary": "YesWiki before 4.6.7 contains an authorization bypass vulnerability in the comments API editComment route that allows authenticated low-privilege users to overwrite arbitrary pages or comments by supplying their own page as the pagetag fiel…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104444",
-      "published": "2026-10-02T12:17:15.490000+00:00"
     },
     {
       "id": "bab1f76d2140c5e1",
@@ -564,23 +615,6 @@
       "published": "2026-10-02T07:16:35.617000+00:00"
     },
     {
-      "id": "f3c4abd133703dac",
-      "kind": "cve",
-      "cve": "CVE-2026-92820",
-      "title": "CVE-2026-92820",
-      "summary": "The Ninja Forms - File Uploads plugin for WordPress is vulnerable to arbitrary file operations in all versions up to, and including, 3.3.34 via the external (Amazon S3) upload flow. The plugin trusts an attacker-supplied file path from the…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92820",
-      "published": "2026-10-02T06:16:43.197000+00:00"
-    },
-    {
       "id": "a56b5b921d083249",
       "kind": "cve",
       "cve": "CVE-2026-92174",
@@ -632,23 +666,6 @@
       "published": "2026-10-02T06:16:41.053000+00:00"
     },
     {
-      "id": "ffb299ef01d1abb8",
-      "kind": "cve",
-      "cve": "CVE-2026-15896",
-      "title": "CVE-2026-15896",
-      "summary": "The Super Forms – Drag & Drop Form Builder plugin for WordPress is vulnerable to Directory Traversal in all versions up to, and including, 6.3.316 via the parse_request function. This makes it possible for unauthenticated attackers to read…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15896",
-      "published": "2026-10-02T06:16:40.773000+00:00"
-    },
-    {
       "id": "10ee893b5c5fb515",
       "kind": "research",
       "cve": null,
@@ -698,23 +715,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10026",
       "published": "2026-10-02T05:16:36.503000+00:00"
-    },
-    {
-      "id": "b6ad6b8123605013",
-      "kind": "cve",
-      "cve": "CVE-2026-93367",
-      "title": "CVE-2026-93367",
-      "summary": "The Visitors Traffic Real Time Statistics Pro plugin for WordPress is vulnerable to unauthenticated stored Cross-Site Scripting in all versions up to, and including, 11.22 via the page_title parameter of the ahcpro_track_visitor AJAX action…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93367",
-      "published": "2026-10-02T04:18:09.573000+00:00"
     },
     {
       "id": "86509eb6daec5e98",
@@ -783,23 +783,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86345",
       "published": "2026-10-02T00:17:04.180000+00:00"
-    },
-    {
-      "id": "b1c2638de3abc25a",
-      "kind": "cve",
-      "cve": "CVE-2026-103765",
-      "title": "CVE-2026-103765",
-      "summary": "Mooncake through 0.3.13.post1 contains a missing authentication vulnerability in the HTTP metadata server /metadata handler that allows unauthenticated attackers to read, overwrite, and delete transfer engine metadata keys. Attackers can po…",
-      "severity": "CRITICAL",
-      "score": 9.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103765",
-      "published": "2026-10-02T00:16:59.663000+00:00"
     },
     {
       "id": "7f5a7ec8e5718ef8",
@@ -1650,6 +1633,40 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100273",
       "published": "2026-09-30T16:16:58.720000+00:00"
+    },
+    {
+      "id": "c5c7f8b9df7b641a",
+      "kind": "cve",
+      "cve": "CVE-2026-100262",
+      "title": "CVE-2026-100262",
+      "summary": "In JetBrains YouTrack before 2026.2.18991 missing authorisation allowed users with read-only project access to overwrite project notification templates",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100262",
+      "published": "2026-09-30T16:16:57.120000+00:00"
+    },
+    {
+      "id": "8645f0a947e13d48",
+      "kind": "cve",
+      "cve": "CVE-2026-100255",
+      "title": "CVE-2026-100255",
+      "summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 administrator account takeover was possible via password reset",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100255",
+      "published": "2026-09-30T16:16:56.100000+00:00"
     },
     {
       "id": "31db54260bd2f67f",
@@ -4236,23 +4253,6 @@
       "vendor": "Check Point",
       "product": "SmartConsole",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232",
-      "published": "2026-07-22T00:00:00+00:00"
-    },
-    {
-      "id": "d99fef2a7c7450e1",
-      "kind": "cve",
-      "cve": "CVE-2026-50522",
-      "title": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
-      "summary": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50522",
       "published": "2026-07-22T00:00:00+00:00"
     }
   ]
