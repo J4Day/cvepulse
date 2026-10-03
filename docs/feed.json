@@ -1,7 +1,41 @@
 {
-  "generated": "2026-10-02T23:25:54.291040+00:00",
+  "generated": "2026-10-03T03:00:20.135389+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "b3990819c18d40f8",
+      "kind": "cve",
+      "cve": "CVE-2026-104478",
+      "title": "CVE-2026-104478",
+      "summary": "Formwork before 2.3.13 contains a path traversal vulnerability in BackupController that allows authenticated panel users to read or delete arbitrary files. Attackers with backup download or delete permission can supply a base64-encoded back…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104478",
+      "published": "2026-10-03T00:16:36.083000+00:00"
+    },
+    {
+      "id": "8dc55b03e2a7fe09",
+      "kind": "cve",
+      "cve": "CVE-2026-104433",
+      "title": "CVE-2026-104433",
+      "summary": "Mooncake transfer engine before 0.3.12 contains an out-of-bounds read vulnerability in the readString function of include/common.h that allows unauthenticated attackers to crash the service by sending a zero-length handshake frame. Attacker…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104433",
+      "published": "2026-10-03T00:16:35.253000+00:00"
+    },
     {
       "id": "dfe536c103e5eabf",
       "kind": "cve",
@@ -1890,40 +1924,6 @@
       "published": "2026-09-30T00:00:00+00:00"
     },
     {
-      "id": "8ef75bfdc8ad60a1",
-      "kind": "cve",
-      "cve": "CVE-2026-84440",
-      "title": "CVE-2026-84440",
-      "summary": "IBM Guardium Data Protection 12.2 is vulnerable to command injection in the SNMP alert notification functionality. An authenticated attacker who can influence policy alert text can cause attacker-controlled data to be executed as operating…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84440",
-      "published": "2026-09-29T18:17:17.953000+00:00"
-    },
-    {
-      "id": "ea9373300a3b37f6",
-      "kind": "cve",
-      "cve": "CVE-2026-102811",
-      "title": "CVE-2026-102811",
-      "summary": "Marmite through 0.4.2 contains missing authentication in the development server endpoints /__marmite__/content, /__marmite__/config, and /__marmite__/file/, allowing unauthenticated attackers to create, modify, and overwrite site content an…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102811",
-      "published": "2026-09-29T18:17:14.527000+00:00"
-    },
-    {
       "id": "d6d690a45d2cd808",
       "kind": "research",
       "cve": null,
@@ -1973,23 +1973,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
       "published": "2026-09-29T17:20:08+00:00"
-    },
-    {
-      "id": "94cee96e84aeec73",
-      "kind": "cve",
-      "cve": "CVE-2026-102566",
-      "title": "CVE-2026-102566",
-      "summary": "CTranslate2 before 4.8.1 contains a heap-based buffer overflow in the binary model loader that fails to validate payload length against allocated buffer size. Attackers can craft malicious model files with oversized payload lengths to write…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102566",
-      "published": "2026-09-29T15:17:18.003000+00:00"
     },
     {
       "id": "8da4536a08bc3da8",
@@ -4253,6 +4236,23 @@
       "vendor": "Check Point",
       "product": "SmartConsole",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232",
+      "published": "2026-07-22T00:00:00+00:00"
+    },
+    {
+      "id": "d99fef2a7c7450e1",
+      "kind": "cve",
+      "cve": "CVE-2026-50522",
+      "title": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
+      "summary": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "SharePoint",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50522",
       "published": "2026-07-22T00:00:00+00:00"
     }
   ]
