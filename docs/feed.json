@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T21:54:15.022317+00:00",
+  "generated": "2026-10-04T00:14:45.613885+00:00",
   "count": 250,
   "items": [
     {
@@ -1057,142 +1057,6 @@
       "published": "2026-10-01T00:00:00+00:00"
     },
     {
-      "id": "be0587c42962e0c3",
-      "kind": "cve",
-      "cve": "CVE-2023-54402",
-      "title": "CVE-2023-54402",
-      "summary": "iDocView contains a server-side request forgery vulnerability in its /doc/upload endpoint that allows remote unauthenticated attackers to fetch arbitrary URLs by supplying a hardcoded default token value (testtoken) to bypass authentication…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-54402",
-      "published": "2026-09-30T21:16:51.980000+00:00"
-    },
-    {
-      "id": "47b44da5eab4d51c",
-      "kind": "cve",
-      "cve": "CVE-2026-102993",
-      "title": "CVE-2026-102993",
-      "summary": "pypdf is a free and open-source pure-python PDF library. Prior to 6.17.0, a crafted PDF can provide unusually large Roman page-label values that cause pypdf/_page_labels.py to generate excessively large numeral strings when an application r…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102993",
-      "published": "2026-09-30T20:17:27.630000+00:00"
-    },
-    {
-      "id": "687401593654dbdb",
-      "kind": "cve",
-      "cve": "CVE-2026-101885",
-      "title": "CVE-2026-101885",
-      "summary": "ZeroClaw versions before 0.8.5 built with plugins-wasm feature contain a path traversal vulnerability in plugin installation that fails to validate the wasm_path manifest field. Attackers can convince users to install crafted plugins that w…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101885",
-      "published": "2026-09-30T20:17:21.157000+00:00"
-    },
-    {
-      "id": "8ecd2ef06a041270",
-      "kind": "cve",
-      "cve": "CVE-2026-101884",
-      "title": "CVE-2026-101884",
-      "summary": "OpenClaw Windows Node before 2026.7.1 contains an incomplete environment-variable sanitizer in system.run that fails to block GIT_CONFIG_*, DOTNET_STARTUP_HOOKS, and JAVA_TOOL_OPTIONS variables. Attackers with gateway or agent access can su…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101884",
-      "published": "2026-09-30T20:17:20.663000+00:00"
-    },
-    {
-      "id": "d028911567b516bd",
-      "kind": "cve",
-      "cve": "CVE-2026-101880",
-      "title": "CVE-2026-101880",
-      "summary": "OpenClaw Windows Node before 2026.7.1 contains an incorrect authorization vulnerability in the system.run exec-approval policy where ExecShellWrapperParser fails to split commands on pipe operators or extract command substitutions. Connecte…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101880",
-      "published": "2026-09-30T20:17:18.857000+00:00"
-    },
-    {
-      "id": "1329f59b9dd84a64",
-      "kind": "cve",
-      "cve": "CVE-2026-103474",
-      "title": "CVE-2026-103474",
-      "summary": "yii2-starter-kit through 4.2.0 fails to validate file types in the backend storage upload actions, allowing authenticated managers to upload PHP files. Attackers with manager role can upload PHP scripts to the web-accessible storage directo…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103474",
-      "published": "2026-09-30T18:18:17.647000+00:00"
-    },
-    {
-      "id": "19de6524334cb383",
-      "kind": "cve",
-      "cve": "CVE-2026-102490",
-      "title": "CVE-2026-102490",
-      "summary": "All versions of Zammad including the latest alpha enable the local zammad user to escalate privileges to root.",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490",
-      "published": "2026-09-30T17:16:40.707000+00:00"
-    },
-    {
-      "id": "d28df5e6146501b4",
-      "kind": "cve",
-      "cve": "CVE-2026-102489",
-      "title": "CVE-2026-102489",
-      "summary": "Zammad versions 6.3.0 to 6.5.4 are vulnerable a session hijack vulnerability that leads to remote code execution as the zammad user. The vulnerability is also present in version 7.0.0 to version 7.1.3, but not exploitable due to environment…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489",
-      "published": "2026-09-30T17:16:40.550000+00:00"
-    },
-    {
       "id": "03776a47da597a08",
       "kind": "research",
       "cve": "CVE-2026-73570",
@@ -1225,125 +1089,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
       "published": "2026-09-30T16:32:59+00:00"
-    },
-    {
-      "id": "7472012332a27daa",
-      "kind": "cve",
-      "cve": "CVE-2026-103229",
-      "title": "CVE-2026-103229",
-      "summary": "A vulnerability was found in AdithyaYelloju Restaurant-Management-System up to 7f0e7e84255e8fcfd488e83f8f91451bbbff6b9c. This issue affects the function mysqli_query of the file admin/delete1.php of the component Unauthenticated Action Scri…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103229",
-      "published": "2026-09-30T16:17:08.243000+00:00"
-    },
-    {
-      "id": "b6f93000c5af11dd",
-      "kind": "cve",
-      "cve": "CVE-2026-102427",
-      "title": "CVE-2026-102427",
-      "summary": "Joomla Extension - ordasoft.com - Unauthenticated Remote Code Execution in OrdaSoft Joomla CCK < 8.3.16 - site/uploader.php is reached through the component’s normal frontend routing (task=getContent), a task with no authentication or ACL c…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102427",
-      "published": "2026-09-30T16:17:06.623000+00:00"
-    },
-    {
-      "id": "f53760a9dbd8b560",
-      "kind": "cve",
-      "cve": "CVE-2026-100277",
-      "title": "CVE-2026-100277",
-      "summary": "In JetBrains YouTrack before 2026.2.19197 account takeover was possible by replaying a notification signature",
-      "severity": "HIGH",
-      "score": 8.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100277",
-      "published": "2026-09-30T16:16:59.380000+00:00"
-    },
-    {
-      "id": "2ea3ed8cfb032f82",
-      "kind": "cve",
-      "cve": "CVE-2026-100276",
-      "title": "CVE-2026-100276",
-      "summary": "In JetBrains YouTrack before 2026.2.19197 guest users could remove a workflow action's visibility restriction and run the action",
-      "severity": "MEDIUM",
-      "score": 5.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100276",
-      "published": "2026-09-30T16:16:59.223000+00:00"
-    },
-    {
-      "id": "d542a80c6ab383e3",
-      "kind": "cve",
-      "cve": "CVE-2026-100273",
-      "title": "CVE-2026-100273",
-      "summary": "In JetBrains YouTrack before 2026.2.19197 authorisation bypass in the scripts debugger allowed arbitrary code execution",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100273",
-      "published": "2026-09-30T16:16:58.720000+00:00"
-    },
-    {
-      "id": "c5c7f8b9df7b641a",
-      "kind": "cve",
-      "cve": "CVE-2026-100262",
-      "title": "CVE-2026-100262",
-      "summary": "In JetBrains YouTrack before 2026.2.18991 missing authorisation allowed users with read-only project access to overwrite project notification templates",
-      "severity": "HIGH",
-      "score": 7.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100262",
-      "published": "2026-09-30T16:16:57.120000+00:00"
-    },
-    {
-      "id": "8645f0a947e13d48",
-      "kind": "cve",
-      "cve": "CVE-2026-100255",
-      "title": "CVE-2026-100255",
-      "summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 administrator account takeover was possible via password reset",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100255",
-      "published": "2026-09-30T16:16:56.100000+00:00"
     },
     {
       "id": "31db54260bd2f67f",
@@ -1463,23 +1208,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
       "published": "2026-09-30T10:45:00+00:00"
-    },
-    {
-      "id": "c474f159f5a43535",
-      "kind": "cve",
-      "cve": "CVE-2026-102578",
-      "title": "CVE-2026-102578",
-      "summary": "A flaw was found in Moodle. An authenticated attacker with access to the question bank web service can submit unsanitized input directly into database queries, resulting in a SQL (Structured Query Language) injection vulnerability. This iss…",
-      "severity": "MEDIUM",
-      "score": 5.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102578",
-      "published": "2026-09-30T09:17:14.810000+00:00"
     },
     {
       "id": "662a4b09ebb8570e",
@@ -4257,6 +3985,279 @@
       "product": "",
       "url": "https://labs.watchtowr.com/citrixbleed-to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451/",
       "published": "2026-06-30T19:35:58+00:00"
+    },
+    {
+      "id": "4cb02bd8a6c62d99",
+      "kind": "research",
+      "cve": "CVE-2026-8037",
+      "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037)",
+      "summary": "Welcome back to another watchTowr Labs blog post. This time, we&apos;re looking at Progress Kemp LoadMaster, a load balancer that sits at the edge of a lot of enterprise networks. Edge appliances have a habit of becoming the way in rather t…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
+      "published": "2026-06-29T19:24:54+00:00"
+    },
+    {
+      "id": "6025526b87d6e5ed",
+      "kind": "cve",
+      "cve": "CVE-2026-48558",
+      "title": "SimpleHelp Authentication Bypass Vulnerability",
+      "summary": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vu…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "SimpleHelp ",
+      "product": "SimpleHelp",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48558",
+      "published": "2026-06-29T00:00:00+00:00"
+    },
+    {
+      "id": "7202501c151746ab",
+      "kind": "cve",
+      "cve": "CVE-2026-12569",
+      "title": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+      "summary": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "PTC",
+      "product": "Windchill and FlexPLM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12569",
+      "published": "2026-06-25T00:00:00+00:00"
+    },
+    {
+      "id": "6f3b367dd113d15d",
+      "kind": "cve",
+      "cve": "CVE-2026-20230",
+      "title": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+      "summary": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote at…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Unified Communications Manager",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230",
+      "published": "2026-06-25T00:00:00+00:00"
+    },
+    {
+      "id": "52d57a1d99dd0898",
+      "kind": "cve",
+      "cve": "CVE-2025-67038",
+      "title": "Lantronix EDS5000 Code Injection Vulnerability",
+      "summary": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Lantronix",
+      "product": "EDS5000",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "id": "7a710b361560f51e",
+      "kind": "cve",
+      "cve": "CVE-2026-34910",
+      "title": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+      "summary": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "id": "c9c1f14b593f0bd4",
+      "kind": "cve",
+      "cve": "CVE-2026-34909",
+      "title": "Ubiquiti UniFi OS Path Traversal Vulnerability",
+      "summary": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "id": "fb5f7f2cc98f88e2",
+      "kind": "cve",
+      "cve": "CVE-2026-34908",
+      "title": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+      "summary": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908",
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "id": "10d87533a665bcff",
+      "kind": "research",
+      "cve": null,
+      "title": "The Vulnerability Curve Bent With the AI Curve",
+      "summary": "How CVE volume, known-exploited counts and time-to-exploit all changed shape across the LLM build-out and why defenders are now on the wrong side of the clock. In 2018 the world published about 18,000 CVEs and the average vulnerability took…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/the-vulnerability-curve-bent-with-the-ai-curve",
+      "published": "2026-06-18T18:32:03+00:00"
+    },
+    {
+      "id": "6ca5e32e51193a41",
+      "kind": "cve",
+      "cve": "CVE-2026-20253",
+      "title": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+      "summary": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Splunk",
+      "product": "Enterprise",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20253",
+      "published": "2026-06-18T00:00:00+00:00"
+    },
+    {
+      "id": "8cdd5f1335e50bd1",
+      "kind": "cve",
+      "cve": "CVE-2026-48907",
+      "title": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+      "summary": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Widget Factory",
+      "product": "Joomla Content Editor ",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48907",
+      "published": "2026-06-16T00:00:00+00:00"
+    },
+    {
+      "id": "a0eeeffc26fa4e3f",
+      "kind": "research",
+      "cve": null,
+      "title": "Continuous PR Security Review",
+      "summary": "The security findings that end up in incident post-mortems rarely looked dangerous in the PR that introduced them. Not because anyone was careless but because there's nothing in the change that looks wrong. The code does exactly what it say…",
+      "severity": "",
+      "score": null,
+      "source": "ProjectDiscovery",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://projectdiscovery.io/blog/continuous-pr-security-review",
+      "published": "2026-06-15T16:26:15+00:00"
+    },
+    {
+      "id": "7242e375734ecf4a",
+      "kind": "cve",
+      "cve": "CVE-2026-54420",
+      "title": "LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability",
+      "summary": "LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "LiteSpeed",
+      "product": "cPanel Plugin",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54420",
+      "published": "2026-06-15T00:00:00+00:00"
+    },
+    {
+      "id": "91bd1e0c569db84c",
+      "kind": "cve",
+      "cve": "CVE-2026-20262",
+      "title": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+      "summary": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20262",
+      "published": "2026-06-15T00:00:00+00:00"
+    },
+    {
+      "id": "b1f8c189922ad99d",
+      "kind": "research",
+      "cve": "CVE-2026-20253",
+      "title": "Why Use App-Level Auth When Every Database Has Auth? (Splunk Enterprise CVE-2026-20253 Pre-Auth RCE)",
+      "summary": "Three posts? In three days? Are we insane? We&apos;re home alone, there&apos;s no one to stop us, and we&apos;re up past bedtime. So, we need to talk about Splunk. On June 10th, Splunk published this CVE-2026-20253 advisory : It has everyth…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/why-use-app-level-auth-when-every-database-has-auth-splunk-enterprise-cve-2026-20253-pre-auth-rce/",
+      "published": "2026-06-12T20:35:13+00:00"
+    },
+    {
+      "id": "2b7352fc235caa79",
+      "kind": "research",
+      "cve": "CVE-2026-50751",
+      "title": "Marking Your Own Homework (Check Point Remote Access VPN IKEv1 Authentication Bypass CVE-2026-50751)",
+      "summary": "It is yet another day in this parallel universe of security, where the devices we bolt onto the edge of our networks to keep the bad people out are, with remarkable consistency, the exact thing that let the bad people in. While we&#x2019;ve…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/marking-your-own-homework-check-point-remote-access-vpn-ikev1-authentication-bypass-cve-2026-50751/",
+      "published": "2026-06-12T05:17:20+00:00"
     }
   ]
 }
