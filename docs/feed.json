@@ -1,7 +1,245 @@
 {
-  "generated": "2026-10-04T12:57:25.939000+00:00",
+  "generated": "2026-10-04T17:16:20.170388+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "40cbd15da01bd4c8",
+      "kind": "cve",
+      "cve": "CVE-2026-105089",
+      "title": "CVE-2026-105089",
+      "summary": "WWBN AVideo through 29.2.0 contains a stored cross-site scripting vulnerability that allows users with upload permission to inject script by setting a malicious video trailer1 URL. The value is rendered unescaped in YouPHPFlix2 templates an…",
+      "severity": "HIGH",
+      "score": 8.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105089",
+      "published": "2026-10-04T16:16:30.330000+00:00"
+    },
+    {
+      "id": "82accf17c5c8db81",
+      "kind": "cve",
+      "cve": "CVE-2026-105086",
+      "title": "CVE-2026-105086",
+      "summary": "WWBN AVideo 12.4 through 29.2.0 contains a stored cross-site scripting vulnerability that allows authenticated uploaders to inject HTML by submitting doubly-encoded entities in video titles. Because safeString() strips tags before decoding…",
+      "severity": "HIGH",
+      "score": 8.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105086",
+      "published": "2026-10-04T16:16:30.183000+00:00"
+    },
+    {
+      "id": "4ccb3cbeb862c1be",
+      "kind": "cve",
+      "cve": "CVE-2026-105215",
+      "title": "CVE-2026-105215",
+      "summary": "ZITADEL before 3.4.14 and 4.x before 4.16.2 contains an authentication bypass in the hosted Login V1 UI because the 'external account not found' registration endpoint trusts client-supplied external identity fields without a completed IdP c…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105215",
+      "published": "2026-10-04T15:16:32.993000+00:00"
+    },
+    {
+      "id": "ff78ee1b0413a566",
+      "kind": "cve",
+      "cve": "CVE-2026-105213",
+      "title": "CVE-2026-105213",
+      "summary": "ZITADEL 4.x before 4.17.1 does not check an organization's inactive state during Login V2 authentication, verifying only the individual user's status. Users of a deactivated organization who hold valid credentials, an existing session, or a…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105213",
+      "published": "2026-10-04T15:16:32.687000+00:00"
+    },
+    {
+      "id": "c5ed065b4ea7c34a",
+      "kind": "cve",
+      "cve": "CVE-2026-105212",
+      "title": "CVE-2026-105212",
+      "summary": "ZITADEL 3.x before 3.4.14 and 4.x before 4.16.2 contains an authentication bypass in the hosted Login V1 and Login V2 UIs that accepts passkey or other authenticator enrollment on identify-only login sessions, before any primary factor is v…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105212",
+      "published": "2026-10-04T15:16:32.520000+00:00"
+    },
+    {
+      "id": "d4dbdb3b91edfbef",
+      "kind": "cve",
+      "cve": "CVE-2026-105211",
+      "title": "CVE-2026-105211",
+      "summary": "ZITADEL before 4.17.1 contains an authentication bypass vulnerability in Login V2 that allows unauthenticated attackers to take over accounts by obtaining OTP codes via the returnCode delivery type. Attackers knowing a login name of a victi…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105211",
+      "published": "2026-10-04T15:16:32.333000+00:00"
+    },
+    {
+      "id": "06f77e7b8e9375c3",
+      "kind": "cve",
+      "cve": "CVE-2026-105210",
+      "title": "CVE-2026-105210",
+      "summary": "ZITADEL 3.x before 3.4.15 and 4.x before 4.17.1 contains a missing authentication flaw in the hosted Login V1 UI, whose second-factor enrollment and initialization handlers act on an identify-only session before any primary factor is verifi…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105210",
+      "published": "2026-10-04T15:16:32.170000+00:00"
+    },
+    {
+      "id": "b2cd7752e7688055",
+      "kind": "cve",
+      "cve": "CVE-2026-105209",
+      "title": "CVE-2026-105209",
+      "summary": "ZITADEL 3.x before 3.4.15 and 4.x before 4.17.1 contains an improper authorization vulnerability: when issuing passkey or passwordless enrollment codes, it checks only the organization in the x-zitadel-orgid header, not the target user's or…",
+      "severity": "CRITICAL",
+      "score": 9.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105209",
+      "published": "2026-10-04T15:16:32.007000+00:00"
+    },
+    {
+      "id": "f5abaca2d1c4e288",
+      "kind": "cve",
+      "cve": "CVE-2026-105208",
+      "title": "CVE-2026-105208",
+      "summary": "ZITADEL 4.x before 4.17.3 and 3.x through 3.4.15 protects IdP intent tokens with unauthenticated, malleable encryption, allowing authenticated users to tamper with their own token so it is accepted for another user's external login intent.…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105208",
+      "published": "2026-10-04T15:16:31.843000+00:00"
+    },
+    {
+      "id": "6cebf1e89f0226a8",
+      "kind": "cve",
+      "cve": "CVE-2026-105207",
+      "title": "CVE-2026-105207",
+      "summary": "ZITADEL 3.0.0 through 3.4.15 and 4.0.0 before 4.17.3 creates links between user accounts and external identity providers without verifying a primary factor or the caller's permission, including on identify-only Login V2 sessions and via the…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105207",
+      "published": "2026-10-04T15:16:31.677000+00:00"
+    },
+    {
+      "id": "6c717ef688dd58af",
+      "kind": "cve",
+      "cve": "CVE-2026-105158",
+      "title": "CVE-2026-105158",
+      "summary": "A vulnerability was detected in RainyGao DocSys up to 2.02.85. The impacted element is the function BaseController.createDBForMysql of the file BaseController.java of the component Database Management. The manipulation of the argument url r…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105158",
+      "published": "2026-10-04T15:16:31.150000+00:00"
+    },
+    {
+      "id": "448138e9d5a45389",
+      "kind": "cve",
+      "cve": "CVE-2026-105149",
+      "title": "CVE-2026-105149",
+      "summary": "A security flaw has been discovered in mooSocial up to 3.2.4. This issue affects some unknown processing of the file /stores/all-products. Performing a manipulation of the argument rating results in sql injection. The attack may be initiate…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105149",
+      "published": "2026-10-04T13:16:55.923000+00:00"
+    },
+    {
+      "id": "84597632e2611a01",
+      "kind": "cve",
+      "cve": "CVE-2026-105148",
+      "title": "CVE-2026-105148",
+      "summary": "A vulnerability was identified in SciPhi-AI R2R up to 3.6.6. This vulnerability affects unknown code of the file py/shared/abstractions/llm.py of the component Retrieval Completion API Endpoint. Such manipulation of the argument generation_…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105148",
+      "published": "2026-10-04T13:16:55.733000+00:00"
+    },
+    {
+      "id": "4cff71d8bc63a888",
+      "kind": "cve",
+      "cve": "CVE-2026-105147",
+      "title": "CVE-2026-105147",
+      "summary": "A vulnerability was determined in SciPhi-AI R2R up to 3.6.6. This affects an unknown part of the component JWT Secret Handler. This manipulation of the argument DEFAULT_BCRYPT_SECRET_KEY/DEFAULT_NACL_SECRET_KEY causes hard-coded credentials…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105147",
+      "published": "2026-10-04T13:16:54.773000+00:00"
+    },
     {
       "id": "c45b408e21ef0dad",
       "kind": "research",
@@ -4018,246 +4256,6 @@
       "product": "ColdFusion",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282",
       "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "67114ad22bf7c88c",
-      "kind": "research",
-      "cve": null,
-      "title": "It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)",
-      "summary": "We&#x2019;re back, melting - we&#x2019;ve tried shouting, screaming, and throwing things at the Sun, and it is just not working. Before we begin our analysis, we want to be clear - given the number of vulnerabilities fixed (and some not men…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/",
-      "published": "2026-07-02T16:38:28+00:00"
-    },
-    {
-      "id": "093432cd2e7000cd",
-      "kind": "cve",
-      "cve": "CVE-2026-45659",
-      "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
-      "summary": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45659",
-      "published": "2026-07-01T00:00:00+00:00"
-    },
-    {
-      "id": "b577802c68fd64b5",
-      "kind": "research",
-      "cve": "CVE-2026-8451",
-      "title": "CitrixBleed To Infinity And Beyond (Citrix NetScaler Pre-Auth Memory Overread CVE-2026-8451)",
-      "summary": "Well, well, well - once again, the cat has dragged us in and spat us out. Today, we find ourselves questioning the reality we sit within. Must it be so predictable, and why us? &#x201c;But watchTowr, what do you mean?&#x201d; Well, if you&#…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/citrixbleed-to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451/",
-      "published": "2026-06-30T19:35:58+00:00"
-    },
-    {
-      "id": "4cb02bd8a6c62d99",
-      "kind": "research",
-      "cve": "CVE-2026-8037",
-      "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037)",
-      "summary": "Welcome back to another watchTowr Labs blog post. This time, we&apos;re looking at Progress Kemp LoadMaster, a load balancer that sits at the edge of a lot of enterprise networks. Edge appliances have a habit of becoming the way in rather t…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
-      "published": "2026-06-29T19:24:54+00:00"
-    },
-    {
-      "id": "6025526b87d6e5ed",
-      "kind": "cve",
-      "cve": "CVE-2026-48558",
-      "title": "SimpleHelp Authentication Bypass Vulnerability",
-      "summary": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vu…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "SimpleHelp ",
-      "product": "SimpleHelp",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48558",
-      "published": "2026-06-29T00:00:00+00:00"
-    },
-    {
-      "id": "7202501c151746ab",
-      "kind": "cve",
-      "cve": "CVE-2026-12569",
-      "title": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
-      "summary": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "PTC",
-      "product": "Windchill and FlexPLM",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12569",
-      "published": "2026-06-25T00:00:00+00:00"
-    },
-    {
-      "id": "6f3b367dd113d15d",
-      "kind": "cve",
-      "cve": "CVE-2026-20230",
-      "title": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
-      "summary": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote at…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Unified Communications Manager",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230",
-      "published": "2026-06-25T00:00:00+00:00"
-    },
-    {
-      "id": "52d57a1d99dd0898",
-      "kind": "cve",
-      "cve": "CVE-2025-67038",
-      "title": "Lantronix EDS5000 Code Injection Vulnerability",
-      "summary": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Lantronix",
-      "product": "EDS5000",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "7a710b361560f51e",
-      "kind": "cve",
-      "cve": "CVE-2026-34910",
-      "title": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "c9c1f14b593f0bd4",
-      "kind": "cve",
-      "cve": "CVE-2026-34909",
-      "title": "Ubiquiti UniFi OS Path Traversal Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "fb5f7f2cc98f88e2",
-      "kind": "cve",
-      "cve": "CVE-2026-34908",
-      "title": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
-      "summary": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908",
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
-      "id": "10d87533a665bcff",
-      "kind": "research",
-      "cve": null,
-      "title": "The Vulnerability Curve Bent With the AI Curve",
-      "summary": "How CVE volume, known-exploited counts and time-to-exploit all changed shape across the LLM build-out and why defenders are now on the wrong side of the clock. In 2018 the world published about 18,000 CVEs and the average vulnerability took…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/the-vulnerability-curve-bent-with-the-ai-curve",
-      "published": "2026-06-18T18:32:03+00:00"
-    },
-    {
-      "id": "6ca5e32e51193a41",
-      "kind": "cve",
-      "cve": "CVE-2026-20253",
-      "title": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
-      "summary": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Splunk",
-      "product": "Enterprise",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20253",
-      "published": "2026-06-18T00:00:00+00:00"
-    },
-    {
-      "id": "8cdd5f1335e50bd1",
-      "kind": "cve",
-      "cve": "CVE-2026-48907",
-      "title": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
-      "summary": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Widget Factory",
-      "product": "Joomla Content Editor ",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48907",
-      "published": "2026-06-16T00:00:00+00:00"
     }
   ]
 }
