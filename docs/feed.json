@@ -1,7 +1,58 @@
 {
-  "generated": "2026-10-04T17:16:20.170388+00:00",
+  "generated": "2026-10-04T20:40:40.128686+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "1c2ea3bfa878dc60",
+      "kind": "cve",
+      "cve": "CVE-2026-105219",
+      "title": "CVE-2026-105219",
+      "summary": "Mammoth.js 1.3.0 before 1.12.3 contains a regular expression denial of service vulnerability in the style map tokeniser in lib/styles/parser/tokeniser.js due to overlapping regex alternatives. Attackers can supply a crafted .docx with an un…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105219",
+      "published": "2026-10-04T18:16:34.777000+00:00"
+    },
+    {
+      "id": "7d7b943d6f6abd4c",
+      "kind": "cve",
+      "cve": "CVE-2026-105218",
+      "title": "CVE-2026-105218",
+      "summary": "gopay before 1.5.119 disables TLS certificate verification in defaultClient() in pkg/xhttp/client.go, allowing man-in-the-middle attackers to impersonate payment provider APIs. Attackers can present any certificate to read merchant credenti…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105218",
+      "published": "2026-10-04T18:16:34.630000+00:00"
+    },
+    {
+      "id": "2f566218fe4524ab",
+      "kind": "cve",
+      "cve": "CVE-2026-105216",
+      "title": "CVE-2026-105216",
+      "summary": "go-micro before 6.0.0 contains an improper certificate validation vulnerability that allows network attackers to impersonate services because the shared TLS helper sets InsecureSkipVerify to true by default. Man-in-the-middle attackers can…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105216",
+      "published": "2026-10-04T18:16:34.287000+00:00"
+    },
     {
       "id": "40cbd15da01bd4c8",
       "kind": "cve",
@@ -375,6 +426,23 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105123",
       "published": "2026-10-04T00:16:35.703000+00:00"
+    },
+    {
+      "id": "39eada62e336b914",
+      "kind": "cve",
+      "cve": "CVE-2026-88779",
+      "title": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+      "summary": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Citrix",
+      "product": "NetScaler",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779",
+      "published": "2026-10-04T00:00:00+00:00"
     },
     {
       "id": "2b6adb625a29b35c",
@@ -4188,74 +4256,6 @@
       "product": "iCagenda",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48939",
       "published": "2026-07-10T00:00:00+00:00"
-    },
-    {
-      "id": "545d56cad8908ebf",
-      "kind": "cve",
-      "cve": "CVE-2026-48908",
-      "title": "JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "summary": "JoomShaper SP Page Builder contains an unrestricted upload of file with dangerous type vulnerability that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and execution of PHP code.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "JoomShaper",
-      "product": "SP Page Builder",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48908",
-      "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "f6ca726433d5ffcf",
-      "kind": "cve",
-      "cve": "CVE-2026-55255",
-      "title": "Langflow Authorization Bypass Through User-Controlled Key Vulnerability",
-      "summary": "Langflow contains an authorization bypass through user-controlled key vulnerability which allows an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow ID in the request.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55255",
-      "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "3140056303388282",
-      "kind": "cve",
-      "cve": "CVE-2026-56290",
-      "title": "Joomlack Page Builder Improper Access Control Vulnerability",
-      "summary": "Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Joomlack",
-      "product": "Page Builder",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-56290",
-      "published": "2026-07-07T00:00:00+00:00"
-    },
-    {
-      "id": "d950a00daa6d3c03",
-      "kind": "cve",
-      "cve": "CVE-2026-48282",
-      "title": "Adobe ColdFusion Path Traversal Vulnerability",
-      "summary": "Adobe ColdFusion contains a path traversal vulnerability that could lead to arbitrary code execution in the context of the current user.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Adobe",
-      "product": "ColdFusion",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48282",
-      "published": "2026-07-07T00:00:00+00:00"
     }
   ]
 }
