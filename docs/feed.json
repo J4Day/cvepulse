@@ -1,7 +1,41 @@
 {
-  "generated": "2026-10-06T20:40:12.004042+00:00",
+  "generated": "2026-10-07T00:14:45.390878+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "92f54d58575a5e6a",
+      "kind": "cve",
+      "cve": "CVE-2026-106062",
+      "title": "CVE-2026-106062",
+      "summary": "A heap-based buffer overflow was found in GIMP’s DirectDraw Surface (DDS) loader. When loading a crafted DDS image, buffer sizes derived from width, height, and pitch can be computed using 32-bit arithmetic that overflows. The allocated buf…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106062",
+      "published": "2026-10-06T21:17:04.903000+00:00"
+    },
+    {
+      "id": "1202ad668c82d28d",
+      "kind": "cve",
+      "cve": "CVE-2026-101258",
+      "title": "CVE-2026-101258",
+      "summary": "A flaw was found in Ghostscript. When Ghostscript renders a crafted PostScript or EPS document, it can bypass the -dSAFER sandbox and execute arbitrary shell commands in the context of the Ghostscript process. The issue chains memory corrup…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101258",
+      "published": "2026-10-06T21:17:02.120000+00:00"
+    },
     {
       "id": "01a390bba9bba3a0",
       "kind": "cve",
@@ -700,23 +734,6 @@
       "published": "2026-10-05T06:16:57.610000+00:00"
     },
     {
-      "id": "3a7c89618a724273",
-      "kind": "cve",
-      "cve": "CVE-2026-105182",
-      "title": "CVE-2026-105182",
-      "summary": "A security flaw has been discovered in SourceCodester Online Reviewer Management System 1.0. Impacted is an unknown function of the file /reviewer_0/admins/assessments/activities/btn_functions.php?action=update. The manipulation of the argu…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105182",
-      "published": "2026-10-05T03:16:38.543000+00:00"
-    },
-    {
       "id": "deda64e494a62f80",
       "kind": "research",
       "cve": null,
@@ -734,23 +751,6 @@
       "published": "2026-10-05T02:00:02+00:00"
     },
     {
-      "id": "9d4b14b1c766a235",
-      "kind": "cve",
-      "cve": "CVE-2026-105170",
-      "title": "CVE-2026-105170",
-      "summary": "A weakness has been identified in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c. Affected is an unknown function of the file admin/signup.php of the component Admin…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105170",
-      "published": "2026-10-05T00:16:58.720000+00:00"
-    },
-    {
       "id": "028b11ee27594c14",
       "kind": "research",
       "cve": null,
@@ -766,74 +766,6 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33396",
       "published": "2026-10-05T00:15:00+00:00"
-    },
-    {
-      "id": "45db26ee990d1655",
-      "kind": "cve",
-      "cve": "CVE-2026-105166",
-      "title": "CVE-2026-105166",
-      "summary": "A vulnerability was found in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c. The affected element is the function insert of the file fooddonateform.php of the compone…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105166",
-      "published": "2026-10-04T23:16:59.287000+00:00"
-    },
-    {
-      "id": "40cbd15da01bd4c8",
-      "kind": "cve",
-      "cve": "CVE-2026-105089",
-      "title": "CVE-2026-105089",
-      "summary": "WWBN AVideo through 29.2.0 contains a stored cross-site scripting vulnerability that allows users with upload permission to inject script by setting a malicious video trailer1 URL. The value is rendered unescaped in YouPHPFlix2 templates an…",
-      "severity": "HIGH",
-      "score": 8.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105089",
-      "published": "2026-10-04T16:16:30.330000+00:00"
-    },
-    {
-      "id": "6cebf1e89f0226a8",
-      "kind": "cve",
-      "cve": "CVE-2026-105207",
-      "title": "CVE-2026-105207",
-      "summary": "ZITADEL 3.0.0 through 3.4.15 and 4.0.0 before 4.17.3 creates links between user accounts and external identity providers without verifying a primary factor or the caller's permission, including on identify-only Login V2 sessions and via the…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105207",
-      "published": "2026-10-04T15:16:31.677000+00:00"
-    },
-    {
-      "id": "448138e9d5a45389",
-      "kind": "cve",
-      "cve": "CVE-2026-105149",
-      "title": "CVE-2026-105149",
-      "summary": "A security flaw has been discovered in mooSocial up to 3.2.4. This issue affects some unknown processing of the file /stores/all-products. Performing a manipulation of the argument rating results in sql injection. The attack may be initiate…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105149",
-      "published": "2026-10-04T13:16:55.923000+00:00"
     },
     {
       "id": "c45b408e21ef0dad",
@@ -885,23 +817,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
       "published": "2026-10-04T07:20:32+00:00"
-    },
-    {
-      "id": "33b6f4cd4376e423",
-      "kind": "cve",
-      "cve": "CVE-2026-105135",
-      "title": "CVE-2026-105135",
-      "summary": "A vulnerability has been found in InternLM MindSearch 0.1.0. This issue affects the function ExecutionAction.run of the file mindsearch/agent/graph.py of the component Planner Agent. The manipulation of the argument inputs leads to code inj…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105135",
-      "published": "2026-10-04T07:16:33.693000+00:00"
     },
     {
       "id": "5884dfedb6d9644d",
@@ -4259,6 +4174,91 @@
       "product": "Sentry",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10520",
       "published": "2026-06-11T00:00:00+00:00"
+    },
+    {
+      "id": "a87887de0fe62558",
+      "kind": "research",
+      "cve": "CVE-2026-10520",
+      "title": "More Evidence That Words Don't Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520)",
+      "summary": "Today, Ivanti published an advisory. &#x201c;No way?&#x201d; we hear you say. &quot;Yes way!&quot; Today&#x2019;s advisory outlines two vulnerabilities in Ivanti&#x2019;s Sentry product, appealing directly to our inner desire for sophistica…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/more-evidence-that-words-dont-mean-what-we-thought-they-meant-ivanti-sentry-pre-auth-os-command-injection-cve-2026-10520/",
+      "published": "2026-06-10T00:52:20+00:00"
+    },
+    {
+      "id": "924ac277894af899",
+      "kind": "cve",
+      "cve": "CVE-2026-11645",
+      "title": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
+      "summary": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Google",
+      "product": "Chromium V8",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-11645",
+      "published": "2026-06-09T00:00:00+00:00"
+    },
+    {
+      "id": "ad05e4257cab107d",
+      "kind": "cve",
+      "cve": "CVE-2026-7473",
+      "title": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
+      "summary": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configure…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Arista",
+      "product": "Extensible Operating System",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7473",
+      "published": "2026-06-09T00:00:00+00:00"
+    },
+    {
+      "id": "e1b09c75e89f3cfc",
+      "kind": "cve",
+      "cve": "CVE-2026-20245",
+      "title": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
+      "summary": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a cr…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20245",
+      "published": "2026-06-09T00:00:00+00:00"
+    },
+    {
+      "id": "5d8e67eac79cfc18",
+      "kind": "cve",
+      "cve": "CVE-2026-42271",
+      "title": "BerriAI LiteLLM Command Injection Vulnerability",
+      "summary": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42271",
+      "published": "2026-06-08T00:00:00+00:00"
     }
   ]
 }
