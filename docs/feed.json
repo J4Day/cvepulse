@@ -1,7 +1,41 @@
 {
-  "generated": "2026-10-07T20:20:12.647408+00:00",
+  "generated": "2026-10-08T00:35:56.234485+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "17863a46692ea227",
+      "kind": "cve",
+      "cve": "CVE-2026-76268",
+      "title": "CVE-2026-76268",
+      "summary": "In Splunk Enterprise versions below 10.4.3 and 10.2.7, an unauthenticated user with network access to the Patroni Representational State Transfer (REST) Application Programming Interface (API) on a search head cluster member could execute a…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76268",
+      "published": "2026-10-07T21:17:17.607000+00:00"
+    },
+    {
+      "id": "dcc302aa94f078f4",
+      "kind": "cve",
+      "cve": "CVE-2026-76266",
+      "title": "CVE-2026-76266",
+      "summary": "In Splunk Enterprise versions below 10.4.3, 10.2.7, 10.0.10, and 9.4.15 on Linux, a local user who can run commands as the user account running Splunk Enterprise could cause an affected Linux package upgrade to run attacker-controlled opera…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76266",
+      "published": "2026-10-07T21:17:17.310000+00:00"
+    },
     {
       "id": "dd7f523bcd812d6d",
       "kind": "cve",
@@ -292,23 +326,6 @@
       "published": "2026-10-07T17:16:55.157000+00:00"
     },
     {
-      "id": "864e830bd9a81f8f",
-      "kind": "cve",
-      "cve": "CVE-2026-107207",
-      "title": "CVE-2026-107207",
-      "summary": "LMCache through 0.5.5 contains a server-side request forgery vulnerability in its frontend monitoring service that allows unauthenticated attackers to bypass the proxy allowlist by registering arbitrary hosts. Attackers can add entries via…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107207",
-      "published": "2026-10-07T16:17:45.617000+00:00"
-    },
-    {
       "id": "6ad8a15b4ab56f6e",
       "kind": "research",
       "cve": null,
@@ -426,23 +443,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106059",
       "published": "2026-10-07T12:17:09.100000+00:00"
-    },
-    {
-      "id": "b36449ab41f332cc",
-      "kind": "cve",
-      "cve": "CVE-2026-106058",
-      "title": "CVE-2026-106058",
-      "summary": "GitAhead through 2.7.1 contains an OS command injection vulnerability in src/git/Filter.cpp that allows malicious repositories to execute commands by substituting crafted filenames into clean/smudge filter commands. Attackers can ship files…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106058",
-      "published": "2026-10-07T12:17:08.920000+00:00"
     },
     {
       "id": "2e1e15e83be51d6e",
@@ -715,23 +715,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104334",
       "published": "2026-10-07T01:16:34.223000+00:00"
-    },
-    {
-      "id": "01a390bba9bba3a0",
-      "kind": "cve",
-      "cve": "CVE-2026-83550",
-      "title": "CVE-2026-83550",
-      "summary": "A flaw was found in postgres-exporter. Due to the blank import of `net/http/pprof`, debug endpoints are exposed on the unauthenticated metrics listener. A remote attacker within the cluster network can access these endpoints. This allows fo…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83550",
-      "published": "2026-10-06T19:18:16.280000+00:00"
     },
     {
       "id": "872705049f638504",
@@ -1244,40 +1227,6 @@
       "published": "2026-10-05T22:16:56.683000+00:00"
     },
     {
-      "id": "99be67b1b1cc0305",
-      "kind": "cve",
-      "cve": "CVE-2026-105385",
-      "title": "CVE-2026-105385",
-      "summary": "A vulnerability was determined in onetwothreeneth HospitalManagementSystem up to 9ef91ed6007314b6473110ed699dff76d158f61d. Affected by this vulnerability is an unknown functionality of the file transaction_details.php. Executing a manipulat…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105385",
-      "published": "2026-10-05T18:17:35.740000+00:00"
-    },
-    {
-      "id": "8a62c9539131b5c5",
-      "kind": "cve",
-      "cve": "CVE-2026-101919",
-      "title": "CVE-2026-101919",
-      "summary": "A flaw was found in the HyperShift operator. The operator copies user-provided Kubernetes configuration (kubeconfig) secrets directly into the privileged control plane namespace without proper validation or sanitization. An authenticated us…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101919",
-      "published": "2026-10-05T18:17:30.907000+00:00"
-    },
-    {
       "id": "cb207012cadc4c9d",
       "kind": "research",
       "cve": "CVE-2026-96940",
@@ -1363,23 +1312,6 @@
       "published": "2026-10-05T11:46:25+00:00"
     },
     {
-      "id": "4c9f95f082c80764",
-      "kind": "cve",
-      "cve": "CVE-2026-105290",
-      "title": "CVE-2026-105290",
-      "summary": "A vulnerability was determined in feelec-yishu feelcrm-os 1.0.0. This affects an unknown part of the file App/Feelcrm/Index/Controller/GoogleController.class.php of the component getCurlData Endpoint. Executing a manipulation of the argumen…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105290",
-      "published": "2026-10-05T11:16:46.807000+00:00"
-    },
-    {
       "id": "4a8712355bea80e4",
       "kind": "research",
       "cve": null,
@@ -1429,23 +1361,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
       "published": "2026-10-05T06:40:19+00:00"
-    },
-    {
-      "id": "1403508b29a2f953",
-      "kind": "cve",
-      "cve": "CVE-2026-105232",
-      "title": "CVE-2026-105232",
-      "summary": "A flaw has been found in kishor-23 food-waste-management-system 411989e3ecb82895e53dca7865f72145f03d7d93/b3a70b2c492dc9904de5be1ad9389bd79b87f82c. The impacted element is an unknown function of the file delivery/deliverysignup.php of the co…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105232",
-      "published": "2026-10-05T06:16:57.610000+00:00"
     },
     {
       "id": "deda64e494a62f80",
@@ -1531,23 +1446,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
       "published": "2026-10-04T07:20:32+00:00"
-    },
-    {
-      "id": "5884dfedb6d9644d",
-      "kind": "cve",
-      "cve": "CVE-2026-88779",
-      "title": "CVE-2026-88779",
-      "summary": "Vulnerability in NetScaler ADC and NetScaler Gateway. This issue affects ADC: before 14.1-73.41, before 13.1-64.28, before 14.1-73.41 FIPS, and before 13.1-37.282; Gateway: before 14.1-73.41 and before 13.1-64.28.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779",
-      "published": "2026-10-04T04:16:43.680000+00:00"
     },
     {
       "id": "39eada62e336b914",
@@ -4256,6 +4154,110 @@
       "product": "",
       "url": "https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/",
       "published": "2026-07-02T16:38:28+00:00"
+    },
+    {
+      "id": "093432cd2e7000cd",
+      "kind": "cve",
+      "cve": "CVE-2026-45659",
+      "title": "Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability",
+      "summary": "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "Microsoft",
+      "product": "SharePoint Server",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-45659",
+      "published": "2026-07-01T00:00:00+00:00"
+    },
+    {
+      "id": "b577802c68fd64b5",
+      "kind": "research",
+      "cve": "CVE-2026-8451",
+      "title": "CitrixBleed To Infinity And Beyond (Citrix NetScaler Pre-Auth Memory Overread CVE-2026-8451)",
+      "summary": "Well, well, well - once again, the cat has dragged us in and spat us out. Today, we find ourselves questioning the reality we sit within. Must it be so predictable, and why us? &#x201c;But watchTowr, what do you mean?&#x201d; Well, if you&#…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/citrixbleed-to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451/",
+      "published": "2026-06-30T19:35:58+00:00"
+    },
+    {
+      "id": "4cb02bd8a6c62d99",
+      "kind": "research",
+      "cve": "CVE-2026-8037",
+      "title": "Enterprise Tech In, Shell Out (Progress Kemp LoadMaster Uninitialized Heap to Pre-Auth RCE CVE-2026-8037)",
+      "summary": "Welcome back to another watchTowr Labs blog post. This time, we&apos;re looking at Progress Kemp LoadMaster, a load balancer that sits at the edge of a lot of enterprise networks. Edge appliances have a habit of becoming the way in rather t…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
+      "published": "2026-06-29T19:24:54+00:00"
+    },
+    {
+      "id": "6025526b87d6e5ed",
+      "kind": "cve",
+      "cve": "CVE-2026-48558",
+      "title": "SimpleHelp Authentication Bypass Vulnerability",
+      "summary": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vu…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "SimpleHelp ",
+      "product": "SimpleHelp",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48558",
+      "published": "2026-06-29T00:00:00+00:00"
+    },
+    {
+      "id": "7202501c151746ab",
+      "kind": "cve",
+      "cve": "CVE-2026-12569",
+      "title": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+      "summary": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV",
+        "RANSOMWARE"
+      ],
+      "vendor": "PTC",
+      "product": "Windchill and FlexPLM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12569",
+      "published": "2026-06-25T00:00:00+00:00"
+    },
+    {
+      "id": "6f3b367dd113d15d",
+      "kind": "cve",
+      "cve": "CVE-2026-20230",
+      "title": "Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability",
+      "summary": "Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that could allow an unauthenticated, remote at…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Cisco",
+      "product": "Unified Communications Manager",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230",
+      "published": "2026-06-25T00:00:00+00:00"
     }
   ]
 }
