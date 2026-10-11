@@ -1,7 +1,313 @@
 {
-  "generated": "2026-10-11T11:06:59.734661+00:00",
+  "generated": "2026-10-11T17:03:50.136345+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "92f2449f15f8cc19",
+      "kind": "cve",
+      "cve": "CVE-2026-108905",
+      "title": "CVE-2026-108905",
+      "summary": "pH7Builder (pH7 Social Dating CMS) before 18.6.0 contains a hard-coded API key vulnerability in Tool.class.php that allows unauthenticated attackers to bypass API access checks by spoofing the Host header. Attackers can send Host: localhost…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108905",
+      "published": "2026-10-11T15:16:56.803000+00:00"
+    },
+    {
+      "id": "921ff97e3788fece",
+      "kind": "cve",
+      "cve": "CVE-2026-108902",
+      "title": "CVE-2026-108902",
+      "summary": "pH7Builder (pH7 Social Dating CMS) before 18.5.0 contains a path traversal vulnerability in the picture module deletePhoto() action that allows authenticated members to delete arbitrary files. Attackers can supply ../ sequences in the POST…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108902",
+      "published": "2026-10-11T15:16:56.337000+00:00"
+    },
+    {
+      "id": "98b7770e4f4ee309",
+      "kind": "cve",
+      "cve": "CVE-2026-108865",
+      "title": "CVE-2026-108865",
+      "summary": "AmoyLab Unla through 0.10.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to obtain valid access tokens because the OAuth2 server never authenticates a resource owner. Attackers can register a client,…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108865",
+      "published": "2026-10-11T14:17:06.640000+00:00"
+    },
+    {
+      "id": "359e0c03b3336f76",
+      "kind": "cve",
+      "cve": "CVE-2026-108863",
+      "title": "CVE-2026-108863",
+      "summary": "Katanemo Plano through 0.4.37 contains a missing authentication vulnerability that allows unauthenticated network attackers to access the Envoy admin interface, which is bound to all host interfaces on port 9901. Attackers can request the /…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108863",
+      "published": "2026-10-11T14:17:06.360000+00:00"
+    },
+    {
+      "id": "4a3d0fd4ba87b5bd",
+      "kind": "cve",
+      "cve": "CVE-2026-108860",
+      "title": "CVE-2026-108860",
+      "summary": "BotSharp through 5.2.0 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to forge bearer tokens using the hard-coded Jwt:Key in WebStarter appsettings.json. Attackers can sign tokens with the commi…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108860",
+      "published": "2026-10-11T14:17:05.933000+00:00"
+    },
+    {
+      "id": "66e794ad7d547f06",
+      "kind": "cve",
+      "cve": "CVE-2026-108859",
+      "title": "CVE-2026-108859",
+      "summary": "mcp-go through 1.2.1 contains a denial of service vulnerability in StreamableHTTPServer.ServeHTTP that allows remote unauthenticated attackers to exhaust memory by sending oversized POST bodies. Attackers can send arbitrarily large or many…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108859",
+      "published": "2026-10-11T14:17:05.780000+00:00"
+    },
+    {
+      "id": "2cb7dacf56afc19b",
+      "kind": "cve",
+      "cve": "CVE-2026-108853",
+      "title": "CVE-2026-108853",
+      "summary": "UnicomAI Wanwu before 0.6.3 contains an insecure direct object reference vulnerability that allows authenticated low-privileged users to delete other tenants' agent or RAG applications by supplying their appId. Attackers can send requests t…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108853",
+      "published": "2026-10-11T14:17:04.960000+00:00"
+    },
+    {
+      "id": "62aa3b537eb6f966",
+      "kind": "cve",
+      "cve": "CVE-2026-108760",
+      "title": "CVE-2026-108760",
+      "summary": "LlamaFarm through 0.0.34 contains an insecure default configuration that binds its unauthenticated FastAPI server to 0.0.0.0 on port 14345, while the lf CLI silently discards HOST overrides. Network-adjacent attackers can call the project a…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108760",
+      "published": "2026-10-11T13:17:21.310000+00:00"
+    },
+    {
+      "id": "61ccf727376bc03b",
+      "kind": "cve",
+      "cve": "CVE-2026-108758",
+      "title": "CVE-2026-108758",
+      "summary": "Easy!Appointments through 1.6.0 contains an authorization bypass vulnerability in Booking::register() that allows unauthenticated attackers to modify any appointment by supplying an appointment id without its hash. Attackers can enumerate s…",
+      "severity": "HIGH",
+      "score": 8.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108758",
+      "published": "2026-10-11T13:17:21.020000+00:00"
+    },
+    {
+      "id": "cf48bf7d0f6cf337",
+      "kind": "cve",
+      "cve": "CVE-2026-108753",
+      "title": "CVE-2026-108753",
+      "summary": "Agnaistic agnai through 1.0.555 contains a hard-coded credentials vulnerability in self-host.docker-compose.yml, which sets a fixed admin password and public JWT secret. Unauthenticated attackers can log in as admin or sign their own JWT wi…",
+      "severity": "CRITICAL",
+      "score": 9.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108753",
+      "published": "2026-10-11T13:17:20.237000+00:00"
+    },
+    {
+      "id": "19e563bf575e788d",
+      "kind": "cve",
+      "cve": "CVE-2026-108746",
+      "title": "CVE-2026-108746",
+      "summary": "Vearch 3.5.2 through 3.5.9 contains an incorrect authorization vulnerability in Role.HasPermissionForResources that ignores stored ReadOnly or None privilege levels for resources listed in a role. Authenticated non-root users can upsert and…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108746",
+      "published": "2026-10-11T13:17:19.230000+00:00"
+    },
+    {
+      "id": "4535ea44c6d6d4d9",
+      "kind": "cve",
+      "cve": "CVE-2026-108744",
+      "title": "CVE-2026-108744",
+      "summary": "pbi-cli 3.10.1 through 3.12.0 contains an OS command injection vulnerability in desktop_sync.py that passes unquoted .pbip paths to cmd /c start when reopening projects. Attackers can lure victims into opening a Power BI project from a spac…",
+      "severity": "HIGH",
+      "score": 7.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108744",
+      "published": "2026-10-11T13:17:18.957000+00:00"
+    },
+    {
+      "id": "9d2c8ee9c58c6ca5",
+      "kind": "cve",
+      "cve": "CVE-2026-108740",
+      "title": "CVE-2026-108740",
+      "summary": "GoatCounter through 2.7.0 contains a mass assignment privilege escalation vulnerability in the userPrefSave handler that allows logged-in users to modify protected account fields via form-encoded requests. Attackers with read-only access ca…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108740",
+      "published": "2026-10-11T13:17:18.527000+00:00"
+    },
+    {
+      "id": "b83ccd3fca020795",
+      "kind": "cve",
+      "cve": "CVE-2026-108739",
+      "title": "CVE-2026-108739",
+      "summary": "OpenAgents Workspace backend through launcher-v1.0.17 contains an information disclosure vulnerability that allows unauthenticated attackers to list all workspaces via GET /v1/workspaces. Attackers can read the unmasked browserfabric_api_ke…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108739",
+      "published": "2026-10-11T13:17:18.383000+00:00"
+    },
+    {
+      "id": "598f999b8fb446ae",
+      "kind": "cve",
+      "cve": "CVE-2026-108718",
+      "title": "CVE-2026-108718",
+      "summary": "Rill 0.77.0 through 0.90.5 contains a missing authorization vulnerability in the admin OAuth server that issues authorization codes to dynamically registered clients without user consent. Attackers can register a client with the long_lived_…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108718",
+      "published": "2026-10-11T13:17:15.020000+00:00"
+    },
+    {
+      "id": "eee2bc5ed79dc70c",
+      "kind": "cve",
+      "cve": "CVE-2026-108714",
+      "title": "CVE-2026-108714",
+      "summary": "MCP Kotlin SDK through 0.15.0 contains an uncontrolled memory allocation vulnerability that allows remote clients to exhaust server memory because Application.mcpWebSocket installs Ktor WebSockets without a maxFrameSize limit. Attackers can…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108714",
+      "published": "2026-10-11T13:17:14.430000+00:00"
+    },
+    {
+      "id": "f663999e7f35ab9b",
+      "kind": "cve",
+      "cve": "CVE-2026-108576",
+      "title": "CVE-2026-108576",
+      "summary": "A vulnerability was found in TOZED X300 up to 6.01.3. This vulnerability affects the function process_ping of the component IPPingDiagnostics Handler. The manipulation of the argument Host results in os command injection. The attack can be…",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108576",
+      "published": "2026-10-11T13:17:13.067000+00:00"
+    },
+    {
+      "id": "1079e40e610be23d",
+      "kind": "cve",
+      "cve": "CVE-2026-108571",
+      "title": "CVE-2026-108571",
+      "summary": "A weakness has been identified in Xinhu Rainrock RockOA up to 2.7.6. This impacts the function kqjcmdModel::returnchuli of the file webmain/task/openapi/openkqjAction.php of the component Openkqj Action. This manipulation of the argument ID…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108571",
+      "published": "2026-10-11T11:17:00.197000+00:00"
+    },
     {
       "id": "e8b0b38844be70ac",
       "kind": "cve",
@@ -360,23 +666,6 @@
       "published": "2026-10-10T09:16:39.360000+00:00"
     },
     {
-      "id": "405c0cf611ab1546",
-      "kind": "cve",
-      "cve": "CVE-2026-107657",
-      "title": "CVE-2026-107657",
-      "summary": "The HivePress – Business Directory, Listings & Classified Ads Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the ' ' parameter in all versions up to, and including, 1.7.31 due to insufficient input sanitization…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107657",
-      "published": "2026-10-10T09:16:38.940000+00:00"
-    },
-    {
       "id": "62262d39b0ff74ca",
       "kind": "research",
       "cve": null,
@@ -394,23 +683,6 @@
       "published": "2026-10-10T09:11:34+00:00"
     },
     {
-      "id": "2f9cd25054413e1a",
-      "kind": "cve",
-      "cve": "CVE-2026-96765",
-      "title": "CVE-2026-96765",
-      "summary": "The WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'id_token' parameter in all versions up to, and including, 44.1 due to insufficient input san…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96765",
-      "published": "2026-10-10T08:17:08.170000+00:00"
-    },
-    {
       "id": "3824d3c3180a36eb",
       "kind": "cve",
       "cve": "CVE-2026-96662",
@@ -426,23 +698,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96662",
       "published": "2026-10-10T08:17:08.033000+00:00"
-    },
-    {
-      "id": "89a316e237594185",
-      "kind": "cve",
-      "cve": "CVE-2026-96278",
-      "title": "CVE-2026-96278",
-      "summary": "The WP Photo Album Plus plugin for WordPress is vulnerable to Stored Cross-Site Scripting via REQUEST_URI Session History in all versions up to, and including, 9.3.03.002 due to insufficient input sanitization and output escaping. This make…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96278",
-      "published": "2026-10-10T08:17:07.567000+00:00"
     },
     {
       "id": "90fcbc8ef2dc8f2b",
@@ -496,125 +751,6 @@
       "published": "2026-10-10T08:17:04.070000+00:00"
     },
     {
-      "id": "a50040e0043d2702",
-      "kind": "cve",
-      "cve": "CVE-2026-101920",
-      "title": "CVE-2026-101920",
-      "summary": "The Molongui Authorship – Author Boxes, Guest Authors & Co-Authors for WordPress plugin for WordPress is vulnerable to Stored DOM-Based Cross-Site Scripting via the 'comment (href attribute inside comment content)' parameter in all versions…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101920",
-      "published": "2026-10-10T08:17:03.213000+00:00"
-    },
-    {
-      "id": "4da3ab6155e4f554",
-      "kind": "cve",
-      "cve": "CVE-2026-100178",
-      "title": "CVE-2026-100178",
-      "summary": "The WPAdverts – Classifieds Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'adverts_location' parameter in all versions up to, and including, 2.3.4 due to insufficient input sanitization and output escaping…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100178",
-      "published": "2026-10-10T08:17:03.070000+00:00"
-    },
-    {
-      "id": "13a20f7de7612133",
-      "kind": "cve",
-      "cve": "CVE-2026-100147",
-      "title": "CVE-2026-100147",
-      "summary": "The FunnelKit – Funnel Builder for WooCommerce Checkout plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'shipping_first_name' parameter in all versions up to, and including, 3.16.0.5 due to insufficient input sanit…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100147",
-      "published": "2026-10-10T08:17:02.930000+00:00"
-    },
-    {
-      "id": "6f0c59ae4fd87e16",
-      "kind": "cve",
-      "cve": "CVE-2026-96840",
-      "title": "CVE-2026-96840",
-      "summary": "The Post Grid Gutenberg Blocks – PostX plugin for WordPress is vulnerable to Stored Cross-Site Scripting via display_name User Field in all versions up to, and including, 5.1.0 due to insufficient input sanitization and output escaping. Thi…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96840",
-      "published": "2026-10-10T07:16:42.767000+00:00"
-    },
-    {
-      "id": "3b2f2214ae26268c",
-      "kind": "cve",
-      "cve": "CVE-2026-96572",
-      "title": "CVE-2026-96572",
-      "summary": "The WP Meteor Website Speed Optimization Addon plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Comment Author Name in all versions up to, and including, 3.4.18 due to insufficient input sanitization and output escaping…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96572",
-      "published": "2026-10-10T07:16:42.487000+00:00"
-    },
-    {
-      "id": "7b180bbd125b37a9",
-      "kind": "cve",
-      "cve": "CVE-2026-96558",
-      "title": "CVE-2026-96558",
-      "summary": "The Quiz and Survey Master (QSM) – Quiz Maker & Survey Maker plugin for WordPress is vulnerable to Stored DOM-Based Cross-Site Scripting via the 'qsm_hidden_questions' parameter in all versions up to, and including, 11.2.6 due to insufficie…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96558",
-      "published": "2026-10-10T07:16:42.343000+00:00"
-    },
-    {
-      "id": "705629e3d2161b4d",
-      "kind": "cve",
-      "cve": "CVE-2026-95684",
-      "title": "CVE-2026-95684",
-      "summary": "The VikBooking Hotel Booking Engine & PMS plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'attachments[name]' Parameter in all versions up to, and including, 1.8.15 due to insufficient input sanitization and output esc…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95684",
-      "published": "2026-10-10T07:16:42.200000+00:00"
-    },
-    {
       "id": "50f031e60b99c4d5",
       "kind": "cve",
       "cve": "CVE-2026-94538",
@@ -649,23 +785,6 @@
       "published": "2026-10-10T07:16:41.230000+00:00"
     },
     {
-      "id": "76cf24eb66267b08",
-      "kind": "cve",
-      "cve": "CVE-2026-107742",
-      "title": "CVE-2026-107742",
-      "summary": "The 10Web Booster – Website speed optimization, Cache & Page Speed optimizer plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'author' parameter in all versions up to, and including, 2.34.8 due to insufficient input…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107742",
-      "published": "2026-10-10T07:16:40.843000+00:00"
-    },
-    {
       "id": "73fb577e3196ec29",
       "kind": "cve",
       "cve": "CVE-2026-104801",
@@ -681,91 +800,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104801",
       "published": "2026-10-10T07:16:40.560000+00:00"
-    },
-    {
-      "id": "8adb7ec31051120f",
-      "kind": "cve",
-      "cve": "CVE-2026-100196",
-      "title": "CVE-2026-100196",
-      "summary": "The LazyLoad Plugin – Lazy Load Images, Videos, and Iframes plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'comment_content (rendered inline into the page HTML)' parameter in all versions up to, and including, 2.4…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100196",
-      "published": "2026-10-10T07:16:39.833000+00:00"
-    },
-    {
-      "id": "c65baa41369240f4",
-      "kind": "cve",
-      "cve": "CVE-2026-100161",
-      "title": "CVE-2026-100161",
-      "summary": "The Photo Reviews for WooCommerce plugin for WordPress is vulnerable to Stored DOM-Based Cross-Site Scripting via the 'wcpr_image_upload_id' parameter in all versions up to, and including, 1.2.30 due to insufficient input sanitization and o…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100161",
-      "published": "2026-10-10T07:16:38.767000+00:00"
-    },
-    {
-      "id": "d2ebb897a221c2f8",
-      "kind": "cve",
-      "cve": "CVE-2026-96682",
-      "title": "CVE-2026-96682",
-      "summary": "The Presto Player plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Comment Content via Tag in all versions up to, and including, 4.5.1 due to insufficient input sanitization and output escaping. This makes it possible f…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96682",
-      "published": "2026-10-10T06:16:45.387000+00:00"
-    },
-    {
-      "id": "0f6898ea2c83debe",
-      "kind": "cve",
-      "cve": "CVE-2026-96667",
-      "title": "CVE-2026-96667",
-      "summary": "The Real Estate Manager – Property Listing and Agent Management plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'first_name' parameter in all versions up to, and including, 7.3 due to insufficient input sanitizatio…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96667",
-      "published": "2026-10-10T06:16:45.230000+00:00"
-    },
-    {
-      "id": "a199c270f3116ce9",
-      "kind": "cve",
-      "cve": "CVE-2026-93775",
-      "title": "CVE-2026-93775",
-      "summary": "The Podlove Podcast Publisher plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Auphonic Webhook in all versions up to, and including, 4.5.6 due to insufficient input sanitization and output escaping. This makes it possi…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93775",
-      "published": "2026-10-10T06:16:44.417000+00:00"
     },
     {
       "id": "a072a8d232662a0b",
@@ -817,23 +851,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77183",
       "published": "2026-10-10T06:16:43.013000+00:00"
-    },
-    {
-      "id": "f9531df3d2b48f40",
-      "kind": "cve",
-      "cve": "CVE-2026-14335",
-      "title": "CVE-2026-14335",
-      "summary": "The Easy Digital Downloads – eCommerce Payments and Subscriptions made easy plugin for WordPress is vulnerable to Stored Cross-Site Scripting via PayPal IPN Parameters in all versions up to, and including, 3.6.9 due to insufficient input sa…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14335",
-      "published": "2026-10-10T06:16:41.447000+00:00"
     },
     {
       "id": "4df6f35d8fdfee59",
@@ -4234,23 +4251,6 @@
       "product": "Server",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
       "published": "2026-08-20T00:00:00+00:00"
-    },
-    {
-      "id": "3158e2788850b3bc",
-      "kind": "cve",
-      "cve": "CVE-2026-64849",
-      "title": "MLflow Server-Side Request Forgery Vulnerability",
-      "summary": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "MLflow",
-      "product": "MLflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
-      "published": "2026-08-19T00:00:00+00:00"
     }
   ]
 }
