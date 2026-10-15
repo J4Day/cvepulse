@@ -1,7 +1,75 @@
 {
-  "generated": "2026-10-14T22:52:09.506819+00:00",
+  "generated": "2026-10-15T01:07:04.030932+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "409dec730ed326ec",
+      "kind": "cve",
+      "cve": "CVE-2026-110862",
+      "title": "CVE-2026-110862",
+      "summary": "Better Auth from 1.4.0-beta.18 before 1.7.7 contains an authentication bypass vulnerability that allows unauthenticated attackers to sign in as other users by reusing OAuth state values as Magic Link tokens. Attackers can start an OAuth sig…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110862",
+      "published": "2026-10-14T23:17:27.673000+00:00"
+    },
+    {
+      "id": "0a2e6fff6e355d80",
+      "kind": "cve",
+      "cve": "CVE-2026-110839",
+      "title": "CVE-2026-110839",
+      "summary": "FreeRDP 3.3.0 before 3.32.0, when built with WINPR_UTILS_IMAGE_JPEG=ON, has a heap-based out-of-bounds write in winpr_convert_from_jpeg because grayscale JPEG buffers are sized from one input component rather than three BGR output component…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110839",
+      "published": "2026-10-14T23:17:24.173000+00:00"
+    },
+    {
+      "id": "0bbbeee155f4feeb",
+      "kind": "cve",
+      "cve": "CVE-2026-110838",
+      "title": "CVE-2026-110838",
+      "summary": "FreeRDP shadow server from 3.0.0 before 3.32.0 dispatches input PDUs during the Confirm Active state before authentication, allowing unauthenticated attackers to inject keyboard input. Attackers can negotiate TLS-only RDP and send an input…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110838",
+      "published": "2026-10-14T23:17:24.023000+00:00"
+    },
+    {
+      "id": "1835afe14bd99712",
+      "kind": "cve",
+      "cve": "CVE-2026-110837",
+      "title": "CVE-2026-110837",
+      "summary": "FreeRDP 2.0.0 before 3.32.0, when built with WITH_LAME=ON and WITH_DSP_FFMPEG=OFF, has a heap-based buffer overflow in freerdp_dsp_decode_mp3 because the right-channel PCM pointer is offset by a byte count treated as short elements. A malic…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110837",
+      "published": "2026-10-14T23:17:23.853000+00:00"
+    },
     {
       "id": "a7b7e6f77384d348",
       "kind": "cve",
@@ -3845,6 +3913,23 @@
       "published": "2026-10-13T02:00:02+00:00"
     },
     {
+      "id": "a77614f444b2bd6c",
+      "kind": "cve",
+      "cve": "CVE-2026-81858",
+      "title": "CVE-2026-81858",
+      "summary": "IBM i 7.3, 7.4, 7.5, and 7.6 could allow a remote authenticated attacker to cause a denial of service and obtain information due to an out-of-bounds read in the File Server.",
+      "severity": "MEDIUM",
+      "score": 5.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81858",
+      "published": "2026-10-13T00:17:01.807000+00:00"
+    },
+    {
       "id": "71a4bc3f04f34ce1",
       "kind": "cve",
       "cve": "CVE-2026-104935",
@@ -4166,91 +4251,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109557",
       "published": "2026-10-12T21:17:11.790000+00:00"
-    },
-    {
-      "id": "a7c58f261a7c7986",
-      "kind": "cve",
-      "cve": "CVE-2026-109556",
-      "title": "CVE-2026-109556",
-      "summary": "EdgeEver Desktop 1.92.0 through 1.112.0 contains a remote code execution vulnerability in the desktop:acp-probe IPC handler, which lacks a sender check and spawns a caller-supplied input.path executable. Attackers with script execution in a…",
-      "severity": "HIGH",
-      "score": 8.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109556",
-      "published": "2026-10-12T21:17:11.617000+00:00"
-    },
-    {
-      "id": "82bbd554cc41165f",
-      "kind": "cve",
-      "cve": "CVE-2026-108929",
-      "title": "CVE-2026-108929",
-      "summary": "A flaw has been found in Netcore NR268 1.7.121109. The affected element is the function execvp of the file /router/DDNSset.cgi of the component DDNS. Executing a manipulation of the argument Hostname can lead to argument injection. The atta…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108929",
-      "published": "2026-10-12T21:17:09.410000+00:00"
-    },
-    {
-      "id": "b7063eff6b711b97",
-      "kind": "cve",
-      "cve": "CVE-2021-48012",
-      "title": "CVE-2021-48012",
-      "summary": "fast-toml through 0.5.4 contains a prototype pollution vulnerability that allows attackers to modify Object.prototype by supplying TOML containing __proto__, constructor or prototype key segments. Attackers can pass [__proto__] or [construc…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48012",
-      "published": "2026-10-12T21:17:06.057000+00:00"
-    },
-    {
-      "id": "26664e93c381b578",
-      "kind": "cve",
-      "cve": "CVE-2026-109423",
-      "title": "CVE-2026-109423",
-      "summary": "NetEase Cloud Music client for Windows (cloudmusic.exe) versions 3.1.38 and 3.1.39.205426 contains a TLS certificate validation vulnerability that allows a network-adjacent attacker to intercept and decrypt HTTPS traffic by failing to valid…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109423",
-      "published": "2026-10-12T20:17:08.993000+00:00"
-    },
-    {
-      "id": "a566fb051448de2f",
-      "kind": "cve",
-      "cve": "CVE-2026-109422",
-      "title": "CVE-2026-109422",
-      "summary": "NetEase Cloud Music client for Windows (cloudmusic.exe) versions 3.1.38 and 3.1.39.205426 contains a remote code execution vulnerability in the renderer-process IPC bridge os.navigateExternal, which passes caller-supplied URLs to ShellExecu…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109422",
-      "published": "2026-10-12T20:17:08.840000+00:00"
     }
   ]
 }
