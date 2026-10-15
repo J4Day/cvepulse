@@ -1,23 +1,193 @@
 {
-  "generated": "2026-10-15T17:30:20.355355+00:00",
+  "generated": "2026-10-15T20:44:20.901798+00:00",
   "count": 250,
   "items": [
     {
-      "id": "379cf44ab539d76a",
+      "id": "222e66a510036328",
+      "kind": "research",
+      "cve": null,
+      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+      "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it. The…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+      "published": "2026-10-15T20:24:36+00:00"
+    },
+    {
+      "id": "166c2152940e0692",
+      "kind": "research",
+      "cve": null,
+      "title": "How Multi-Campus Universities can Build a more Connected Security Program",
+      "summary": "Parts 1 and 2 of this series looked at two pressures facing higher education security teams. First, the threat landscape : universities are dealing with more frequent attacks across complex, distributed environments, while campus-by-campus…",
+      "severity": "",
+      "score": null,
+      "source": "Rapid7",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://www.rapid7.com/blog/post/it-multi-campus-universities-building-more-connected-security-programs",
+      "published": "2026-10-15T19:20:59+00:00"
+    },
+    {
+      "id": "cc21d8cd826f39ee",
       "kind": "cve",
-      "cve": "CVE-2026-85634",
-      "title": "CVE-2026-85634",
-      "summary": "A flaw was found in the ContentRepositoryImpl.copyExplodedContent function of the wildfly-core library, which is used by WildFly and JBoss EAP to manage server deployments. The issue occurs when the library processes an unsanitized deployme…",
+      "cve": "CVE-2026-111231",
+      "title": "CVE-2026-111231",
+      "summary": "Netgate pfSense CE through 2.9.0 contains an authorization bypass vulnerability that allows read-only WebGUI users to replace config.xml because config_restore() and config_install() ignore the 'User - Config: Deny Config Write' privilege.…",
       "severity": "HIGH",
-      "score": 8.8,
+      "score": 7.2,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85634",
-      "published": "2026-10-15T17:17:29.250000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111231",
+      "published": "2026-10-15T19:17:36.110000+00:00"
+    },
+    {
+      "id": "4b7da382e86af98a",
+      "kind": "cve",
+      "cve": "CVE-2026-111229",
+      "title": "CVE-2026-111229",
+      "summary": "pfSense CE 2.7.0 through 2.9.0 contains a command injection vulnerability in services_captiveportal_hasync.php that allows users with only the Captive Portal HA privilege to execute commands as root. Attackers can set backwardsyncip to a ma…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111229",
+      "published": "2026-10-15T19:17:35.813000+00:00"
+    },
+    {
+      "id": "2feb2f6a5e15e6b1",
+      "kind": "cve",
+      "cve": "CVE-2026-111226",
+      "title": "CVE-2026-111226",
+      "summary": "pfSense CE 2.4.5 through 2.9.0 contains an OS command injection vulnerability that allows authenticated WebGUI users with Advanced Admin Access privilege to execute commands as root via Login Protection settings. Attackers can submit sshgua…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111226",
+      "published": "2026-10-15T19:17:35.373000+00:00"
+    },
+    {
+      "id": "e6eb46150a99da85",
+      "kind": "cve",
+      "cve": "CVE-2026-111224",
+      "title": "CVE-2026-111224",
+      "summary": "pfSense CE through 2.9.0 contains an OS command injection vulnerability in the OpenVPN openvpn.connect_async.sh script that allows authenticated VPN users to execute commands as root via crafted usernames. Attackers authenticated through RA…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111224",
+      "published": "2026-10-15T19:17:35.090000+00:00"
+    },
+    {
+      "id": "86599f9083dd3bd8",
+      "kind": "cve",
+      "cve": "CVE-2026-111217",
+      "title": "CVE-2026-111217",
+      "summary": "Netgate pfSense CE through 2.9.0 contains an OS command injection vulnerability that allows authenticated users with Virtual IP edit privileges to execute commands as root by storing an unvalidated CARP VHID. Attackers can supply a VHID con…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111217",
+      "published": "2026-10-15T19:17:34.067000+00:00"
+    },
+    {
+      "id": "46ec68199dfc4337",
+      "kind": "cve",
+      "cve": "CVE-2026-111216",
+      "title": "CVE-2026-111216",
+      "summary": "Netgate pfSense CE through 2.9.0 contains an OS command injection vulnerability that allows authenticated users with gateway edit privileges to execute commands as root by injecting shell metacharacters into an IPv6 link-local zone index. A…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111216",
+      "published": "2026-10-15T19:17:33.907000+00:00"
+    },
+    {
+      "id": "60e7adbd0c38c77d",
+      "kind": "cve",
+      "cve": "CVE-2026-111214",
+      "title": "CVE-2026-111214",
+      "summary": "Netgate pfSense CE 2.7.0 through 2.9.0 contains an OS command injection vulnerability that allows authenticated users with QinQ edit privilege to run commands by storing an unvalidated parent interface name. Attackers can save a crafted 'if…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111214",
+      "published": "2026-10-15T19:17:33.603000+00:00"
+    },
+    {
+      "id": "5dc2d825fc1042c9",
+      "kind": "cve",
+      "cve": "CVE-2026-111160",
+      "title": "CVE-2026-111160",
+      "summary": "LightLLM through 1.2.0 contains a denial of service vulnerability that allows unauthenticated attackers to crash the inference worker by supplying the internal pd_kv_trans_params field to the /generate endpoint. Attackers can send a single…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111160",
+      "published": "2026-10-15T19:17:31.100000+00:00"
+    },
+    {
+      "id": "986cc714fb426f82",
+      "kind": "research",
+      "cve": null,
+      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+      "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets interesting in different ways. A small permis…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+      "published": "2026-10-15T18:49:33+00:00"
     },
     {
       "id": "dfa2c54ad1014bfe",
@@ -35,23 +205,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92982",
       "published": "2026-10-15T16:18:23.657000+00:00"
-    },
-    {
-      "id": "01f8fcf42b2a5662",
-      "kind": "cve",
-      "cve": "CVE-2026-110958",
-      "title": "CVE-2026-110958",
-      "summary": "A vulnerability was found in Wavlink WN530HG4B M30HG4B_V260724. The impacted element is an unknown function of the file api.cgi. The manipulation results in heap-based buffer overflow. It is possible to launch the attack remotely. The explo…",
-      "severity": "CRITICAL",
-      "score": 10.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110958",
-      "published": "2026-10-15T16:17:48.467000+00:00"
     },
     {
       "id": "cdc576e64c59b425",
@@ -360,6 +513,23 @@
       "published": "2026-10-15T01:10:57+00:00"
     },
     {
+      "id": "b7b770f584c8a5cb",
+      "kind": "cve",
+      "cve": "CVE-2026-21589",
+      "title": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+      "summary": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessib…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Atlassian",
+      "product": "Multiple Products",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
+      "published": "2026-10-15T00:00:00+00:00"
+    },
+    {
       "id": "613bbf78464e2c50",
       "kind": "cve",
       "cve": "CVE-2026-110873",
@@ -513,23 +683,6 @@
       "published": "2026-10-14T19:17:13.077000+00:00"
     },
     {
-      "id": "b0d458fc7e8eaa26",
-      "kind": "cve",
-      "cve": "CVE-2026-110767",
-      "title": "CVE-2026-110767",
-      "summary": "Gitingest through 0.3.1 contains a symlink following vulnerability in ingest_query single-file blob ingestion that allows unauthenticated attackers to read server files by submitting symlink blob URLs. Attackers can commit a symlink to a pu…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110767",
-      "published": "2026-10-14T19:17:12.610000+00:00"
-    },
-    {
       "id": "976f4f5fb239546a",
       "kind": "research",
       "cve": null,
@@ -647,23 +800,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
       "published": "2026-10-14T17:38:31+00:00"
-    },
-    {
-      "id": "2723b79f259afb52",
-      "kind": "cve",
-      "cve": "CVE-2026-86562",
-      "title": "CVE-2026-86562",
-      "summary": "A flaw was found in DPDK lib/vhost. A TOCTOU double-fetch of control-queue descriptors allows a heap buffer overflow with attacker-controlled content in the VDUSE control-queue handler.",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86562",
-      "published": "2026-10-14T17:20:05.420000+00:00"
     },
     {
       "id": "a2a5b2f795282a94",
@@ -3352,23 +3488,6 @@
       "published": "2026-10-13T08:44:01+00:00"
     },
     {
-      "id": "e7916ed60e978bf5",
-      "kind": "research",
-      "cve": null,
-      "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
-      "summary": "GitLab has released patches for a maximum-severity security flaw impacting its Community Edition (CE) and Enterprise Edition (EE) software that could result in arbitrary code execution. \"GitLab has remediated an issue that, under certain co…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
-      "published": "2026-10-13T08:43:37+00:00"
-    },
-    {
       "id": "d11971e46ebff99a",
       "kind": "cve",
       "cve": "CVE-2026-109108",
@@ -3418,23 +3537,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108970",
       "published": "2026-10-13T06:16:47.567000+00:00"
-    },
-    {
-      "id": "585594f86cc881b7",
-      "kind": "research",
-      "cve": null,
-      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
-      "summary": "Low-cost Android smartphones have been shipped with malicious software baked into the device firmware, allowing bad actors to covertly install apps, conduct ad fraud, and turn devices into residential proxies. The activity, which targets An…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
-      "published": "2026-10-13T06:00:11+00:00"
     },
     {
       "id": "3e9a8b965558fbe3",
@@ -3605,6 +3707,23 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82096",
       "published": "2026-10-12T23:17:41.680000+00:00"
+    },
+    {
+      "id": "5f1aa7f11ff64370",
+      "kind": "cve",
+      "cve": "CVE-2026-19622",
+      "title": "CVE-2026-19622",
+      "summary": "IBM Planning Analytics 2.0, and 2.1 could allow a remote attacker to bypass authentication and escalate privileges due to improper validation of sub-requests.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19622",
+      "published": "2026-10-12T23:17:37.107000+00:00"
     },
     {
       "id": "c812b824b89bd68d",
@@ -4132,125 +4251,6 @@
       "product": "BIND",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
       "published": "2026-10-08T00:00:00+00:00"
-    },
-    {
-      "id": "75a4dbc0830a8107",
-      "kind": "cve",
-      "cve": "CVE-2016-3081",
-      "title": "Apache Struts Command Injection Vulnerability",
-      "summary": "Apache Struts contains a command injection vulnerability that could allow remote attackers to execute arbitrary code via method:prefix when Dynamic Method Invocation is enabled.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apache",
-      "product": "Struts",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3081",
-      "published": "2026-10-08T00:00:00+00:00"
-    },
-    {
-      "id": "ac9619296d3bd3c9",
-      "kind": "cve",
-      "cve": "CVE-2023-22894",
-      "title": "Strapi Cleartext Storage of Sensitive Information Vulnerability",
-      "summary": "Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL)…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Strapi",
-      "product": "Strapi",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
-      "published": "2026-10-08T00:00:00+00:00"
-    },
-    {
-      "id": "1157fac110d4e6d5",
-      "kind": "cve",
-      "cve": "CVE-2021-3199",
-      "title": "ONLYOFFICE Docs Server Path Traversal Vulnerability",
-      "summary": "ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "ONLYOFFICE",
-      "product": "Docs",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
-      "published": "2026-10-08T00:00:00+00:00"
-    },
-    {
-      "id": "8f99aace08bb357a",
-      "kind": "cve",
-      "cve": "CVE-2015-3306",
-      "title": "ProFTPD Improper Access Control Vulnerability",
-      "summary": "ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "ProFTPD",
-      "product": "ProFTPD",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3306",
-      "published": "2026-10-08T00:00:00+00:00"
-    },
-    {
-      "id": "79976e0ae4389a3c",
-      "kind": "research",
-      "cve": null,
-      "title": "Four compliance frameworks, one security team: Why fragmented university security raises regulatory risk",
-      "summary": "In Part 1 of this series, we looked at the security challenges created by fragmented, campus-by-campus environments. Higher education also faces a second pressure that makes that fragmentation harder to sustain: overlapping compliance oblig…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/it-compliance-frameworks-for-universities-drowning-in-regulatory-risk",
-      "published": "2026-10-07T19:29:23+00:00"
-    },
-    {
-      "id": "4d0ab1e7dd597340",
-      "kind": "research",
-      "cve": null,
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has lear…",
-      "severity": "",
-      "score": null,
-      "source": "Krebs on Security",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "published": "2026-10-07T13:48:45+00:00"
-    },
-    {
-      "id": "2e1e15e83be51d6e",
-      "kind": "research",
-      "cve": "CVE-2026-21589",
-      "title": "CVE-2026-21589: Critical unauthenticated arbitrary file access in Atlassian products",
-      "summary": "Overview On October 5, 2026, Atlassian published a security advisory for CVE-2026-21589 , a critical arbitrary file access vulnerability affecting eight products: Bitbucket Data Center, Confluence Data Center, Jira Service Management Data C…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products",
-      "published": "2026-10-07T12:11:26+00:00"
     }
   ]
 }
