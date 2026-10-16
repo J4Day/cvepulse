@@ -1,7 +1,670 @@
 {
-  "generated": "2026-10-16T17:05:32.951814+00:00",
+  "generated": "2026-10-16T20:17:36.848999+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "5acccc5151a8e45b",
+      "kind": "cve",
+      "cve": "CVE-2026-102917",
+      "title": "CVE-2026-102917",
+      "summary": "IBM i 7.3, 7.4, 7.5, and 7.6 is vulnerable to an authenticated attacker elevating their privilege. A bad actor could exploit this vulnerability to perform operations with QSECOFR/Root authority on the system.",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102917",
+      "published": "2026-10-16T19:17:01.273000+00:00"
+    },
+    {
+      "id": "fc7e53887ad36d1c",
+      "kind": "cve",
+      "cve": "CVE-2026-111723",
+      "title": "CVE-2026-111723",
+      "summary": "LingGuo-Drama through commit 8a6924a contains a missing authorization vulnerability that allows any registered user to manage all accounts through the /admin/v1/admins API protected only by AuthAdminJWT. Attackers can self-register, read ev…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111723",
+      "published": "2026-10-16T18:17:56.980000+00:00"
+    },
+    {
+      "id": "bb567e6a91ca39e2",
+      "kind": "cve",
+      "cve": "CVE-2026-111711",
+      "title": "CVE-2026-111711",
+      "summary": "Netcore NR256CN through 1.5.140116 contains a pre-authentication stack overflow vulnerability in the Boa web server's user_ok() function, which copies Basic-auth usernames with unbounded strcpy() calls into 64-byte stack buffers. Unauthenti…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111711",
+      "published": "2026-10-16T18:17:55.337000+00:00"
+    },
+    {
+      "id": "ab346f9a411343dc",
+      "kind": "cve",
+      "cve": "CVE-2026-111710",
+      "title": "CVE-2026-111710",
+      "summary": "Netcore NR256CN through 1.5.140116 contains a NULL pointer dereference vulnerability in the Boa web server's user_auth() function that allows unauthenticated attackers to crash the server via a malformed Authorization header. Attackers can…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111710",
+      "published": "2026-10-16T18:17:55.207000+00:00"
+    },
+    {
+      "id": "39864c152ffda20c",
+      "kind": "cve",
+      "cve": "CVE-2026-111708",
+      "title": "CVE-2026-111708",
+      "summary": "WhaTicket Community through commit cf04795 contains an authentication bypass vulnerability that allows unauthenticated attackers to self-register as administrators via POST /auth/signup. Attackers can omit the profile field or set it to adm…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111708",
+      "published": "2026-10-16T18:17:54.933000+00:00"
+    },
+    {
+      "id": "0e2a4c7d8b43fe5c",
+      "kind": "cve",
+      "cve": "CVE-2026-111706",
+      "title": "CVE-2026-111706",
+      "summary": "99AI through 4.3.0 contains a missing authentication vulnerability in the POST /api/chatLog/exportExcel route that allows unauthenticated attackers to export all users' chat logs. Attackers can send requests with controlled page, size, and…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111706",
+      "published": "2026-10-16T18:17:54.663000+00:00"
+    },
+    {
+      "id": "5890b02f03032ff7",
+      "kind": "cve",
+      "cve": "CVE-2026-111704",
+      "title": "CVE-2026-111704",
+      "summary": "LangChat through commit 2a6285a contains a missing authentication vulnerability that allows unauthenticated remote attackers to access REST controllers because no Sa-Token interceptor is registered. Attackers can query /api/v1/auth/users to…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111704",
+      "published": "2026-10-16T18:17:54.370000+00:00"
+    },
+    {
+      "id": "e3c4345b635b25d2",
+      "kind": "cve",
+      "cve": "CVE-2026-111701",
+      "title": "CVE-2026-111701",
+      "summary": "OtterMind Nubase through 0.1.4 contains a missing authentication vulnerability that allows unauthenticated attackers to access private bucket objects because /storage/v1/object/{bucketId}/{path} is treated as public for every HTTP method. A…",
+      "severity": "HIGH",
+      "score": 7.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111701",
+      "published": "2026-10-16T18:17:53.930000+00:00"
+    },
+    {
+      "id": "3a77b2d7e923e068",
+      "kind": "cve",
+      "cve": "CVE-2026-111700",
+      "title": "CVE-2026-111700",
+      "summary": "WebVella ERP through 1.8.8 contains an sql injection vulnerability that allows any authenticated user to inject SQL through WHERE-clause text literals in the EQL query API. Attackers can send crafted single-quoted literals to POST /api/v3/e…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111700",
+      "published": "2026-10-16T18:17:53.780000+00:00"
+    },
+    {
+      "id": "f6e2ba79426a621a",
+      "kind": "cve",
+      "cve": "CVE-2026-111695",
+      "title": "CVE-2026-111695",
+      "summary": "Shaiwz data-platform-open through commit efeacd3 contains an insecure direct object reference vulnerability that allows authenticated workspace members to access other workspaces' datasources by numeric id. Attackers can send foreign sequen…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111695",
+      "published": "2026-10-16T18:17:53.080000+00:00"
+    },
+    {
+      "id": "8df48dd5a85c0caf",
+      "kind": "cve",
+      "cve": "CVE-2026-111693",
+      "title": "CVE-2026-111693",
+      "summary": "DataBuff ai-apm-web through 0.1.10 contains a hard-coded default credentials vulnerability that allows unauthenticated attackers to gain administrator access using the built-in admin/Databuff@123 account. Attackers can POST these credential…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111693",
+      "published": "2026-10-16T18:17:52.773000+00:00"
+    },
+    {
+      "id": "eeaed18672eade56",
+      "kind": "cve",
+      "cve": "CVE-2026-111692",
+      "title": "CVE-2026-111692",
+      "summary": "DataBuff ai-apm-web through 0.1.10 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge admin session tokens by using the hardcoded HMAC secret in JwtTokenService. Attackers can sign a payload of ad…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111692",
+      "published": "2026-10-16T18:17:52.633000+00:00"
+    },
+    {
+      "id": "96aec14bea74417e",
+      "kind": "cve",
+      "cve": "CVE-2026-111691",
+      "title": "CVE-2026-111691",
+      "summary": "WIMOOR through commit ec86736 contains an authentication bypass vulnerability that allows attackers to impersonate any tenant and privilege level by sending an unsigned X-USERINFO header. Attackers reaching backend service ports directly, b…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111691",
+      "published": "2026-10-16T18:17:52.493000+00:00"
+    },
+    {
+      "id": "d8572fb319e0cd13",
+      "kind": "cve",
+      "cve": "CVE-2026-111690",
+      "title": "CVE-2026-111690",
+      "summary": "Simple Admin Core through 1.8.7 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge super administrator tokens by using the hard-coded Auth.AccessSecret in api/etc/core.yaml. Attackers can sign a J…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111690",
+      "published": "2026-10-16T18:17:52.350000+00:00"
+    },
+    {
+      "id": "2e6d632b5a2bef78",
+      "kind": "cve",
+      "cve": "CVE-2026-111687",
+      "title": "CVE-2026-111687",
+      "summary": "WeRSS (we-mp-rss) through 1.5.3 contains a remote code execution vulnerability that allows unauthenticated attackers to run code via the template parameter of the public GET /rss/{feed_id} endpoint. Attackers can supply a non-built-in ext v…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111687",
+      "published": "2026-10-16T18:17:51.920000+00:00"
+    },
+    {
+      "id": "5d63ba99bb3003b8",
+      "kind": "cve",
+      "cve": "CVE-2026-111686",
+      "title": "CVE-2026-111686",
+      "summary": "IceCMS through 4.1.5 contains an unauthenticated sql injection vulnerability that allows remote attackers to inject SQL through the num path parameter of /WebArticle/findarticlesbynum. Attackers can append crafted SQL after the LIMIT clause…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111686",
+      "published": "2026-10-16T18:17:51.787000+00:00"
+    },
+    {
+      "id": "09b1f5f1b80ffadf",
+      "kind": "cve",
+      "cve": "CVE-2026-111685",
+      "title": "CVE-2026-111685",
+      "summary": "IceCMS through 4.1.5 contains an unauthenticated sql injection vulnerability that allows remote attackers to inject SQL by supplying a crafted num path parameter to /WebResource/findresourcebynum. Attackers can append SQL after the LIMIT cl…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111685",
+      "published": "2026-10-16T18:17:51.643000+00:00"
+    },
+    {
+      "id": "4c375b81f031fac2",
+      "kind": "cve",
+      "cve": "CVE-2026-111684",
+      "title": "CVE-2026-111684",
+      "summary": "Magistrala through 1.0.0 contains an authorization bypass vulnerability that allows authenticated workspace members to view, issue, and revoke other tenants' device certificates by supplying foreign serials or entity ids. Attackers can call…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111684",
+      "published": "2026-10-16T18:17:51.477000+00:00"
+    },
+    {
+      "id": "52daf80ca3c5bd23",
+      "kind": "cve",
+      "cve": "CVE-2026-111681",
+      "title": "CVE-2026-111681",
+      "summary": "EFAK through 5.1.0 contains a missing authorization vulnerability that allows authenticated low-privilege users to manage accounts because the /api/users endpoints lack administrator role checks. Attackers can send POST, PUT, or DELETE requ…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111681",
+      "published": "2026-10-16T18:17:51.063000+00:00"
+    },
+    {
+      "id": "2184f30dc3fca58a",
+      "kind": "cve",
+      "cve": "CVE-2026-111680",
+      "title": "CVE-2026-111680",
+      "summary": "APIPark through 1.9.7-beta contains an authorization bypass vulnerability that allows authenticated team managers to access other teams' services and applications by supplying their own team id in the team query parameter. Attackers can tar…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111680",
+      "published": "2026-10-16T18:17:50.923000+00:00"
+    },
+    {
+      "id": "016c994941c3326d",
+      "kind": "cve",
+      "cve": "CVE-2026-111675",
+      "title": "CVE-2026-111675",
+      "summary": "Course-tencent-cloud through 2.0.1 contains an improper restriction of authentication attempts vulnerability that allows unauthenticated attackers to brute force 6-digit SMS/email verification codes, which are never invalidated or attempt-l…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111675",
+      "published": "2026-10-16T18:17:50.197000+00:00"
+    },
+    {
+      "id": "f9dfcd84a27c06c6",
+      "kind": "cve",
+      "cve": "CVE-2026-111673",
+      "title": "CVE-2026-111673",
+      "summary": "IceCMS through 4.1.5 contains a missing authentication vulnerability that allows unauthenticated attackers to modify, delete, or disable any account because /User/** is excluded from the Shiro jwt filter. Attackers can send PUT requests to…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111673",
+      "published": "2026-10-16T18:17:49.920000+00:00"
+    },
+    {
+      "id": "8c5143a3c76915ec",
+      "kind": "cve",
+      "cve": "CVE-2026-111671",
+      "title": "CVE-2026-111671",
+      "summary": "Cube-studio through 2026.09.01 contains an insecure direct object reference vulnerability that allows authenticated users to stop, reset, clear or redeploy other users' notebooks and services by id. Attackers can pass sequential ids to life…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111671",
+      "published": "2026-10-16T18:17:49.647000+00:00"
+    },
+    {
+      "id": "7aa5268f1be4932d",
+      "kind": "cve",
+      "cve": "CVE-2026-111663",
+      "title": "CVE-2026-111663",
+      "summary": "Chaskiq through 2.0.3 contains a server-side request forgery vulnerability that allows unauthenticated attackers to fetch arbitrary URLs via the createUrlUpload GraphQL mutation. Attackers can submit internal URLs, including cloud instance…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111663",
+      "published": "2026-10-16T18:17:48.077000+00:00"
+    },
+    {
+      "id": "6589d55576fe4aa7",
+      "kind": "cve",
+      "cve": "CVE-2026-111650",
+      "title": "CVE-2026-111650",
+      "summary": "ChronoFrame through 1.0.0 contains a missing authentication vulnerability in the server/api/wizard/ handlers that allows unauthenticated attackers to reconfigure already configured instances. Attackers can POST to /api/wizard/storage to act…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111650",
+      "published": "2026-10-16T18:17:46.047000+00:00"
+    },
+    {
+      "id": "989f737580b902a5",
+      "kind": "cve",
+      "cve": "CVE-2026-111644",
+      "title": "CVE-2026-111644",
+      "summary": "Misaka Danmu Server through 2.8.9 contains a missing authentication vulnerability that allows unauthenticated attackers to access audit, diagnostics, data-check, scan-index and health routes under /api/ui lacking the get_current_user depend…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111644",
+      "published": "2026-10-16T18:17:45.160000+00:00"
+    },
+    {
+      "id": "79e8164402eb412e",
+      "kind": "cve",
+      "cve": "CVE-2026-111643",
+      "title": "CVE-2026-111643",
+      "summary": "Misaka Danmu Server through 2.8.9 contains an authentication bypass vulnerability that allows unauthenticated attackers to write arbitrary configuration keys via the unprotected POST /api/ui/config-history/rollback endpoint. Attackers can s…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111643",
+      "published": "2026-10-16T18:17:45.013000+00:00"
+    },
+    {
+      "id": "5d102b56d00f87a0",
+      "kind": "cve",
+      "cve": "CVE-2026-111641",
+      "title": "CVE-2026-111641",
+      "summary": "FastapiAdmin through 3.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to obtain sessions for any user by abusing unprotected auto-login endpoints. Attackers can list users via /api/v1/auth/auto-login…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111641",
+      "published": "2026-10-16T18:17:44.730000+00:00"
+    },
+    {
+      "id": "1ea89002ca7e461d",
+      "kind": "cve",
+      "cve": "CVE-2026-111639",
+      "title": "CVE-2026-111639",
+      "summary": "bbs-go through 4.4.6 contains an authentication bypass vulnerability in the /api/login/google_one_tap endpoint that allows remote attackers to log in as other users by submitting Google ID tokens issued to any OAuth client. Attackers operat…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111639",
+      "published": "2026-10-16T18:17:44.447000+00:00"
+    },
+    {
+      "id": "9145a272e370f00d",
+      "kind": "cve",
+      "cve": "CVE-2026-111638",
+      "title": "CVE-2026-111638",
+      "summary": "sshportal through 1.19.5 contains a missing authorization vulnerability in the management shell 'key show' command that allows authenticated non-admin users to obtain decrypted backend private SSH keys. Attackers can request predictable key…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111638",
+      "published": "2026-10-16T18:17:44.297000+00:00"
+    },
+    {
+      "id": "f64cf69bc7369f87",
+      "kind": "cve",
+      "cve": "CVE-2026-111636",
+      "title": "CVE-2026-111636",
+      "summary": "OpenBMB StaffDeck through 0.5.6 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator session tokens using the hard-coded default app_secret. Attackers can sign an HMAC-SHA256 token for…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111636",
+      "published": "2026-10-16T18:17:44.010000+00:00"
+    },
+    {
+      "id": "a44e3682f84a4ddb",
+      "kind": "cve",
+      "cve": "CVE-2026-111634",
+      "title": "CVE-2026-111634",
+      "summary": "Helical Insight through 7.0.0 contains an sql injection vulnerability that allows authenticated viewers to inject SQL through unescaped report parameter values sent to /executeDatasource. Attackers can supply crafted Numeric or String place…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111634",
+      "published": "2026-10-16T18:17:43.750000+00:00"
+    },
+    {
+      "id": "d7457164614df57f",
+      "kind": "cve",
+      "cve": "CVE-2026-111633",
+      "title": "CVE-2026-111633",
+      "summary": "ZKEACMS through 4.4 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge REST API JWT bearer tokens using a hard-coded HMAC-SHA256 signing key in JwtBearerDefaults.cs. Attackers can sign a token wit…",
+      "severity": "HIGH",
+      "score": 8.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111633",
+      "published": "2026-10-16T18:17:43.607000+00:00"
+    },
+    {
+      "id": "1686ae4c4945f327",
+      "kind": "cve",
+      "cve": "CVE-2026-111626",
+      "title": "CVE-2026-111626",
+      "summary": "Webreaper Damselfly through 4.5.3 contains an authentication bypass vulnerability that allows unauthenticated attackers to access all /api/* routes because controller authorization attributes are commented out. Attackers can send PUT /api/u…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111626",
+      "published": "2026-10-16T18:17:42.583000+00:00"
+    },
+    {
+      "id": "6aacef54f7daa531",
+      "kind": "cve",
+      "cve": "CVE-2026-111613",
+      "title": "CVE-2026-111613",
+      "summary": "AllData through 0.7.1 contains an unauthenticated JDBC injection vulnerability that allows remote attackers to open arbitrary database connections by supplying jdbcUrl and jdbcDriverClass values to the data-dts /jobJdbcDatasource/test endpo…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111613",
+      "published": "2026-10-16T18:17:40.680000+00:00"
+    },
+    {
+      "id": "7fa96ca4c1ee8b27",
+      "kind": "cve",
+      "cve": "CVE-2026-111606",
+      "title": "CVE-2026-111606",
+      "summary": "Huly Platform through 0.7.432 contains a missing authorization vulnerability that allows any authenticated user to merge arbitrary persons by calling the mergeSpecifiedPersons account RPC. Attackers knowing two person UUIDs can graft attack…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111606",
+      "published": "2026-10-16T18:17:39.647000+00:00"
+    },
+    {
+      "id": "b1e2cf936a1d4e97",
+      "kind": "cve",
+      "cve": "CVE-2026-111605",
+      "title": "CVE-2026-111605",
+      "summary": "Jpom through 2.11.12 contains an authorization bypass vulnerability in SshFileController that allows authenticated workspace users to access SSH hosts belonging to other workspaces by supplying foreign SSH asset ids. Attackers with SSH file…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111605",
+      "published": "2026-10-16T18:17:39.490000+00:00"
+    },
+    {
+      "id": "2f67e7ff74fc3554",
+      "kind": "research",
+      "cve": null,
+      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardw…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+      "published": "2026-10-16T17:48:45+00:00"
+    },
+    {
+      "id": "2f6312b7767d6c54",
+      "kind": "research",
+      "cve": null,
+      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+      "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+      "published": "2026-10-16T16:43:39+00:00"
+    },
     {
       "id": "7ca539292393b052",
       "kind": "research",
@@ -88,23 +751,6 @@
       "published": "2026-10-16T11:30:00+00:00"
     },
     {
-      "id": "64884cc9dfe9fafe",
-      "kind": "cve",
-      "cve": "CVE-2026-104715",
-      "title": "CVE-2026-104715",
-      "summary": "A flaw was found in cifs-utils. This flaw allows an unprivileged local user to achieve privilege escalation. When a privileged service mounts a Common Internet File System (CIFS) share using a user-controlled credentials file, input values…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104715",
-      "published": "2026-10-16T07:17:08.090000+00:00"
-    },
-    {
       "id": "1fd194e19c3dd4f6",
       "kind": "research",
       "cve": null,
@@ -139,74 +785,6 @@
       "published": "2026-10-16T06:53:09+00:00"
     },
     {
-      "id": "4e1019ea98ce0f74",
-      "kind": "cve",
-      "cve": "CVE-2026-89079",
-      "title": "CVE-2026-89079",
-      "summary": "The Theme My Login plugin for WordPress is vulnerable to privilege escalation via account takeover in versions up to, and including, 7.2.1. This is due to the plugin not properly validating a user's identity prior to updating their password…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89079",
-      "published": "2026-10-16T06:17:12.410000+00:00"
-    },
-    {
-      "id": "a4a74994296fdab0",
-      "kind": "cve",
-      "cve": "CVE-2026-109221",
-      "title": "CVE-2026-109221",
-      "summary": "The Groundhogg — CRM, Newsletters, and Marketing Automation plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the copy_file function in all versions up to, and including, 4.9.3 This ma…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109221",
-      "published": "2026-10-16T05:17:29.227000+00:00"
-    },
-    {
-      "id": "c0b0b0418ab7be14",
-      "kind": "cve",
-      "cve": "CVE-2026-107659",
-      "title": "CVE-2026-107659",
-      "summary": "The Modula Image Gallery – Photo Grid & Video Gallery plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 3.0.11 via the 'id (post ID in /wp-json/wp/v2/modula-gallery/{id}) or none for…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107659",
-      "published": "2026-10-16T05:17:28.710000+00:00"
-    },
-    {
-      "id": "0e2ee985e08d6a06",
-      "kind": "cve",
-      "cve": "CVE-2026-104798",
-      "title": "CVE-2026-104798",
-      "summary": "The My Calendar – Accessible Event Manager plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.8.7. The public `mcs` GET parameter is reflected into post content unsanitized before WordPress co…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104798",
-      "published": "2026-10-16T05:17:28.580000+00:00"
-    },
-    {
       "id": "5fc8c6dd8c540e0e",
       "kind": "research",
       "cve": "CVE-2025-61624",
@@ -222,23 +800,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
       "published": "2026-10-16T04:59:36+00:00"
-    },
-    {
-      "id": "cbc5659606ef28e5",
-      "kind": "cve",
-      "cve": "CVE-2026-97339",
-      "title": "CVE-2026-97339",
-      "summary": "The Complianz GDPR/CCPA Cookie Consent Banner plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Comment Content via yotu-wp Cookie-Blocker Filter in all versions up to, and including, 7.5.5 due to insufficient input sani…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97339",
-      "published": "2026-10-16T04:18:44.817000+00:00"
     },
     {
       "id": "956dafb60c9d0db2",
@@ -258,23 +819,6 @@
       "published": "2026-10-16T03:18:06.540000+00:00"
     },
     {
-      "id": "bf870c5b088fb3a4",
-      "kind": "cve",
-      "cve": "CVE-2026-111382",
-      "title": "CVE-2026-111382",
-      "summary": "FreeRDP before 3.32.0 contains a client-side heap out-of-bounds write vulnerability in general_LumaToYUV444 and general_ChromaV2ToYUV444 that allows malicious RDP servers to corrupt client memory. Attackers can send RDPGFX AVC444 or AVC444v…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111382",
-      "published": "2026-10-16T03:18:05.400000+00:00"
-    },
-    {
       "id": "a447204151d5d1ee",
       "kind": "cve",
       "cve": "CVE-2026-111380",
@@ -290,40 +834,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111380",
       "published": "2026-10-16T03:18:05.123000+00:00"
-    },
-    {
-      "id": "33baec476f948d13",
-      "kind": "cve",
-      "cve": "CVE-2026-111379",
-      "title": "CVE-2026-111379",
-      "summary": "FreeRDP before 3.32.0 contains a heap buffer overflow vulnerability in persistent_cache_read_entry_v3 that allows local attackers to corrupt memory by supplying a crafted v3 persistent cache file. Attackers can set large width and height va…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111379",
-      "published": "2026-10-16T03:18:04.980000+00:00"
-    },
-    {
-      "id": "eecb1671de794c3c",
-      "kind": "cve",
-      "cve": "CVE-2026-111378",
-      "title": "CVE-2026-111378",
-      "summary": "FreeRDP from 3.0.0 before 3.32.0 contains an uncontrolled resource consumption vulnerability in parse_nla_mode_pdu that allows unauthenticated attackers to exhaust server memory. Attackers can complete TLS and stream bytes not beginning wit…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111378",
-      "published": "2026-10-16T03:18:04.850000+00:00"
     },
     {
       "id": "dcae46e419da6d66",
@@ -360,38 +870,38 @@
       "published": "2026-10-16T00:46:35+00:00"
     },
     {
-      "id": "a52b37cfb99edaa6",
+      "id": "d3cce1355612f7b1",
       "kind": "cve",
-      "cve": "CVE-2026-84823",
-      "title": "CVE-2026-84823",
-      "summary": "A flaw was found in WildFly. A user with the `Monitor` role, which is the lowest standard Role-Based Access Control (RBAC) role, can exploit a path traversal vulnerability in the `take-snapshot` operation. By manipulating the `name` paramet…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
+      "cve": "CVE-2026-102764",
+      "title": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+      "summary": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
       "tags": [
-        "NVD"
+        "KEV"
       ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84823",
-      "published": "2026-10-16T00:17:05.573000+00:00"
+      "vendor": "BeyondTrust",
+      "product": "Remote Support",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+      "published": "2026-10-16T00:00:00+00:00"
     },
     {
-      "id": "be7a5b7166359ba1",
+      "id": "accc1de3fce1c915",
       "kind": "cve",
-      "cve": "CVE-2026-111210",
-      "title": "CVE-2026-111210",
-      "summary": "A vulnerability was determined in bitcoinj up to 0.17. Affected is the function url.openConnection of the file PaymentSession.java of the component Payment Request Handler. Executing a manipulation of the argument pki_type can lead to serve…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
+      "cve": "CVE-2025-61624",
+      "title": "Fortinet Multiple Products Path Traversal Vulnerability",
+      "summary": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
       "tags": [
-        "NVD"
+        "KEV"
       ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111210",
-      "published": "2026-10-16T00:17:04.180000+00:00"
+      "vendor": "Fortinet",
+      "product": "Multiple Products",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+      "published": "2026-10-16T00:00:00+00:00"
     },
     {
       "id": "e981b7de3fc104c8",
@@ -411,23 +921,6 @@
       "published": "2026-10-15T23:03:42+00:00"
     },
     {
-      "id": "94c1323f8f566d5f",
-      "kind": "cve",
-      "cve": "CVE-2026-111369",
-      "title": "CVE-2026-111369",
-      "summary": "ClassroomIO through 1.0.0 contains an incorrect authorization vulnerability in the PUT and DELETE /:lessonId lesson routes that allows any course member, including students, to modify lessons. Authenticated students can supply arbitrary les…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111369",
-      "published": "2026-10-15T22:19:35.013000+00:00"
-    },
-    {
       "id": "d3699c326e52d1e1",
       "kind": "cve",
       "cve": "CVE-2026-111359",
@@ -443,23 +936,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111359",
       "published": "2026-10-15T22:19:33.937000+00:00"
-    },
-    {
-      "id": "02a91819ce94b6c5",
-      "kind": "cve",
-      "cve": "CVE-2026-111356",
-      "title": "CVE-2026-111356",
-      "summary": "MacCMS v10 through 2026.1000.4056 does not limit attempts on the six-digit password recovery code, allowing unauthenticated attackers to take over member accounts. Attackers knowing a victim's email or phone can request a code and brute-for…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111356",
-      "published": "2026-10-15T22:19:33.647000+00:00"
     },
     {
       "id": "55714d38f2424af1",
@@ -479,23 +955,6 @@
       "published": "2026-10-15T22:19:33.043000+00:00"
     },
     {
-      "id": "50fc32e1ac7c068e",
-      "kind": "cve",
-      "cve": "CVE-2026-111322",
-      "title": "CVE-2026-111322",
-      "summary": "Archon 0.2.13 through 0.11.1 contains a missing authentication vulnerability that allows unauthenticated attackers to access the /api/* control API, which binds to 0.0.0.0 by default. Attackers with network access can send messages to the A…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111322",
-      "published": "2026-10-15T22:19:30.633000+00:00"
-    },
-    {
       "id": "911bdf109ec4f0b7",
       "kind": "cve",
       "cve": "CVE-2026-111312",
@@ -511,40 +970,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111312",
       "published": "2026-10-15T22:19:30.053000+00:00"
-    },
-    {
-      "id": "fa0bca4d10fe3ec0",
-      "kind": "cve",
-      "cve": "CVE-2026-111283",
-      "title": "CVE-2026-111283",
-      "summary": "BMC Helix Network Management on-prem before 26.3.01 contains an authentication bypass vulnerability that allows unauthenticated attackers to log in as the local administrator with any password when SAML single sign-on is configured. Attacke…",
-      "severity": "CRITICAL",
-      "score": 9.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111283",
-      "published": "2026-10-15T22:19:29.747000+00:00"
-    },
-    {
-      "id": "51fef7dbe6f22205",
-      "kind": "cve",
-      "cve": "CVE-2026-111282",
-      "title": "CVE-2026-111282",
-      "summary": "Driftregion iso14229 before 0.10.1 contains an integer wraparound in Handle_0x38_RequestFileTransfer that lets unauthenticated attackers bypass the file path length check. Attackers can send a short RequestFileTransfer (SID 0x38) request wi…",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111282",
-      "published": "2026-10-15T22:19:29.600000+00:00"
     },
     {
       "id": "30c553a8ecec025a",
@@ -581,21 +1006,21 @@
       "published": "2026-10-15T22:19:29.317000+00:00"
     },
     {
-      "id": "788aa6e7a24258a4",
+      "id": "3243eaedbc1d8c27",
       "kind": "cve",
-      "cve": "CVE-2026-111279",
-      "title": "CVE-2026-111279",
-      "summary": "Dragonfly through 2.0.2 contains an unbounded memory allocation vulnerability that allows unauthenticated clients to exhaust memory by passing a negative COUNT to HRANDFIELD, ZRANDMEMBER or SRANDMEMBER. Attackers can send a single command a…",
-      "severity": "HIGH",
-      "score": 7.5,
+      "cve": "CVE-2026-102764",
+      "title": "CVE-2026-102764",
+      "summary": "The vulnerability exists within internal components of BeyondTrust’s Remote Support product. The components did not adequately validate the origin of the messages it received. Under the right conditions, this could allow an attacker to perf…",
+      "severity": "CRITICAL",
+      "score": 9.8,
       "source": "NVD",
       "tags": [
         "NVD"
       ],
       "vendor": "",
       "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111279",
-      "published": "2026-10-15T22:19:29.157000+00:00"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+      "published": "2026-10-15T21:17:00.117000+00:00"
     },
     {
       "id": "222e66a510036328",
@@ -649,23 +1074,6 @@
       "published": "2026-10-15T19:17:36.110000+00:00"
     },
     {
-      "id": "4b7da382e86af98a",
-      "kind": "cve",
-      "cve": "CVE-2026-111229",
-      "title": "CVE-2026-111229",
-      "summary": "pfSense CE 2.7.0 through 2.9.0 contains a command injection vulnerability in services_captiveportal_hasync.php that allows users with only the Captive Portal HA privilege to execute commands as root. Attackers can set backwardsyncip to a ma…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111229",
-      "published": "2026-10-15T19:17:35.813000+00:00"
-    },
-    {
       "id": "2feb2f6a5e15e6b1",
       "kind": "cve",
       "cve": "CVE-2026-111226",
@@ -681,23 +1089,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111226",
       "published": "2026-10-15T19:17:35.373000+00:00"
-    },
-    {
-      "id": "e6eb46150a99da85",
-      "kind": "cve",
-      "cve": "CVE-2026-111224",
-      "title": "CVE-2026-111224",
-      "summary": "pfSense CE through 2.9.0 contains an OS command injection vulnerability in the OpenVPN openvpn.connect_async.sh script that allows authenticated VPN users to execute commands as root via crafted usernames. Attackers authenticated through RA…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111224",
-      "published": "2026-10-15T19:17:35.090000+00:00"
     },
     {
       "id": "86599f9083dd3bd8",
@@ -734,23 +1125,6 @@
       "published": "2026-10-15T19:17:33.907000+00:00"
     },
     {
-      "id": "60e7adbd0c38c77d",
-      "kind": "cve",
-      "cve": "CVE-2026-111214",
-      "title": "CVE-2026-111214",
-      "summary": "Netgate pfSense CE 2.7.0 through 2.9.0 contains an OS command injection vulnerability that allows authenticated users with QinQ edit privilege to run commands by storing an unvalidated parent interface name. Attackers can save a crafted 'if…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111214",
-      "published": "2026-10-15T19:17:33.603000+00:00"
-    },
-    {
       "id": "5dc2d825fc1042c9",
       "kind": "cve",
       "cve": "CVE-2026-111160",
@@ -783,6 +1157,23 @@
       "product": "",
       "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
       "published": "2026-10-15T18:49:33+00:00"
+    },
+    {
+      "id": "92b53c19c71c9185",
+      "kind": "cve",
+      "cve": "CVE-2026-111094",
+      "title": "CVE-2026-111094",
+      "summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution via a whitelist bypass in the build messages protocol was possible",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111094",
+      "published": "2026-10-15T16:17:48.993000+00:00"
     },
     {
       "id": "cdc576e64c59b425",
@@ -972,6 +1363,57 @@
       "published": "2026-10-15T10:42:16+00:00"
     },
     {
+      "id": "3e2db5f3849adbe8",
+      "kind": "cve",
+      "cve": "CVE-2026-44084",
+      "title": "CVE-2026-44084",
+      "summary": "An authorization bypass through user-controlled key vulnerability has been reported to affect Video Station. If exploited, the vulnerability could allow remote attackers to obtain sensitive data. We have already fixed the vulnerability in t…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44084",
+      "published": "2026-10-15T10:17:14.587000+00:00"
+    },
+    {
+      "id": "e52bbc2ac7ad8b2c",
+      "kind": "cve",
+      "cve": "CVE-2026-26245",
+      "title": "CVE-2026-26245",
+      "summary": "A SQL injection vulnerability has been reported to affect Video Station. If a remote attacker gains a user account, they can then exploit the vulnerability to execute unauthorized code or commands. We have already fixed the vulnerability in…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26245",
+      "published": "2026-10-15T10:17:13.053000+00:00"
+    },
+    {
+      "id": "def0dbab6de9c1a8",
+      "kind": "cve",
+      "cve": "CVE-2026-26244",
+      "title": "CVE-2026-26244",
+      "summary": "A SQL injection vulnerability has been reported to affect Video Station. If a remote attacker gains a user account, they can then exploit the vulnerability to execute unauthorized code or commands. We have already fixed the vulnerability in…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26244",
+      "published": "2026-10-15T10:17:12.917000+00:00"
+    },
+    {
       "id": "1d72630baefb7528",
       "kind": "research",
       "cve": null,
@@ -1091,40 +1533,6 @@
       "published": "2026-10-15T00:00:00+00:00"
     },
     {
-      "id": "613bbf78464e2c50",
-      "kind": "cve",
-      "cve": "CVE-2026-110873",
-      "title": "CVE-2026-110873",
-      "summary": "Heym from 0.0.55 before 0.0.121 contains a privilege escalation vulnerability that allows shared collaborators to overwrite a workflow's error_workflow_id because the field is missing from OWNER_ONLY_EXECUTION_FIELDS. Attackers can point th…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110873",
-      "published": "2026-10-14T23:17:29.237000+00:00"
-    },
-    {
-      "id": "8d1675e8c69f4d13",
-      "kind": "cve",
-      "cve": "CVE-2026-110868",
-      "title": "CVE-2026-110868",
-      "summary": "Renovate before 44.79.0 contains a server-side request forgery vulnerability that allows users to make the shared HTTP client request arbitrary internal URLs via extends presets or customDatasources. Attackers can point a preset at an insta…",
-      "severity": "HIGH",
-      "score": 8.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110868",
-      "published": "2026-10-14T23:17:28.537000+00:00"
-    },
-    {
       "id": "d722b78376eddfe3",
       "kind": "cve",
       "cve": "CVE-2026-110865",
@@ -1142,40 +1550,6 @@
       "published": "2026-10-14T23:17:28.110000+00:00"
     },
     {
-      "id": "6e1c8bb5ce3288d5",
-      "kind": "cve",
-      "cve": "CVE-2026-110863",
-      "title": "CVE-2026-110863",
-      "summary": "Better Auth @better-auth/sso from 1.7.0-rc.2 before 1.7.3 contains an authentication bypass vulnerability that allows authenticated users to sign in as other users by registering a personal SSO provider. Attackers can copy a legitimate prov…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110863",
-      "published": "2026-10-14T23:17:27.830000+00:00"
-    },
-    {
-      "id": "0b09b896cf8187b3",
-      "kind": "cve",
-      "cve": "CVE-2026-110858",
-      "title": "CVE-2026-110858",
-      "summary": "GitPython from 3.1.30 before 3.2.0 contains a remote code execution vulnerability in Remote.pull() whose unsafe-option guard inspects only keyword arguments, not the positional refspec. Attackers controlling the refspec can supply --upload-…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110858",
-      "published": "2026-10-14T23:17:27.043000+00:00"
-    },
-    {
       "id": "52d548041f88c08f",
       "kind": "cve",
       "cve": "CVE-2026-110856",
@@ -1191,23 +1565,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110856",
       "published": "2026-10-14T23:17:26.760000+00:00"
-    },
-    {
-      "id": "0bbbeee155f4feeb",
-      "kind": "cve",
-      "cve": "CVE-2026-110838",
-      "title": "CVE-2026-110838",
-      "summary": "FreeRDP shadow server from 3.0.0 before 3.32.0 dispatches input PDUs during the Confirm Active state before authentication, allowing unauthenticated attackers to inject keyboard input. Attackers can negotiate TLS-only RDP and send an input…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110838",
-      "published": "2026-10-14T23:17:24.023000+00:00"
     },
     {
       "id": "70ffe23b874cfdec",
@@ -1310,278 +1667,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
       "published": "2026-10-14T17:38:31+00:00"
-    },
-    {
-      "id": "7de398d0c863f76c",
-      "kind": "cve",
-      "cve": "CVE-2026-109439",
-      "title": "CVE-2026-109439",
-      "summary": "Lantronix XPress-DR and XPress-DR-I (CoBos-family) firmware through 8.1.0.0 contains a missing authentication vulnerability that allows remote attackers to read and persistently overwrite device configuration by sending crafted frames to th…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109439",
-      "published": "2026-10-14T17:18:23.253000+00:00"
-    },
-    {
-      "id": "dcbc21602dc4c057",
-      "kind": "cve",
-      "cve": "CVE-2026-102178",
-      "title": "CVE-2026-102178",
-      "summary": "A Stack-based Buffer Overflow vulnerability in the BGP routing daemon of Juniper Networks Junos OS and Junos OS Evolved allows a configured BGP flowspec peer to cause routing-engine compromise or a routing-daemon denial of service via flows…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102178",
-      "published": "2026-10-14T17:18:05.610000+00:00"
-    },
-    {
-      "id": "89192b041fc8188c",
-      "kind": "cve",
-      "cve": "CVE-2026-102176",
-      "title": "CVE-2026-102176",
-      "summary": "A Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability in the SDK service process of Juniper Networks Junos OS allows an unauthenticated network attacker to cause a denial of service or compromise the Routing…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102176",
-      "published": "2026-10-14T17:18:05.303000+00:00"
-    },
-    {
-      "id": "955e8e3e21af0e27",
-      "kind": "cve",
-      "cve": "CVE-2026-102056",
-      "title": "CVE-2026-102056",
-      "summary": "An Out-of-bounds Read vulnerability in the cfmd process of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated adjacent-network attacker to crash the daemon and disclose limited process memory via a specific CFM Message…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102056",
-      "published": "2026-10-14T17:18:00.753000+00:00"
-    },
-    {
-      "id": "9a0342062010536d",
-      "kind": "cve",
-      "cve": "CVE-2026-102050",
-      "title": "CVE-2026-102050",
-      "summary": "A Stack-based Buffer Overflow vulnerability in the l2cpd daemon of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated adjacent attacker to cause a denial of service in Layer 2 control-plane processing via LLDP packets…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102050",
-      "published": "2026-10-14T17:17:59.737000+00:00"
-    },
-    {
-      "id": "aa70189886e24137",
-      "kind": "cve",
-      "cve": "CVE-2026-102037",
-      "title": "CVE-2026-102037",
-      "summary": "An XML Injection vulnerability in the Unified Threat Management daemon (utmd) of Juniper Networks Junos OS on SRX Series devices allows an unauthenticated network attacker to commit arbitrary device configuration with root privileges via a…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102037",
-      "published": "2026-10-14T17:17:57.867000+00:00"
-    },
-    {
-      "id": "e8d4b43b33cd86fd",
-      "kind": "cve",
-      "cve": "CVE-2026-102030",
-      "title": "CVE-2026-102030",
-      "summary": "An Incomplete Cleanup vulnerability in the rpd process of Juniper Networks Junos OS and Junos OS Evolved allows a configured MVPN neighbor to cause a denial of service via a BGP MVPN update when an inter‑region segmented VRF with 'protocols…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102030",
-      "published": "2026-10-14T17:17:56.460000+00:00"
-    },
-    {
-      "id": "a9b1a4dfcec607bd",
-      "kind": "cve",
-      "cve": "CVE-2026-102029",
-      "title": "CVE-2026-102029",
-      "summary": "A NULL Pointer Dereference vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated configured MSDP peer or adjacent PIM sender to cause a denial of service via an MSDP o…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102029",
-      "published": "2026-10-14T17:17:56.303000+00:00"
-    },
-    {
-      "id": "dd02e0c9fe12a8be",
-      "kind": "cve",
-      "cve": "CVE-2026-102028",
-      "title": "CVE-2026-102028",
-      "summary": "A NULL Pointer Dereference vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a remote BGP peer to cause a denial of service when multiple UPDATEs occur over a single TCP session with…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102028",
-      "published": "2026-10-14T17:17:56.137000+00:00"
-    },
-    {
-      "id": "be53e98aa75d7540",
-      "kind": "cve",
-      "cve": "CVE-2026-102027",
-      "title": "CVE-2026-102027",
-      "summary": "An Incorrect Calculation of Buffer Size vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a configured eBGP neighbor to cause an rpd crash via BGP labeled-unicast UPDATEs when the af…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102027",
-      "published": "2026-10-14T17:17:55.973000+00:00"
-    },
-    {
-      "id": "0dda9dd6066df884",
-      "kind": "cve",
-      "cve": "CVE-2026-102026",
-      "title": "CVE-2026-102026",
-      "summary": "An Improper Control of a Resource Through its Lifetime vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an adjacent eBGP peer to cause a routing-daemon crash via a BGP route update…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102026",
-      "published": "2026-10-14T17:17:55.793000+00:00"
-    },
-    {
-      "id": "c180a1763e1706ea",
-      "kind": "cve",
-      "cve": "CVE-2026-102025",
-      "title": "CVE-2026-102025",
-      "summary": "A Mismatched Memory Management Routines vulnerability in the routing protocol daemon (rpd) process of Juniper Networks Junos OS and Junos OS Evolved allows an authenticated network-based attacker to cause a denial of service via a BGP route…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102025",
-      "published": "2026-10-14T17:17:55.627000+00:00"
-    },
-    {
-      "id": "7d0c275d2f930208",
-      "kind": "cve",
-      "cve": "CVE-2026-102024",
-      "title": "CVE-2026-102024",
-      "summary": "An Integer Overflow or Wraparound vulnerability in the routing daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an authenticated BGP peer to cause a denial of service via BGP route updates when extended-nexthop-tunnel i…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102024",
-      "published": "2026-10-14T17:17:55.463000+00:00"
-    },
-    {
-      "id": "920eeb873a86726c",
-      "kind": "cve",
-      "cve": "CVE-2026-102023",
-      "title": "CVE-2026-102023",
-      "summary": "A Reachable Assertion vulnerability in fwstatsd of Juniper Networks Junos OS Evolved allows an authenticated network attacker to cause a denial of service via an SNMP firewall-counter MIB query when at least one firewall counter is configur…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102023",
-      "published": "2026-10-14T17:17:55.320000+00:00"
-    },
-    {
-      "id": "8cfb97fd2a6eb847",
-      "kind": "cve",
-      "cve": "CVE-2026-102022",
-      "title": "CVE-2026-102022",
-      "summary": "A Reachable Assertion vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an attacker with access to a configured BGP-LS peer to cause an rpd crash via a crafted BGP-LS Link NLRI adver…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102022",
-      "published": "2026-10-14T17:17:55.177000+00:00"
-    },
-    {
-      "id": "9ee0ee45d0767707",
-      "kind": "cve",
-      "cve": "CVE-2026-102020",
-      "title": "CVE-2026-102020",
-      "summary": "A Reachable Assertion vulnerability in the rpd process of Juniper Networks Junos OS and Junos OS Evolved allows an authenticated network-based attacker to cause a denial of service via BGP-LS routing updates.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102020",
-      "published": "2026-10-14T17:17:54.873000+00:00"
     },
     {
       "id": "7cdc0d5fc6e3296d",
@@ -1737,23 +1822,6 @@
       "published": "2026-10-14T16:17:44.183000+00:00"
     },
     {
-      "id": "c0773fa60f9037fa",
-      "kind": "cve",
-      "cve": "CVE-2026-110648",
-      "title": "CVE-2026-110648",
-      "summary": "@offactory/compress-fonts before 1.1.1 contains an OS command injection vulnerability that allows attackers to execute shell commands by supplying font files with crafted names. Font paths are interpolated unquoted into a FontForge command…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110648",
-      "published": "2026-10-14T15:17:18.510000+00:00"
-    },
-    {
       "id": "b2782b8d388342f0",
       "kind": "cve",
       "cve": "CVE-2026-110646",
@@ -1769,23 +1837,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110646",
       "published": "2026-10-14T15:17:18.237000+00:00"
-    },
-    {
-      "id": "487dd4120603abc7",
-      "kind": "cve",
-      "cve": "CVE-2026-110643",
-      "title": "CVE-2026-110643",
-      "summary": "transcribe2texts through 1.0.6 contains an OS command injection vulnerability that allows attackers to execute commands by supplying crafted audioPath values to transcribeAudio(). Attackers can inject $() or backtick substitution or a closi…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110643",
-      "published": "2026-10-14T15:17:17.790000+00:00"
     },
     {
       "id": "c28844dd755a7602",
@@ -1820,23 +1871,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110640",
       "published": "2026-10-14T15:17:17.277000+00:00"
-    },
-    {
-      "id": "c2b883084b090bec",
-      "kind": "cve",
-      "cve": "CVE-2026-110638",
-      "title": "CVE-2026-110638",
-      "summary": "doc-recog through 1.1.6 contains an OS command injection vulnerability that allows attackers to execute commands by supplying crafted document paths to recog() or tag(). Attackers can embed $(...) or backtick command substitution in the fil…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110638",
-      "published": "2026-10-14T15:17:16.997000+00:00"
     },
     {
       "id": "e430ca2f3231187a",
@@ -1890,40 +1924,6 @@
       "published": "2026-10-14T15:17:16.283000+00:00"
     },
     {
-      "id": "a0f15ade25543e45",
-      "kind": "cve",
-      "cve": "CVE-2026-110628",
-      "title": "CVE-2026-110628",
-      "summary": "Kan 0.5.5 through 0.6.0 contains an unauthenticated server-side request forgery vulnerability in the /api/download/attatchment route due to an incomplete fix for CVE-2026-32255. When S3_ENDPOINT is unset, attackers can pass arbitrary url qu…",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110628",
-      "published": "2026-10-14T15:17:15.540000+00:00"
-    },
-    {
-      "id": "e132206977a08947",
-      "kind": "cve",
-      "cve": "CVE-2026-110623",
-      "title": "CVE-2026-110623",
-      "summary": "Papermerge Core through 3.5.3 contains a missing authorization vulnerability in the shared nodes API that allows authenticated users to share other users' documents by supplying arbitrary node UUIDs. Attackers can call POST /shared-nodes or…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110623",
-      "published": "2026-10-14T15:17:14.833000+00:00"
-    },
-    {
       "id": "f2d10f168d7cf7d3",
       "kind": "cve",
       "cve": "CVE-2026-110621",
@@ -1939,23 +1939,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110621",
       "published": "2026-10-14T15:17:14.497000+00:00"
-    },
-    {
-      "id": "a0e39e5891c30973",
-      "kind": "cve",
-      "cve": "CVE-2026-110618",
-      "title": "CVE-2026-110618",
-      "summary": "SmsForwarder through 3.5.0 contains a missing authentication vulnerability in its AndServer HTTP server that allows unauthenticated network attackers to invoke remote-control APIs. Attackers can call the default-enabled endpoints to read SM…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110618",
-      "published": "2026-10-14T15:17:14.053000+00:00"
     },
     {
       "id": "68b25689f28032e8",
@@ -2519,23 +2502,6 @@
       "published": "2026-10-13T21:17:31.597000+00:00"
     },
     {
-      "id": "0281d7def6b678bd",
-      "kind": "cve",
-      "cve": "CVE-2026-105443",
-      "title": "CVE-2026-105443",
-      "summary": "IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.10 has insufficient isolation between servers sharing an install.",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105443",
-      "published": "2026-10-13T21:17:27.100000+00:00"
-    },
-    {
       "id": "e67a37894f8f4c18",
       "kind": "cve",
       "cve": "CVE-2026-63174",
@@ -2721,6 +2687,57 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88073",
       "published": "2026-10-13T19:21:26.010000+00:00"
+    },
+    {
+      "id": "be1bc33ca36b086b",
+      "kind": "cve",
+      "cve": "CVE-2026-85797",
+      "title": "CVE-2026-85797",
+      "summary": "Out-of-bounds read in Windows GDI allows an unauthorized attacker to disclose information over a network.",
+      "severity": "MEDIUM",
+      "score": 6.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85797",
+      "published": "2026-10-13T19:21:03.447000+00:00"
+    },
+    {
+      "id": "ec12693212752d3c",
+      "kind": "cve",
+      "cve": "CVE-2026-85333",
+      "title": "CVE-2026-85333",
+      "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Performance Monitor allows an authorized attacker to elevate privileges locally.",
+      "severity": "MEDIUM",
+      "score": 6.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85333",
+      "published": "2026-10-13T19:20:55.873000+00:00"
+    },
+    {
+      "id": "3868fe814a5f1701",
+      "kind": "cve",
+      "cve": "CVE-2026-69918",
+      "title": "CVE-2026-69918",
+      "summary": "Heap-based buffer overflow in Windows Core Messaging allows an authorized attacker to elevate privileges locally.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69918",
+      "published": "2026-10-13T19:19:03.057000+00:00"
     },
     {
       "id": "0e4e5d35ba5acd88",
@@ -2995,23 +3012,6 @@
       "published": "2026-10-13T17:33:11+00:00"
     },
     {
-      "id": "6e56ced53da56dc2",
-      "kind": "research",
-      "cve": null,
-      "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
-      "summary": "A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw affects multi-tenant applications on SAP…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
-      "published": "2026-10-13T17:28:50+00:00"
-    },
-    {
       "id": "d5ecb9aa68517cdd",
       "kind": "cve",
       "cve": "CVE-2026-110128",
@@ -3078,23 +3078,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/etr-ivanti-connect-secure-zero-day-exploited-in-the-wild-cve-2026-104935",
       "published": "2026-10-13T17:06:05+00:00"
-    },
-    {
-      "id": "3770e65c491fe5df",
-      "kind": "research",
-      "cve": null,
-      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
-      "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having t…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
-      "published": "2026-10-13T16:18:18+00:00"
     },
     {
       "id": "7a4a59e0c4a08577",
@@ -3301,23 +3284,6 @@
       "published": "2026-10-13T11:29:03+00:00"
     },
     {
-      "id": "14ab86c15474f991",
-      "kind": "cve",
-      "cve": "CVE-2026-89197",
-      "title": "CVE-2026-89197",
-      "summary": "A vulnerability has been identified in RUGGEDCOM CROSSBOW (All versions < V6.0). Affected devices do not properly validate or sanitize input in the Value field of notification conditions processed during the Notification Profile configurati…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89197",
-      "published": "2026-10-13T10:17:21.060000+00:00"
-    },
-    {
       "id": "69551994a43ae8c6",
       "kind": "cve",
       "cve": "CVE-2026-85114",
@@ -3333,74 +3299,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85114",
       "published": "2026-10-13T10:17:20.640000+00:00"
-    },
-    {
-      "id": "cdfce1f8729d34cd",
-      "kind": "cve",
-      "cve": "CVE-2026-78556",
-      "title": "CVE-2026-78556",
-      "summary": "A vulnerability has been identified in Industrial Edge App Publisher (All versions < V1.27.9). The affected software does not properly validate the server certificate when initiating a TLS connection. This allows an attacker to intercept an…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-78556",
-      "published": "2026-10-13T10:17:20.277000+00:00"
-    },
-    {
-      "id": "f5895e56cdf1ed1f",
-      "kind": "cve",
-      "cve": "CVE-2026-63354",
-      "title": "CVE-2026-63354",
-      "summary": "Affected devices do not properly validate and sanitize visual marker data contained in imported CSV trace files before rendering it on the Trace page. This could allow an attacker to social engineer an authorized user who holds the function…",
-      "severity": "CRITICAL",
-      "score": 9.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63354",
-      "published": "2026-10-13T10:17:18.450000+00:00"
-    },
-    {
-      "id": "b91f86bc91b21018",
-      "kind": "cve",
-      "cve": "CVE-2026-59241",
-      "title": "CVE-2026-59241",
-      "summary": "A vulnerability has been identified in SIMATIC WinCC V7.5 (All versions), SIMATIC WinCC V8.0 (All versions < V8.0 Update 11), SIMATIC WinCC V8.1 (All versions < V8.1 Update 7). The affected application does not sufficiently restrict the per…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59241",
-      "published": "2026-10-13T10:17:16.623000+00:00"
-    },
-    {
-      "id": "a98eecec960beeb7",
-      "kind": "cve",
-      "cve": "CVE-2026-13138",
-      "title": "CVE-2026-13138",
-      "summary": "Client-Side Enforcement of Server-Side Security vulnerability in Divasoft Software and E-Commerce Inc. Biletiva Ticketing Platform allows Manipulating State. This issue affects Biletiva Ticketing Platform: through 2026-07-23.",
-      "severity": "HIGH",
-      "score": 8.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13138",
-      "published": "2026-10-13T09:17:17.127000+00:00"
     },
     {
       "id": "e9e0490cda4f3256",
@@ -4251,6 +4149,108 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/ve-business-email-compromise-rewriting-reality-zimbra-cve",
       "published": "2026-09-24T13:00:00+00:00"
+    },
+    {
+      "id": "0fb79f2c3773bac6",
+      "kind": "cve",
+      "cve": "CVE-2026-5430",
+      "title": "WSO2 Multiple Products Path Traversal Vulnerability ",
+      "summary": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "WSO2",
+      "product": "Multiple Products",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430",
+      "published": "2026-09-24T00:00:00+00:00"
+    },
+    {
+      "id": "d54cd9c14b575349",
+      "kind": "cve",
+      "cve": "CVE-2026-71362",
+      "title": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+      "summary": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Adobe",
+      "product": "Commerce and Magento ",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362",
+      "published": "2026-09-24T00:00:00+00:00"
+    },
+    {
+      "id": "1572cfbc8e686593",
+      "kind": "research",
+      "cve": "CVE-2026-94127",
+      "title": "Is This A Joke? In The Auth Header? (F5 BIG-IP UnAuth Heap-Overflow to RCE CVE-2026-94127)",
+      "summary": "Well, well, well, well, well, well, well, well, well, well, well, well, well, well, well. We&apos;re back. Sorry. We&apos;ve been watching the onslaught of vulnerabilities flood the internet. Every man, dog, and their grandmas (apparently?)…",
+      "severity": "",
+      "score": null,
+      "source": "watchTowr Labs",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://labs.watchtowr.com/is-this-a-joke-in-the-auth-header-f5-big-ip-unauth-heap-overflow-to-rce-cve-2026-94127/",
+      "published": "2026-09-23T23:19:19+00:00"
+    },
+    {
+      "id": "63d6d101ab6d4360",
+      "kind": "research",
+      "cve": null,
+      "title": "HTTP/3 in Burp Suite - it’s time to find a bigger wordlist",
+      "summary": "How many bugs have you missed because you didn’t send quite enough HTTP requests? Turbo Intruder now supports HTTP/3, can comfortably exceed 100,000 requests per second over Wi-Fi, and auto-tunes for",
+      "severity": "",
+      "score": null,
+      "source": "PortSwigger Research",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://portswigger.net/research/http3-in-burp-suite",
+      "published": "2026-09-23T14:00:00+00:00"
+    },
+    {
+      "id": "d8b419e6106b6a28",
+      "kind": "cve",
+      "cve": "CVE-2026-93952",
+      "title": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+      "summary": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Arista",
+      "product": "VeloCloud Orchestrator",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
+      "published": "2026-09-22T00:00:00+00:00"
+    },
+    {
+      "id": "9fc6dac7cd789b92",
+      "kind": "cve",
+      "cve": "CVE-2026-94127",
+      "title": "F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
+      "summary": "F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "F5",
+      "product": "BIG-IP APM",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94127",
+      "published": "2026-09-22T00:00:00+00:00"
     }
   ]
 }
