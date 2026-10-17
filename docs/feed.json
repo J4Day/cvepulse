@@ -1,7 +1,245 @@
 {
-  "generated": "2026-10-17T17:38:33.141583+00:00",
+  "generated": "2026-10-17T19:52:22.984267+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "46e9e806cc211bf6",
+      "kind": "cve",
+      "cve": "CVE-2026-111927",
+      "title": "CVE-2026-111927",
+      "summary": "Coder before 2.29.20, 2.33.0 before 2.33.12, 2.34.0 before 2.34.8, and 2.35.0 before 2.35.4 contains an improper hostname validation flaw in GetWorkspaceProxyByHostname whose SIMILAR TO pattern performs a prefix match, so any domain that is…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111927",
+      "published": "2026-10-17T19:16:35.527000+00:00"
+    },
+    {
+      "id": "425501f6bc054364",
+      "kind": "cve",
+      "cve": "CVE-2026-111924",
+      "title": "CVE-2026-111924",
+      "summary": "Fleet before 4.83.0 contains a denial of service vulnerability that allows unauthenticated attackers to exhaust server memory by sending gzip-compressed request bodies. Attackers can send small, highly compressed requests with Content-Encod…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111924",
+      "published": "2026-10-17T19:16:35.257000+00:00"
+    },
+    {
+      "id": "4dc5fabc81810a5e",
+      "kind": "cve",
+      "cve": "CVE-2026-111923",
+      "title": "CVE-2026-111923",
+      "summary": "Fleet before 4.89.0 contains an unbounded recursion vulnerability in Apple MDM enrollment property list parsing that allows unauthenticated attackers to crash the server. Attackers can send a crafted binary plist payload of about 150 bytes…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111923",
+      "published": "2026-10-17T19:16:35.117000+00:00"
+    },
+    {
+      "id": "71767d75343c4b74",
+      "kind": "cve",
+      "cve": "CVE-2026-111911",
+      "title": "CVE-2026-111911",
+      "summary": "phpMyFAQ 4.0.0 before 4.1.9 contains an authentication bypass vulnerability where WebAuthn registration endpoints attach credentials to any account without authentication or challenge validation. Attackers can stage a victim username, submi…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111911",
+      "published": "2026-10-17T19:16:33.500000+00:00"
+    },
+    {
+      "id": "95cc5056a9d69165",
+      "kind": "cve",
+      "cve": "CVE-2026-111909",
+      "title": "CVE-2026-111909",
+      "summary": "phpMyFAQ before 4.1.9 contains a missing authorization vulnerability in the deleteUser() API that allows authenticated non-superadmin users with delete_user permission to delete superadmin accounts. Attackers can send a DELETE request to /a…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111909",
+      "published": "2026-10-17T19:16:33.190000+00:00"
+    },
+    {
+      "id": "a2290773eb9f3738",
+      "kind": "cve",
+      "cve": "CVE-2026-111908",
+      "title": "CVE-2026-111908",
+      "summary": "phpMyFAQ 4.0.0 before 4.1.9 and 4.2.0-alpha before 4.2.0-beta contains a broken object-level authorization vulnerability in the PUT /api/v3.1/faq/update endpoint, which checks only the global edit_faq permission and does not verify access t…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111908",
+      "published": "2026-10-17T19:16:33.043000+00:00"
+    },
+    {
+      "id": "7789a8876919c411",
+      "kind": "cve",
+      "cve": "CVE-2026-111907",
+      "title": "CVE-2026-111907",
+      "summary": "phpMyFAQ 4.0.0 before 4.1.9 contains a cross-site request forgery vulnerability in the POST /admin/api/update-database endpoint, which executes database migrations without validating a CSRF token. Attackers can lure a logged-in user with th…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111907",
+      "published": "2026-10-17T19:16:32.883000+00:00"
+    },
+    {
+      "id": "1b10daba851d1f76",
+      "kind": "cve",
+      "cve": "CVE-2026-111901",
+      "title": "CVE-2026-111901",
+      "summary": "phpMyFAQ 4.2.0-alpha before 4.2.0-beta contains an uncontrolled resource consumption vulnerability in the unauthenticated faqs and search API endpoints. Attackers can send concurrent GET requests that load and process all database records i…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111901",
+      "published": "2026-10-17T19:16:31.953000+00:00"
+    },
+    {
+      "id": "1cba5b37dcf5097d",
+      "kind": "cve",
+      "cve": "CVE-2026-111898",
+      "title": "CVE-2026-111898",
+      "summary": "phpMyFAQ 4.2.0-alpha before 4.2.0-beta contains an authentication bypass vulnerability that allows Keycloak users to take over local accounts by matching preferred_username or email. Attackers controlling a Keycloak identity with a collidin…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111898",
+      "published": "2026-10-17T19:16:31.647000+00:00"
+    },
+    {
+      "id": "86f87cb0282f43bd",
+      "kind": "cve",
+      "cve": "CVE-2026-111897",
+      "title": "CVE-2026-111897",
+      "summary": "phpMyFAQ 4.2.0-alpha before 4.2.0-beta contains an authorization bypass vulnerability that allows category-restricted editors to manage attachments of FAQs outside their categories by supplying arbitrary record IDs. Attackers in medium perm…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111897",
+      "published": "2026-10-17T19:16:31.487000+00:00"
+    },
+    {
+      "id": "f3a83b5fe7ab22bf",
+      "kind": "cve",
+      "cve": "CVE-2026-111884",
+      "title": "CVE-2026-111884",
+      "summary": "phpMyFAQ before 4.1.9 and 4.2.0-alpha before 4.2.0-beta does not require the current password when changing an account e-mail in the user control panel (UserController::updateData, api/user/data/update), checking only the session and CSRF t…",
+      "severity": "HIGH",
+      "score": 8.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111884",
+      "published": "2026-10-17T19:16:29.450000+00:00"
+    },
+    {
+      "id": "fa2fff18e0ad8786",
+      "kind": "cve",
+      "cve": "CVE-2026-111882",
+      "title": "CVE-2026-111882",
+      "summary": "phpMyFAQ 3.2.0-alpha before 4.1.9 and 4.2.0-alpha before 4.2.0-beta contains an authentication bypass vulnerability that allows IdP-authenticated users to skip TOTP two-factor authentication through the Keycloak and Entra ID SSO callbacks.…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111882",
+      "published": "2026-10-17T19:16:29.240000+00:00"
+    },
+    {
+      "id": "46cda578aec276fb",
+      "kind": "cve",
+      "cve": "CVE-2026-111881",
+      "title": "CVE-2026-111881",
+      "summary": "FreeRDP from 3.14.1 before 3.32.0 contains an integer underflow in the WinPR BMP writer, where a mismatched stride calculation passes SIZE_MAX - 3 to Stream_Zero for sub-byte images. A malicious RDP clipboard peer can return a crafted 1-bpp…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111881",
+      "published": "2026-10-17T19:16:29.103000+00:00"
+    },
+    {
+      "id": "020d638d7978af1c",
+      "kind": "cve",
+      "cve": "CVE-2026-111880",
+      "title": "CVE-2026-111880",
+      "summary": "FreeRDP versions from 2.0.0 before 3.32.0 contain a heap out-of-bounds write in the server hash-callback NTLM path that fails to validate the MIC offset. Unauthenticated attackers can send a crafted AUTHENTICATE_MESSAGE with a backward sess…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111880",
+      "published": "2026-10-17T19:16:28.960000+00:00"
+    },
     {
       "id": "1fae9cde44bf146f",
       "kind": "research",
@@ -4013,244 +4251,6 @@
       "product": "Artifactory",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
       "published": "2026-08-27T00:00:00+00:00"
-    },
-    {
-      "id": "b9d9df9af799cd17",
-      "kind": "cve",
-      "cve": "CVE-2021-23758",
-      "title": "Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
-      "summary": "Ajax.NET Professional (AjaxPro) contains a deserialization of untrusted data vulnerability that could allow for remote code execution via arbitrary .NET classes. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS)…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Ajax.NET Professional",
-      "product": "Ajax.NET Professional",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
-      "published": "2026-08-26T00:00:00+00:00"
-    },
-    {
-      "id": "7e6bb307faf71c5d",
-      "kind": "cve",
-      "cve": "CVE-2015-3246",
-      "title": "Red Hat Libuser Race Condition Vulnerability",
-      "summary": "Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Red Hat",
-      "product": "Libuser",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
-      "published": "2026-08-26T00:00:00+00:00"
-    },
-    {
-      "id": "9d34c6b28c646927",
-      "kind": "cve",
-      "cve": "CVE-2015-5287",
-      "title": "Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
-      "summary": "Red Hat Automatic Bug Reporting Tool (ABRT) contains a privilege escalation vulnerability that could allow local users with certain permissions to gain privileges via a symlink attack on a file with a predictable name. The impacted product(…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Red Hat",
-      "product": "Automatic Bug Reporting Tool",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
-      "published": "2026-08-26T00:00:00+00:00"
-    },
-    {
-      "id": "75d918011734ff8f",
-      "kind": "cve",
-      "cve": "CVE-2022-0995",
-      "title": "Linux Kernel Out-of-Bounds Write Vulnerability",
-      "summary": "Linux Kernel contains an out-of-bounds memory write vulnerability which could allow a local user to gain privileged access or cause a denial of service on the system.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Linux",
-      "product": "Kernel",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995",
-      "published": "2026-08-26T00:00:00+00:00"
-    },
-    {
-      "id": "6013cda1fc6b6a0f",
-      "kind": "cve",
-      "cve": "CVE-2026-8452",
-      "title": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "summary": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability which could lead to denial of service.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Citrix",
-      "product": "NetScaler ADC and NetScaler Gateway",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
-      "published": "2026-08-26T00:00:00+00:00"
-    },
-    {
-      "id": "b6401956e6cb8140",
-      "kind": "cve",
-      "cve": "CVE-2019-1068",
-      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
-      "summary": "Microsoft SQL Server contains a remote code execution vulnerability that could allow an attacker to execute code in the context of the SQL Server Database Engine service account.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SQL Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
-      "published": "2026-08-26T00:00:00+00:00"
-    },
-    {
-      "id": "a235d02d46e2e2aa",
-      "kind": "research",
-      "cve": null,
-      "title": "What's in a tag name? JavaScript, apparently",
-      "summary": "I was on my laptop, as I often am when there's rubbish on telly, and found myself wondering what characters are allowed in a tag. I knew they had to begin with \"a-zA-Z\", but what about after that? I t",
-      "severity": "",
-      "score": null,
-      "source": "PortSwigger Research",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://portswigger.net/research/whats-in-a-tag-name-javascript-apparently",
-      "published": "2026-08-25T14:24:32+00:00"
-    },
-    {
-      "id": "818b8c89305fba1d",
-      "kind": "cve",
-      "cve": "CVE-2026-60004",
-      "title": "Gitea Code Injection Vulnerability",
-      "summary": "Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell commands as the Gitea service account.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Gitea",
-      "product": "Gitea",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
-      "published": "2026-08-25T00:00:00+00:00"
-    },
-    {
-      "id": "36d8997529b2efe4",
-      "kind": "cve",
-      "cve": "CVE-2026-21962",
-      "title": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
-      "summary": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data as well as unauthorized access to critic…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Oracle",
-      "product": "HTTP Server and Oracle Weblogic Server Proxy Plug-in",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
-      "published": "2026-08-24T00:00:00+00:00"
-    },
-    {
-      "id": "992d763e68dd45b4",
-      "kind": "cve",
-      "cve": "CVE-2026-73570",
-      "title": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
-      "summary": "Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Synacor",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570",
-      "published": "2026-08-21T00:00:00+00:00"
-    },
-    {
-      "id": "3d980646bdcea991",
-      "kind": "cve",
-      "cve": "CVE-2026-72530",
-      "title": "TrueConf Server Code Injection Vulnerability",
-      "summary": "TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the isolated environment and execute arbitrary…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "TrueConf",
-      "product": "Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
-      "published": "2026-08-20T00:00:00+00:00"
-    },
-    {
-      "id": "55f2f4e219feea57",
-      "kind": "cve",
-      "cve": "CVE-2026-72529",
-      "title": "TrueConf Server Missing Authentication for Critical Function Vulnerability",
-      "summary": "TrueConf Server contains a missing authentication for critical function vulnerability which could allow a remote unauthorized attacker with network access via port 4307/TCP to execute an arbitrary script.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "TrueConf",
-      "product": "Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
-      "published": "2026-08-20T00:00:00+00:00"
-    },
-    {
-      "id": "3158e2788850b3bc",
-      "kind": "cve",
-      "cve": "CVE-2026-64849",
-      "title": "MLflow Server-Side Request Forgery Vulnerability",
-      "summary": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "MLflow",
-      "product": "MLflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
-      "published": "2026-08-19T00:00:00+00:00"
-    },
-    {
-      "id": "7141113217a74fa6",
-      "kind": "cve",
-      "cve": "CVE-2026-33824",
-      "title": "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
-      "summary": "Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "Internet Key Exchange (IKE) Service Extensions",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
-      "published": "2026-08-18T00:00:00+00:00"
     }
   ]
 }
