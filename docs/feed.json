@@ -1,7 +1,160 @@
 {
-  "generated": "2026-10-18T07:34:32.018480+00:00",
+  "generated": "2026-10-18T12:17:56.154936+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "e51ffc533ee34be8",
+      "kind": "cve",
+      "cve": "CVE-2026-112021",
+      "title": "CVE-2026-112021",
+      "summary": "snac2 before 2.93 contains a heap-based buffer overflow vulnerability in _xs_json_load_lexer() that allows unauthenticated remote attackers to corrupt heap memory by sending JSON strings containing a \\u0000 escape. Attackers can send a sing…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112021",
+      "published": "2026-10-18T12:17:15.200000+00:00"
+    },
+    {
+      "id": "6ebe48ad35298457",
+      "kind": "cve",
+      "cve": "CVE-2026-112018",
+      "title": "CVE-2026-112018",
+      "summary": "cgltf through 1.15 contains a heap out-of-bounds write vulnerability in cgltf_accessor_unpack_floats() that allows attackers to write outside the output buffer via unchecked sparse accessor indices. Attackers can supply a crafted glTF or GL…",
+      "severity": "HIGH",
+      "score": 7.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112018",
+      "published": "2026-10-18T12:17:14.747000+00:00"
+    },
+    {
+      "id": "59471b02914d127b",
+      "kind": "cve",
+      "cve": "CVE-2026-112015",
+      "title": "CVE-2026-112015",
+      "summary": "Omnigent 0.3.0 before 0.14.0 contains a path traversal vulnerability that allows authenticated users to escape the workspace by setting os_env.cwd on nested sub-agents. Attackers can upload a bundle whose sub-agent uses an absolute or paren…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112015",
+      "published": "2026-10-18T12:17:14.303000+00:00"
+    },
+    {
+      "id": "8beb357b2b65329a",
+      "kind": "cve",
+      "cve": "CVE-2026-112005",
+      "title": "CVE-2026-112005",
+      "summary": "WhoDB 0.104.0 before 0.135.0 contains a path traversal vulnerability that allows remote attackers to read and write arbitrary host files by running DuckDB filesystem functions through the query editor. Attackers can log in to a DuckDB file…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112005",
+      "published": "2026-10-18T12:17:12.790000+00:00"
+    },
+    {
+      "id": "ee2d6b92cb2e1ddf",
+      "kind": "cve",
+      "cve": "CVE-2026-112001",
+      "title": "CVE-2026-112001",
+      "summary": "ProjectSend 2.0.0 before 2.7.0 contains an incorrect authorization vulnerability that allows restricted API token holders to change the token owner's credentials via PATCH /api/v1/users/{user}. Attackers with a token limited to manage_users…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112001",
+      "published": "2026-10-18T12:17:12.140000+00:00"
+    },
+    {
+      "id": "92fc9e99105064e0",
+      "kind": "cve",
+      "cve": "CVE-2026-112000",
+      "title": "CVE-2026-112000",
+      "summary": "Vanus 0.8.0 through 0.9.0 contains a missing authorization vulnerability in the gateway that allows any authenticated user to call Subscribe, Ack, and unregistered methods without permission checks. Attackers can supply another tenant's sub…",
+      "severity": "HIGH",
+      "score": 7.6,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112000",
+      "published": "2026-10-18T12:17:12.007000+00:00"
+    },
+    {
+      "id": "4318e5e968192e02",
+      "kind": "cve",
+      "cve": "CVE-2026-111999",
+      "title": "CVE-2026-111999",
+      "summary": "Vanus 0.8.0 through 0.9.0 contains a missing authentication vulnerability that allows unauthenticated remote attackers to publish events to any eventbus through the gateway CloudEvents HTTP receiver. Attackers can send forged CloudEvents to…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111999",
+      "published": "2026-10-18T12:17:11.870000+00:00"
+    },
+    {
+      "id": "516bca872e8c280c",
+      "kind": "cve",
+      "cve": "CVE-2026-111998",
+      "title": "CVE-2026-111998",
+      "summary": "Vanus 0.8.0 through 0.9.0 contains a default credentials vulnerability that allows unauthenticated remote attackers to gain cluster-admin access by using the hardcoded admin token. Attackers can send the fixed Bearer token to the gateway gR…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111998",
+      "published": "2026-10-18T12:17:11.730000+00:00"
+    },
+    {
+      "id": "952b3a6c7b9c760d",
+      "kind": "research",
+      "cve": null,
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromis…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "published": "2026-10-18T08:23:02+00:00"
+    },
     {
       "id": "cb3b318b39d5c2f5",
       "kind": "cve",
@@ -139,23 +292,6 @@
       "published": "2026-10-17T19:16:33.500000+00:00"
     },
     {
-      "id": "95cc5056a9d69165",
-      "kind": "cve",
-      "cve": "CVE-2026-111909",
-      "title": "CVE-2026-111909",
-      "summary": "phpMyFAQ before 4.1.9 contains a missing authorization vulnerability in the deleteUser() API that allows authenticated non-superadmin users with delete_user permission to delete superadmin accounts. Attackers can send a DELETE request to /a…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111909",
-      "published": "2026-10-17T19:16:33.190000+00:00"
-    },
-    {
       "id": "a2290773eb9f3738",
       "kind": "cve",
       "cve": "CVE-2026-111908",
@@ -205,23 +341,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111901",
       "published": "2026-10-17T19:16:31.953000+00:00"
-    },
-    {
-      "id": "1cba5b37dcf5097d",
-      "kind": "cve",
-      "cve": "CVE-2026-111898",
-      "title": "CVE-2026-111898",
-      "summary": "phpMyFAQ 4.2.0-alpha before 4.2.0-beta contains an authentication bypass vulnerability that allows Keycloak users to take over local accounts by matching preferred_username or email. Attackers controlling a Keycloak identity with a collidin…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111898",
-      "published": "2026-10-17T19:16:31.647000+00:00"
     },
     {
       "id": "86f87cb0282f43bd",
@@ -326,40 +445,6 @@
       "published": "2026-10-17T11:11:56+00:00"
     },
     {
-      "id": "ef32509b48464775",
-      "kind": "cve",
-      "cve": "CVE-2026-111110",
-      "title": "CVE-2026-111110",
-      "summary": "The Payment forms, Buy now buttons, and Invoicing System | GetPaid plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'mmdwqzpoxadd' parameter in all versions up to, and including, 2.8.61 due to insufficient input san…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111110",
-      "published": "2026-10-17T08:16:28.310000+00:00"
-    },
-    {
-      "id": "b6136fbd007e12c0",
-      "kind": "cve",
-      "cve": "CVE-2026-100316",
-      "title": "CVE-2026-100316",
-      "summary": "The European VAT Compliance Assistant for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via CF-IPCountry Header in all versions up to, and including, 1.36.10 due to insufficient input sanitization and output…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-100316",
-      "published": "2026-10-17T08:16:26.950000+00:00"
-    },
-    {
       "id": "b3dabcb4d0c0986a",
       "kind": "research",
       "cve": null,
@@ -375,159 +460,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "published": "2026-10-17T06:16:46+00:00"
-    },
-    {
-      "id": "938b4931c0d37543",
-      "kind": "cve",
-      "cve": "CVE-2026-96660",
-      "title": "CVE-2026-96660",
-      "summary": "The User Registration & Membership – Free & Paid Memberships, Subscriptions, Content Restriction, User Profile, Custom User Registration & Login Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Checkbox Field Va…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96660",
-      "published": "2026-10-17T04:17:10.537000+00:00"
-    },
-    {
-      "id": "4fa4ea7d65ee3cec",
-      "kind": "cve",
-      "cve": "CVE-2026-92798",
-      "title": "CVE-2026-92798",
-      "summary": "The User Registration & Membership plugin for WordPress is vulnerable to Arbitrary Shortcode Execution in versions up to, and including, 5.2.8 This is due to insufficient input sanitization in the 'referrer_url' branch of UR_Smart_Tags::pro…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92798",
-      "published": "2026-10-17T04:17:10.257000+00:00"
-    },
-    {
-      "id": "30fc5c840b6676fc",
-      "kind": "cve",
-      "cve": "CVE-2026-108123",
-      "title": "CVE-2026-108123",
-      "summary": "The WP Booking System – Booking Calendar plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 2.1.0.3 This is due to the plugin not properly verifying that a user is authorized to perform an actio…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108123",
-      "published": "2026-10-17T04:16:48.427000+00:00"
-    },
-    {
-      "id": "36144648fa191004",
-      "kind": "cve",
-      "cve": "CVE-2026-104736",
-      "title": "CVE-2026-104736",
-      "summary": "The LearnPress plugin for WordPress is vulnerable to PHP Object Injection in versions up to, and including, 4.4.10 via deserialization of untrusted input from the 'checkout-email' request parameter during the checkout AJAX action. The value…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104736",
-      "published": "2026-10-17T04:16:47.780000+00:00"
-    },
-    {
-      "id": "6054651697d09d03",
-      "kind": "cve",
-      "cve": "CVE-2026-103899",
-      "title": "CVE-2026-103899",
-      "summary": "The EU VAT Assistant for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'vat_number' parameter in all versions up to, and including, 2.1.30.260413 due to insufficient input sanitization and output esca…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103899",
-      "published": "2026-10-17T04:16:47.413000+00:00"
-    },
-    {
-      "id": "7bb21bdc96a56f7c",
-      "kind": "cve",
-      "cve": "CVE-2026-110653",
-      "title": "CVE-2026-110653",
-      "summary": "The Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress plugin for WordPress is vulnerable to Authentication Bypass via Race Condition in all versions up to, and including, 5.7.4. This is due to a non-atomic read-mo…",
-      "severity": "CRITICAL",
-      "score": 9.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110653",
-      "published": "2026-10-17T03:16:28.480000+00:00"
-    },
-    {
-      "id": "f45f87c6ec65825f",
-      "kind": "cve",
-      "cve": "CVE-2026-109208",
-      "title": "CVE-2026-109208",
-      "summary": "The LearnPress – WordPress LMS Plugin for Create and Sell Online Courses plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'quantity (REST) / order_comments (checkout)' parameter in all versions up to, and including,…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109208",
-      "published": "2026-10-17T03:16:28.340000+00:00"
-    },
-    {
-      "id": "0e54d3a05d5b53d3",
-      "kind": "cve",
-      "cve": "CVE-2026-107762",
-      "title": "CVE-2026-107762",
-      "summary": "The Kirki – Freeform Page Builder, Website Builder & Customizer plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 6.3.2 via the 'context' parameter due to missing validation on a us…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107762",
-      "published": "2026-10-17T03:16:28.083000+00:00"
-    },
-    {
-      "id": "1c8f3043b430a090",
-      "kind": "cve",
-      "cve": "CVE-2026-104734",
-      "title": "CVE-2026-104734",
-      "summary": "The Kirki – Freeform Page Builder, Website Builder & Customizer plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 6.3.2 via deserialization of untrusted input . This makes it possible for authe…",
-      "severity": "HIGH",
-      "score": 7.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104734",
-      "published": "2026-10-17T03:16:27.927000+00:00"
     },
     {
       "id": "a036bb3c72de39b9",
@@ -1072,23 +1004,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
       "published": "2026-10-16T04:59:36+00:00"
-    },
-    {
-      "id": "956dafb60c9d0db2",
-      "kind": "cve",
-      "cve": "CVE-2026-111389",
-      "title": "CVE-2026-111389",
-      "summary": "Frappe HRMS 14.x before 14.38.2, 15.x before 15.64.0, and 16.x before 16.18.0 contains a SQL injection vulnerability in some endpoints caused by missing input validation. Any authenticated attacker, including a low-privilege account, can se…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111389",
-      "published": "2026-10-16T03:18:06.540000+00:00"
     },
     {
       "id": "a447204151d5d1ee",
@@ -2245,23 +2160,6 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33422",
       "published": "2026-10-13T19:25:52+00:00"
-    },
-    {
-      "id": "d9ed76a64d3ea742",
-      "kind": "research",
-      "cve": null,
-      "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
-      "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic. The frontier AI lab said smal…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
-      "published": "2026-10-13T18:20:57+00:00"
     },
     {
       "id": "05b41d1861c0bce3",
@@ -4252,6 +4150,108 @@
       "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
       "published": "2026-08-11T00:00:00+00:00"
+    },
+    {
+      "id": "12a3867b6d075405",
+      "kind": "cve",
+      "cve": "CVE-2026-68820",
+      "title": "Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
+      "summary": "Microsoft Windows Ancillary Function Driver for WinSock contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Microsoft",
+      "product": "Windows Ancillary Function Driver for WinSock ",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820",
+      "published": "2026-08-11T00:00:00+00:00"
+    },
+    {
+      "id": "9f81bad71dd2e8cb",
+      "kind": "cve",
+      "cve": "CVE-2026-72898",
+      "title": "Metabase SQL Injection Vulnerability",
+      "summary": "Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacke…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Metabase",
+      "product": "Metabase",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898",
+      "published": "2026-08-11T00:00:00+00:00"
+    },
+    {
+      "id": "4604044111087bcf",
+      "kind": "cve",
+      "cve": "CVE-2026-8037",
+      "title": "Progress LoadMaster Command Injection Vulnerability",
+      "summary": "Progress LoadMaster contains a command injection vulnerability that allows an un-authenticated attacker to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input in multiple command endpoints.",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "Progress",
+      "product": "LoadMaster",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8037",
+      "published": "2026-08-07T00:00:00+00:00"
+    },
+    {
+      "id": "4057ced6d5b24673",
+      "kind": "research",
+      "cve": null,
+      "title": "CSS:the bomb inside your inbox",
+      "summary": "Gareth Heyes - gareth.heyes@portswigger.net - @garethheyes It's quite common for webmail clients to render untrusted CSS in a trusted UI. They attempt to make this safe using CSS sanitization. In this",
+      "severity": "",
+      "score": null,
+      "source": "PortSwigger Research",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+      "published": "2026-08-06T22:00:00+00:00"
+    },
+    {
+      "id": "04e7535e61e612e7",
+      "kind": "research",
+      "cve": null,
+      "title": "CRLF-Powered Desync Attacks: Beheading HTTP Streams",
+      "summary": "Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power",
+      "severity": "",
+      "score": null,
+      "source": "PortSwigger Research",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://portswigger.net/research/crlf-powered-desync-attacks",
+      "published": "2026-08-05T23:30:00+00:00"
+    },
+    {
+      "id": "3ed3a3d15d3e9c82",
+      "kind": "research",
+      "cve": null,
+      "title": "Can AI do novel security research? Meet the HTTP Terminator",
+      "summary": "Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi",
+      "severity": "",
+      "score": null,
+      "source": "PortSwigger Research",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://portswigger.net/research/can-ai-do-novel-security-research",
+      "published": "2026-08-05T19:30:00+00:00"
     }
   ]
 }
