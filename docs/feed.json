@@ -1,7 +1,279 @@
 {
-  "generated": "2026-10-19T17:59:37.043561+00:00",
+  "generated": "2026-10-19T22:05:20.956334+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "39123ce5fb706ac3",
+      "kind": "cve",
+      "cve": "CVE-2026-112301",
+      "title": "CVE-2026-112301",
+      "summary": "A security flaw has been discovered in orbitale imagemagick-php up to 3.3.5. Affected by this issue is the function Command::font of the file src/Command.php. The manipulation of the argument fontFile results in os command injection. The at…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112301",
+      "published": "2026-10-19T21:17:06.863000+00:00"
+    },
+    {
+      "id": "403a75bcc01f91e3",
+      "kind": "cve",
+      "cve": "CVE-2026-112782",
+      "title": "CVE-2026-112782",
+      "summary": "Grav 1.7.53 before 1.7.53.5 and 2.0.0-rc.8 before 2.2.2 contains a resource exhaustion vulnerability that allows anonymous visitors to bypass the system.images.max_pixels limit when system.images.url_actions is enabled. Attackers can send s…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112782",
+      "published": "2026-10-19T20:17:55.787000+00:00"
+    },
+    {
+      "id": "26df58920b1a8398",
+      "kind": "cve",
+      "cve": "CVE-2026-112780",
+      "title": "CVE-2026-112780",
+      "summary": "Grav from 2.0.15 before 2.2.2 contains an allowlist bypass vulnerability that allows page editors to call arbitrary public static methods by renaming Flex form fields with replace-name@. Attackers with page-edit permission can smuggle data-…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112780",
+      "published": "2026-10-19T20:17:55.473000+00:00"
+    },
+    {
+      "id": "5a4a7c5e23539afc",
+      "kind": "cve",
+      "cve": "CVE-2026-112779",
+      "title": "CVE-2026-112779",
+      "summary": "Grav API plugin (grav-plugin-api) 1.0.40 before 1.0.42 caches a full translation dictionary for every well-formed language code sent to the unauthenticated GET /api/v1/translations/{lang} endpoint, and 1.0.16 before 1.0.42 fails to check ta…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112779",
+      "published": "2026-10-19T20:17:55.323000+00:00"
+    },
+    {
+      "id": "6a37984dc7fad6d9",
+      "kind": "cve",
+      "cve": "CVE-2026-112777",
+      "title": "CVE-2026-112777",
+      "summary": "Craft CMS 4.x before 4.18.8 and 5.x before 5.11.0 contains a blocklist bypass in the Twig create() function because its class-name checks are case-sensitive while PHP class resolution is not. Attackers with template-execution rights, such a…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112777",
+      "published": "2026-10-19T20:17:55.043000+00:00"
+    },
+    {
+      "id": "203ecd58b3adf5b4",
+      "kind": "cve",
+      "cve": "CVE-2026-112776",
+      "title": "CVE-2026-112776",
+      "summary": "Craft CMS from 5.0.0 before 5.11.0 contains an authorization bypass vulnerability that allows site-scoped GraphQL tokens to mutate other sites' content because requireAllowedSite() is not enforced. Attackers holding a site-A token can creat…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112776",
+      "published": "2026-10-19T20:17:54.900000+00:00"
+    },
+    {
+      "id": "7389aee64c0b18fd",
+      "kind": "cve",
+      "cve": "CVE-2026-112775",
+      "title": "CVE-2026-112775",
+      "summary": "Craft CMS from 5.0.0 before 5.11.0 contains an authentication bypass vulnerability that allows attackers to reuse verification codes because users/verify-email does not invalidate them for active users. Attackers who obtain a victim's email…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112775",
+      "published": "2026-10-19T20:17:54.757000+00:00"
+    },
+    {
+      "id": "b51fa49086780c58",
+      "kind": "cve",
+      "cve": "CVE-2026-112774",
+      "title": "CVE-2026-112774",
+      "summary": "Craft CMS from 5.8.0 before 5.11.0 contains a remote code execution vulnerability that allows authenticated administrators to inject Yii behaviors by supplying a JSON-string field layout to ContentBlock::setFieldLayout(). Attackers with all…",
+      "severity": "HIGH",
+      "score": 7.2,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112774",
+      "published": "2026-10-19T20:17:54.620000+00:00"
+    },
+    {
+      "id": "7a308d6513e4aa81",
+      "kind": "cve",
+      "cve": "CVE-2026-112773",
+      "title": "CVE-2026-112773",
+      "summary": "Craft CMS from 5.0.0 before 5.11.0 contains a remote code execution vulnerability that allows authenticated Control Panel users to escape the Twig sandbox by passing uncleansed criteria to getNext, getPrev, or getOwners. Attackers can injec…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112773",
+      "published": "2026-10-19T20:17:54.480000+00:00"
+    },
+    {
+      "id": "8228a582b6e7b526",
+      "kind": "cve",
+      "cve": "CVE-2026-112772",
+      "title": "CVE-2026-112772",
+      "summary": "Craft CMS from 5.0.0 before 5.11.0 contains a remote code execution vulnerability that allows authenticated Control Panel users to escape the Twig sandbox via Asset::getMimeType transforms. Attackers can supply 'as' or 'on' keys passed unfi…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112772",
+      "published": "2026-10-19T20:17:54.340000+00:00"
+    },
+    {
+      "id": "ad820f2d5103cfae",
+      "kind": "cve",
+      "cve": "CVE-2026-112770",
+      "title": "CVE-2026-112770",
+      "summary": "Craft CMS 4.x before 4.18.8 and 5.x before 5.11.0 contains a remote code execution vulnerability in the Twig group filter, which invokes non-string arrow arguments as callables without the checkArrow guard used by other arrow-accepting filt…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112770",
+      "published": "2026-10-19T20:17:54.060000+00:00"
+    },
+    {
+      "id": "186828f34f91725d",
+      "kind": "cve",
+      "cve": "CVE-2026-112260",
+      "title": "CVE-2026-112260",
+      "summary": "A flaw was found in GIMP. Opening a crafted XCF with a malformed text-layer parasite can cause a heap out-of-bounds read, disclosing adjacent heap data into layer text and causing denial of service.",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112260",
+      "published": "2026-10-19T20:17:52.970000+00:00"
+    },
+    {
+      "id": "d6d4ac9019fc119f",
+      "kind": "cve",
+      "cve": "CVE-2026-112252",
+      "title": "CVE-2026-112252",
+      "summary": "A vulnerability has been found in Wuxi Wubang Security Software Wubang Five-in-One Safety Production Management Information System up to 3.5. Affected is the function xp_cmdshell of the file /ws.asmx. The manipulation of the argument sql le…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112252",
+      "published": "2026-10-19T19:17:27.157000+00:00"
+    },
+    {
+      "id": "553adc5783a371cf",
+      "kind": "cve",
+      "cve": "CVE-2026-109437",
+      "title": "CVE-2026-109437",
+      "summary": "Cognition before 0.13.0 contains an unauthenticated remote code execution vulnerability due to defaulting its agent sandbox backend to local execution and shipping no authentication on its REST/SSE API. Attackers can create a session via PO…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109437",
+      "published": "2026-10-19T19:17:19.807000+00:00"
+    },
+    {
+      "id": "44c4f6e520cb1259",
+      "kind": "cve",
+      "cve": "CVE-2026-112377",
+      "title": "CVE-2026-112377",
+      "summary": "CCC Attestation SIG attested-tls-poc through commit 731ca82 fails to bind early attestation Evidence to the TLS connection, allowing attackers to relay valid Evidence from a genuine attester. Attackers holding an extracted attested TLS priv…",
+      "severity": "HIGH",
+      "score": 7.4,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112377",
+      "published": "2026-10-19T18:17:05.490000+00:00"
+    },
+    {
+      "id": "143bfdf19e2bc5d6",
+      "kind": "research",
+      "cve": null,
+      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+      "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public. According to a researcher who goes by the onli…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+      "published": "2026-10-19T17:32:13+00:00"
+    },
     {
       "id": "a86b23a4976f1ba6",
       "kind": "cve",
@@ -52,23 +324,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111862",
       "published": "2026-10-19T17:17:04.507000+00:00"
-    },
-    {
-      "id": "1eff2cd662f11aaf",
-      "kind": "cve",
-      "cve": "CVE-2026-10743",
-      "title": "CVE-2026-10743",
-      "summary": "IBM MQ could allow an authenticated attacker to cause a denial of service or corrupt memory due to improper validation of buffer sizes in MQOPEN operations.",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10743",
-      "published": "2026-10-19T17:17:02.107000+00:00"
     },
     {
       "id": "2e111075ba675fc2",
@@ -156,40 +411,6 @@
       "published": "2026-10-19T16:17:07.050000+00:00"
     },
     {
-      "id": "9dbb6c9926eeb6db",
-      "kind": "cve",
-      "cve": "CVE-2026-112308",
-      "title": "CVE-2026-112308",
-      "summary": "crewai-tools through 1.15.28 contains a server-side request forgery vulnerability in SeleniumScrapingTool that allows attackers to fetch internal resources because it never applies the validate_url private-address check. Attackers influenci…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112308",
-      "published": "2026-10-19T16:17:06.887000+00:00"
-    },
-    {
-      "id": "03be5a785285b865",
-      "kind": "cve",
-      "cve": "CVE-2026-112305",
-      "title": "CVE-2026-112305",
-      "summary": "Semaphore UI through 2.19.16 contains a remote code execution vulnerability that allows users with the task_runner role to override protected Ansible variables by supplying arbitrary keys in the task environment JSON. Attackers can POST tas…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112305",
-      "published": "2026-10-19T16:17:06.400000+00:00"
-    },
-    {
       "id": "1f33236373d01778",
       "kind": "cve",
       "cve": "CVE-2026-112304",
@@ -207,23 +428,6 @@
       "published": "2026-10-19T16:17:06.257000+00:00"
     },
     {
-      "id": "7b65ef4d9a9b1b1d",
-      "kind": "cve",
-      "cve": "CVE-2026-109431",
-      "title": "CVE-2026-109431",
-      "summary": "Camunda 7.24.0 before 7.24.14 and 7.23.0 before 7.23.17 contains a missing authorization check vulnerability in engine-rest task sub-resources that allows authenticated attackers with no permission grants to access task comments and attachm…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109431",
-      "published": "2026-10-19T16:17:02.337000+00:00"
-    },
-    {
       "id": "d43c265cb0a39bed",
       "kind": "research",
       "cve": null,
@@ -239,23 +443,6 @@
       "product": "",
       "url": "https://www.rapid7.com/blog/post/ve-authentication-bypass-remote-code-execution-and-database-read-in-eptura-archibus-fixed",
       "published": "2026-10-19T15:57:43+00:00"
-    },
-    {
-      "id": "edd2359931cb4291",
-      "kind": "cve",
-      "cve": "CVE-2026-112151",
-      "title": "CVE-2026-112151",
-      "summary": "A weakness has been identified in vraj404 Criminal Management System up to 2808d057e7ddc5295519a487365b0cacfd0ba8c4. Affected by this vulnerability is an unknown functionality of the file home.php of the component Submission Form. This mani…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112151",
-      "published": "2026-10-19T15:17:05.207000+00:00"
     },
     {
       "id": "b958deeb2a99c4bc",
@@ -309,57 +496,6 @@
       "published": "2026-10-19T14:34:04+00:00"
     },
     {
-      "id": "55df4976380bd552",
-      "kind": "cve",
-      "cve": "CVE-2026-112292",
-      "title": "CVE-2026-112292",
-      "summary": "CheckCle through 1.6.0 contains a missing authorization vulnerability that allows unauthenticated attackers to read, modify and delete records because shipped PocketBase collections use empty API rules. Attackers can query /api/collections/…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112292",
-      "published": "2026-10-19T14:17:07.903000+00:00"
-    },
-    {
-      "id": "c31a3e2f8b6e14ed",
-      "kind": "cve",
-      "cve": "CVE-2026-112287",
-      "title": "CVE-2026-112287",
-      "summary": "Krayin CRM before 2.2.7 contains a broken object level authorization vulnerability in EmailController write actions that allows scope-restricted authenticated users to manipulate other users' emails by supplying their numeric IDs. Attackers…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112287",
-      "published": "2026-10-19T14:17:07.143000+00:00"
-    },
-    {
-      "id": "572232ef5d63d26f",
-      "kind": "cve",
-      "cve": "CVE-2026-112264",
-      "title": "CVE-2026-112264",
-      "summary": "BentoML through 1.4.39 contains a Dockerfile instruction injection vulnerability that allows attackers to add arbitrary build instructions by embedding newlines in docker.env mapping keys rendered by the legacy base.j2 template. Attackers c…",
-      "severity": "HIGH",
-      "score": 7.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112264",
-      "published": "2026-10-19T14:17:03.003000+00:00"
-    },
-    {
       "id": "18db5c7cb2fc9eff",
       "kind": "cve",
       "cve": "CVE-2026-112263",
@@ -375,40 +511,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112263",
       "published": "2026-10-19T14:17:02.787000+00:00"
-    },
-    {
-      "id": "aab233ff1f7aba2c",
-      "kind": "cve",
-      "cve": "CVE-2026-112262",
-      "title": "CVE-2026-112262",
-      "summary": "RisingWave before 3.1.0 contains a missing authorization vulnerability that allows low-privileged SQL users to read and write arbitrary server files by creating posix_fs sources and fs sinks. Attackers holding schema CREATE privilege can se…",
-      "severity": "HIGH",
-      "score": 7.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112262",
-      "published": "2026-10-19T14:17:02.633000+00:00"
-    },
-    {
-      "id": "b3f6a9f20bb9c7d5",
-      "kind": "cve",
-      "cve": "CVE-2026-112146",
-      "title": "CVE-2026-112146",
-      "summary": "A vulnerability was detected in D-Link E15, M32, R15 and R32. This issue affects some unknown processing of the file /etc/emDaemon/passwd of the component MQTT Broker. The manipulation results in hard-coded credentials. It is possible to la…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112146",
-      "published": "2026-10-19T14:17:02.317000+00:00"
     },
     {
       "id": "2abfe14a9c7d5b27",
@@ -460,23 +562,6 @@
       "product": "",
       "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
       "published": "2026-10-19T13:48:56+00:00"
-    },
-    {
-      "id": "b1d499c9e121d89e",
-      "kind": "cve",
-      "cve": "CVE-2026-112142",
-      "title": "CVE-2026-112142",
-      "summary": "A vulnerability was identified in satya-vinay Events-Management-System up to 437c77ceb69bf9fe2e3f4f46f7871b83f425383a. Affected by this vulnerability is an unknown functionality of the file dodelete.php of the component Registration-Delete…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112142",
-      "published": "2026-10-19T13:16:57.303000+00:00"
     },
     {
       "id": "c0fafef94c5d8e0c",
@@ -564,23 +649,6 @@
       "published": "2026-10-19T10:06:40+00:00"
     },
     {
-      "id": "609e8749530ea2e5",
-      "kind": "cve",
-      "cve": "CVE-2026-16460",
-      "title": "CVE-2026-16460",
-      "summary": "A flaw was found in bootc and ostree. Already-staged deployments are finalized without revalidating the deployment's container image against the current containers signature policy. Unsigned OS content staged under a prior permissive policy…",
-      "severity": "HIGH",
-      "score": 7.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16460",
-      "published": "2026-10-19T07:16:31.253000+00:00"
-    },
-    {
       "id": "f519e0b522d74ec3",
       "kind": "research",
       "cve": null,
@@ -632,40 +700,6 @@
       "published": "2026-10-19T06:07:08+00:00"
     },
     {
-      "id": "3fa300ddfc338aab",
-      "kind": "cve",
-      "cve": "CVE-2026-112025",
-      "title": "CVE-2026-112025",
-      "summary": "A weakness has been identified in light0011 cms c774dce31c6df0055568a8d5c53d964d99be199d/f72cf46f601efb2a0618c3814cc2f61380b38930. This impacts an unknown function of the file App/Home/Controller/UserController.class.php of the component Ca…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112025",
-      "published": "2026-10-18T22:16:30.410000+00:00"
-    },
-    {
-      "id": "43ea19e96bad0e06",
-      "kind": "cve",
-      "cve": "CVE-2026-111990",
-      "title": "CVE-2026-111990",
-      "summary": "A weakness has been identified in kishan0725 Hospital Management System up to 777fda46b77a820977a5ba616283dbfbc40bf7e1. This affects the function mysqli_query of the file admin-panel.php of the component Appointment Cancellation Handler. Ex…",
-      "severity": "HIGH",
-      "score": 7.3,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111990",
-      "published": "2026-10-18T15:16:52.693000+00:00"
-    },
-    {
       "id": "d33178f3f117c66b",
       "kind": "research",
       "cve": null,
@@ -681,23 +715,6 @@
       "product": "",
       "url": "https://isc.sans.edu/diary/rss/33434",
       "published": "2026-10-18T12:59:30+00:00"
-    },
-    {
-      "id": "6ebe48ad35298457",
-      "kind": "cve",
-      "cve": "CVE-2026-112018",
-      "title": "CVE-2026-112018",
-      "summary": "cgltf through 1.15 contains a heap out-of-bounds write vulnerability in cgltf_accessor_unpack_floats() that allows attackers to write outside the output buffer via unchecked sparse accessor indices. Attackers can supply a crafted glTF or GL…",
-      "severity": "HIGH",
-      "score": 7.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112018",
-      "published": "2026-10-18T12:17:14.747000+00:00"
     },
     {
       "id": "8beb357b2b65329a",
@@ -749,23 +766,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111999",
       "published": "2026-10-18T12:17:11.870000+00:00"
-    },
-    {
-      "id": "516bca872e8c280c",
-      "kind": "cve",
-      "cve": "CVE-2026-111998",
-      "title": "CVE-2026-111998",
-      "summary": "Vanus 0.8.0 through 0.9.0 contains a default credentials vulnerability that allows unauthenticated remote attackers to gain cluster-admin access by using the hardcoded admin token. Attackers can send the fixed Bearer token to the gateway gR…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111998",
-      "published": "2026-10-18T12:17:11.730000+00:00"
     },
     {
       "id": "952b3a6c7b9c760d",
@@ -1871,23 +1871,6 @@
       "product": "",
       "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
       "published": "2026-10-14T12:13:36+00:00"
-    },
-    {
-      "id": "de7e4a82bb7fc257",
-      "kind": "research",
-      "cve": null,
-      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
-      "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:4…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-      "published": "2026-10-14T11:50:00+00:00"
     },
     {
       "id": "6a1ad96a7af92813",
@@ -4254,6 +4237,23 @@
       "product": "",
       "url": "https://projectdiscovery.io/blog/introducing-internal-network-scanning-see-your-network-the-way-an-attacker-inside-it-would",
       "published": "2026-07-21T21:48:40+00:00"
+    },
+    {
+      "id": "92c6a68e900e69f7",
+      "kind": "cve",
+      "cve": "CVE-2026-60137",
+      "title": "WordPress Core SQL Injection Vulnerability",
+      "summary": "WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated attacker to gain remote code execution o…",
+      "severity": "CRITICAL",
+      "score": null,
+      "source": "CISA KEV",
+      "tags": [
+        "KEV"
+      ],
+      "vendor": "WordPress",
+      "product": "Core",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137",
+      "published": "2026-07-21T00:00:00+00:00"
     }
   ]
 }
