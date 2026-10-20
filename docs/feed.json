@@ -1,7 +1,262 @@
 {
-  "generated": "2026-10-20T06:52:43.966836+00:00",
+  "generated": "2026-10-20T12:24:52.216892+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "6d73c27de08aaeca",
+      "kind": "cve",
+      "cve": "CVE-2026-113389",
+      "title": "CVE-2026-113389",
+      "summary": "A vulnerability was detected in DrayTek Vigor2960 1.5.1.6 Revision 8218. Affected by this vulnerability is the function set_table of the file /cgi-bin/mainfunction.cgi of the component CGI Process. The manipulation of the argument sectionty…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113389",
+      "published": "2026-10-20T12:17:29.443000+00:00"
+    },
+    {
+      "id": "e9a7f5b18fa9ebf3",
+      "kind": "cve",
+      "cve": "CVE-2026-105949",
+      "title": "CVE-2026-105949",
+      "summary": "Cruise Control's Jetty ConstraintSecurityHandler registers security constraints on exact path specs without a catch-all wildcard constraint and without calling setDenyUncoveredHttpMethods(true). The servlet routes requests using Path.of(pat…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105949",
+      "published": "2026-10-20T12:17:28.847000+00:00"
+    },
+    {
+      "id": "ea58dd8521fa0287",
+      "kind": "cve",
+      "cve": "CVE-2026-105312",
+      "title": "CVE-2026-105312",
+      "summary": "A Kubernetes tenant with create permission on Console custom resources can set spec.containers.api.spec.image to an arbitrary container image. The operator deploys this image into a pod whose ServiceAccount is bound via ClusterRoleBinding t…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105312",
+      "published": "2026-10-20T12:17:28.703000+00:00"
+    },
+    {
+      "id": "b10218555cce7a8c",
+      "kind": "cve",
+      "cve": "CVE-2026-105311",
+      "title": "CVE-2026-105311",
+      "summary": "The StreamsHub Console operator acts as a confused deputy: a Kubernetes tenant with permission to create a Console custom resource can set spec.kafkaClusters[].credentials.kafkaUser.namespace to any namespace. The operator, running with clu…",
+      "severity": "HIGH",
+      "score": 7.7,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105311",
+      "published": "2026-10-20T12:17:28.550000+00:00"
+    },
+    {
+      "id": "6efe4548ebedf741",
+      "kind": "cve",
+      "cve": "CVE-2026-113358",
+      "title": "CVE-2026-113358",
+      "summary": "LavaLite CMS through 10.1.2 contains a missing authentication vulnerability in the Filer module that allows unauthenticated attackers to download stored files through the filer/download and filer/display routes. Attackers can supply arbitra…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113358",
+      "published": "2026-10-20T11:17:20.447000+00:00"
+    },
+    {
+      "id": "3dc0930bffddee5a",
+      "kind": "cve",
+      "cve": "CVE-2026-113356",
+      "title": "CVE-2026-113356",
+      "summary": "DokuWiki before 2026-07-14c contains a PHP object injection vulnerability in Draft::getDraftText() that passes draft file contents to unserialize() without restricting allowed classes. Authenticated users with edit rights can race concurren…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113356",
+      "published": "2026-10-20T11:17:20.143000+00:00"
+    },
+    {
+      "id": "bad8ad77af8feec6",
+      "kind": "cve",
+      "cve": "CVE-2026-113352",
+      "title": "CVE-2026-113352",
+      "summary": "uTox through 0.18.1 contains a path traversal vulnerability that allows Tox friends to write arbitrary files by sending absolute or ../ file names to victims with auto-accept enabled. Attackers can overwrite shell startup files or plant cra…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113352",
+      "published": "2026-10-20T11:17:19.520000+00:00"
+    },
+    {
+      "id": "8908a5b8fa84c05a",
+      "kind": "cve",
+      "cve": "CVE-2026-113381",
+      "title": "CVE-2026-113381",
+      "summary": "A weakness has been identified in Osclass up to 8.3.1. Affected by this vulnerability is the function Item::findUserItems of the file oc-includes/osclass/model/Item.php of the component Item Model Handler. This manipulation of the argument…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113381",
+      "published": "2026-10-20T10:17:05.243000+00:00"
+    },
+    {
+      "id": "92e4076765780a55",
+      "kind": "research",
+      "cve": null,
+      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+      "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to stea…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+      "published": "2026-10-20T08:21:29+00:00"
+    },
+    {
+      "id": "9e7f0e0f4d521742",
+      "kind": "cve",
+      "cve": "CVE-2026-113407",
+      "title": "CVE-2026-113407",
+      "summary": "BA-Workflow developed by YS-infoware has a SQL Injection vulnerability. Authenticated remote attackers can inject arbitrary SQL statements to read, modify, and delete database contents.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113407",
+      "published": "2026-10-20T08:16:43.130000+00:00"
+    },
+    {
+      "id": "fca7b18f6d2e5f9c",
+      "kind": "cve",
+      "cve": "CVE-2026-113406",
+      "title": "CVE-2026-113406",
+      "summary": "BA-Workflow developed by YS-infoware has a SQL Injection vulnerability. Authenticated remote attackers can inject arbitrary SQL statements to read, modify, and delete database contents.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113406",
+      "published": "2026-10-20T08:16:43+00:00"
+    },
+    {
+      "id": "c5838c5d99ce4c30",
+      "kind": "cve",
+      "cve": "CVE-2026-113405",
+      "title": "CVE-2026-113405",
+      "summary": "BA-Workflow developed by YS-infoware has a SQL Injection vulnerability. Authenticated remote attackers can inject arbitrary SQL statements to read, modify, and delete database contents.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113405",
+      "published": "2026-10-20T08:16:42.867000+00:00"
+    },
+    {
+      "id": "196ceef61f73e669",
+      "kind": "cve",
+      "cve": "CVE-2026-112177",
+      "title": "CVE-2026-112177",
+      "summary": "A flaw was found in Ghostscript as shipped with Red Hat Enterprise Linux 8. The correction for CVE-2019-14869 was omitted during the rebase from version 9.25 to 9.27, leaving privileged .forceput operations in the .charkeys procedure insuff…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112177",
+      "published": "2026-10-20T08:16:42.507000+00:00"
+    },
+    {
+      "id": "d12d8b3409ac8adf",
+      "kind": "cve",
+      "cve": "CVE-2026-113404",
+      "title": "CVE-2026-113404",
+      "summary": "WebITR developed by Uniong has a Insecure Deserialization vulnerability. Authenticated remote attackers can use the hard-coded cryptographic key to craft and submit malicious serialized data, thereby executing arbitrary code on the server.",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113404",
+      "published": "2026-10-20T07:17:09.783000+00:00"
+    },
+    {
+      "id": "4fd8d5a31fd8ccfc",
+      "kind": "research",
+      "cve": "CVE-2026-110936",
+      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+      "summary": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an at…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+      "published": "2026-10-20T07:11:45+00:00"
+    },
     {
       "id": "5b0b987adb7c5367",
       "kind": "cve",
@@ -1822,40 +2077,6 @@
       "published": "2026-10-14T17:38:31+00:00"
     },
     {
-      "id": "78b0d9b2dfa117c3",
-      "kind": "research",
-      "cve": null,
-      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
-      "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits,…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
-      "published": "2026-10-14T17:09:15+00:00"
-    },
-    {
-      "id": "f47fa401827130f4",
-      "kind": "research",
-      "cve": null,
-      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
-      "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers and KVM devices as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indictment charges a mix…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-      "published": "2026-10-14T16:34:31+00:00"
-    },
-    {
       "id": "78394b2e6b36c285",
       "kind": "research",
       "cve": null,
@@ -2687,6 +2908,23 @@
       "product": "",
       "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
       "published": "2026-09-25T21:44:40+00:00"
+    },
+    {
+      "id": "34d247e936e73d7d",
+      "kind": "research",
+      "cve": null,
+      "title": "Keynote BSides Canberra",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYkIzMHpCbkl2T1p6Z1h6QVQxN1J1QnJRZzZSeVhNT1FHcUN1WHR0cGFSa09Vb1l4bVlXTjlCUXI3V0ZFZE9DUFhOWERURGZYV2FocHpoQjZFZGpyUnRjVlp1OGRnVGxDOW0tY25OMjQ0LTZRWGxQZ3FUU3J2WGZWcDdWWkF1ZmlU?oc=5",
+      "published": "2026-09-25T07:00:00+00:00"
     },
     {
       "id": "4019449d12fe8d56",
@@ -4014,246 +4252,6 @@
       "product": "",
       "url": "https://portswigger.net/research/crlf-powered-desync-attacks",
       "published": "2026-08-05T23:30:00+00:00"
-    },
-    {
-      "id": "3ed3a3d15d3e9c82",
-      "kind": "research",
-      "cve": null,
-      "title": "Can AI do novel security research? Meet the HTTP Terminator",
-      "summary": "Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi",
-      "severity": "",
-      "score": null,
-      "source": "PortSwigger Research",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://portswigger.net/research/can-ai-do-novel-security-research",
-      "published": "2026-08-05T19:30:00+00:00"
-    },
-    {
-      "id": "bceb9384f67266e1",
-      "kind": "cve",
-      "cve": "CVE-2026-63077",
-      "title": "JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
-      "summary": "JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "JetBrains",
-      "product": "TeamCity",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
-      "published": "2026-08-05T00:00:00+00:00"
-    },
-    {
-      "id": "28fa1079a8865ae2",
-      "kind": "cve",
-      "cve": "CVE-2026-18556",
-      "title": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "summary": "N-able N-central contains an authentication bypass using an alternate path or channel that allows for authentication bypass.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "N-able",
-      "product": "N-central",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
-      "published": "2026-08-04T00:00:00+00:00"
-    },
-    {
-      "id": "616e4c02b77de9ad",
-      "kind": "cve",
-      "cve": "CVE-2026-34486",
-      "title": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
-      "summary": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor. This vulnerability can be chained with CVE‑2025‑24813.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apache",
-      "product": "Tomcat",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34486",
-      "published": "2026-08-04T00:00:00+00:00"
-    },
-    {
-      "id": "de35bbc39bc1bd3d",
-      "kind": "cve",
-      "cve": "CVE-2026-9198",
-      "title": "IBM Langflow Code Injection Vulnerability",
-      "summary": "Langflow contains a code injection vulnerability that allows unauthenticated attackers to achieve full remote code execution on default Langflow deployments.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "IBM",
-      "product": "Langflow",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9198",
-      "published": "2026-08-04T00:00:00+00:00"
-    },
-    {
-      "id": "b4651b8c9bdd863d",
-      "kind": "research",
-      "cve": null,
-      "title": "Watching Agents Work: A Behavioral Audit of Offensive-Security LLM Runs",
-      "summary": "What closed and open models actually do when you tell them to hack a website Summary The cybersecurity capability of a model is currently measured by a solve rate, a percentage, and that number tells you almost nothing worth knowing. It doe…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/watching-agents-work-a-behavioral-audit-of-offensive-security-llm-runs",
-      "published": "2026-08-03T16:34:21+00:00"
-    },
-    {
-      "id": "49a223d667272e01",
-      "kind": "cve",
-      "cve": "CVE-2026-18577",
-      "title": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "summary": "N-able N-central contains an authentication bypass using an alternate path or channel allows for authentication bypass and account takeover in N-central. This vulnerability is the result of an incomplete patch for CVE-2026-18556.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "N-able",
-      "product": "N-central",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577",
-      "published": "2026-08-03T00:00:00+00:00"
-    },
-    {
-      "id": "db1fcc223e4cb0c5",
-      "kind": "cve",
-      "cve": "CVE-2026-20316",
-      "title": "Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
-      "summary": "Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to log in to an affected device using a low…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV",
-        "RANSOMWARE"
-      ],
-      "vendor": "Cisco",
-      "product": "Secure Firewall Management Center (FMC)",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
-      "published": "2026-07-29T00:00:00+00:00"
-    },
-    {
-      "id": "cb9c2b875483bfdd",
-      "kind": "cve",
-      "cve": "CVE-2025-68686",
-      "title": "Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
-      "summary": "Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic link persistency mechanism observed in so…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Fortinet",
-      "product": "FortiOS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686",
-      "published": "2026-07-27T00:00:00+00:00"
-    },
-    {
-      "id": "c4cdd0062e113c60",
-      "kind": "cve",
-      "cve": "CVE-2026-16812",
-      "title": "Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
-      "summary": "Arista VeloCloud Orchestrator On-Prem contains an OS command injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidenti…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Arista",
-      "product": "VeloCloud Orchestrator",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
-      "published": "2026-07-27T00:00:00+00:00"
-    },
-    {
-      "id": "d717d76b7d348faa",
-      "kind": "research",
-      "cve": null,
-      "title": "Oh My Rogue Agent",
-      "summary": "Yesterday, Hugging Face came out saying they'd detected an AI autonomous-agent-powered cyberattack and that they had to use open-source models to actually investigate and remediate it. Later we heard from OpenAI that their agent was respons…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/oh-my-rogue-agent",
-      "published": "2026-07-22T20:37:22+00:00"
-    },
-    {
-      "id": "17d8d7348cc97e5b",
-      "kind": "cve",
-      "cve": "CVE-2026-16232",
-      "title": "Check Point SmartConsole Improper Authentication Vulnerability",
-      "summary": "Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Check Point",
-      "product": "SmartConsole",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232",
-      "published": "2026-07-22T00:00:00+00:00"
-    },
-    {
-      "id": "d99fef2a7c7450e1",
-      "kind": "cve",
-      "cve": "CVE-2026-50522",
-      "title": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
-      "summary": "Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Microsoft",
-      "product": "SharePoint",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50522",
-      "published": "2026-07-22T00:00:00+00:00"
-    },
-    {
-      "id": "f2d8f4687da381e5",
-      "kind": "research",
-      "cve": null,
-      "title": "Introducing Internal Network Scanning: see your network the way an attacker inside it would",
-      "summary": "Most breaches don't begin with a zero-day but with something ordinary like a forgotten server, an unmanaged network device, a service reachable across a segment that was supposed to be isolated. Internal scanning was supposed to catch exact…",
-      "severity": "",
-      "score": null,
-      "source": "ProjectDiscovery",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://projectdiscovery.io/blog/introducing-internal-network-scanning-see-your-network-the-way-an-attacker-inside-it-would",
-      "published": "2026-07-21T21:48:40+00:00"
     }
   ]
 }
