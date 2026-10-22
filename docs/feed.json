@@ -1,7 +1,160 @@
 {
-  "generated": "2026-10-22T06:51:16.161907+00:00",
+  "generated": "2026-10-22T12:38:29.159862+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "9a9945355dffe12c",
+      "kind": "cve",
+      "cve": "CVE-2022-51022",
+      "title": "CVE-2022-51022",
+      "summary": "YiShaAdmin 2.2 through 3.1, fixed in commit 025b062, contains an unauthenticated path traversal vulnerability in the /admin/File/DownloadFile endpoint that allows attackers to read and delete arbitrary files via the filePath parameter. Atta…",
+      "severity": "CRITICAL",
+      "score": 9.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51022",
+      "published": "2026-10-22T11:17:05.153000+00:00"
+    },
+    {
+      "id": "b704a246195fde9b",
+      "kind": "cve",
+      "cve": "CVE-2021-48016",
+      "title": "CVE-2021-48016",
+      "summary": "DedeCMS through 5.8.1-beta contains a PHP code injection vulnerability in ShowMsg() where the HTTP Referer header is written into a DedeTemplate string and included. Unauthenticated attackers can send a crafted Referer to /plus/flink.php?do…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48016",
+      "published": "2026-10-22T11:17:04.690000+00:00"
+    },
+    {
+      "id": "5c2799d14e816c96",
+      "kind": "cve",
+      "cve": "CVE-2021-48014",
+      "title": "CVE-2021-48014",
+      "summary": "FineReport 9.0 contains a path traversal vulnerability in the /WebReport/ReportServer design_save_svg operation that allows unauthenticated attackers to write arbitrary files via the filePath parameter. Attackers can send a POST request wit…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48014",
+      "published": "2026-10-22T11:17:04.390000+00:00"
+    },
+    {
+      "id": "76b18c2dc5a90e0a",
+      "kind": "research",
+      "cve": null,
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized third party may have…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "published": "2026-10-22T11:15:42+00:00"
+    },
+    {
+      "id": "1d3516a0d0a60e24",
+      "kind": "research",
+      "cve": null,
+      "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+      "summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside too…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+      "published": "2026-10-22T10:44:05+00:00"
+    },
+    {
+      "id": "a9227db3dd338122",
+      "kind": "research",
+      "cve": null,
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+      "published": "2026-10-22T08:28:48+00:00"
+    },
+    {
+      "id": "29143f2ae20d3391",
+      "kind": "research",
+      "cve": null,
+      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+      "summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says c…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+      "published": "2026-10-22T07:47:22+00:00"
+    },
+    {
+      "id": "eff3ebf7d52ffb89",
+      "kind": "research",
+      "cve": null,
+      "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+      "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expand…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+      "published": "2026-10-22T06:38:31+00:00"
+    },
+    {
+      "id": "3d29fe5d9f8955b4",
+      "kind": "research",
+      "cve": null,
+      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+      "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+      "published": "2026-10-22T06:34:10+00:00"
+    },
     {
       "id": "defa0d7004e20f84",
       "kind": "cve",
@@ -4098,159 +4251,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101434",
       "published": "2026-10-20T22:17:51.820000+00:00"
-    },
-    {
-      "id": "c9571c58553d5dd4",
-      "kind": "cve",
-      "cve": "CVE-2026-101431",
-      "title": "CVE-2026-101431",
-      "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Test Framework). Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows low privileged attacker with networ…",
-      "severity": "HIGH",
-      "score": 8.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101431",
-      "published": "2026-10-20T22:17:51.473000+00:00"
-    },
-    {
-      "id": "a08e4e23e8b16cb9",
-      "kind": "cve",
-      "cve": "CVE-2026-101429",
-      "title": "CVE-2026-101429",
-      "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: SQR). Supported versions that are affected are 8.61-8.63. Difficult to exploit vulnerability allows unauthenticated attacker with logon to the i…",
-      "severity": "HIGH",
-      "score": 7.0,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101429",
-      "published": "2026-10-20T22:17:51.247000+00:00"
-    },
-    {
-      "id": "8b248f2108e044f6",
-      "kind": "cve",
-      "cve": "CVE-2026-101428",
-      "title": "CVE-2026-101428",
-      "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: SQR). Supported versions that are affected are 8.61-8.63. Difficult to exploit vulnerability allows low privileged attacker with network access…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101428",
-      "published": "2026-10-20T22:17:51.130000+00:00"
-    },
-    {
-      "id": "0b5445293d4eb4c2",
-      "kind": "cve",
-      "cve": "CVE-2026-101427",
-      "title": "CVE-2026-101427",
-      "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Report Distribution). Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows unauthenticated attacker with…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101427",
-      "published": "2026-10-20T22:17:51.017000+00:00"
-    },
-    {
-      "id": "7d4dad90a253e5af",
-      "kind": "cve",
-      "cve": "CVE-2026-101422",
-      "title": "CVE-2026-101422",
-      "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Report Distribution). Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows low privileged attacker with n…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101422",
-      "published": "2026-10-20T22:17:50.430000+00:00"
-    },
-    {
-      "id": "e371b32971f5333d",
-      "kind": "cve",
-      "cve": "CVE-2026-101421",
-      "title": "CVE-2026-101421",
-      "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: SQR). Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows unauthenticated attacker with network access v…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101421",
-      "published": "2026-10-20T22:17:50.313000+00:00"
-    },
-    {
-      "id": "00302271e6afbdad",
-      "kind": "cve",
-      "cve": "CVE-2026-101420",
-      "title": "CVE-2026-101420",
-      "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: SQR). Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows low privileged attacker with network access vi…",
-      "severity": "CRITICAL",
-      "score": 9.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101420",
-      "published": "2026-10-20T22:17:50.200000+00:00"
-    },
-    {
-      "id": "27a9ab535c16ea5b",
-      "kind": "cve",
-      "cve": "CVE-2026-101416",
-      "title": "CVE-2026-101416",
-      "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: PsAdmin). Supported versions that are affected are 8.61-8.63. Difficult to exploit vulnerability allows unauthenticated attacker with access to…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101416",
-      "published": "2026-10-20T22:17:49.730000+00:00"
-    },
-    {
-      "id": "cc530fe1541aae4c",
-      "kind": "cve",
-      "cve": "CVE-2026-101411",
-      "title": "CVE-2026-101411",
-      "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Business Interlink). Supported versions that are affected are 8.61-8.63. Difficult to exploit vulnerability allows unauthenticated attacker with…",
-      "severity": "HIGH",
-      "score": 8.1,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101411",
-      "published": "2026-10-20T22:17:49.167000+00:00"
     }
   ]
 }
