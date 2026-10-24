@@ -1,7 +1,177 @@
 {
-  "generated": "2026-10-24T10:00:40.924230+00:00",
+  "generated": "2026-10-24T14:10:07.836439+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "28ebfd5bc233d926",
+      "kind": "cve",
+      "cve": "CVE-2026-116019",
+      "title": "CVE-2026-116019",
+      "summary": "Grav 2.0.15 before 2.2.13 contains an allowlist bypass vulnerability that allows page editors to invoke arbitrary public static methods by relocating data-*@ directives with unset-name@ or integer keys. Attackers with page-edit permission c…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116019",
+      "published": "2026-10-24T12:16:58.473000+00:00"
+    },
+    {
+      "id": "96fd606df7688a9f",
+      "kind": "cve",
+      "cve": "CVE-2026-116016",
+      "title": "CVE-2026-116016",
+      "summary": "yudao-cloud through 2026.09 contains an authorization bypass vulnerability that allows authenticated users to evade row-level data scope restrictions by sending a data-permission-enable header set to false. Attackers can add this header to…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116016",
+      "published": "2026-10-24T12:16:57.960000+00:00"
+    },
+    {
+      "id": "e2451ee210474ea1",
+      "kind": "cve",
+      "cve": "CVE-2026-116014",
+      "title": "CVE-2026-116014",
+      "summary": "open62541 1.5.0 before 1.5.7 contains an integer overflow in UA_DataType_fromStructureDescription() that wraps the 16-bit memSize field for large custom structure definitions. A malicious OPC UA server can supply DataType definitions via UA…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116014",
+      "published": "2026-10-24T12:16:57.607000+00:00"
+    },
+    {
+      "id": "e96b3e7777162941",
+      "kind": "cve",
+      "cve": "CVE-2026-116011",
+      "title": "CVE-2026-116011",
+      "summary": "Crow before 1.3.4 contains an uncontrolled recursion vulnerability in crow::json::load() that allows remote unauthenticated attackers to crash the server by sending deeply nested JSON. Attackers can send a request body with thousands of nes…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116011",
+      "published": "2026-10-24T12:16:57.070000+00:00"
+    },
+    {
+      "id": "9220fc64fd87cd12",
+      "kind": "cve",
+      "cve": "CVE-2026-116009",
+      "title": "CVE-2026-116009",
+      "summary": "Camaleon CMS before 2.9.3 contains a path traversal vulnerability that allows users with only the media permission to write arbitrary files by supplying ../ sequences in the name parameter. Attackers can send a base64 data: URI to the crop_…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116009",
+      "published": "2026-10-24T12:16:56.640000+00:00"
+    },
+    {
+      "id": "82a773b379618673",
+      "kind": "cve",
+      "cve": "CVE-2026-110018",
+      "title": "CVE-2026-110018",
+      "summary": "The aBlocks – Gutenberg Blocks, User Dashboard Builder, Popup Builder, Form Builder & Animation Builder plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.17.0 via the `/ablocks/v1/form-builde…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110018",
+      "published": "2026-10-24T12:16:54.783000+00:00"
+    },
+    {
+      "id": "a0a9e49aec28c38a",
+      "kind": "research",
+      "cve": null,
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli. Trac…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "published": "2026-10-24T11:09:29+00:00"
+    },
+    {
+      "id": "3a1a036ef73ae68c",
+      "kind": "research",
+      "cve": null,
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 20…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "published": "2026-10-24T11:03:33+00:00"
+    },
+    {
+      "id": "afec56c7243a9162",
+      "kind": "research",
+      "cve": null,
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google se…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "published": "2026-10-24T10:36:33+00:00"
+    },
+    {
+      "id": "94d51fe2d20419a9",
+      "kind": "research",
+      "cve": null,
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machin…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "published": "2026-10-24T09:04:24+00:00"
+    },
     {
       "id": "838b4b1ce2538127",
       "kind": "research",
@@ -2179,74 +2349,6 @@
       "published": "2026-10-21T09:05:17+00:00"
     },
     {
-      "id": "7f88afbf76a3ea1e",
-      "kind": "research",
-      "cve": null,
-      "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-      "summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the dev…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
-      "published": "2026-10-21T09:01:12+00:00"
-    },
-    {
-      "id": "0c6fe061465aa1a5",
-      "kind": "research",
-      "cve": null,
-      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-      "summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security orde…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-      "published": "2026-10-21T08:04:17+00:00"
-    },
-    {
-      "id": "17efaa05bd141183",
-      "kind": "research",
-      "cve": null,
-      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-      "summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from. The state-owned bank, India's largest,…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-      "published": "2026-10-21T07:44:22+00:00"
-    },
-    {
-      "id": "f6fe2f9557b7aa1c",
-      "kind": "research",
-      "cve": null,
-      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively call…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-      "published": "2026-10-21T07:26:49+00:00"
-    },
-    {
       "id": "7142efe1597e5f60",
       "kind": "cve",
       "cve": "CVE-2026-113744",
@@ -4149,108 +4251,6 @@
       "product": "Community Edition and Enterprise Edition",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
       "published": "2026-09-11T00:00:00+00:00"
-    },
-    {
-      "id": "cecc3e13541ab1df",
-      "kind": "cve",
-      "cve": "CVE-2026-86060",
-      "title": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
-      "summary": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "MikroTik",
-      "product": "RouterOS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
-      "published": "2026-09-10T00:00:00+00:00"
-    },
-    {
-      "id": "506e10b2e46299b1",
-      "kind": "cve",
-      "cve": "CVE-2026-67277",
-      "title": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
-      "summary": "MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "MikroTik",
-      "product": "RouterOS",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
-      "published": "2026-09-10T00:00:00+00:00"
-    },
-    {
-      "id": "f5c2461e351eb170",
-      "kind": "cve",
-      "cve": "CVE-2026-19490",
-      "title": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "summary": "Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN,…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
-      "published": "2026-09-09T00:00:00+00:00"
-    },
-    {
-      "id": "282094b55e165855",
-      "kind": "cve",
-      "cve": "CVE-2025-25249",
-      "title": "Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
-      "summary": "Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Fortinet",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
-      "published": "2026-09-09T00:00:00+00:00"
-    },
-    {
-      "id": "7579e401e7b98279",
-      "kind": "cve",
-      "cve": "CVE-2026-87491",
-      "title": "Google Chromium V8 Out of Bounds Write Vulnerability",
-      "summary": "Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Google",
-      "product": "Chromium V8",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491",
-      "published": "2026-09-09T00:00:00+00:00"
-    },
-    {
-      "id": "ae54509b2cd80ce2",
-      "kind": "cve",
-      "cve": "CVE-2026-20079",
-      "title": "Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
-      "summary": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Cisco",
-      "product": "Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
-      "published": "2026-09-09T00:00:00+00:00"
     }
   ]
 }
