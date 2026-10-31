@@ -1,7 +1,109 @@
 {
-  "generated": "2026-10-31T14:03:37.325953+00:00",
+  "generated": "2026-10-31T18:55:58.210870+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "939089581d5e90e4",
+      "kind": "cve",
+      "cve": "CVE-2026-120209",
+      "title": "CVE-2026-120209",
+      "summary": "AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline. Attackers can mint a token with reportCode 'dataSet' to access the testTransform endpoint, which passes scripts…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120209",
+      "published": "2026-10-31T18:17:09.263000+00:00"
+    },
+    {
+      "id": "930655623c503083",
+      "kind": "cve",
+      "cve": "CVE-2026-120208",
+      "title": "CVE-2026-120208",
+      "summary": "libheif 1.18.0 before 1.23.3 contains a heap-based buffer overflow vulnerability in unc_decoder_mixed_interleave::processTile() that allows attackers to write out of bounds by supplying chroma components with unequal bit depths. Attackers c…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120208",
+      "published": "2026-10-31T18:17:09.083000+00:00"
+    },
+    {
+      "id": "7011be56961a42df",
+      "kind": "cve",
+      "cve": "CVE-2026-120207",
+      "title": "CVE-2026-120207",
+      "summary": "Thelia Page Module before 2.0.4 contains a cross-site request forgery vulnerability that allows remote attackers to delete page tags, documents and images by abusing back-office delete routes lacking CSRF tokens and permission checks. Attac…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120207",
+      "published": "2026-10-31T18:17:08.920000+00:00"
+    },
+    {
+      "id": "f14c280d142f9c7d",
+      "kind": "cve",
+      "cve": "CVE-2026-120205",
+      "title": "CVE-2026-120205",
+      "summary": "Thelia before 3.1.0 contains a stored cross-site scripting vulnerability in ForSomeCustomers::getSummary() that allows unauthenticated attackers to inject scripts via unescaped customer names. Attackers can register with a script payload as…",
+      "severity": "HIGH",
+      "score": 8.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120205",
+      "published": "2026-10-31T18:17:08.570000+00:00"
+    },
+    {
+      "id": "9a114c18b54b9521",
+      "kind": "cve",
+      "cve": "CVE-2026-120203",
+      "title": "CVE-2026-120203",
+      "summary": "ShowDoc 2.8.14 before 3.9.6 contains a code injection vulnerability in its Mock feature that allows authenticated users to execute shell commands through mockjs templates. Attackers can store a template via MockController::add with escaped…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120203",
+      "published": "2026-10-31T18:17:08.237000+00:00"
+    },
+    {
+      "id": "59fbfc8abfec0029",
+      "kind": "cve",
+      "cve": "CVE-2026-120201",
+      "title": "CVE-2026-120201",
+      "summary": "Jpom 2.10.0 through 2.11.12 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain super-administrator access by injecting query conditions into the JPOM-USER-TOKEN header. Attackers can send a value l…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120201",
+      "published": "2026-10-31T18:17:07.890000+00:00"
+    },
     {
       "id": "1f2870fb86dff659",
       "kind": "research",
@@ -2264,6 +2366,23 @@
       "published": "2026-10-28T20:17:21.417000+00:00"
     },
     {
+      "id": "0ccec4f6ebee82b8",
+      "kind": "research",
+      "cve": null,
+      "title": "GLPI: Mass Assignment in the Password Reset Flow Enables Post-exploitation Silent Account Takeover",
+      "summary": "",
+      "severity": "",
+      "score": null,
+      "source": "Synacktiv",
+      "tags": [
+        "RESEARCH"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeTN3XzNId3FCcDVpMjZ0YkJmbnhaUG1GX3hVZjZINFNKbGtNNFhHUTBsbkt6UGJmdUZGNjhWREE4NUQ4RkFQOXBLazFRdXVMUDg4di1YelhuR1B4eHNMamdtcjZ2cFZGc0QzTmhRUTloQlR0djg0cUh5UnIwbGdJWjFRYjdYSDFiQTJJX1JjTHJJSjhtZzh5UTIyV2pyamtiMzRBS240Q3cxTDBPRWVUX3lnd2xUSUZqUjhpa210THY4WjNGOHVF?oc=5",
+      "published": "2026-10-28T19:26:55+00:00"
+    },
+    {
       "id": "14f481b58efbbd7e",
       "kind": "cve",
       "cve": "CVE-2026-118688",
@@ -4132,125 +4251,6 @@
       "product": "Catalyst SD-WAN Manager",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
       "published": "2026-09-30T00:00:00+00:00"
-    },
-    {
-      "id": "9500df075a9b45c2",
-      "kind": "research",
-      "cve": "CVE-2026-88772",
-      "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772)",
-      "summary": "Part 1 of this week&apos;s saga can be found here. This research is a glimpse into the capabilities that power our Preemptive Exposure Management solution, enabling organizations to rapidly react to emerging threats: the&#xa0; watchTowr Pla…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/",
-      "published": "2026-09-29T13:55:35+00:00"
-    },
-    {
-      "id": "0fca6bd1e503fdf6",
-      "kind": "cve",
-      "cve": "CVE-2026-86950",
-      "title": "Apple Multiple Products Out-of-Bounds Write Vulnerability",
-      "summary": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950",
-      "published": "2026-09-29T00:00:00+00:00"
-    },
-    {
-      "id": "9eea57edb89b5463",
-      "kind": "research",
-      "cve": null,
-      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-      "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remai…",
-      "severity": "",
-      "score": null,
-      "source": "Krebs on Security",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-      "published": "2026-09-28T15:08:57+00:00"
-    },
-    {
-      "id": "cb8ce7babd6edd26",
-      "kind": "research",
-      "cve": "CVE-2026-88771",
-      "title": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)",
-      "summary": "God damn it, we&apos;re back in the room again. Yes, that sound in your ears is screaming. The footgun has gone off again, shockingly, and we are yet again dealing with a situation where the entire world apparently knew about Citrix NetScal…",
-      "severity": "",
-      "score": null,
-      "source": "watchTowr Labs",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
-      "published": "2026-09-28T10:55:54+00:00"
-    },
-    {
-      "id": "71406b23d0327043",
-      "kind": "cve",
-      "cve": "CVE-2026-88772",
-      "title": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "summary": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88772",
-      "published": "2026-09-27T00:00:00+00:00"
-    },
-    {
-      "id": "a3f32593a4f54fbc",
-      "kind": "cve",
-      "cve": "CVE-2026-88771",
-      "title": "Citrix NetScaler Improper Input Validation Vulnerability",
-      "summary": "Citrix NetScaler ADC and NetScaler Gateway contain an improper input validation vulnerability that could allow an unauthenticated attacker to execute arbitrary commands.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88771",
-      "published": "2026-09-27T00:00:00+00:00"
-    },
-    {
-      "id": "42d7d50a9109dcec",
-      "kind": "research",
-      "cve": null,
-      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-      "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal prison today…",
-      "severity": "",
-      "score": null,
-      "source": "Krebs on Security",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-      "published": "2026-09-25T21:44:40+00:00"
     }
   ]
 }
