@@ -1,7 +1,687 @@
 {
-  "generated": "2026-11-07T23:15:51.311092+00:00",
+  "generated": "2026-11-08T03:30:08.390350+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "9fed7fd030a2b91e",
+      "kind": "cve",
+      "cve": "CVE-2026-123616",
+      "title": "CVE-2026-123616",
+      "summary": "imgproxy from 3.3.0 before 4.0.16 contains an unbounded memory allocation vulnerability in the ICO loader that fails to validate the data_size field. Attackers can supply a crafted 23-byte ICO file declaring a ~4GB data_size to trigger memo…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123616",
+      "published": "2026-11-08T02:16:57.307000+00:00"
+    },
+    {
+      "id": "2157688fb6ba472b",
+      "kind": "cve",
+      "cve": "CVE-2026-123615",
+      "title": "CVE-2026-123615",
+      "summary": "imgproxy 3.3.0 before 4.0.17 contains an out-of-bounds heap read and write in the ICO loader's BMP header reconstruction (vips_foreign_load_ico_header in vips/icoload.c) when an ICO entry declares a tiny data size, causing unvalidated heade…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123615",
+      "published": "2026-11-08T02:16:57.147000+00:00"
+    },
+    {
+      "id": "bd6c632ddd165e15",
+      "kind": "cve",
+      "cve": "CVE-2026-123614",
+      "title": "CVE-2026-123614",
+      "summary": "imgproxy from 4.0.0 before 4.0.16 contains an integer overflow in the ICO loader that allows remote attackers to trigger a heap buffer overflow via a crafted data_size value. Attackers can submit a crafted ICO image whose data_size wraps th…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123614",
+      "published": "2026-11-08T02:16:56.983000+00:00"
+    },
+    {
+      "id": "1bef34397e66cb13",
+      "kind": "cve",
+      "cve": "CVE-2026-123608",
+      "title": "CVE-2026-123608",
+      "summary": "Hickory DNS hickory-proto from 0.3.1 before 0.26.1 contains a denial of service vulnerability in BinEncoder that allows remote attackers to exhaust CPU through quadratic-time name compression. Attackers can send malicious DNS messages with…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123608",
+      "published": "2026-11-08T02:16:55.927000+00:00"
+    },
+    {
+      "id": "6c0c7ebdcc6bfd39",
+      "kind": "cve",
+      "cve": "CVE-2026-123607",
+      "title": "CVE-2026-123607",
+      "summary": "Hickory DNS hickory-proto 0.25.0-alpha.3 through 0.25.2 and hickory-net before 0.26.1 contain an unbounded loop vulnerability in DnssecDnsHandle NSEC3 closest-encloser proof validation when the SOA owner is not an ancestor of the QNAME. Ups…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123607",
+      "published": "2026-11-08T02:16:55.747000+00:00"
+    },
+    {
+      "id": "e44dca4c651230ed",
+      "kind": "cve",
+      "cve": "CVE-2026-123606",
+      "title": "CVE-2026-123606",
+      "summary": "The hickory-dns recursor in hickory-recursor 0.25.0-alpha.3 through 0.25.2 and hickory-resolver 0.26.0-alpha.1 before 0.26.2 iterates every out-of-bailiwick NS target lacking glue in a referral without any per-query work budget. Remote atta…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123606",
+      "published": "2026-11-08T02:16:55.583000+00:00"
+    },
+    {
+      "id": "241dbc50519f8752",
+      "kind": "cve",
+      "cve": "CVE-2026-123605",
+      "title": "CVE-2026-123605",
+      "summary": "Hickory DNS hickory-proto 0.1 through 0.25.0-alpha.3 and hickory-net before 0.26.2 contain a DNSSEC validation bypass because the validator verifies an RRSIG against the DNSKEY of whatever name appears in its Signer's Name field without che…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123605",
+      "published": "2026-11-08T02:16:55.423000+00:00"
+    },
+    {
+      "id": "5b02961cec575d25",
+      "kind": "cve",
+      "cve": "CVE-2026-123604",
+      "title": "CVE-2026-123604",
+      "summary": "Hickory DNS hickory-resolver 0.26.0-beta.1 before 0.26.2 contains an unbounded retry loop in NameServerPool::try_send, which re-queues truncated (TC) responses without checking the answering transport or counting iterations. A malicious aut…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123604",
+      "published": "2026-11-08T02:16:55.273000+00:00"
+    },
+    {
+      "id": "142b5b7d66c6b6dd",
+      "kind": "cve",
+      "cve": "CVE-2026-123596",
+      "title": "CVE-2026-123596",
+      "summary": "Hickory DNS hickory-proto through 0.26.0-alpha.1 and hickory-net 0.26.0-beta.1 before 0.26.2 contain a DNSSEC validation flaw in the validating recursor's NSEC handler that accepts parent-side ancestor-delegation NSEC records as proof of no…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123596",
+      "published": "2026-11-08T02:16:54.020000+00:00"
+    },
+    {
+      "id": "c6a14d928bb61b45",
+      "kind": "cve",
+      "cve": "CVE-2026-123595",
+      "title": "CVE-2026-123595",
+      "summary": "Hickory DNS hickory-proto 0.25 through 0.26.0-alpha.1 and hickory-net 0.26.0-beta.1 before 0.26.2 contain a DNSSEC validation flaw in the validating recursor's NSEC3 handler, which matches the closest encloser by hash alone without checking…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123595",
+      "published": "2026-11-08T02:16:53.863000+00:00"
+    },
+    {
+      "id": "c609f178595eca97",
+      "kind": "cve",
+      "cve": "CVE-2026-123588",
+      "title": "CVE-2026-123588",
+      "summary": "The recursive resolver in Hickory DNS (all versions of the hickory-recursor crate, and hickory-resolver 0.26.0 before 0.26.2) caches an empty connection pool when it follows a referral with no glue records and all queries for the name serve…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123588",
+      "published": "2026-11-08T02:16:52.790000+00:00"
+    },
+    {
+      "id": "95c39579ca3583dc",
+      "kind": "cve",
+      "cve": "CVE-2026-123586",
+      "title": "CVE-2026-123586",
+      "summary": "Hickory DNS 0.25.0-alpha.3 through 0.25.2 contains a query amplification vulnerability in its recursive resolver, which mishandles cyclic sibling name server referrals that lack glue records. Attackers controlling two zones whose name serve…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123586",
+      "published": "2026-11-08T02:16:52.477000+00:00"
+    },
+    {
+      "id": "88b6a391271a9109",
+      "kind": "cve",
+      "cve": "CVE-2026-123580",
+      "title": "CVE-2026-123580",
+      "summary": "Hickory DNS hickory-net 0.26.0-beta.1 before 0.26.2 and hickory-proto through 0.26.0-alpha.1 perform insufficient checks on NSEC3 record names during DNSSEC verification, comparing only the hashed label without confirming the record belongs…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123580",
+      "published": "2026-11-08T02:16:51.540000+00:00"
+    },
+    {
+      "id": "2cbc0fc46a26bac7",
+      "kind": "cve",
+      "cve": "CVE-2026-123577",
+      "title": "CVE-2026-123577",
+      "summary": "Hickory DNS from 0.24.0 before 0.26.2 contains a resource exhaustion vulnerability that allows remote attackers to consume server memory via unbounded DoH request bodies. Attackers can send large request bodies over HTTP/2 or HTTP/3 to a DN…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123577",
+      "published": "2026-11-08T02:16:51.050000+00:00"
+    },
+    {
+      "id": "d58bc5135b5e1a5a",
+      "kind": "cve",
+      "cve": "CVE-2026-123576",
+      "title": "CVE-2026-123576",
+      "summary": "Hickory DNS 0.24.0 through 0.26.1 contains a memory exhaustion vulnerability that allows remote attackers to consume server resources by sending incomplete DNS-over-QUIC request bodies. Attackers can open many connections and send only larg…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123576",
+      "published": "2026-11-08T02:16:50.780000+00:00"
+    },
+    {
+      "id": "bfcc81965bf773c1",
+      "kind": "cve",
+      "cve": "CVE-2026-123575",
+      "title": "CVE-2026-123575",
+      "summary": "Hickory DNS before 0.26.2 contains a resource exhaustion vulnerability in its DNS-over-HTTPS HTTP/2 server that lacks sufficient timeouts or limits for incomplete request bodies. Remote attackers can open DoH connections, send incomplete re…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123575",
+      "published": "2026-11-08T02:16:50.600000+00:00"
+    },
+    {
+      "id": "96dcda0fb231c57e",
+      "kind": "cve",
+      "cve": "CVE-2026-123574",
+      "title": "CVE-2026-123574",
+      "summary": "The zone file parser in the hickory-proto crate of Hickory DNS 0.24.0 before 0.26.2 panics when a single token in a zone file is 4096 bytes or longer. Attackers who can supply untrusted zone files to an application using the parser can trig…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123574",
+      "published": "2026-11-08T02:16:50.450000+00:00"
+    },
+    {
+      "id": "ee02692e3a359aa2",
+      "kind": "cve",
+      "cve": "CVE-2026-123573",
+      "title": "CVE-2026-123573",
+      "summary": "hickory-dns from 0.20.1 before 0.26.2 contains a denial of service vulnerability in the hickory-proto SVCB and HTTPS record presentation format parser. Attackers can supply untrusted zone files where only a single or double quote replaces a…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123573",
+      "published": "2026-11-08T02:16:50.297000+00:00"
+    },
+    {
+      "id": "6793bde382065c32",
+      "kind": "cve",
+      "cve": "CVE-2026-123572",
+      "title": "CVE-2026-123572",
+      "summary": "Hickory-dns from 0.20.1 before 0.26.2 contains a denial of service vulnerability in the hickory-proto SVCB and HTTPS record presentation format parser, which panics on malformed alpn values. Attackers can supply untrusted zone files with un…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123572",
+      "published": "2026-11-08T02:16:50.140000+00:00"
+    },
+    {
+      "id": "91a19adc0e4b1ecc",
+      "kind": "cve",
+      "cve": "CVE-2026-123571",
+      "title": "CVE-2026-123571",
+      "summary": "Hickory DNS from 0.26.0 before 0.26.2 contains an integer underflow vulnerability in TSIG RDATA decoding that allows remote attackers to trigger a panic via malformed records. Attackers can send a crafted TSIG record in DNS wire format to c…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123571",
+      "published": "2026-11-08T02:16:49.990000+00:00"
+    },
+    {
+      "id": "0794f491f5d76427",
+      "kind": "cve",
+      "cve": "CVE-2026-123570",
+      "title": "CVE-2026-123570",
+      "summary": "The DNS wire-format message parser in hickory-proto (Hickory DNS) 0.18 before 0.26.2 preallocates record vectors sized by the untrusted ANCOUNT, NSCOUNT, and ARCOUNT header fields before reading record data. Remote attackers can send a UDP…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123570",
+      "published": "2026-11-08T02:16:49.830000+00:00"
+    },
+    {
+      "id": "e97a74a9251b3bf9",
+      "kind": "cve",
+      "cve": "CVE-2026-123569",
+      "title": "CVE-2026-123569",
+      "summary": "The devalue package for npm before 5.6.3 can consume excessive CPU and memory when serializing sparse arrays with uneval or stringify. An attacker who manages to get a sparse array created on the server, which mainstream wire formats do not…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123569",
+      "published": "2026-11-08T02:16:49.673000+00:00"
+    },
+    {
+      "id": "7a522413526ba7ce",
+      "kind": "cve",
+      "cve": "CVE-2026-123566",
+      "title": "CVE-2026-123566",
+      "summary": "Sveltejs devalue before 5.9.3 contains a denial of service vulnerability that allows attackers to cause CPU amplification by supplying sparse arrays to uneval. Attackers who influence sparse values passed to uneval can force synchronous wor…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123566",
+      "published": "2026-11-08T02:16:49.197000+00:00"
+    },
+    {
+      "id": "cdd974ee536d1e2d",
+      "kind": "cve",
+      "cve": "CVE-2026-123565",
+      "title": "CVE-2026-123565",
+      "summary": "Sveltejs devalue before 5.9.3 contains a resource exhaustion vulnerability where repeated primitive strings cause quadratic expansion in the uneval function. Attackers can supply a small crafted payload that is parsed and then passed to une…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123565",
+      "published": "2026-11-08T02:16:49.040000+00:00"
+    },
+    {
+      "id": "f8d6ce91c91fb7f4",
+      "kind": "cve",
+      "cve": "CVE-2026-123564",
+      "title": "CVE-2026-123564",
+      "summary": "Sveltejs devalue from 1.0.0 before 5.9.3 contains a memory exhaustion flaw in uneval, whose generated code for sparse arrays allocates memory proportional to the array's declared length when evaluated. Attackers who can influence a very lar…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123564",
+      "published": "2026-11-08T02:16:48.877000+00:00"
+    },
+    {
+      "id": "1280c656cf87a33a",
+      "kind": "cve",
+      "cve": "CVE-2026-123563",
+      "title": "CVE-2026-123563",
+      "summary": "Devalue before 5.9.3 contains a validation bypass vulnerability that allows custom ArrayBuffer revivers to skip typed-array allocation checks in the parse function. Attackers can supply very small crafted input processed by a malformed Arra…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123563",
+      "published": "2026-11-08T02:16:48.720000+00:00"
+    },
+    {
+      "id": "988afbc8c2fb3b1d",
+      "kind": "cve",
+      "cve": "CVE-2026-123562",
+      "title": "CVE-2026-123562",
+      "summary": "devalue (sveltejs/devalue) 5.8.0 before 5.9.3 contains an unhandled promise rejection in stringifyAsync: when serializing multiple promises, a later promise rejecting before an earlier one settles leaves an internal rejection unhandled, eve…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123562",
+      "published": "2026-11-08T02:16:48.567000+00:00"
+    },
+    {
+      "id": "b0e0e29b8982e9a2",
+      "kind": "cve",
+      "cve": "CVE-2026-123560",
+      "title": "CVE-2026-123560",
+      "summary": "Zebra before 7.0.0 contains an incomplete cleanup vulnerability that allows unauthenticated peers to stall initial sync by serving a forged checkpoint block body. Attackers can supply a body with forged authorizing data near the final check…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123560",
+      "published": "2026-11-08T02:16:48.227000+00:00"
+    },
+    {
+      "id": "a48a8f5ea6882ba6",
+      "kind": "cve",
+      "cve": "CVE-2026-123559",
+      "title": "CVE-2026-123559",
+      "summary": "Zebra before 7.0.0 contains an inefficient algorithmic complexity vulnerability that allows unauthenticated peers to exhaust verification threads by submitting transactions with many transparent inputs. Attackers can relay invalid transacti…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123559",
+      "published": "2026-11-08T02:16:48.047000+00:00"
+    },
+    {
+      "id": "82a8acabacdc3952",
+      "kind": "cve",
+      "cve": "CVE-2026-123558",
+      "title": "CVE-2026-123558",
+      "summary": "Zebra zebrad before 7.0.0 contains a denial of service vulnerability that allows a malicious peer to stall checkpoint sync by cancelling the verifier rewind after a failed commit. Attackers can serve a forged block with altered authorizing…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123558",
+      "published": "2026-11-08T02:16:47.863000+00:00"
+    },
+    {
+      "id": "3c2e44c401e6f0d5",
+      "kind": "cve",
+      "cve": "CVE-2026-123555",
+      "title": "CVE-2026-123555",
+      "summary": "Zebra from 2.3.0 before 7.0.0 contains a denial of service vulnerability that allows unauthenticated peers to evade misbehavior scoring by sending transactions or blocks with invalid transparent scripts. Attackers can flood mempool with scr…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123555",
+      "published": "2026-11-08T02:16:47.313000+00:00"
+    },
+    {
+      "id": "84921ec178d74c47",
+      "kind": "cve",
+      "cve": "CVE-2026-123554",
+      "title": "CVE-2026-123554",
+      "summary": "Zebra zebrad 6.4.0 before 7.0.0 performs quadratic work in the mempool coinbase-maturity check because Transaction::coinbase_spend_restriction() rebuilds the transaction's output list once per spent outpoint. Any connected peer can repeated…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123554",
+      "published": "2026-11-08T02:16:47.120000+00:00"
+    },
+    {
+      "id": "2acc26e1731aaba4",
+      "kind": "cve",
+      "cve": "CVE-2026-123551",
+      "title": "CVE-2026-123551",
+      "summary": "OpenAM from 14.0.0 before 16.1.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read live session tokens from the notification WebSocket. Attackers can bypass the agent-only check through an unvali…",
+      "severity": "CRITICAL",
+      "score": 10.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123551",
+      "published": "2026-11-08T02:16:46.603000+00:00"
+    },
+    {
+      "id": "65c5e1b0e989c30e",
+      "kind": "cve",
+      "cve": "CVE-2026-123550",
+      "title": "CVE-2026-123550",
+      "summary": "OpenAM before 16.1.4 contains an authentication bypass vulnerability in its SAML v2.0 service provider that accepts unsigned assertions on the ECP (PAOS) and HTTP-Artifact bindings when WantAssertionsSigned is false. Unauthenticated remote…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123550",
+      "published": "2026-11-08T02:16:46.410000+00:00"
+    },
+    {
+      "id": "154bc9c8224b4f41",
+      "kind": "cve",
+      "cve": "CVE-2026-123549",
+      "title": "CVE-2026-123549",
+      "summary": "OpenAM before 16.1.4 fails to enforce the Valid Creation Attributes list during self-registration, allowing anonymous attackers to set restricted attributes including group membership. Attackers can register through the legacy self-service…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123549",
+      "published": "2026-11-08T02:16:46.247000+00:00"
+    },
+    {
+      "id": "8e5ddb17a4fc3093",
+      "kind": "cve",
+      "cve": "CVE-2026-123545",
+      "title": "CVE-2026-123545",
+      "summary": "OpenAM from 14.5.1 before 16.1.4 contains a cross-site request forgery vulnerability in the OAuth 2.0 device authorization flow that allows attackers to approve device codes when consent is skipped for implied-consent clients. Attackers can…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123545",
+      "published": "2026-11-08T02:16:45.597000+00:00"
+    },
+    {
+      "id": "c9cfc4521ec4ce7a",
+      "kind": "cve",
+      "cve": "CVE-2026-123543",
+      "title": "CVE-2026-123543",
+      "summary": "OpenAM before 16.1.4 contains a denial of service vulnerability that allows unauthenticated attackers to exhaust server resources by sending serialized Java data without size or structure limits. Attackers can send small crafted requests to…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123543",
+      "published": "2026-11-08T02:16:45.253000+00:00"
+    },
+    {
+      "id": "dd242c7c95855a43",
+      "kind": "cve",
+      "cve": "CVE-2026-123531",
+      "title": "CVE-2026-123531",
+      "summary": "Vikunja from 1.0.0 before 2.7.1 contains an uncontrolled resource consumption vulnerability that allows authenticated users to bypass service.maxitemsperpage by sending page=0 to /api/v1 list endpoints. Attackers can self-register and repea…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123531",
+      "published": "2026-11-08T02:16:43.190000+00:00"
+    },
+    {
+      "id": "e4e298089f52814a",
+      "kind": "cve",
+      "cve": "CVE-2026-123522",
+      "title": "CVE-2026-123522",
+      "summary": "Vikunja before 2.7.1 contains an authorization bypass vulnerability that allows authenticated users to read any task by injecting a crafted task object into a no-op Kanban bucket move. Attackers can set task.id to a victim task and task.pro…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123522",
+      "published": "2026-11-08T02:16:41.607000+00:00"
+    },
+    {
+      "id": "b60a6a09ea07b252",
+      "kind": "cve",
+      "cve": "CVE-2026-123520",
+      "title": "CVE-2026-123520",
+      "summary": "Vikunja from 0.18.0 before 2.7.1 contains a privilege escalation vulnerability that allows team owners to gain admin or ownership of read-only shared projects by deleting accounts. Attackers can create a bot, add it to their team, and delet…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123520",
+      "published": "2026-11-08T02:16:41.247000+00:00"
+    },
     {
       "id": "c53fa10734f996b6",
       "kind": "cve",
@@ -222,23 +902,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116751",
       "published": "2026-11-07T12:17:43.070000+00:00"
-    },
-    {
-      "id": "2169ab3138415663",
-      "kind": "cve",
-      "cve": "CVE-2026-104768",
-      "title": "CVE-2026-104768",
-      "summary": "The AutomatorWP – No-Code Workflow Automation, Integration & Webhooks Plugin, now with AI plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.0.4. This is due to missing privilege-ceiling valid…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104768",
-      "published": "2026-11-07T12:17:41.793000+00:00"
     },
     {
       "id": "b204890f101b8f79",
@@ -496,23 +1159,6 @@
       "published": "2026-11-07T05:19:01.820000+00:00"
     },
     {
-      "id": "1266cdfd16bdcaab",
-      "kind": "cve",
-      "cve": "CVE-2026-19128",
-      "title": "CVE-2026-19128",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow an authenticated attacker to send unauthorized requests from the system due to server-side request forgery. This could be used to enumerate network resources or to support further attack…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19128",
-      "published": "2026-11-07T05:19:00.717000+00:00"
-    },
-    {
       "id": "adb78ae0bf9324f7",
       "kind": "cve",
       "cve": "CVE-2026-19121",
@@ -564,23 +1210,6 @@
       "published": "2026-11-07T05:18:59.597000+00:00"
     },
     {
-      "id": "6c36e04007e4d1c6",
-      "kind": "cve",
-      "cve": "CVE-2026-18535",
-      "title": "CVE-2026-18535",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 are vulnerable to a Regular Expression Denial of Service (ReDoS) attack and to improper neutralisation of wildcard query operators.",
-      "severity": "CRITICAL",
-      "score": 9.6,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18535",
-      "published": "2026-11-07T05:18:59.120000+00:00"
-    },
-    {
       "id": "4e7d4c35b677ac29",
       "kind": "cve",
       "cve": "CVE-2026-17411",
@@ -613,23 +1242,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17410",
       "published": "2026-11-07T05:18:58.410000+00:00"
-    },
-    {
-      "id": "c0d263f3c745807b",
-      "kind": "cve",
-      "cve": "CVE-2026-17409",
-      "title": "CVE-2026-17409",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute unauthorized administrative operations and obtain sensitive information due to improper handling of case sensitivity. Access c…",
-      "severity": "CRITICAL",
-      "score": 9.4,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17409",
-      "published": "2026-11-07T05:18:58.157000+00:00"
     },
     {
       "id": "513facd2e35374c4",
@@ -768,23 +1380,6 @@
       "published": "2026-11-07T05:18:56.237000+00:00"
     },
     {
-      "id": "0b209866a9d74be8",
-      "kind": "cve",
-      "cve": "CVE-2026-17400",
-      "title": "CVE-2026-17400",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to SQL injection.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17400",
-      "published": "2026-11-07T05:18:56.020000+00:00"
-    },
-    {
       "id": "48dd9a27329a6c2d",
       "kind": "cve",
       "cve": "CVE-2026-17399",
@@ -904,23 +1499,6 @@
       "published": "2026-11-07T05:18:53.253000+00:00"
     },
     {
-      "id": "6548e7073e63cd5b",
-      "kind": "cve",
-      "cve": "CVE-2026-17387",
-      "title": "CVE-2026-17387",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17387",
-      "published": "2026-11-07T05:18:53.060000+00:00"
-    },
-    {
       "id": "2cd600b89d63847a",
       "kind": "cve",
       "cve": "CVE-2026-17386",
@@ -970,23 +1548,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17384",
       "published": "2026-11-07T05:18:52.500000+00:00"
-    },
-    {
-      "id": "6af7b82bc20ab4f6",
-      "kind": "cve",
-      "cve": "CVE-2026-17383",
-      "title": "CVE-2026-17383",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information from other tenants due to broken object-level authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17383",
-      "published": "2026-11-07T05:18:52.323000+00:00"
     },
     {
       "id": "fae67af0652e1629",
@@ -1057,91 +1618,6 @@
       "published": "2026-11-07T05:18:51.560000+00:00"
     },
     {
-      "id": "317683f663823aed",
-      "kind": "cve",
-      "cve": "CVE-2026-17378",
-      "title": "CVE-2026-17378",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17378",
-      "published": "2026-11-07T05:18:51.370000+00:00"
-    },
-    {
-      "id": "3ef1819e989e57b6",
-      "kind": "cve",
-      "cve": "CVE-2026-17376",
-      "title": "CVE-2026-17376",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17376",
-      "published": "2026-11-07T05:18:50.997000+00:00"
-    },
-    {
-      "id": "5b858bb30385084a",
-      "kind": "cve",
-      "cve": "CVE-2026-17375",
-      "title": "CVE-2026-17375",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization. Authorization decisions rely on information supplied by the…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17375",
-      "published": "2026-11-07T05:18:50.800000+00:00"
-    },
-    {
-      "id": "4b267ca9d7aeafd4",
-      "kind": "cve",
-      "cve": "CVE-2026-17374",
-      "title": "CVE-2026-17374",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17374",
-      "published": "2026-11-07T05:18:50.613000+00:00"
-    },
-    {
-      "id": "cf1f55349e50c707",
-      "kind": "cve",
-      "cve": "CVE-2026-17373",
-      "title": "CVE-2026-17373",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17373",
-      "published": "2026-11-07T05:18:50.430000+00:00"
-    },
-    {
       "id": "88a0d78847b686b8",
       "kind": "cve",
       "cve": "CVE-2026-17365",
@@ -1157,40 +1633,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17365",
       "published": "2026-11-07T05:18:48.900000+00:00"
-    },
-    {
-      "id": "bf5ef50d4cb3e4ae",
-      "kind": "cve",
-      "cve": "CVE-2026-17363",
-      "title": "CVE-2026-17363",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to SQL injection.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17363",
-      "published": "2026-11-07T05:18:48.710000+00:00"
-    },
-    {
-      "id": "4ea024f4253cc01b",
-      "kind": "cve",
-      "cve": "CVE-2026-17361",
-      "title": "CVE-2026-17361",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17361",
-      "published": "2026-11-07T05:18:48.390000+00:00"
     },
     {
       "id": "b23dfe182573ae90",
@@ -1344,23 +1786,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17352",
       "published": "2026-11-07T05:18:46.690000+00:00"
-    },
-    {
-      "id": "ee9b298f0c4f58cf",
-      "kind": "cve",
-      "cve": "CVE-2026-17345",
-      "title": "CVE-2026-17345",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper neutralization of special elements used in an SQL command.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17345",
-      "published": "2026-11-07T05:18:46.513000+00:00"
     },
     {
       "id": "1f3a9362298e5f7a",
@@ -1584,23 +2009,6 @@
       "published": "2026-11-07T05:18:43.827000+00:00"
     },
     {
-      "id": "a2c7e06dbdd93d72",
-      "kind": "cve",
-      "cve": "CVE-2026-17331",
-      "title": "CVE-2026-17331",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to read arbitrary files on the server due to external control of a file name or path.",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17331",
-      "published": "2026-11-07T05:18:43.647000+00:00"
-    },
-    {
       "id": "b0590a9d5af527cc",
       "kind": "cve",
       "cve": "CVE-2026-17330",
@@ -1720,23 +2128,6 @@
       "published": "2026-11-07T05:18:42.310000+00:00"
     },
     {
-      "id": "449b9ea675eb73dc",
-      "kind": "cve",
-      "cve": "CVE-2026-17323",
-      "title": "CVE-2026-17323",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information due to XML external entity (XXE) injection.",
-      "severity": "HIGH",
-      "score": 8.2,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17323",
-      "published": "2026-11-07T05:18:42.120000+00:00"
-    },
-    {
       "id": "d38fd858d6965e97",
       "kind": "cve",
       "cve": "CVE-2026-17322",
@@ -1771,23 +2162,6 @@
       "published": "2026-11-07T05:18:41.723000+00:00"
     },
     {
-      "id": "8d5156b05294f8bb",
-      "kind": "cve",
-      "cve": "CVE-2026-17320",
-      "title": "CVE-2026-17320",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to an insecure direct object reference.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17320",
-      "published": "2026-11-07T05:18:41.520000+00:00"
-    },
-    {
       "id": "a1a2a80cfbe4a0b8",
       "kind": "cve",
       "cve": "CVE-2026-17319",
@@ -1803,23 +2177,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17319",
       "published": "2026-11-07T05:18:41.320000+00:00"
-    },
-    {
-      "id": "2b5ace6dc2700e3b",
-      "kind": "cve",
-      "cve": "CVE-2026-17318",
-      "title": "CVE-2026-17318",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17318",
-      "published": "2026-11-07T05:18:41.127000+00:00"
     },
     {
       "id": "957dd28ff036afe2",
@@ -1975,23 +2332,6 @@
       "published": "2026-11-07T05:18:37.140000+00:00"
     },
     {
-      "id": "6cdae013d48cc8f3",
-      "kind": "cve",
-      "cve": "CVE-2026-17295",
-      "title": "CVE-2026-17295",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to path traversal.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17295",
-      "published": "2026-11-07T05:18:36.943000+00:00"
-    },
-    {
       "id": "3e556cba65e843df",
       "kind": "cve",
       "cve": "CVE-2026-17294",
@@ -2077,23 +2417,6 @@
       "published": "2026-11-07T05:18:35.867000+00:00"
     },
     {
-      "id": "ba8608e65829beeb",
-      "kind": "cve",
-      "cve": "CVE-2026-17289",
-      "title": "CVE-2026-17289",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17289",
-      "published": "2026-11-07T05:18:35.620000+00:00"
-    },
-    {
       "id": "48b7754b01eb6458",
       "kind": "cve",
       "cve": "CVE-2026-17288",
@@ -2128,23 +2451,6 @@
       "published": "2026-11-07T05:18:35.177000+00:00"
     },
     {
-      "id": "4c117ae361f4f5f5",
-      "kind": "cve",
-      "cve": "CVE-2026-17285",
-      "title": "CVE-2026-17285",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper validation of external references. When schemas are validated, references t…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17285",
-      "published": "2026-11-07T05:18:34.963000+00:00"
-    },
-    {
       "id": "b08f0f057a4df37c",
       "kind": "cve",
       "cve": "CVE-2026-17284",
@@ -2162,57 +2468,6 @@
       "published": "2026-11-07T05:18:34.737000+00:00"
     },
     {
-      "id": "5c7e0b646176c046",
-      "kind": "cve",
-      "cve": "CVE-2026-17283",
-      "title": "CVE-2026-17283",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17283",
-      "published": "2026-11-07T05:18:34.520000+00:00"
-    },
-    {
-      "id": "ba009da2c2364018",
-      "kind": "cve",
-      "cve": "CVE-2026-17282",
-      "title": "CVE-2026-17282",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17282",
-      "published": "2026-11-07T05:18:34.297000+00:00"
-    },
-    {
-      "id": "254fb822f3675fad",
-      "kind": "cve",
-      "cve": "CVE-2026-17281",
-      "title": "CVE-2026-17281",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17281",
-      "published": "2026-11-07T05:18:34.100000+00:00"
-    },
-    {
       "id": "6bfe5cfc44b79f38",
       "kind": "cve",
       "cve": "CVE-2026-17280",
@@ -2228,23 +2483,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17280",
       "published": "2026-11-07T05:18:33.853000+00:00"
-    },
-    {
-      "id": "7379289172b882de",
-      "kind": "cve",
-      "cve": "CVE-2026-17279",
-      "title": "CVE-2026-17279",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to cause a denial of service due to uncontrolled resource consumption. Certain requests can cause internal processing to st…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17279",
-      "published": "2026-11-07T05:18:33.637000+00:00"
     },
     {
       "id": "146324f7ddeccfa4",
@@ -2536,23 +2774,6 @@
       "published": "2026-11-07T05:18:25.647000+00:00"
     },
     {
-      "id": "2356205d2e1dda66",
-      "kind": "cve",
-      "cve": "CVE-2026-17112",
-      "title": "CVE-2026-17112",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information belonging to other tenants due to broken object-level authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17112",
-      "published": "2026-11-07T05:18:25.040000+00:00"
-    },
-    {
       "id": "522f989a5f5ee19c",
       "kind": "cve",
       "cve": "CVE-2026-17108",
@@ -2689,23 +2910,6 @@
       "published": "2026-11-07T05:18:22.243000+00:00"
     },
     {
-      "id": "47029e1ff4863831",
-      "kind": "cve",
-      "cve": "CVE-2026-16854",
-      "title": "CVE-2026-16854",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information belonging to other tenants due to an injection vulnerability. Input used to build a data query is not properly neutralized…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16854",
-      "published": "2026-11-07T05:18:22.067000+00:00"
-    },
-    {
       "id": "4672f053af1c0afc",
       "kind": "cve",
       "cve": "CVE-2026-16720",
@@ -2721,40 +2925,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16720",
       "published": "2026-11-07T05:18:21.883000+00:00"
-    },
-    {
-      "id": "16455031c9464655",
-      "kind": "cve",
-      "cve": "CVE-2026-16718",
-      "title": "CVE-2026-16718",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to improper validation of file paths.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16718",
-      "published": "2026-11-07T05:18:21.523000+00:00"
-    },
-    {
-      "id": "af196fd1ceb2ba0e",
-      "kind": "cve",
-      "cve": "CVE-2026-16717",
-      "title": "CVE-2026-16717",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16717",
-      "published": "2026-11-07T05:18:21.347000+00:00"
     },
     {
       "id": "331eae3ede4521ac",
@@ -2774,23 +2944,6 @@
       "published": "2026-11-07T05:18:20.733000+00:00"
     },
     {
-      "id": "86e51952be6ccbef",
-      "kind": "cve",
-      "cve": "CVE-2026-16715",
-      "title": "CVE-2026-16715",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information from other tenants due to broken object-level authorization.",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16715",
-      "published": "2026-11-07T05:18:20.543000+00:00"
-    },
-    {
       "id": "1703b09c77b32357",
       "kind": "cve",
       "cve": "CVE-2026-16714",
@@ -2806,23 +2959,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16714",
       "published": "2026-11-07T05:18:20.373000+00:00"
-    },
-    {
-      "id": "dd57f94777c0f9fe",
-      "kind": "cve",
-      "cve": "CVE-2026-16712",
-      "title": "CVE-2026-16712",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information from other tenants due to improper authorization. Identifiers supplied in requests are not…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16712",
-      "published": "2026-11-07T05:18:20.210000+00:00"
     },
     {
       "id": "d924cdf5b7be9bf3",
@@ -4115,142 +4251,6 @@
       "product": "",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122306",
       "published": "2026-11-05T03:17:22.680000+00:00"
-    },
-    {
-      "id": "5b2b153f5c7a980b",
-      "kind": "cve",
-      "cve": "CVE-2026-122305",
-      "title": "CVE-2026-122305",
-      "summary": "Kyverno before 1.19.2 contains a denial of service vulnerability in substituteVariablesIfAny that allows low-privileged users to hang the admission webhook via self-referential variable templates. Attackers can create resources whose annota…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122305",
-      "published": "2026-11-05T03:17:22.527000+00:00"
-    },
-    {
-      "id": "79b4579641ea6ae5",
-      "kind": "cve",
-      "cve": "CVE-2026-122304",
-      "title": "CVE-2026-122304",
-      "summary": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace admins to escape namespace confinement because the cleanup controller builds its context loader with a nil policy. Attackers can create a…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122304",
-      "published": "2026-11-05T03:17:22.353000+00:00"
-    },
-    {
-      "id": "9c2818d84f1c25bc",
-      "kind": "cve",
-      "cve": "CVE-2026-122303",
-      "title": "CVE-2026-122303",
-      "summary": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace tenants to overwrite resources in other namespaces via NamespacedMutatingPolicy mutate-existing targetMatchConstraints.expression. Attack…",
-      "severity": "CRITICAL",
-      "score": 9.9,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122303",
-      "published": "2026-11-05T03:17:22.197000+00:00"
-    },
-    {
-      "id": "afbe70234eaa61cd",
-      "kind": "cve",
-      "cve": "CVE-2026-122302",
-      "title": "CVE-2026-122302",
-      "summary": "Kyverno before 1.19.2 contains a privilege escalation vulnerability that allows namespace admins to create resources beyond their RBAC because generate-rule admission checks verify the controller's permissions, not the author's. Attackers c…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122302",
-      "published": "2026-11-05T03:17:22.030000+00:00"
-    },
-    {
-      "id": "6381f04295fdf156",
-      "kind": "cve",
-      "cve": "CVE-2026-54384",
-      "title": "CVE-2026-54384",
-      "summary": "VitaFit cloud API before 2026-10-30 contained an authentication bypass vulnerability that allows remote attackers to obtain a full session for a victim's account by submitting a linked Google or Facebook account identifier to the POST /fron…",
-      "severity": "CRITICAL",
-      "score": 9.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54384",
-      "published": "2026-11-04T23:17:48.523000+00:00"
-    },
-    {
-      "id": "5e1f6742dd16c92f",
-      "kind": "cve",
-      "cve": "CVE-2026-54382",
-      "title": "CVE-2026-54382",
-      "summary": "VitaFit cloud API before 2026-10-30 contained an improper access control vulnerability in its Cognito-issued AWS role that allows authenticated attackers to perform s3:PutObject operations across the entire shared bucket instead of being re…",
-      "severity": "HIGH",
-      "score": 7.7,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54382",
-      "published": "2026-11-04T23:17:48.193000+00:00"
-    },
-    {
-      "id": "d1138fb121a2b4ca",
-      "kind": "cve",
-      "cve": "CVE-2026-54381",
-      "title": "CVE-2026-54381",
-      "summary": "VitaFit cloud API before 2026-10-30 contained a misconfigured cloud storage bucket vulnerability that allows unauthenticated attackers to list and download stored files without authentication. Attackers can enumerate the publicly accessible…",
-      "severity": "HIGH",
-      "score": 7.5,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54381",
-      "published": "2026-11-04T23:17:48.033000+00:00"
-    },
-    {
-      "id": "1d9537ff1509c7a2",
-      "kind": "cve",
-      "cve": "CVE-2026-122299",
-      "title": "CVE-2026-122299",
-      "summary": "Dulwich before 1.2.20 contains a commit object parsing vulnerability where the read path in _parse_commit resolves a duplicate tree header to the last occurrence instead of the first, diverging from core git's resolution behavior, while Poe…",
-      "severity": "HIGH",
-      "score": 8.8,
-      "source": "NVD",
-      "tags": [
-        "NVD"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122299",
-      "published": "2026-11-04T23:17:23.730000+00:00"
     }
   ]
 }
