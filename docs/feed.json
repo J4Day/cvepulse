@@ -1,7 +1,160 @@
 {
-  "generated": "2026-11-14T07:13:30.605482+00:00",
+  "generated": "2026-11-14T14:39:41.994851+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "20c5110a6126c361",
+      "kind": "cve",
+      "cve": "CVE-2026-19907",
+      "title": "CVE-2026-19907",
+      "summary": "The Shipo plugin for WordPress is vulnerable to Authentication Bypass in versions 1.6 through 1.8.0. This is due to the `authenticate_rest_user()` function parsing the `LOGGED_IN_COOKIE` value and authenticating the named user without verif…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19907",
+      "published": "2026-11-14T13:17:23.137000+00:00"
+    },
+    {
+      "id": "431ca5e7c4200dc6",
+      "kind": "cve",
+      "cve": "CVE-2026-18053",
+      "title": "CVE-2026-18053",
+      "summary": "The MemberDash plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.8.7. This is due to a mass-assignment vulnerability in the `user_account_manager()` function's edit_profile branch, where all…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18053",
+      "published": "2026-11-14T13:17:22.990000+00:00"
+    },
+    {
+      "id": "1f1d7d7bd98d97db",
+      "kind": "cve",
+      "cve": "CVE-2026-129433",
+      "title": "CVE-2026-129433",
+      "summary": "Dokploy before 0.31.1 contains an OS command injection vulnerability in getComposeContainerCommand() that allows authenticated organization members to execute shell commands via the serviceName parameter. Attackers can store serviceName val…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129433",
+      "published": "2026-11-14T13:17:22.820000+00:00"
+    },
+    {
+      "id": "29eeb8ab297d8e2a",
+      "kind": "cve",
+      "cve": "CVE-2026-129429",
+      "title": "CVE-2026-129429",
+      "summary": "Frappe india-payroll before 16.0.4 contains a missing authorization vulnerability in the get_employee_details, compute_tax_comparison and set_tax_regime methods of tax_regime_selector.py that allows authenticated low-privileged users to acc…",
+      "severity": "HIGH",
+      "score": 7.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129429",
+      "published": "2026-11-14T13:17:22.243000+00:00"
+    },
+    {
+      "id": "f3089f530d48b1c0",
+      "kind": "cve",
+      "cve": "CVE-2026-129255",
+      "title": "CVE-2026-129255",
+      "summary": "A vulnerability was identified in CoolerMaster MASTERPLUS+ 1.9.6. This affects the function sub_11504 in the library WinRing0x64.sys of the component Device Driver. The manipulation of the argument PhysicalAddress leads to incorrect default…",
+      "severity": "HIGH",
+      "score": 8.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129255",
+      "published": "2026-11-14T13:17:21.910000+00:00"
+    },
+    {
+      "id": "e675d74ece0b26e8",
+      "kind": "cve",
+      "cve": "CVE-2026-120522",
+      "title": "CVE-2026-120522",
+      "summary": "The Cloud Storage Manager for Fluent Forms – Google Drive, Dropbox, OneDrive, S3 Uploads plugin for WordPress is vulnerable to Arbitrary File Write in all versions up to, and including, 1.2.0. This is due to missing authorization checks on…",
+      "severity": "CRITICAL",
+      "score": 9.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120522",
+      "published": "2026-11-14T13:17:20.403000+00:00"
+    },
+    {
+      "id": "b58e8e6c37edfa61",
+      "kind": "research",
+      "cve": null,
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, foll…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "published": "2026-11-14T12:38:35+00:00"
+    },
+    {
+      "id": "4fd3b5ebbf5eb825",
+      "kind": "cve",
+      "cve": "CVE-2026-129250",
+      "title": "CVE-2026-129250",
+      "summary": "A security vulnerability has been detected in Edimax BR6478ACV2 1.23. The impacted element is the function formPPTPSetup of the file webs. The manipulation of the argument pptpUserName leads to buffer overflow. It is possible to initiate th…",
+      "severity": "CRITICAL",
+      "score": 9.9,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129250",
+      "published": "2026-11-14T12:17:44.240000+00:00"
+    },
+    {
+      "id": "717889d5712d421d",
+      "kind": "cve",
+      "cve": "CVE-2026-129181",
+      "title": "CVE-2026-129181",
+      "summary": "A vulnerability has been found in projectworlds Visitor Management System 1.0. This issue affects the function mysqli_query of the file /img/user%20page.php of the component Login Endpoint. Such manipulation of the argument Username leads t…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129181",
+      "published": "2026-11-14T08:17:18.090000+00:00"
+    },
     {
       "id": "c3134bf2aea64c6d",
       "kind": "cve",
@@ -3335,23 +3488,6 @@
       "published": "2026-11-10T17:43:23+00:00"
     },
     {
-      "id": "0eb55bf1598eb50a",
-      "kind": "research",
-      "cve": null,
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-      "published": "2026-11-10T16:00:55+00:00"
-    },
-    {
       "id": "16c64913506b4d36",
       "kind": "research",
       "cve": null,
@@ -4115,142 +4251,6 @@
       "product": "PHP",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
       "published": "2026-10-26T00:00:00+00:00"
-    },
-    {
-      "id": "ffb49bed17e62c7f",
-      "kind": "research",
-      "cve": "CVE-2026-93680",
-      "title": "Metasploit Wrap Up: Langflow, MongoDB, and More",
-      "summary": "This release adds multiple new modules, and 6 of those modules point at a single target: Langflow , the open-source LLM workflow builder. Together they cover an authentication bypass (CVE-2026-93680), 3 unauthenticated remote code execution…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
-      "published": "2026-10-23T15:38:56+00:00"
-    },
-    {
-      "id": "9b5e116fa8f73c33",
-      "kind": "cve",
-      "cve": "CVE-2026-114625",
-      "title": "Arista VeloCloud Orchestrator SQL Injection Vulnerability",
-      "summary": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, i…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Arista",
-      "product": "VeloCloud Orchestrator",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625",
-      "published": "2026-10-23T00:00:00+00:00"
-    },
-    {
-      "id": "aa64d33a88a2b428",
-      "kind": "cve",
-      "cve": "CVE-2026-110447",
-      "title": "Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
-      "summary": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Collabora",
-      "product": "Collabora Online – Built-in CODE Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447",
-      "published": "2026-10-23T00:00:00+00:00"
-    },
-    {
-      "id": "24755a352d3db087",
-      "kind": "research",
-      "cve": null,
-      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-      "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected…",
-      "severity": "",
-      "score": null,
-      "source": "Krebs on Security",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-      "published": "2026-10-21T15:26:07+00:00"
-    },
-    {
-      "id": "a3acbf2f24904735",
-      "kind": "research",
-      "cve": "CVE-2026-109618",
-      "title": "CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP",
-      "summary": "Overview On October 21, 2026, the PHP project announced security releases for two critical vulnerabilities in PHP. CVE-2026-109618 can corrupt memory during out-of-memory (OOM) handling, while CVE-2026-109619 is a use-after-free flaw involv…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php",
-      "published": "2026-10-21T15:22:52+00:00"
-    },
-    {
-      "id": "9f5f211eabb4d317",
-      "kind": "research",
-      "cve": null,
-      "title": "Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days",
-      "summary": "Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the…",
-      "severity": "",
-      "score": null,
-      "source": "Rapid7",
-      "tags": [
-        "RESEARCH"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days",
-      "published": "2026-10-21T13:00:00+00:00"
-    },
-    {
-      "id": "788e69ce2cd1e132",
-      "kind": "cve",
-      "cve": "CVE-2026-106931",
-      "title": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-      "summary": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "EG Secure Solutions",
-      "product": "SiteGuard Server Edition",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
-      "published": "2026-10-20T00:00:00+00:00"
-    },
-    {
-      "id": "fe3bc2ebd4537784",
-      "kind": "cve",
-      "cve": "CVE-2026-96656",
-      "title": "Plex Media Server External Control of File Name or Path Vulnerability",
-      "summary": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, an…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Plex",
-      "product": "Media Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
-      "published": "2026-10-20T00:00:00+00:00"
     }
   ]
 }
