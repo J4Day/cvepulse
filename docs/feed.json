@@ -1,7 +1,24 @@
 {
-  "generated": "2026-11-22T09:05:21.574248+00:00",
+  "generated": "2026-11-22T17:30:18.819594+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "1f041c6d8e78572e",
+      "kind": "cve",
+      "cve": "CVE-2026-134753",
+      "title": "CVE-2026-134753",
+      "summary": "dsniff through 2.5a2 contains an integer underflow in decode_sniffer() in decode_sniffer.c that allows unauthenticated remote attackers to write past the global obuf buffer. Attackers can send a UDP datagram to port 2001 on a monitored segm…",
+      "severity": "HIGH",
+      "score": 7.0,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134753",
+      "published": "2026-11-22T15:17:13.483000+00:00"
+    },
     {
       "id": "c58079ba857401e2",
       "kind": "cve",
@@ -4233,23 +4250,6 @@
       "vendor": "Plex",
       "product": "Media Server",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
-      "published": "2026-10-20T00:00:00+00:00"
-    },
-    {
-      "id": "37874754dcf98f33",
-      "kind": "cve",
-      "cve": "CVE-2026-96655",
-      "title": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerabili…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Plex",
-      "product": "Media Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
       "published": "2026-10-20T00:00:00+00:00"
     }
   ]
