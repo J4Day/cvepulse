@@ -1,7 +1,126 @@
 {
-  "generated": "2026-11-22T01:48:45.287113+00:00",
+  "generated": "2026-11-22T09:05:21.574248+00:00",
   "count": 250,
   "items": [
+    {
+      "id": "c58079ba857401e2",
+      "kind": "cve",
+      "cve": "CVE-2026-134623",
+      "title": "CVE-2026-134623",
+      "summary": "A flaw has been found in Microweber up to 2.0.20. This impacts the function UserManager::make_logged of the file src/MicroweberPackages/App/Http/Controllers/ApiController.php of the component Generic API Dispatcher. This manipulation causes…",
+      "severity": "HIGH",
+      "score": 7.3,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134623",
+      "published": "2026-11-22T05:18:43.323000+00:00"
+    },
+    {
+      "id": "78074d39dfa2deb1",
+      "kind": "research",
+      "cve": null,
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero D…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "published": "2026-11-22T05:06:55+00:00"
+    },
+    {
+      "id": "0be8ff22df4a77bf",
+      "kind": "research",
+      "cve": null,
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScri…",
+      "severity": "",
+      "score": null,
+      "source": "The Hacker News",
+      "tags": [
+        "NEWS"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "published": "2026-11-22T05:03:41+00:00"
+    },
+    {
+      "id": "8052fd6d537154fa",
+      "kind": "cve",
+      "cve": "CVE-2026-134704",
+      "title": "CVE-2026-134704",
+      "summary": "OpenShot Video Editor (openshot-qt) through 4.1.1 contains an unsafe deserialization vulnerability in ProjectDataStore.load() and read_legacy_project_file() that passes non-JSON project files to pickle.load() without restriction. Attackers…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134704",
+      "published": "2026-11-22T02:17:09.620000+00:00"
+    },
+    {
+      "id": "4acabb0930d4dce7",
+      "kind": "cve",
+      "cve": "CVE-2026-134694",
+      "title": "CVE-2026-134694",
+      "summary": "Gammapy through 2.1 contains a code injection vulnerability in WcsGeom.from_header() that passes the WCSSHAPE FITS header card to eval(). Attackers can supply a crafted .fits file with a Python expression in WCSSHAPE, executing code as the…",
+      "severity": "HIGH",
+      "score": 7.8,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134694",
+      "published": "2026-11-22T02:17:07.790000+00:00"
+    },
+    {
+      "id": "091727d65ecf715f",
+      "kind": "cve",
+      "cve": "CVE-2026-134679",
+      "title": "CVE-2026-134679",
+      "summary": "WeddingShare through 1.8.2 contains a missing authorization vulnerability in the anonymous MediaViewerController.GalleryItem action that allows unauthenticated attackers to retrieve item upload paths without the gallery secret key. Attacker…",
+      "severity": "HIGH",
+      "score": 7.5,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134679",
+      "published": "2026-11-22T02:17:05.103000+00:00"
+    },
+    {
+      "id": "c301a1df80a858c2",
+      "kind": "cve",
+      "cve": "CVE-2026-134654",
+      "title": "CVE-2026-134654",
+      "summary": "Mailflare before 48957fb contains a host header injection vulnerability in the password-reset request handler that allows unauthenticated attackers to poison reset links when APP_URL is unset. Attackers can submit a reset request for a vict…",
+      "severity": "HIGH",
+      "score": 8.1,
+      "source": "NVD",
+      "tags": [
+        "NVD"
+      ],
+      "vendor": "",
+      "product": "",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134654",
+      "published": "2026-11-22T02:17:00.790000+00:00"
+    },
     {
       "id": "23f1f951b8fedf7a",
       "kind": "cve",
@@ -3097,40 +3216,6 @@
       "published": "2026-11-17T18:26:55+00:00"
     },
     {
-      "id": "7a7b2eaa4aa991d0",
-      "kind": "research",
-      "cve": "CVE-2026-114938",
-      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code e…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-      "published": "2026-11-17T15:17:36+00:00"
-    },
-    {
-      "id": "033b7c10af0dad75",
-      "kind": "research",
-      "cve": null,
-      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-      "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 br…",
-      "severity": "",
-      "score": null,
-      "source": "The Hacker News",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-      "published": "2026-11-17T15:17:28+00:00"
-    },
-    {
       "id": "ada4eb2a4b5215fa",
       "kind": "research",
       "cve": null,
@@ -4166,91 +4251,6 @@
       "product": "Media Server",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
       "published": "2026-10-20T00:00:00+00:00"
-    },
-    {
-      "id": "ab7b39d4b42730a5",
-      "kind": "cve",
-      "cve": "CVE-2026-96654",
-      "title": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
-      "summary": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters. This vulnerability can be chained with C…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Plex",
-      "product": "Media Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
-      "published": "2026-10-20T00:00:00+00:00"
-    },
-    {
-      "id": "1ed35cccab06cc73",
-      "kind": "cve",
-      "cve": "CVE-2026-96652",
-      "title": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's c…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Plex",
-      "product": "Media Server",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
-      "published": "2026-10-20T00:00:00+00:00"
-    },
-    {
-      "id": "ec8c9a8a1c05abbd",
-      "kind": "cve",
-      "cve": "CVE-2026-110936",
-      "title": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
-      "summary": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code exe…",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "Siemens",
-      "product": "Software Center",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
-      "published": "2026-10-20T00:00:00+00:00"
-    },
-    {
-      "id": "5f2037864b2f69b1",
-      "kind": "research",
-      "cve": null,
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with…",
-      "severity": "",
-      "score": null,
-      "source": "Krebs on Security",
-      "tags": [
-        "NEWS"
-      ],
-      "vendor": "",
-      "product": "",
-      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "published": "2026-10-19T13:48:56+00:00"
-    },
-    {
-      "id": "d3cce1355612f7b1",
-      "kind": "cve",
-      "cve": "CVE-2026-102764",
-      "title": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
-      "summary": "BeyondTrust Remote Support contains an authentication bypass by spoofing vulnerability that could allow a remote attacker to perform file operations on the appliance.",
-      "severity": "CRITICAL",
-      "score": null,
-      "source": "CISA KEV",
-      "tags": [
-        "KEV"
-      ],
-      "vendor": "BeyondTrust",
-      "product": "Remote Support",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
-      "published": "2026-10-16T00:00:00+00:00"
     }
   ]
 }
